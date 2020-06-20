@@ -11,9 +11,7 @@ We interact with Github
 
 We use github to host the lists, to track false positives and feature requests, as well as accept pull requests.
 
-We Use Github Flow, So All List Changes Happen Through Pull Requests
-
-Pull requests are the best way to propose changes to the lists (we use Github Flow). We actively welcome your pull requests:
+Issues are the best way to propose changes to the lists (we use Github Flow). We actively welcome your pull requests:
 
 Fork the repo and create your branch from master.
 Issue that pull request!
