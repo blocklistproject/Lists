@@ -6,7 +6,7 @@
 # Homepage: https://blocklist.site
 # Help: https://github.com/blocklistproject/list/wiki/
 # License: https://unlicense.org
-# Total number of network filters: 181664
+# Total number of network filters: 1903
 #------------------------------------[SUPPORT]-------------------------------------
 # You can support by:
 #  - reporting false positives
