@@ -36,7 +36,7 @@ We are currently working on verifying compatibility with other tools. Please sta
 
 # License:
 
-For more details, see the [LICENSES](LICENSES) file.
+For more details, see the [LICENSES](https://github.com/blocklistproject/Lists/blob/master/LICENSE) file.
 
 &nbsp;
 
