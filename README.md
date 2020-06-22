@@ -35,7 +35,6 @@ We are currently working on verifying compatibility with other tools. Please sta
 
 
 # License:
-Each converted / modified list file is licensed under the same license as the original list.
 
 For more details, see the [LICENSES](LICENSES) file.
 
