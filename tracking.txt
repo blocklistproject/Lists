@@ -372,7 +372,7 @@
 0.0.0.0	counter.m-s.de
 0.0.0.0	counter.rambler.ru
 0.0.0.0	counters4u.com
-0.0.0.0	counters.gigya.com
+#0.0.0.0	counters.gigya.com removed per issue 7
 0.0.0.0	counter.webmart.de
 0.0.0.0	counter.yadro.ru
 0.0.0.0	counting.kmindex.ru
@@ -520,7 +520,7 @@
 0.0.0.0	getitjpi.info
 0.0.0.0	getproxy5.info
 0.0.0.0	ggo.directrev.com
-0.0.0.0	gigya.com
+#0.0.0.0	gigya.com removed per issue 7
 0.0.0.0	glclk.about.com
 0.0.0.0	gm-link.com
 0.0.0.0	gnspf.com
