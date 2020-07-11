@@ -2011,7 +2011,7 @@
 0.0.0.0	buysellads.net 
 0.0.0.0	buysub.com
 0.0.0.0	buzzybar.com 
-0.0.0.0	byside.com 
+#0.0.0.0	byside.com issue #10
 0.0.0.0	bz.io
 0.0.0.0	c-ctrip.com
 0.0.0.0	c.afekv.com 
