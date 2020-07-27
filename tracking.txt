@@ -3127,7 +3127,7 @@
 0.0.0.0	invoc.us
 0.0.0.0	ip-info.ff.avast.com 
 0.0.0.0	ipccdn.co.uk
-0.0.0.0	ipinfo.io 
+#0.0.0.0	ipinfo.io Removed per issue #21
 0.0.0.0	ipredictive.com 
 0.0.0.0	ipromote.com
 0.0.0.0	isboost.co.jp 
