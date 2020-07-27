@@ -13,7 +13,7 @@
 #  - making a donation: https://paypal.me/blocklistproject
 #-------------------------------------[INFO]---------------------------------------
 # 
-# Redirect list
+# Ransomware list
 #
 #------------------------------------[FILTERS]-------------------------------------
 
