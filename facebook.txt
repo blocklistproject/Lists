@@ -1,5 +1,4 @@
 
-
 #------------------------------------[UPDATE]--------------------------------------
 # Title: The Block List Project
 # Expires: 1 day
@@ -16,8 +15,6 @@
 # Facebook list
 #
 #------------------------------------[FILTERS]-------------------------------------
-
-
 0.0.0.0 0-edge-chat.facebook.com
 0.0.0.0 0.beta.facebook.com
 0.0.0.0 0.facebook.com
