@@ -1,5 +1,4 @@
 
-
 #------------------------------------[UPDATE]--------------------------------------
 # Title: The Block List Project
 # Expires: 1 day
@@ -16,7 +15,6 @@
 # Scam list
 #
 #------------------------------------[FILTERS]-------------------------------------
-
 0.0.0.0	123tradeoption.com
 0.0.0.0	abxmarketoption.com
 0.0.0.0	activetraders.club
