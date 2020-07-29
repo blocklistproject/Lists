@@ -5,7 +5,7 @@
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/) [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)[Become a Patron](https://www.patreon.com/bePatron?u=8892646)
 
 &nbsp;
-**Last Updated:** 2020-07-29 
+**Last Updated:** 2020-07-29
 
 - [Details](#details)
 - [Usage](#usage)
@@ -17,7 +17,7 @@
 &nbsp;
 
 # Details:
-These lists were created be the founder of the project wanted something with a little more control over what is being blocked. Many lists are all or nothing. We set out to create lists with more control over what is being blocked.
+These lists were created because the founder of the project wanted something with a little more control over what is being blocked. Many lists are all or nothing. We set out to create lists with more control over what is being blocked.
 
 
 &nbsp;
@@ -32,7 +32,7 @@ These converted files can be used with various DNS and domain-blocking tools:
 3. Update Gravity (**Tools** > **Update Gravity** > **Click "Update"** )
 
 
-<sup>Instructions current as of Pi-Hole 5.0
+<sup>Instructions current as of Pi-Hole 5.1
 *Not supported by or affiliated with Pi-Hole.</sup>
 
 ## Using with other tools:
