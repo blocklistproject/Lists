@@ -14,7 +14,6 @@
   - [Using with Pi-Hole](#using-with-pi-hole)
   - [Using with other tools](#using-with-other-tools)
 - [License](#license)
-- [Reporting Conversion Issues](#reporting-conversion-issues)
 
 &nbsp;
 
