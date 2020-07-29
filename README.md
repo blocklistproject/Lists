@@ -5,7 +5,7 @@
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/) [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)[Become a Patron](https://www.patreon.com/bePatron?u=8892646)
 
 &nbsp;
-**Last Updated:** 2020-06-22 
+**Last Updated:** 2020-07-29 
 
 - [Details](#details)
 - [Usage](#usage)
@@ -17,7 +17,7 @@
 &nbsp;
 
 # Details:
-These lists were created be the founder of the project wanted something with a little more control over what is being blocked. Many lists are all or nothing. We set out to create lists with more control over what is being blocked. 
+These lists were created be the founder of the project wanted something with a little more control over what is being blocked. Many lists are all or nothing. We set out to create lists with more control over what is being blocked.
 
 
 &nbsp;
@@ -33,10 +33,10 @@ These converted files can be used with various DNS and domain-blocking tools:
 
 
 <sup>Instructions current as of Pi-Hole 5.0
-*Not supported by or affiliated with Pi-Hole.</sup> 
+*Not supported by or affiliated with Pi-Hole.</sup>
 
 ## Using with other tools:
-We are currently working on verifying compatibility with other tools. Please stand by. If you have a suggestion on a tool we should support please comment on our [Reddit](https://www.reddit.com/r/blocklistproject/) page. 
+We are currently working on verifying compatibility with other tools. Please stand by. If you have a suggestion on a tool we should support please comment on our [Reddit](https://www.reddit.com/r/blocklistproject/) page.
 
 
 # License:
