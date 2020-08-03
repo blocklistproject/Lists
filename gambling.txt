@@ -3,7 +3,7 @@
 # Title: The Block List Project
 # Expires: 1 day
 # Homepage: https://blocklist.site
-# Help: https://github.com/blocklistproject/list/wiki/
+# Help: https://github.com/blocklistproject/lists/wiki/
 # License: https://unlicense.org
 # Total number of network filters: 59784
 #------------------------------------[SUPPORT]-------------------------------------
@@ -11,7 +11,7 @@
 #  - reporting false positives
 #  - making a donation: https://paypal.me/blocklistproject
 #-------------------------------------[INFO]---------------------------------------
-# 
+#
 # Phishing list
 #
 #------------------------------------[FILTERS]-------------------------------------
@@ -22084,12 +22084,12 @@
 #     /____/\_,_/\_,_/\_,_/   /____/\___/\_, //__/   /_//_/\___/___/\__/___/     #
 #                                       /___/                                    #
 # You are free to copy and distribute this file for non-commercial uses,
-# as long the original URL and attribution is included. 
+# as long the original URL and attribution is included.
 # Please forward any additions, corrections or comments by logging an issue at
 # https://github.com/mitchellkrogza/Badd-Boyz-Hosts/issues
 # This list of hosts is compiled from server logs on my own servers
 # and forms the basis of the bad referrers domain lists for
-# The Nginx Ultimate Bad Bot Blocker at: 
+# The Nginx Ultimate Bad Bot Blocker at:
 # https://github.com/mitchellkrogza/nginx-ultimate-bad-bot-blocker
 # and the Apache Ultimate Bad Bot Blocker at:
 # https://github.com/mitchellkrogza/apache-ultimate-bad-bot-blocker
@@ -22098,9 +22098,9 @@
 ### Version: V1.2020.06.8368
 ##### Version Information ##
 # Use this file to prevent your computer or server from connecting to selected
-# internet hosts. This is an easy and effective way to protect you from 
-# many types of spyware, adware, malware, click-jacking and porn sites and reduces 
-# bandwidth use. 
+# internet hosts. This is an easy and effective way to protect you from
+# many types of spyware, adware, malware, click-jacking and porn sites and reduces
+# bandwidth use.
 # The file should be named "hosts" NOT "hosts.txt"
 # For Linux based Operating systems place this file at "/etc/hosts"
 # For Windows based systems this is placed either at
@@ -43605,15 +43605,15 @@
 # hosts@someonewhocares.org
 # Last updated: Mon, 08 Jun 2020 at 23:48:33 GMT
 # Use this file to prevent your computer from connecting to selected
-# many types of spyware, reduces bandwidth use, blocks certain pop-up 
+# many types of spyware, reduces bandwidth use, blocks certain pop-up
 # traps, prevents user tracking by way of "web bugs" embedded in spam,
 # provides partial protection to IE from certain web-based exploits and
-# blocks most advertising you would otherwise be subjected to on the 
-# internet. 
-# There is a version of this file that uses 127.0.0.1 instead of 0.0.0.0 
+# blocks most advertising you would otherwise be subjected to on the
+# internet.
+# There is a version of this file that uses 127.0.0.1 instead of 0.0.0.0
 # available at http://someonewhocares.org/hosts/.
 # On some machines this may run minutely faster, however the zero version
-# may not be compatible with all systems. 
+# may not be compatible with all systems.
 # This file must be saved as a text file with no extension. (This means
 # that the file name should be exactly as below, without a ".txt" appended.)
 # Let me repeat, the file should be named "hosts" NOT "hosts.txt".
@@ -43636,7 +43636,7 @@
 # On a Netware system, the location is System\etc\hosts"
 # For Macintosh (pre OS X) place it in the Mac System Folder or Preferences
 #    folder and reboot. (something like HD:System Folder:Preferences:Hosts)
-#    Alternatively you can save it elsewhere on your machine, then go to the 
+#    Alternatively you can save it elsewhere on your machine, then go to the
 #    TCP/IP control panel and click on "Select hosts file" to read it in.
 #    ------------------
 #    | As well, note that the format is different on old macs, so
@@ -43848,12 +43848,12 @@
 # It is perhaps a better solution to use Favourites/Bookmarks instead.
 #216.34.181.45   s        # slashdot.org
 #74.125.127.105	g        # google.com
-# The sites ads234.com and ads345.com -- These sites hijack internet explorer 
-# and redirect all requests through their servers. You may need to use spyware 
-# removal programs such as SpyBotS&D, AdAware or HijackThis to remove this 
-# nasty parasite. It's possible that blocking these sites using a hosts file 
+# The sites ads234.com and ads345.com -- These sites hijack internet explorer
+# and redirect all requests through their servers. You may need to use spyware
+# removal programs such as SpyBotS&D, AdAware or HijackThis to remove this
+# nasty parasite. It's possible that blocking these sites using a hosts file
 # may not work, in which case you should remove the following lines from this
-# file and try the tools listed above immediately. Don't forget to reboot 
+# file and try the tools listed above immediately. Don't forget to reboot
 # after a scan.
 0.0.0.0 ads234.com
 0.0.0.0 ads345.com
@@ -43863,30 +43863,30 @@
 # By entering domains here, it will prevent certain companies from
 # gathering information on your surfing habits. These servers do not
 # necessarily serve ads, instead some are used by certain products to
-# "phone home". Others use web cookies to gather statistics on surfing 
-# habits. Among other uses, this is a common tactic by spammers, to 
-# let them know that you have read your mail. 
+# "phone home". Others use web cookies to gather statistics on surfing
+# habits. Among other uses, this is a common tactic by spammers, to
+# let them know that you have read your mail.
 # Uncomment (remove the #) the lines that you wish to block, as some
 # may provide you with services you like.
 #0.0.0.0 auto.search.msn.com  # Microsoft uses this server to redirect
                                 # mistyped URLs to search engines. They
                                 # log all such errors.
-#0.0.0.0 sitefinder.verisign.com	# Verisign has joined the game 
+#0.0.0.0 sitefinder.verisign.com	# Verisign has joined the game
 #0.0.0.0 sitefinder-idn.verisign.com	# of trying to hijack mistyped
-					# URLs to their site. 
+					# URLs to their site.
 					# May break iOS Game Center.
-#0.0.0.0 s0.2mdn.net		# This may interfere with some streaming 
+#0.0.0.0 s0.2mdn.net		# This may interfere with some streaming
 				# video on sites such as cbc.ca
 #0.0.0.0 ad.doubleclick.net   # This may interefere with www.sears.com
-				# and potentially other sites. 
+				# and potentially other sites.
 0.0.0.0 media.fastclick.net  # Likewise, this may interfere with some
 #0.0.0.0 ebay.doubleclick.net		# may interfere with ebay
 #0.0.0.0 google-analytics.com			# breaks some sites
 #0.0.0.0 ssl.google-analytics.com
 #0.0.0.0 www.google-analytics.l.google.com
-#0.0.0.0 stat.livejournal.com		# There are reports that this may mess 
+#0.0.0.0 stat.livejournal.com		# There are reports that this may mess
  					# up CSS on livejournal
-#0.0.0.0 stats.surfaid.ihost.com	# This has been known cause 
+#0.0.0.0 stats.surfaid.ihost.com	# This has been known cause
 					# problems with NPR.org
 #0.0.0.0 www.google-analytics.com		# breaks some sites
 #0.0.0.0 ads.imeem.com		# Seems to interfere with the functioning of imeem.com
@@ -43928,7 +43928,7 @@
 0.0.0.0 adelogs.adobe.com  #See http://www.theregister.co.uk/2014/10/07/adobe_digital_editions_4_caught_snooping_into_ebook_collections_of_users/
 0.0.0.0 ademails.com
 0.0.0.0 adlog.com.com  # Used by Ziff Davis to serve
-  # ads and track users across 
+  # ads and track users across
   # the com.com family of sites
 0.0.0.0 admanmail.com
 0.0.0.0 admin.iesnare.co.uk
@@ -55376,7 +55376,7 @@
 0.0.0.0 www.xxxnightly.com
 0.0.0.0 www.xxxtoolbar.com
 0.0.0.0 www.yourfuckbook.com
-# malicious e-card -- these sites send out mass quantities of spam 
+# malicious e-card -- these sites send out mass quantities of spam
 	# and some distribute adware and spyware
 0.0.0.0 123greetings.com  # contains one link to distributor of adware or spyware
 0.0.0.0 2000greetings.com
@@ -55411,7 +55411,7 @@
 0.0.0.0 onvis.ivwbox.de
 0.0.0.0 spiegel.ivwbox.de
 0.0.0.0 www.ivwbox.de
-# message board and wiki spam -- these sites are linked in 
+# message board and wiki spam -- these sites are linked in
 	# message board spam and are unlikely to be real sites
 0.0.0.0 10pg.scl5fyd.info
 0.0.0.0 21jewelry.com
@@ -56220,7 +56220,7 @@
 0.0.0.0 zyrtec.1.p2l.info
 0.0.0.0 zyrtec.3.p2l.info
 0.0.0.0 zyrtec.4.p2l.info
-# Windows 10 reporting domains. 
+# Windows 10 reporting domains.
 0.0.0.0 adnexus.net
 0.0.0.0 c.msn.com
 0.0.0.0 cdn.atdmt.com
@@ -56242,31 +56242,31 @@
 # Acknowledgements
 # I'd like to thank the following people for submitting sites, and
 # helping promote the site.
-# Bill Allison, Harj Basi, Lance Russhing, Marshall Drew-Brook, 
+# Bill Allison, Harj Basi, Lance Russhing, Marshall Drew-Brook,
 #  Leigh Brasington, Scott Terbush, Cary Newfeldt, Kaye, Jeff
 #  Scrivener, Mark Hudson, Matt Bells, T. Kim Nguyen, Lino Demasi,
 #  Marcelo Volmaro, Troy Martin, Donald Kerns, B.Patten-Walsh,
 #  bobeangi, Chris Maniscalco, George Gilbert, Kim Nilsson, zeromus,
-#  Robert Petty, Rob Morrison, Clive Smith, Cecilia Varni, OleKing 
+#  Robert Petty, Rob Morrison, Clive Smith, Cecilia Varni, OleKing
 #  Cole, William Jones, Brian Small, Raj Tailor, Richard Heritage,
-#  Alan Harrison, Ordorica, Crimson, Joseph Cianci, sirapacz, 
-#  Dvixen, Matthew Craig, Tobias Hessem, Kevin F. Quinn, Thomas 
-#  Corthals, Chris McBee, Jaime A. Guerra, Anders Josefson, 
+#  Alan Harrison, Ordorica, Crimson, Joseph Cianci, sirapacz,
+#  Dvixen, Matthew Craig, Tobias Hessem, Kevin F. Quinn, Thomas
+#  Corthals, Chris McBee, Jaime A. Guerra, Anders Josefson,
 #  Simon Manderson, Spectre Ghost, Darren Tay, Dallas Eschenauer, Cecilia
-#  Varni, Adam P. Cole, George Lefkaditis, grzesiek, Adam Howard, Mike 
-#  Bizon, Samuel P. Mallare, Leinweber, Walter Novak, Stephen Genus, 
+#  Varni, Adam P. Cole, George Lefkaditis, grzesiek, Adam Howard, Mike
+#  Bizon, Samuel P. Mallare, Leinweber, Walter Novak, Stephen Genus,
 #  Zube, Johny Provoost, Peter Grafton, Johann Burkard, Magus, Ron Karner,
-#  Fredrik Dahlman, Michele Cybula, Bernard Conlu, Riku B, Twillers, 
+#  Fredrik Dahlman, Michele Cybula, Bernard Conlu, Riku B, Twillers,
 #  Shaika-Dzari, Vartkes Goetcherian, Michael McCown, Garth, Richard Nairn,
 #  Exzar Reed, Robert Gauthier, Floyd Wilder, Mark Drissel, Kenny Lyons,
 #  Paul Dunne, Tirath Pannu, Mike Lambert, Dan Kolcun, Daniel Aleksandersen,
-#  Chris Heegard, Miles Golding, Daniel Bisca, Frederic Begou, Charles 
-#  Fordyce, Mark Lehrer, Sebastien Nadeau-Jean, Russell Gordon, Alexey 
+#  Chris Heegard, Miles Golding, Daniel Bisca, Frederic Begou, Charles
+#  Fordyce, Mark Lehrer, Sebastien Nadeau-Jean, Russell Gordon, Alexey
 #  Gopachenko, Stirling Pearson, Alan Segal, Bobin Joseph, Chris Wall, Sean
 #  Flesch, Brent Getz, Jerry Cain, Brian Micek, Lee Hancock, Kay Thiele,
-#  Kwan Ting Chan, Wladimir Labeikovsky, Lino Demasi, Bowie Bailey, Andreas 
+#  Kwan Ting Chan, Wladimir Labeikovsky, Lino Demasi, Bowie Bailey, Andreas
 #  Marschall, Michael Tompkins, Michael O'Donnell, José Lucas Teixeira
-#  de Oliveira, M. Ömer Gölgeli, and Anthony Gelibert for helping to build 
+#  de Oliveira, M. Ömer Gölgeli, and Anthony Gelibert for helping to build
 #  the hosts file.
 # Russell O'Connor for OS/2 information
 # kwadronaut for Windows 7 and Vista information

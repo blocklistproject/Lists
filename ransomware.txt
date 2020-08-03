@@ -4,7 +4,7 @@
 # Title: The Block List Project
 # Expires: 1 day
 # Homepage: https://blocklist.site
-# Help: https://github.com/blocklistproject/list/wiki/
+# Help: https://github.com/blocklistprojects/list/wiki/
 # License: https://unlicense.org
 # Total number of network filters: 1903
 #------------------------------------[SUPPORT]-------------------------------------
@@ -12,7 +12,7 @@
 #  - reporting false positives
 #  - making a donation: https://paypal.me/blocklistproject
 #-------------------------------------[INFO]---------------------------------------
-# 
+#
 # Ransomware list
 #
 #------------------------------------[FILTERS]-------------------------------------
