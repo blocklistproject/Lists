@@ -2761,7 +2761,7 @@
 0.0.0.0	focuusing.com
 0.0.0.0	fogzyads.com
 0.0.0.0	followistic.com
-0.0.0.0	footprint.net
+# 0.0.0.0	footprint.net Resolved issue #29
 0.0.0.0	footprintdns.com
 0.0.0.0	footprintpredict.com
 0.0.0.0	forensiq.com
