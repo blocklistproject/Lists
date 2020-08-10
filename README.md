@@ -61,27 +61,6 @@ These converted files can be used with various DNS and domain-blocking tools:
 ## Using with other tools:
 We are currently working on verifying compatibility with other tools. Please stand by. If you have a suggestion on a tool we should support please comment on our [Reddit](https://www.reddit.com/r/blocklistproject/) page.
 
-
-# License:
-
-For more details, see the [LICENSES](https://github.com/blocklistproject/Lists/blob/master/LICENSE) file.
-
-&nbsp;
-
-
-<sup>These files are provided "AS IS", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement. In no event shall the authors or copyright holders be liable for any claim, damages or other liability, arising from, out of or in connection with the files or the use of the files.</sup>
-
-<sub>Any and all trademarks are the property of their respective owners.</sub>
-
-
-
-<sup>Instructions current as of Pi-Hole 5.1
-*Not supported by or affiliated with Pi-Hole.</sup>
-
-## Using with other tools:
-We are currently working on verifying compatibility with other tools. Please stand by. If you have a suggestion on a tool we should support please comment on our [Reddit](https://www.reddit.com/r/blocklistproject/) page.
-
-
 # License:
 
 For more details, see the [LICENSES](https://github.com/blocklistproject/Lists/blob/master/LICENSE) file.
