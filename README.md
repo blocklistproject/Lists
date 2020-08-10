@@ -42,50 +42,6 @@ These converted files can be used with various DNS and domain-blocking tools:
 | Facebook| [Raw](https://raw.githubusercontent.com/blocklistproject/Lists/master/facebook.txt) |
 | Fraud| [Raw](https://raw.githubusercontent.com/blocklistproject/Lists/master/fraud.txt) |
 | Gambling| [Raw](https://raw.githubusercontent.com/blocklistproject/Lists/master/gambling.txt) |
-| Malware| [Raw](
-  
-# The Block List Project
-
-
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/) [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
-
-[![Become a Patron](https://digital.hbs.edu/platform-rctom/wp-content/uploads/sites/4/2018/11/patreon-banner.png)](https://www.patreon.com/bePatron?u=8892646)
-
-&nbsp;
-**Last Updated:** 2020-07-29
-
-- [Details](#details)
-- [Usage](#usage)
-  - [Using with Pi-Hole](#using-with-pi-hole)
-  - [Using with other tools](#using-with-other-tools)
-- [License](#license)
-
-&nbsp;
-
-# Details:
-These lists were created because the founder of the project wanted something with a little more control over what is being blocked. Many lists are all or nothing. We set out to create lists with more control over what is being blocked.
-
-
-&nbsp;
-
-# Usage:
-These converted files can be used with various DNS and domain-blocking tools:
-
-## Using with [Pi-Hole](https://pi-hole.net/):
-
-1. Copy the link to the Pi-Hole format for the desired list (from the appropriate table below).
-2. Add the URL to your Pi-Hole's block lists (**Login** > **Group Management** > **Adlists** > **Paste list URL in "Address" field, add comment** > **Click "Add"**)
-3. Update Gravity (**Tools** > **Update Gravity** > **Click "Update"** )
-
-| List | Link |
-|--|--|
-| Abuse| [Raw](https://raw.githubusercontent.com/blocklistproject/Lists/master/abuse.txt) |
-| Ads| [Raw](https://raw.githubusercontent.com/blocklistproject/Lists/master/ads.txt) |
-| Crypto| [Raw](https://raw.githubusercontent.com/blocklistproject/Lists/master/crypto.txt) |
-| Drugs| [Raw](https://raw.githubusercontent.com/blocklistproject/Lists/master/drugs.txt) |
-| Facebook| [Raw](https://raw.githubusercontent.com/blocklistproject/Lists/master/facebook.txt) |
-| Fraud| [Raw](https://raw.githubusercontent.com/blocklistproject/Lists/master/fraud.txt) |
-| Gambling| [Raw](https://raw.githubusercontent.com/blocklistproject/Lists/master/gambling.txt) |
 | Malware| [Raw](https://raw.githubusercontent.com/blocklistproject/Lists/master/malware.txt) |
 | Phishing| [Raw](https://raw.githubusercontent.com/blocklistproject/Lists/master/phishing.txt) |
 | Privacy| [Raw](https://raw.githubusercontent.com/blocklistproject/Lists/master/privacy.txt) |
