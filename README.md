@@ -33,26 +33,26 @@ These converted files can be used with various DNS and domain-blocking tools:
 2. Add the URL to your Pi-Hole's block lists (**Login** > **Group Management** > **Adlists** > **Paste list URL in "Address" field, add comment** > **Click "Add"**)
 3. Update Gravity (**Tools** > **Update Gravity** > **Click "Update"** )
 
-| List | Link |
-|--|--|
-| Abuse| [Raw](https://blocklistproject.github.io/Lists/abuse.txt) |
-| Ads| [Raw](https://blocklistproject.github.io/Lists/ads.txt) |
-| Crypto| [Raw](https://blocklistproject.github.io/Lists/crypto.txt) |
-| Drugs| [Raw](https://blocklistproject.github.io/Lists/drugs.txt) |
-| Facebook| [Raw](https://blocklistproject.github.io/Lists/facebook.txt) |
-| Fraud| [Raw](https://blocklistproject.github.io/Lists/fraud.txt) |
-| Gambling| [Raw](https://blocklistproject.github.io/Lists/gambling.txt) |
-| Malware| [Raw](https://blocklistproject.github.io/Lists/malware.txt) |
-| Phishing| [Raw](https://blocklistproject.github.io/Lists/phishing.txt) |
-| Privacy| [Raw](https://blocklistproject.github.io/Lists/privacy.txt) |
-| Porn| [Raw](https://blocklistproject.github.io/Lists/porn.txt) |
-| Ransomware| [Raw](https://blocklistproject.github.io/Lists/ransomware.txt) |
-| Redirect| [Raw](https://blocklistproject.github.io/Lists/redirect.txt) |
-| Scam| [Raw](https://blocklistproject.github.io/Lists/scam.txt) |
-| TikTok| [Raw](https://blocklistproject.github.io/Lists/tiktok.txt) |
-| Torrent| [Raw](https://blocklistproject.github.io/Lists/torrent.txt) |
-| Tracking| [Raw](https://blocklistproject.github.io/Lists/tracking.txt) |
-| Youtube| [Raw](https://blocklistproject.github.io/Lists/youtube.txt) |
+| List | Link | Comment |
+|--|--| -- |
+| Abuse| [GitHub Pages Link](https://blocklistproject.github.io/Lists/abuse.txt) | Can be copy and pasted into your device |
+| Ads| [GitHub Pages Link](https://blocklistproject.github.io/Lists/ads.txt) | Can be copy and pasted into your device |
+| Crypto| [GitHub Pages Link](https://blocklistproject.github.io/Lists/crypto.txt) | Can be copy and pasted into your device |
+| Drugs| [GitHub Pages Link](https://blocklistproject.github.io/Lists/drugs.txt) | Can be copy and pasted into your device |
+| Facebook| [GitHub Pages Link](https://blocklistproject.github.io/Lists/facebook.txt) | Can be copy and pasted into your device |
+| Fraud| [GitHub Pages Link](https://blocklistproject.github.io/Lists/fraud.txt) | Can be copy and pasted into your device |
+| Gambling| [GitHub Pages Link](https://blocklistproject.github.io/Lists/gambling.txt) | Can be copy and pasted into your device |
+| Malware| [GitHub Pages Link](https://blocklistproject.github.io/Lists/malware.txt) | Can be copy and pasted into your device |
+| Phishing| [GitHub Pages Link](https://blocklistproject.github.io/Lists/phishing.txt) | Can be copy and pasted into your device |
+| Privacy| [GitHub Pages Link](https://blocklistproject.github.io/Lists/privacy.txt) | Can be copy and pasted into your device |
+| Porn| [GitHub Pages Link](https://blocklistproject.github.io/Lists/porn.txt) | Can be copy and pasted into your device |
+| Ransomware| [GitHub Pages Link](https://blocklistproject.github.io/Lists/ransomware.txt) | Can be copy and pasted into your device |
+| Redirect| [GitHub Pages Link](https://blocklistproject.github.io/Lists/redirect.txt) | Can be copy and pasted into your device |
+| Scam| [GitHub Pages Link](https://blocklistproject.github.io/Lists/scam.txt) | Can be copy and pasted into your device |
+| TikTok| [GitHub Pages Link](https://blocklistproject.github.io/Lists/tiktok.txt) | Can be copy and pasted into your device |
+| Torrent| [GitHub Pages Link](https://blocklistproject.github.io/Lists/torrent.txt) | Can be copy and pasted into your device |
+| Tracking| [GitHub Pages Link](https://blocklistproject.github.io/Lists/tracking.txt) | Can be copy and pasted into your device |
+| Youtube| [GitHub Pages Link](https://blocklistproject.github.io/Lists/youtube.txt) | Can be copy and pasted into your device |
 
 
 <sup>Instructions current as of Pi-Hole 5.1
