@@ -7152,7 +7152,7 @@
 0.0.0.0 livepassdl2.conviva.com
 0.0.0.0 pings.conviva.com
 # [cookielaw.org]
-0.0.0.0 cdn.cookielaw.org
+# 0.0.0.0 cdn.cookielaw.org Issue #33
 # [coremetrics.com]
 0.0.0.0 coremetrics.com
 0.0.0.0 data.coremetrics.com
