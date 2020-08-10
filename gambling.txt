@@ -17813,26 +17813,7 @@
 0.0.0.0 banners-slb.mobile.yandex.net
 0.0.0.0 startup.mobile.yandex.net
 0.0.0.0 offerwall.yandex.net
-# [yandex.ru]
-0.0.0.0 adfox.yandex.ru
-0.0.0.0 matchid.adfox.yandex.ru
-0.0.0.0 adsdk.yandex.ru
-0.0.0.0 advertising.yandex.ru
-0.0.0.0 an.yandex.ru
-0.0.0.0 redirect.appmetrica.yandex.ru
-0.0.0.0 awaps.yandex.ru
-0.0.0.0 awsync.yandex.ru
-0.0.0.0 bs.yandex.ru
-0.0.0.0 bs-meta.yandex.ru
-0.0.0.0 clck.yandex.ru
-0.0.0.0 informer.yandex.ru
-0.0.0.0 kiks.yandex.ru
-0.0.0.0 grade.market.yandex.ru
-0.0.0.0 mc.yandex.ru
-0.0.0.0 metrica.yandex.ru
-0.0.0.0 metrika.yandex.ru
-0.0.0.0 click.sender.yandex.ru
-0.0.0.0 share.yandex.ru
+
 # [yandexadexchange.net]
 0.0.0.0 yandexadexchange.net
 0.0.0.0 mobile.yandexadexchange.net
@@ -43531,8 +43512,7 @@
 # 0.0.0.0 yastatic.net #[affects Yandex Mail]
 # [Yandex][AS13238][213.180.193.0 - 213.180.193.255]
 # [Yandex][AS13238][87.250.250.0 - 87.250.250.255]
-# 0.0.0.0 clck.yandex.ru
-# 0.0.0.0 grade.market.yandex.ru
+
 # [Yesup][AS22923][199.21.148.0 - 199.21.151.255]
 0.0.0.0 serv.clicksor.net
 0.0.0.0 serw.myroitracking.com
@@ -51636,7 +51616,6 @@
 0.0.0.0 mpartner.googleadservices.com
 0.0.0.0 mpv.sandai.net
 0.0.0.0 mr4evmd0r1.s.ad6media.fr
-0.0.0.0 ms.yandex.ru
 0.0.0.0 msblhtsh.cinci.rr.com
 0.0.0.0 msn-cdn.effectivemeasure.net
 0.0.0.0 msn.allyes.com
