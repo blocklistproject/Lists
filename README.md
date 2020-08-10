@@ -35,24 +35,24 @@ These converted files can be used with various DNS and domain-blocking tools:
 
 | List | Link |
 |--|--|
-| Abuse| [Raw](https://raw.githubusercontent.com/blocklistproject/Lists/master/abuse.txt) |
-| Ads| [Raw](https://raw.githubusercontent.com/blocklistproject/Lists/master/ads.txt) |
-| Crypto| [Raw](https://raw.githubusercontent.com/blocklistproject/Lists/master/crypto.txt) |
-| Drugs| [Raw](https://raw.githubusercontent.com/blocklistproject/Lists/master/drugs.txt) |
-| Facebook| [Raw](https://raw.githubusercontent.com/blocklistproject/Lists/master/facebook.txt) |
-| Fraud| [Raw](https://raw.githubusercontent.com/blocklistproject/Lists/master/fraud.txt) |
-| Gambling| [Raw](https://raw.githubusercontent.com/blocklistproject/Lists/master/gambling.txt) |
-| Malware| [Raw](https://raw.githubusercontent.com/blocklistproject/Lists/master/malware.txt) |
-| Phishing| [Raw](https://raw.githubusercontent.com/blocklistproject/Lists/master/phishing.txt) |
-| Privacy| [Raw](https://raw.githubusercontent.com/blocklistproject/Lists/master/privacy.txt) |
-| Porn| [Raw](https://raw.githubusercontent.com/blocklistproject/Lists/master/porn.txt) |
-| Ransomware| [Raw](https://raw.githubusercontent.com/blocklistproject/Lists/master/ransomware.txt) |
-| Redirect| [Raw](https://raw.githubusercontent.com/blocklistproject/Lists/master/redirect.txt) |
-| Scam| [Raw](https://raw.githubusercontent.com/blocklistproject/Lists/master/scam.txt) |
-| TikTok| [Raw](https://raw.githubusercontent.com/blocklistproject/Lists/master/tiktok.txt) |
-| Torrent| [Raw](https://raw.githubusercontent.com/blocklistproject/Lists/master/torrent.txt) |
-| Tracking| [Raw](https://raw.githubusercontent.com/blocklistproject/Lists/master/tracking.txt) |
-| Youtube| [Raw](https://raw.githubusercontent.com/blocklistproject/Lists/master/youtube.txt) |
+| Abuse| [Raw](https://blocklistproject.github.io/Lists/abuse.txt) |
+| Ads| [Raw](https://blocklistproject.github.io/Lists/ads.txt) |
+| Crypto| [Raw](https://blocklistproject.github.io/Lists/crypto.txt) |
+| Drugs| [Raw](https://blocklistproject.github.io/Lists/drugs.txt) |
+| Facebook| [Raw](https://blocklistproject.github.io/Lists/facebook.txt) |
+| Fraud| [Raw](https://blocklistproject.github.io/Lists/fraud.txt) |
+| Gambling| [Raw](https://blocklistproject.github.io/Lists/gambling.txt) |
+| Malware| [Raw](https://blocklistproject.github.io/Lists/malware.txt) |
+| Phishing| [Raw](https://blocklistproject.github.io/Lists/phishing.txt) |
+| Privacy| [Raw](https://blocklistproject.github.io/Lists/privacy.txt) |
+| Porn| [Raw](https://blocklistproject.github.io/Lists/porn.txt) |
+| Ransomware| [Raw](https://blocklistproject.github.io/Lists/ransomware.txt) |
+| Redirect| [Raw](https://blocklistproject.github.io/Lists/redirect.txt) |
+| Scam| [Raw](https://blocklistproject.github.io/Lists/scam.txt) |
+| TikTok| [Raw](https://blocklistproject.github.io/Lists/tiktok.txt) |
+| Torrent| [Raw](https://blocklistproject.github.io/Lists/torrent.txt) |
+| Tracking| [Raw](https://blocklistproject.github.io/Lists/tracking.txt) |
+| Youtube| [Raw](https://blocklistproject.github.io/Lists/youtube.txt) |
 
 
 <sup>Instructions current as of Pi-Hole 5.1
