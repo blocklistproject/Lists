@@ -8,7 +8,7 @@
 [![Become a Patron](https://digital.hbs.edu/platform-rctom/wp-content/uploads/sites/4/2018/11/patreon-banner.png)](https://www.patreon.com/bePatron?u=8892646)
 
 &nbsp;
-**Last Updated:** 2020-07-29
+**Last Updated:** 2020.08.10
 
 - [Details](#details)
 - [Usage](#usage)
