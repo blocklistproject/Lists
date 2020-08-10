@@ -35335,8 +35335,8 @@
 # [R]
 0.0.0.0 ads.racunalniske-novice.com
 0.0.0.0 stats2.radiocompanion.com
-0.0.0.0 s-bid.rmp.rakuten.com
-0.0.0.0 s-imp.rmp.rakuten.com
+# 0.0.0.0 s-bid.rmp.rakuten.com #Issue 36
+# 0.0.0.0 s-imp.rmp.rakuten.com #Issue 36
 0.0.0.0 www.ranking-charts.de
 0.0.0.0 srv1.rapidstats.de
 0.0.0.0 www.random-logic.com
