@@ -923,8 +923,8 @@
 0.0.0.0 lecap-services.fr
 0.0.0.0 www.lecap-services.fr
 0.0.0.0 tracking.lenzmx.com
-0.0.0.0 nexus.officeapps.live.com
-0.0.0.0 nexusrules.officeapps.live.com
+# 0.0.0.0 nexus.officeapps.live.com #Issue 34
+# 0.0.0.0 nexusrules.officeapps.live.com #Issue 34
 0.0.0.0 cradver.livejasmin.com
 0.0.0.0 manifest.localytics.com
 0.0.0.0 profile.localytics.com
@@ -941,8 +941,8 @@
 0.0.0.0 mediadirectx.com
 0.0.0.0 enabler.datalake.mediaset.it
 0.0.0.0 hbbtv.mediaset.net
-0.0.0.0 browser.pipe.aria.microsoft.com
-0.0.0.0 mobile.pipe.aria.microsoft.com
+# 0.0.0.0 browser.pipe.aria.microsoft.com
+# 0.0.0.0 mobile.pipe.aria.microsoft.com
 0.0.0.0 v10c.events.data.microsoft.com
 0.0.0.0 web.vortex.data.microsoft.com
 0.0.0.0 sqm.telemetry.microsoft.com
@@ -11738,9 +11738,9 @@
 0.0.0.0 s-rtb.send.microadinc.com
 0.0.0.0 ssp.send.microadinc.com
 # [microsoft.com]
-0.0.0.0 bingads.microsoft.com
-0.0.0.0 advertise.bingads.microsoft.com
-0.0.0.0 vortex.data.microsoft.com
+# 0.0.0.0 bingads.microsoft.com #Issue #34
+# 0.0.0.0 advertise.bingads.microsoft.com #Issue #34
+# 0.0.0.0 vortex.data.microsoft.com #Issue #34
 # [midasplayer.com]
 0.0.0.0 midasplayer.com
 0.0.0.0 adtrack1.midasplayer.com
