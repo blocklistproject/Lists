@@ -1186,4 +1186,5 @@
 0.0.0.0 www.zedbubble.com
 0.0.0.0 zgalaxytee.com
 0.0.0.0 www.zgalaxytee.com
-0.0.0.0 bunwaejrx.com #issue 44
+0.0.0.0 bunwaejrx.com #issue 44 add request
+0.0.0.0 calcotsjvila.cat #issue 45 add requeset
