@@ -4,7 +4,7 @@
 
 
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/) [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
-
+[![Donate](https://img.shields.io/liberapay/receives/gap579137.svg?logo=liberapay)](https://liberapay.com/for/ProjectBlockList/)
 [![Become a Patron](https://digital.hbs.edu/platform-rctom/wp-content/uploads/sites/4/2018/11/patreon-banner.png)](https://www.patreon.com/bePatron?u=8892646)
 
 &nbsp;
@@ -17,7 +17,7 @@
 - [License](#license)
 
 &nbsp;
-
+<img src="https://img.shields.io/liberapay/receives/gap579137.svg?logo=liberapay">
 # Details:
 These lists were created because the founder of the project wanted something with a little more control over what is being blocked. Many lists are all or nothing. We set out to create lists with more control over what is being blocked.
 
