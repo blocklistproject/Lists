@@ -3119,7 +3119,7 @@
 0.0.0.0	intentiq.com
 0.0.0.0	intentmedia.net
 0.0.0.0	interclick.com
-0.0.0.0	intercomassets.com
+# 0.0.0.0	intercomassets.com Issue 48
 0.0.0.0	internetdealz.click
 0.0.0.0	intervice.info
 0.0.0.0	intothestorm.com
