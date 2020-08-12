@@ -17,7 +17,6 @@
 - [License](#license)
 
 &nbsp;
-<img src="https://img.shields.io/liberapay/receives/gap579137.svg?logo=liberapay">
 # Details:
 These lists were created because the founder of the project wanted something with a little more control over what is being blocked. Many lists are all or nothing. We set out to create lists with more control over what is being blocked.
 
