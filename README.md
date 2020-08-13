@@ -43,7 +43,7 @@ These converted files can be used with various DNS and domain-blocking tools:
 | Gambling| [GitHub Pages Link](https://blocklistproject.github.io/Lists/gambling.txt) | Can be copy and pasted into your device |
 | Malware| [GitHub Pages Link](https://blocklistproject.github.io/Lists/malware.txt) | Can be copy and pasted into your device |
 | Phishing| [GitHub Pages Link](https://blocklistproject.github.io/Lists/phishing.txt) | Can be copy and pasted into your device |
-| Privacy| [GitHub Pages Link](https://blocklistproject.github.io/Lists/privacy.txt) | Can be copy and pasted into your device |
+| Piracy| [GitHub Pages Link](https://blocklistproject.github.io/Lists/piracy.txt) | Can be copy and pasted into your device |
 | Porn| [GitHub Pages Link](https://blocklistproject.github.io/Lists/porn.txt) | Can be copy and pasted into your device |
 | Ransomware| [GitHub Pages Link](https://blocklistproject.github.io/Lists/ransomware.txt) | Can be copy and pasted into your device |
 | Redirect| [GitHub Pages Link](https://blocklistproject.github.io/Lists/redirect.txt) | Can be copy and pasted into your device |
