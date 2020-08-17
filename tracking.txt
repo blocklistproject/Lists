@@ -3008,7 +3008,7 @@
 0.0.0.0	httptrack.com
 0.0.0.0	huafeibianzhidai.com
 0.0.0.0	hublogic.com
-0.0.0.0	hubspot.com
+# 0.0.0.0	hubspot.com Removed per issue 52
 0.0.0.0	hubspot.net
 0.0.0.0	hubspot10.com
 0.0.0.0	hubspot10.net
