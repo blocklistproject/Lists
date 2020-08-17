@@ -40,6 +40,7 @@
 0.0.0.0	Bitsnoop.com
 0.0.0.0	Raulken.it
 0.0.0.0	Glabella.org
+0.0.0.0 glotorrents.pw
 0.0.0.0	Youtorrent.com
 0.0.0.0	Bit-torrent.bz
 0.0.0.0	www.animesuki.com
