@@ -1850,7 +1850,6 @@
 0.0.0.0	denis.stalker.h3q.com
 0.0.0.0	denis.stalker.upeer.me
 0.0.0.0	dirtytorrents.com
-0.0.0.0	div>Hosted On GitHub
 0.0.0.0	dl4all.unblocked.llc
 0.0.0.0	dn42.smrsh.net
 0.0.0.0	dospelis.unblckd.bet
