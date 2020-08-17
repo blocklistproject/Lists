@@ -12,7 +12,7 @@
 #  - making a donation: https://paypal.me/blocklistproject
 #-------------------------------------[INFO]---------------------------------------
 #
-# Phishing list
+# Gambling list
 #
 #------------------------------------[FILTERS]-------------------------------------
 0.0.0.0 01mspmd5yalky8.com

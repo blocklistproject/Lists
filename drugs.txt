@@ -12,7 +12,7 @@
 #  - making a donation: https://paypal.me/blocklistproject
 #-------------------------------------[INFO]---------------------------------------
 #
-# Ad list
+# Drugs list
 #
 #------------------------------------[FILTERS]-------------------------------------
 0.0.0.0	000host.totaocimall.com
