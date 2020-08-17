@@ -46779,8 +46779,6 @@
 0.0.0.0 jumcna.cjt1.net
 0.0.0.0 jwebbsense.cjt1.net
 0.0.0.0 www.cydoor.com
-#<2o7-sites>
-# 2o7.net -- server side tracking
 #0.0.0.0 appleglobal.112.2o7.net	#breaks apple.com
 #0.0.0.0 applestoreus.112.2o7.net	#breaks apple.com
 0.0.0.0 actforvictory.112.2o7.net
