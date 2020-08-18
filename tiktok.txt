@@ -13,23 +13,23 @@
 #
 # TikTok list
 #------------------------------------[FILTERS]-------------------------------------
-0.0.0.0 p16-tiktokcdn-com.akamaized.net
-0.0.0.0 tiktok.com
-0.0.0.0 tiktok.org
-0.0.0.0 tiktokcdn.com
-0.0.0.0 tiktokv.com
+0.0.0.0 abtest-va-tiktok.byteoversea.com
+0.0.0.0 dm-maliva16.byteoversea.com
+0.0.0.0 dm.bytedance.com
+0.0.0.0 ibytedtos.com
+0.0.0.0 mon-va.byteoversea.com
+0.0.0.0 mon.byteoversea.com
 0.0.0.0 muscdn.com
 0.0.0.0 musical.ly
 0.0.0.0 musically.ly
-0.0.0.0 v16-tiktokcdn-com.akamaized.net
-0.0.0.0 mon.byteoversea.com
-0.0.0.0 mon-va.byteoversea.com
-0.0.0.0 abtest-va-tiktok.byteoversea.com
+0.0.0.0 p16-tiktokcdn-com.akamaized.net
 0.0.0.0 p16.hypstarcdn.com
 0.0.0.0 sf-tb-sg.ibytedtos.com
-0.0.0.0 xlog-va.byteoversea.com
-0.0.0.0 dm-maliva16.byteoversea.com
-0.0.0.0 dm.bytedance.com
 0.0.0.0 sgali3.l.byteoversea.net
+0.0.0.0 tiktok.com
+0.0.0.0 tiktok.org
 0.0.0.0 tiktokcdn-com.akamaized.net
-0.0.0.0 ibytedtos.com
+0.0.0.0 tiktokcdn.com
+0.0.0.0 tiktokv.com
+0.0.0.0 v16-tiktokcdn-com.akamaized.net
+0.0.0.0 xlog-va.byteoversea.com
