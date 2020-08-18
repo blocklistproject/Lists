@@ -5,8 +5,9 @@
 
 ![GitHub issues](https://img.shields.io/github/issues/blocklistproject/Lists?style=for-the-badge)
 ![GitHub closed issues](https://img.shields.io/github/issues-closed/blocklistproject/Lists?style=for-the-badge)
+![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg?style=for-the-badge)](http://unlicense.org/)
 
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/) [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) [![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/ellerbrock/open-source-badges/) [
 [![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/P5P521OPP)
 [![Become a Patron](https://digital.hbs.edu/platform-rctom/wp-content/uploads/sites/4/2018/11/patreon-banner.png)](https://www.patreon.com/bePatron?u=8892646)
 
