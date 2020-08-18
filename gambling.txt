@@ -13,7 +13,6 @@
 #-------------------------------------[INFO]---------------------------------------
 #
 # Gambling list
-#
 #------------------------------------[FILTERS]-------------------------------------
 0.0.0.0 01mspmd5yalky8.com
 0.0.0.0 0byv9mgbn0.com
@@ -17813,7 +17812,6 @@
 0.0.0.0 banners-slb.mobile.yandex.net
 0.0.0.0 startup.mobile.yandex.net
 0.0.0.0 offerwall.yandex.net
-
 # [yandexadexchange.net]
 0.0.0.0 yandexadexchange.net
 0.0.0.0 mobile.yandexadexchange.net
@@ -43471,7 +43469,6 @@
 # 0.0.0.0 yastatic.net #[affects Yandex Mail]
 # [Yandex][AS13238][213.180.193.0 - 213.180.193.255]
 # [Yandex][AS13238][87.250.250.0 - 87.250.250.255]
-
 # [Yesup][AS22923][199.21.148.0 - 199.21.151.255]
 0.0.0.0 serv.clicksor.net
 0.0.0.0 serw.myroitracking.com

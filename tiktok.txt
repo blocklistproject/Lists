@@ -12,7 +12,6 @@
 #-------------------------------------[INFO]---------------------------------------
 #
 # TikTok list
-#
 #------------------------------------[FILTERS]-------------------------------------
 0.0.0.0 p16-tiktokcdn-com.akamaized.net
 0.0.0.0 tiktok.com
@@ -22,8 +21,6 @@
 0.0.0.0 muscdn.com
 0.0.0.0 musical.ly
 0.0.0.0 musically.ly
-0.0.0.0 v16-tiktokcdn-com.akamaized.net
-0.0.0.0 p16-tiktokcdn-com.akamaized.net
 0.0.0.0 v16-tiktokcdn-com.akamaized.net
 0.0.0.0 mon.byteoversea.com
 0.0.0.0 mon-va.byteoversea.com
