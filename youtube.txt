@@ -1,5 +1,4 @@
 
-
 #------------------------------------[UPDATE]--------------------------------------
 # Title: The Block List Project
 # Expires: 1 day
@@ -14,9 +13,7 @@
 #-------------------------------------[INFO]---------------------------------------
 #
 # Youtube list - Take this list with a grain of salt. Google is always changing their ad serving domains.
-#
 #------------------------------------[FILTERS]-------------------------------------
-
 0.0.0.0 r2---sn-n4v7sney.googlevideo.com
 0.0.0.0 r1---sn-o097znlk.googlevideo.com
 0.0.0.0 r2---sn-o097znlk.googlevideo.com
