@@ -8,8 +8,8 @@
 # Total number of network filters: 22329
 #------------------------------------[SUPPORT]-------------------------------------
 # You can support by:
-#  - reporting false positives
-#  - making a donation: https://paypal.me/blocklistproject
+# - reporting false positives
+# - making a donation: https://paypal.me/blocklistproject
 #-------------------------------------[INFO]---------------------------------------
 #
 # Crypto List
