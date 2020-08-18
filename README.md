@@ -6,14 +6,11 @@
 ![GitHub issues](https://img.shields.io/github/issues/blocklistproject/Lists?style=for-the-badge)
 ![GitHub closed issues](https://img.shields.io/github/issues-closed/blocklistproject/Lists?style=for-the-badge)
 [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg?style=for-the-badge)](http://unlicense.org/)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=for-the-badge)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) 
-[![Open Source Love svg2](https://badges.frapsoft.com/os/v2/open-source.svg?style=for-the-badge)](https://github.com/ellerbrock/open-source-badges/) 
-
-[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/P5P521OPP)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=for-the-badge)](https://GitHub.com/Naereen/StrapDown.js/graphs/commit-activity) ![Opensource-info](https://img.shields.io/badge/Open%20Source-Yes-red?style=for-the-badge)
+[![ko-fi](https://img.shields.io/badge/Support%20Us-Ko--Fi-orange?style=for-the-badge)](https://ko-fi.com/P5P521OPP)
 [![Become a Patron](https://digital.hbs.edu/platform-rctom/wp-content/uploads/sites/4/2018/11/patreon-banner.png)](https://www.patreon.com/bePatron?u=8892646)
 
 &nbsp;
-**Last Updated:** 2020.08.10
 
 - [Details](#details)
 - [Usage](#usage)
@@ -59,7 +56,7 @@ These converted files can be used with various DNS and domain-blocking tools:
 | Youtube| [GitHub Pages Link](https://blocklistproject.github.io/Lists/youtube.txt) | Can be copy and pasted into your device |
 
 
-<sup>Instructions current as of Pi-Hole 5.1
+<sup>Instructions current as of Pi-Hole 5.2
 *Not supported by or affiliated with Pi-Hole.</sup>
 
 ## Using with other tools:
