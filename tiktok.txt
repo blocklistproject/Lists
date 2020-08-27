@@ -33,3 +33,6 @@
 0.0.0.0 tiktokv.com
 0.0.0.0 v16-tiktokcdn-com.akamaized.net
 0.0.0.0 xlog-va.byteoversea.com
+0.0.0.0 verification-va.byteoversea.com
+0.0.0.0 www.tiktok.com
+0.0.0.0 s16.tiktokcdn.com
