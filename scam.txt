@@ -88,6 +88,7 @@
 0.0.0.0 automaticfxoption.com
 0.0.0.0 auxiliarymine.com
 0.0.0.0 auxiliaryoption.com
+0.0.0.0 axeol-shop.com
 0.0.0.0 azitecs.com
 0.0.0.0 baroconcept.com
 0.0.0.0 beaswan.com
@@ -331,6 +332,7 @@
 0.0.0.0 hqoptions.com
 0.0.0.0 hugetrump.com
 0.0.0.0 hunterbeus.com
+0.0.0.0 iamrebecca-shop.com
 0.0.0.0 icelandclothing.myshopify.com
 0.0.0.0 ikiha.com
 0.0.0.0 ikryptobot.com
