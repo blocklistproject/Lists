@@ -2200,3 +2200,4 @@
 0.0.0.0 zooqle.unblocked.llc
 0.0.0.0 Zoozle.org
 0.0.0.0 Ztracker.hu
+0.0.0.0 rutracker.wiki
