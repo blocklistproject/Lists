@@ -1,8 +1,8 @@
 ---
 name: False positive removal request
 about: Please use this form to create a remove request
-title: ''
-labels: ''
+title: "[Remove Request] - "
+labels: remove request
 assignees: FDrebin, blocklistproject
 
 ---
