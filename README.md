@@ -59,7 +59,7 @@ These converted files can be used with various DNS and domain-blocking tools:
 | Youtube| [GitHub Pages Link](https://blocklistproject.github.io/Lists/youtube.txt) | Can be copy and pasted into your device |
 
 
-<sup>Instructions current as of Pi-Hole 5.2
+<sup>Instructions current as of Pi-Hole 5.1.2
 *Not supported by or affiliated with Pi-Hole.</sup>
 
 ## Using with other tools:
