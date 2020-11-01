@@ -37,26 +37,26 @@ These converted files can be used with various DNS and domain-blocking tools:
 2. Add the URL to your Pi-Hole's block lists (**Login** > **Group Management** > **Adlists** > **Paste list URL in "Address" field, add comment** > **Click "Add"**)
 3. Update Gravity (**Tools** > **Update Gravity** > **Click "Update"** )
 
-| List | Link | Comment |
-|--|--| -- |
-| Abuse| [GitHub Pages Link](https://blocklistproject.github.io/Lists/abuse.txt) | Can be copy and pasted into your device |
-| Ads| [GitHub Pages Link](https://blocklistproject.github.io/Lists/ads.txt) | Can be copy and pasted into your device |
-| Crypto| [GitHub Pages Link](https://blocklistproject.github.io/Lists/crypto.txt) | Can be copy and pasted into your device |
-| Drugs| [GitHub Pages Link](https://blocklistproject.github.io/Lists/drugs.txt) | Can be copy and pasted into your device |
-| Facebook| [GitHub Pages Link](https://blocklistproject.github.io/Lists/facebook.txt) | Can be copy and pasted into your device |
-| Fraud| [GitHub Pages Link](https://blocklistproject.github.io/Lists/fraud.txt) | Can be copy and pasted into your device |
-| Gambling| [GitHub Pages Link](https://blocklistproject.github.io/Lists/gambling.txt) | Can be copy and pasted into your device |
-| Malware| [GitHub Pages Link](https://blocklistproject.github.io/Lists/malware.txt) | Can be copy and pasted into your device |
-| Phishing| [GitHub Pages Link](https://blocklistproject.github.io/Lists/phishing.txt) | Can be copy and pasted into your device |
-| Piracy| [GitHub Pages Link](https://blocklistproject.github.io/Lists/piracy.txt) | Can be copy and pasted into your device |
-| Porn| [GitHub Pages Link](https://blocklistproject.github.io/Lists/porn.txt) | Can be copy and pasted into your device |
-| Ransomware| [GitHub Pages Link](https://blocklistproject.github.io/Lists/ransomware.txt) | Can be copy and pasted into your device |
-| Redirect| [GitHub Pages Link](https://blocklistproject.github.io/Lists/redirect.txt) | Can be copy and pasted into your device |
-| Scam| [GitHub Pages Link](https://blocklistproject.github.io/Lists/scam.txt) | Can be copy and pasted into your device |
-| TikTok| [GitHub Pages Link](https://blocklistproject.github.io/Lists/tiktok.txt) | Can be copy and pasted into your device |
-| Torrent| [GitHub Pages Link](https://blocklistproject.github.io/Lists/torrent.txt) | Can be copy and pasted into your device |
-| Tracking| [GitHub Pages Link](https://blocklistproject.github.io/Lists/tracking.txt) | Can be copy and pasted into your device |
-| Youtube| [GitHub Pages Link](https://blocklistproject.github.io/Lists/youtube.txt) | Can be copy and pasted into your device |
+| List | Link | Link | Comment |
+|--|--|--| -- |
+| Abuse| [GitHub Pages Link](https://blocklistproject.github.io/Lists/abuse.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/abuse.txt) | Can be copy and pasted into your device |
+| Ads| [GitHub Pages Link](https://blocklistproject.github.io/Lists/ads.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/abuse.txt) | Can be copy and pasted into your device |
+| Crypto| [GitHub Pages Link](https://blocklistproject.github.io/Lists/crypto.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/abuse.txt) | Can be copy and pasted into your device |
+| Drugs| [GitHub Pages Link](https://blocklistproject.github.io/Lists/drugs.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/abuse.txt) | Can be copy and pasted into your device |
+| Facebook| [GitHub Pages Link](https://blocklistproject.github.io/Lists/facebook.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/abuse.txt) | Can be copy and pasted into your device |
+| Fraud| [GitHub Pages Link](https://blocklistproject.github.io/Lists/fraud.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/abuse.txt) | Can be copy and pasted into your device |
+| Gambling| [GitHub Pages Link](https://blocklistproject.github.io/Lists/gambling.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/abuse.txt) | Can be copy and pasted into your device |
+| Malware| [GitHub Pages Link](https://blocklistproject.github.io/Lists/malware.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/abuse.txt) | Can be copy and pasted into your device |
+| Phishing| [GitHub Pages Link](https://blocklistproject.github.io/Lists/phishing.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/abuse.txt) | Can be copy and pasted into your device |
+| Piracy| [GitHub Pages Link](https://blocklistproject.github.io/Lists/piracy.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/abuse.txt) | Can be copy and pasted into your device |
+| Porn| [GitHub Pages Link](https://blocklistproject.github.io/Lists/porn.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/abuse.txt) | Can be copy and pasted into your device |
+| Ransomware| [GitHub Pages Link](https://blocklistproject.github.io/Lists/ransomware.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/abuse.txt) | Can be copy and pasted into your device |
+| Redirect| [GitHub Pages Link](https://blocklistproject.github.io/Lists/redirect.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/abuse.txt) | Can be copy and pasted into your device |
+| Scam| [GitHub Pages Link](https://blocklistproject.github.io/Lists/scam.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/abuse.txt) | Can be copy and pasted into your device |
+| TikTok| [GitHub Pages Link](https://blocklistproject.github.io/Lists/tiktok.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/abuse.txt) | Can be copy and pasted into your device |
+| Torrent| [GitHub Pages Link](https://blocklistproject.github.io/Lists/torrent.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/abuse.txt) | Can be copy and pasted into your device |
+| Tracking| [GitHub Pages Link](https://blocklistproject.github.io/Lists/tracking.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/abuse.txt) | Can be copy and pasted into your device |
+| Youtube| [GitHub Pages Link](https://blocklistproject.github.io/Lists/youtube.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/abuse.txt) | Can be copy and pasted into your device |
 
 
 <sup>Instructions current as of Pi-Hole 5.1.2
