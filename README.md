@@ -41,24 +41,24 @@ These converted files can be used with various DNS and domain-blocking tools:
 
 | List | Link | Link w/o leading IP | Comment |
 |--|--|--| -- |
-| Abuse| [GitHub Pages Link](https://blocklistproject.github.io/Lists/abuse.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/abuse-nl.txt) | Can be copy and pasted into your device |
-| Ads| [GitHub Pages Link](https://blocklistproject.github.io/Lists/ads.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/ads-nl.txt) | Can be copy and pasted into your device |
-| Crypto| [GitHub Pages Link](https://blocklistproject.github.io/Lists/crypto.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/crypto-nl.txt) | Can be copy and pasted into your device |
-| Drugs| [GitHub Pages Link](https://blocklistproject.github.io/Lists/drugs.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/drugs-nl.txt) | Can be copy and pasted into your device |
-| Facebook| [GitHub Pages Link](https://blocklistproject.github.io/Lists/facebook.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/facebook-nl.txt) | Can be copy and pasted into your device |
-| Fraud| [GitHub Pages Link](https://blocklistproject.github.io/Lists/fraud.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/fraud-nl.txt) | Can be copy and pasted into your device |
-| Gambling| [GitHub Pages Link](https://blocklistproject.github.io/Lists/gambling.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/gambling-nl.txt) | Can be copy and pasted into your device |
-| Malware| [GitHub Pages Link](https://blocklistproject.github.io/Lists/malware.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/malware-nl.txt) | Can be copy and pasted into your device |
-| Phishing| [GitHub Pages Link](https://blocklistproject.github.io/Lists/phishing.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/phishing-nl.txt) | Can be copy and pasted into your device |
-| Piracy| [GitHub Pages Link](https://blocklistproject.github.io/Lists/piracy.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/piracy-nl.txt) | Can be copy and pasted into your device |
-| Porn| [GitHub Pages Link](https://blocklistproject.github.io/Lists/porn.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/porn-nl.txt) | Can be copy and pasted into your device |
-| Ransomware| [GitHub Pages Link](https://blocklistproject.github.io/Lists/ransomware.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/ransomware-nl.txt) | Can be copy and pasted into your device |
-| Redirect| [GitHub Pages Link](https://blocklistproject.github.io/Lists/redirect.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/redirect-nl.txt) | Can be copy and pasted into your device |
-| Scam| [GitHub Pages Link](https://blocklistproject.github.io/Lists/scam.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/scam-nl.txt) | Can be copy and pasted into your device |
-| TikTok| [GitHub Pages Link](https://blocklistproject.github.io/Lists/tiktok.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/tiktok-nl.txt) | Can be copy and pasted into your device |
-| Torrent| [GitHub Pages Link](https://blocklistproject.github.io/Lists/torrent.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/torrent-nl.txt) | Can be copy and pasted into your device |
-| Tracking| [GitHub Pages Link](https://blocklistproject.github.io/Lists/tracking.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/tracking-nl.txt) | Can be copy and pasted into your device |
-| Youtube| [GitHub Pages Link](https://blocklistproject.github.io/Lists/youtube.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/youtube-nl.txt) | Can be copy and pasted into your device |
+| Abuse| [GitHub Pages Link](https://blocklistproject.github.io/Lists/abuse.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/abuse-nl.txt) | Copy and pasted into your device |
+| Ads| [GitHub Pages Link](https://blocklistproject.github.io/Lists/ads.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/ads-nl.txt) | Copy and pasted into your device |
+| Crypto| [GitHub Pages Link](https://blocklistproject.github.io/Lists/crypto.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/crypto-nl.txt) | Copy and pasted into your device |
+| Drugs| [GitHub Pages Link](https://blocklistproject.github.io/Lists/drugs.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/drugs-nl.txt) | Copy and pasted into your device |
+| Facebook| [GitHub Pages Link](https://blocklistproject.github.io/Lists/facebook.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/facebook-nl.txt) | Copy and pasted into your device |
+| Fraud| [GitHub Pages Link](https://blocklistproject.github.io/Lists/fraud.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/fraud-nl.txt) | Copy and pasted into your device |
+| Gambling| [GitHub Pages Link](https://blocklistproject.github.io/Lists/gambling.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/gambling-nl.txt) | Copy and pasted into your device |
+| Malware| [GitHub Pages Link](https://blocklistproject.github.io/Lists/malware.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/malware-nl.txt) | Copy and pasted into your device |
+| Phishing| [GitHub Pages Link](https://blocklistproject.github.io/Lists/phishing.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/phishing-nl.txt) | Copy and pasted into your device |
+| Piracy| [GitHub Pages Link](https://blocklistproject.github.io/Lists/piracy.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/piracy-nl.txt) | Copy and pasted into your device |
+| Porn| [GitHub Pages Link](https://blocklistproject.github.io/Lists/porn.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/porn-nl.txt) | Copy and pasted into your device |
+| Ransomware| [GitHub Pages Link](https://blocklistproject.github.io/Lists/ransomware.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/ransomware-nl.txt) | Copy and pasted into your device |
+| Redirect| [GitHub Pages Link](https://blocklistproject.github.io/Lists/redirect.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/redirect-nl.txt) | Copy and pasted into your device |
+| Scam| [GitHub Pages Link](https://blocklistproject.github.io/Lists/scam.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/scam-nl.txt) | Copy and pasted into your device |
+| TikTok| [GitHub Pages Link](https://blocklistproject.github.io/Lists/tiktok.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/tiktok-nl.txt) | Copy and pasted into your device |
+| Torrent| [GitHub Pages Link](https://blocklistproject.github.io/Lists/torrent.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/torrent-nl.txt) | Copy and pasted into your device |
+| Tracking| [GitHub Pages Link](https://blocklistproject.github.io/Lists/tracking.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/tracking-nl.txt) | Copy and pasted into your device |
+| Youtube| [GitHub Pages Link](https://blocklistproject.github.io/Lists/youtube.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/youtube-nl.txt) | Copy and pasted into your device |
 
 
 <sup>Instructions current as of Pi-Hole 5.1.2
