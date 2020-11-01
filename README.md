@@ -37,6 +37,8 @@ These converted files can be used with various DNS and domain-blocking tools:
 2. Add the URL to your Pi-Hole's block lists (**Login** > **Group Management** > **Adlists** > **Paste list URL in "Address" field, add comment** > **Click "Add"**)
 3. Update Gravity (**Tools** > **Update Gravity** > **Click "Update"** )
 
+&nbsp;
+
 | List | Link | Link w/o leading IP | Comment |
 |--|--|--| -- |
 | Abuse| [GitHub Pages Link](https://blocklistproject.github.io/Lists/abuse.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/abuse-nl.txt) | Can be copy and pasted into your device |
