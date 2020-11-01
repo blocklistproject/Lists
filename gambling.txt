@@ -2338,3 +2338,4 @@
 0.0.0.0 partypoker.cz
 0.0.0.0 www.partypoker.cz
 0.0.0.0 www.casino.org
+0.0.0.0 win2day.at
