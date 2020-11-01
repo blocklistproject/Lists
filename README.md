@@ -37,9 +37,9 @@ These converted files can be used with various DNS and domain-blocking tools:
 2. Add the URL to your Pi-Hole's block lists (**Login** > **Group Management** > **Adlists** > **Paste list URL in "Address" field, add comment** > **Click "Add"**)
 3. Update Gravity (**Tools** > **Update Gravity** > **Click "Update"** )
 
-| List | Link | Comment |
+| List | Link w/lead IP | Link w/o lead IP | Comment |
 |--|--| -- |
-| Abuse| [GitHub Pages Link](https://blocklistproject.github.io/Lists/abuse.txt) | Can be copy and pasted into your device |
+| Abuse| [GitHub Pages Link](https://blocklistproject.github.io/Lists/abuse.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/abuse-nl.txt) | Can be copy and pasted into your device |
 | Ads| [GitHub Pages Link](https://blocklistproject.github.io/Lists/ads.txt) | Can be copy and pasted into your device |
 | Crypto| [GitHub Pages Link](https://blocklistproject.github.io/Lists/crypto.txt) | Can be copy and pasted into your device |
 | Drugs| [GitHub Pages Link](https://blocklistproject.github.io/Lists/drugs.txt) | Can be copy and pasted into your device |
@@ -59,7 +59,7 @@ These converted files can be used with various DNS and domain-blocking tools:
 | Youtube| [GitHub Pages Link](https://blocklistproject.github.io/Lists/youtube.txt) | Can be copy and pasted into your device |
 
 
-<sup>Instructions current as of Pi-Hole 5.2
+<sup>Instructions current as of Pi-Hole v5.1.2
 *Not supported by or affiliated with Pi-Hole.</sup>
 
 ## Using with other tools:
