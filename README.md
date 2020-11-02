@@ -19,6 +19,7 @@
 - [Usage](#usage)
   - [Using with Pi-Hole](#using-with-pi-hole)
   - [Using with other tools](#using-with-other-tools)
+- [Sponsors](#sponsors)
 - [License](#license)
 
 &nbsp;
@@ -69,7 +70,7 @@ These converted files can be used with various DNS and domain-blocking tools:
 ## Using with other tools:
 We are currently working on verifying compatibility with other tools. Please stand by. If you have a suggestion on a tool we should support please comment on our [Reddit](https://www.reddit.com/r/blocklistproject/) page.
 
-# Sponsors:
+## Sponsors:
 
 Special thank you to [Cloud 4 SURE](https://www.cloud4sure.net) for their generous donation every month to help cover our Linode bill.
 
