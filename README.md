@@ -30,8 +30,8 @@ These lists were created because the founder of the project wanted something wit
 ## Versions:
 We have recently created an alternative version (Alt-Version) of our lists. 
 <p>Original Version:</p>
-<p>  All urls in the version of the list are listed in the host file as follows</p>
-<p>      0.0.0.0 example.com</p>
+<p>&nbsp;All urls in the version of the list are listed in the host file as follows</p>
+<p> &nbsp;&nbsp;0.0.0.0 example.com</p>
 Alternative Version:
   All urls in this version of the list are listed in the host file as follows
       example.com
