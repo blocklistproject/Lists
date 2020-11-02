@@ -58,7 +58,7 @@ These converted files can be used with various DNS and domain-blocking tools:
 | TikTok| [GitHub Pages Link](https://blocklistproject.github.io/Lists/tiktok.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/tiktok-nl.txt) | Copy and pasted into your device ||
 | Torrent| [GitHub Pages Link](https://blocklistproject.github.io/Lists/torrent.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/torrent-nl.txt) | Copy and pasted into your device ||
 | Tracking| [GitHub Pages Link](https://blocklistproject.github.io/Lists/tracking.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/tracking-nl.txt) | Copy and pasted into your device ||
-| Youtube| [GitHub Pages Link](https://blocklistproject.github.io/Lists/youtube.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/youtube-nl.txt) | Copy and pasted into your device |the_c_drive|
+| Youtube| [GitHub Pages Link](https://blocklistproject.github.io/Lists/youtube.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/youtube-nl.txt) | Copy and pasted into your device |[the_c_drive](https://www.patreon.com/user/creators?u=5538103)|
 
 
 <sup>Instructions current as of Pi-Hole 5.1.2
