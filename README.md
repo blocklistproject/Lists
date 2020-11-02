@@ -39,7 +39,7 @@ These converted files can be used with various DNS and domain-blocking tools:
 
 &nbsp;
 
-| List | Link | Link w/o leading IP | Comment | Sponsor |
+| List | Link | Link w/o leading IP | Comment | Sponsor** |
 |--|--|--| -- | -- |
 | Abuse| [GitHub Pages Link](https://blocklistproject.github.io/Lists/abuse.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/abuse-nl.txt) | Copy and pasted into your device ||
 | Ads| [GitHub Pages Link](https://blocklistproject.github.io/Lists/ads.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/ads-nl.txt) | Copy and pasted into your device ||
@@ -63,6 +63,7 @@ These converted files can be used with various DNS and domain-blocking tools:
 
 <sup>Instructions current as of Pi-Hole 5.1.2
 *Not supported by or affiliated with Pi-Hole.</sup>
+<sup>** A sponsor is someone that supports use on Patreon. All list are free and will always be free. This is just a way to say thank you to those that help keep this project going! </sup>
 
 ## Using with other tools:
 We are currently working on verifying compatibility with other tools. Please stand by. If you have a suggestion on a tool we should support please comment on our [Reddit](https://www.reddit.com/r/blocklistproject/) page.
