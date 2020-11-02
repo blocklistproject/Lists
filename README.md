@@ -16,6 +16,7 @@
 &nbsp;
 
 - [Details](#details)
+  -[Versions](#versions)
 - [Usage](#usage)
   - [Using with Pi-Hole](#using-with-pi-hole)
   - [Using with other tools](#using-with-other-tools)
@@ -25,7 +26,17 @@
 &nbsp;
 # Details:
 These lists were created because the founder of the project wanted something with a little more control over what is being blocked. Many lists are all or nothing. We set out to create lists with more control over what is being blocked.
+&nbsp;
+## Versions:
+We have recently created an alternative version (Alt-Version) of our lists. 
+Original Version:
+  All urls in the version of the list are listed in the host file as follows
+      0.0.0.0 example.com
+Alternative Version:
+  All urls in this version of the list are listed in the host file as follows
+      example.com
 
+Our users brought it to our attention that some devices error out if the url is preceded by an IP address. 
 
 &nbsp;
 
