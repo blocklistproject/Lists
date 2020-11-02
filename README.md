@@ -63,6 +63,7 @@ These converted files can be used with various DNS and domain-blocking tools:
 
 <sup>Instructions current as of Pi-Hole 5.1.2
 *Not supported by or affiliated with Pi-Hole.</sup>
+&nbsp;
 <sup>** A sponsor is someone that supports use on Patreon. All list are free and will always be free. This is just a way to say thank you to those that help keep this project going! </sup>
 
 ## Using with other tools:
