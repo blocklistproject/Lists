@@ -69,6 +69,10 @@ These converted files can be used with various DNS and domain-blocking tools:
 ## Using with other tools:
 We are currently working on verifying compatibility with other tools. Please stand by. If you have a suggestion on a tool we should support please comment on our [Reddit](https://www.reddit.com/r/blocklistproject/) page.
 
+# Sponsors:
+
+Special thank you to [Cloud 4 SURE](https://www.cloud4sure.net) for their generous donation every month to help cover our Linode bill.
+
 # License:
 
 For more details, see the [LICENSES](https://github.com/blocklistproject/Lists/blob/master/LICENSE) file.
