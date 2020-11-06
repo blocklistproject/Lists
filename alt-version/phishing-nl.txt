@@ -25247,7 +25247,7 @@ conf1rmfb-aps4.at.ua
 confairs.com
 confeccoesegito.com.br
 confeiruna.com
-conferences.sigcomm.org
+# conferences.sigcomm.org Issue 121
 conferma-amazon.com
 confermazione-info-update.it
 confetti.com.co
