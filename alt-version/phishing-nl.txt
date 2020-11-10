@@ -57230,7 +57230,7 @@ kuru-ko.cl
 kurularinsaat.com.tr
 kurwa-mac.com
 kurz-permanentmakeup.sk
-kurzelinks.de
+# kurzelinks.de Issue 124
 kuser.usa.cc
 kushadangahs.edu.bd
 kushalengineersinc.com
