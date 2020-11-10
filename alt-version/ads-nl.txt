@@ -114558,7 +114558,7 @@ samcmsec.ksmobile.com
 samford.qualtrics.com
 samgu.eu.qualtrics.com
 samiana.com
-samizdat-graphql.nytimes.com
+# samizdat-graphql.nytimes.com Issue 123
 saml.backtrace.io
 samlmqljptbd.com
 sammix.adsame.com
