@@ -10,13 +10,13 @@
 [![ko-fi](https://img.shields.io/badge/Support%20Us-Ko--Fi-orange?style=for-the-badge)](https://ko-fi.com/P5P521OPP)
 
 &nbsp;
-#We are slowly but surely moving away from Patreon. Please see below our crypto addresses
+# We are slowly but surely moving away from Patreon. Please see below our crypto addresses:
 
 Tezos - tz1NPc9GYP83HeJvUxT1Nv73HbNydMUzCQCc
 
 &nbsp;
 
-[![Become a Patron](https://digital.hbs.edu/platform-rctom/wp-content/uploads/sites/4/2018/11/patreon-banner.png)](https://www.patreon.com/bePatron?u=8892646)
+[![Become a Patron]](https://www.patreon.com/bePatron?u=8892646)
 
 &nbsp;
 
