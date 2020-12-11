@@ -14551,7 +14551,7 @@
 0.0.0.0 sia.nanopool.org
 0.0.0.0 sia.pool.mn
 0.0.0.0 sia.suprnova.cc
-0.0.0.0 sia.tech
+ 0.0.0.0 sia.tech Issue 128
 0.0.0.0 sia.usa.nicehash.com
 0.0.0.0 sia.waterhole.io
 0.0.0.0 siaalpha.nanopool.org
@@ -21393,7 +21393,7 @@
 0.0.0.0 www.sia.in.nicehash.com
 0.0.0.0 www.sia.jp.nicehash.com
 0.0.0.0 www.sia.pool.mn
-0.0.0.0 www.sia.tech
+# 0.0.0.0 www.sia.tech Issue 128
 0.0.0.0 www.sia.usa.nicehash.com
 0.0.0.0 www.siamining.com
 0.0.0.0 www.sib.mine.zpool.ca

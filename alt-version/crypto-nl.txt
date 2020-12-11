@@ -14551,7 +14551,7 @@ sia.luxor.tech
 sia.nanopool.org
 sia.pool.mn
 sia.suprnova.cc
-sia.tech
+# sia.tech Issue 128
 sia.usa.nicehash.com
 sia.waterhole.io
 siaalpha.nanopool.org
@@ -21393,7 +21393,7 @@ www.sia.hk.nicehash.com
 www.sia.in.nicehash.com
 www.sia.jp.nicehash.com
 www.sia.pool.mn
-www.sia.tech
+# www.sia.tech Issue 128
 www.sia.usa.nicehash.com
 www.siamining.com
 www.sib.mine.zpool.ca

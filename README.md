@@ -10,8 +10,14 @@
 [![ko-fi](https://img.shields.io/badge/Support%20Us-Ko--Fi-orange?style=for-the-badge)](https://ko-fi.com/P5P521OPP)
 
 &nbsp;
+# We are slowly but surely moving away from Patreon. 
+Please see below our crypto addresses:
 
-[![Become a Patron](https://digital.hbs.edu/platform-rctom/wp-content/uploads/sites/4/2018/11/patreon-banner.png)](https://www.patreon.com/bePatron?u=8892646)
+![Tezos](https://raw.githubusercontent.com/spothq/cryptocurrency-icons/66d20453c8add12a8555d3822fa6983383cb9562/svg/icon/xtz.svg)  tz1NPc9GYP83HeJvUxT1Nv73HbNydMUzCQCc
+ ![Uni](https://raw.githubusercontent.com/spothq/cryptocurrency-icons/66d20453c8add12a8555d3822fa6983383cb9562/svg/icon/eth.svg) 0xB3fd92f0164Bc4454bfDfDcACF19f974cd0Fa1Cd
+&nbsp;
+
+[Become a Patron](https://www.patreon.com/bePatron?u=8892646)
 
 &nbsp;
 
@@ -63,7 +69,7 @@ These converted files can be used with various DNS and domain-blocking tools:
 | Malware| [GitHub Pages Link](https://blocklistproject.github.io/Lists/malware.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/malware-nl.txt) | Copy and pasted into your device ||
 | Phishing| [GitHub Pages Link](https://blocklistproject.github.io/Lists/phishing.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/phishing-nl.txt) | Copy and pasted into your device ||
 | Piracy| [GitHub Pages Link](https://blocklistproject.github.io/Lists/piracy.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/piracy-nl.txt) | Copy and pasted into your device ||
-| Porn| [GitHub Pages Link](https://blocklistproject.github.io/Lists/porn.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/porn-nl.txt) | Copy and pasted into your device ||
+| Porn| [GitHub Pages Link](https://blocklistproject.github.io/Lists/porn.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/porn-nl.txt) | Copy and pasted into your device |[W1T3H4T](https://www.patreon.com/user/creators?u=26512074)|
 | Ransomware| [GitHub Pages Link](https://blocklistproject.github.io/Lists/ransomware.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/ransomware-nl.txt) | Copy and pasted into your device ||
 | Redirect| [GitHub Pages Link](https://blocklistproject.github.io/Lists/redirect.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/redirect-nl.txt) | Copy and pasted into your device ||
 | Scam| [GitHub Pages Link](https://blocklistproject.github.io/Lists/scam.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/scam-nl.txt) | Copy and pasted into your device ||

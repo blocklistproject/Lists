@@ -76924,7 +76924,7 @@ hrv-forum.de.intellitxt.com
 hrvxpinmdyjx.com
 hrykyhqtgcro.com
 hs-analytics.net
-hs-scripts.com
+# hs-scripts.com Issue 129
 hs-sites.com
 hs.appsdorado.com
 hs.clickability.com
@@ -83878,12 +83878,12 @@ js.himediads.com
 js.hotkeys.com
 js.hotlog.ru
 js.hs-analytics.net
-js.hs-scripts.com
+# js.hs-scripts.com Issue 129
 js.hsadspixel.net
-js.hscollectedforms.net
-js.hscta.net
-js.hsforms.net
-js.hsleadflows.net
+# js.hscollectedforms.net Issue 129
+# js.hscta.net Issue 129
+# js.hsforms.net Issue 129
+# js.hsleadflows.net Issue 129
 js.hubspot.com
 js.idio.co
 js.indexww.com
@@ -101421,8 +101421,8 @@ oumax.oupeng.com
 ounaihekw.bid
 oundation-campaign-1344395.pxf.io
 ounyrilukncbj.com
-ouo.io
-ouo.press
+# ouo.io Issue 125
+# ouo.press Issue 125
 ouplog.umeng.com
 ouptoobe.net
 oupushee.com
@@ -114558,7 +114558,7 @@ samcmsec.ksmobile.com
 samford.qualtrics.com
 samgu.eu.qualtrics.com
 samiana.com
-samizdat-graphql.nytimes.com
+# samizdat-graphql.nytimes.com Issue 123
 saml.backtrace.io
 samlmqljptbd.com
 sammix.adsame.com
