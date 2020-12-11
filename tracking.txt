@@ -13436,7 +13436,7 @@
 0.0.0.0 prfhn.com
 0.0.0.0 pricespider.com
 0.0.0.0 primefuse.com
-0.0.0.0 priority-static-api.nkstatic.com
+# 0.0.0.0 priority-static-api.nkstatic.com Issue 141
 0.0.0.0 privacy.aol.com
 0.0.0.0 privateebusiness.com
 0.0.0.0 privatescale.com

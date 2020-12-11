@@ -13436,7 +13436,7 @@ preved.tut.by
 prfhn.com
 pricespider.com
 primefuse.com
-priority-static-api.nkstatic.com
+# priority-static-api.nkstatic.com Issue 141
 privacy.aol.com
 privateebusiness.com
 privatescale.com
