@@ -13130,7 +13130,7 @@ nmp6.com
 nnn.ru
 nobeta.com.br
 nodes.npm9sh75p.com
-nosto.com
+# nosto.com Issue 132
 notice1-09.com
 notice1-11.com
 notice1-12.com
