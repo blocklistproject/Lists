@@ -13130,7 +13130,7 @@
 0.0.0.0 nnn.ru
 0.0.0.0 nobeta.com.br
 0.0.0.0 nodes.npm9sh75p.com
-0.0.0.0 nosto.com
+# 0.0.0.0 nosto.com Issue 132
 0.0.0.0 notice1-09.com
 0.0.0.0 notice1-11.com
 0.0.0.0 notice1-12.com
