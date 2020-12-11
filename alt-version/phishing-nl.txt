@@ -26535,7 +26535,7 @@ credimatico.com.ve
 credimeta.com
 credinnova.pe
 credit-agricole-alert.com
-credit-agricole.fr
+# credit-agricole.fr Issue 127
 credit-agricolefrance.ga
 credit-card-information.elliottback.com
 credit-cusb.com
@@ -57230,7 +57230,7 @@ kuru-ko.cl
 kurularinsaat.com.tr
 kurwa-mac.com
 kurz-permanentmakeup.sk
-kurzelinks.de
+# kurzelinks.de Issue 124
 kuser.usa.cc
 kushadangahs.edu.bd
 kushalengineersinc.com
