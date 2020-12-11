@@ -151643,7 +151643,7 @@ xmr.pt
 xmradioca.7eer.net
 xmrapi.alimabi.cn
 xmrchaqjwqyvz.com
-xmrig.com
+# xmrig.com Issue 138
 xmrminingpro.com
 xmrminingproxy.com
 xmrpool.com
