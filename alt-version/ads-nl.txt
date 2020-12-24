@@ -44982,7 +44982,7 @@ bright.bncnt.com
 bright.su
 brightcom.com
 brightcove.112.2o7.net
-brightcove.map.fastly.net
+# brightcove.map.fastly.net Issue 150
 brightcove01-secure.brightcove.com
 brightcove01.brightcove.com
 brightcove04.brightcove.com
