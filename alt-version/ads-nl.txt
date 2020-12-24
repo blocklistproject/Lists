@@ -117912,7 +117912,7 @@ sitetag.us
 sitetagger.co.uk
 sitethree.com
 sitetistik.com
-sitetracker.com
+# sitetracker.com Issue 137
 sitetracking.sokrati.com
 sitetraq.nl
 siteverification.online
@@ -148933,7 +148933,7 @@ www.sitestat.com
 www.sitestats.com
 www.sitestatslive.com
 www.sitetagger.co.uk
-www.sitetracker.com
+# www.sitetracker.com Issue 137
 www.sixsigmatraffic.com
 www.sizzle-savings.com
 www.sj-nagios.clickability.com
