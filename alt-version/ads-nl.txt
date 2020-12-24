@@ -44982,7 +44982,7 @@ bright.bncnt.com
 bright.su
 brightcom.com
 brightcove.112.2o7.net
-brightcove.map.fastly.net
+# brightcove.map.fastly.net Issue 150
 brightcove01-secure.brightcove.com
 brightcove01.brightcove.com
 brightcove04.brightcove.com
@@ -88100,7 +88100,7 @@ localfusion.secure.ownlocal.com
 localguide.church
 localh0st.info
 localhost.in.getclicky.com
-localhost.localdomain
+# localhost.localdomain Issue 143
 localmantra.com
 localmediabuying.com
 localpoint.ch
@@ -88432,7 +88432,7 @@ logentries.com
 loger.ru
 logethy.com
 logfiles-va-zd1.zoom.us
-logfiles.zoom.us
+# logfiles.zoom.us Issue 148
 logful.getui.com
 logger-01.vty.dailymotion.com
 logger-02.vty.dailymotion.com
@@ -117912,7 +117912,7 @@ sitetag.us
 sitetagger.co.uk
 sitethree.com
 sitetistik.com
-sitetracker.com
+# sitetracker.com Issue 137
 sitetracking.sokrati.com
 sitetraq.nl
 siteverification.online
@@ -133170,7 +133170,7 @@ us01.salmonads.com
 us01.smardroid.com
 us02.lockview.cn
 us03.lockview.cn
-us04logfiles.zoom.us
+# us04logfiles.zoom.us Issue 148
 us1.ero-advertising.com
 us1.evadavdsp.pro
 us1.locationiq.com
@@ -148933,7 +148933,7 @@ www.sitestat.com
 www.sitestats.com
 www.sitestatslive.com
 www.sitetagger.co.uk
-www.sitetracker.com
+# www.sitetracker.com Issue 137
 www.sixsigmatraffic.com
 www.sizzle-savings.com
 www.sj-nagios.clickability.com
@@ -154737,3 +154737,5 @@ pkhhyool.com
 mr2cnjuh34jb.com
 adswrapme.click
 flashonbeach.net
+adskeeper.co.uk
+adserver.adman.si
