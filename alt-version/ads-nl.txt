@@ -88432,7 +88432,7 @@ logentries.com
 loger.ru
 logethy.com
 logfiles-va-zd1.zoom.us
-logfiles.zoom.us
+# logfiles.zoom.us Issue 148
 logful.getui.com
 logger-01.vty.dailymotion.com
 logger-02.vty.dailymotion.com
@@ -133170,7 +133170,7 @@ us01.salmonads.com
 us01.smardroid.com
 us02.lockview.cn
 us03.lockview.cn
-us04logfiles.zoom.us
+# us04logfiles.zoom.us Issue 148
 us1.ero-advertising.com
 us1.evadavdsp.pro
 us1.locationiq.com
