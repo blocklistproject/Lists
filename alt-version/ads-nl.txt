@@ -81797,7 +81797,7 @@ iozsmwjezobro.com
 ip-182-50-129-164.ip.secureserver.net
 ip-182-50-129-181.ip.secureserver.net
 ip-adress.com
-ip-api.com
+# ip-api.com
 ip-geo.appspot.com
 ip-info.ff.avast.com
 ip-label.net
@@ -106913,7 +106913,7 @@ pro.hit.gemius.pl
 pro.hit.stat24.com
 pro.hoye.letv.com
 pro.i-doctor.co.kr
-pro.ip-api.com
+# pro.ip-api.com
 pro.letv.com
 pro.marinsm.com
 pro100news.ru
@@ -146702,7 +146702,7 @@ www.ioh9.com
 www.ionicframework.com
 www.iovation.co.uk
 www.iovation.com
-www.ip-api.com
+# www.ip-api.com
 www.ipage.com
 www.ipcounter.de
 www.iperbanner.com
