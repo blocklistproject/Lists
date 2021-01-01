@@ -834,7 +834,7 @@ mazetorrents.net
 mazysmadhouse.net
 mazysnuthouse.org
 mb4t.info
-mc.yandex.ru
+# mc.yandex.ru Issue 156
 Md-torrents.ruhome
 Mdown.org
 Medbit.ru
