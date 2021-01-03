@@ -610,6 +610,7 @@ analytics.nionex.net
 analytics.nznweb.com.br
 analytics.pixeltricks.de
 analytics.plex.tv
+analytics.prod.mybuddy.ai
 analytics.query.yahoo.com
 analytics.sapo.pt
 analytics.schoolwires.com
