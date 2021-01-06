@@ -1271,7 +1271,7 @@
 0.0.0.0 Supertorent.net
 0.0.0.0 Supertorrents.org
 0.0.0.0 Supreme-speeds.com
-0.0.0.0 surfshark.com
+# 0.0.0.0 surfshark.com Issue 161
 0.0.0.0 svartakatten.org
 0.0.0.0 swebits.org
 0.0.0.0 Swedbay.net
