@@ -610,6 +610,7 @@
 0.0.0.0 analytics.nznweb.com.br
 0.0.0.0 analytics.pixeltricks.de
 0.0.0.0 analytics.plex.tv
+0.0.0.0 analytics.prod.mybuddy.ai
 0.0.0.0 analytics.query.yahoo.com
 0.0.0.0 analytics.sapo.pt
 0.0.0.0 analytics.schoolwires.com
