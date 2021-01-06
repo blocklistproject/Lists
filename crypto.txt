@@ -9545,7 +9545,7 @@
 0.0.0.0 mc.hashhot.com
 0.0.0.0 mc.pool.mn
 0.0.0.0 mc.pool.sexy
-0.0.0.0 mc.yandex.ru
+# 0.0.0.0 mc.yandex.ru Issue 156
 0.0.0.0 mca.pool.mn
 0.0.0.0 mcagbtdcwklf.com
 0.0.0.0 mcc.pool.mn

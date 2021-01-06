@@ -834,7 +834,7 @@
 0.0.0.0 mazysmadhouse.net
 0.0.0.0 mazysnuthouse.org
 0.0.0.0 mb4t.info
-0.0.0.0 mc.yandex.ru
+# 0.0.0.0 mc.yandex.ru Issue 156
 0.0.0.0 Md-torrents.ruhome
 0.0.0.0 Mdown.org
 0.0.0.0 Medbit.ru
@@ -1271,7 +1271,7 @@
 0.0.0.0 Supertorent.net
 0.0.0.0 Supertorrents.org
 0.0.0.0 Supreme-speeds.com
-0.0.0.0 surfshark.com
+# 0.0.0.0 surfshark.com Issue 161
 0.0.0.0 svartakatten.org
 0.0.0.0 swebits.org
 0.0.0.0 Swedbay.net

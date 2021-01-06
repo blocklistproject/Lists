@@ -9545,7 +9545,7 @@ mc.gridcoin.co
 mc.hashhot.com
 mc.pool.mn
 mc.pool.sexy
-mc.yandex.ru
+# mc.yandex.ru Issue 156
 mca.pool.mn
 mcagbtdcwklf.com
 mcc.pool.mn

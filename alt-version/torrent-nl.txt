@@ -834,7 +834,7 @@ mazetorrents.net
 mazysmadhouse.net
 mazysnuthouse.org
 mb4t.info
-mc.yandex.ru
+# mc.yandex.ru Issue 156
 Md-torrents.ruhome
 Mdown.org
 Medbit.ru
@@ -1271,7 +1271,7 @@ super-ip.co.uk
 Supertorent.net
 Supertorrents.org
 Supreme-speeds.com
-surfshark.com
+# surfshark.com Issue 161
 svartakatten.org
 swebits.org
 Swedbay.net
