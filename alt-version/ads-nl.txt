@@ -110832,7 +110832,7 @@ redirectme.net
 redirectnative.com
 redirectoptimizer.com
 redirector.c.googlesyndication.com
-redirector.gvt1.com
+# redirector.gvt1.com Issue 180
 redirector.themobilehub.net
 redirector.whosthat.mobi
 redirectpopads.com
