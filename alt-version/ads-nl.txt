@@ -129830,7 +129830,7 @@ trainingsworld.de.intellitxt.com
 trajan.httpool.com
 trakken.de
 trakksocial.googlecode.com
-traktorski-deli.si
+# traktorski-deli.si Issue 172
 traktr.news.com.au
 traktrafficflow.com
 traktum.com
