@@ -49620,7 +49620,7 @@ cdn.platform.openx.com
 cdn.pljs.ru
 cdn.plopx.com
 cdn.plyr.io
-cdn.podigee.com
+# cdn.podigee.com Issue 174
 cdn.polmontventures.com
 cdn.popcash.net
 cdn.popmyads.com
