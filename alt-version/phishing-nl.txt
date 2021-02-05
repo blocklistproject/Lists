@@ -50797,7 +50797,7 @@ infratechconsulting.com
 infrc2206.000webhostapp.com
 infusion.pbphgwbr.in
 infusorian-altimete.000webhostapp.com
-ing-diba.de
+# ing-diba.de Issue 169
 ing.inactividad.online
 ing8f7c6czvu8gf7cv9hg8.top
 ingappupdate.com
@@ -76823,7 +76823,7 @@ paypal.com.it.signin.53ca4ee85ee7d40be5f8f4eecc526b37.53ca4ee85ee7d40be5f8f4eecc
 paypal.com.login.cgi.submit.confirm.information.com.tzleszek.webd.pl
 paypal.com.ma.cgi.bin.webscr.cmd.flow.session.ok-dui.com
 paypal.com.mushasconsult.com
-paypal.com.myaccount.validation.der.iatxmjzqhibe81zwertghuhjfdeessdffghhjjjkk.bufrtgdsfggrwwssrr.fzzy7nidicadefnalea-center.com.
+paypal.com.myaccount.validation.der.iatxmjzqhibe81zwertghuhjfdeessdffghhjjjkk.bufrtgdsfggrwwssrr.fzzy7nidicadefnalea-center.com
 paypal.com.myaccount.verification.authentication.account.notification.account.update.secure.account-stats.com.blesuites.com
 paypal.com.notice.update.account.4242578.rinduberat.com
 paypal.com.open-case-id-4512-5521-4586-9965.com
@@ -76846,7 +76846,7 @@ paypal.com.supporting1.com
 paypal.com.uk.signin.pediaplan.hu
 paypal.com.update.token.x0twl1mck7p4auyq8bf3.service.loisirs77.fr
 paypal.com.upgrade.information.account.securitychecking.sinobest-ltd.com.hk
-paypal.com.us.continue.myaccount.account.active.login.us.intl.internationa.transfer.now.login.myaccount.account.active.login.us.
+paypal.com.us.continue.myaccount.account.active.login.us.intl.internationa.transfer.now.login.myaccount.account.active.login.us
 paypal.com.user-id568545.update-to-date.duckdns.org
 paypal.com.verif-case-id-2220-7773-6664-5145.com
 paypal.com.verif-id-030319.com
@@ -101683,7 +101683,6 @@ transactionguru.ru
 transactionlimited-paypal.com
 transactionvalet.com
 transaktual.com
-transamericaannuities.com.login.login.aspx.profile.web.ssocontroller.cmd.ssoresume.idpxuhs3.resumesaml20.idp.sso.pingspentityft.
 transazimut.ru
 transbiblica.org
 transcarriersltd.com
@@ -104322,7 +104321,6 @@ usaa.com-login-pages.id3432534641f6a850a564167e47e1fdd0fdacef8342d42f0ad67748442
 usaa.com-sec-inet-auth-logon-ent-logon-logon-redirectjsp8774.oceanvibes.com.au
 usaa.com.alert.bin-accountverification.onlinebanking.com.alhodhud.com
 usaa.com.inet.entlogon.logon.redirectjsp.ef4bce064403e276e26b792bda81c384ce09593b819e632a1.3923ef2c8955cookieid112824nosde.baove
-usaa.com.inet.entlogon.logon.redirectjsp.ef4bce064403e276e26b792bda81c384ce09593b819e632a1.3923ef2c8955cookieid112824nosdeasd.23
 usaa.com.inet.entlogon.logon.redirectjsp.true.details.refererident.srinics.com.au
 usaa.com.login-systemsecurity-securityvalidati-verify.twoguysandawebsite.com
 usaa.com.rtsth.ltd
@@ -115790,7 +115788,6 @@ www.anz.com.inetbank.2fa-sec.com
 www.anz.com.inetbank.bankmain.2fa-sec.com
 www.anz.com.inetbank.bankmain.2faverify.com
 www.anz.sch.id
-www.anz.services.com-6159368de39251d7a-login.id.security.trackid.piwikb7c1867dd7ba9c57.42852106be93c1ba151be6947208b67c.lyrittn.
 www.anzei.org
 www.anzotherm.hu
 www.anzs-bersatu.myjino.ru
