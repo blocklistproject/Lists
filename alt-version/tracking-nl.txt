@@ -14,15 +14,15 @@
 #
 # tracking list
 #------------------------------------[FILTERS]-------------------------------------
-# footprint.net Resolved issue #29
-# hubspot.com Removed per issue 52
+# footprint.net Issue 29
+# hubspot.com Issue 52
 # intercomassets.com Issue 48
 # newrelic.com Issue 53
-#byside.com issue #10
-#counters.gigya.com removed per issue 7
-#gigya.com removed per issue 7
-#ipinfo.io Removed per issue #21
-#yospace.com issue #12
+# byside.com Issue 10
+# counters.gigya.com Issue 7
+# gigya.com Issue 7
+# ipinfo.io Issue 21
+# yospace.com Issue 12
 1-cl0ud.com
 1-creative-1.com
 1000mercis.com

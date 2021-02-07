@@ -14,8 +14,8 @@
 #
 # Phishing list
 #------------------------------------[FILTERS]-------------------------------------
-# appledetails.u removed per issue 6
-# postfinance.ch #Removed per issue 5
+# appledetails.u Issue 6
+# postfinance.ch Issue 5
 0.01.2.13.3.sydneypropertyinvestors.com
 0.01.2.23.3.sydneypropertyinvestors.com
 000.9.009.09.ekurbani.com
