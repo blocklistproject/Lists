@@ -14,8 +14,8 @@
 #
 # Phishing list
 #------------------------------------[FILTERS]-------------------------------------
-# appledetails.u removed per issue 6
-# postfinance.ch #Removed per issue 5
+# appledetails.u Issue 6
+# postfinance.ch Issue 5
 0.01.2.13.3.sydneypropertyinvestors.com
 0.01.2.23.3.sydneypropertyinvestors.com
 000.9.009.09.ekurbani.com
@@ -15893,7 +15893,7 @@ bespokemediadubai.com
 bessiesim.club
 best-air.co.il
 best-battleup.gq
-best-cons.ru
+# best-cons.ru Issue 190
 best-detox.com
 best-digital-slr-cameras.com
 best-drop.me
@@ -121977,7 +121977,7 @@ www.bespokehoodies.co.uk
 www.bespokemediadubai.com
 www.bessiesim.club
 www.best-air.co.il
-www.best-cons.ru
+# www.best-cons.ru Issue 190
 www.best-detox.com
 www.best-digital-slr-cameras.com
 www.best-drop.me
