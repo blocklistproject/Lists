@@ -368,6 +368,8 @@
 0.0.0.0 Contego.ws
 0.0.0.0 coppersurfer.tk
 0.0.0.0 couchtuner.unblocked.llc
+0.0.0.0 cpasbien.sh
+0.0.0.0 cpasbienss.fr
 0.0.0.0 Cpturbo.org
 0.0.0.0 Craiovatracker.com
 0.0.0.0 Crazysaloon.com
