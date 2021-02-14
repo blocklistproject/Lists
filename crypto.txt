@@ -1,3 +1,4 @@
+
 #------------------------------------[UPDATE]--------------------------------------
 # Title: The Block List Project
 # Version:Fri, 12 Jun 2020 21:24:09 +0000
@@ -1173,7 +1174,7 @@
 0.0.0.0 app.coinsprofit.com
 0.0.0.0 app.houyi.baofeng.net
 0.0.0.0 app.multimining.org
-0.0.0.0 app.pr0gramm.com
+# 0.0.0.0 app.pr0gramm.com Issue 194
 0.0.0.0 app.slushpool.com
 0.0.0.0 app.supportxmr.com
 0.0.0.0 app.tanwan.com
@@ -1480,7 +1481,7 @@
 0.0.0.0 aux2.whalesburg.com
 0.0.0.0 av.hashhot.com
 0.0.0.0 av.pool.mn
-0.0.0.0 avatar.pr0gramm.com
+# 0.0.0.0 avatar.pr0gramm.com Issue 194
 0.0.0.0 avdfcctzwfdk.com
 0.0.0.0 avditmiohvtq.bid
 0.0.0.0 avefyjulko.bid
@@ -4978,7 +4979,7 @@
 0.0.0.0 esc.hashhot.com
 0.0.0.0 esc.pool.mn
 0.0.0.0 esc.thecoin.pw
-0.0.0.0 escobar.pr0gramm.com
+# 0.0.0.0 escobar.pr0gramm.com Issue 194
 0.0.0.0 esgwceckxumg.com
 0.0.0.0 eslgydoqbedo.com
 0.0.0.0 eslydbnukkme.com
@@ -6261,7 +6262,7 @@
 0.0.0.0 fud.suprnova.cc
 0.0.0.0 fuhgvhuukl.bid
 0.0.0.0 fujiseed.sighash.info
-0.0.0.0 full.pr0gramm.com
+# 0.0.0.0 full.pr0gramm.com Issue 194
 0.0.0.0 fund.pool.mn
 0.0.0.0 fund.suprnova.cc
 0.0.0.0 funk.majorminers.com
@@ -6875,7 +6876,7 @@
 0.0.0.0 halopool.maxhash.org
 0.0.0.0 ham.hashhot.com
 0.0.0.0 ham.thecoin.pw
-0.0.0.0 hans.pr0gramm.com
+# 0.0.0.0 hans.pr0gramm.com Issue 194
 0.0.0.0 hansa.suprnova.cc
 0.0.0.0 hanwlgpecblxf.bid
 0.0.0.0 hao.7654.com
@@ -7296,7 +7297,7 @@
 0.0.0.0 hund.suprnova.cc
 0.0.0.0 huodong.ios.shouji.360.cn
 0.0.0.0 huoying666.com
-0.0.0.0 hurensohn.pr0gramm.com
+# 0.0.0.0 hurensohn.pr0gramm.com Issue 194
 0.0.0.0 huriylhqkylbo.bid
 0.0.0.0 huscav.ethosdistro.com
 0.0.0.0 husetdmrejiyjy.bid
@@ -7612,7 +7613,7 @@
 0.0.0.0 img.jizzads.com
 0.0.0.0 img.jsecoin.com
 0.0.0.0 img.namunil.com
-0.0.0.0 img.pr0gramm.com
+# 0.0.0.0 img.pr0gramm.com Issue 194
 0.0.0.0 img.shouji.sogou.com
 0.0.0.0 img.taotaosou.cn
 0.0.0.0 img.toppr.com.cn
@@ -9325,7 +9326,7 @@
 0.0.0.0 m.panda.voiceads.cn
 0.0.0.0 m.poloniex.com
 0.0.0.0 m.pool.mn
-0.0.0.0 m.pr0gramm.com
+# 0.0.0.0 m.pr0gramm.com Issue 194
 0.0.0.0 m.pubbirdf.com
 0.0.0.0 m.qpic.cn
 0.0.0.0 m.reachmax.cn
@@ -9873,7 +9874,7 @@
 0.0.0.0 miner.nimiq.com
 0.0.0.0 miner.oozing.co
 0.0.0.0 miner.ppxxmr.com
-0.0.0.0 miner.pr0gramm.com
+# 0.0.0.0 miner.pr0gramm.com Issue 194
 0.0.0.0 miner.rocks
 0.0.0.0 miner1.minergate.com
 0.0.0.0 miner2.sighash.info
@@ -12645,7 +12646,7 @@
 0.0.0.0 pr.thecoin.pw
 0.0.0.0 pr.ybp.yahoo.com
 0.0.0.0 pr0gram.org
-0.0.0.0 pr0gramm.com
+# 0.0.0.0 pr0gramm.com Issue 194
 0.0.0.0 practivate.adobe.com
 0.0.0.0 praeicwgzapf.com
 0.0.0.0 prbitcoin.com
@@ -15961,7 +15962,7 @@
 0.0.0.0 thpsflsjw.com
 0.0.0.0 thread.multiminerapp.com
 0.0.0.0 three-jj.github.io
-0.0.0.0 thumb.pr0gramm.com
+# 0.0.0.0 thumb.pr0gramm.com Issue 194
 0.0.0.0 thvdzghlvfoh.com
 0.0.0.0 thvrvojkkjkkpe.bid
 0.0.0.0 thx113.ethosdistro.com
@@ -17186,7 +17187,7 @@
 0.0.0.0 vic.pool.sexy
 0.0.0.0 vicofhozbuaf.com
 0.0.0.0 vid.atdmt.com
-0.0.0.0 vid.pr0gramm.com
+# 0.0.0.0 vid.pr0gramm.com Issue 194
 0.0.0.0 video-ad-stats.googlesyndication.com
 0.0.0.0 video.cooguo.com
 0.0.0.0 video.estream.nu
@@ -18478,7 +18479,7 @@
 0.0.0.0 wvxywejnmpsh.bid
 0.0.0.0 ww.bitcoins.lc
 0.0.0.0 ww.multipool.com
-0.0.0.0 ww.pr0gramm.com
+# 0.0.0.0 ww.pr0gramm.com Issue 194
 0.0.0.0 ww.suprnova.cc
 0.0.0.0 ww.xiaopiaoyou.com
 0.0.0.0 ww.xpool.ca
@@ -18571,7 +18572,7 @@
 0.0.0.0 wwv.onetad.com
 0.0.0.0 www-01.nanopool.org
 0.0.0.0 www-origin.poolmining.org
-0.0.0.0 www-tb7c.pr0gramm.com
+# 0.0.0.0 www-tb7c.pr0gramm.com Issue 194
 0.0.0.0 www-test.nicehash.com
 0.0.0.0 www.114so.cn
 0.0.0.0 www.115776615-884492032168661957.preview.editmysite.com
@@ -21113,7 +21114,7 @@
 0.0.0.0 www.pps.btcguild.com
 0.0.0.0 www.ppxxmr.com
 0.0.0.0 www.pr.thecoin.pw
-0.0.0.0 www.pr0gramm.com
+# 0.0.0.0 www.pr0gramm.com Issue 194
 0.0.0.0 www.prbitcoin.com
 0.0.0.0 www.premiumminer.com
 0.0.0.0 www.preorder.trezor.io
