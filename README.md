@@ -25,7 +25,7 @@
 
 Please see below our crypto addresses:
 
-<img  src="https://raw.githubusercontent.com/blocklistproject/Lists/master/img/t1WZnYUzWH8avcUEZ_.png"  width="125"><img src="https://raw.githubusercontent.com/blocklistproject/Lists/master/img/c5c733ea2f08d97c4_.png"  width="125"> 
+<img  src="https://raw.githubusercontent.com/blocklistproject/Lists/master/img/t1WZnYUzWH8avcUEZ_.png"  width="125">&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/blocklistproject/Lists/master/img/c5c733ea2f08d97c4_.png"  width="125"> 
 
   
   
