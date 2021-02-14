@@ -1,3 +1,4 @@
+
 #------------------------------------[UPDATE]--------------------------------------
 # Title: The Block List Project
 # Expires: 1 day
@@ -93064,7 +93065,7 @@ miner.cinemafacil.com
 miner.cryptobara.com
 miner.nablabee.com
 miner.oozing.co
-miner.pr0gramm.com
+# miner.pr0gramm.com Issue 194
 miner.rocks
 minerad.com
 mineralt.io
@@ -128944,7 +128945,7 @@ tracker.thinkindot.com
 tracker.timesgroup.com
 tracker.tintucvietnam.vn
 tracker.trackerbox.com
-tracker.trackerfix.com
+# tracker.trackerfix.com Issue 202
 tracker.tradedoubler.com
 tracker.truehits.in.th
 tracker.truehits.net
