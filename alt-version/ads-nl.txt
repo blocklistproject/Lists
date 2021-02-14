@@ -75590,7 +75590,7 @@ herbeauty.info
 herbisttjojeo.download
 hercules.iad.appboy.com
 herdethi.net
-here.com
+# here.com Reddit issue
 heredeutschlandgmbh.d1.sc.omtrdc.net
 herezera.com
 heritagecu.ca.102.112.2o7.net
@@ -141607,7 +141607,7 @@ whegadry.com
 whehilru.com
 whenu.com
 whenupgrade.yourmainsourceforcontentprepared.win
-where.com
+# where.com Reddit issue
 whereapps.com
 wheredoyoucomefrom.ovh
 whereismommy.gq
