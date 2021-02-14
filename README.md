@@ -1,4 +1,5 @@
 
+  
 
 # The Block List Project
 
@@ -13,9 +14,13 @@
 # We are slowly but surely moving away from Patreon.
 Please see below our crypto addresses:
 
-![Tezos](https://raw.githubusercontent.com/spothq/cryptocurrency-icons/66d20453c8add12a8555d3822fa6983383cb9562/svg/icon/xtz.svg)  tz1NPc9GYP83HeJvUxT1Nv73HbNydMUzCQCc
+<img src="https://raw.githubusercontent.com/blocklistproject/Lists/master/img/t1WZnYUzWH8avcUEZ_.png" width="125">
+<img src="https://raw.githubusercontent.com/blocklistproject/Lists/master/img/c5c733ea2f08d97c4_.png" width="125">
+
  ![Uni](https://raw.githubusercontent.com/spothq/cryptocurrency-icons/66d20453c8add12a8555d3822fa6983383cb9562/svg/icon/eth.svg) 0xB3fd92f0164Bc4454bfDfDcACF19f974cd0Fa1Cd
 &nbsp;
+
+As we move away from Patreon we are also changing our crypto payment addresses to a more secure Hardware wallet ([Ledger](https://shop.ledger.com/pages/ledger-nano-x?r=f60e80a16431&tracker=github)<--Click here to learn more about Ledger and support the Block List Project).
 
 [Become a Patron](https://www.patreon.com/bePatron?u=8892646)
 
