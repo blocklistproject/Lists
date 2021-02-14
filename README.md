@@ -1,5 +1,5 @@
 
-  
+
 # The Block List Project
 
 
@@ -10,7 +10,7 @@
 [![ko-fi](https://img.shields.io/badge/Support%20Us-Ko--Fi-orange?style=for-the-badge)](https://ko-fi.com/P5P521OPP)
 
 &nbsp;
-# We are slowly but surely moving away from Patreon. 
+# We are slowly but surely moving away from Patreon.
 Please see below our crypto addresses:
 
 ![Tezos](https://raw.githubusercontent.com/spothq/cryptocurrency-icons/66d20453c8add12a8555d3822fa6983383cb9562/svg/icon/xtz.svg)  tz1NPc9GYP83HeJvUxT1Nv73HbNydMUzCQCc
@@ -34,7 +34,7 @@ Please see below our crypto addresses:
 These lists were created because the founder of the project wanted something with a little more control over what is being blocked. Many lists are all or nothing. We set out to create lists with more control over what is being blocked.
 &nbsp;
 ## Versions:
-We have recently created an alternative version (Alt-Version) of our lists. 
+We have recently created an alternative version (Alt-Version) of our lists.
 <p>Original Version:</p>
 <p>&nbsp;All urls in the version of the list are listed in the host file as follows</p>
 <p> &nbsp;&nbsp;0.0.0.0 example.com</p>
@@ -42,7 +42,7 @@ We have recently created an alternative version (Alt-Version) of our lists.
   <p>&nbsp;All urls in this version of the list are listed in the host file as follows</p>
       <p> &nbsp;&nbsp;example.com</p>
 
-Our users brought it to our attention that some devices error out if the url is preceded by an IP address. 
+Our users brought it to our attention that some devices error out if the url is preceded by an IP address.
 
 &nbsp;
 
@@ -93,7 +93,7 @@ Special thank you to [Cloud 4 SURE](https://www.cloud4sure.net) for their genero
 
 # License:
 
-For more details, see the [LICENSES](https://github.com/blocklistproject/Lists/blob/master/LICENSE) file.
+For more details, see the [LICENSE](https://github.com/blocklistproject/Lists/blob/master/LICENSE) file.
 
 &nbsp;
 
