@@ -21,7 +21,7 @@
 
 &nbsp;
 
-# We are slowly but surely moving away from Patreon.
+# We are slowly but surely moving away from [Patreon](https://www.patreon.com/bePatron?u=8892646).
 
 Please see below our crypto addresses:
 
