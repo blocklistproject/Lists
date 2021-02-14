@@ -1,3 +1,4 @@
+
 #------------------------------------[UPDATE]--------------------------------------
 # Title: The Block List Project
 # Version:Fri, 12 Jun 2020 21:24:09 +0000
@@ -1173,7 +1174,7 @@ app.btcchina.com
 app.coinsprofit.com
 app.houyi.baofeng.net
 app.multimining.org
-app.pr0gramm.com
+# app.pr0gramm.com Issue 194
 app.slushpool.com
 app.supportxmr.com
 app.tanwan.com
@@ -1480,7 +1481,7 @@ autologica.ga
 aux2.whalesburg.com
 av.hashhot.com
 av.pool.mn
-avatar.pr0gramm.com
+# avatar.pr0gramm.com Issue 194
 avdfcctzwfdk.com
 avditmiohvtq.bid
 avefyjulko.bid
@@ -4978,7 +4979,7 @@ es.minergate.com
 esc.hashhot.com
 esc.pool.mn
 esc.thecoin.pw
-escobar.pr0gramm.com
+# escobar.pr0gramm.com Issue 194
 esgwceckxumg.com
 eslgydoqbedo.com
 eslydbnukkme.com
@@ -6261,7 +6262,7 @@ fud.hashhot.com
 fud.suprnova.cc
 fuhgvhuukl.bid
 fujiseed.sighash.info
-full.pr0gramm.com
+# full.pr0gramm.com Issue 194
 fund.pool.mn
 fund.suprnova.cc
 funk.majorminers.com
@@ -6875,7 +6876,7 @@ halo.minerpool.net
 halopool.maxhash.org
 ham.hashhot.com
 ham.thecoin.pw
-hans.pr0gramm.com
+# hans.pr0gramm.com Issue 194
 hansa.suprnova.cc
 hanwlgpecblxf.bid
 hao.7654.com
@@ -7296,7 +7297,7 @@ hunantv.m.cn.miaozhen.com
 hund.suprnova.cc
 huodong.ios.shouji.360.cn
 huoying666.com
-hurensohn.pr0gramm.com
+# hurensohn.pr0gramm.com Issue 194
 huriylhqkylbo.bid
 huscav.ethosdistro.com
 husetdmrejiyjy.bid
@@ -7612,7 +7613,7 @@ img.jgchq.com
 img.jizzads.com
 img.jsecoin.com
 img.namunil.com
-img.pr0gramm.com
+# img.pr0gramm.com Issue 194
 img.shouji.sogou.com
 img.taotaosou.cn
 img.toppr.com.cn
@@ -9325,7 +9326,7 @@ m.nbhaosheng168.com
 m.panda.voiceads.cn
 m.poloniex.com
 m.pool.mn
-m.pr0gramm.com
+# m.pr0gramm.com Issue 194
 m.pubbirdf.com
 m.qpic.cn
 m.reachmax.cn
@@ -9873,7 +9874,7 @@ miner.nicehash.com
 miner.nimiq.com
 miner.oozing.co
 miner.ppxxmr.com
-miner.pr0gramm.com
+# miner.pr0gramm.com Issue 194
 miner.rocks
 miner1.minergate.com
 miner2.sighash.info
@@ -12645,7 +12646,7 @@ pr.da.netease.com
 pr.thecoin.pw
 pr.ybp.yahoo.com
 pr0gram.org
-pr0gramm.com
+# pr0gramm.com Issue 194
 practivate.adobe.com
 praeicwgzapf.com
 prbitcoin.com
@@ -15961,7 +15962,7 @@ thor.nanopool.org
 thpsflsjw.com
 thread.multiminerapp.com
 three-jj.github.io
-thumb.pr0gramm.com
+# thumb.pr0gramm.com Issue 194
 thvdzghlvfoh.com
 thvrvojkkjkkpe.bid
 thx113.ethosdistro.com
@@ -17186,7 +17187,7 @@ vic.minerpool.net
 vic.pool.sexy
 vicofhozbuaf.com
 vid.atdmt.com
-vid.pr0gramm.com
+# vid.pr0gramm.com Issue 194
 video-ad-stats.googlesyndication.com
 video.cooguo.com
 video.estream.nu
@@ -18478,7 +18479,7 @@ wvxnvnrsahfd.bid
 wvxywejnmpsh.bid
 ww.bitcoins.lc
 ww.multipool.com
-ww.pr0gramm.com
+# ww.pr0gramm.com Issue 194
 ww.suprnova.cc
 ww.xiaopiaoyou.com
 ww.xpool.ca
@@ -18571,7 +18572,7 @@ wwis-dubc1-vip60.adobe.com
 wwv.onetad.com
 www-01.nanopool.org
 www-origin.poolmining.org
-www-tb7c.pr0gramm.com
+# www-tb7c.pr0gramm.com Issue 194
 www-test.nicehash.com
 www.114so.cn
 www.115776615-884492032168661957.preview.editmysite.com
@@ -21113,7 +21114,7 @@ www.ppoi.org
 www.pps.btcguild.com
 www.ppxxmr.com
 www.pr.thecoin.pw
-www.pr0gramm.com
+# www.pr0gramm.com Issue 194
 www.prbitcoin.com
 www.premiumminer.com
 www.preorder.trezor.io
