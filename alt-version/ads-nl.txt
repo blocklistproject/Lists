@@ -36090,7 +36090,7 @@ analyticselb.localytics.com
 analyticsengine.s3.amazonaws.com
 analyticshap.localytics.com
 analyticsindiamag-com.cdn.ampproject.org
-analyticsindiamag.com
+# analyticsindiamag.com Issue 205
 analyticsip.net
 analyticsncc.net
 analyticsnew.overwolf.com
