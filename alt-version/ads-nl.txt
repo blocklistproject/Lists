@@ -36090,7 +36090,7 @@ analyticselb.localytics.com
 analyticsengine.s3.amazonaws.com
 analyticshap.localytics.com
 analyticsindiamag-com.cdn.ampproject.org
-analyticsindiamag.com
+# analyticsindiamag.com Issue 205
 analyticsip.net
 analyticsncc.net
 analyticsnew.overwolf.com
@@ -75590,7 +75590,7 @@ herbeauty.info
 herbisttjojeo.download
 hercules.iad.appboy.com
 herdethi.net
-here.com
+# here.com Reddit issue
 heredeutschlandgmbh.d1.sc.omtrdc.net
 herezera.com
 heritagecu.ca.102.112.2o7.net
@@ -97587,7 +97587,7 @@ nlhayvlqar.bid
 nlhhrkamvs.bid
 nlhra.voluumtrk.com
 nljpyhzkat.com
-nllapps.com
+# nllapps.com Issue 204
 nllbirpx.com
 nlljrfvbnisi.com
 nlmzvpvvhsau.bid
@@ -141607,7 +141607,7 @@ whegadry.com
 whehilru.com
 whenu.com
 whenupgrade.yourmainsourceforcontentprepared.win
-where.com
+# where.com Reddit issue
 whereapps.com
 wheredoyoucomefrom.ovh
 whereismommy.gq
@@ -154736,3 +154736,4 @@ adswrapme.click
 flashonbeach.net
 adskeeper.co.uk
 adserver.adman.si
+safeframe.googlesyndication.com
