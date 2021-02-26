@@ -11216,7 +11216,7 @@ accounts-analyticsapp.paytm.com
 accounts.backtrace.io
 accounts.brightcove.com
 accounts.doubleclick.net
-accounts.eu1.gigya.com
+# accounts.eu1.gigya.com Issue 211
 accounts.in.backtrace.io
 accounts.livefyre.com
 accounts.petametrics.com
@@ -49488,7 +49488,7 @@ cdn.ip.inpwrd.com
 cdn.ipromote.com
 cdn.ish.atdmt.com
 cdn.isnssdk.com
-cdn.iubenda.com
+# cdn.iubenda.com Issue 210
 cdn.izooto.com
 cdn.jampp.com
 cdn.jquery-uim.download
@@ -49647,7 +49647,7 @@ cdn.qgraph.io
 cdn.qualaroo.com
 cdn.quantummetric.com
 cdn.ramctrlgate.com
-cdn.ravenjs.com
+# cdn.ravenjs.com Issue 206
 cdn.redlightcenter.com
 cdn.redtrack.io
 cdn.refersion.com
@@ -50134,8 +50134,8 @@ cdnrl.com
 cdns.amgdgt.com
 cdns.brsrvr.com
 cdns.connatix.com
-cdns.eu1.gigya.com
-cdns.gigya.com
+# cdns.eu1.gigya.com Issue 211
+# cdns.gigya.com Issue 211
 cdns.lodeo.io
 cdns.mydirtyhobby.com
 cdns.o333o.com
@@ -56178,7 +56178,7 @@ counters.auctionhelper.com
 counters.auctionwatch.com
 counters.auctiva.com
 counters.freewebs.com
-counters.gigya.com
+# counters.gigya.com Issue 211
 counters.honesty.com
 counters.vendio.com
 counters4u.com
@@ -61522,7 +61522,7 @@ dn.adx1.com
 dn.adzerver.com
 dn.c.richmetrics.com
 dn.livefyre.com
-dn.ravenjs.com
+# dn.ravenjs.com Issue 206
 dn.teads.tv
 dn01.casalemedia.com
 dn02.casalemedia.com
@@ -74334,9 +74334,9 @@ gsassets0.getsocial.io
 gsassets1.getsocial.io
 gsassets2.getsocial.io
 gscontxt.net
-gscounters.eu1.gigya.com
-gscounters.gigya.com
-gscounters.us1.gigya.com
+# gscounters.eu1.gigya.com Issue 211
+# gscounters.gigya.com Issue 211
+# gscounters.us1.gigya.com Issue 211
 gscsystemwithdarren.com
 gsdk-cfg-v3-0.vectaury.io
 gsdk.proximabeta.com
@@ -76067,7 +76067,7 @@ hitopadxdz.xyz
 hitplus.ir
 hitpro.us
 hitrostigizni.mirtesen.ru
-hits-i.iubenda.com
+# hits-i.iubenda.com Issue 210
 hits.convergetrack.com
 hits.dealer.com
 hits.e.cl
@@ -80973,7 +80973,7 @@ ingest.crittercism.com
 ingest.eu.crittercism.com
 ingest.fwmrm.net
 ingest.m2appmonitor.com
-ingest.sentry.io
+# ingest.sentry.io Issue 206
 ingest.unbounce.com
 ingest.vungle.com
 ingestion.api.brightcove.com
@@ -118919,8 +118919,8 @@ socialholic-d.openx.net
 socialhoney.co
 socialitelife.us.intellitxt.com
 socialize-it.com
-socialize.eu1.gigya.com
-socialize.us1.gigya.com
+# socialize.eu1.gigya.com Issue 211
+# socialize.us1.gigya.com Issue 211
 socialknowledge-d.openx.net
 sociallead.affise.com
 sociallitelife.tags.crwdcntrl.net
@@ -119616,7 +119616,7 @@ spiderhood.net
 spidermobi.com
 spidersboats.com
 spidtest.org
-spiegel-de.spiegel.de
+# spiegel-de.spiegel.de Issue 208
 spiegel.met.vgwort.de
 spiegel.rce.veeseo.com
 spiffymachine.com
@@ -146747,7 +146747,7 @@ www.itrckr.com
 www.itsupport.outbrain.com
 www.itunesdownloadstore.com
 www.ituwnqfhoimpresari.review
-www.iubenda.com
+# www.iubenda.com Issue 210
 www.iuqerfsodp9ifjaposdfjhgosurijfaewrwergwea.com
 www.iuqerfsodp9ifjaposdfjhgosurijfaewrwergwff.com
 www.iusfpiadefunction.review
@@ -148427,7 +148427,7 @@ www.rapleaf.com
 www.rasedbdhczr.download
 www.rasius.pro
 www.ratemodels.net
-www.ravenjs.com
+# www.ravenjs.com Issue 206
 www.rayban-brand.com
 www.rayban-sk.com
 www.raygun.io
