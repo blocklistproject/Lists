@@ -394,7 +394,7 @@
 0.0.0.0 adbtc.top
 0.0.0.0 adc.suprnova.cc
 0.0.0.0 adcast.deviantart.com
-0.0.0.0 adclick.g.doubleclick.net
+# 0.0.0.0 adclick.g.doubleclick.net Belongs in ad list
 0.0.0.0 adconity.com
 0.0.0.0 adcore.lenovomm.com
 0.0.0.0 add.pool.mn
