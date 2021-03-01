@@ -25,7 +25,13 @@
 
 Please see below our crypto addresses:
 
-Ethereum: <br><img  src="https://raw.githubusercontent.com/blocklistproject/Lists/master/img/eth-qr-code.png"  width="125"><br>Algorand: <br>&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/blocklistproject/Lists/master/img/algo-qr-code.png"  width="125">&nbsp;&nbsp;Basic Attention Token: <br><img src="https://raw.githubusercontent.com/blocklistproject/Lists/master/img/bat-qr-code.png"  width="125"> &nbsp;&nbsp;Bitcoin: <br><img src="https://raw.githubusercontent.com/blocklistproject/Lists/master/img/btc-qr-code.png"  width="125"> &nbsp;&nbsp;ZCash: <br><img src="https://raw.githubusercontent.com/blocklistproject/Lists/master/img/zcash-qr-code.png"  width="125"> &nbsp;&nbsp;Dash: <br><img src="https://raw.githubusercontent.com/blocklistproject/Lists/master/img/dash-qr-code.png"  width="125"> 
+| Ethereum      | Algorand      | Basic Attention Token  |  Bitcoin  | ZCash  |  Dash  |
+| ------------- |:-------------:| -----:| -----:| -----:| -----:|
+| <img src="https://raw.githubusercontent.com/blocklistproject/Lists/master/img/eth-qr-code.png"  width="125">      | <img src="https://raw.githubusercontent.com/blocklistproject/Lists/master/img/algo-qr-code.png"  width="125"> | <img src="https://raw.githubusercontent.com/blocklistproject/Lists/master/img/bat-qr-code.png"  width="125"> | <img src="https://raw.githubusercontent.com/blocklistproject/Lists/master/img/btc-qr-code.png"  width="125"> | <img src="https://raw.githubusercontent.com/blocklistproject/Lists/master/img/zcash-qr-code.png"  width="125"> | <img src="https://raw.githubusercontent.com/blocklistproject/Lists/master/img/dash-qr-code.png"  width="125"> |
+| Address      | Address      |   Address |   Address |   Address |   Address |
+
+
+
 
   
   
