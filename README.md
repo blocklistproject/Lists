@@ -28,7 +28,7 @@ Please see below our crypto addresses:
 | Ethereum      | Algorand      | Basic Attention Token      | Bitcoin      | ZCash      | Dash      |
 | :-------------: | :-------------: | :-------------: | :-------------: | :-------------: | :-------------: |
 | <img src="https://raw.githubusercontent.com/blocklistproject/Lists/master/img/eth-qr-code.png"  width="125">      | <img src="https://raw.githubusercontent.com/blocklistproject/Lists/master/img/algo-qr-code.png"  width="125"> | <img src="https://raw.githubusercontent.com/blocklistproject/Lists/master/img/bat-qr-code.png"  width="125"> | <img src="https://raw.githubusercontent.com/blocklistproject/Lists/master/img/btc-qr-code.png"  width="125"> | <img src="https://raw.githubusercontent.com/blocklistproject/Lists/master/img/zcash-qr-code.png"  width="125"> | <img src="https://raw.githubusercontent.com/blocklistproject/Lists/master/img/dash-qr-code.png"  width="125"> |
-| Address      | Address      |   Address |   Address |   Address |   Address |
+| 0xf4e7Ebc9dDaD921D01eFB3185F1133fA112224F5      | 6RNHVZDT3UCJLWETIOOWKYSEQO4P7Z7PSI73IFBJ644RG6UVQCW7ZJB3OQ      |   0x329e41c77a14A1E79800dA643A4205B97A61C809 |   34t6sxNo2iCJSibCw2ZVPReio3J6UY1fCX |   t1VQn1NHqRJh7BoAhbfTj1v6hR6TUAmiJbp |   Xx8PZq8QnxuMj4bXTRQGoMEGLvYEcaMuCN |
 
 
 
