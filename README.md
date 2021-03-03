@@ -51,6 +51,8 @@ As we move away from Patreon we are also changing our crypto payment addresses t
 
 -  [Details](#details)
 
+-  [Updates](#updates)
+
 -  [Versions](#versions)
 
 -  [Usage](#usage)
@@ -70,6 +72,12 @@ As we move away from Patreon we are also changing our crypto payment addresses t
 # Details:
 
 These lists were created because the founder of the project wanted something with a little more control over what is being blocked. Many lists are all or nothing. We set out to create lists with more control over what is being blocked.
+
+&nbsp;
+
+## Updates:
+
+As of right now, the "everything" and "everything-nl" lists are NOT being updated. Please updated your devices accordingly
 
 &nbsp;
 
