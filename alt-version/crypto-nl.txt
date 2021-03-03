@@ -1,6 +1,6 @@
 
 #------------------------------------[UPDATE]--------------------------------------
-# Title: The Block List Project
+# Title: The Block List Project - Crypto List (NL)
 # Version:Fri, 12 Jun 2020 21:24:09 +0000
 # Expires: 1 day
 # Homepage: https://blocklist.site
