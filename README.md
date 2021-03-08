@@ -131,7 +131,7 @@ These converted files can be used with various DNS and domain-blocking tools:
 
 | List | Link | Link w/o leading IP | Description | Sponsor<sup>&#8224;</sup> |
 |--|--|--| -- | -- |
-| Abuse| [<sup><sub>https://blocklistproject.github.io/Lists/abuse.txt</sub></sup>](https://blocklistproject.github.io/Lists/abuse.txt) | [https://blocklistproject.github.io/Lists/alt-version/abuse-nl.txt](https://blocklistproject.github.io/Lists/alt-version/abuse-nl.txt) | Copy and pasted into your device |Armstrong|
+| Abuse| [<sup><sub>https://blocklistproject.github.io/Lists/abuse.txt</sub></sup>](https://blocklistproject.github.io/Lists/abuse.txt) | [<sup><sub>https://blocklistproject.github.io/Lists/alt-version/abuse-nl.txt</sub></sup>](https://blocklistproject.github.io/Lists/alt-version/abuse-nl.txt) | Copy and pasted into your device |Armstrong|
 | Ads| [GitHub Pages Link](https://blocklistproject.github.io/Lists/ads.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/ads-nl.txt) | Copy and pasted into your device ||
 | Crypto| [GitHub Pages Link](https://blocklistproject.github.io/Lists/crypto.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/crypto-nl.txt) | Copy and pasted into your device ||
 | Drugs| [GitHub Pages Link](https://blocklistproject.github.io/Lists/drugs.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/drugs-nl.txt) | Copy and pasted into your device ||
