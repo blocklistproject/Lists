@@ -131,7 +131,7 @@ These converted files can be used with various DNS and domain-blocking tools:
 
 | List | Link | Link w/o leading IP | Description | Sponsor<sup>&#8224;</sup> |
 |--|--|--| -- | -- |
-| Abuse| [<sup><sub>https://blocklistproject.github.io/Lists/abuse.txt</sub></sup>](https://blocklistproject.github.io/Lists/abuse.txt) | [<sup><sub>https://blocklistproject.github.io/Lists/alt-version/abuse-nl.txt</sub></sup>](https://blocklistproject.github.io/Lists/alt-version/abuse-nl.txt) | Lists of sites created to deceive |Armstrong|
+| Abuse| [GitHub Pages Link](https://blocklistproject.github.io/Lists/abuse.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/abuse-nl.txt) | Lists of sites created to deceive |Armstrong|
 | Ads| [GitHub Pages Link](https://blocklistproject.github.io/Lists/ads.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/ads-nl.txt) | Ad servers/sites ||
 | Crypto| [GitHub Pages Link](https://blocklistproject.github.io/Lists/crypto.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/crypto-nl.txt) | Crypto/cryptojacking based sites <br> <sup>Can break normal "good" crypto sites</sup> ||
 | Drugs| [GitHub Pages Link](https://blocklistproject.github.io/Lists/drugs.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/drugs-nl.txt) | RE sites that deal with illegal drugs <br><sub>Including RX drugs illegal to posses in the US</sub> ||
