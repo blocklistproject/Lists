@@ -1430,7 +1430,6 @@ cqcounter.com
 cquotient.com
 crash.steampowered.com
 crashdump.spotify.com
-crashlytics.com
 crazyegg.com
 crealytics.com
 createabetterinternet.com

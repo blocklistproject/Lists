@@ -37045,7 +37045,6 @@ api.contextly.com
 api.conversant.mgr.consensu.org
 api.cossette.adgear.com
 api.cpu.baidu.com
-api.crashlytics.com
 api.crispadvertising.com
 api.crittercism.com
 api.crowdin.com
@@ -37894,7 +37893,6 @@ app.comagic.ru
 app.compete.com
 app.cookieassistant.com
 app.cooleremail.com
-app.crashlytics.com
 app.crazyegg.com
 app.crittercism.com
 app.crossengage.io
@@ -38258,7 +38256,6 @@ apprupt.com
 apps-cloud.xyz
 apps-ext.outfit7.com
 apps-infor.com
-apps-ios.crashlytics.com
 apps.ad.snappea.com
 apps.admission.net
 apps.admitad.com
@@ -38272,7 +38269,6 @@ apps.clickcash.com
 apps.cointraffic.io
 apps.conduit-banners.com
 apps.conduit.com
-apps.crashlytics.com
 apps.crittercism.com
 apps.crowdtangle.com
 apps.dev.polarmobile.com
@@ -42992,7 +42988,6 @@ beta.automatad.com
 beta.beemray.com
 beta.brightroll.com
 beta.coremetrics.com
-beta.crashlytics.com
 beta.developers.marketo.com
 beta.down2crazy.com
 beta.easy-hit-counters.com
@@ -52508,7 +52503,6 @@ cm.alamo.com.cns.coremetrics.com
 cm.baichuan.baidu.com
 cm.baidu.com
 cm.cn.miaozhen.com
-cm.crashlytics.com
 cm.dpclk.com
 cm.emarbox.com
 cm.enterprise.com.cns.coremetrics.com
@@ -56553,7 +56547,6 @@ crashfootwork.com
 crashlogs.whatsapp.net
 crashlogs.woniu.com
 crashlytics.163.com
-crashlytics.com
 crashreport-api.presage.io
 crashstats-collector.opera.com
 crateac.com
@@ -61125,7 +61118,6 @@ distrelec.demdex.net
 distribeo.com
 distribmenuiseries.fr
 distribuidoraderetentores.com.br
-distribution-uploads.crashlytics.com
 distribution.brightcove.com
 distributions-crashlytics-com.s3.amazonaws.com
 districtm-match.dotomi.com
@@ -62044,7 +62036,6 @@ download.browseraccelerator.com
 download.cdn.sharelive.net
 download.cdn.torchbrowser.com
 download.clck009-glaze.online
-download.crashlytics.com
 download.cy-security.com
 download.filmfanatic.com
 download.fyxm.net
@@ -63121,7 +63112,6 @@ e.baidu.com
 e.cn.miaozhen.com
 e.company-target.com
 e.connectad.io
-e.crashlytics.com
 e.crashlytics.net
 e.de.inmobi.com
 e.deployads.com
@@ -67850,7 +67840,6 @@ favoritismkwaqmz.download
 fawenys.xyz
 fawhiybzs.bid
 faxo.com
-faye.crashlytics.com
 faykdrhpo.com
 faz.ivwbox.de
 faz.met.vgwort.de
@@ -68636,7 +68625,6 @@ fips.uimserv.net
 fiqkmfapvnntn.bid
 fira-api.kurioapps.com
 firaxtech.com
-firebase-settings.crashlytics.com
 firebasedynamiclinks-ipv4.googleapis.com
 firebaselogging-pa.googleapis.com
 firebaselogging.googleapis.com
@@ -85196,7 +85184,6 @@ kitcode.net
 kithrup.matchlogic.com
 kitnmedia.com
 kitopr.com
-kits.crashlytics.com
 kiuhoki.com
 kiuiqcxvuox.com
 kiumaster.com
@@ -98985,7 +98972,6 @@ o1.em.qualaroo.com
 o1.inviziads.com
 o1.m.getdrip.com
 o1.notification.popads.net
-o1.outbound.crashlytics.com
 o1.qnsr.com
 o1.sendgrid.tynt.com
 o11.mktg.actonsoftware.com
@@ -101449,7 +101435,6 @@ out.trafficshop.com
 out.tubecorporate.com
 outbanner.hu.co.kr
 outbid.io
-outbound.crashlytics.com
 outboundlink.me
 outbrain.com
 outbraintrack.optimove.net
@@ -111318,7 +111303,6 @@ report.api.vungle.com
 report.appmetrica.webvisor.com
 report.appmetrica.yandex.net
 report.clevernt.com
-report.crashlytics.com
 report.downloastar.com
 report.footprintdns.com
 report.hb.brainlyads.com
@@ -111400,7 +111384,6 @@ reports.appia.com
 reports.appsflyer.com
 reports.apxor.com
 reports.cedexis.com
-reports.crashlytics.com
 reports.crittercism.com
 reports.doubleclick.com
 reports.doubleclick.net
@@ -116748,7 +116731,6 @@ settings-sandbox.data.microsoft.com
 settings-win-ppe.data.microsoft.com
 settings-win.data.microsoft.com
 settings.brightcove.com
-settings.crashlytics.com
 settings.data.microsoft.com
 settings.luckyorange.net
 settings.outbrain.com
@@ -123565,7 +123547,6 @@ support.aerserv.com
 support.appsflyer.com
 support.brightcove.com
 support.clickadu.com
-support.crashlytics.com
 support.crittercism.com
 support.cxense.com
 support.evergage.com
@@ -130467,7 +130448,6 @@ try-test.unbounce.com
 try.abtasty.com
 try.albacross.com
 try.backtrace.io
-try.crashlytics.com
 try.getsocial.io
 try.newrelic.com
 try.qualaroo.com
@@ -145184,7 +145164,6 @@ www.cqcounter.com
 www.crabbierfnffe.download
 www.crackserver.com
 www.crakmedia.com
-www.crashlytics.com
 www.crawlability.com
 www.crazyegg.com
 www.crazypopups.com
