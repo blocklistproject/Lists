@@ -151,7 +151,12 @@ These converted files can be used with various DNS and domain-blocking tools:
 | Youtube| [GitHub Pages Link](https://blocklistproject.github.io/Lists/youtube.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/youtube-nl.txt) | <sub><sup>This list is not updated and will likely be removed</sup></sub> |[the_c_drive](https://www.patreon.com/user/creators?u=5538103)|
 
   
-  
+
+## BETA LISTS
+
+| List | Link | Link w/o leading IP | Description | Sponsor<sup>&#8224;</sup> |
+|--|--|--| -- | -- |
+| Smart TV| [GitHub Pages Link](https://blocklistproject.github.io/Lists/smart-tv.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/smart-tv-nl.txt) | Smart TV call home and ads ||  
 
 <sup>Instructions current as of Pi-Hole 5.1.2
 
