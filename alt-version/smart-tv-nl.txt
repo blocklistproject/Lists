@@ -80,3 +80,6 @@ us.lgtvsdp.com
 us.rdx2.lgtvsdp.com
 vdterms.samsungcloudsolution.com
 yumenetworks.com
+osb-apps-v2.samsungqbe.com
+osb.samsungqbe.com
+gld.push.samsungosp.com
