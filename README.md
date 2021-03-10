@@ -123,9 +123,10 @@ These converted files can be used with various DNS and domain-blocking tools:
 
 3. Update Gravity (**Tools** > **Update Gravity** > **Click "Update"** )
 
-# Lists: 
+
 
 &nbsp;
+# Lists: 
 
 ## Main Lists 
 
