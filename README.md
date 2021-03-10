@@ -123,11 +123,11 @@ These converted files can be used with various DNS and domain-blocking tools:
 
 3. Update Gravity (**Tools** > **Update Gravity** > **Click "Update"** )
 
-  
+# Lists: 
 
 &nbsp;
 
-  
+## Main Lists 
 
 | List | Link | Link w/o leading IP | Description | Sponsor<sup>&#8224;</sup> |
 |--|--|--| -- | -- |
@@ -152,7 +152,7 @@ These converted files can be used with various DNS and domain-blocking tools:
 
   
 
-## BETA LISTS
+## Beta Lists
 
 | List | Link | Link w/o leading IP | Description | Sponsor<sup>&#8224;</sup> |
 |--|--|--| -- | -- |
