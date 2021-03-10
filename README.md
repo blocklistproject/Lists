@@ -59,7 +59,9 @@ As we move away from Patreon we are also changing our crypto payment addresses t
 
 -  [Lists](#lists)
 
---  [Lists](#lists)
+    -  [Main Lists](#main)
+    
+    -  [Beta Lists](#beta)
 
 -  [Using with Pi-Hole](#using-with-pi-hole)
 
