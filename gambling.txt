@@ -2339,3 +2339,14 @@
 0.0.0.0 www.partypoker.cz
 0.0.0.0 www.casino.org
 0.0.0.0 win2day.at
+0.0.0.0 hyperino.com
+0.0.0.0 netbet.de
+0.0.0.0 drueckglueck.com
+0.0.0.0 platincasino.com
+0.0.0.0 merkur24.com
+0.0.0.0 merkur-casino.de
+0.0.0.0 energycasino.com
+0.0.0.0 de.888casino.com
+0.0.0.0 slots.888wetten.de
+0.0.0.0 onlinecasino-eu.com
+0.0.0.0 onlinecasino.de
