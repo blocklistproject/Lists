@@ -57,6 +57,8 @@ As we move away from Patreon we are also changing our crypto payment addresses t
 
 -  [Usage](#usage)
 
+-  [Lists](#lists)
+
 -  [Using with Pi-Hole](#using-with-pi-hole)
 
 -  [Using with other tools](#using-with-other-tools)
