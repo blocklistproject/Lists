@@ -1,4 +1,3 @@
-
 #------------------------------------[UPDATE]--------------------------------------
 # Title: The Block List Project - Smart TV List
 # Expires: 1 day
