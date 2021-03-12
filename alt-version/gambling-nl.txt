@@ -1,6 +1,6 @@
 
 #------------------------------------[UPDATE]--------------------------------------
-# Title: The Block List Project
+# Title: The Block List Project - Gambling List (NL)
 # Expires: 1 day
 # Homepage: https://blocklist.site
 # Help: https://github.com/blocklistproject/lists/wiki/
@@ -2339,3 +2339,14 @@ partypoker.cz
 www.partypoker.cz
 www.casino.org
 win2day.at
+netbet.de
+drueckglueck.com
+platincasino.com
+merkur24.com
+merkur-casino.de
+energycasino.com
+de.888casino.com
+slots.888wetten.de
+onlinecasino-eu.com
+onlinecasino.de
+hyperino.com
