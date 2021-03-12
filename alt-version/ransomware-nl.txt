@@ -1,6 +1,6 @@
 
 #------------------------------------[UPDATE]--------------------------------------
-# Title: The Block List Project
+# Title: The Block List Project - Ransomware List (NL)
 # Expires: 1 day
 # Homepage: https://blocklist.site
 # Help: https://github.com/blocklistproject/list/wiki/

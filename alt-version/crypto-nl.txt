@@ -1,6 +1,6 @@
 
 #------------------------------------[UPDATE]--------------------------------------
-# Title: The Block List Project
+# Title: The Block List Project - Crypto List (NL)
 # Version:Fri, 12 Jun 2020 21:24:09 +0000
 # Expires: 1 day
 # Homepage: https://blocklist.site
@@ -4604,7 +4604,6 @@ e.baidu.com
 e.breezily168.com
 e.clubske.com
 e.cn.miaozhen.com
-e.crashlytics.com
 e.domob.cn
 e.domob.com.cn
 e.emgwq.com
@@ -14416,10 +14415,8 @@ servicer.adskeeper.co.uk
 services.nanopool.org
 services.wes.df.telemetry.microsoft.com
 sestat.baidu.com
-setting.crashlytics.com
 setting.snswin.qq.com
 settings-sandbox.data.microsoft.com
-settings.crashlytics.com
 setup-game.xyz
 setup.nanopool.org
 sexcoin.miningpoolhub.com

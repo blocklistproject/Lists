@@ -25,7 +25,13 @@
 
 Please see below our crypto addresses:
 
-<img  src="https://raw.githubusercontent.com/blocklistproject/Lists/master/img/t1WZnYUzWH8avcUEZ_.png"  width="125">&nbsp;&nbsp;<img src="https://raw.githubusercontent.com/blocklistproject/Lists/master/img/c5c733ea2f08d97c4_.png"  width="125"> 
+| Ethereum      | Algorand      | Basic Attention Token      | Bitcoin      | ZCash      | Dash      |
+| :-------------: | :-------------: | :-------------: | :-------------: | :-------------: | :-------------: |
+| <img src="https://raw.githubusercontent.com/blocklistproject/Lists/master/img/eth-qr-code.png"  width="125">      | <img src="https://raw.githubusercontent.com/blocklistproject/Lists/master/img/algo-qr-code.png"  width="125"> | <img src="https://raw.githubusercontent.com/blocklistproject/Lists/master/img/bat-qr-code.png"  width="125"> | <img src="https://raw.githubusercontent.com/blocklistproject/Lists/master/img/btc-qr-code.png"  width="125"> | <img src="https://raw.githubusercontent.com/blocklistproject/Lists/master/img/zcash-qr-code.png"  width="125"> | <img src="https://raw.githubusercontent.com/blocklistproject/Lists/master/img/dash-qr-code.png"  width="125"> |
+
+
+
+
 
   
   
@@ -45,9 +51,14 @@ As we move away from Patreon we are also changing our crypto payment addresses t
 
 -  [Details](#details)
 
+-  [Updates](#updates)
+
 -  [Versions](#versions)
 
 -  [Usage](#usage)
+
+-  [Lists](#lists)
+
 
 -  [Using with Pi-Hole](#using-with-pi-hole)
 
@@ -64,6 +75,12 @@ As we move away from Patreon we are also changing our crypto payment addresses t
 # Details:
 
 These lists were created because the founder of the project wanted something with a little more control over what is being blocked. Many lists are all or nothing. We set out to create lists with more control over what is being blocked.
+
+&nbsp;
+
+## Updates:
+
+As of right now, the "everything" and "everything-nl" lists are NOT being updated. Please updated your devices accordingly
 
 &nbsp;
 
@@ -109,35 +126,41 @@ These converted files can be used with various DNS and domain-blocking tools:
 
 3. Update Gravity (**Tools** > **Update Gravity** > **Click "Update"** )
 
-  
+
 
 &nbsp;
+# Lists: 
 
-  
+## Main Lists 
 
-| List | Link | Link w/o leading IP | Comment | Sponsor<sup>&#8224;</sup> |
+| List | Link | Link w/o leading IP | Description | Sponsor<sup>&#8224;</sup> |
 |--|--|--| -- | -- |
-| Abuse| [GitHub Pages Link](https://blocklistproject.github.io/Lists/abuse.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/abuse-nl.txt) | Copy and pasted into your device ||
-| Ads| [GitHub Pages Link](https://blocklistproject.github.io/Lists/ads.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/ads-nl.txt) | Copy and pasted into your device ||
-| Crypto| [GitHub Pages Link](https://blocklistproject.github.io/Lists/crypto.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/crypto-nl.txt) | Copy and pasted into your device ||
-| Drugs| [GitHub Pages Link](https://blocklistproject.github.io/Lists/drugs.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/drugs-nl.txt) | Copy and pasted into your device ||
-| Facebook| [GitHub Pages Link](https://blocklistproject.github.io/Lists/facebook.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/facebook-nl.txt) | Copy and pasted into your device ||
-| Fraud| [GitHub Pages Link](https://blocklistproject.github.io/Lists/fraud.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/fraud-nl.txt) | Copy and pasted into your device ||
-| Gambling| [GitHub Pages Link](https://blocklistproject.github.io/Lists/gambling.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/gambling-nl.txt) | Copy and pasted into your device ||
-| Malware| [GitHub Pages Link](https://blocklistproject.github.io/Lists/malware.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/malware-nl.txt) | Copy and pasted into your device ||
-| Phishing| [GitHub Pages Link](https://blocklistproject.github.io/Lists/phishing.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/phishing-nl.txt) | Copy and pasted into your device ||
-| Piracy| [GitHub Pages Link](https://blocklistproject.github.io/Lists/piracy.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/piracy-nl.txt) | Copy and pasted into your device ||
-| Porn| [GitHub Pages Link](https://blocklistproject.github.io/Lists/porn.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/porn-nl.txt)| Copy and pasted into your device |[W1T3H4T](https://www.patreon.com/user/creators?u=26512074)|
-| Ransomware| [GitHub Pages Link](https://blocklistproject.github.io/Lists/ransomware.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/ransomware-nl.txt) | Copy and pasted into your device ||
-| Redirect| [GitHub Pages Link](https://blocklistproject.github.io/Lists/redirect.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/redirect-nl.txt) | Copy and pasted into your device ||
-| Scam| [GitHub Pages Link](https://blocklistproject.github.io/Lists/scam.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/scam-nl.txt) | Copy and pasted into your device ||
+| Abuse| [GitHub Pages Link](https://blocklistproject.github.io/Lists/abuse.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/abuse-nl.txt) | Lists of sites created to deceive |Armstrong|
+| Ads| [GitHub Pages Link](https://blocklistproject.github.io/Lists/ads.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/ads-nl.txt) | Ad servers/sites ||
+| Crypto| [GitHub Pages Link](https://blocklistproject.github.io/Lists/crypto.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/crypto-nl.txt) | Crypto/cryptojacking based sites <br> <sup>Can break normal "good" crypto sites</sup> ||
+| Drugs| [GitHub Pages Link](https://blocklistproject.github.io/Lists/drugs.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/drugs-nl.txt) | RE sites that deal with illegal drugs <br><sub>Including RX drugs illegal to posses in the US</sub> ||
+| Facebook| [GitHub Pages Link](https://blocklistproject.github.io/Lists/facebook.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/facebook-nl.txt) | Block FB and FB relate/owned services ||
+| Fraud| [GitHub Pages Link](https://blocklistproject.github.io/Lists/fraud.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/fraud-nl.txt) | Sites create to fraud ||
+| Gambling| [GitHub Pages Link](https://blocklistproject.github.io/Lists/gambling.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/gambling-nl.txt) | All gambling based site legit and illegal ||
+| Malware| [GitHub Pages Link](https://blocklistproject.github.io/Lists/malware.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/malware-nl.txt) | Known sites that host malware ||
+| Phishing| [GitHub Pages Link](https://blocklistproject.github.io/Lists/phishing.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/phishing-nl.txt) | Sites created to phish info ||
+| Piracy| [GitHub Pages Link](https://blocklistproject.github.io/Lists/piracy.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/piracy-nl.txt) | Knows sites that allow for illegal downloads ||
+| Porn| [GitHub Pages Link](https://blocklistproject.github.io/Lists/porn.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/porn-nl.txt)| Porn or sites that promote porn |[W1T3H4T](https://www.patreon.com/user/creators?u=26512074)|
+| Ransomware| [GitHub Pages Link](https://blocklistproject.github.io/Lists/ransomware.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/ransomware-nl.txt) | Known sites that host or contain ransomware ||
+| Redirect| [GitHub Pages Link](https://blocklistproject.github.io/Lists/redirect.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/redirect-nl.txt) | Sites that redirect your from your intended site ||
+| Scam| [GitHub Pages Link](https://blocklistproject.github.io/Lists/scam.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/scam-nl.txt) | Sites that intend to scam ||
 | TikTok| [GitHub Pages Link](https://blocklistproject.github.io/Lists/tiktok.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/tiktok-nl.txt) | Copy and pasted into your device ||
-| Torrent| [GitHub Pages Link](https://blocklistproject.github.io/Lists/torrent.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/torrent-nl.txt) | Copy and pasted into your device ||
-| Tracking| [GitHub Pages Link](https://blocklistproject.github.io/Lists/tracking.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/tracking-nl.txt) | Copy and pasted into your device ||
-| Youtube| [GitHub Pages Link](https://blocklistproject.github.io/Lists/youtube.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/youtube-nl.txt) | Copy and pasted into your device |[the_c_drive](https://www.patreon.com/user/creators?u=5538103)|
+| Torrent| [GitHub Pages Link](https://blocklistproject.github.io/Lists/torrent.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/torrent-nl.txt) | Torrent directory <br> <sub>Will likely block legit torrent sites used for legal software download</sub> ||
+| Tracking| [GitHub Pages Link](https://blocklistproject.github.io/Lists/tracking.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/tracking-nl.txt) | Sites dedicated to tracking and gathering visitor info ||
+| Youtube| [GitHub Pages Link](https://blocklistproject.github.io/Lists/youtube.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/youtube-nl.txt) | <sub><sup>This list is not updated and will likely be removed</sup></sub> |[the_c_drive](https://www.patreon.com/user/creators?u=5538103)|
 
   
-  
+
+## Beta Lists
+
+| List | Link | Link w/o leading IP | Description | Sponsor<sup>&#8224;</sup> |
+|--|--|--| -- | -- |
+| Smart TV| [GitHub Pages Link](https://blocklistproject.github.io/Lists/smart-tv.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/smart-tv-nl.txt) | Smart TV call home and ads ||  
 
 <sup>Instructions current as of Pi-Hole 5.1.2
 

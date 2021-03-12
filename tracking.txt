@@ -1,6 +1,6 @@
 
 #------------------------------------[UPDATE]--------------------------------------
-# Title: The Block List Project
+# Title: The Block List Project - Tracking List
 # Expires: 1 day
 # Homepage: https://blocklist.site
 # Help: https://github.com/blocklistproject/lists/wiki/
@@ -15081,3 +15081,4 @@
 0.0.0.0 vasgenerete.site
 0.0.0.0 ntvp.wpu.sh
 0.0.0.0 notification.tubecup.net
+0.0.0.0 rebrandlydomain.com
