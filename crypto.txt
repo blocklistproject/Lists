@@ -1,4 +1,3 @@
-
 #------------------------------------[UPDATE]--------------------------------------
 # Title: The Block List Project - Crypto List
 # Version:Fri, 12 Jun 2020 21:24:09 +0000
