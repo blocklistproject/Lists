@@ -1,4 +1,3 @@
-
 #------------------------------------[UPDATE]--------------------------------------
 # Title: The Block List Project - Gambling List
 # Expires: 1 day
@@ -1035,6 +1034,8 @@
 0.0.0.0 www.lopocasport.com
 0.0.0.0 loquaxbingo.co.uk
 0.0.0.0 www.loquaxbingo.co.uk
+0.0.0.0 lordlucky.de
+0.0.0.0 www.lordlucky.de
 0.0.0.0 lotto24bingo.com
 0.0.0.0 www.lotto24bingo.com
 0.0.0.0 louisvillecasino.com
