@@ -166,6 +166,7 @@
 0.0.0.0 bet33.com
 0.0.0.0 www.bet33.com
 0.0.0.0 bet365.com
+0.0.0.0 bet365.es
 0.0.0.0 bet7days.com
 0.0.0.0 www.bet7days.com
 0.0.0.0 bet90.com
