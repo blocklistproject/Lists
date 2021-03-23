@@ -82,3 +82,4 @@
 0.0.0.0 osb-apps-v2.samsungqbe.com
 0.0.0.0 osb.samsungqbe.com
 0.0.0.0 gld.push.samsungosp.com
+0.0.0.0 sas.samsungcloudsolution.com
