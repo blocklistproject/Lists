@@ -45076,7 +45076,7 @@ browser.cloud.ucweb.com
 browser.cloud.wx.ucdns.uc.cn
 browser.pipe.aria.microsoft.com
 browser.scloud.letv.com
-browser.sentry-cdn.com
+# browser.sentry-cdn.com Issue 257
 browseraccelerator.com
 browsercollector.oneapm.com
 browsergames2018.com
@@ -60217,7 +60217,7 @@ deployer.53.localytics.com
 deploygate.com
 depo.realist.gen.tr
 depodub.info
-depositphotos.com
+# depositphotos.com Issue 252
 depositphotos.go2cloud.org
 depositphotos.pushwoosh.com
 depravedwhores.com
@@ -65625,7 +65625,7 @@ ethereum-pocket.de
 ethereum-pocket.eu
 ethereumpool.club
 ethereumpool.co
-ethermine.org
+# ethermine.org Issue 258
 ethertrench.com
 ethfans.org
 ethfw0370q.com
@@ -65638,7 +65638,7 @@ ethnio.com
 ethonline.io
 ethosdistro.com
 ethpolice.com
-ethpool.org
+# ethpool.org Issue 258
 ethteam.com
 ethtrader.de
 ethylla.com
@@ -85190,7 +85190,7 @@ kiupoo.stroeerdp.de
 kiwi-crate.7eer.net
 kiwi-offers.com
 kiwi.sharethis.com
-kiwifarms.net
+# kiwifarms.net Issue 250
 kiwihk.net
 kiwimethod.co
 kixer.com
@@ -146903,7 +146903,7 @@ www.kissmyads.com
 www.kitaramarketplace.com
 www.kitaramedia.com
 www.kitchentablegang.org
-www.kiwifarms.net
+# www.kiwifarms.net Issue 250
 www.kixer.com
 www.kizash.com
 www.kjbbc.net
