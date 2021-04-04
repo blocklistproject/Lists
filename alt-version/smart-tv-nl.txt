@@ -82,3 +82,4 @@ yumenetworks.com
 osb-apps-v2.samsungqbe.com
 osb.samsungqbe.com
 gld.push.samsungosp.com
+sas.samsungcloudsolution.com
