@@ -814,7 +814,7 @@
 0.0.0.0 analytics.bl
 0.0.0.0 analytics.blue
 0.0.0.0 analytics.hz.netease.com
-0.0.0.0 analytics.kiwifarms.net
+# 0.0.0.0 analytics.kiwifarms.net Issue 250
 0.0.0.0 analytics.live.com
 0.0.0.0 analytics.msn.com
 0.0.0.0 analytics.query.yahoo.com
@@ -8449,7 +8449,7 @@
 0.0.0.0 kisvtclf.bid
 0.0.0.0 kitaji.ethosdistro.com
 0.0.0.0 kiwi.pool.mn
-0.0.0.0 kiwifarms.net
+# 0.0.0.0 kiwifarms.net Issue 250
 0.0.0.0 kiwiminers.com
 0.0.0.0 kizpkvkdfm.bid
 0.0.0.0 kjabglumgwbsvq.bid
@@ -20294,7 +20294,7 @@
 0.0.0.0 www.kippo.eu
 0.0.0.0 www.kisshentai.net
 0.0.0.0 www.kiwi.pool.mn
-0.0.0.0 www.kiwifarms.net
+# 0.0.0.0 www.kiwifarms.net Issue 250
 0.0.0.0 www.kiwiminers.com
 0.0.0.0 www.kkxmofkrykox.netcodepool.org
 0.0.0.0 www.kore.pool.mn

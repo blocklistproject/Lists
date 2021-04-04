@@ -814,7 +814,7 @@ analytics.atdmt.com
 analytics.bl
 analytics.blue
 analytics.hz.netease.com
-analytics.kiwifarms.net
+# analytics.kiwifarms.net Issue 250
 analytics.live.com
 analytics.msn.com
 analytics.query.yahoo.com
@@ -8449,7 +8449,7 @@ kisshentai.net
 kisvtclf.bid
 kitaji.ethosdistro.com
 kiwi.pool.mn
-kiwifarms.net
+# kiwifarms.net Issue 250
 kiwiminers.com
 kizpkvkdfm.bid
 kjabglumgwbsvq.bid
@@ -20294,7 +20294,7 @@ www.kippbeak.cf
 www.kippo.eu
 www.kisshentai.net
 www.kiwi.pool.mn
-www.kiwifarms.net
+# www.kiwifarms.net Issue 250
 www.kiwiminers.com
 www.kkxmofkrykox.netcodepool.org
 www.kore.pool.mn
