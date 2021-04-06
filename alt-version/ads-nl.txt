@@ -37213,7 +37213,7 @@ api.leadbolt.net
 api.leadiacloud.com
 api.leadpages.io
 api.leanplum.com
-api.lever.co
+# api.lever.co Issue #267
 api.life.lovetapmobile.com
 api.lijit.com
 api.limbik.com
