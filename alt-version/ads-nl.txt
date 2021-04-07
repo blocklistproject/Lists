@@ -105354,7 +105354,7 @@ platform.communicatorcorp.com
 platform.engageya.com
 platform.ifc.inmobi.com
 platform.iteratehq.com
-platform.linkedin.com
+# platform.linkedin.com Issue 268
 platform.mobileapptracking.com
 platform.onthe.io
 platform.openx.com
