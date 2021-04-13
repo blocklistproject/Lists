@@ -93697,15 +93697,15 @@ mobile-crash.newrelic.com
 mobile-d.openx.net
 mobile-de-d.openx.net
 mobile-demo.outbrain.com
-mobile-dgig-prod.cmtelematics.com
+# mobile-dgig-prod.cmtelematics.com Issue 269
 mobile-displayads-uk.l.doubleclick.net
 mobile-displayads.l.doubleclick.net
 mobile-ent.biz
 mobile-global.baidu.com
 mobile-http-intake.logs.datadoghq.com
 mobile-imps.brightroll.com
-mobile-log-dgig.cmtelematics.com
-mobile-log.cmtelematics.com
+# mobile-log-dgig.cmtelematics.com Issue 269
+# mobile-log.cmtelematics.com Issue 269
 mobile-mining.com
 mobile-sdk-data-trends.safedk.com
 mobile-sdk-resources.jumio.com
@@ -93736,7 +93736,7 @@ mobile.biz.daum.net
 mobile.brealtime.com
 mobile.brightroll.com
 mobile.btrll.com
-mobile.cmtelematics.com
+# mobile.cmtelematics.com Issue 269
 mobile.controller.duokanbox.com
 mobile.eum-appdynamics.com
 mobile.fastclick.net
@@ -110188,7 +110188,7 @@ ratx9.voluumtrk.com
 ratyakhu.ru
 raupsooy.net
 ravalynn.pw
-ravenjs.com
+# ravenjs.com Issue 270
 ravensburger01.webtrekk.net
 ravensjoaamtest0525.112.2o7.net
 ravenstonedigital.go2cloud.org
@@ -116220,7 +116220,7 @@ sentry.fastboot.mobi
 sentry.flipkart.com
 sentry.getadmiral.com
 sentry.hotjar.com
-sentry.io
+# sentry.io Issue 270
 sentry.meitustat.com
 sentry.mopub.com
 sentry.pay.xiaomi.com
@@ -133236,7 +133236,7 @@ usdsp-ali.mobvista.com
 usdsp.mobvista.com
 usdsp1.adzmedia.com
 usdtop.58.com
-use-application-dns.net
+# use-application-dns.net Issue 272
 use-data.adsrvr.org
 use-tor.adsrvr.org
 use-tr01.fuse-ad.com
