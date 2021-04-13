@@ -120,9 +120,9 @@ These converted files can be used with various DNS and domain-blocking tools:
 
 ## Deprecated Lists
 
-| List | Link | Link w/o leading IP | Description | Sponsor<sup>&#8224;</sup> |
-|--|--|--| -- | -- |
-| Everything| [GitHub Pages Link](https://blocklistproject.github.io/Lists/everything.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/everything-nl.txt) | Master combined list ||  
+| List | Link | Link w/o leading IP | Description |
+|--|--|--| -- |
+| Everything| [GitHub Pages Link](https://blocklistproject.github.io/Lists/everything.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/everything-nl.txt) | Master combined list |  
 
 <sup>Instructions current as of Pi-hole 5.2.4
 
