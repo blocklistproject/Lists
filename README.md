@@ -19,7 +19,7 @@ Please see below our crypto addresses:
 
 | Ethereum | Algorand | Basic Attention Token | Bitcoin | ZCash | Dash |
 | :-------------: | :-------------: | :-------------: | :-------------: | :-------------: | :-------------: |
-| <img src="https://blocklistproject.github.io/Lists/img/eth-qr-code.png" width="125"> | <img src="https://blocklistproject.github.io/Lists/img/algo-qr-code.png" width="125"> | <img src="https://blocklistproject.github.io/Lists/img/bat-qr-code.png" width="115"> | <img src="https://blocklistproject.github.io/Lists/img/btc-qr-code.png" width="125"> | <img src="https://blocklistproject.github.io/Lists/img/zcash-qr-code.png" width="125"> | <img src="https://blocklistproject.github.io/Lists/img/dash-qr-code.png" width="125"> |
+| <img src="https://blocklistproject.github.io/Lists/img/eth-qr-code.png" width="125"> | <img src="https://blocklistproject.github.io/Lists/img/algo-qr-code.png" width="125"> | <img src="https://blocklistproject.github.io/Lists/img/bat-qr-code.png" width="110"> | <img src="https://blocklistproject.github.io/Lists/img/btc-qr-code.png" width="125"> | <img src="https://blocklistproject.github.io/Lists/img/zcash-qr-code.png" width="125"> | <img src="https://blocklistproject.github.io/Lists/img/dash-qr-code.png" width="125"> |
 
 As we move away from Patreon we are also changing our crypto payment addresses to a more secure Hardware wallet ([Ledger](https://shop.ledger.com/pages/ledger-nano-x?r=f60e80a16431&tracker=github)<--Click here to learn more about Ledger and support the Block List Project).
 
@@ -112,9 +112,14 @@ These converted files can be used with various DNS and domain-blocking tools:
 
 | List | Link | Link w/o leading IP | Description | Sponsor<sup>&#8224;</sup> |
 |--|--|--| -- | -- |
-| Smart TV| [GitHub Pages Link](https://blocklistproject.github.io/Lists/smart-tv.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/smart-tv-nl.txt) | Smart TV call home and ads ||  
+| Everything| [GitHub Pages Link](https://blocklistproject.github.io/Lists/everything.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/everything-nl.txt) | Master combined list ||  
 
-<sup>Instructions current as of Pi-hole 5.1.2
+## Deprecated Lists
+
+| List | Link | Link w/o leading IP | Description | Sponsor<sup>&#8224;</sup> |
+|--|--|--| -- | -- |
+
+<sup>Instructions current as of Pi-hole 5.2.4
 
 *Not supported by or affiliated with Pi-hole.</sup>
 
