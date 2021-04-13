@@ -112,12 +112,13 @@ These converted files can be used with various DNS and domain-blocking tools:
 
 | List | Link | Link w/o leading IP | Description | Sponsor<sup>&#8224;</sup> |
 |--|--|--| -- | -- |
-| Everything| [GitHub Pages Link](https://blocklistproject.github.io/Lists/everything.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/everything-nl.txt) | Master combined list ||  
+| Smart TV| [GitHub Pages Link](https://blocklistproject.github.io/Lists/smart-tv.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/smart-tv-nl.txt) | Smart TV call home and ads ||  
 
 ## Deprecated Lists
 
 | List | Link | Link w/o leading IP | Description | Sponsor<sup>&#8224;</sup> |
 |--|--|--| -- | -- |
+| Everything| [GitHub Pages Link](https://blocklistproject.github.io/Lists/everything.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/everything-nl.txt) | Master combined list ||  
 
 <sup>Instructions current as of Pi-hole 5.2.4
 
