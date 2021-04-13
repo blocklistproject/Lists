@@ -82,6 +82,8 @@ These converted files can be used with various DNS and domain-blocking tools:
 3. Update Gravity (**Tools** > **Update Gravity** > **Click "Update"** )
 
 &nbsp;
+<sup>Instructions current as of Pi-hole 5.2.4</sup>
+&nbsp;
 
 # Lists:
 
@@ -124,9 +126,9 @@ These converted files can be used with various DNS and domain-blocking tools:
 |--|--|--| -- |
 | Everything| [GitHub Pages Link](https://blocklistproject.github.io/Lists/everything.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/everything-nl.txt) | Master combined list |  
 
-<sup>Instructions current as of Pi-hole 5.2.4
 
-*Not supported by or affiliated with Pi-hole.</sup>
+
+<sup>*Not supported by or affiliated with Pi-hole.</sup>
 
 &nbsp;
 
