@@ -6,10 +6,11 @@
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/blocklistproject/Lists/graphs/commit-activity)
 ![GitHub contributors](https://img.shields.io/github/contributors/blocklistproject/lists)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/blocklistproject/lists)
+![GitHub last commit](https://img.shields.io/github/last-commit/blocklistproject/lists)
 ![Opensource-info](https://img.shields.io/badge/Open%20Source-Yes-red)
 [![ko-fi](https://img.shields.io/badge/Support%20Us-Ko--Fi-orange)](https://ko-fi.com/P5P521OPP)
 ![GitHub repo size](https://img.shields.io/github/repo-size/blocklistproject/Lists)
-![Website](https://img.shields.io/website?down_color=red&down_message=Down&up_color=green&up_message=Online&url=https%3A%2F%2Fblocklist.site)
+[![Website](https://img.shields.io/website?down_color=red&down_message=Down&up_color=green&up_message=Online&url=https%3A%2F%2Fblocklist.site)](https://blocklist.site)
 ![visitors](https://visitor-badge.glitch.me/badge?page_id=blocklistproject.Lists)
 
 
