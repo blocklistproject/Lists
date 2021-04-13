@@ -9,6 +9,7 @@
 ![Opensource-info](https://img.shields.io/badge/Open%20Source-Yes-red?style=for-the-badge)
 [![ko-fi](https://img.shields.io/badge/Support%20Us-Ko--Fi-orange?style=for-the-badge)](https://ko-fi.com/P5P521OPP)
 ![GitHub repo size](https://img.shields.io/github/repo-size/blocklistproject/Lists?style=for-the-badge)
+![visitors](https://visitor-badge.glitch.me/badge?page_id=blocklistproject.Lists)
 
 &nbsp;
 
