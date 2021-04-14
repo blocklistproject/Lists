@@ -1,6 +1,6 @@
 # The Block List Project
 
-![GitHub issues](https://flat.badgen.net/github/open-issues/blocklistproject/Lists?color=red)
+![GitHub issues](https://badgen.net/github/open-issues/blocklistproject/Lists?color=red)
 ![GitHub closed issues](https://badgen.net/github/closed-issues/blocklistproject/Lists?color=green)
 [![License: Unlicense](https://badgen.net/github/license/blocklistproject/Lists)](http://unlicense.org/)
 [![Maintenance](https://badgen.net/badge/Maintained/Yes?color=green)](https://github.com/blocklistproject/Lists/graphs/commit-activity)
@@ -44,11 +44,7 @@ As we move away from Patreon we are also changing our crypto payment addresses t
 
 These lists were created because the founder of the project wanted something with a little more control over what is being blocked. Many lists are all or nothing. We set out to create lists with more control over what is being blocked.
 
-&nbsp;
 
-## Updates:
-
-As of right now, the "everything" and "everything-nl" lists are NOT being updated. Please update your devices accordingly.
 
 &nbsp;
 
