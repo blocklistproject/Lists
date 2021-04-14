@@ -1,9 +1,9 @@
 # The Block List Project
 
-![GitHub issues](https://badgen.net/github/open-issues/blocklistproject/Lists/red)
-![GitHub closed issues](https://badgen.net/github/closed-issues/blocklistproject/Lists/green)
+![GitHub issues](https://badgen.net/github/open-issues/blocklistproject/Lists)
+![GitHub closed issues](https://badgen.net/github/closed-issues/blocklistproject/Lists)
 [![License: Unlicense](https://badgen.net/github/license/blocklistproject/Lists)](http://unlicense.org/)
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/blocklistproject/Lists/graphs/commit-activity)
+[![Maintenance](https://badgen.net/badge/Maintained/Yes?color=green)](https://github.com/blocklistproject/Lists/graphs/commit-activity)
 ![GitHub contributors](https://img.shields.io/github/contributors/blocklistproject/lists)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/blocklistproject/lists)
 ![GitHub last commit](https://img.shields.io/github/last-commit/blocklistproject/lists)
