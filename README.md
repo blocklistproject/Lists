@@ -2,7 +2,7 @@
 
 ![GitHub issues](https://badgen.net/github/open-issues/blocklistproject/Lists)
 ![GitHub closed issues](https://badgen.net/github/closed-issues/blocklistproject/Lists)
-[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
+[![License: Unlicense](https://badgen.net/github/license/blocklistproject/Lists)](http://unlicense.org/)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/blocklistproject/Lists/graphs/commit-activity)
 ![GitHub contributors](https://img.shields.io/github/contributors/blocklistproject/lists)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/m/blocklistproject/lists)
