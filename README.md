@@ -1,6 +1,6 @@
 # The Block List Project
 
-![GitHub issues](https://img.shields.io/github/issues/blocklistproject/Lists)
+![GitHub issues](https://badgen.net/github/issues/blocklistproject/Lists)
 ![GitHub closed issues](https://img.shields.io/github/issues-closed/blocklistproject/Lists)
 [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/blocklistproject/Lists/graphs/commit-activity)
