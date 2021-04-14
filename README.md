@@ -1,7 +1,7 @@
 # The Block List Project
 
-![GitHub issues](https://badgen.net/github/open-issues/blocklistproject/Lists)
-![GitHub closed issues](https://badgen.net/github/closed-issues/blocklistproject/Lists)
+![GitHub issues](https://badgen.net/github/open-issues/blocklistproject/Lists?color=red)
+![GitHub closed issues](https://badgen.net/github/closed-issues/blocklistproject/Lists?color=green)
 [![License: Unlicense](https://badgen.net/github/license/blocklistproject/Lists)](http://unlicense.org/)
 [![Maintenance](https://badgen.net/badge/Maintained/Yes?color=green)](https://github.com/blocklistproject/Lists/graphs/commit-activity)
 ![GitHub contributors](https://badgen.net/github/contributors/blocklistproject/Lists)
