@@ -105,7 +105,7 @@ These converted files can be used with various DNS and domain-blocking tools:
 | TikTok| [GitHub Pages Link](https://blocklistproject.github.io/Lists/tiktok.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/tiktok-nl.txt) | Copy and pasted into your device ||
 | Torrent| [GitHub Pages Link](https://blocklistproject.github.io/Lists/torrent.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/torrent-nl.txt) | Torrent directory <br> <sub>Will likely block legit torrent sites used for legal software download</sub> ||
 | Tracking| [GitHub Pages Link](https://blocklistproject.github.io/Lists/tracking.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/tracking-nl.txt) | Sites dedicated to tracking and gathering visitor info ||
-| Youtube| [GitHub Pages Link](https://blocklistproject.github.io/Lists/youtube.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/youtube-nl.txt) | <sub><sup>This list is not updated and will likely be removed</sup></sub> |[the_c_drive](https://www.patreon.com/user/creators?u=5538103)|
+
 
 &nbsp;
 
@@ -123,7 +123,7 @@ These converted files can be used with various DNS and domain-blocking tools:
 | List | Link | Link w/o leading IP | Description |
 |--|--|--| -- |
 | Everything| [GitHub Pages Link](https://blocklistproject.github.io/Lists/everything.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/everything-nl.txt) | Master combined list |  
-
+| Youtube| [GitHub Pages Link](https://blocklistproject.github.io/Lists/youtube.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/youtube-nl.txt) | <sub><sup>This list is not updated and will likely be removed</sup></sub> |
 
 
 <sup>*Not supported by or affiliated with Pi-hole.</sup>
