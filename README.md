@@ -122,8 +122,8 @@ These converted files can be used with various DNS and domain-blocking tools:
 
 | List | Link | Link w/o leading IP | Description |
 |--|--|--| -- |
-| Everything| [GitHub Pages Link](https://blocklistproject.github.io/Lists/everything.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/everything-nl.txt) | Master combined list |  
-| Youtube| [GitHub Pages Link](https://blocklistproject.github.io/Lists/youtube.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/youtube-nl.txt) | <sub><sup>This list is not updated and will likely be removed</sup></sub> |
+| Everything| [GitHub Pages Link](https://blocklistproject.github.io/Lists/everything.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/everything-nl.txt) | Removed |  
+| Youtube| [GitHub Pages Link](https://blocklistproject.github.io/Lists/youtube.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/youtube-nl.txt) | This lists was removed due to the way youtube serves it's ads |
 
 
 <sup>*Not supported by or affiliated with Pi-hole.</sup>
