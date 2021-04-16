@@ -120,10 +120,10 @@ These converted files can be used with various DNS and domain-blocking tools:
 
 ## Deprecated Lists
 
-| List | Link | Link w/o leading IP | Description |
-|--|--|--| -- |
-| Everything| [GitHub Pages Link](https://blocklistproject.github.io/Lists/everything.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/everything-nl.txt) | Removed |  
-| Youtube| [GitHub Pages Link](https://blocklistproject.github.io/Lists/youtube.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/youtube-nl.txt) | This lists was removed due to the way youtube serves it's ads |
+| List | Link | Link w/o leading IP | Description | Deletion date (dd.mm.yyyy) |
+|--|--|--| -- | -- |
+| Everything| [GitHub Pages Link](https://blocklistproject.github.io/Lists/everything.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/everything-nl.txt) | Removed | 01.10.2021 |
+| Youtube| [GitHub Pages Link](https://blocklistproject.github.io/Lists/youtube.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/youtube-nl.txt) | This lists was removed due to the way youtube serves it's ads | 01.10.2021 |
 
 
 <sup>*Not supported by or affiliated with Pi-hole.</sup>
