@@ -3,7 +3,7 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/blocklistproject/lists)
 ![GitHub](https://img.shields.io/github/license/blocklistproject/lists?color=red)
 ![GitHub Maintained](https://img.shields.io/badge/Open%20Source-Yes-green)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/m/blocklistproject/lists)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/y/blocklistproject/lists)
 ![GitHub closed issues](https://badgen.net/github/closed-issues/blocklistproject/Lists?color=green)
 ![GitHub contributors](https://img.shields.io/github/contributors/blocklistproject/lists)
 ![GitHub last commit](https://img.shields.io/github/last-commit/blocklistproject/lists)
