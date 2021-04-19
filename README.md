@@ -1,11 +1,11 @@
 # The Block List Project
 ![GitHub issues](https://img.shields.io/github/issues/blocklistproject/lists)
+![GitHub closed issues](https://badgen.net/github/closed-issues/blocklistproject/Lists?color=green)
+![GitHub contributors](https://img.shields.io/github/contributors/blocklistproject/lists)
 ![GitHub repo size](https://img.shields.io/github/repo-size/blocklistproject/lists)
 ![GitHub](https://img.shields.io/github/license/blocklistproject/lists?color=blue)
 ![GitHub Maintained](https://img.shields.io/badge/Open%20Source-Yes-green)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/y/blocklistproject/lists)
-![GitHub closed issues](https://badgen.net/github/closed-issues/blocklistproject/Lists?color=green)
-![GitHub contributors](https://img.shields.io/github/contributors/blocklistproject/lists)
 ![GitHub last commit](https://img.shields.io/github/last-commit/blocklistproject/lists)
 ![GitHub Maintained](https://img.shields.io/badge/maintained-yes-green)
 [![Website](https://img.shields.io/website?down_color=red&down_message=Down&up_color=green&up_message=Online&url=https%3A%2F%2Fblocklist.site)](https://blocklist.site)
