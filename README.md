@@ -51,7 +51,7 @@ These lists were created because the founder of the project wanted something wit
 
 ## Versions:
 
-We have recently created an alternative version (alt-version) of our lists.
+We have recently created an alternative versions of our lists.
 
 ### Original Version:
 
@@ -61,7 +61,7 @@ We have recently created an alternative version (alt-version) of our lists.
 
 &nbsp;
 
-### Alternative Version:
+### No Leading 0s Version:
 
 <p>&nbsp;All urls in this version of the list are listed in the host file as follows</p>
 
