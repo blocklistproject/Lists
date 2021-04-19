@@ -69,6 +69,17 @@ Our users brought it to our attention that some devices error out if the url is 
 
 &nbsp;
 
+### Beta Version:
+
+<p>&nbsp;All urls in this version of the list are listed in the host file as follows</p>
+
+<p>  &nbsp;&nbsp;server=/example.com/</p>
+
+It was requested to add support for dnsmasq. We are currently testing 1 of our lists before creating a full set of lists. Please provide feedback.
+
+&nbsp;
+
+
 # Usage:
 
 These converted files can be used with various DNS and domain-blocking tools:
