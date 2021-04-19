@@ -53,13 +53,13 @@ These lists were created because the founder of the project wanted something wit
 
 We have recently created an alternative version (alt-version) of our lists.
 
-<p>Original Version:</p>
+### Original Version:
 
-<p>&nbsp;All urls in the version of the list are listed in the host file as follows</p>
+<Original>&nbsp;All urls in the version of the list are listed in the host file as follows</Original>
 
 <p>  &nbsp;&nbsp;0.0.0.0 example.com</p>
 
-<p>Alternative Version:</p>
+### Alternative Version:
 
 <p>&nbsp;All urls in this version of the list are listed in the host file as follows</p>
 
