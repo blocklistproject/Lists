@@ -7,9 +7,10 @@
 ![GitHub closed issues](https://badgen.net/github/closed-issues/blocklistproject/Lists?color=green)
 ![GitHub contributors](https://img.shields.io/github/contributors/blocklistproject/lists)
 ![GitHub last commit](https://img.shields.io/github/last-commit/blocklistproject/lists)
-![GitHub Maintained](https://img.shields.io/badge/Maintained-Yes-green)
+![GitHub Maintained](https://img.shields.io/badge/maintained-yes-green)
 [![Website](https://img.shields.io/website?down_color=red&down_message=Down&up_color=green&up_message=Online&url=https%3A%2F%2Fblocklist.site)](https://blocklist.site)
 [![ko-fi](https://badgen.net/badge/Support%20Us/Ko-Fi?color=orange)](https://ko-fi.com/P5P521OPP)
+[![patreon](https://badgen.net/badge/Support%20Us/Patreon?color=red)](https://www.patreon.com/bePatron?u=8892646)
 ![visitors](https://visitor-badge.glitch.me/badge?page_id=blocklistproject.Lists)
 
 &nbsp;
