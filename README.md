@@ -71,7 +71,7 @@ Our users brought it to our attention that some devices error out if the url is 
 
 &nbsp;
 
-### Beta Version:
+### Beta dnsmasq Version:
 
 <p>&nbsp;All urls in this version of the list are listed in the host file as follows</p>
 
