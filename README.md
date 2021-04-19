@@ -59,6 +59,8 @@ We have recently created an alternative version (alt-version) of our lists.
 
 <p>  &nbsp;&nbsp;0.0.0.0 example.com</p>
 
+&nbsp;
+
 ### Alternative Version:
 
 <p>&nbsp;All urls in this version of the list are listed in the host file as follows</p>
