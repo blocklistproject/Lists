@@ -248,7 +248,7 @@
 0.0.0.0	katastrofa.com
 0.0.0.0	kazenokoefansubs.fansub-torrents.com
 0.0.0.0	kickmedown.com
-0.0.0.0	kraytracker.com&amp
+0.0.0.0	kraytracker.com
 0.0.0.0	ktrao.com
 0.0.0.0	kungfu-torrents.com
 0.0.0.0	learnbits.org
