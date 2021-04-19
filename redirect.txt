@@ -59479,7 +59479,7 @@
 0.0.0.0 noproxy.us
 0.0.0.0 noproxyads.com
 0.0.0.0 noraproxy.tk
-0.0.0.0 nordvpn.com
+# 0.0.0.0 nordvpn.com Issue 278
 0.0.0.0 noregulation.com
 0.0.0.0 norepick.info
 0.0.0.0 norepick.tk
