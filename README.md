@@ -128,7 +128,8 @@ These converted files can be used with various DNS and domain-blocking tools:
 | List | Link | Link w/o leading IP | Description | Sponsor<sup>&#8224;</sup> |
 |--|--|--| -- | -- |
 | Smart TV| [GitHub Pages Link](https://blocklistproject.github.io/Lists/smart-tv.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/smart-tv-nl.txt) | Smart TV call home and ads ||
-| Basic Start List| [GitHub Pages Link](https://blocklistproject.github.io/Lists/basic.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/basic-nl.txt) | Just a quick basic starter list ||   
+| Basic Start List| [GitHub Pages Link](https://blocklistproject.github.io/Lists/basic.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/basic-nl.txt) | Just a quick basic starter list ||  
+| Whatsapp List| [GitHub Pages Link](https://blocklistproject.github.io/Lists/whatsapp.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/whatsapp-nl.txt) | User requested list that blocks only Whatsapp ||  
 
 &nbsp;
 
