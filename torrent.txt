@@ -172,7 +172,6 @@
 0.0.0.0	eldirnet.no-ip.info
 0.0.0.0	elsewhere.org
 0.0.0.0	emotorrents.net
-0.0.0.0	en.wikipedia.org
 0.0.0.0	eugenefreaks.com
 0.0.0.0	euro-torrents.org
 0.0.0.0	euroemu.net
