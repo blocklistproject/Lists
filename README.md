@@ -100,36 +100,36 @@ These converted files can be used with various DNS and domain-blocking tools:
 
 ## Main Lists
 
-| List | Link | Link w/o leading IP | Description | Sponsor<sup>&#8224;</sup> |
+| List | Link | Link w/o leading IP | dnsmasq | Description | Sponsor<sup>&#8224;</sup> |
 |--|--|--| -- | -- |
-| Abuse| [GitHub Pages Link](https://blocklistproject.github.io/Lists/abuse.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/abuse-nl.txt) | Lists of sites created to deceive |Armstrong|
-| Ads| [GitHub Pages Link](https://blocklistproject.github.io/Lists/ads.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/ads-nl.txt) | Ad servers/sites ||
-| Crypto| [GitHub Pages Link](https://blocklistproject.github.io/Lists/crypto.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/crypto-nl.txt) | Crypto/cryptojacking based sites <br> <sup>Can break normal "good" crypto sites</sup> ||
-| Drugs| [GitHub Pages Link](https://blocklistproject.github.io/Lists/drugs.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/drugs-nl.txt) | RE sites that deal with illegal drugs <br><sub>Including RX drugs illegal to posses in the US</sub> ||
-| Facebook| [GitHub Pages Link](https://blocklistproject.github.io/Lists/facebook.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/facebook-nl.txt) | Block FB and FB relate/owned services ||
-| Fraud| [GitHub Pages Link](https://blocklistproject.github.io/Lists/fraud.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/fraud-nl.txt) | Sites create to fraud ||
-| Gambling| [GitHub Pages Link](https://blocklistproject.github.io/Lists/gambling.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/gambling-nl.txt) | All gambling based site legit and illegal ||
-| Malware| [GitHub Pages Link](https://blocklistproject.github.io/Lists/malware.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/malware-nl.txt) | Known sites that host malware ||
-| Phishing| [GitHub Pages Link](https://blocklistproject.github.io/Lists/phishing.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/phishing-nl.txt) | Sites created to phish info ||
-| Piracy| [GitHub Pages Link](https://blocklistproject.github.io/Lists/piracy.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/piracy-nl.txt) | Knows sites that allow for illegal downloads ||
-| Porn| [GitHub Pages Link](https://blocklistproject.github.io/Lists/porn.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/porn-nl.txt)| Porn or sites that promote porn |[W1T3H4T](https://www.patreon.com/user/creators?u=26512074)|
-| Ransomware| [GitHub Pages Link](https://blocklistproject.github.io/Lists/ransomware.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/ransomware-nl.txt) | Known sites that host or contain ransomware ||
-| Redirect| [GitHub Pages Link](https://blocklistproject.github.io/Lists/redirect.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/redirect-nl.txt) | Sites that redirect your from your intended site ||
-| Scam| [GitHub Pages Link](https://blocklistproject.github.io/Lists/scam.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/scam-nl.txt) | Sites that intend to scam ||
-| TikTok| [GitHub Pages Link](https://blocklistproject.github.io/Lists/tiktok.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/tiktok-nl.txt) | Copy and pasted into your device ||
-| Torrent| [GitHub Pages Link](https://blocklistproject.github.io/Lists/torrent.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/torrent-nl.txt) | Torrent directory <br> <sub>Will likely block legit torrent sites used for legal software download</sub> ||
-| Tracking| [GitHub Pages Link](https://blocklistproject.github.io/Lists/tracking.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/tracking-nl.txt) | Sites dedicated to tracking and gathering visitor info ||
+| Abuse| [GitHub Pages Link](https://blocklistproject.github.io/Lists/abuse.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/abuse-nl.txt) || Lists of sites created to deceive |Armstrong|
+| Ads| [GitHub Pages Link](https://blocklistproject.github.io/Lists/ads.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/ads-nl.txt) || Ad servers/sites ||
+| Crypto| [GitHub Pages Link](https://blocklistproject.github.io/Lists/crypto.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/crypto-nl.txt) || Crypto/cryptojacking based sites <br> <sup>Can break normal "good" crypto sites</sup> ||
+| Drugs| [GitHub Pages Link](https://blocklistproject.github.io/Lists/drugs.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/drugs-nl.txt) || RE sites that deal with illegal drugs <br><sub>Including RX drugs illegal to posses in the US</sub> ||
+| Facebook| [GitHub Pages Link](https://blocklistproject.github.io/Lists/facebook.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/facebook-nl.txt) || Block FB and FB relate/owned services ||
+| Fraud| [GitHub Pages Link](https://blocklistproject.github.io/Lists/fraud.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/fraud-nl.txt) || Sites create to fraud ||
+| Gambling| [GitHub Pages Link](https://blocklistproject.github.io/Lists/gambling.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/gambling-nl.txt) || All gambling based site legit and illegal ||
+| Malware| [GitHub Pages Link](https://blocklistproject.github.io/Lists/malware.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/malware-nl.txt) || Known sites that host malware ||
+| Phishing| [GitHub Pages Link](https://blocklistproject.github.io/Lists/phishing.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/phishing-nl.txt) || Sites created to phish info ||
+| Piracy| [GitHub Pages Link](https://blocklistproject.github.io/Lists/piracy.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/piracy-nl.txt) || Knows sites that allow for illegal downloads ||
+| Porn| [GitHub Pages Link](https://blocklistproject.github.io/Lists/porn.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/porn-nl.txt)|| Porn or sites that promote porn |[W1T3H4T](https://www.patreon.com/user/creators?u=26512074)|
+| Ransomware| [GitHub Pages Link](https://blocklistproject.github.io/Lists/ransomware.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/ransomware-nl.txt) || Known sites that host or contain ransomware ||
+| Redirect| [GitHub Pages Link](https://blocklistproject.github.io/Lists/redirect.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/redirect-nl.txt) || Sites that redirect your from your intended site ||
+| Scam| [GitHub Pages Link](https://blocklistproject.github.io/Lists/scam.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/scam-nl.txt) || Sites that intend to scam ||
+| TikTok| [GitHub Pages Link](https://blocklistproject.github.io/Lists/tiktok.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/tiktok-nl.txt) || Copy and pasted into your device ||
+| Torrent| [GitHub Pages Link](https://blocklistproject.github.io/Lists/torrent.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/torrent-nl.txt) || Torrent directory <br> <sub>Will likely block legit torrent sites used for legal software download</sub> ||
+| Tracking| [GitHub Pages Link](https://blocklistproject.github.io/Lists/tracking.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/tracking-nl.txt) || Sites dedicated to tracking and gathering visitor info ||
 
 
 &nbsp;
 
 ## Beta Lists
 
-| List | Link | Link w/o leading IP | Description | Sponsor<sup>&#8224;</sup> |
+| List | Link | Link w/o leading IP | dnsmasq | Description | Sponsor<sup>&#8224;</sup> |
 |--|--|--| -- | -- |
-| Smart TV| [GitHub Pages Link](https://blocklistproject.github.io/Lists/smart-tv.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/smart-tv-nl.txt) | Smart TV call home and ads ||
-| Basic Start List| [GitHub Pages Link](https://blocklistproject.github.io/Lists/basic.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/basic-nl.txt) | Just a quick basic starter list ||  
-| Whatsapp List| [GitHub Pages Link](https://blocklistproject.github.io/Lists/whatsapp.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/whatsapp-nl.txt) | User requested list that blocks only Whatsapp ||  
+| Smart TV| [GitHub Pages Link](https://blocklistproject.github.io/Lists/smart-tv.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/smart-tv-nl.txt) || Smart TV call home and ads ||
+| Basic Start List| [GitHub Pages Link](https://blocklistproject.github.io/Lists/basic.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/basic-nl.txt) || Just a quick basic starter list ||  
+| Whatsapp List| [GitHub Pages Link](https://blocklistproject.github.io/Lists/whatsapp.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/whatsapp-nl.txt) || User requested list that blocks only Whatsapp ||  
 
 &nbsp;
 
