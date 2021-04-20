@@ -116,7 +116,7 @@ These converted files can be used with various DNS and domain-blocking tools:
 | Ransomware| [GitHub Pages Link](https://blocklistproject.github.io/Lists/ransomware.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/ransomware-nl.txt) || Known sites that host or contain ransomware ||
 | Redirect| [GitHub Pages Link](https://blocklistproject.github.io/Lists/redirect.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/redirect-nl.txt) || Sites that redirect your from your intended site ||
 | Scam| [GitHub Pages Link](https://blocklistproject.github.io/Lists/scam.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/scam-nl.txt) || Sites that intend to scam ||
-| TikTok| [GitHub Pages Link](https://blocklistproject.github.io/Lists/tiktok.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/tiktok-nl.txt) |[GitHub Pages Link](https://blocklistproject.github.io/Lists/dnsmasq-version/tiktok-dnsmasq.txt)| Copy and pasted into your device ||
+| TikTok| [GitHub Pages Link](https://blocklistproject.github.io/Lists/tiktok.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/tiktok-nl.txt) || Copy and pasted into your device ||
 | Torrent| [GitHub Pages Link](https://blocklistproject.github.io/Lists/torrent.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/torrent-nl.txt) || Torrent directory <br> <sub>Will likely block legit torrent sites used for legal software download</sub> ||
 | Tracking| [GitHub Pages Link](https://blocklistproject.github.io/Lists/tracking.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/tracking-nl.txt) || Sites dedicated to tracking and gathering visitor info ||
 
@@ -129,7 +129,7 @@ These converted files can be used with various DNS and domain-blocking tools:
 |--|--|--|--| -- | -- |
 | Smart TV| [GitHub Pages Link](https://blocklistproject.github.io/Lists/smart-tv.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/smart-tv-nl.txt) || Smart TV call home and ads ||
 | Basic Start List| [GitHub Pages Link](https://blocklistproject.github.io/Lists/basic.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/basic-nl.txt) || Just a quick basic starter list ||  
-| Whatsapp List| [GitHub Pages Link](https://blocklistproject.github.io/Lists/whatsapp.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/whatsapp-nl.txt) || User requested list that blocks only Whatsapp ||  
+| Whatsapp List|  |  |[GitHub Pages Link](https://blocklistproject.github.io/Lists/dnsmasq-version/tiktok-dnsmasq.txt)| User requested list that blocks only Whatsapp ||  
 
 &nbsp;
 
