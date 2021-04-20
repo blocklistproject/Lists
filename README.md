@@ -101,7 +101,7 @@ These converted files can be used with various DNS and domain-blocking tools:
 ## Main Lists
 
 | List | Link | Link w/o leading IP | dnsmasq | Description | Sponsor<sup>&#8224;</sup> |
-|--|--|--| -- | -- |
+|--|--|--| -- | -- | -- |
 | Abuse| [GitHub Pages Link](https://blocklistproject.github.io/Lists/abuse.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/abuse-nl.txt) || Lists of sites created to deceive |Armstrong|
 | Ads| [GitHub Pages Link](https://blocklistproject.github.io/Lists/ads.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/ads-nl.txt) || Ad servers/sites ||
 | Crypto| [GitHub Pages Link](https://blocklistproject.github.io/Lists/crypto.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/crypto-nl.txt) || Crypto/cryptojacking based sites <br> <sup>Can break normal "good" crypto sites</sup> ||
@@ -126,7 +126,7 @@ These converted files can be used with various DNS and domain-blocking tools:
 ## Beta Lists
 
 | List | Link | Link w/o leading IP | dnsmasq | Description | Sponsor<sup>&#8224;</sup> |
-|--|--|--| -- | -- |
+|--|--|--|--| -- | -- |
 | Smart TV| [GitHub Pages Link](https://blocklistproject.github.io/Lists/smart-tv.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/smart-tv-nl.txt) || Smart TV call home and ads ||
 | Basic Start List| [GitHub Pages Link](https://blocklistproject.github.io/Lists/basic.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/basic-nl.txt) || Just a quick basic starter list ||  
 | Whatsapp List| [GitHub Pages Link](https://blocklistproject.github.io/Lists/whatsapp.txt) | [GitHub Pages Link](https://blocklistproject.github.io/Lists/alt-version/whatsapp-nl.txt) || User requested list that blocks only Whatsapp ||  
