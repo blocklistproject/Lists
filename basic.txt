@@ -40028,7 +40028,7 @@ oracleinfinity.io.edgekey.net
 oracles-network.org
 oracls.network
 oralse.ca
-oralse.cx  # en.wikipedia.org/wiki/List_of_shock_sites
+oralse.cx
 orange-kodzik.890m.com
 orange.fr-enqueteannuelle.xyz
 orange.fr-enqueteofficielle.online
