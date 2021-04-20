@@ -100,7 +100,7 @@ These converted files can be used with various DNS and domain-blocking tools:
 
 ## Main Lists
 
-| List | Link | Link w/o leading IP | dnsmasq | Description | Sponsor<sup>&#8224;</sup> |
+| List | Original | No IP | dnsmasq | Description | Sponsor<sup>&#8224;</sup> |
 |--|--|--| -- | -- | -- |
 | Abuse| [Link](https://blocklistproject.github.io/Lists/abuse.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/abuse-nl.txt) || Lists of sites created to deceive |Armstrong|
 | Ads| [Link](https://blocklistproject.github.io/Lists/ads.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/ads-nl.txt) || Ad servers/sites ||
@@ -125,7 +125,7 @@ These converted files can be used with various DNS and domain-blocking tools:
 
 ## Beta Lists
 
-| List | Link | Link w/o leading IP | dnsmasq | Description | Sponsor<sup>&#8224;</sup> |
+| List | Original | No IP | dnsmasq | Description | Sponsor<sup>&#8224;</sup> |
 |--|--|--|--| -- | -- |
 | Smart TV| [Link](https://blocklistproject.github.io/Lists/smart-tv.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/smart-tv-nl.txt) || Smart TV call home and ads ||
 | Basic Start List| [Link](https://blocklistproject.github.io/Lists/basic.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/basic-nl.txt) || Just a quick basic starter list ||  
@@ -135,7 +135,7 @@ These converted files can be used with various DNS and domain-blocking tools:
 
 ## Deprecated Lists
 
-| List | Link | Link w/o leading IP | Description | Deletion date (dd.mm.yyyy) |
+| List | Original | No IP | Description | Deletion date (dd.mm.yyyy) |
 |--|--|--| -- | -- |
 | Everything| [Link](https://blocklistproject.github.io/Lists/everything.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/everything-nl.txt) | This list was overly complicated to update | 01.10.2021 |
 | Youtube| [Link](https://blocklistproject.github.io/Lists/youtube.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/youtube-nl.txt) | This lists was removed due to the way youtube serves it's ads | 01.10.2021 |
