@@ -101,7 +101,7 @@ These converted files can be used with various DNS and domain-blocking tools:
 ## Main Lists
 
 | List | Original | No IP | dnsmasq | Description | Sponsor<sup>&#8224;</sup> |
-|--|--| -- | -- | -- | -- |
+| -- | -- | -- | -- | -- | -- |
 | Abuse| [Link](https://blocklistproject.github.io/Lists/abuse.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/abuse-nl.txt) || Lists of sites created to deceive |Armstrong|
 | Ads| [Link](https://blocklistproject.github.io/Lists/ads.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/ads-nl.txt) || Ad servers/sites ||
 | Crypto| [Link](https://blocklistproject.github.io/Lists/crypto.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/crypto-nl.txt) || Crypto/cryptojacking based sites <br> <sup>Can break normal "good" crypto sites</sup> ||
