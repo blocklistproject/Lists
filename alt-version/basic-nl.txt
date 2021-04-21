@@ -85,7 +85,7 @@
 008.free-counter.co.uk
 008.free-counters.co.uk
 00author.com
-00fun.com  #[Tracking.Cookie]
+00fun.com
 00go.com
 00it.com
 00sexus.com
