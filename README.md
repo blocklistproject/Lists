@@ -128,7 +128,7 @@ These converted files can be used with various DNS and domain-blocking tools:
 | List | Original | No IP | dnsmasq | Description | Sponsor<sup>&#8224;</sup> |
 |--|--|--| -- | -- | -- |
 | Smart TV| [Link](https://blocklistproject.github.io/Lists/smart-tv.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/smart-tv-nl.txt) || Smart TV call home and ads ||
-| Basic Start List| [Link](https://blocklistproject.github.io/Lists/basic.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/basic-nl.txt) || Just a quick basic starter list ||  
+| Basic Start List| [Link](https://blocklistproject.github.io/Lists/basic.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/basic-nl.txt) |[Link](https://blocklistproject.github.io/Lists/dnsmasq-version/basic-dnsmasq.txt)| Just a quick basic starter list ||  
 | Whatsapp List|  |  |[Link](https://blocklistproject.github.io/Lists/dnsmasq-version/tiktok-dnsmasq.txt)| User requested list that blocks only Whatsapp ||  
 
 &nbsp;
