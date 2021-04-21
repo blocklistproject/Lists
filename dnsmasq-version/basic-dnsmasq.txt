@@ -1,19 +1,3 @@
-#------------------------------------[UPDATE]--------------------------------------
-# Title: The Block List Project - Basic List
-# Version:Fri, 12 Jun 2020 21:24:09 +0000
-# Expires: 1 day
-# Homepage: https://blocklist.site
-# Help: https://github.com/blocklistproject/lists/wiki/
-# License: https://unlicense.org
-# Total number of network filters: 
-#------------------------------------[SUPPORT]-------------------------------------
-# You can support by:
-# - reporting false positives
-# - making a donation: https://paypal.me/blocklistproject
-#-------------------------------------[INFO]---------------------------------------
-#
-# Basic List
-#------------------------------------[FILTERS]-------------------------------------
 server=/0-app.com/
 server=/0.0.0.0.beeglivesex.com/
 server=/0.0.0.0.creative.hpyrdr.com/
