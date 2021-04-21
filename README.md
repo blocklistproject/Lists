@@ -1,6 +1,6 @@
 # The Block List Project
-![GitHub issues](https://img.shields.io/github/issues/blocklistproject/lists)
-![GitHub closed issues](https://badgen.net/github/closed-issues/blocklistproject/Lists?color=green)
+[![GitHub issues](https://img.shields.io/github/issues/blocklistproject/lists)](https://github.com/blocklistproject/Lists/issues)
+[![GitHub closed issues](https://badgen.net/github/closed-issues/blocklistproject/Lists?color=green)](https://github.com/blocklistproject/Lists/issues?q=is%3Aissue+is%3Aclosed)
 [![GitHub contributors](https://img.shields.io/github/contributors/blocklistproject/lists)](https://github.com/blocklistproject/Lists/graphs/contributors)
 ![GitHub repo size](https://img.shields.io/github/repo-size/blocklistproject/lists)
 ![GitHub](https://img.shields.io/github/license/blocklistproject/lists?color=blue)
