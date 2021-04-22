@@ -37912,7 +37912,7 @@ app.gelirartisi.com
 app.getresponse.com
 app.getsentry.com
 app.getvero.com
-app.hubspot.com
+# app.hubspot.com Issue 289
 app.iappgame.com
 app.icontact.com
 app.infinixmobility.com
