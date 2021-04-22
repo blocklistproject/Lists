@@ -1,7 +1,7 @@
 # The Block List Project
-![GitHub issues](https://img.shields.io/github/issues/blocklistproject/lists)
-![GitHub closed issues](https://badgen.net/github/closed-issues/blocklistproject/Lists?color=green)
-![GitHub contributors](https://img.shields.io/github/contributors/blocklistproject/lists)
+[![GitHub issues](https://img.shields.io/github/issues/blocklistproject/lists)](https://github.com/blocklistproject/Lists/issues)
+[![GitHub closed issues](https://badgen.net/github/closed-issues/blocklistproject/Lists?color=green)](https://github.com/blocklistproject/Lists/issues?q=is%3Aissue+is%3Aclosed)
+[![GitHub contributors](https://img.shields.io/github/contributors/blocklistproject/lists)](https://github.com/blocklistproject/Lists/graphs/contributors)
 ![GitHub repo size](https://img.shields.io/github/repo-size/blocklistproject/lists)
 ![GitHub](https://img.shields.io/github/license/blocklistproject/lists?color=blue)
 ![GitHub Maintained](https://img.shields.io/badge/Open%20Source-Yes-green)
@@ -128,7 +128,7 @@ These converted files can be used with various DNS and domain-blocking tools:
 | List | Original | No IP | dnsmasq | Description | Sponsor<sup>&#8224;</sup> |
 |--|--|--| -- | -- | -- |
 | Smart TV| [Link](https://blocklistproject.github.io/Lists/smart-tv.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/smart-tv-nl.txt) || Smart TV call home and ads ||
-| Basic Start List| [Link](https://blocklistproject.github.io/Lists/basic.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/basic-nl.txt) || Just a quick basic starter list ||  
+| Basic Start List| [Link](https://blocklistproject.github.io/Lists/basic.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/basic-nl.txt) |[Link](https://blocklistproject.github.io/Lists/dnsmasq-version/basic-dnsmasq.txt)| Just a quick basic starter list ||  
 | Whatsapp List|  |  |[Link](https://blocklistproject.github.io/Lists/dnsmasq-version/tiktok-dnsmasq.txt)| User requested list that blocks only Whatsapp ||  
 
 &nbsp;
