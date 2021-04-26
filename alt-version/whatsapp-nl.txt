@@ -23,6 +23,7 @@ betablog.whatsapp.com
 betal.whatsapp.com
 blog.whatsapp.com
 blogl.whatsapp.com
+c.whatsapp.net
 chat.whatsapp.com
 crashlogs.whatsapp.net
 dev-web-beta.whatsapp.com
@@ -188,4 +189,3 @@ www-cdn.whatsapp.net
 www.whatsapp.com
 www.xl.whatsapp.com
 wwwl.whatsapp.com
-c.whatsapp.net
