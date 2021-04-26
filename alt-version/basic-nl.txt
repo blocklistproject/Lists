@@ -31099,7 +31099,7 @@ learn.codefellows.org
 learn.corneagen.com
 learn.donjohnston.com
 learn.hcss.com
-learn.hedera.com
+# learn.hedera.com Issue 294
 learn.jacksonhewitt.com
 learn.mays.tamu.edu
 learn.middlebury.edu
