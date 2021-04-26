@@ -188,4 +188,4 @@ www-cdn.whatsapp.net
 www.whatsapp.com
 www.xl.whatsapp.com
 wwwl.whatsapp.com
-
+c.whatsapp.net
