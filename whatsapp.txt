@@ -23,6 +23,7 @@
 0.0.0.0	betal.whatsapp.com
 0.0.0.0	blog.whatsapp.com
 0.0.0.0	blogl.whatsapp.com
+0.0.0.0 c.whatsapp.net
 0.0.0.0	chat.whatsapp.com
 0.0.0.0	crashlogs.whatsapp.net
 0.0.0.0	dev-web-beta.whatsapp.com
@@ -188,5 +189,3 @@
 0.0.0.0	www.whatsapp.com
 0.0.0.0	www.xl.whatsapp.com
 0.0.0.0	wwwl.whatsapp.com
-0.0.0.0 c.whatsapp.net
-
