@@ -31099,7 +31099,7 @@
 0.0.0.0 learn.corneagen.com
 0.0.0.0 learn.donjohnston.com
 0.0.0.0 learn.hcss.com
-0.0.0.0 learn.hedera.com
+# 0.0.0.0 learn.hedera.com Issue 294
 0.0.0.0 learn.jacksonhewitt.com
 0.0.0.0 learn.mays.tamu.edu
 0.0.0.0 learn.middlebury.edu
