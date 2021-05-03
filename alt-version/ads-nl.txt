@@ -122100,7 +122100,7 @@ statics-www-ssl.gingersoftware.com
 statics.gingersoftware.com
 statics.hdocdn.ru
 statics.letfap.com
-statics.streamable.com
+# statics.streamable.com Issue 309
 staticsfs.host
 staticswind.club
 staticvc.adsafeprotected.com
