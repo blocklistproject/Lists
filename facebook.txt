@@ -22474,4 +22474,4 @@
 0.0.0.0 zynga.facebook.com
 0.0.0.0 zz-tr.cinyour.facebook.com
 0.0.0.0 zzangfa.autodiscover.oculusvr.com
-
+0.0.0.0 privatestats.whatsapp.net
