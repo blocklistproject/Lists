@@ -237,3 +237,4 @@ www.whatsapp.com
 www.xl.whatsapp.com
 wwwl.whatsapp.com
 static.whatsapp.net
+privatestats.whatsapp.net
