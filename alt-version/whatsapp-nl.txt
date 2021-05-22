@@ -238,3 +238,4 @@ www.xl.whatsapp.com
 wwwl.whatsapp.com
 static.whatsapp.net
 privatestats.whatsapp.net
+media.fqls2-1.fna.whatsapp.net
