@@ -23,7 +23,7 @@ Please see below our crypto addresses:
 | :-------------: | :-------------: | :-------------: | :-------------: | :-------------: | :-------------: |
 | <img src="https://blocklistproject.github.io/Lists/img/eth-qr-code.png" width="125"> | <img src="https://blocklistproject.github.io/Lists/img/algo-qr-code.png" width="125"> | <img src="https://blocklistproject.github.io/Lists/img/bat-qr-code.png" width="110"> | <img src="https://blocklistproject.github.io/Lists/img/btc-qr-code.png" width="125"> | <img src="https://blocklistproject.github.io/Lists/img/zcash-qr-code.png" width="125"> | <img src="https://blocklistproject.github.io/Lists/img/dash-qr-code.png" width="125"> |
 
-As we move away from Patreon we are also changing our crypto payment addresses to a more secure Hardware wallet ([Ledger](https://shop.ledger.com/pages/ledger-nano-x?r=f60e80a16431&tracker=github)<--Click here to learn more about Ledger and support the Block List Project).
+As we move away from Patreon we are also changing our crypto payment addresses to a more secure Hardware wallet ([Ledger](https://shop.ledger.com/pages/ledger-nano-x?r=f60e80a16431&tracker=github) <-- Click here to learn more about Ledger and support the Block List Project).
 
 [Become a Patron](https://www.patreon.com/bePatron?u=8892646)
 
@@ -102,23 +102,23 @@ These converted files can be used with various DNS and domain-blocking tools:
 
 | List | Original | No IP | dnsmasq | Description | Sponsor<sup>&#8224;</sup> |
 | -- | -- | -- | -- | -- | -- |
-| Abuse| [Link](https://blocklistproject.github.io/Lists/abuse.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/abuse-nl.txt) || Lists of sites created to deceive |Armstrong|
-| Ads| [Link](https://blocklistproject.github.io/Lists/ads.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/ads-nl.txt) || Ad servers/sites ||
-| Crypto| [Link](https://blocklistproject.github.io/Lists/crypto.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/crypto-nl.txt) || Crypto/cryptojacking based sites <br> <sup>Can break normal "good" crypto sites</sup> ||
-| Drugs| [Link](https://blocklistproject.github.io/Lists/drugs.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/drugs-nl.txt) || RE sites that deal with illegal drugs <br><sub>Including RX drugs illegal to posses in the US</sub> ||
-| Facebook| [Link](https://blocklistproject.github.io/Lists/facebook.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/facebook-nl.txt) || Block FB and FB relate/owned services ||
-| Fraud| [Link](https://blocklistproject.github.io/Lists/fraud.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/fraud-nl.txt) || Sites create to fraud ||
-| Gambling| [Link](https://blocklistproject.github.io/Lists/gambling.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/gambling-nl.txt) || All gambling based site legit and illegal ||
-| Malware| [Link](https://blocklistproject.github.io/Lists/malware.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/malware-nl.txt) || Known sites that host malware ||
-| Phishing| [Link](https://blocklistproject.github.io/Lists/phishing.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/phishing-nl.txt) || Sites created to phish info ||
-| Piracy| [Link](https://blocklistproject.github.io/Lists/piracy.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/piracy-nl.txt) || Knows sites that allow for illegal downloads ||
-| Porn| [Link](https://blocklistproject.github.io/Lists/porn.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/porn-nl.txt)|| Porn or sites that promote porn |[W1T3H4T](https://www.patreon.com/user/creators?u=26512074)|
-| Ransomware| [Link](https://blocklistproject.github.io/Lists/ransomware.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/ransomware-nl.txt) || Known sites that host or contain ransomware ||
-| Redirect| [Link](https://blocklistproject.github.io/Lists/redirect.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/redirect-nl.txt) || Sites that redirect your from your intended site ||
-| Scam| [Link](https://blocklistproject.github.io/Lists/scam.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/scam-nl.txt) || Sites that intend to scam ||
-| TikTok| [Link](https://blocklistproject.github.io/Lists/tiktok.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/tiktok-nl.txt) || Copy and pasted into your device ||
-| Torrent| [Link](https://blocklistproject.github.io/Lists/torrent.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/torrent-nl.txt) || Torrent directory <br> <sub>Will likely block legit torrent sites used for legal software download</sub> ||
-| Tracking| [Link](https://blocklistproject.github.io/Lists/tracking.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/tracking-nl.txt) || Sites dedicated to tracking and gathering visitor info ||
+| Abuse | [Link](https://blocklistproject.github.io/Lists/abuse.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/abuse-nl.txt) |  | Lists of sites created to deceive |Armstrong|
+| Ads | [Link](https://blocklistproject.github.io/Lists/ads.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/ads-nl.txt) |  | Ad servers / sites |  |
+| Crypto | [Link](https://blocklistproject.github.io/Lists/crypto.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/crypto-nl.txt) |  | Crypto / cryptojacking based sites <br> <sup>Can break normal "good" crypto sites</sup> |  |
+| Drugs | [Link](https://blocklistproject.github.io/Lists/drugs.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/drugs-nl.txt) |  | RE sites that deal with illegal drugs <br><sub>Including RX drugs illegal to posses in the US</sub> |  |
+| Facebook | [Link](https://blocklistproject.github.io/Lists/facebook.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/facebook-nl.txt) |  | Block FB and FB relate / owned services |  |
+| Fraud | [Link](https://blocklistproject.github.io/Lists/fraud.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/fraud-nl.txt) |  | Sites create to fraud |  |
+| Gambling | [Link](https://blocklistproject.github.io/Lists/gambling.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/gambling-nl.txt) |  | All gambling based site legit and illegal |  |
+| Malware | [Link](https://blocklistproject.github.io/Lists/malware.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/malware-nl.txt) |  | Known sites that host malware |  |
+| Phishing | [Link](https://blocklistproject.github.io/Lists/phishing.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/phishing-nl.txt) |  | Sites created to phish info |  |
+| Piracy | [Link](https://blocklistproject.github.io/Lists/piracy.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/piracy-nl.txt) |  | Knows sites that allow for illegal downloads |  |
+| Porn | [Link](https://blocklistproject.github.io/Lists/porn.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/porn-nl.txt) |  | Porn or sites that promote porn | [W1T3H4T](https://www.patreon.com/user/creators?u=26512074) |
+| Ransomware | [Link](https://blocklistproject.github.io/Lists/ransomware.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/ransomware-nl.txt) |  | Known sites that host or contain ransomware |  |
+| Redirect | [Link](https://blocklistproject.github.io/Lists/redirect.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/redirect-nl.txt) |  | Sites that redirect your from your intended site |  |
+| Scam | [Link](https://blocklistproject.github.io/Lists/scam.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/scam-nl.txt) |  | Sites that intend to scam |  |
+| TikTok | [Link](https://blocklistproject.github.io/Lists/tiktok.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/tiktok-nl.txt) | [Link](https://blocklistproject.github.io/Lists/dnsmasq-version/tiktok-dnsmasq.txt) | Copy and pasted into your device |  |
+| Torrent | [Link](https://blocklistproject.github.io/Lists/torrent.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/torrent-nl.txt) |  | Torrent directory <br> <sub>Will likely block legit torrent sites used for legal software download</sub> |  |
+| Tracking | [Link](https://blocklistproject.github.io/Lists/tracking.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/tracking-nl.txt) |  | Sites dedicated to tracking and gathering visitor info |  |
 
 
 &nbsp;
@@ -127,9 +127,9 @@ These converted files can be used with various DNS and domain-blocking tools:
 
 | List | Original | No IP | dnsmasq | Description | Sponsor<sup>&#8224;</sup> |
 |--|--|--| -- | -- | -- |
-| Smart TV| [Link](https://blocklistproject.github.io/Lists/smart-tv.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/smart-tv-nl.txt) || Smart TV call home and ads ||
-| Basic Start List| [Link](https://blocklistproject.github.io/Lists/basic.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/basic-nl.txt) |[Link](https://blocklistproject.github.io/Lists/dnsmasq-version/basic-dnsmasq.txt)| Just a quick basic starter list ||  
-| Whatsapp List|  |  |[Link](https://blocklistproject.github.io/Lists/dnsmasq-version/tiktok-dnsmasq.txt)| User requested list that blocks only Whatsapp ||  
+| Smart TV | [Link](https://blocklistproject.github.io/Lists/smart-tv.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/smart-tv-nl.txt) |  | Smart TV call home and ads |  |
+| Basic Start List | [Link](https://blocklistproject.github.io/Lists/basic.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/basic-nl.txt) | [Link](https://blocklistproject.github.io/Lists/dnsmasq-version/basic-dnsmasq.txt) | Just a quick basic starter list |  |  
+| WhatsApp List | [Link](https://blocklistproject.github.io/Lists/whatsapp.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/whatsapp-nl.txt) |  | User requested list that blocks only WhatsApp |  |  
 
 &nbsp;
 
@@ -137,8 +137,8 @@ These converted files can be used with various DNS and domain-blocking tools:
 
 | List | Original | No IP | Description | Deletion date (dd.mm.yyyy) |
 |--|--| -- | -- | -- |
-| Everything| [Link](https://blocklistproject.github.io/Lists/everything.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/everything-nl.txt) | This list was overly complicated to update | 01.10.2021 |
-| Youtube| [Link](https://blocklistproject.github.io/Lists/youtube.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/youtube-nl.txt) | This lists was removed due to the way youtube serves it's ads | 01.10.2021 |
+| Everything | [Link](https://blocklistproject.github.io/Lists/everything.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/everything-nl.txt) | This list was overly complicated to update | 01.10.2021 |
+| Youtube | [Link](https://blocklistproject.github.io/Lists/youtube.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/youtube-nl.txt) | This lists was removed due to the way YouTube serves its ads | 01.10.2021 |
 
 
 <sup>*Not supported by or affiliated with Pi-hole.</sup>

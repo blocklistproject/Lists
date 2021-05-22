@@ -1001,7 +1001,7 @@ Kludd.com
 Kmn-music.de
 Komodoisland.net
 kraytracker.com
-kraytracker.com&amp
+kraytracker.com
 kt-t.hu
 Ktorrents.com
 ktrao.com
@@ -2707,4 +2707,3 @@ zooqle.com
 zooqle.unblocked.llc
 Zoozle.org
 Ztracker.hu
-
