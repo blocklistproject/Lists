@@ -106,7 +106,7 @@ These converted files can be used with various DNS and domain-blocking tools:
 | Ads | [Link](https://blocklistproject.github.io/Lists/ads.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/ads-nl.txt) |  | Ad servers / sites |  |
 | Crypto | [Link](https://blocklistproject.github.io/Lists/crypto.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/crypto-nl.txt) |  | Crypto / cryptojacking based sites <br> <sup>Can break normal "good" crypto sites</sup> |  |
 | Drugs | [Link](https://blocklistproject.github.io/Lists/drugs.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/drugs-nl.txt) |  | RE sites that deal with illegal drugs <br><sub>Including RX drugs illegal to posses in the US</sub> |  |
-| Facebook | [Link](https://blocklistproject.github.io/Lists/facebook.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/facebook-nl.txt) |  | Block FB and FB relate / owned services |  |
+| Facebook | [Link](https://blocklistproject.github.io/Lists/facebook.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/facebook-nl.txt) |  | Block FB and FB related / owned services |  |
 | Fraud | [Link](https://blocklistproject.github.io/Lists/fraud.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/fraud-nl.txt) |  | Sites create to fraud |  |
 | Gambling | [Link](https://blocklistproject.github.io/Lists/gambling.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/gambling-nl.txt) |  | All gambling based site legit and illegal |  |
 | Malware | [Link](https://blocklistproject.github.io/Lists/malware.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/malware-nl.txt) |  | Known sites that host malware |  |
@@ -138,7 +138,7 @@ These converted files can be used with various DNS and domain-blocking tools:
 | List | Original | No IP | Description | Deletion date (dd.mm.yyyy) |
 |--|--| -- | -- | -- |
 | Everything | [Link](https://blocklistproject.github.io/Lists/everything.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/everything-nl.txt) | This list was overly complicated to update | 01.10.2021 |
-| Youtube | [Link](https://blocklistproject.github.io/Lists/youtube.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/youtube-nl.txt) | This lists was removed due to the way YouTube serves its ads | 01.10.2021 |
+| YouTube | [Link](https://blocklistproject.github.io/Lists/youtube.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/youtube-nl.txt) | This lists was removed due to the way YouTube serves its ads | 01.10.2021 |
 
 
 <sup>*Not supported by or affiliated with Pi-hole.</sup>
