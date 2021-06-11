@@ -13,7 +13,7 @@
 #
 # tracking list
 #------------------------------------[FILTERS]-------------------------------------
-# footprint.net Issue 29
+# footprint.net Resolved Issue 29
 # hubspot.com Issue 52
 # intercomassets.com Issue 48
 # newrelic.com Issue 53
@@ -1429,6 +1429,7 @@ cqcounter.com
 cquotient.com
 crash.steampowered.com
 crashdump.spotify.com
+crashlytics.com
 crazyegg.com
 crealytics.com
 createabetterinternet.com

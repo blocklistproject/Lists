@@ -36089,7 +36089,7 @@ analyticselb.localytics.com
 analyticsengine.s3.amazonaws.com
 analyticshap.localytics.com
 analyticsindiamag-com.cdn.ampproject.org
-# analyticsindiamag.com Issue 205
+# analyticsindiamag.com #Issue 205
 analyticsip.net
 analyticsncc.net
 analyticsnew.overwolf.com
@@ -37094,7 +37094,6 @@ api.extension.admitad.com
 api.factual.com
 api.feedad.com
 api.final.env.sandbox53.localytics.com
-api.finanzen.immobilienscout24.de
 api.flicktweets.com
 api.flocktory.com
 api.flurry.com
@@ -37251,7 +37250,6 @@ api.mobadvent.com
 api.mobcells.com
 api.mobeacon.mobisky.pl
 api.mobile.cnzz.com
-api.mobile.immobilienscout24.de
 api.mobileanjian.com
 api.mobileapptracking.com
 api.mobilearts.io
@@ -37366,7 +37364,6 @@ api.radarnews.uodoo.com
 api.raphael.env.sandbox53.localytics.com
 api.reachads.com
 api.rec.mob.com
-api.recommendation.immobilienscout24.de
 api.recorder.duapps.com
 api.recotap.com
 api.recsys.opera.com
@@ -77214,7 +77211,7 @@ hubtraffic.com
 hubvisor.io
 hubvotrpjios.com
 # hubxt.redtube.com Issue 91
-# hubxt.tube8.com Issue 91
+# hubxt.tube8.com Issue 9`
 huccrlctmgifs.com
 huckberry.evergage.com
 hud8mxdt.computerhelpmirror.top
@@ -80968,7 +80965,7 @@ ingmob.offerstrack.net
 ingnl04.webtrekk.net
 ingorob.com
 ingramjapan.com
-# ingress.com  Issue 277
+# ingress.com Issue 277
 ingridkaslik.com
 inhadhen.com
 inhcrirmboz.com
@@ -83865,8 +83862,8 @@ js.hsadspixel.net
 # js.hscollectedforms.net Issue 129
 # js.hscta.net Issue 129
 # js.hsforms.net Issue 129
-# js.hsleadflows.net Issue 129
-js.hubspot.com
+js.hsleadflows.net
+# js.hubspot.com Issue 129
 js.idio.co
 js.indexww.com
 js.isboost.co.jp
@@ -129811,7 +129808,7 @@ trainingsworld.de.intellitxt.com
 trajan.httpool.com
 trakken.de
 trakksocial.googlecode.com
-# traktorski-deli.si Issue 172
+# traktorski-deli.si Issue 171
 traktr.news.com.au
 traktrafficflow.com
 traktum.com
@@ -132272,8 +132269,8 @@ um.simpli.fi
 um.videmob.com
 um.wbtrk.net
 um2.eqads.com
-# um2.eqads.com x.skimresources.com Issue 188
-# um2.eqads.comx.skimresources.com Issue 188
+um2.eqads.com x.skimresources.com
+um2.eqads.comx.skimresources.com
 umafkdswjuwz.bid
 umaglven.com
 umamdmo.com
@@ -141582,7 +141579,7 @@ whegadry.com
 whehilru.com
 whenu.com
 whenupgrade.yourmainsourceforcontentprepared.win
-# where.com Reddit issue
+# where.com Reddit issues
 whereapps.com
 wheredoyoucomefrom.ovh
 whereismommy.gq
