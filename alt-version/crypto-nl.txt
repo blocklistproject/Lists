@@ -393,7 +393,7 @@ adbma.adk2.co
 adbtc.top
 adc.suprnova.cc
 adcast.deviantart.com
-adclick.g.doubleclick.net
+# adclick.g.doubleclick.net Belongs in ad list
 adconity.com
 adcore.lenovomm.com
 add.pool.mn
