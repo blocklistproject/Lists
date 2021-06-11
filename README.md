@@ -29,6 +29,11 @@ As we move away from Patreon we are also changing our crypto payment addresses t
 
 &nbsp;
 
+# Update: 
+Special and HUGE thank you to @fishcharlie for his automation contribution to the project. With his contribution it is no longer required to edit the alt-version or dnsmasq versions of the lists when doing pull requests. This is now done automatically on commit. Thank you to all those that help this project to continue moving forward. 
+
+&nbsp;
+
 - [Details](#details)
 - [Updates](#updates)
 - [Versions](#versions)
