@@ -9,7 +9,7 @@ const path = require("path");
 		.replaceAll(/0\.0\.0\.0 (.*?)( .*)?$/gmu, "0.0.0.0 $1/$2") // I need this line to add "/" at the end of each URL
 		.replaceAll(/^0\.0\.0\.0 /gmu, "server=/") // Replace all occurances of "0.0.0.0 " at the beginning of the line with "server=/"
 		.replaceAll(/^# 0\.0\.0\.0 /gmu, "# server=/") // Replace all occurances of "# 0.0.0.0 " at the beginning of the line with "# server=/"
-		.replace(/^# Title: (.*?)$/gmu, "# Title: $1 (dnsmasq)"); // Add (NL) to end of title
+		.replace(/^# Title: (.*?)$/gmu, "# Title: $1 (dnsmasq)"); // Add (dnsmasq) to end of title
 		await fs.writeFile(path.join(__dirname, "..", "dnsmasq-version", file.replace(".txt", "-dnsmasq.txt")), noIPFileContents, "utf8"); // Write new file to `alt-version` directory
 	}));
 })();
