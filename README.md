@@ -29,8 +29,8 @@ As we move away from Patreon we are also changing our crypto payment addresses t
 
 &nbsp;
 
-# Update: 
-Special and HUGE thank you to @fishcharlie for his automation contribution to the project. With his contribution it is no longer required to edit the alt-version or dnsmasq versions of the lists when doing pull requests. This is now done automatically on commit. Thank you to all those that help this project to continue moving forward. 
+# Update:
+Special and HUGE thank you to [@fishcharlie](https://github.com/fishcharlie) for his automation contribution to the project. With his contribution it is no longer required to edit the alt-version or dnsmasq versions of the lists when doing pull requests. This is now done automatically on commit. Thank you to all those that help this project to continue moving forward.
 
 &nbsp;
 
@@ -133,8 +133,8 @@ These converted files can be used with various DNS and domain-blocking tools:
 | List | Original | No IP | dnsmasq | Description | Sponsor<sup>&#8224;</sup> |
 |--|--|--| -- | -- | -- |
 | Smart TV | [Link](https://blocklistproject.github.io/Lists/smart-tv.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/smart-tv-nl.txt) |  | Smart TV call home and ads |  |
-| Basic Start List | [Link](https://blocklistproject.github.io/Lists/basic.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/basic-nl.txt) | [Link](https://blocklistproject.github.io/Lists/dnsmasq-version/basic-dnsmasq.txt) | Just a quick basic starter list |  |  
-| WhatsApp List | [Link](https://blocklistproject.github.io/Lists/whatsapp.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/whatsapp-nl.txt) |  | User requested list that blocks only WhatsApp |  |  
+| Basic Start List | [Link](https://blocklistproject.github.io/Lists/basic.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/basic-nl.txt) | [Link](https://blocklistproject.github.io/Lists/dnsmasq-version/basic-dnsmasq.txt) | Just a quick basic starter list |  |
+| WhatsApp List | [Link](https://blocklistproject.github.io/Lists/whatsapp.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/whatsapp-nl.txt) |  | User requested list that blocks only WhatsApp |  |
 
 &nbsp;
 

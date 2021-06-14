@@ -1,18 +1,18 @@
-#------------------------------------[UPDATE]--------------------------------------/
-# Title: The Block List Project - Drugs List/ (NL)
-# Expires: 1 day/
-# Homepage: https://blocklist.site/
-# Help: https://github.com/blocklistproject/lists/wiki//
-# License: https://unlicense.org/
-# Total number of network filters: 26590/
-#------------------------------------[SUPPORT]-------------------------------------/
-# You can support by:/
-# - reporting false positives/
-# - making a donation: https://paypal.me/blocklistproject/
-#-------------------------------------[INFO]---------------------------------------/
-#/
-# Drugs list/
-#------------------------------------[FILTERS]-------------------------------------/
+#------------------------------------[UPDATE]--------------------------------------
+# Title: The Block List Project - Drugs List (dnsmasq)
+# Expires: 1 day
+# Homepage: https://blocklist.site
+# Help: https://github.com/blocklistproject/lists/wiki/
+# License: https://unlicense.org
+# Total number of network filters: 26590
+#------------------------------------[SUPPORT]-------------------------------------
+# You can support by:
+# - reporting false positives
+# - making a donation: https://paypal.me/blocklistproject
+#-------------------------------------[INFO]---------------------------------------
+#
+# Drugs list
+#------------------------------------[FILTERS]-------------------------------------
 server=/000host.totaocimall.com/
 server=/001kanpou.com/
 server=/028lang.com/
@@ -26603,4 +26603,3 @@ server=/zyqwugzogr.net/
 server=/zyrtec-klm.blogspot.com/
 server=/zyrtec-qwq.blogspot.com/
 server=/zyrtecaustralia.net/
-/
