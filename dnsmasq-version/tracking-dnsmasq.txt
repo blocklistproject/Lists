@@ -1,27 +1,27 @@
-#------------------------------------[UPDATE]--------------------------------------/
-# Title: The Block List Project - Tracking List/ (NL)
-# Expires: 1 day/
-# Homepage: https://blocklist.site/
-# Help: https://github.com/blocklistproject/lists/wiki//
-# License: https://unlicense.org/
-# Total number of network filters: 2020/
-#------------------------------------[SUPPORT]-------------------------------------/
-# You can support by:/
-# - reporting false positives/
-# - making a donation: https://paypal.me/blocklistproject/
-#-------------------------------------[INFO]---------------------------------------/
-#/
-# tracking list/
-#------------------------------------[FILTERS]-------------------------------------/
-# server=/footprint.net Resolved Issue 29/
-# server=/hubspot.com Issue 52/
-# server=/intercomassets.com Issue 48/
-# server=/newrelic.com Issue 53/
-# server=/byside.com Issue 10/
-# server=/counters.gigya.com Issue 7/
-# server=/gigya.com Issue 7/
-# server=/ipinfo.io Issue 21/
-# server=/yospace.com Issue 12/
+#------------------------------------[UPDATE]--------------------------------------
+# Title: The Block List Project - Tracking List (dnsmasq)
+# Expires: 1 day
+# Homepage: https://blocklist.site
+# Help: https://github.com/blocklistproject/lists/wiki/
+# License: https://unlicense.org
+# Total number of network filters: 2020
+#------------------------------------[SUPPORT]-------------------------------------
+# You can support by:
+# - reporting false positives
+# - making a donation: https://paypal.me/blocklistproject
+#-------------------------------------[INFO]---------------------------------------
+#
+# tracking list
+#------------------------------------[FILTERS]-------------------------------------
+# server=/footprint.net/ Resolved Issue 29
+# server=/hubspot.com/ Issue 52
+# server=/intercomassets.com/ Issue 48
+# server=/newrelic.com/ Issue 53
+# server=/byside.com/ Issue 10
+# server=/counters.gigya.com/ Issue 7
+# server=/gigya.com/ Issue 7
+# server=/ipinfo.io/ Issue 21
+# server=/yospace.com/ Issue 12
 server=/1-cl0ud.com/
 server=/1-creative-1.com/
 server=/1000mercis.com/
@@ -13130,7 +13130,7 @@ server=/nmp6.com/
 server=/nnn.ru/
 server=/nobeta.com.br/
 server=/nodes.npm9sh75p.com/
-# server=/nosto.com Issue 132/
+# server=/nosto.com/ Issue 132
 server=/notice1-09.com/
 server=/notice1-11.com/
 server=/notice1-12.com/
@@ -13436,7 +13436,7 @@ server=/preved.tut.by/
 server=/prfhn.com/
 server=/pricespider.com/
 server=/primefuse.com/
-# server=/priority-static-api.nkstatic.com Issue 141/
+# server=/priority-static-api.nkstatic.com/ Issue 141
 server=/privacy.aol.com/
 server=/privateebusiness.com/
 server=/privatescale.com/
