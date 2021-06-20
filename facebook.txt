@@ -14108,7 +14108,6 @@
 0.0.0.0 preprod.instagram.com
 0.0.0.0 presence.facebook.net
 0.0.0.0 preventivehealth.facebook.com
-0.0.0.0 privatestats.whatsapp.net
 0.0.0.0 prn-appstoretest.fb.com
 0.0.0.0 prn-fsoutpost.fb.com
 0.0.0.0 prn-vsptest.fb.com
