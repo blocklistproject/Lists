@@ -109,13 +109,11 @@
 0.0.0.0 bt.arcadefire.net
 0.0.0.0 bt.base0.net
 0.0.0.0 bt.dylantree.com
-0.0.0.0 bt.edwardk.info
 0.0.0.0 bt.emuparadise.org
 0.0.0.0 bt.etree.org
 0.0.0.0 bt.maiden666.com
 0.0.0.0 bt.mindwerks.net
 0.0.0.0 bt.nanashi-fansubs.com
-0.0.0.0 bt.saiyaman.info
 0.0.0.0 bt.servequake.com
 0.0.0.0 bt.shinsen-subs.org
 0.0.0.0 bt.viachicago.org
@@ -204,7 +202,6 @@
 0.0.0.0 funsharing.net
 0.0.0.0 game-files.net
 0.0.0.0 gamesrouter.com
-0.0.0.0 gctracker.mine.nu
 0.0.0.0 gdlo.serveftp.net
 0.0.0.0 gerusama.fansub-torrents.com
 0.0.0.0 gits.no-jutsu.com
@@ -247,7 +244,6 @@
 0.0.0.0 katastrofa.com
 0.0.0.0 kazenokoefansubs.fansub-torrents.com
 0.0.0.0 kickmedown.com
-0.0.0.0 kraytracker.com
 0.0.0.0 ktrao.com
 0.0.0.0 kungfu-torrents.com
 0.0.0.0 learnbits.org
@@ -275,7 +271,6 @@
 0.0.0.0 metallifukinca.com
 0.0.0.0 methlabs.org
 0.0.0.0 metronome-recordings.com
-0.0.0.0 midnight-torrents.com
 0.0.0.0 mininova.org
 0.0.0.0 mitworld.mit.edu
 0.0.0.0 mma-tracker.no-ip.org
@@ -284,8 +279,6 @@
 0.0.0.0 mrtwig.net
 0.0.0.0 murfy.dyndns.tv
 0.0.0.0 murmurs.com
-0.0.0.0 music-vid.com
-0.0.0.0 mvgroup.org
 0.0.0.0 mwgames.lihulanet.org
 0.0.0.0 mybite.org
 0.0.0.0 mybittorrent.com
@@ -325,9 +318,7 @@
 0.0.0.0 pianosheets.org
 0.0.0.0 piratic.org
 0.0.0.0 pisexy.org
-0.0.0.0 pj.sidewalkcrusaders.com
 0.0.0.0 point-blank.cc
-0.0.0.0 potuk.com
 0.0.0.0 prodigem.com
 0.0.0.0 prototype24.ath.cx
 0.0.0.0 psptracker.mine.nu
@@ -335,7 +326,6 @@
 0.0.0.0 publiclibrary.metamute.org
 0.0.0.0 punkhc.dyndns.org
 0.0.0.0 purelivegigs.com
-0.0.0.0 quorks.com
 0.0.0.0 randomnothings.com
 0.0.0.0 raphustle.com
 0.0.0.0 raspberryheaven.net
@@ -370,7 +360,6 @@
 0.0.0.0 solidz.com
 0.0.0.0 sonchou.azuranet.com
 0.0.0.0 sonofshun.com
-0.0.0.0 special.pwtorrents.net
 0.0.0.0 spectreanime.com
 0.0.0.0 speeddemosarchive.com
 0.0.0.0 sphtml.com
@@ -409,9 +398,7 @@
 0.0.0.0 toriyamaworld.cjb.net
 0.0.0.0 torrent-addiction.com
 0.0.0.0 torrent-comet.club-23.org
-0.0.0.0 torrent-damage.net
 0.0.0.0 torrent-plaza.no-ip.org
-0.0.0.0 torrent.genesis-movement.org
 0.0.0.0 torrent.neptunepinkfloyd.co.uk
 0.0.0.0 torrent.thegreatbeyond.net
 0.0.0.0 torrent.unix-ag.uni-kl.de
@@ -419,7 +406,6 @@
 0.0.0.0 torrentbytes.net
 0.0.0.0 torrentfactory.com
 0.0.0.0 torrentit.com
-0.0.0.0 torrentleech.org
 0.0.0.0 torrentmatrix.co.uk
 0.0.0.0 torrentmatrix.com
 0.0.0.0 torrentmind.com
@@ -432,7 +418,6 @@
 0.0.0.0 torrents.chaotixubs.com
 0.0.0.0 torrents.ebrain.com.br
 0.0.0.0 torrents.hanfparade.org
-0.0.0.0 torrents.huntparkinsider.com
 0.0.0.0 torrents.mlydes.org
 0.0.0.0 torrents.nl.tp
 0.0.0.0 torrents.shexnet.com
@@ -508,11 +493,9 @@
 0.0.0.0 welcometothescene.com
 0.0.0.0 whotv.org
 0.0.0.0 wiki.theppn.org
-0.0.0.0 wild-bytes.org
 0.0.0.0 wliia.org
 0.0.0.0 worldwind.arc.nasa.gov
 0.0.0.0 wpp-fansubs.com
-0.0.0.0 www.arabfilms.org
 0.0.0.0 www.gm-realm.net
 0.0.0.0 www.iqcrew.net
 0.0.0.0 www.justinwb.com
@@ -521,26 +504,21 @@
 0.0.0.0 www.prophecywatch.com
 0.0.0.0 www.rustradio.org
 0.0.0.0 www.teach12.com
-0.0.0.0 www.th3-studio.net
 0.0.0.0 www.thedossier.ukonline.co.uk
 0.0.0.0 www.zeoez.com
 0.0.0.0 www2.digitaldistractions.org
 0.0.0.0 www2.l33t-raws.org
 0.0.0.0 x-torrent.net
 0.0.0.0 x264.us
-0.0.0.0 xbox.udp.at
 0.0.0.0 xevious.homeip.net
 0.0.0.0 xhaos.no-ip.org
 0.0.0.0 xtremetorrents.co.uk
-0.0.0.0 xtvi.com
 0.0.0.0 xwoman.ath.cx
 0.0.0.0 yeeshkul.com
 0.0.0.0 yhbt.mine.nu
 0.0.0.0 yotoshi.com
 0.0.0.0 yuugiou-tracker.org
-0.0.0.0 zcultfm.com
 0.0.0.0 zerowing.idsoftware.com
-0.0.0.0 zombtracker.the-zomb.com
 0.0.0.0 0.arenabg.com
 0.0.0.0 00-torrnets.com
 0.0.0.0 0day.ro

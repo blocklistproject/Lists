@@ -109,13 +109,11 @@ bt-chat.com
 bt.arcadefire.net
 bt.base0.net
 bt.dylantree.com
-bt.edwardk.info
 bt.emuparadise.org
 bt.etree.org
 bt.maiden666.com
 bt.mindwerks.net
 bt.nanashi-fansubs.com
-bt.saiyaman.info
 bt.servequake.com
 bt.shinsen-subs.org
 bt.viachicago.org
@@ -204,7 +202,6 @@ fulldls.com
 funsharing.net
 game-files.net
 gamesrouter.com
-gctracker.mine.nu
 gdlo.serveftp.net
 gerusama.fansub-torrents.com
 gits.no-jutsu.com
@@ -247,7 +244,6 @@ katanafansub.no-ip.info
 katastrofa.com
 kazenokoefansubs.fansub-torrents.com
 kickmedown.com
-kraytracker.com
 ktrao.com
 kungfu-torrents.com
 learnbits.org
@@ -275,7 +271,6 @@ metalbootlegdatabase.com
 metallifukinca.com
 methlabs.org
 metronome-recordings.com
-midnight-torrents.com
 mininova.org
 mitworld.mit.edu
 mma-tracker.no-ip.org
@@ -284,8 +279,6 @@ mpg.de
 mrtwig.net
 murfy.dyndns.tv
 murmurs.com
-music-vid.com
-mvgroup.org
 mwgames.lihulanet.org
 mybite.org
 mybittorrent.com
@@ -325,9 +318,7 @@ pharaos-world.de
 pianosheets.org
 piratic.org
 pisexy.org
-pj.sidewalkcrusaders.com
 point-blank.cc
-potuk.com
 prodigem.com
 prototype24.ath.cx
 psptracker.mine.nu
@@ -335,7 +326,6 @@ publicdomaintorrents.com
 publiclibrary.metamute.org
 punkhc.dyndns.org
 purelivegigs.com
-quorks.com
 randomnothings.com
 raphustle.com
 raspberryheaven.net
@@ -370,7 +360,6 @@ snarf-it.org
 solidz.com
 sonchou.azuranet.com
 sonofshun.com
-special.pwtorrents.net
 spectreanime.com
 speeddemosarchive.com
 sphtml.com
@@ -409,9 +398,7 @@ tokyotosho.com
 toriyamaworld.cjb.net
 torrent-addiction.com
 torrent-comet.club-23.org
-torrent-damage.net
 torrent-plaza.no-ip.org
-torrent.genesis-movement.org
 torrent.neptunepinkfloyd.co.uk
 torrent.thegreatbeyond.net
 torrent.unix-ag.uni-kl.de
@@ -419,7 +406,6 @@ torrentbox.com
 torrentbytes.net
 torrentfactory.com
 torrentit.com
-torrentleech.org
 torrentmatrix.co.uk
 torrentmatrix.com
 torrentmind.com
@@ -432,7 +418,6 @@ torrentreactor.net
 torrents.chaotixubs.com
 torrents.ebrain.com.br
 torrents.hanfparade.org
-torrents.huntparkinsider.com
 torrents.mlydes.org
 torrents.nl.tp
 torrents.shexnet.com
@@ -508,11 +493,9 @@ weedy.1.vg
 welcometothescene.com
 whotv.org
 wiki.theppn.org
-wild-bytes.org
 wliia.org
 worldwind.arc.nasa.gov
 wpp-fansubs.com
-www.arabfilms.org
 www.gm-realm.net
 www.iqcrew.net
 www.justinwb.com
@@ -521,26 +504,21 @@ www.phook.org
 www.prophecywatch.com
 www.rustradio.org
 www.teach12.com
-www.th3-studio.net
 www.thedossier.ukonline.co.uk
 www.zeoez.com
 www2.digitaldistractions.org
 www2.l33t-raws.org
 x-torrent.net
 x264.us
-xbox.udp.at
 xevious.homeip.net
 xhaos.no-ip.org
 xtremetorrents.co.uk
-xtvi.com
 xwoman.ath.cx
 yeeshkul.com
 yhbt.mine.nu
 yotoshi.com
 yuugiou-tracker.org
-zcultfm.com
 zerowing.idsoftware.com
-zombtracker.the-zomb.com
 0.arenabg.com
 00-torrnets.com
 0day.ro

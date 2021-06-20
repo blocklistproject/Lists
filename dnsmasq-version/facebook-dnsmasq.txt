@@ -14108,7 +14108,6 @@ server=/premier.facebook.com/
 server=/preprod.instagram.com/
 server=/presence.facebook.net/
 server=/preventivehealth.facebook.com/
-server=/privatestats.whatsapp.net/
 server=/prn-appstoretest.fb.com/
 server=/prn-fsoutpost.fb.com/
 server=/prn-vsptest.fb.com/
