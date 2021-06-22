@@ -14108,7 +14108,6 @@ premier.facebook.com
 preprod.instagram.com
 presence.facebook.net
 preventivehealth.facebook.com
-privatestats.whatsapp.net
 prn-appstoretest.fb.com
 prn-fsoutpost.fb.com
 prn-vsptest.fb.com
