@@ -32925,7 +32925,7 @@ advatar.to
 advboucle.com.re.getclicky.com
 advbroker.ru
 advcache.ru
-advcash.com
+# advcash.com Issue 343
 advclicks.net
 advcoder.ru
 advconversion.com
@@ -140386,7 +140386,7 @@ walla.yad2.co.il
 wallacemaloneymindanao.info
 wallet-api.urbanairship.com
 wallet-ethereum.com
-wallet.advcash.com
+# wallet.advcash.com Issue 343
 wallet.scloud.letv.com
 wallet.urbanairship.com
 wallpaper.cdn.pandora.xiaomi.com
