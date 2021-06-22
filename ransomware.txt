@@ -1916,3 +1916,4 @@
 0.0.0.0 zjfq4lnfbs7pncr5.tor2web.org
 0.0.0.0 ztuw5bvuuapzdfya.klimbim.pl
 0.0.0.0 zutzt67dcxr6mxcn.onion.to
+0.0.0.0 res-smartd.info
