@@ -107,7 +107,7 @@ These converted files can be used with various DNS and domain-blocking tools:
 
 | List | Original | No IP | dnsmasq | Description | Sponsor<sup>&#8224;</sup> |
 | -- | -- | -- | -- | -- | -- |
-| Abuse | [Link](https://blocklistproject.github.io/Lists/abuse.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/abuse-nl.txt) |  | Lists of sites created to deceive |[magicminiman.com](magicminiman.com)|
+| Abuse | [Link](https://blocklistproject.github.io/Lists/abuse.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/abuse-nl.txt) |  | Lists of sites created to deceive |[magicminiman.com](https://magicminiman.com)|
 | Ads | [Link](https://blocklistproject.github.io/Lists/ads.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/ads-nl.txt) |  | Ad servers / sites |  |
 | Crypto | [Link](https://blocklistproject.github.io/Lists/crypto.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/crypto-nl.txt) |  | Crypto / cryptojacking based sites <br> <sup>Can break normal "good" crypto sites</sup> |  |
 | Drugs | [Link](https://blocklistproject.github.io/Lists/drugs.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/drugs-nl.txt) |  | RE sites that deal with illegal drugs <br><sub>Including RX drugs illegal to posses in the US</sub> |  |
