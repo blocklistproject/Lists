@@ -13,6 +13,7 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 15.x
+      - run: node scripts/create-everything-list.js
       - run: node scripts/remove-duplicates.js
       - run: node scripts/generate-noip.js
       - run: node scripts/generate-dnsmasq.js
