@@ -23,7 +23,7 @@ Please see below our crypto addresses:
 | :-------------: | :-------------: | :-------------: |
 | <img src="https://blocklistproject.github.io/Lists/img/algo-qr-code.png" width="125"> | <img src="https://blocklistproject.github.io/Lists/img/btc-qr-code.png" width="125"> | <img src="https://blocklistproject.github.io/Lists/img/zcash-qr-code.png" width="125"> |
 
-As we move away from Patreon we are also changing our crypto payment addresses to a more secure Hardware wallet ([Ledger](https://shop.ledger.com/pages/ledger-nano-x?r=f60e80a16431&tracker=github) <-- Click here to learn more about Ledger and support the Block List Project).
+
 
 [Become a Patron](https://www.patreon.com/bePatron?u=8892646)
 
