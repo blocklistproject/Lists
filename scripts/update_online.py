@@ -8,7 +8,7 @@ def arg(p=1):
     return None
 os.chdir("..")
 
-lists = ["porn.txt"]
+lists = ["porn.txt","abuse.txt","ads.txt","basic.txt","crypto.txt","drugs.txt","everything.txt","facebook.txt","fraud.txt","gambling.txt","malware.txt","phishing.txt","piracy.txt","ransomware.txt","redirect.txt","scam.txt","smart-tv.txt","tiktok.txt","torrent.txt","tracking.txt","whatsapp.txt","youtube.txt"]
 for list in lists:
     file = open(list)
     alt = open(list.split(".")[0] + "_lite.txt","w")
