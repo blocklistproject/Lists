@@ -1,4 +1,4 @@
-name: Update the alt lists
+name: Update the online lists
 on:
   push:
     branches: [ master ]
@@ -8,7 +8,7 @@ on:
     - cron: '16 20 * * 5'
   workflow_dispatch:
 jobs:
-  mkalt:
+  mkonline:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
@@ -25,5 +25,5 @@ jobs:
       with:
           email: noreply@example.com
           name: Update bot
-          branch: main
+          branch: master
           commit-message: Update online lists
