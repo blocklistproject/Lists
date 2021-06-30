@@ -1,9 +1,9 @@
 name: Update the alt lists
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
   pull_request:
-    branches: [ main ]
+    branches: [ master ]
   schedule:
     - cron: '16 20 * * 5'
   workflow_dispatch:
