@@ -26,4 +26,4 @@ jobs:
           email: noreply@example.com
           name: Update bot
           branch: master
-          commit-message: Update online lists
+          message: Update online lists
