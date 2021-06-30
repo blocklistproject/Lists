@@ -1,0 +1,29 @@
+name: Update the online lists
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+  schedule:
+    - cron: '16 20 * * 5'
+  workflow_dispatch:
+jobs:
+  mkonline:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+    - name: Build
+      run: |
+        cd scripts
+        python update_online.py
+    - name: Commit & Push
+      uses: actions-x/commit@v2
+      with:
+          email: noreply@example.com
+          name: Update bot
+          branch: master
+          message: Update online lists
