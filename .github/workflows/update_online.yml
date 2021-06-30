@@ -1,0 +1,29 @@
+name: Update the alt lists
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  schedule:
+    - cron: '16 20 * * 5'
+  workflow_dispatch:
+jobs:
+  mkalt:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+    - name: Build
+      run: |
+        cd scripts
+        python update_online.py
+    - name: Commit & Push
+      uses: actions-x/commit@v2
+      with:
+          email: noreply@example.com
+          name: Update bot
+          branch: main
+          commit-message: Update online lists
