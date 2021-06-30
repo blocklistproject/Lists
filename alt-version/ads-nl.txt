@@ -4,7 +4,7 @@
 # Homepage: https://blocklist.site
 # Help: https://github.com/blocklistproject/lists/wiki/
 # License: https://unlicense.org
-# Total number of network filters: 154578
+# Total number of network filters: 154576
 #------------------------------------[SUPPORT]-------------------------------------
 # You can support by:
 # - reporting false positives
@@ -11220,7 +11220,7 @@ accounts.in.backtrace.io
 accounts.livefyre.com
 accounts.petametrics.com
 accounts.pkr.com
-accounts.pkr.com.invalid
+# accounts.pkr.com.invalid Issue 352
 accounts.teads.tv
 accscdn.m.taobao.com
 accstandardbank.d1.sc.omtrdc.net
@@ -44894,7 +44894,7 @@ braun634.com
 bravads.g2afse.com
 bravenet-internet.t.domdex.com
 bravenet.com
-bravenet.com.invalid
+# bravenet.com.invalid Issue 352
 bravenet.t.domdex.com
 bravenetmedianetwork.com
 braverymob.fusetracking.com
@@ -116004,7 +116004,8 @@ seekinstantly.com
 seemlessfixing.tech
 seemybucks.com
 seen-on-screen.thewhizmarketing.com
-seeq.com.invalid
+seeq.com
+# seeq.com.invalid Issue 352
 seesaa.jp
 seethisinaction.com
 seevolution.com
