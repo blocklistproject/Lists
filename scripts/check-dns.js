@@ -50,8 +50,11 @@ for(var t = 0;t < lists.length;t++){
 		  dns.resolve(domain, "A", function(err, records){
 			  if(err){
 				  console.log(err,domain," dead")
-				  fs.appendFile("reports/offline.txt",domain + "\n",function(err){
+				  fs.appendFile("reports/offline.txt",domain + " is dead\n",function(err){
+					  if(err){
 					  console.log("Error:",err)
+					  }
+					  console.log("Saved dead domain")
 				  })
 			  }
 			  else{
