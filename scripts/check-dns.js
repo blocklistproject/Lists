@@ -45,7 +45,8 @@ for(var t = 0;t < lists.length;t++){
 		  }
 		  var domain = lines[lineid].split(" ")[1]
 		  
-			  console.log(domain)
+			  //console.log(domain)
+		  try{
 		  dns.resolve(domain, "A", function(err, records){
 			  if(err){
 				  console.log(err,domain," dead")
@@ -57,6 +58,9 @@ for(var t = 0;t < lists.length;t++){
 				  
 			  }
 		  });
+		  }
+		  catch(err){
+		  }
 	  }
   })
 }
