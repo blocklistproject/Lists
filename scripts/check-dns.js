@@ -26,7 +26,8 @@ const lists = [
 	// "basic",
 	// "whatsapp"
 ];
-fs.writeFile("reports/offline.txt","",function(err){})
+fs.writeFile("reports/offline.txt","",function(err){
+	if(err){console.log("Error:",err)}
 for(var t = 0;t < lists.length;t++){
   fs.readFile("../" + lists[t] + ".txt",function(err,data){
     if(err){
@@ -47,3 +48,4 @@ for(var t = 0;t < lists.length;t++){
 	  }
   })
 }
+})
