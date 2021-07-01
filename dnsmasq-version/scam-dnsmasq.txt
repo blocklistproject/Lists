@@ -1193,4 +1193,4 @@ server=/rmail-payments.co.uk/
 server=/citasyencuentros.com/
 server=/ammjaflk.ru/
 server=/hovrecording.com/
-server=/WhyNotWin11.com/
+server=/whynotwin11.com/
