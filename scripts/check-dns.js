@@ -33,7 +33,7 @@ console.log("Running...")
 fs.writeFile("reports/offline.txt","",function(err){
 	if(err){console.log("Error:",err)}
 for(var t = 0;t < lists.length;t++){
-  fs.readFile(path.join(__dirname, "..") + lists[t] + ".txt",function(err,data){
+  fs.readFile(path.join(__dirname, "..") + "/" +  lists[t] + ".txt",function(err,data){
     if(err){
 	    console.log(err)
 	    return;
