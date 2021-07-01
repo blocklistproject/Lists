@@ -20,7 +20,6 @@ for list in lists:
     for line in lines:
       #if it is a comment, just write it to the file and continue
         if line.startswith("#") or "127.0.0.1" not in line:
-            alt.write("{}\n".format(line))
             continue
         try:
         #if it is a domain, split the line in two pieces (127.0.0.1 and the domain) and get the second part (the domain)
@@ -33,9 +32,9 @@ for list in lists:
             socket.gethostbyname(domain)#we don't need the ip, we just need to know there is an ip that the host resolves to an ip
         except:
           #if the DNS does not resolve, ignore that domain
-            pass
+          print("Dead domain:",domain)#this will be removed later
         else:
-          #if the dns does resolve, add the domain 
-          alt.write("127.0.0.1 {}".format(domain)) #re-add the 127.0.0.1, which we removed before testing the domain
+          #if the dns does resolve, ignore it
+          pass
     #save changes to the file
     alt.close()
