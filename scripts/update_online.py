@@ -19,7 +19,7 @@ for list in lists:
     #look through the lines
     for line in lines:
       #if it is a comment, just write it to the file and continue
-        if line.startswith("#"):
+        if line.startswith("#") or "127.0.0.1" not in line:
             alt.write("{}\n".format(line))
             continue
         try:
