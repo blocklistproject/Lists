@@ -39,8 +39,7 @@ for(var t = 0;t < lists.length;t++){
 			  continue
 		  }
 		  var domain = lines[lineid].split(" ")[1]
-		  dns.resolve(domain, "A", (err, records)
-         => {
+		  dns.resolve(domain, "A", function(err, records){
 			  if(err){
 				  fs.appendFile("reports/offline.txt",domain + "\n",function(err){})
 			  }
