@@ -34,6 +34,7 @@ fs.writeFile("reports/offline.txt","",function(err){
 for(var t = 0;t < lists.length;t++){
   fs.readFile("../" + lists[t] + ".txt",function(err,data){
     if(err){
+	    console.log(err)
 	    return;
     }
 	  var lines = data.split("\n")
