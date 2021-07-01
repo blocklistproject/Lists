@@ -12,8 +12,6 @@ lists = ["porn.txt","abuse.txt","ads.txt","basic.txt","crypto.txt","drugs.txt","
 for list in lists:
   #read the list
     file = open(list)
-    #create the online-domains-only file for that list
-    alt = open(list.split(".")[0] + "_lite.txt","w")
     #get all the lines in that file
     lines = file.read().split("\n")
     #look through the lines
@@ -36,5 +34,3 @@ for list in lists:
         else:
           #if the dns does resolve, ignore it
           pass
-    #save changes to the file
-    alt.close()
