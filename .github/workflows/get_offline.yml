@@ -1,0 +1,22 @@
+name: Report offline domains
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 15.x
+      - run: node scripts/check-dns.js
+      - name: Commit & Push
+        uses: actions-x/commit@v2
+        with:
+          email: noreply@blocklist.site
+          name: GitHub Actions
+          branch: master
