@@ -26,6 +26,9 @@ const lists = [
 	// "basic",
 	// "whatsapp"
 ];
+
+console.log("Running...")
+
 fs.writeFile("reports/offline.txt","",function(err){
 	if(err){console.log("Error:",err)}
 for(var t = 0;t < lists.length;t++){
@@ -41,7 +44,9 @@ for(var t = 0;t < lists.length;t++){
 		  var domain = lines[lineid].split(" ")[1]
 		  dns.resolve(domain, "A", function(err, records){
 			  if(err){
-				  fs.appendFile("reports/offline.txt",domain + "\n",function(err){})
+				  fs.appendFile("reports/offline.txt",domain + "\n",function(err){
+					  console.log("Error:",err)
+				  })
 			  }
 		  });
 	  }
