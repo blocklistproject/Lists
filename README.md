@@ -140,9 +140,9 @@ These converted files can be used with various DNS and domain-blocking tools:
 
 ## Deprecated Lists
 
-| List | Original | No IP | Description | Deletion date (dd.mm.yyyy) |
-|--|--| -- | -- | -- |
-| YouTube | [Link](https://blocklistproject.github.io/Lists/youtube.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/youtube-nl.txt) | This lists was removed due to the way YouTube serves its ads | 01.10.2021 |
+| List | Description | Deletion date (dd.mm.yyyy) |
+|--|--| -- |
+| YouTube | This lists was removed due to the way YouTube serves its ads | 01.10.2021 |
 
 
 <sup>*Not supported by or affiliated with Pi-hole.</sup>
