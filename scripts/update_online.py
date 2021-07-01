@@ -18,12 +18,16 @@ for list in lists:
     lines = file.read().split("\n")
     #look through the lines
     for line in lines:
-      #if it is a comment, empty, or does not contain 127.0.0.1 for some reason, just write it to the file and continue
-        if line.startswith("#") or "127.0.0.1" not in line:
+      #if it is a comment, just write it to the file and continue
+        if line.startswith("#"):
             alt.write("{}\n".format(line))
             continue
+        try:
         #if it is a domain, split the line in two pieces (127.0.0.1 and the domain) and get the second part (the domain)
-        domain = line.split(" ")[1]
+             domain = line.split(" ")[1]
+        except:
+          #if there was something unexpected, prevent the program from crashing
+          domain = ""
         try:
           #try to get the domain's ip
             socket.gethostbyname(domain)#we don't need the ip, we just need to know there is an ip that the host resolves to an ip
