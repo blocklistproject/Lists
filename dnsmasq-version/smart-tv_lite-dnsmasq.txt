@@ -1,0 +1,85 @@
+#------------------------------------[UPDATE]--------------------------------------
+# Title: The Block List Project - Smart TV List (dnsmasq)
+# Expires: 1 day
+# Homepage: https://blocklist.site
+# Help: https://github.com/blocklistproject/lists/wiki/
+# License: https://unlicense.org
+# Total number of network filters: 70
+#------------------------------------[SUPPORT]-------------------------------------
+# You can support by:
+# - reporting false positives
+# - making a donation: https://paypal.me/blocklistproject
+#-------------------------------------[INFO]---------------------------------------
+#
+# Smart TV list
+#------------------------------------[FILTERS]-------------------------------------
+server=/acr0.samsungcloudsolution.com/
+server=/ad.lgappstv.com/
+server=/ads.samsungads.com/
+server=/aic-ngfts.lge.com/
+server=/amarillo.sb.roku.com/
+server=/az43064.vo.msecnd.net/
+server=/bif.sr.roku.com/
+server=/cdn.samsungcloudsolution.com/
+server=/cloudservices.roku.com/
+server=/config.samsungads.com/
+server=/control-zoo-dtsstage.tvinteractive.tv/
+server=/cooper.logs.roku.com/
+server=/Coordinator-Production-28516768.us-east-1.elb.amazonaws.com/
+server=/d179kwmlpc4o47.cloudfront.ne/
+server=/d1oxlq5h9kq8q5.cloudfront.net/
+server=/d2tnx644ijgq6i.cloudfront.net/
+server=/d3mjsomixevyw7.cloudfront.net/
+server=/edgesuite.net/
+server=/eu-auth2.samsungosp.com/
+server=/events.samsungads.com/
+server=/game.internetat.tv/
+server=/gpm.samsungqbe.com/
+server=/img-resize-cdn-prod.samsungnyc.com/
+server=/infolink.pavv.co.kr/
+server=/lcprd1.samsungcloudsolution.net/
+server=/lgad.cjpowercast.com/
+server=/log-1.samsungacr.com/
+server=/log-2.samsungacr.com/
+server=/log-config.samsungacr.com/
+server=/ngfts.lge.com/
+server=/notice.samsungcloudsolution.com/
+server=/noticecdn.samsungcloudsolution.com/
+server=/noticefile.samsungcloudsolution.com/
+server=/ns11.whois.co.kr/
+server=/ocfconnect-shard-eu02-euwest1.samsungiotcloud.com/
+server=/oempprd.samsungcloudsolution.com/
+server=/osb-v2.samsungqbe.com/
+server=/p.ads.roku.com/
+server=/premium-videos.telly.com/
+server=/samsungacr.com/
+server=/samsungads.com/
+server=/samsungcloudsolution.com/
+server=/samsungcloudsolution.net/
+server=/samsungotn.net/
+server=/samsungrm.net/
+server=/scribe.logs.roku.com/
+server=/scs.samsungqbe.com/
+server=/smartclip.com/
+server=/smartclip.net/
+server=/smartshare.lgtvsdp.com/
+server=/static.doubleclick.net/
+server=/syncplusconfig.s3.amazonaws.com/
+server=/targeted-config-test.samsungacr.com/
+server=/time.samsungcloudsolution.com/
+server=/traces.sr.roku.com/
+server=/track.sr.roku.com/
+server=/tvinteractive.tv/
+server=/tvx.adgrx.com/ 
+server=/uimetadata.samsungiotcloud.com/
+server=/us.ad.lgsmartad.com/
+server=/us.ibs.lgappstv.com/
+server=/us.info.lgsmartad.com/
+server=/us.lgtvsdp.com/
+server=/us.rdx2.lgtvsdp.com/
+server=/vdterms.samsungcloudsolution.com/
+server=/yumenetworks.com/
+server=/osb-apps-v2.samsungqbe.com/
+server=/osb.samsungqbe.com/
+server=/gld.push.samsungosp.com/
+server=/sas.samsungcloudsolution.com/
