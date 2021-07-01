@@ -26,9 +26,24 @@ const lists = [
 	// "basic",
 	// "whatsapp"
 ];
-
+fs.writeFile("reports/offline.txt","",function(err){})
 for(var t = 0;t < lists.length;t++){
-  fs.readFile("../" + lists[t],function(err,data){
-    console.log(data)
+  fs.readFile("../" + lists[t] + ".txt",function(err,data){
+    if(err){
+	    return;
+    }
+	  var lines = data.split("\n")
+	  for(var lineid = 0; lineid < lines.length;lineid++){
+		  if(lines[lineid].startsWith('#') || lines[lineid] === ''){
+			  continue
+		  }
+		  var domain = lines[lineid].split(" ")[1]
+		  dns.resolve(domain, "A", (err, records)
+         => {
+			  if(err){
+				  fs.appendFile("reports/offline.txt",domain + "\n",function(err){})
+			  }
+		  });
+	  }
   })
 }
