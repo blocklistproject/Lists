@@ -98,7 +98,7 @@ These converted files can be used with various DNS and domain-blocking tools:
 3. Update Gravity (**Tools** > **Update Gravity** > **Click "Update"** )
 
 &nbsp;
-<sup>Instructions current as of Pi-hole 5.2.4</sup>
+<sup>Instructions current as of Pi-hole 5.2.4. Instructions may currently be slightly different. Instructions will be updated once ver. 6 is release. Thank you</sup>
 &nbsp;
 
 # Lists:
