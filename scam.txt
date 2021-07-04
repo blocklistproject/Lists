@@ -414,7 +414,7 @@
 0.0.0.0 moteshoes.com
 0.0.0.0 mrarmstrongsclass.com
 0.0.0.0 mualuondi.com
-0.0.0.0 Multicoins.co
+0.0.0.0 multicoins.co
 0.0.0.0 museuw.com
 0.0.0.0 muthaafoundation.org
 0.0.0.0 mv.wiesengrund-sylt.com
