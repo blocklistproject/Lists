@@ -89,7 +89,7 @@ It was requested to add support for dnsmasq. We are currently testing 1 of our l
 
 # Usage:
 <details>
-    <summary>Using with [Pi-hole](https://pi-hole.net):</summary>
+    <summary>Using with <a href="https://pi-hole.net" target="_blank">Pi-Hole</a>:</summary>
 
 
 
