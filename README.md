@@ -88,10 +88,12 @@ It was requested to add support for dnsmasq. We are currently testing 1 of our l
 
 
 # Usage:
+<details>
+    <summary>Using with [Pi-hole](https://pi-hole.net):</summary>
 
-These converted files can be used with various DNS and domain-blocking tools:
 
-## Using with [Pi-hole](https://pi-hole.net/):
+
+## Pi-Hole instructions:
 
 1. Copy the link to the Pi-hole format for the desired list (from the appropriate table below).
 2. Add the URL to your Pi-hole's block lists (**Login** > **Group Management** > **Adlists** > **Paste list URL in "Address" field, add comment** > **Click "Add"**)
@@ -99,6 +101,8 @@ These converted files can be used with various DNS and domain-blocking tools:
 
 &nbsp;
 <sup>Instructions current as of Pi-hole 5.2.4. Instructions may currently be slightly different. Instructions will be updated once ver. 6 is release. Thank you</sup>
+
+</details>
 &nbsp;
 
 # Lists:
