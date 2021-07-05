@@ -4,7 +4,7 @@
 # Homepage: https://blocklist.site
 # Help: https://github.com/blocklistproject/lists/wiki/
 # License: https://unlicense.org
-# Total number of network filters: 1180
+# Total number of network filters: 1179
 #------------------------------------[SUPPORT]-------------------------------------
 # You can support by:
 # - reporting false positives
@@ -1193,4 +1193,4 @@ rmail-payments.co.uk
 citasyencuentros.com
 ammjaflk.ru
 hovrecording.com
-whynotwin11.com
+#0.0.0.0 whynotwin11.com Issue 375
