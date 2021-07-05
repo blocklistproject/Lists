@@ -4,7 +4,7 @@
 # Homepage: https://blocklist.site
 # Help: https://github.com/blocklistproject/lists/wiki/
 # License: https://unlicense.org
-# Total number of network filters: 15057
+# Total number of network filters: 15056
 #------------------------------------[SUPPORT]-------------------------------------
 # You can support by:
 # - reporting false positives
@@ -873,7 +873,7 @@ blutonic-ads.com
 blutonic.net
 bluuadd.com
 bn.uol.com.br
-boards.greenhouse.io
+#0.0.0.0 boards.greenhouse.io Issue 372
 bolimubei.com
 bombora.com
 bongacash.com
