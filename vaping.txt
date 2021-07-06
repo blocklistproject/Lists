@@ -17,11 +17,6 @@
 0.0.0.0 vaping.com
 0.0.0.0 vaping.org
 0.0.0.0 vapingdaily.com
-0.0.0.0 whatisvaping.com
-0.0.0.0 www.vapingpost.com
-0.0.0.0 vapingpost.com
-0.0.0.0 pgvg.net
-0.0.0.0 ma-cigarette.fr
 0.0.0.0 www.vaporfi.com
 0.0.0.0 vaporfi.com
 0.0.0.0 www.directvapor.com
