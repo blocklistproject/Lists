@@ -88,7 +88,7 @@
 0.0.0.0 auxiliarymine.com
 0.0.0.0 auxiliaryoption.com
 0.0.0.0 azitecs.com
-bank.si
+0.0.0.0 bank.si
 0.0.0.0 baroconcept.com
 0.0.0.0 beaswan.com
 0.0.0.0 beesmeth.com
@@ -414,7 +414,7 @@ bank.si
 0.0.0.0 moteshoes.com
 0.0.0.0 mrarmstrongsclass.com
 0.0.0.0 mualuondi.com
-0.0.0.0 Multicoins.co
+0.0.0.0 multicoins.co
 0.0.0.0 museuw.com
 0.0.0.0 muthaafoundation.org
 0.0.0.0 mv.wiesengrund-sylt.com

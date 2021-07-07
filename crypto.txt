@@ -1768,7 +1768,7 @@
 0.0.0.0 best-game.xyz
 0.0.0.0 best-p2pool.eu
 0.0.0.0 bestcoinsignals.com
-0.0.0.0 bestETNpool.com
+0.0.0.0 bestetnpool.com
 0.0.0.0 besti.ga
 0.0.0.0 bestmobiworld.com
 0.0.0.0 bestsecurepractice.com
@@ -15364,7 +15364,7 @@
 0.0.0.0 stratum.mining-pool.io
 0.0.0.0 stratum.mining.eligius.st
 0.0.0.0 stratum.multipool.com
-0.0.0.0 stratum.myBTCcoin.com
+0.0.0.0 stratum.mybtccoin.com
 0.0.0.0 stratum.netcodepool.org
 0.0.0.0 stratum.new.hashhot.com
 0.0.0.0 stratum.nicehash.com
@@ -18879,7 +18879,7 @@
 0.0.0.0 www.berateveng.ru
 0.0.0.0 www.besocial.online
 0.0.0.0 www.best-p2pool.eu
-0.0.0.0 www.bestETNpool.com
+0.0.0.0 www.bestetnpool.com
 0.0.0.0 www.besti.ga
 0.0.0.0 www.bestmobiworld.com
 0.0.0.0 www.bestsecurepractice.com
