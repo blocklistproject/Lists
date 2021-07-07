@@ -1,0 +1,56 @@
+#------------------------------------[UPDATE]--------------------------------------
+# Title: The Block List Project - Vaping List (NL)
+# Expires: 1 day
+# Homepage: https://blocklist.site
+# Help: https://github.com/blocklistproject/lists/wiki/
+# License: https://unlicense.org
+# Total number of network filters: 40
+#------------------------------------[SUPPORT]-------------------------------------
+# You can support by:
+#  - reporting false positives
+#  - making a donation: https://paypal.me/blocklistproject
+#-------------------------------------[INFO]---------------------------------------
+#
+# Vaping list
+#------------------------------------[FILTERS]-------------------------------------
+# https://github.com/blocklistproject/Lists/issues/383
+vaping.com
+vaping.org
+vapingdaily.com
+www.vaporfi.com
+vaporfi.com
+vaping.rocks
+breazy.com
+www.rockbottomvapes.com
+rockbottomvapes.com
+www.eightvape.com
+eightvape.com
+bovaping.com
+thcvapesoil.com
+www.thcvapesoil.com
+mail.thcvapesoil.com
+www.directvapor.com
+directvapor.com
+vapingcheap.com
+www.vapingcheap.com
+vaping360.com
+advertise.vaping360.com
+cdn.vaping360.com
+wwv.vaping360.com
+assets1.vaping360.com
+www.vaping360.com
+go.vaping360.com
+media.vaping360.com
+vapecraftinc.com
+www.vapecraftinc.com
+tracking.vapecraftinc.com
+deals.vapecraftinc.com
+www.vapesuperstore.co.uk
+vapesuperstore.co.uk
+ww2.vapesuperstore.co.uk
+local.vapesuperstore.co.uk
+comune.vapesuperstore.co.uk
+www.vaping.watch
+vaping.watch
+www.vaporbeast.com
+vaporbeast.com

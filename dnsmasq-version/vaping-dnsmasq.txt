@@ -1,0 +1,56 @@
+#------------------------------------[UPDATE]--------------------------------------
+# Title: The Block List Project - Vaping List (dnsmasq)
+# Expires: 1 day
+# Homepage: https://blocklist.site
+# Help: https://github.com/blocklistproject/lists/wiki/
+# License: https://unlicense.org
+# Total number of network filters: 40
+#------------------------------------[SUPPORT]-------------------------------------
+# You can support by:
+#  - reporting false positives
+#  - making a donation: https://paypal.me/blocklistproject
+#-------------------------------------[INFO]---------------------------------------
+#
+# Vaping list
+#------------------------------------[FILTERS]-------------------------------------
+# https://github.com/blocklistproject/Lists/issues/383
+server=/vaping.com/
+server=/vaping.org/
+server=/vapingdaily.com/
+server=/www.vaporfi.com/
+server=/vaporfi.com/
+server=/vaping.rocks/
+server=/breazy.com/
+server=/www.rockbottomvapes.com/
+server=/rockbottomvapes.com/
+server=/www.eightvape.com/
+server=/eightvape.com/
+server=/bovaping.com/
+server=/thcvapesoil.com/
+server=/www.thcvapesoil.com/
+server=/mail.thcvapesoil.com/
+server=/www.directvapor.com/
+server=/directvapor.com/
+server=/vapingcheap.com/
+server=/www.vapingcheap.com/
+server=/vaping360.com/
+server=/advertise.vaping360.com/
+server=/cdn.vaping360.com/
+server=/wwv.vaping360.com/
+server=/assets1.vaping360.com/
+server=/www.vaping360.com/
+server=/go.vaping360.com/
+server=/media.vaping360.com/
+server=/vapecraftinc.com/
+server=/www.vapecraftinc.com/
+server=/tracking.vapecraftinc.com/
+server=/deals.vapecraftinc.com/
+server=/www.vapesuperstore.co.uk/
+server=/vapesuperstore.co.uk/
+server=/ww2.vapesuperstore.co.uk/
+server=/local.vapesuperstore.co.uk/
+server=/comune.vapesuperstore.co.uk/
+server=/www.vaping.watch/
+server=/vaping.watch/
+server=/www.vaporbeast.com/
+server=/vaporbeast.com/
