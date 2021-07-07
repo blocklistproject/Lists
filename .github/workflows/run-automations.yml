@@ -18,6 +18,7 @@ jobs:
       - run: node scripts/update-number-of-domains.js
       - run: node scripts/generate-noip.js
       - run: node scripts/generate-dnsmasq.js
+      - run: node scripts/generate-adguard.js
       - name: Commit & Push
         uses: actions-x/commit@v2
         with:
