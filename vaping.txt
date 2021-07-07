@@ -54,3 +54,17 @@
 0.0.0.0 vaping.watch
 0.0.0.0 www.vaporbeast.com
 0.0.0.0 vaporbeast.com
+0.0.0.0 elementvape.com
+0.0.0.0 www.elementvape.com
+0.0.0.0 blazedvapes.com
+0.0.0.0 www.blazedvapes.com
+0.0.0.0 myvaporstore.com
+0.0.0.0 www.myvaporstore.com
+0.0.0.0 thevapemall.com
+0.0.0.0 www.thevapemall.com
+0.0.0.0 zenithvapecbd.com
+0.0.0.0 www.zenithvapecbd.com
+0.0.0.0 buyvapor.com
+0.0.0.0 www.buyvapor.com
+0.0.0.0 nyvapeshop.com
+0.0.0.0 www.nyvapeshop.com
