@@ -4,7 +4,7 @@
 # Homepage: https://blocklist.site
 # Help: https://github.com/blocklistproject/lists/wiki/
 # License: https://unlicense.org
-# Total number of network filters: 2691
+# Total number of network filters: 2625
 #------------------------------------[SUPPORT]-------------------------------------
 # You can support by:
 # - reporting false positives
@@ -47,7 +47,6 @@
 0.0.0.0 anime-gundam.edwardk.info
 0.0.0.0 anime-himitsu.edwardk.info
 0.0.0.0 anime-in-action.edwardk.info
-0.0.0.0 anime-kraze.org
 0.0.0.0 anime-legion.net
 0.0.0.0 anime-shrine.edwardk.info
 0.0.0.0 anime-t.thundertime.net
@@ -57,7 +56,6 @@
 0.0.0.0 animeindex.net
 0.0.0.0 animelab.com
 0.0.0.0 animeplanetnet.edwardk.info
-0.0.0.0 animesuki.com
 0.0.0.0 animetorrents.com
 0.0.0.0 animetsuki.ath.cx
 0.0.0.0 animeu.edwardk.info
@@ -70,13 +68,11 @@
 0.0.0.0 archive.org
 0.0.0.0 arrakis2.ath.cx
 0.0.0.0 audiofarm.cc
-0.0.0.0 audionews.ru
 0.0.0.0 aussietorrents.com
 0.0.0.0 avatar1966.homelinux.net
 0.0.0.0 ayu-tracker.enlist-a-distro.net
 0.0.0.0 azn-project.depthstrike.com
 0.0.0.0 aznanime.tk
-0.0.0.0 baka-updates.com
 0.0.0.0 bakuretsu-extend.org
 0.0.0.0 bbc.co.uk
 0.0.0.0 bbcworld.com
@@ -86,12 +82,8 @@
 0.0.0.0 bigfoot1942.sektori.org
 0.0.0.0 bit-torrents.ath.cx
 0.0.0.0 bitenova.org
-0.0.0.0 bitme.org
-0.0.0.0 bitmetv.org
 0.0.0.0 bitnation.com
 0.0.0.0 bitoogle.com
-0.0.0.0 bitsarah.com
-0.0.0.0 bitsoup.org
 0.0.0.0 bitto.twiny.org
 0.0.0.0 bittorex.com
 0.0.0.0 bittorrent.anime-supreme.com
@@ -104,13 +96,10 @@
 0.0.0.0 bnbteasytracker.sourceforge.net
 0.0.0.0 bootcity.org
 0.0.0.0 boxbit.org
-0.0.0.0 browntracker.net
-0.0.0.0 bt-chat.com
 0.0.0.0 bt.arcadefire.net
 0.0.0.0 bt.base0.net
 0.0.0.0 bt.dylantree.com
 0.0.0.0 bt.emuparadise.org
-0.0.0.0 bt.etree.org
 0.0.0.0 bt.maiden666.com
 0.0.0.0 bt.mindwerks.net
 0.0.0.0 bt.nanashi-fansubs.com
@@ -119,12 +108,9 @@
 0.0.0.0 bt.viachicago.org
 0.0.0.0 bt.yumeru.net
 0.0.0.0 bt.zhentarim.net
-0.0.0.0 btbot.com
 0.0.0.0 btcyberstorm.com
-0.0.0.0 btjunkie.org
 0.0.0.0 btmusic.org
 0.0.0.0 btwarehouse.org
-0.0.0.0 bwtorrents.com
 0.0.0.0 byteem.net
 0.0.0.0 bytelist.org
 0.0.0.0 c1anime.net
@@ -137,7 +123,6 @@
 0.0.0.0 chaos-wasteland.dyndns.org
 0.0.0.0 chomskytorrents.org
 0.0.0.0 chou-mendoukusai.edwardk.info
-0.0.0.0 chronictracker.com
 0.0.0.0 comcentral.com
 0.0.0.0 comebackdownload.com
 0.0.0.0 commonbits.org
@@ -147,23 +132,17 @@
 0.0.0.0 cp.edwardk.info
 0.0.0.0 cspan.com
 0.0.0.0 danime.2ya.com
-0.0.0.0 danishbits.org
 0.0.0.0 datagalaxy.tk
 0.0.0.0 dbgt.com
 0.0.0.0 dbz-media.nl
 0.0.0.0 dbzdivx.com
 0.0.0.0 ddram.kicks-ass.org
 0.0.0.0 degree-anime.com
-0.0.0.0 demonoid.com
 0.0.0.0 deph.edwardk.info
-0.0.0.0 desitorrents.com
-0.0.0.0 dididave.com
 0.0.0.0 digitalboots.net
 0.0.0.0 digitalpanic.org
-0.0.0.0 dimeadozen.org
 0.0.0.0 directory.fsf.org
 0.0.0.0 downloadanime.org
-0.0.0.0 dreamingtree.org
 0.0.0.0 dreamorabt.com
 0.0.0.0 eddie4.nl
 0.0.0.0 eek.edwardk.info
@@ -180,12 +159,8 @@
 0.0.0.0 f.moya.scarywater.net
 0.0.0.0 familyguytorrents.com
 0.0.0.0 fatalbits.ws
-0.0.0.0 fbtz.com
 0.0.0.0 fightingmagic.edwardk.info
-0.0.0.0 filelist.org
-0.0.0.0 filemp3.org
 0.0.0.0 filerush.com
-0.0.0.0 filesoup.co.uk
 0.0.0.0 flasxitracker.mine.nu
 0.0.0.0 fonoon.org
 0.0.0.0 foreverdrowning.com
@@ -198,20 +173,17 @@
 0.0.0.0 frozen10mbit.no-ip.com
 0.0.0.0 fst.omnilounge.co.uk
 0.0.0.0 fubar.com.ar
-0.0.0.0 fulldls.com
 0.0.0.0 funsharing.net
 0.0.0.0 game-files.net
 0.0.0.0 gamesrouter.com
 0.0.0.0 gdlo.serveftp.net
 0.0.0.0 gerusama.fansub-torrents.com
 0.0.0.0 gits.no-jutsu.com
-0.0.0.0 gotwoot.net
 0.0.0.0 grc.com
 0.0.0.0 greylodge.org
 0.0.0.0 grizzlytorrents.com
 0.0.0.0 gunsnroses.us
 0.0.0.0 gutenberg.org
-0.0.0.0 h33t.com
 0.0.0.0 hairymel.gotdns.com
 0.0.0.0 hawklord.myftp.org
 0.0.0.0 haze.kicks-ass.org
@@ -221,17 +193,11 @@
 0.0.0.0 ibiblio.org
 0.0.0.0 ica1616.redirectme.net
 0.0.0.0 icybits.hopto.org
-0.0.0.0 ilovetorrents.com
 0.0.0.0 index.plan9.de
-0.0.0.0 indietorrents.com
-0.0.0.0 indytorrents.org
 0.0.0.0 inkrecharge.com
 0.0.0.0 iscariote.edwardk.info
-0.0.0.0 islamictorrents.net
-0.0.0.0 isohunt.com
 0.0.0.0 itmn.org
 0.0.0.0 jamendo.com
-0.0.0.0 jamtothis.com
 0.0.0.0 japan-tv.afraid.org
 0.0.0.0 josefinefan.dyndns.org
 0.0.0.0 journeyman.tv
@@ -268,33 +234,27 @@
 0.0.0.0 megatorrents.org
 0.0.0.0 members.shaw.ca
 0.0.0.0 metalbootlegdatabase.com
-0.0.0.0 metallifukinca.com
 0.0.0.0 methlabs.org
 0.0.0.0 metronome-recordings.com
-0.0.0.0 mininova.org
 0.0.0.0 mitworld.mit.edu
 0.0.0.0 mma-tracker.no-ip.org
 0.0.0.0 modtang.sitesled.com
 0.0.0.0 mpg.de
-0.0.0.0 mrtwig.net
 0.0.0.0 murfy.dyndns.tv
 0.0.0.0 murmurs.com
 0.0.0.0 mwgames.lihulanet.org
 0.0.0.0 mybite.org
 0.0.0.0 mybittorrent.com
-0.0.0.0 myspleen.net
 0.0.0.0 mywebpages.comcast.net
 0.0.0.0 nanikano.no-ip.org
 0.0.0.0 nasa.gov
 0.0.0.0 netbsd.org
 0.0.0.0 newnova.org
-0.0.0.0 newtorrents.info
 0.0.0.0 newvoyages.mine.nu
 0.0.0.0 nineoneone.nl
 0.0.0.0 nipples.hopto.org
 0.0.0.0 niteshdw.com
 0.0.0.0 nolatapers.org
-0.0.0.0 nordic-t.org
 0.0.0.0 npr.org
 0.0.0.0 nw0.info
 0.0.0.0 nzone.com
@@ -302,7 +262,6 @@
 0.0.0.0 okimoy.ath.cx
 0.0.0.0 omda.no-ip.org
 0.0.0.0 onegaistudios.com
-0.0.0.0 onemoresolo.net
 0.0.0.0 orbdesign.net
 0.0.0.0 outragedmoderates.org
 0.0.0.0 owen.torrid.ca
@@ -315,9 +274,7 @@
 0.0.0.0 pentagonchannel.mil
 0.0.0.0 peteteo.com
 0.0.0.0 pharaos-world.de
-0.0.0.0 pianosheets.org
 0.0.0.0 piratic.org
-0.0.0.0 pisexy.org
 0.0.0.0 point-blank.cc
 0.0.0.0 prodigem.com
 0.0.0.0 prototype24.ath.cx
@@ -350,9 +307,7 @@
 0.0.0.0 seedy.mine.nu
 0.0.0.0 seikai-no-fansubs.us.tt
 0.0.0.0 shadowshq.yi.org
-0.0.0.0 sharegroundz.com
 0.0.0.0 shi-fa.cjb.net
-0.0.0.0 shnflac.net
 0.0.0.0 sidewinderx.sytes.net
 0.0.0.0 sladinki007.net
 0.0.0.0 slyck.com
@@ -373,7 +328,6 @@
 0.0.0.0 suesupriano.com
 0.0.0.0 sugar-cube.org
 0.0.0.0 supertorrents.net
-0.0.0.0 supertorrents.org
 0.0.0.0 supremetorrents.co.uk
 0.0.0.0 suteki-yume.net
 0.0.0.0 swetorrents.org
@@ -386,14 +340,10 @@
 0.0.0.0 thebeehive.info
 0.0.0.0 thecellar.mylinux-box.info
 0.0.0.0 thehawks.org
-0.0.0.0 themixingbowl.org
-0.0.0.0 thepiratebay.org
 0.0.0.0 theskyiscrape.com
-0.0.0.0 thetradersden.org
 0.0.0.0 thexchangerslounge.kicks-ass.net
 0.0.0.0 throughput.de
 0.0.0.0 tmnsp.net
-0.0.0.0 tntvillage.org
 0.0.0.0 tokyotosho.com
 0.0.0.0 toriyamaworld.cjb.net
 0.0.0.0 torrent-addiction.com
@@ -402,19 +352,14 @@
 0.0.0.0 torrent.neptunepinkfloyd.co.uk
 0.0.0.0 torrent.thegreatbeyond.net
 0.0.0.0 torrent.unix-ag.uni-kl.de
-0.0.0.0 torrentbox.com
-0.0.0.0 torrentbytes.net
 0.0.0.0 torrentfactory.com
 0.0.0.0 torrentit.com
 0.0.0.0 torrentmatrix.co.uk
-0.0.0.0 torrentmatrix.com
 0.0.0.0 torrentmind.com
 0.0.0.0 torrentpimps.com
 0.0.0.0 torrentplanet.ru
 0.0.0.0 torrentplayground.com
 0.0.0.0 torrentplaza.net
-0.0.0.0 torrentportal.com
-0.0.0.0 torrentreactor.net
 0.0.0.0 torrents.chaotixubs.com
 0.0.0.0 torrents.ebrain.com.br
 0.0.0.0 torrents.hanfparade.org
@@ -427,7 +372,6 @@
 0.0.0.0 torrentturk.com
 0.0.0.0 torrenttyphoon.com
 0.0.0.0 torrentvalley.com
-0.0.0.0 torrenty.org
 0.0.0.0 torrentz.com
 0.0.0.0 torrentz.nu
 0.0.0.0 totaltorrents.com
@@ -458,10 +402,8 @@
 0.0.0.0 tracker.wtf-no.com
 0.0.0.0 tracker.zaerc.com
 0.0.0.0 tracker2.anime-destiny.org
-0.0.0.0 trancetraffic.com
 0.0.0.0 transamrit.net
 0.0.0.0 tri-tavern.com
-0.0.0.0 tribalmixes.com
 0.0.0.0 triptorrents.com
 0.0.0.0 tryfreegames.com
 0.0.0.0 ts.kurtubba.com
@@ -470,12 +412,8 @@
 0.0.0.0 tv-torrents.org
 0.0.0.0 tvnihon.dragoneye.ca
 0.0.0.0 tvtorrent.info
-0.0.0.0 tvtorrents.com
-0.0.0.0 u2torrents.com
 0.0.0.0 uberprofile.info
-0.0.0.0 uknova.com
 0.0.0.0 uks-torrents.no-ip.com
-0.0.0.0 underground-gamer.com
 0.0.0.0 undergroundclips.com
 0.0.0.0 underw.org
 0.0.0.0 unrealtorrents.com
@@ -490,10 +428,8 @@
 0.0.0.0 webranger.net
 0.0.0.0 webtorrents.com
 0.0.0.0 weedy.1.vg
-0.0.0.0 welcometothescene.com
 0.0.0.0 whotv.org
 0.0.0.0 wiki.theppn.org
-0.0.0.0 wliia.org
 0.0.0.0 worldwind.arc.nasa.gov
 0.0.0.0 wpp-fansubs.com
 0.0.0.0 www.gm-realm.net
@@ -514,9 +450,7 @@
 0.0.0.0 xhaos.no-ip.org
 0.0.0.0 xtremetorrents.co.uk
 0.0.0.0 xwoman.ath.cx
-0.0.0.0 yeeshkul.com
 0.0.0.0 yhbt.mine.nu
-0.0.0.0 yotoshi.com
 0.0.0.0 yuugiou-tracker.org
 0.0.0.0 zerowing.idsoftware.com
 0.0.0.0 0.arenabg.com

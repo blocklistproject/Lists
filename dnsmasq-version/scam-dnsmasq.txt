@@ -4,7 +4,7 @@
 # Homepage: https://blocklist.site
 # Help: https://github.com/blocklistproject/lists/wiki/
 # License: https://unlicense.org
-# Total number of network filters: 1179
+# Total number of network filters: 1180
 #------------------------------------[SUPPORT]-------------------------------------
 # You can support by:
 # - reporting false positives
@@ -88,7 +88,7 @@ server=/automaticfxoption.com/
 server=/auxiliarymine.com/
 server=/auxiliaryoption.com/
 server=/azitecs.com/
-bank.si
+server=/bank.si/
 server=/baroconcept.com/
 server=/beaswan.com/
 server=/beesmeth.com/
@@ -414,7 +414,7 @@ server=/moslt.com/
 server=/moteshoes.com/
 server=/mrarmstrongsclass.com/
 server=/mualuondi.com/
-server=/Multicoins.co/
+server=/multicoins.co/
 server=/museuw.com/
 server=/muthaafoundation.org/
 server=/mv.wiesengrund-sylt.com/
