@@ -4,7 +4,7 @@
 # Homepage: https://blocklist.site
 # Help: https://github.com/blocklistproject/lists/wiki/
 # License: https://unlicense.org
-# Total number of network filters: 1
+# Total number of network filters: 40
 #------------------------------------[SUPPORT]-------------------------------------
 # You can support by:
 #  - reporting false positives
@@ -19,8 +19,6 @@
 0.0.0.0 vapingdaily.com
 0.0.0.0 www.vaporfi.com
 0.0.0.0 vaporfi.com
-0.0.0.0 www.directvapor.com
-0.0.0.0 directvapor.com
 0.0.0.0 vaping.rocks
 0.0.0.0 breazy.com
 0.0.0.0 www.rockbottomvapes.com
