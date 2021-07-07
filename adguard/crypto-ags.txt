@@ -1768,7 +1768,7 @@
 ||best-game.xyz^
 ||best-p2pool.eu^
 ||bestcoinsignals.com^
-||bestETNpool.com^
+||bestetnpool.com^
 ||besti.ga^
 ||bestmobiworld.com^
 ||bestsecurepractice.com^
@@ -15364,7 +15364,7 @@
 ||stratum.mining-pool.io^
 ||stratum.mining.eligius.st^
 ||stratum.multipool.com^
-||stratum.myBTCcoin.com^
+||stratum.mybtccoin.com^
 ||stratum.netcodepool.org^
 ||stratum.new.hashhot.com^
 ||stratum.nicehash.com^
@@ -18879,7 +18879,7 @@
 ||www.berateveng.ru^
 ||www.besocial.online^
 ||www.best-p2pool.eu^
-||www.bestETNpool.com^
+||www.bestetnpool.com^
 ||www.besti.ga^
 ||www.bestmobiworld.com^
 ||www.bestsecurepractice.com^
