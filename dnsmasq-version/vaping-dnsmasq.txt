@@ -4,7 +4,7 @@
 # Homepage: https://blocklist.site
 # Help: https://github.com/blocklistproject/lists/wiki/
 # License: https://unlicense.org
-# Total number of network filters: 40
+# Total number of network filters: 54
 #------------------------------------[SUPPORT]-------------------------------------
 # You can support by:
 #  - reporting false positives
@@ -54,3 +54,17 @@ server=/www.vaping.watch/
 server=/vaping.watch/
 server=/www.vaporbeast.com/
 server=/vaporbeast.com/
+server=/elementvape.com/
+server=/www.elementvape.com/
+server=/blazedvapes.com/
+server=/www.blazedvapes.com/
+server=/myvaporstore.com/
+server=/www.myvaporstore.com/
+server=/thevapemall.com/
+server=/www.thevapemall.com/
+server=/zenithvapecbd.com/
+server=/www.zenithvapecbd.com/
+server=/buyvapor.com/
+server=/www.buyvapor.com/
+server=/nyvapeshop.com/
+server=/www.nyvapeshop.com/
