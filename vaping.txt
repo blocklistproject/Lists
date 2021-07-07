@@ -1,0 +1,58 @@
+#------------------------------------[UPDATE]--------------------------------------
+# Title: The Block List Project - Vaping List
+# Expires: 1 day
+# Homepage: https://blocklist.site
+# Help: https://github.com/blocklistproject/lists/wiki/
+# License: https://unlicense.org
+# Total number of network filters: 1
+#------------------------------------[SUPPORT]-------------------------------------
+# You can support by:
+#  - reporting false positives
+#  - making a donation: https://paypal.me/blocklistproject
+#-------------------------------------[INFO]---------------------------------------
+#
+# Vaping list
+#------------------------------------[FILTERS]-------------------------------------
+# https://github.com/blocklistproject/Lists/issues/383
+0.0.0.0 vaping.com
+0.0.0.0 vaping.org
+0.0.0.0 vapingdaily.com
+0.0.0.0 www.vaporfi.com
+0.0.0.0 vaporfi.com
+0.0.0.0 www.directvapor.com
+0.0.0.0 directvapor.com
+0.0.0.0 vaping.rocks
+0.0.0.0 breazy.com
+0.0.0.0 www.rockbottomvapes.com
+0.0.0.0 rockbottomvapes.com
+0.0.0.0 www.eightvape.com
+0.0.0.0 eightvape.com
+0.0.0.0 bovaping.com
+0.0.0.0 thcvapesoil.com
+0.0.0.0 www.thcvapesoil.com
+0.0.0.0 mail.thcvapesoil.com
+0.0.0.0 www.directvapor.com
+0.0.0.0 directvapor.com
+0.0.0.0 vapingcheap.com
+0.0.0.0 www.vapingcheap.com
+0.0.0.0 vaping360.com
+0.0.0.0 advertise.vaping360.com
+0.0.0.0 cdn.vaping360.com
+0.0.0.0 wwv.vaping360.com
+0.0.0.0 assets1.vaping360.com
+0.0.0.0 www.vaping360.com
+0.0.0.0 go.vaping360.com
+0.0.0.0 media.vaping360.com
+0.0.0.0 vapecraftinc.com
+0.0.0.0 www.vapecraftinc.com
+0.0.0.0 tracking.vapecraftinc.com
+0.0.0.0 deals.vapecraftinc.com
+0.0.0.0 www.vapesuperstore.co.uk
+0.0.0.0 vapesuperstore.co.uk
+0.0.0.0 ww2.vapesuperstore.co.uk
+0.0.0.0 local.vapesuperstore.co.uk
+0.0.0.0 comune.vapesuperstore.co.uk
+0.0.0.0 www.vaping.watch
+0.0.0.0 vaping.watch
+0.0.0.0 www.vaporbeast.com
+0.0.0.0 vaporbeast.com
