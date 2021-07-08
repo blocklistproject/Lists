@@ -90,8 +90,6 @@ It was requested to add support for AdGuard. We are currently testing our lists.
 <details>
     <summary>Using with <a href="https://pi-hole.net" target="_blank">Pi-Hole</a>:</summary>
 
-
-
 ## Pi-Hole instructions:
 
 1. Copy the link to the Pi-hole format for the desired list (from the appropriate table below).
@@ -103,6 +101,18 @@ It was requested to add support for AdGuard. We are currently testing our lists.
 
 </details>
 &nbsp;
+<details>
+    <summary>Using with <a href="https://adguard.com/en/adguard-home/overview.html">AdGuard Home</a>:</summary>
+
+## AdGuard instructions:
+
+1. Copy the link to the AdGuard format for the desired list (from the appropriate table below).
+2. Add the URL to you AdGuard's block list (**Login** > **Filters** > **DNS Blocklists** > **Add blocklist** > **Add a custom list** > **Enter Name** > **Paste copied link URL**)
+3. List is automatically enabled and ready to start blocking.
+
+&nbsp;
+<sup>Instructions are current as of AdGuard Home version 0.106.3</sup>
+</details>
 
 # Lists:
 
