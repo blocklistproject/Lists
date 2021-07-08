@@ -4,7 +4,7 @@
 # Homepage: https://blocklist.site
 # Help: https://github.com/blocklistproject/lists/wiki/
 # License: https://unlicense.org
-# Total number of network filters: 54
+# Total number of network filters: 108
 #------------------------------------[SUPPORT]-------------------------------------
 # You can support by:
 #  - reporting false positives
@@ -68,3 +68,57 @@ server=/buyvapor.com/
 server=/www.buyvapor.com/
 server=/nyvapeshop.com/
 server=/www.nyvapeshop.com/
+server=/buypodsnow.com/
+server=/www.buypodsnow.com/
+server=/vapordna.com/
+server=/www.vapordna.com/
+server=/instagram.vapordna.com/
+server=/blog.vapordna.com/
+server=/www.discountvapepen.com/
+server=/discountvapepen.com/
+server=/ns1.discountvapepen.com/
+server=/ns2.discountvapepen.com/
+server=/buysellvape.com/
+server=/www.buysellvape.com/
+server=/vapeadmin.buysellvape.com/
+server=/buysellaccess.buysellvape.com/
+server=/api.buysellvape.com/
+server=/autodiscover.buysellvape.com/
+server=/mail.buysellvape.com/
+server=/www.misthub.com/
+server=/misthub.com/
+server=/help.misthub.com/
+server=/test.misthub.com/
+server=/vape.misthub.com/
+server=/enterpriseenrollment.misthub.com/
+server=/msoid.misthub.com/
+server=/cdn.misthub.com/
+server=/unsub.misthub.com/
+server=/westcoastvapesupply.com/
+server=/amp.westcoastvapesupply.com/
+server=/files.westcoastvapesupply.com/
+server=/wholesale.westcoastvapesupply.com/
+server=/email.westcoastvapesupply.com/
+server=/blog.westcoastvapesupply.com/
+server=/www.westcoastvapesupply.com/
+server=/eliquid.westcoastvapesupply.com/
+server=/lcdn.westcoastvapesupply.com/
+server=/slickvapes.com/
+server=/www.slickvapes.com/
+server=/cdn.slickvapes.com/
+server=/blog.slickvapes.com/
+server=/store.nyvapeshop.com/
+server=/prelive.nyvapeshop.com/
+server=/pop.nyvapeshop.com/
+server=/spam.nyvapeshop.com/
+server=/cdn.nyvapeshop.com/
+server=/kibana.nyvapeshop.com/
+server=/dev.nyvapeshop.com/
+server=/info.nyvapeshop.com/
+server=/giantvapes.com/
+server=/blog.giantvapes.com/
+server=/www.giantvapes.com/
+server=/images.giantvapes.com/
+server=/ftp.giantvapes.com/
+server=/apps.giantvapes.com/
+server=/reviews.giantvapes.com/
