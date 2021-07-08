@@ -113,8 +113,10 @@ It was requested to add support for AdGuard. We are currently testing our lists.
 &nbsp;
 <sup>Instructions are current as of AdGuard Home version 0.106.3</sup>
 </details>
+&nbsp;
 
 # Lists:
+&nbsp;
 
 ## Main Lists
 
