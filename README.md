@@ -15,16 +15,6 @@
 
 &nbsp;
 
-
-
-Please see below our crypto addresses:
-
-| Algorand | Basic Attention Token | ZCash |
-| :-------------: | :-------------: | :-------------: |
-| <img src="https://blocklistproject.github.io/Lists/img/algo-qr-code.png" width="125"> | <img src="https://blocklistproject.github.io/Lists/img/btc-qr-code.png" width="125"> | <img src="https://blocklistproject.github.io/Lists/img/zcash-qr-code.png" width="125"> |
-
-
-
 [![Become a Patron](https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fpartiallyexaminedlife.com%2Fwp-content%2Fuploads%2Fpatreon_logo.png&f=1&nofb=1)](https://www.patreon.com/bePatron?u=8892646)
 
 &nbsp;
@@ -173,6 +163,17 @@ We are currently working on verifying compatibility with other tools. Please sta
 ## Sponsors:
 
 Special thank you to [Cloud 4 SURE](https://www.cloud4sure.net) for their generous donation every month to help cover our Linode bill.
+
+
+
+## Please see below our crypto addresses:
+
+| Algorand | Basic Attention Token | ZCash |
+| :-------------: | :-------------: | :-------------: |
+| <img src="https://blocklistproject.github.io/Lists/img/algo-qr-code.png" width="125"> | <img src="https://blocklistproject.github.io/Lists/img/btc-qr-code.png" width="125"> | <img src="https://blocklistproject.github.io/Lists/img/zcash-qr-code.png" width="125"> |
+
+
+
 
 # License:
 
