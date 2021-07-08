@@ -65,9 +65,7 @@ We have recently created an alternative versions of our lists.
 
 <p>  &nbsp;&nbsp;0.0.0.0 example.com</p>
 </details>
-
 &nbsp;
-
 <details>
 <summary>No Leading 0s Version:</summary>
 
@@ -78,7 +76,6 @@ We have recently created an alternative versions of our lists.
 Our users brought it to our attention that some devices error out if the url is preceded by an IP address.
 </details>
 &nbsp;
-
 <details>
 <summary>DNSMASQ Version:</summary>
 
