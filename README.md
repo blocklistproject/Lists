@@ -30,7 +30,7 @@ Please see below our crypto addresses:
 &nbsp;
 
 # Update:
-Special and HUGE thank you to [@fishcharlie](https://github.com/fishcharlie) for his automation contribution to the project. With his contribution it is no longer required to edit the alt-version or dnsmasq versions of the lists when doing pull requests. This is now done automatically on commit. Thank you to all those that help this project to continue moving forward.
+Special and HUGE thank you to [@fishcharlie](https://github.com/fishcharlie) for his automation contribution to the project. With his contribution it is no longer required to edit the alt-version, dnsmasq or adguard versions of the lists when doing pull requests. This is now done automatically on commit. Thank you to all those that help this project to continue moving forward.
 
 &nbsp;
 
@@ -54,38 +54,51 @@ These lists were created because the founder of the project wanted something wit
 
 &nbsp;
 
-## Versions:
+# Versions:
 
 We have recently created an alternative versions of our lists.
 
-### Original Version:
+<details>
+<summary>Original Version:</summary>
 
 <Original>&nbsp;All urls in the version of the list are listed in the host file as follows</Original>
 
 <p>  &nbsp;&nbsp;0.0.0.0 example.com</p>
+</details>
 
 &nbsp;
 
-### No Leading 0s Version:
+<details>
+<summary>No Leading 0s Version:</summary>
 
 <p>&nbsp;All urls in this version of the list are listed in the host file as follows</p>
 
 <p>  &nbsp;&nbsp;example.com</p>
 
 Our users brought it to our attention that some devices error out if the url is preceded by an IP address.
-
+</details>
 &nbsp;
 
-### Beta dnsmasq Version:
+<details>
+<summary>DNSMASQ Version:</summary>
 
 <p>&nbsp;All urls in this version of the list are listed in the host file as follows</p>
 
 <p>  &nbsp;&nbsp;server=/example.com/</p>
 
-It was requested to add support for dnsmasq. We are currently testing 1 of our lists before creating a full set of lists. Please provide feedback.
-
+It was requested to add support for dnsmasq. Please provide feedback.
+</details>
 &nbsp;
+<details>
+<summary>Adguard Version:</summary>
 
+<p>&nbsp;All urls in this version of the list are listed in the host file as follows</p>
+
+<p>  &nbsp;&nbsp;||example.com^</p>
+
+It was requested to add support for AdGuard. We are currently testing our lists. Please provide feedback.
+</details>
+&nbsp;
 
 # Usage:
 <details>
