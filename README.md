@@ -25,7 +25,7 @@ Please see below our crypto addresses:
 
 
 
-[Become a Patron](https://www.patreon.com/bePatron?u=8892646)
+[![Become a Patron](https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fpartiallyexaminedlife.com%2Fwp-content%2Fuploads%2Fpatreon_logo.png&f=1&nofb=1)](https://www.patreon.com/bePatron?u=8892646)
 
 &nbsp;
 
