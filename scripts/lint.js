@@ -24,6 +24,12 @@ const path = require("path");
 					hasError = true;
 				}
 			}
+
+			// Ensuring that all lines that start with `#` are followed by a space
+			if (line.startsWith("#") && line.length > 1 && line[1] !== " ") {
+				console.error(`Line ${index + 1} in ${file} should have a space after #.`);
+				hasError = true;
+			}
 		});
 	}));
 
