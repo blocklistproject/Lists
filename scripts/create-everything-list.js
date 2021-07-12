@@ -45,21 +45,21 @@ const listsToIncludeInEverythingList = [
 	}));
 
 	let everythingListContent =
-`#------------------------------------[UPDATE]--------------------------------------
+`# ------------------------------------[UPDATE]--------------------------------------
 # Title: The Block List Project - Everything List
 # Expires: 1 day
 # Homepage: https://blocklist.site
 # Help: https://github.com/blocklistproject/lists/wiki/
 # License: https://unlicense.org
 # Total number of network filters:
-#------------------------------------[SUPPORT]-------------------------------------
+# ------------------------------------[SUPPORT]-------------------------------------
 # You can support by:
 # - reporting false positives
 # - making a donation: https://paypal.me/blocklistproject
-#-------------------------------------[INFO]---------------------------------------
+# -------------------------------------[INFO]---------------------------------------
 #
 # Everything list
-#------------------------------------[FILTERS]-------------------------------------
+# ------------------------------------[FILTERS]-------------------------------------
 `;
 	domains.forEach((val) => everythingListContent += `0.0.0.0 ${val}\n`);
 
