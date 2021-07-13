@@ -27413,9 +27413,6 @@
 ||admaxim.com^
 ||admaxx.g2afse.com^
 ||admaya.in^
-||admaym.com^
-@@||admaym.com^! cs.genieesspv.jp Issue 188
-@@||admaym.comcs.genieesspv.jp^! Issue 188
 ||admaza.in^
 ||admazing.adfarm1.adition.com^
 ||admd.yam.com^
@@ -154701,3 +154698,4 @@
 ||safeframe.googlesyndication.com^
 ||core.iprom.net^
 ||ahadsply.com^
+||sta.anicdn.com^
