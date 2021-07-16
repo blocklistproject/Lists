@@ -1,4 +1,4 @@
-#------------------------------------[UPDATE]--------------------------------------
+# ------------------------------------[UPDATE]--------------------------------------
 # Title: The Block List Project - Crypto List (dnsmasq)
 # Version:Fri, 12 Jun 2020 21:24:09 +0000
 # Expires: 1 day
@@ -6,14 +6,14 @@
 # Help: https://github.com/blocklistproject/lists/wiki/
 # License: https://unlicense.org
 # Total number of network filters: 23774
-#------------------------------------[SUPPORT]-------------------------------------
+# ------------------------------------[SUPPORT]-------------------------------------
 # You can support by:
 # - reporting false positives
 # - making a donation: https://paypal.me/blocklistproject
-#-------------------------------------[INFO]---------------------------------------
+# -------------------------------------[INFO]---------------------------------------
 #
 # Crypto List
-#------------------------------------[FILTERS]-------------------------------------
+# ------------------------------------[FILTERS]-------------------------------------
 server=/0.r.msn.com/
 server=/000.0x1f4b0.com/
 server=/001.0x1f4b0.com/
