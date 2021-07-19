@@ -1,0 +1,29 @@
+#------------------------------------[UPDATE]--------------------------------------
+# Title: The Block List - Playstation
+# Version:Thru 5/27/2021
+# Expires: 1 day
+#-------------------------------------[INFO]---------------------------------------
+#
+# Playstation List
+#------------------------------------[FILTERS]-------------------------------------
+0.0.0.0 post.net.playstation.net
+0.0.0.0 get.net.playstation.net
+0.0.0.0 fus01.ps4.update.playstation.net
+0.0.0.0 feu01.ps4.update.playstation.net
+0.0.0.0 deu01.ps4.update.playstation.net
+0.0.0.0 tmdb.np.dl.playstation.net
+0.0.0.0 themis.dl.playstation.net
+0.0.0.0 sf.api.np.km.playstation.net
+0.0.0.0 asm.np.community.playstation.net
+0.0.0.0 artcdnsecure.ribob01.net
+0.0.0.0 api-p014.ribob01.net
+0.0.0.0 apicdn-p014.ribob01.net
+0.0.0.0 t-prof.np.community.playstation.net
+0.0.0.0 ps4updptl.eu.np.community.playstation.net
+0.0.0.0 ps4.updptl.sp-int.community.playstation.net
+0.0.0.0 ps4updptl.jp.sp-int.community.playstation.net
+0.0.0.0 ps4-eb.ww.np.dl.playstation.net
+0.0.0.0 communities.api.playstation.com	
+0.0.0.0 fuk01.ps4.update.playstation.net
+0.0.0.0 gb-ivt.np.community.playstation.net
+0.0.0.0 activity.api.np.km.playstation.net
