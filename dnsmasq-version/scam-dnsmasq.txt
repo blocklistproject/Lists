@@ -1,18 +1,18 @@
-#------------------------------------[UPDATE]--------------------------------------
+# ------------------------------------[UPDATE]--------------------------------------
 # Title: The Block List Project - Scam List (dnsmasq)
 # Expires: 1 day
 # Homepage: https://blocklist.site
 # Help: https://github.com/blocklistproject/lists/wiki/
 # License: https://unlicense.org
 # Total number of network filters: 1180
-#------------------------------------[SUPPORT]-------------------------------------
+# ------------------------------------[SUPPORT]-------------------------------------
 # You can support by:
 # - reporting false positives
 # - making a donation: https://paypal.me/blocklistproject
-#-------------------------------------[INFO]---------------------------------------
+# -------------------------------------[INFO]---------------------------------------
 #
 # Scam list
-#------------------------------------[FILTERS]-------------------------------------
+# ------------------------------------[FILTERS]-------------------------------------
 server=/10tradeoption.com/
 server=/123tradeoption.com/
 server=/1n.yarrid.com/
@@ -1193,4 +1193,4 @@ server=/rmail-payments.co.uk/
 server=/citasyencuentros.com/
 server=/ammjaflk.ru/
 server=/hovrecording.com/
-#0.0.0.0 whynotwin11.com/ Issue 375
+# server=/whynotwin11.com/ Issue 375
