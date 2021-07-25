@@ -5,7 +5,7 @@
 ! Homepage: https://blocklist.site
 ! Help: https://github.com/blocklistproject/lists/wiki/
 ! License: https://unlicense.org
-! Total number of network filters: 76471
+! Total number of network filters: 76470
 ! ------------------------------------[SUPPORT]-------------------------------------
 ! You can support by:
 ! - reporting false positives
@@ -86,7 +86,7 @@
 ||008.free-counters.co.uk^
 ||00author.com^
 ||00fun.com # [Tracking.Cookie]^
-||00go.com^
+@@||00go.com^! Issue 411
 ||00it.com^
 ||00sexus.com^
 ||00webcams.com^
