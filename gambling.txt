@@ -2356,3 +2356,4 @@
 0.0.0.0 461.net
 0.0.0.0 regionalwinsite.com
 0.0.0.0 rajabets.com
+0.0.0.0 purewin.com
