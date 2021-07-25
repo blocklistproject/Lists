@@ -1194,3 +1194,4 @@
 0.0.0.0 ammjaflk.ru
 0.0.0.0 hovrecording.com
 # 0.0.0.0 whynotwin11.com Issue 375
+0.0.0.0 mycleanpc.com
