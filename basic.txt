@@ -86,7 +86,7 @@
 0.0.0.0 008.free-counters.co.uk
 0.0.0.0 00author.com
 0.0.0.0 00fun.com # [Tracking.Cookie]
-0.0.0.0 00go.com
+# 0.0.0.0 00go.com Issue 411
 0.0.0.0 00it.com
 0.0.0.0 00sexus.com
 0.0.0.0 00webcams.com
