@@ -1,18 +1,18 @@
-#------------------------------------[UPDATE]--------------------------------------
+# ------------------------------------[UPDATE]--------------------------------------
 # Title: The Block List Project - Vaping List (dnsmasq)
 # Expires: 1 day
 # Homepage: https://blocklist.site
 # Help: https://github.com/blocklistproject/lists/wiki/
 # License: https://unlicense.org
 # Total number of network filters: 108
-#------------------------------------[SUPPORT]-------------------------------------
+# ------------------------------------[SUPPORT]-------------------------------------
 # You can support by:
 #  - reporting false positives
 #  - making a donation: https://paypal.me/blocklistproject
-#-------------------------------------[INFO]---------------------------------------
+# -------------------------------------[INFO]---------------------------------------
 #
 # Vaping list
-#------------------------------------[FILTERS]-------------------------------------
+# ------------------------------------[FILTERS]-------------------------------------
 # https://github.com/blocklistproject/Lists/issues/383
 server=/vaping.com/
 server=/vaping.org/

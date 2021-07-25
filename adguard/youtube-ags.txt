@@ -1,18 +1,18 @@
-!------------------------------------[UPDATE]--------------------------------------
+! ------------------------------------[UPDATE]--------------------------------------
 ! Title: The Block List Project - Youtube List (adguard)
 ! Expires: 1 day
 ! Homepage: https://blocklist.site
 ! Help: https://github.com/blocklistproject/lists/wiki/
 ! License: https://unlicense.org
 ! Total number of network filters: 24280
-!------------------------------------[SUPPORT]-------------------------------------
+! ------------------------------------[SUPPORT]-------------------------------------
 ! You can support by:
 ! - reporting false positives
 ! - making a donation: https://paypal.me/blocklistproject
-!-------------------------------------[INFO]---------------------------------------
+! -------------------------------------[INFO]---------------------------------------
 !
 ! Youtube list - Take this list with a grain of salt. Google is always changing their ad serving domains.
-!------------------------------------[FILTERS]-------------------------------------
+! ------------------------------------[FILTERS]-------------------------------------
 ||r1---sls.googlevideo.com^
 ||r1---sn--0opoxu-2cjy.googlevideo.com^
 ||r1---sn--0ub03g5pox-3c2l.googlevideo.com^
