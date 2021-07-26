@@ -4,7 +4,7 @@
 # Homepage: https://blocklist.site
 # Help: https://github.com/blocklistproject/lists/wiki/
 # License: https://unlicense.org
-# Total number of network filters: 189958
+# Total number of network filters: 189959
 # ------------------------------------[SUPPORT]-------------------------------------
 # You can support by:
 # - reporting false positives
@@ -189990,3 +189990,4 @@ confirm28371630-coinbase-com.web.app
 main-newxz-orluttbx33b1bcng-gtw.qovery.io
 captcharesolving-universe.com
 hovrecording.com
+keyyppoint08.com
