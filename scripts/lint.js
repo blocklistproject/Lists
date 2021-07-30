@@ -59,6 +59,16 @@ const path = require("path");
 					hasError = true;
 				}
 			}
+
+			// Ensure that the URL doesn't contain whitespace characters
+			if (line.startsWith("0.0.0.0 ")) {
+				const lineNoIP = line.replace("0.0.0.0 ", "");
+				const url = lineNoIP.split("#")[0].trim();
+				if (/\s/gmu.test(url)) {
+					console.error(`Line ${index + 1} in ${file} url ${url} contains whitespace in the URL.`);
+					hasError = true;
+				}
+			}
 		});
 	}));
 
