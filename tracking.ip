@@ -1,0 +1,26 @@
+# ------------------------------------[UPDATE]--------------------------------------
+# Title: The Block List Project - Tracking List
+# Expires: 1 day
+# Homepage: https://blocklist.site
+# Help: https://github.com/blocklistproject/lists/wiki/
+# License: https://unlicense.org
+# Total number of network filters: 15057
+# ------------------------------------[SUPPORT]-------------------------------------
+# You can support by:
+# - reporting false positives
+# - making a donation: https://paypal.me/blocklistproject
+# -------------------------------------[INFO]---------------------------------------
+#
+# tracking list
+# ------------------------------------[FILTERS]-------------------------------------
+212.150.34.116
+213.239.214.240
+63.214.247.19
+66.226.74.5
+81.19.88.106
+81.95.145.240
+91.215.100.37
+91.215.100.38
+91.215.101.35
+91.215.101.36
+91.215.103.65
