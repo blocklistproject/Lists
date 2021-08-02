@@ -2465,6 +2465,7 @@
 0.0.0.0 ipv4-count.gmx.net
 0.0.0.0 ipv6-count.gmx.net
 0.0.0.0 isboost.co.jp
+0.0.0.0 ishare.metric.rediff.com
 0.0.0.0 ist-track.com
 0.0.0.0 itenizesayac.com
 0.0.0.0 iterable.com
@@ -2803,9 +2804,12 @@
 0.0.0.0 metrics.oetker.de
 0.0.0.0 metrics.plex.tv
 0.0.0.0 metrics.raptr.com
+0.0.0.0 metric.ind.rediff.com
+0.0.0.0 metric.rediff.com
 0.0.0.0 metrics.tiscover.com
 0.0.0.0 metrics.toptenreviews.com
 0.0.0.0 metricswindow.com
+0.0.0.0 metricsishare.rediff.com
 0.0.0.0 metrigo.com
 0.0.0.0 mgid.com
 0.0.0.0 mgsvc.com
@@ -13917,6 +13921,7 @@
 0.0.0.0 shockedfish.com
 0.0.0.0 shootnstarzoffers.click
 0.0.0.0 shop2market.com
+0.0.0.0 shopmetric.rediff.com
 0.0.0.0 shoppingsecurenowonline.com
 0.0.0.0 shoppingshadow.com
 0.0.0.0 shopwindow.com
@@ -14758,6 +14763,7 @@
 0.0.0.0 user-agent-tracker.herokuapp.com
 0.0.0.0 user-api.com
 0.0.0.0 usergrid.com
+0.0.0.0 usmetric.rediff.com
 0.0.0.0 userreplay.net
 0.0.0.0 userreport.com
 0.0.0.0 userstats.com
@@ -15076,6 +15082,7 @@
 0.0.0.0 zzhengre.com
 0.0.0.0 zzword.com
 0.0.0.0 src.labeldollars.com
+0.0.0.0 track.rediff.com
 0.0.0.0 tracker.nice-prod.pro
 0.0.0.0 vasgenerete.site
 0.0.0.0 ntvp.wpu.sh
