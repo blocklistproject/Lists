@@ -780,7 +780,7 @@
 0.0.0.0 am9ozs.xyz
 0.0.0.0 ama.adwo.com
 0.0.0.0 amaqcgrrmedi.bid
-0.0.0.0 amazonaws.com
+# 0.0.0.0 amazonaws.com Issue 452
 0.0.0.0 amber.coin-miners.info
 0.0.0.0 amber.suprnova.cc
 0.0.0.0 amdc.m.taobao.com
