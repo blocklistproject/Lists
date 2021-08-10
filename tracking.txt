@@ -42,8 +42,6 @@
 0.0.0.0 200summit.com
 0.0.0.0 206ads.com
 0.0.0.0 207.net
-0.0.0.0 212.150.34.116
-0.0.0.0 213.239.214.240
 0.0.0.0 21sme.com
 0.0.0.0 22find.com
 0.0.0.0 247-inc.com
@@ -102,9 +100,7 @@
 0.0.0.0 6009888.com
 0.0.0.0 6009988.com
 0.0.0.0 628e7ae68a3357896.com
-0.0.0.0 63.214.247.19
 0.0.0.0 65twenty.com
-0.0.0.0 66.226.74.5
 0.0.0.0 6counter.de
 0.0.0.0 777seo.com
 0.0.0.0 778669.com
@@ -125,15 +121,8 @@
 0.0.0.0 809002.com
 0.0.0.0 8096888.com
 0.0.0.0 8099888.com
-0.0.0.0 81.19.88.106
-0.0.0.0 81.95.145.240
 0.0.0.0 8866786.com
 0.0.0.0 8m5sew59gr.bid
-0.0.0.0 91.215.100.37
-0.0.0.0 91.215.100.38
-0.0.0.0 91.215.101.35
-0.0.0.0 91.215.101.36
-0.0.0.0 91.215.103.65
 0.0.0.0 95095.com
 0.0.0.0 950958.com
 0.0.0.0 9nl.com
@@ -2465,6 +2454,7 @@
 0.0.0.0 ipv4-count.gmx.net
 0.0.0.0 ipv6-count.gmx.net
 0.0.0.0 isboost.co.jp
+0.0.0.0 ishare.metric.rediff.com
 0.0.0.0 ist-track.com
 0.0.0.0 itenizesayac.com
 0.0.0.0 iterable.com
@@ -2803,9 +2793,12 @@
 0.0.0.0 metrics.oetker.de
 0.0.0.0 metrics.plex.tv
 0.0.0.0 metrics.raptr.com
+0.0.0.0 metric.ind.rediff.com
+0.0.0.0 metric.rediff.com
 0.0.0.0 metrics.tiscover.com
 0.0.0.0 metrics.toptenreviews.com
 0.0.0.0 metricswindow.com
+0.0.0.0 metricsishare.rediff.com
 0.0.0.0 metrigo.com
 0.0.0.0 mgid.com
 0.0.0.0 mgsvc.com
@@ -13917,6 +13910,7 @@
 0.0.0.0 shockedfish.com
 0.0.0.0 shootnstarzoffers.click
 0.0.0.0 shop2market.com
+0.0.0.0 shopmetric.rediff.com
 0.0.0.0 shoppingsecurenowonline.com
 0.0.0.0 shoppingshadow.com
 0.0.0.0 shopwindow.com
@@ -14758,6 +14752,7 @@
 0.0.0.0 user-agent-tracker.herokuapp.com
 0.0.0.0 user-api.com
 0.0.0.0 usergrid.com
+0.0.0.0 usmetric.rediff.com
 0.0.0.0 userreplay.net
 0.0.0.0 userreport.com
 0.0.0.0 userstats.com
@@ -15076,6 +15071,7 @@
 0.0.0.0 zzhengre.com
 0.0.0.0 zzword.com
 0.0.0.0 src.labeldollars.com
+0.0.0.0 track.rediff.com
 0.0.0.0 tracker.nice-prod.pro
 0.0.0.0 vasgenerete.site
 0.0.0.0 ntvp.wpu.sh
