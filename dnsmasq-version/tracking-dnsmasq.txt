@@ -4,7 +4,7 @@
 # Homepage: https://blocklist.site
 # Help: https://github.com/blocklistproject/lists/wiki/
 # License: https://unlicense.org
-# Total number of network filters: 15057
+# Total number of network filters: 15053
 # ------------------------------------[SUPPORT]-------------------------------------
 # You can support by:
 # - reporting false positives
@@ -42,8 +42,6 @@ server=/1trx1.com/
 server=/200summit.com/
 server=/206ads.com/
 server=/207.net/
-server=/212.150.34.116/
-server=/213.239.214.240/
 server=/21sme.com/
 server=/22find.com/
 server=/247-inc.com/
@@ -102,9 +100,7 @@ server=/6008999.com/
 server=/6009888.com/
 server=/6009988.com/
 server=/628e7ae68a3357896.com/
-server=/63.214.247.19/
 server=/65twenty.com/
-server=/66.226.74.5/
 server=/6counter.de/
 server=/777seo.com/
 server=/778669.com/
@@ -125,15 +121,8 @@ server=/8087888.com/
 server=/809002.com/
 server=/8096888.com/
 server=/8099888.com/
-server=/81.19.88.106/
-server=/81.95.145.240/
 server=/8866786.com/
 server=/8m5sew59gr.bid/
-server=/91.215.100.37/
-server=/91.215.100.38/
-server=/91.215.101.35/
-server=/91.215.101.36/
-server=/91.215.103.65/
 server=/95095.com/
 server=/950958.com/
 server=/9nl.com/
@@ -2465,6 +2454,7 @@ server=/iptrack.biz/
 server=/ipv4-count.gmx.net/
 server=/ipv6-count.gmx.net/
 server=/isboost.co.jp/
+server=/ishare.metric.rediff.com/
 server=/ist-track.com/
 server=/itenizesayac.com/
 server=/iterable.com/
@@ -2803,9 +2793,12 @@ server=/metrics.nt.vc/
 server=/metrics.oetker.de/
 server=/metrics.plex.tv/
 server=/metrics.raptr.com/
+server=/metric.ind.rediff.com/
+server=/metric.rediff.com/
 server=/metrics.tiscover.com/
 server=/metrics.toptenreviews.com/
 server=/metricswindow.com/
+server=/metricsishare.rediff.com/
 server=/metrigo.com/
 server=/mgid.com/
 server=/mgsvc.com/
@@ -13917,6 +13910,7 @@ server=/shinystat.it/
 server=/shockedfish.com/
 server=/shootnstarzoffers.click/
 server=/shop2market.com/
+server=/shopmetric.rediff.com/
 server=/shoppingsecurenowonline.com/
 server=/shoppingshadow.com/
 server=/shopwindow.com/
@@ -14758,6 +14752,7 @@ server=/useitbetter.com/
 server=/user-agent-tracker.herokuapp.com/
 server=/user-api.com/
 server=/usergrid.com/
+server=/usmetric.rediff.com/
 server=/userreplay.net/
 server=/userreport.com/
 server=/userstats.com/
@@ -15076,6 +15071,7 @@ server=/zylpfood.com/
 server=/zzhengre.com/
 server=/zzword.com/
 server=/src.labeldollars.com/
+server=/track.rediff.com/
 server=/tracker.nice-prod.pro/
 server=/vasgenerete.site/
 server=/ntvp.wpu.sh/
