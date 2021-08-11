@@ -4,7 +4,7 @@
 # Homepage: https://blocklist.site
 # Help: https://github.com/blocklistproject/lists/wiki/
 # License: https://unlicense.org
-# Total number of network filters: 189959
+# Total number of network filters: 189962
 # ------------------------------------[SUPPORT]-------------------------------------
 # You can support by:
 # - reporting false positives
@@ -189992,3 +189992,6 @@ main-newxz-orluttbx33b1bcng-gtw.qovery.io
 captcharesolving-universe.com
 hovrecording.com
 keyyppoint08.com
+discorcl.link
+discrodnitro.org
+stearncornmunity.ru.com
