@@ -20,7 +20,7 @@
 &nbsp;
 
 # Update:
-Special and HUGE thank you to [@fishcharlie](https://github.com/fishcharlie) for his automation contribution to the project. With his contribution it is no longer required to edit the alt-version, dnsmasq or adguard versions of the lists when doing pull requests. This is now done automatically on commit. Thank you to all those that help this project to continue moving forward.
+Hey everyone, my name is Garrett, I am the primary dev on this project. I wanted to reach out to all those that rely on this project and personally apologize for being absent over the last 7-10 days. I was pretty under the weather. I am back to 100% now and back working on all projects. 
 
 &nbsp;
 
