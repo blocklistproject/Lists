@@ -4,7 +4,7 @@
 # Homepage: https://blocklist.site
 # Help: https://github.com/blocklistproject/lists/wiki/
 # License: https://unlicense.org
-# Total number of network filters: 189962
+# Total number of network filters: 189960
 # ------------------------------------[SUPPORT]-------------------------------------
 # You can support by:
 # - reporting false positives
@@ -70073,7 +70073,7 @@ netflixpromotions.online
 netflixproo.com
 netflixquebec.com
 netflixrate.com
-netflixreality.com
+#0.0.0.0 netflixreality.com
 netflixreanimate.com
 netflixrecadastro.com
 netflixrehberi.com
@@ -158093,7 +158093,7 @@ www.netflixpromotions.online
 www.netflixproo.com
 www.netflixquebec.com
 www.netflixrate.com
-www.netflixreality.com
+#0.0.0.0 www.netflixreality.com
 www.netflixreanimate.com
 www.netflixrecadastro.com
 www.netflixrehberi.com
