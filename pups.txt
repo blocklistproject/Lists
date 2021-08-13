@@ -1,0 +1,122 @@
+# ------------------------------------[UPDATE]--------------------------------------
+# Title: The Block List Project - Unwanted Program List
+# Expires: 1 day
+# Homepage: https://blocklist.site
+# Help: https://github.com/blocklistproject/list/wiki/
+# License: https://unlicense.org
+# Total number of network filters: 1
+# ------------------------------------[SUPPORT]-------------------------------------
+# You can support by:
+# - reporting false positives
+# - making a donation: https://paypal.me/blocklistproject
+# -------------------------------------[INFO]---------------------------------------
+#
+# Unwanted Program list
+# ------------------------------------[FILTERS]-------------------------------------
+0.0.0.0 www.totalav.com
+0.0.0.0 totalav.com
+0.0.0.0 api.totalav.com
+0.0.0.0 secure.totalav.com
+0.0.0.0 url.totalav.com
+0.0.0.0 support.totalav.com
+0.0.0.0 blog.totalav.com
+0.0.0.0 track.totalav.com
+0.0.0.0 ajax.totalav.com
+0.0.0.0 affiliate.totalav.com
+0.0.0.0 livechat.totalav.com
+0.0.0.0 advertisers.totalav.com
+0.0.0.0 affiliates.totalav.com
+0.0.0.0 my.totalav.com
+0.0.0.0 assets.totalav.com
+0.0.0.0 identity.totalav.com
+0.0.0.0 login.totalav.com
+0.0.0.0 download.totalav.com
+0.0.0.0 static.totalav.com
+0.0.0.0 adblock.totalav.com
+0.0.0.0 sso.totalav.com
+0.0.0.0 webshield.totalav.com
+0.0.0.0 resources.totalav.com
+0.0.0.0 signup.totalav.com
+0.0.0.0 link.totalav.com
+0.0.0.0 chat.totalav.com
+0.0.0.0 click.totalav.com
+0.0.0.0 stats.totalav.com
+0.0.0.0 search.totalav.com
+0.0.0.0 aff.totalav.com
+0.0.0.0 news.totalav.com
+0.0.0.0 blockpage.totalav.com
+0.0.0.0 ext.totalav.com
+0.0.0.0 smtpmail.totalav.com
+0.0.0.0 articles.totalav.com
+0.0.0.0 data.totalav.com
+0.0.0.0 pda.totalav.com
+0.0.0.0 firmy.totalav.com
+0.0.0.0 portal.totalav.com
+0.0.0.0 educa.totalav.com
+0.0.0.0 cp.totalav.com
+0.0.0.0 images.totalav.com
+0.0.0.0 p.totalav.com
+0.0.0.0 gallery.totalav.com
+0.0.0.0 webshop.totalav.com
+0.0.0.0 new.totalav.com
+0.0.0.0 sklep.totalav.com
+0.0.0.0 manitoba.totalav.com
+0.0.0.0 wiki.totalav.com
+0.0.0.0 pei.totalav.com
+0.0.0.0 dl.totalav.com
+0.0.0.0 bbs.totalav.com
+0.0.0.0 schools.totalav.com
+0.0.0.0 ts.totalav.com
+0.0.0.0 hosting.totalav.com
+0.0.0.0 test.totalav.com
+0.0.0.0 live.totalav.com
+0.0.0.0 eng.totalav.com
+0.0.0.0 forums.totalav.com
+0.0.0.0 lnx.totalav.com
+0.0.0.0 lib.totalav.com
+0.0.0.0 galeria.totalav.com
+0.0.0.0 cloud.totalav.com
+0.0.0.0 winzipregistryoptimizer.com
+0.0.0.0 www.winzipregistryoptimizer.com
+0.0.0.0 download.winzipregistryoptimizer.com
+0.0.0.0 store.winzipregistryoptimizer.com
+0.0.0.0 ww.winzipregistryoptimizer.com
+0.0.0.0 mail.winzipregistryoptimizer.com
+0.0.0.0 www.www.winzipregistryoptimizer.com
+0.0.0.0 winzip.com
+0.0.0.0 api.winzip.com
+0.0.0.0 installprotector-api.winzip.com
+0.0.0.0 www.winzip.com
+0.0.0.0 tray.winzip.com
+0.0.0.0 updaterv.winzip.com
+0.0.0.0 download.winzip.com
+0.0.0.0 store.winzip.com
+0.0.0.0 goto.winzip.com
+0.0.0.0 help.winzip.com
+0.0.0.0 courier.winzip.com
+0.0.0.0 support.winzip.com
+0.0.0.0 go2.winzip.com
+0.0.0.0 image.winzip.com
+0.0.0.0 update.winzip.com
+0.0.0.0 systemtools.winzip.com
+0.0.0.0 downloads.winzip.com
+0.0.0.0 shop.winzip.com
+0.0.0.0 activate.winzip.com
+0.0.0.0 subscribe.winzip.com
+0.0.0.0 install.winzip.com
+0.0.0.0 secure.winzip.com
+0.0.0.0 response.winzip.com
+0.0.0.0 download-origin.winzip.com
+0.0.0.0 donwload.winzip.com
+0.0.0.0 www6.winzip.com
+0.0.0.0 openvpn.winzip.com
+0.0.0.0 pcspeedcat.com
+0.0.0.0 cdn.pcspeedcat.com
+0.0.0.0 vold.pcspeedcat.com
+0.0.0.0 www.pcspeedcat.com
+0.0.0.0 dev.pcspeedcat.com
+0.0.0.0 access.pcspeedcat.com
+0.0.0.0 vold-cdn.pcspeedcat.com
+0.0.0.0 envoy.pcspeedcat.com
+0.0.0.0 www-click-cf.pcspeedcat.com
+0.0.0.0 mantis.pcspeedcat.com
