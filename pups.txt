@@ -120,3 +120,8 @@
 0.0.0.0 envoy.pcspeedcat.com
 0.0.0.0 www-click-cf.pcspeedcat.com
 0.0.0.0 mantis.pcspeedcat.com
+0.0.0.0 360.com
+0.0.0.0 down.360safe.com
+0.0.0.0 update.360safe.com
+0.0.0.0 download.360safe.com
+0.0.0.0 www.360safe.com
