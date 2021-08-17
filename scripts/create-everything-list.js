@@ -25,7 +25,8 @@ const listsToIncludeInEverythingList = [
 	// "smart-tv",
 	// "basic",
 	// "whatsapp",
-	// "vaping"
+	// "vaping",
+	// "pups"
 ];
 
 (async () => {
