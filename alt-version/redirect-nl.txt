@@ -4,7 +4,7 @@
 # Homepage: https://blocklist.site
 # Help: https://github.com/blocklistproject/lists/wiki/
 # License: https://unlicense.org
-# Total number of network filters: 108657
+# Total number of network filters: 108660
 # ------------------------------------[SUPPORT]-------------------------------------
 # You can support by:
 # - reporting false positives
@@ -108673,3 +108673,6 @@ helooworld.us
 www.helooworld.us
 windscreenregimepros.com
 weaveradrenaline.com
+shiftintercoursebridge.com
+tivibyca.com
+go.c4ptainr0berts.xyz
