@@ -4,7 +4,7 @@
 ! Homepage: https://blocklist.site
 ! Help: https://github.com/blocklistproject/lists/wiki/
 ! License: https://unlicense.org
-! Total number of network filters: 1181
+! Total number of network filters: 1251
 ! ------------------------------------[SUPPORT]-------------------------------------
 ! You can support by:
 ! - reporting false positives
@@ -1195,3 +1195,73 @@
 ||hovrecording.com^
 @@||whynotwin11.com^! Issue 375
 ||mycleanpc.com^
+||gghacks.com^
+||www.gghacks.com^
+||roblox.gghacks.com^
+||rewardsgiantusa.com^
+||www.rewardsgiantusa.com^
+||promotionsonlineusa.com^
+||www.promotionsonlineusa.com^
+||cdn.promotionsonlineusa.com^
+||p.promotionsonlineusa.com^
+||y.promotionsonlineusa.com^
+||t.promotionsonlineusa.com^
+||displayoptoffers.com^
+||www.displayoptoffers.com^
+||sweepstakesalerts.com^
+||api.sweepstakesalerts.com^
+||ypa2.sweepstakesalerts.com^
+||play.sweepstakesalerts.com^
+||funnel.sweepstakesalerts.com^
+||cdn.sweepstakesalerts.com^
+||img.sweepstakesalerts.com^
+||www.sweepstakesalerts.com^
+||cdn.play.sweepstakesalerts.com^
+||qualityhealth.com^
+||www.qualityhealth.com^
+||prdapp3-as2.qualityhealth.com^
+||support.qualityhealth.com^
+||api.qualityhealth.com^
+||cdn.qualityhealth.com^
+||mobile.qualityhealth.com^
+||prdapp1-as2.qualityhealth.com^
+||m.qualityhealth.com^
+||test.qualityhealth.com^
+||cdn2.qualityhealth.com^
+||direct.qualityhealth.com^
+||results.qualityhealth.com^
+||apps3.qualityhealth.com^
+||my.qualityhealth.com^
+||demo.qualityhealth.com^
+||consumerproductsusa.com^
+||www.consumerproductsusa.com^
+||get-cracked.com^
+||www.get-cracked.com^
+||validcardcodes.get-cracked.com^
+||roblox.get-cracked.com^
+||freegiftcodes.get-cracked.com^
+||blog.get-cracked.com^
+||gametrailers.get-cracked.com^
+||new.get-cracked.com^
+||microsoft.get-cracked.com^
+||generate.get-cracked.com^
+||ns1.get-cracked.com^
+||keygen.get-cracked.com^
+||getproductkeys.get-cracked.com^
+||downloading.get-cracked.com^
+||server.get-cracked.com^
+||wwwshopstasiacom.get-cracked.com^
+||download.get-cracked.com^
+||hack.get-cracked.com^
+||mediafiire.com^
+||www.mediafiire.com^
+||ftp.mediafiire.com^
+||xboxcode.mediafiire.com^
+||premium-file.mediafiire.com^
+||steamcode.mediafiire.com^
+||psncode.mediafiire.com^
+||download1270.mediafiire.com^
+||d1xkyo9j4r7vnn.cloudfront.net^
+||onlinepromotionsusa.com^
+||www.onlinepromotionsusa.com^
+||w.onlinepromotionsusa.com^
