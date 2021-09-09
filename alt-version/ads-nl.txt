@@ -4,7 +4,7 @@
 # Homepage: https://blocklist.site
 # Help: https://github.com/blocklistproject/lists/wiki/
 # License: https://unlicense.org
-# Total number of network filters: 154560
+# Total number of network filters: 154558
 # ------------------------------------[SUPPORT]-------------------------------------
 # You can support by:
 # - reporting false positives
@@ -8413,7 +8413,7 @@ a-cast.jp
 a-counter.com.ua
 a-counter.kiev.ua
 a-counters.com
-a-msedge.net
+# a-msedge.net Issue 473
 a-nagy-alku.com
 a-nj.1rx.io
 a-o.ninja
@@ -143322,7 +143322,7 @@ www.9apps.com
 www.9dot9.in
 www.9malls.co.uk
 www.a-ads.com
-www.a-msedge.net
+# www.a-msedge.net Issue 473
 www.a-o.ninja
 www.a-tono.com
 www.a.ads1.msn.com
