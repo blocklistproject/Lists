@@ -2170,6 +2170,7 @@
 0.0.0.0 ut.bench.utorrent.com
 0.0.0.0 utclient.utorrent.com
 0.0.0.0 utorrent.com
+0.0.0.0 utorrent.li
 0.0.0.0 valakas.rollo.dnsabr.com
 0.0.0.0 veinticuatrofps.com
 0.0.0.0 vergs.lv
