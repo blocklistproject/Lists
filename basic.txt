@@ -21770,7 +21770,6 @@
 0.0.0.0 fdimages.fairfax.com.au
 0.0.0.0 fdn-en.net
 0.0.0.0 fdz.flashtalking.com
-0.0.0.0 fe #00::0 ip6-localnet
 0.0.0.0 fe-au.imrworldwide.com
 0.0.0.0 fe.brandreachsys.com
 0.0.0.0 fe.lea.lycos.es
@@ -21858,7 +21857,6 @@
 0.0.0.0 fev.fyber.com
 0.0.0.0 feyhuy.emp-shop.sk
 0.0.0.0 feylibertad.org
-0.0.0.0 ff #00::0 ip6-mcastprefix
 0.0.0.0 ff.connextra.com
 0.0.0.0 ff.doubleclick.net
 0.0.0.0 ff.imacdn.com
@@ -41361,7 +41359,6 @@
 0.0.0.0 pge.unityads.unity3d.com
 0.0.0.0 pgebok.com
 0.0.0.0 pgiinvest.com
-0.0.0.0 pgl.example #0101
 0.0.0.0 pgl.example.com
 0.0.0.0 pgmediaserve.com
 0.0.0.0 pgniginvest.info
