@@ -9154,7 +9154,7 @@
 0.0.0.0 api.proofpositivemedia.com
 0.0.0.0 api.publishers.adlive.io
 0.0.0.0 api.pubnative.net
-0.0.0.0 api.punchh.com
+# 0.0.0.0 api.punchh.com issue 484
 0.0.0.0 api.purpleads.io
 0.0.0.0 api.push.world
 0.0.0.0 api.pushdi.com
