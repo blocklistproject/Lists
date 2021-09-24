@@ -995,6 +995,7 @@
 0.0.0.0 ucsdir.org
 0.0.0.0 ugwarez.biz
 0.0.0.0 unblocked.pw
+0.0.0.0 unblocked.mx
 0.0.0.0 unblockedpiratebay.com
 0.0.0.0 underground50.com
 0.0.0.0 underpl.org
