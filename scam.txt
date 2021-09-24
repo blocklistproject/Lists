@@ -1266,3 +1266,4 @@
 0.0.0.0 www.onlinepromotionsusa.com
 0.0.0.0 w.onlinepromotionsusa.com
 0.0.0.0 pcspeedup.en.softonic.com
+0.0.0.0 greenadblocker.com
