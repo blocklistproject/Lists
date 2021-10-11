@@ -74,8 +74,6 @@
 0.0.0.0 azn-project.depthstrike.com
 0.0.0.0 aznanime.tk
 0.0.0.0 bakuretsu-extend.org
-0.0.0.0 bbc.co.uk
-0.0.0.0 bbcworld.com
 0.0.0.0 bblc.tv
 0.0.0.0 bean-crisis.org
 0.0.0.0 benfrank.net
