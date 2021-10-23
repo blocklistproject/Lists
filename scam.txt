@@ -1267,3 +1267,6 @@
 0.0.0.0 w.onlinepromotionsusa.com
 0.0.0.0 pcspeedup.en.softonic.com
 0.0.0.0 greenadblocker.com
+0.0.0.0 d2020yrahex7kc.cloudfront.net
+0.0.0.0 poweradblocker.com
+0.0.0.0 dbrolwbvzhjl6.cloudfront.net
