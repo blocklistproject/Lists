@@ -4,7 +4,7 @@
 # Homepage: https://blocklist.site
 # Help: https://github.com/blocklistproject/lists/wiki/
 # License: https://unlicense.org
-# Total number of network filters: 189960
+# Total number of network filters: 189963
 # ------------------------------------[SUPPORT]-------------------------------------
 # You can support by:
 # - reporting false positives
@@ -65366,6 +65366,7 @@ mihakrumpak.wecleanoklahoma.com
 mihal-photo.com
 mihallaqandrea.com
 mihat.ga
+miheal.co.uk
 miheeva.by
 mihh-int.000webhostapp.com
 mihogaralicante.es
@@ -71715,6 +71716,7 @@ np.kjukenhi.in
 np.vhvpybze.in
 np53.ir
 npahrs.com
+nparalisk.com
 npatp.com
 npbstudios.com
 npigypsum.com
@@ -79340,6 +79342,7 @@ plus37ru.434.com1.ru
 plusdaily.com.au
 plusdonny.info
 plusjames.com
+plusmiton.co.uk
 plusofmort.ga
 plusonedynamics.com
 pluspublicidad.net
