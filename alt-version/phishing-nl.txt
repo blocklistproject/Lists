@@ -4,7 +4,7 @@
 # Homepage: https://blocklist.site
 # Help: https://github.com/blocklistproject/lists/wiki/
 # License: https://unlicense.org
-# Total number of network filters: 189966
+# Total number of network filters: 189964
 # ------------------------------------[SUPPORT]-------------------------------------
 # You can support by:
 # - reporting false positives
@@ -4586,7 +4586,7 @@ aftebucale.ro
 after-dinner-frigat.000webhostapp.com
 after3theatre.org
 afterlifeindustries.com
-aftership.com
+# aftership.com Issue 520
 afterwork.com.au
 aftlight.com
 aftu.com.au
@@ -23369,7 +23369,7 @@ cinemalenormandie.com
 cinemanetflix.com
 cinemania.us
 cinemanity.com
-cinemazed.be
+# cinemazed.be Issue 502
 cinemiz.net
 cineredsocial.com
 cinexfilm.com
