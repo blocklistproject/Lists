@@ -83,3 +83,5 @@
 0.0.0.0 osb.samsungqbe.com
 0.0.0.0 gld.push.samsungosp.com
 0.0.0.0 sas.samsungcloudsolution.com
+0.0.0.0 events.cid.samba.tv
+0.0.0.0 platform.cid.samba.tv
