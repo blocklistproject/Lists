@@ -4,7 +4,7 @@
 # Homepage: https://blocklist.site
 # Help: https://github.com/blocklistproject/lists/wiki/
 # License: https://unlicense.org
-# Total number of network filters: 2344
+# Total number of network filters: 2346
 # ------------------------------------[SUPPORT]-------------------------------------
 # You can support by:
 # - reporting false positives
@@ -165,7 +165,6 @@ bet3000.com
 www.bet3000.com
 bet33.com
 www.bet33.com
-bet365.com
 bet365.es
 bet7days.com
 www.bet7days.com
@@ -2357,3 +2356,6 @@ www.461.net
 regionalwinsite.com
 rajabets.com
 purewin.com
+betterdicecasino.com
+bet365.com
+rajabets.xyz
