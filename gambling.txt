@@ -4,7 +4,7 @@
 # Homepage: https://blocklist.site
 # Help: https://github.com/blocklistproject/lists/wiki/
 # License: https://unlicense.org
-# Total number of network filters: 2344
+# Total number of network filters: 2346
 # ------------------------------------[SUPPORT]-------------------------------------
 # You can support by:
 # - reporting false positives
@@ -165,7 +165,6 @@
 0.0.0.0 www.bet3000.com
 0.0.0.0 bet33.com
 0.0.0.0 www.bet33.com
-0.0.0.0 bet365.com
 0.0.0.0 bet365.es
 0.0.0.0 bet7days.com
 0.0.0.0 www.bet7days.com
