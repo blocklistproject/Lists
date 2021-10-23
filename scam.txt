@@ -1270,3 +1270,4 @@
 0.0.0.0 d2020yrahex7kc.cloudfront.net
 0.0.0.0 poweradblocker.com
 0.0.0.0 dbrolwbvzhjl6.cloudfront.net
+0.0.0.0 wholedailyfeed.com
