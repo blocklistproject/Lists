@@ -2357,3 +2357,4 @@
 0.0.0.0 regionalwinsite.com
 0.0.0.0 rajabets.com
 0.0.0.0 purewin.com
+0.0.0.0 betterdicecasino.com
