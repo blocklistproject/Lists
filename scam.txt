@@ -1275,3 +1275,6 @@
 0.0.0.0 polyhymnia-mar.com
 0.0.0.0 trktrk.club
 0.0.0.0 virpropcnow.xyz
+0.0.0.0 hdfcbk.io
+0.0.0.0 ubona.com
+0.0.0.0 hdfccard.ubona.com
