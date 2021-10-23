@@ -4,7 +4,7 @@
 ! Homepage: https://blocklist.site
 ! Help: https://github.com/blocklistproject/lists/wiki/
 ! License: https://unlicense.org
-! Total number of network filters: 108663
+! Total number of network filters: 108665
 ! ------------------------------------[SUPPORT]-------------------------------------
 ! You can support by:
 ! - reporting false positives
@@ -108679,3 +108679,5 @@
 ||click.expmediadirect1.com^
 ||007freepics.com^
 ||online-dating-steps.com^
+||jystasaki.com^
+||click.junmediadirect.com^
