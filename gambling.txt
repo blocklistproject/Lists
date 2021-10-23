@@ -2359,3 +2359,4 @@
 0.0.0.0 purewin.com
 0.0.0.0 betterdicecasino.com
 0.0.0.0 bet365.com
+0.0.0.0 rajabets.xyz
