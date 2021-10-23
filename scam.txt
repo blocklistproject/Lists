@@ -1271,3 +1271,7 @@
 0.0.0.0 poweradblocker.com
 0.0.0.0 dbrolwbvzhjl6.cloudfront.net
 0.0.0.0 wholedailyfeed.com
+0.0.0.0 gooooooooogle.com
+0.0.0.0 polyhymnia-mar.com
+0.0.0.0 trktrk.club
+0.0.0.0 virpropcnow.xyz
