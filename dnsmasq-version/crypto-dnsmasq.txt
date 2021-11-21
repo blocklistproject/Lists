@@ -5,7 +5,7 @@
 # Homepage: https://blocklist.site
 # Help: https://github.com/blocklistproject/lists/wiki/
 # License: https://unlicense.org
-# Total number of network filters: 23773
+# Total number of network filters: 23788
 # ------------------------------------[SUPPORT]-------------------------------------
 # You can support by:
 # - reporting false positives
@@ -23811,3 +23811,18 @@ server=/zzqnkezokbegc.bid/
 server=/zzvjaqnkq.bid/
 server=/zzwzjidz.bid/
 server=/zzy1.quyaoya.com/
+server=/www.bybit.com/
+server=/www.kraken.com/
+server=/www.kucoin.com/
+server=/www.etoro.com/
+server=/phemex.com/
+server=/www.tdameritrade.com/
+server=/www.forex.com/
+server=/crypto.com/
+server=/www.webull.com/
+server=/crypto.gobabytrade.com/
+server=/tradeogre.com/
+server=/www.coincorner.com/
+server=/primexbt.com/
+server=/trade.eightcap.com/
+server=/tradecryptocapital.org/
