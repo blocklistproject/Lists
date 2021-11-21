@@ -4,7 +4,7 @@
 # Homepage: https://blocklist.site
 # Help: https://github.com/blocklistproject/lists/wiki/
 # License: https://unlicense.org
-# Total number of network filters: 22461
+# Total number of network filters: 22459
 # ------------------------------------[SUPPORT]-------------------------------------
 # You can support by:
 #  - reporting false positives
@@ -14062,7 +14062,7 @@ server=/platform-lookadide.fbsbx.com/
 server=/platform-lookaside.fbsbx.com/
 server=/platform-lookside.fbsbx.com/
 server=/platform.facebook.com/
-server=/platform.foursquare.com/
+# server=/platform.foursquare.com/ Not owned by FB
 server=/platform.instagram.com/
 server=/platform.oculusvr.com/
 server=/platformlookaside.fbsbx.com/
@@ -17190,7 +17190,7 @@ server=/static.fdel11-1.fna.fbcdn.net/
 server=/static.fsea1-1.fna.fbcdn.net/
 server=/static.hootsuite.com/
 server=/static.intern.facebook.com/
-server=/static.licdn.com/
+# server=/static.licdn.com/ Not owned by FB
 server=/static.messenger.com/
 server=/static.new.facebook.com/
 server=/static.oculus.com/
