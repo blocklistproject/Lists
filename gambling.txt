@@ -4,7 +4,7 @@
 # Homepage: https://blocklist.site
 # Help: https://github.com/blocklistproject/lists/wiki/
 # License: https://unlicense.org
-# Total number of network filters: 2346
+# Total number of network filters: 2393
 # ------------------------------------[SUPPORT]-------------------------------------
 # You can support by:
 # - reporting false positives
@@ -2380,13 +2380,11 @@
 0.0.0.0 promo.madnix.com
 0.0.0.0 www.banzaislots.com
 0.0.0.0 www.fatboss.com
-0.0.0.0 www.jackpotcitycasino.com
 0.0.0.0 www.playamo.com
 0.0.0.0 www.spincasino.com
 0.0.0.0 www.superslots.ag
 0.0.0.0 www.wildcasino.ag
 0.0.0.0 www.vegascasinoonline.eu
-0.0.0.0 lasatlantispromos.com
 0.0.0.0 www.ignitioncasino.eu
 0.0.0.0 www.slots.lv
 0.0.0.0 www.cafecasino.lv
