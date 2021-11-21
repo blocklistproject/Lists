@@ -2408,3 +2408,17 @@
 0.0.0.0 promo.ladbrokes.com
 0.0.0.0 www.mrspin.co.uk
 0.0.0.0 raj.bet
+0.0.0.0 fanfight.com
+0.0.0.0 www.a23.com
+0.0.0.0 india.halaplay.com
+0.0.0.0 www.mpl.live
+0.0.0.0 www.my11circle.com
+0.0.0.0 www.dream11.com
+0.0.0.0 www.myteam11.com
+0.0.0.0 www.myteampoker.com
+0.0.0.0 fancode.com
+0.0.0.0 www.guru11.com
+0.0.0.0 guruleagues.com
+0.0.0.0 www.ballebaazi.com
+0.0.0.0 www.adda.games
+0.0.0.0 www.mpl.us
