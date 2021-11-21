@@ -4,7 +4,7 @@
 # Homepage: https://blocklist.site
 # Help: https://github.com/blocklistproject/lists/wiki/
 # License: https://unlicense.org
-# Total number of network filters: 154547
+# Total number of network filters: 154542
 # ------------------------------------[SUPPORT]-------------------------------------
 # You can support by:
 # - reporting false positives
@@ -37916,7 +37916,7 @@ app.leadfeeder.com
 app.leadlander.com
 app.lfstmedia.com
 app.lijit.com
-app.link
+# app.link #546
 app.lovoo.com
 app.magnetic.com
 app.manage.ensighten.com
@@ -39015,7 +39015,7 @@ assetize.com
 assets-acceptance.sharethrough.com
 assets-east.smrtb.com
 assets-intl.everesttech.net
-assets-jpcust.jwpsrv.com
+# assets-jpcust.jwpsrv.com Stops video
 assets-land-ht.contentdef.com
 assets-lib.mobileposse.com
 assets-lon5.everesttech.net
@@ -94711,7 +94711,7 @@ msdk.qq.com
 msdkevents.1rx.io
 mse2v5oglm.com
 msecure108.com
-msedge.net
+# msedge.net not ads
 msegeqxwopq.com
 mseuppremain.112.2o7.net
 mseupwinxpfam.112.2o7.net
@@ -116079,7 +116079,7 @@ self-service-pay.adxxx.com
 self-service.adxxx.com
 self-service.uberads.com
 self.com.102.112.2o7.net
-self.events.data.microsoft.com
+# self.events.data.microsoft.com Not ads
 selfcampaign.com
 selfcare.mobilepay.it
 selfdestructing.com
@@ -116709,7 +116709,7 @@ settings-1479276883.mtraction.com
 settings-analytics.hotstar.com
 settings-sandbox.data.microsoft.com
 settings-win-ppe.data.microsoft.com
-settings-win.data.microsoft.com
+# settings-win.data.microsoft.com Not ads
 settings.brightcove.com
 settings.data.microsoft.com
 settings.luckyorange.net
