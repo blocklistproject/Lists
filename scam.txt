@@ -1278,3 +1278,4 @@
 0.0.0.0 hdfcbk.io
 0.0.0.0 ubona.com
 0.0.0.0 hdfccard.ubona.com
+0.0.0.0 bcryp.net
