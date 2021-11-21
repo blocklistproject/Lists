@@ -378,7 +378,7 @@
 0.0.0.0 loaloeloaeeo.com
 0.0.0.0 look-like-star.myshopify.com
 0.0.0.0 lookinmyheart.com
-0.0.0.0 lootcrate.com
+# 0.0.0.0 lootcrate.com 556
 0.0.0.0 loveinbox.co.uk
 0.0.0.0 loveinheart.co.uk
 0.0.0.0 loveinsoul.co.uk
@@ -949,7 +949,7 @@
 0.0.0.0 www.loaloeloaeeo.com
 0.0.0.0 www.look-like-star.myshopify.com
 0.0.0.0 www.lookinmyheart.com
-0.0.0.0 www.lootcrate.com
+# 0.0.0.0 www.lootcrate.com 556
 0.0.0.0 www.loveinbox.co.uk
 0.0.0.0 www.loveinheart.co.uk
 0.0.0.0 www.loveinsoul.co.uk
