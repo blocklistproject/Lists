@@ -2422,3 +2422,4 @@
 0.0.0.0 www.ballebaazi.com
 0.0.0.0 www.adda.games
 0.0.0.0 www.mpl.us
+0.0.0.0 rajabets.xyz
