@@ -108681,3 +108681,5 @@
 0.0.0.0 online-dating-steps.com
 0.0.0.0 jystasaki.com
 0.0.0.0 click.junmediadirect.com
+0.0.0.0 fancy11.com
+0.0.0.0 www.cricplay.com
