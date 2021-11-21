@@ -14062,7 +14062,7 @@
 0.0.0.0 platform-lookaside.fbsbx.com
 0.0.0.0 platform-lookside.fbsbx.com
 0.0.0.0 platform.facebook.com
-0.0.0.0 platform.foursquare.com
+# 0.0.0.0 platform.foursquare.com Not owned by FB
 0.0.0.0 platform.instagram.com
 0.0.0.0 platform.oculusvr.com
 0.0.0.0 platformlookaside.fbsbx.com
@@ -17190,7 +17190,7 @@
 0.0.0.0 static.fsea1-1.fna.fbcdn.net
 0.0.0.0 static.hootsuite.com
 0.0.0.0 static.intern.facebook.com
-0.0.0.0 static.licdn.com
+# 0.0.0.0 static.licdn.com Not owned by FB
 0.0.0.0 static.messenger.com
 0.0.0.0 static.new.facebook.com
 0.0.0.0 static.oculus.com
