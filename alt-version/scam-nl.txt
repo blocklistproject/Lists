@@ -4,7 +4,7 @@
 # Homepage: https://blocklist.site
 # Help: https://github.com/blocklistproject/lists/wiki/
 # License: https://unlicense.org
-# Total number of network filters: 1251
+# Total number of network filters: 1264
 # ------------------------------------[SUPPORT]-------------------------------------
 # You can support by:
 # - reporting false positives
@@ -378,7 +378,7 @@ litcomplex.com
 loaloeloaeeo.com
 look-like-star.myshopify.com
 lookinmyheart.com
-lootcrate.com
+# lootcrate.com 556
 loveinbox.co.uk
 loveinheart.co.uk
 loveinsoul.co.uk
@@ -949,7 +949,7 @@ www.litcomplex.com
 www.loaloeloaeeo.com
 www.look-like-star.myshopify.com
 www.lookinmyheart.com
-www.lootcrate.com
+# www.lootcrate.com 556
 www.loveinbox.co.uk
 www.loveinheart.co.uk
 www.loveinsoul.co.uk
@@ -1265,3 +1265,18 @@ d1xkyo9j4r7vnn.cloudfront.net
 onlinepromotionsusa.com
 www.onlinepromotionsusa.com
 w.onlinepromotionsusa.com
+pcspeedup.en.softonic.com
+greenadblocker.com
+d2020yrahex7kc.cloudfront.net
+poweradblocker.com
+dbrolwbvzhjl6.cloudfront.net
+wholedailyfeed.com
+gooooooooogle.com
+polyhymnia-mar.com
+trktrk.club
+virpropcnow.xyz
+hdfcbk.io
+ubona.com
+hdfccard.ubona.com
+bcryp.net
+connectwalletnow.com

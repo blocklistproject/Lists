@@ -5,7 +5,7 @@
 # Homepage: https://blocklist.site
 # Help: https://github.com/blocklistproject/lists/wiki/
 # License: https://unlicense.org
-# Total number of network filters: 76470
+# Total number of network filters: 76465
 # ------------------------------------[SUPPORT]-------------------------------------
 # You can support by:
 # - reporting false positives
@@ -9154,7 +9154,7 @@ server=/api.prooffactor.com/
 server=/api.proofpositivemedia.com/
 server=/api.publishers.adlive.io/
 server=/api.pubnative.net/
-server=/api.punchh.com/
+# server=/api.punchh.com/ issue 484
 server=/api.purpleads.io/
 server=/api.push.world/
 server=/api.pushdi.com/
@@ -21770,7 +21770,6 @@ server=/fdff44.t.axf8.net/
 server=/fdimages.fairfax.com.au/
 server=/fdn-en.net/
 server=/fdz.flashtalking.com/
-server=/fe/ #00::0 ip6-localnet
 server=/fe-au.imrworldwide.com/
 server=/fe.brandreachsys.com/
 server=/fe.lea.lycos.es/
@@ -21858,7 +21857,6 @@ server=/feuqzl.woolrich.com/
 server=/fev.fyber.com/
 server=/feyhuy.emp-shop.sk/
 server=/feylibertad.org/
-server=/ff/ #00::0 ip6-mcastprefix
 server=/ff.connextra.com/
 server=/ff.doubleclick.net/
 server=/ff.imacdn.com/
@@ -29840,7 +29838,7 @@ server=/js.hubspot.com/
 server=/js.idio.co/
 server=/js.impact.ne.jp/
 server=/js.indexww.com/
-server=/js.intercomcdn.com/
+# server=/js.intercomcdn.com/ False positive
 server=/js.isboost.co.jp/
 server=/js.juicyads.com/
 server=/js.kau.li/
@@ -41361,7 +41359,6 @@ server=/pge.toinvest.pro/
 server=/pge.unityads.unity3d.com/
 server=/pgebok.com/
 server=/pgiinvest.com/
-server=/pgl.example/ #0101
 server=/pgl.example.com/
 server=/pgmediaserve.com/
 server=/pgniginvest.info/

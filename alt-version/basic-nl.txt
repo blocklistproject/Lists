@@ -5,7 +5,7 @@
 # Homepage: https://blocklist.site
 # Help: https://github.com/blocklistproject/lists/wiki/
 # License: https://unlicense.org
-# Total number of network filters: 76470
+# Total number of network filters: 76465
 # ------------------------------------[SUPPORT]-------------------------------------
 # You can support by:
 # - reporting false positives
@@ -9154,7 +9154,7 @@ api.prooffactor.com
 api.proofpositivemedia.com
 api.publishers.adlive.io
 api.pubnative.net
-api.punchh.com
+# api.punchh.com issue 484
 api.purpleads.io
 api.push.world
 api.pushdi.com
@@ -21770,7 +21770,6 @@ fdff44.t.axf8.net
 fdimages.fairfax.com.au
 fdn-en.net
 fdz.flashtalking.com
-fe #00::0 ip6-localnet
 fe-au.imrworldwide.com
 fe.brandreachsys.com
 fe.lea.lycos.es
@@ -21858,7 +21857,6 @@ feuqzl.woolrich.com
 fev.fyber.com
 feyhuy.emp-shop.sk
 feylibertad.org
-ff #00::0 ip6-mcastprefix
 ff.connextra.com
 ff.doubleclick.net
 ff.imacdn.com
@@ -29840,7 +29838,7 @@ js.hubspot.com
 js.idio.co
 js.impact.ne.jp
 js.indexww.com
-js.intercomcdn.com
+# js.intercomcdn.com False positive
 js.isboost.co.jp
 js.juicyads.com
 js.kau.li
@@ -41361,7 +41359,6 @@ pge.toinvest.pro
 pge.unityads.unity3d.com
 pgebok.com
 pgiinvest.com
-pgl.example #0101
 pgl.example.com
 pgmediaserve.com
 pgniginvest.info

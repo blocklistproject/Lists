@@ -4,7 +4,7 @@
 # Homepage: https://blocklist.site
 # Help: https://github.com/blocklistproject/lists/wiki/
 # License: https://unlicense.org
-# Total number of network filters: 1251
+# Total number of network filters: 1264
 # ------------------------------------[SUPPORT]-------------------------------------
 # You can support by:
 # - reporting false positives
@@ -378,7 +378,7 @@
 0.0.0.0 loaloeloaeeo.com
 0.0.0.0 look-like-star.myshopify.com
 0.0.0.0 lookinmyheart.com
-0.0.0.0 lootcrate.com
+# 0.0.0.0 lootcrate.com 556
 0.0.0.0 loveinbox.co.uk
 0.0.0.0 loveinheart.co.uk
 0.0.0.0 loveinsoul.co.uk
@@ -949,7 +949,7 @@
 0.0.0.0 www.loaloeloaeeo.com
 0.0.0.0 www.look-like-star.myshopify.com
 0.0.0.0 www.lookinmyheart.com
-0.0.0.0 www.lootcrate.com
+# 0.0.0.0 www.lootcrate.com 556
 0.0.0.0 www.loveinbox.co.uk
 0.0.0.0 www.loveinheart.co.uk
 0.0.0.0 www.loveinsoul.co.uk
@@ -1265,3 +1265,18 @@
 0.0.0.0 onlinepromotionsusa.com
 0.0.0.0 www.onlinepromotionsusa.com
 0.0.0.0 w.onlinepromotionsusa.com
+0.0.0.0 pcspeedup.en.softonic.com
+0.0.0.0 greenadblocker.com
+0.0.0.0 d2020yrahex7kc.cloudfront.net
+0.0.0.0 poweradblocker.com
+0.0.0.0 dbrolwbvzhjl6.cloudfront.net
+0.0.0.0 wholedailyfeed.com
+0.0.0.0 gooooooooogle.com
+0.0.0.0 polyhymnia-mar.com
+0.0.0.0 trktrk.club
+0.0.0.0 virpropcnow.xyz
+0.0.0.0 hdfcbk.io
+0.0.0.0 ubona.com
+0.0.0.0 hdfccard.ubona.com
+0.0.0.0 bcryp.net
+0.0.0.0 connectwalletnow.com

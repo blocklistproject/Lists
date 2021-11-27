@@ -4,7 +4,7 @@
 ! Homepage: https://blocklist.site
 ! Help: https://github.com/blocklistproject/lists/wiki/
 ! License: https://unlicense.org
-! Total number of network filters: 2344
+! Total number of network filters: 2407
 ! ------------------------------------[SUPPORT]-------------------------------------
 ! You can support by:
 ! - reporting false positives
@@ -165,7 +165,6 @@
 ||www.bet3000.com^
 ||bet33.com^
 ||www.bet33.com^
-||bet365.com^
 ||bet365.es^
 ||bet7days.com^
 ||www.bet7days.com^
@@ -2357,3 +2356,67 @@
 ||regionalwinsite.com^
 ||rajabets.com^
 ||purewin.com^
+||betterdicecasino.com^
+||bet365.com^
+||cmkt.dafapromo.com^
+||gamdom.com^
+||www.kosmonautcasino.com^
+||www.premiercasino.com^
+||www.refuelcasino.com^
+||wizardofodds.com^
+||www.playnow.com^
+||www.parxcasino.com^
+||www.cresuscasino.com^
+||www.tortugacasino.com^
+||www.kingschancecampaign.com^
+||www.casinoextra2.com^
+||www.lucky8.com^
+||www.lucky-31.com^
+||www.sultanaffiliates.com^
+||www.azurcasino2.com^
+||landing.winoui.com^
+||www.pariscasino8.com^
+||promo.madnix.com^
+||www.banzaislots.com^
+||www.fatboss.com^
+||www.playamo.com^
+||www.spincasino.com^
+||www.superslots.ag^
+||www.wildcasino.ag^
+||www.vegascasinoonline.eu^
+||www.ignitioncasino.eu^
+||www.slots.lv^
+||www.cafecasino.lv^
+||www.mybookie.ag^
+||reddogcasinobonuses.com^
+||csgoempire.com^
+||promotions.superslots.ag^
+||promotions.wildcasino.ag^
+||lasatlantispromos.com^
+||www.blackchippoker.eu^
+||www.americascardroom.eu^
+||www.jackpotcitycasino.com^
+||fr.royalvegascasino.com^
+||www.bigspincasino.com^
+||www.juicystakes.eu^
+||www.mfortune.co.uk^
+||join.casino.com^
+||www.casinorex.com^
+||promo.ladbrokes.com^
+||www.mrspin.co.uk^
+||raj.bet^
+||fanfight.com^
+||www.a23.com^
+||india.halaplay.com^
+||www.mpl.live^
+||www.my11circle.com^
+||www.dream11.com^
+||www.myteam11.com^
+||www.myteampoker.com^
+||fancode.com^
+||www.guru11.com^
+||guruleagues.com^
+||www.ballebaazi.com^
+||www.adda.games^
+||www.mpl.us^
+||rajabets.xyz^

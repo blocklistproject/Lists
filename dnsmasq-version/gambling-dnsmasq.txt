@@ -4,7 +4,7 @@
 # Homepage: https://blocklist.site
 # Help: https://github.com/blocklistproject/lists/wiki/
 # License: https://unlicense.org
-# Total number of network filters: 2344
+# Total number of network filters: 2407
 # ------------------------------------[SUPPORT]-------------------------------------
 # You can support by:
 # - reporting false positives
@@ -165,7 +165,6 @@ server=/bet3000.com/
 server=/www.bet3000.com/
 server=/bet33.com/
 server=/www.bet33.com/
-server=/bet365.com/
 server=/bet365.es/
 server=/bet7days.com/
 server=/www.bet7days.com/
@@ -2357,3 +2356,67 @@ server=/461.net/
 server=/regionalwinsite.com/
 server=/rajabets.com/
 server=/purewin.com/
+server=/betterdicecasino.com/
+server=/bet365.com/
+server=/cmkt.dafapromo.com/
+server=/gamdom.com/
+server=/www.kosmonautcasino.com/
+server=/www.premiercasino.com/
+server=/www.refuelcasino.com/
+server=/wizardofodds.com/
+server=/www.playnow.com/
+server=/www.parxcasino.com/
+server=/www.cresuscasino.com/
+server=/www.tortugacasino.com/
+server=/www.kingschancecampaign.com/
+server=/www.casinoextra2.com/
+server=/www.lucky8.com/
+server=/www.lucky-31.com/
+server=/www.sultanaffiliates.com/
+server=/www.azurcasino2.com/
+server=/landing.winoui.com/
+server=/www.pariscasino8.com/
+server=/promo.madnix.com/
+server=/www.banzaislots.com/
+server=/www.fatboss.com/
+server=/www.playamo.com/
+server=/www.spincasino.com/
+server=/www.superslots.ag/
+server=/www.wildcasino.ag/
+server=/www.vegascasinoonline.eu/
+server=/www.ignitioncasino.eu/
+server=/www.slots.lv/
+server=/www.cafecasino.lv/
+server=/www.mybookie.ag/
+server=/reddogcasinobonuses.com/
+server=/csgoempire.com/
+server=/promotions.superslots.ag/
+server=/promotions.wildcasino.ag/
+server=/lasatlantispromos.com/
+server=/www.blackchippoker.eu/
+server=/www.americascardroom.eu/
+server=/www.jackpotcitycasino.com/
+server=/fr.royalvegascasino.com/
+server=/www.bigspincasino.com/
+server=/www.juicystakes.eu/
+server=/www.mfortune.co.uk/
+server=/join.casino.com/
+server=/www.casinorex.com/
+server=/promo.ladbrokes.com/
+server=/www.mrspin.co.uk/
+server=/raj.bet/
+server=/fanfight.com/
+server=/www.a23.com/
+server=/india.halaplay.com/
+server=/www.mpl.live/
+server=/www.my11circle.com/
+server=/www.dream11.com/
+server=/www.myteam11.com/
+server=/www.myteampoker.com/
+server=/fancode.com/
+server=/www.guru11.com/
+server=/guruleagues.com/
+server=/www.ballebaazi.com/
+server=/www.adda.games/
+server=/www.mpl.us/
+server=/rajabets.xyz/

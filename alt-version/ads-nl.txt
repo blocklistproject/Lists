@@ -4,7 +4,7 @@
 # Homepage: https://blocklist.site
 # Help: https://github.com/blocklistproject/lists/wiki/
 # License: https://unlicense.org
-# Total number of network filters: 154558
+# Total number of network filters: 154539
 # ------------------------------------[SUPPORT]-------------------------------------
 # You can support by:
 # - reporting false positives
@@ -37338,7 +37338,7 @@ api.proximi.fi
 api.pubguard.com
 api.pubmatic.com
 api.pubnative.net
-api.punchh.com
+# api.punchh.com Issue 484
 api.push-ad.com
 api.push.io
 api.push.world
@@ -37916,7 +37916,7 @@ app.leadfeeder.com
 app.leadlander.com
 app.lfstmedia.com
 app.lijit.com
-app.link
+# app.link #546
 app.lovoo.com
 app.magnetic.com
 app.manage.ensighten.com
@@ -39015,7 +39015,7 @@ assetize.com
 assets-acceptance.sharethrough.com
 assets-east.smrtb.com
 assets-intl.everesttech.net
-assets-jpcust.jwpsrv.com
+# assets-jpcust.jwpsrv.com Stops video
 assets-land-ht.contentdef.com
 assets-lib.mobileposse.com
 assets-lon5.everesttech.net
@@ -50624,7 +50624,7 @@ chartboost.de
 chartboosts.com
 charter.adlegend.com
 charter.demdex.net
-chartiq-client-prod.s3.amazonaws.com
+# chartiq-client-prod.s3.amazonaws.com Issue 509
 chartmuseum-test.districtm.io
 chaseonline.com
 chasingfireflies.btttag.com
@@ -50669,8 +50669,8 @@ chatrouterv3.inq.com
 chatrouterv3.touchcommerce.com
 chatserver.comm100.cn
 chatsworth.d1.sc.omtrdc.net
-chaturbate.com
-chatzoe.de
+# chaturbate.com Not ads
+chatzoe.de 
 chaucha.cl
 chauksoa.net
 chautcho.com
@@ -52347,7 +52347,7 @@ cloudixconnection.com
 cloudmedia.gdn
 cloudmobi.net
 cloudns.com
-cloudns.net
+# cloudns.net Issue 523
 cloudphone.pxf.io
 cloudpools.net
 cloudsarch.linkury.com
@@ -54219,7 +54219,7 @@ consent.trustarc.com
 consent.truste.com
 consent.webmasterplan.com
 consentag.mgr.consensu.org
-consentcdn.cookiebot.com
+# consentcdn.cookiebot.com Issue 496
 consentmanager.mgr.consensu.org
 consivenu.com
 console-domain.link
@@ -59589,7 +59589,7 @@ de.adxxx.com
 de.as.pptv.com
 de.at.atwola.com
 de.cb.b0.a1.top.mail.ru
-de.chaturbate.com
+# de.chaturbate.com Not ads
 de.clickintext.net
 de.coremetrics.com
 de.demdex.net
@@ -65120,7 +65120,7 @@ epicycle.aprod.scopely.io
 epidm.edgesuite.net
 epilot.com
 epiodata.com
-episerver.net
+# episerver.net Issue 492
 epital.gdn
 epitaphistnyemzvxw.download
 epitrack.com
@@ -70454,7 +70454,7 @@ frereadayobq.com
 frescoerspica.com
 fresh-video.com
 fresh.doublepimp.com
-fresh.techdirt.com
+# fresh.techdirt.com Issue 511
 fresh13.casino
 fresh18.casino
 fresh8.co
@@ -94711,7 +94711,7 @@ msdk.qq.com
 msdkevents.1rx.io
 mse2v5oglm.com
 msecure108.com
-msedge.net
+# msedge.net not ads
 msegeqxwopq.com
 mseuppremain.112.2o7.net
 mseupwinxpfam.112.2o7.net
@@ -95401,7 +95401,7 @@ mycdn.co
 mycdn.media.net
 mycdn2.co
 mycdn4.ru
-mycelium.com
+# mycelium.com Not ads
 mychainpools.com
 mychannelvip2.netscape.com
 mychoicerewards.com
@@ -98239,18 +98239,18 @@ ns1.yahoo.com
 ns10.dnsmadeeasy.com
 ns106.ehostpros.com
 ns11.clickability.com
-ns11.cloudns.net
+# ns11.cloudns.net Issue 523
 ns11.dnsmadeeasy.com
 ns11.omtrdc.net
 ns12.clickability.com
-ns12.cloudns.net
+# ns12.cloudns.net Issue 523
 ns12.dnsmadeeasy.com
 ns12.omtrdc.net
-ns13.cloudns.net
+# ns13.cloudns.net Issue 523
 ns13.criteo.com
 ns13.dnsmadeeasy.com
 ns13.schlund.de
-ns14.cloudns.net
+# ns14.cloudns.net Issue 523
 ns14.dnsmadeeasy.com
 ns14.schlund.de
 ns15.dnsmadeeasy.com
@@ -101857,7 +101857,7 @@ ozoltyqcnwmu.com
 ozon.122.2o7.net
 ozon.d2.sc.omtrdc.net
 ozon.pushwoosh.com
-ozon.ru
+# ozon.ru Issue 467
 ozone.ru
 ozonemedia.com
 ozonestsscareer.info
@@ -116079,7 +116079,7 @@ self-service-pay.adxxx.com
 self-service.adxxx.com
 self-service.uberads.com
 self.com.102.112.2o7.net
-self.events.data.microsoft.com
+# self.events.data.microsoft.com Not ads
 selfcampaign.com
 selfcare.mobilepay.it
 selfdestructing.com
@@ -116709,7 +116709,7 @@ settings-1479276883.mtraction.com
 settings-analytics.hotstar.com
 settings-sandbox.data.microsoft.com
 settings-win-ppe.data.microsoft.com
-settings-win.data.microsoft.com
+# settings-win.data.microsoft.com Not ads
 settings.brightcove.com
 settings.data.microsoft.com
 settings.luckyorange.net
@@ -119106,7 +119106,7 @@ sonata-notifications-us-east.taptapnetworks.com
 sondheim-elb.appboy.com
 sondheim.appboy.com
 sonet-rp.swaxis.com
-songbird.cardinalcommerce.com
+# songbird.cardinalcommerce.com Issue 485
 songbird.fr
 songdew.pushengage.com
 songsdownloadall.innocraft.cloud
@@ -122197,7 +122197,7 @@ stats.bannersnack.com
 stats.baseone.co.uk.re.getclicky.com
 stats.bbc.co.uk
 stats.becu.org
-stats.behance.net
+# stats.behance.net Issue 482
 stats.berkman.harvard.edu
 stats.betradar.com
 stats.bidgear.com
@@ -154691,3 +154691,5 @@ core.iprom.net
 ahadsply.com
 sta.anicdn.com
 l.tyrantdb.com
+img.molimao.top
+p.qlogo.cn
