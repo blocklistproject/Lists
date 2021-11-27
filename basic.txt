@@ -5,7 +5,7 @@
 # Homepage: https://blocklist.site
 # Help: https://github.com/blocklistproject/lists/wiki/
 # License: https://unlicense.org
-# Total number of network filters: 76470
+# Total number of network filters: 76465
 # ------------------------------------[SUPPORT]-------------------------------------
 # You can support by:
 # - reporting false positives
@@ -9154,7 +9154,7 @@
 0.0.0.0 api.proofpositivemedia.com
 0.0.0.0 api.publishers.adlive.io
 0.0.0.0 api.pubnative.net
-0.0.0.0 api.punchh.com
+# 0.0.0.0 api.punchh.com issue 484
 0.0.0.0 api.purpleads.io
 0.0.0.0 api.push.world
 0.0.0.0 api.pushdi.com
@@ -21770,7 +21770,6 @@
 0.0.0.0 fdimages.fairfax.com.au
 0.0.0.0 fdn-en.net
 0.0.0.0 fdz.flashtalking.com
-0.0.0.0 fe #00::0 ip6-localnet
 0.0.0.0 fe-au.imrworldwide.com
 0.0.0.0 fe.brandreachsys.com
 0.0.0.0 fe.lea.lycos.es
@@ -21858,7 +21857,6 @@
 0.0.0.0 fev.fyber.com
 0.0.0.0 feyhuy.emp-shop.sk
 0.0.0.0 feylibertad.org
-0.0.0.0 ff #00::0 ip6-mcastprefix
 0.0.0.0 ff.connextra.com
 0.0.0.0 ff.doubleclick.net
 0.0.0.0 ff.imacdn.com
@@ -29840,7 +29838,7 @@
 0.0.0.0 js.idio.co
 0.0.0.0 js.impact.ne.jp
 0.0.0.0 js.indexww.com
-0.0.0.0 js.intercomcdn.com
+# 0.0.0.0 js.intercomcdn.com False positive
 0.0.0.0 js.isboost.co.jp
 0.0.0.0 js.juicyads.com
 0.0.0.0 js.kau.li
@@ -41361,7 +41359,6 @@
 0.0.0.0 pge.unityads.unity3d.com
 0.0.0.0 pgebok.com
 0.0.0.0 pgiinvest.com
-0.0.0.0 pgl.example #0101
 0.0.0.0 pgl.example.com
 0.0.0.0 pgmediaserve.com
 0.0.0.0 pgniginvest.info
