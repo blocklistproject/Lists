@@ -44,9 +44,9 @@ const path = require("path");
 				hasError = true;
 			}
 
-			// Ensure that after header is complete that all lines that start with `#` start with `# 0.0.0.0`
-			if (isHeaderComplete && line.startsWith("#") && !line.startsWith("# 0.0.0.0")) {
-				console.error(`Line ${index + 1} in ${file} should start with "# 0.0.0.0".`);
+			// Ensure that after header is complete that all lines that start with `#` start with `# 0.0.0.0` or `# NOTE:`
+			if (isHeaderComplete && line.startsWith("#") && !line.startsWith("# 0.0.0.0") && !line.startsWith("# NOTE:")) {
+				console.error(`Line ${index + 1} in ${file} should start with "# 0.0.0.0" or "# NOTE:".`);
 				hasError = true;
 			}
 
