@@ -1057,8 +1057,6 @@
 0.0.0.0 cdnh3.net
 0.0.0.0 cedexis-radar.net
 0.0.0.0 cedexis-test.com
-0.0.0.0 cedexis.com
-0.0.0.0 cedexis.net
 0.0.0.0 celebros-analytics.com
 0.0.0.0 celtra.com
 0.0.0.0 central-core-7.com
