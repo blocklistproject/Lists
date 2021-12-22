@@ -2357,6 +2357,7 @@
 0.0.0.0 btcg.miningspeed.com
 0.0.0.0 btcguild.com
 0.0.0.0 btchc.pool.mn
+0.0.0.0 btcminings.site
 0.0.0.0 btcnos.com
 0.0.0.0 btcp-api.suprnova.cc
 0.0.0.0 btcp-eu.coinblockers.com
