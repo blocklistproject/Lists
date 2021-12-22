@@ -4,7 +4,7 @@
 # Homepage: https://blocklist.site
 # Help: https://github.com/blocklistproject/lists/wiki/
 # License: https://unlicense.org
-# Total number of network filters: 2407
+# Total number of network filters: 2453
 # ------------------------------------[SUPPORT]-------------------------------------
 # You can support by:
 # - reporting false positives
@@ -2386,7 +2386,6 @@ server=/www.wildcasino.ag/
 server=/www.vegascasinoonline.eu/
 server=/www.ignitioncasino.eu/
 server=/www.slots.lv/
-server=/www.cafecasino.lv/
 server=/www.mybookie.ag/
 server=/reddogcasinobonuses.com/
 server=/csgoempire.com/
@@ -2420,3 +2419,50 @@ server=/www.ballebaazi.com/
 server=/www.adda.games/
 server=/www.mpl.us/
 server=/rajabets.xyz/
+server=/www.wildsultan.com/
+server=/www.dublinbet1.com/
+server=/www.jack-21.com/
+server=/www.arlequincasino.com/
+server=/www.luckyluke.com/
+server=/www.cafecasino.lv/
+server=/www.luckycreek.com/
+server=/www.betbigdollar.com/
+server=/euro.grandfortunecasino.com/
+server=/www.p7campaign.com/
+server=/uptownaces.eu/
+server=/www.vegascrestcasino.ag/
+server=/www.mybcasino.ag/
+server=/www.winamax.fr/
+server=/www.parionssport.fdj.fr/
+server=/www.netbet.fr/
+server=/www.france-pari.fr/
+server=/www.betclic.fr/
+server=/www.zeturf.fr/
+server=/www.playzax-top.com/
+server=/www.casinointense-slots.com/
+server=/www.jumbabet.com/
+server=/www.drakecasino.eu/
+server=/cherryjackpot.com/
+server=/www.slotocash.im/
+server=/roaring21.com/
+server=/www.lincolncasino.eu/
+server=/www.grandeaglecasino.com/
+server=/diamondreels.com/
+server=/libertyslots.eu/
+server=/games.bet365.com/
+server=/www.bitstarz.com/
+server=/www.slotsmillion.com/
+server=/www.mummysgold.com/
+server=/www.box24games.com/
+server=/www.riverbellecasino.com/
+server=/www.spartansslots.net/
+server=/www.luxurycasino.com/
+server=/www.villento.com/
+server=/www.captaincookscasino.eu/
+server=/www.ukcasinoclub.eu/
+server=/www.blackjackballroom.eu/
+server=/www.blackdiamond4u.com/
+server=/www.casino-classic.eu/
+server=/www.7sultanscasino.com/
+server=/www.slots.com/
+server=/www.spinpalace.com/

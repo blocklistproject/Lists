@@ -4,7 +4,7 @@
 # Homepage: https://blocklist.site
 # Help: https://github.com/blocklistproject/lists/wiki/
 # License: https://unlicense.org
-# Total number of network filters: 15053
+# Total number of network filters: 15052
 # ------------------------------------[SUPPORT]-------------------------------------
 # You can support by:
 # - reporting false positives
@@ -1057,8 +1057,6 @@ cdnh2.net
 cdnh3.net
 cedexis-radar.net
 cedexis-test.com
-cedexis.com
-cedexis.net
 celebros-analytics.com
 celtra.com
 central-core-7.com
@@ -15078,3 +15076,4 @@ ntvp.wpu.sh
 notification.tubecup.net
 rebrandlydomain.com
 metrics.icloud.com
+geo2.adobe.com
