@@ -5,7 +5,7 @@
 # Homepage: https://blocklist.site
 # Help: https://github.com/blocklistproject/lists/wiki/
 # License: https://unlicense.org
-# Total number of network filters: 76465
+# Total number of network filters: 76463
 # ------------------------------------[SUPPORT]-------------------------------------
 # You can support by:
 # - reporting false positives
@@ -53092,7 +53092,7 @@
 0.0.0.0 taboolasyndication.com
 0.0.0.0 tabxolabs.com
 0.0.0.0 tackthisclick.com
-0.0.0.0 tacloban.gov.ph
+# 0.0.0.0 tacloban.gov.ph
 0.0.0.0 tacobell.d1.sc.omtrdc.net
 0.0.0.0 tacoda.at.atwola.com
 0.0.0.0 tacoda.net
@@ -72113,7 +72113,7 @@
 0.0.0.0 www.taboola.com.edgekey.net
 0.0.0.0 www.taboolasyndication.com
 0.0.0.0 www.tabxolabs.com
-0.0.0.0 www.tacloban.gov.ph
+# 0.0.0.0 www.tacloban.gov.ph
 0.0.0.0 www.tacticaltrainingdatabase.com
 0.0.0.0 www.taffr.com
 0.0.0.0 www.tag4arm.com  #[Piwik.Analytics]
