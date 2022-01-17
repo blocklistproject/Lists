@@ -25,7 +25,7 @@ www.soulflightt.com
 twitter.meezaan.org
 www.twt.si
 www.twitter.fr
-# https://securitytrails.com/list/ip/104.244.42.129
+# NOTE: https://securitytrails.com/list/ip/104.244.42.129
 twitter.eus
 twitter.com.7.1.adiosnof.roksit.net
 twitter.bldna48.com
@@ -47,7 +47,7 @@ twitter.hk
 www.osiyuk.com
 www.twitter.uz
 twitter.ae
-# https://securitytrails.com/list/apex_domain/twitter.com
+# NOTE: https://securitytrails.com/list/apex_domain/twitter.com
 twitter.com
 platform.twitter.com
 mobile.twitter.com

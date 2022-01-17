@@ -25,7 +25,7 @@ server=/www.soulflightt.com/
 server=/twitter.meezaan.org/
 server=/www.twt.si/
 server=/www.twitter.fr/
-# https://securitytrails.com/list/ip/104.244.42.129
+# NOTE: https://securitytrails.com/list/ip/104.244.42.129
 server=/twitter.eus/
 server=/twitter.com.7.1.adiosnof.roksit.net/
 server=/twitter.bldna48.com/
@@ -47,7 +47,7 @@ server=/twitter.hk/
 server=/www.osiyuk.com/
 server=/www.twitter.uz/
 server=/twitter.ae/
-# https://securitytrails.com/list/apex_domain/twitter.com
+# NOTE: https://securitytrails.com/list/apex_domain/twitter.com
 server=/twitter.com/
 server=/platform.twitter.com/
 server=/mobile.twitter.com/

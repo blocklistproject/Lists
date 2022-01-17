@@ -4,7 +4,7 @@
 # Homepage: https://blocklist.site
 # Help: https://github.com/blocklistproject/lists/wiki/
 # License: https://unlicense.org
-# Total number of network filters: 2407
+# Total number of network filters: 2453
 # ------------------------------------[SUPPORT]-------------------------------------
 # You can support by:
 # - reporting false positives
@@ -2386,7 +2386,6 @@
 0.0.0.0 www.vegascasinoonline.eu
 0.0.0.0 www.ignitioncasino.eu
 0.0.0.0 www.slots.lv
-0.0.0.0 www.cafecasino.lv
 0.0.0.0 www.mybookie.ag
 0.0.0.0 reddogcasinobonuses.com
 0.0.0.0 csgoempire.com
@@ -2420,3 +2419,50 @@
 0.0.0.0 www.adda.games
 0.0.0.0 www.mpl.us
 0.0.0.0 rajabets.xyz
+0.0.0.0 www.wildsultan.com
+0.0.0.0 www.dublinbet1.com
+0.0.0.0 www.jack-21.com
+0.0.0.0 www.arlequincasino.com
+0.0.0.0 www.luckyluke.com
+0.0.0.0 www.cafecasino.lv
+0.0.0.0 www.luckycreek.com
+0.0.0.0 www.betbigdollar.com
+0.0.0.0 euro.grandfortunecasino.com
+0.0.0.0 www.p7campaign.com
+0.0.0.0 uptownaces.eu
+0.0.0.0 www.vegascrestcasino.ag
+0.0.0.0 www.mybcasino.ag
+0.0.0.0 www.winamax.fr
+0.0.0.0 www.parionssport.fdj.fr
+0.0.0.0 www.netbet.fr
+0.0.0.0 www.france-pari.fr
+0.0.0.0 www.betclic.fr
+0.0.0.0 www.zeturf.fr
+0.0.0.0 www.playzax-top.com
+0.0.0.0 www.casinointense-slots.com
+0.0.0.0 www.jumbabet.com
+0.0.0.0 www.drakecasino.eu
+0.0.0.0 cherryjackpot.com
+0.0.0.0 www.slotocash.im
+0.0.0.0 roaring21.com
+0.0.0.0 www.lincolncasino.eu
+0.0.0.0 www.grandeaglecasino.com
+0.0.0.0 diamondreels.com
+0.0.0.0 libertyslots.eu
+0.0.0.0 games.bet365.com
+0.0.0.0 www.bitstarz.com
+0.0.0.0 www.slotsmillion.com
+0.0.0.0 www.mummysgold.com
+0.0.0.0 www.box24games.com
+0.0.0.0 www.riverbellecasino.com
+0.0.0.0 www.spartansslots.net
+0.0.0.0 www.luxurycasino.com
+0.0.0.0 www.villento.com
+0.0.0.0 www.captaincookscasino.eu
+0.0.0.0 www.ukcasinoclub.eu
+0.0.0.0 www.blackjackballroom.eu
+0.0.0.0 www.blackdiamond4u.com
+0.0.0.0 www.casino-classic.eu
+0.0.0.0 www.7sultanscasino.com
+0.0.0.0 www.slots.com
+0.0.0.0 www.spinpalace.com
