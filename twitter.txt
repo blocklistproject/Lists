@@ -25,7 +25,7 @@
 0.0.0.0 twitter.meezaan.org
 0.0.0.0 www.twt.si
 0.0.0.0 www.twitter.fr
-# https://securitytrails.com/list/ip/104.244.42.129
+# 0.0.0.0 https://securitytrails.com/list/ip/104.244.42.129
 0.0.0.0 twitter.eus
 0.0.0.0 twitter.com.7.1.adiosnof.roksit.net
 0.0.0.0 twitter.bldna48.com
@@ -47,7 +47,7 @@
 0.0.0.0 www.osiyuk.com
 0.0.0.0 www.twitter.uz
 0.0.0.0 twitter.ae
-# https://securitytrails.com/list/apex_domain/twitter.com
+# 0.0.0.0 https://securitytrails.com/list/apex_domain/twitter.com
 0.0.0.0 twitter.com
 0.0.0.0 platform.twitter.com
 0.0.0.0 mobile.twitter.com
