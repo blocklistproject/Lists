@@ -4,7 +4,7 @@
 # Homepage: https://blocklist.site
 # Help: https://github.com/blocklistproject/lists/wiki/
 # License: https://unlicense.org
-# Total number of network filters: 190229
+# Total number of network filters: 190228
 # ------------------------------------[SUPPORT]-------------------------------------
 # You can support by:
 # - reporting false positives
@@ -42620,7 +42620,7 @@ gocyslugi.ru
 g0suslugi.xyz
 g0susligi.ru
 g0sulugl.ru
-госулуги.рф
+xn--c1aapkosob.xn--p1ai
 qr-info-gosuslugi.ru
 i-gosuslygi.ru
 gosyslugi.su
@@ -42735,7 +42735,7 @@ gosuslugi-kazan.ru
 gosulsugl.ru
 gosuclugii.ru
 goslusugj.ru
-госуслуги-ру.рф
+xn----etbaunrsdatce.xn--p1ai
 gos-yslugi.ru
 gosuzslugi.ru
 gosusluslugi.ru
@@ -42750,7 +42750,6 @@ gosuslug.info
 gosulugi.online
 gosnuslugi.ru
 gosguslugi.ru
-гослуги.рф
 m-gosuslugii.ru
 kazan-gosuslugi.ru
 gosusslugi.space
@@ -42814,8 +42813,8 @@ gossusluugii.ru
 gossuslugiy.ru
 gossuslugi.su
 gocusluga.ru
-госсуслуга.рф
-госсуслуугии.рф
+xn--c1aapkosp.xn--p1ai
+xn--c1aapamrvaatca.xn--p1ai
 госуспуги.рф
 vgosuslugi.ru
 gosusslygi.ru
