@@ -4,7 +4,7 @@
 # Homepage: https://blocklist.site
 # Help: https://github.com/blocklistproject/lists/wiki/
 # License: https://unlicense.org
-# Total number of network filters: 26590
+# Total number of network filters: 26588
 # ------------------------------------[SUPPORT]-------------------------------------
 # You can support by:
 # - reporting false positives
@@ -4903,7 +4903,6 @@ server=/dochollidayguide.sg/
 server=/docitmed.sg/
 server=/doclamp.com/
 server=/docmedbill.sg/
-server=/docmorris.de/
 server=/docrxgp.com/
 server=/doctorabout.com/
 server=/doctoralq.ru/
@@ -20187,7 +20186,6 @@ server=/www.dmeiuukyto.trybestr.su/
 server=/www.dmhnch.xn--c1akiqp2bma.xn--p1ai/
 server=/www.dmviagratruykfj.com/
 server=/www.dnviagrarudfh.com/
-server=/www.docmorris.de/
 server=/www.docrxgp.com/
 server=/www.doctormyrx.com/
 server=/www.doctorsolve.com/
