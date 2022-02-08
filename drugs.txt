@@ -4903,7 +4903,6 @@
 0.0.0.0 docitmed.sg
 0.0.0.0 doclamp.com
 0.0.0.0 docmedbill.sg
-0.0.0.0 docmorris.de
 0.0.0.0 docrxgp.com
 0.0.0.0 doctorabout.com
 0.0.0.0 doctoralq.ru
@@ -20187,7 +20186,6 @@
 0.0.0.0 www.dmhnch.xn--c1akiqp2bma.xn--p1ai
 0.0.0.0 www.dmviagratruykfj.com
 0.0.0.0 www.dnviagrarudfh.com
-0.0.0.0 www.docmorris.de
 0.0.0.0 www.docrxgp.com
 0.0.0.0 www.doctormyrx.com
 0.0.0.0 www.doctorsolve.com
