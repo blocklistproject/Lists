@@ -4,7 +4,7 @@
 # Homepage: https://blocklist.site
 # Help: https://github.com/blocklistproject/lists/wiki/
 # License: https://unlicense.org
-# Total number of network filters: 190240
+# Total number of network filters: 190244
 # ------------------------------------[SUPPORT]-------------------------------------
 # You can support by:
 # - reporting false positives
@@ -42829,7 +42829,9 @@ gosulugi-anticovid.ru
 gosulsugi.run
 gosnomera-gosuslugi.ru
 goslusgi.ru
-госуслуги-госномера.рф
+#0.0.0.0 госуслуги-госномера.рф
+xn--c1aapwflapc.xn--p1ai
+xn----8sbhabmswnjffb4aeag2ac.xn--p1ai
 gosusugli.ru
 gosuslugi-vaccination.ru
 gosuslugigov.ru
@@ -190309,3 +190311,6 @@ ufesif.com
 disordsnltros.gifts
 4wsko.r.a.d.sendibm1.com
 me2.do
+premiums-gift.com
+discqrde.com
+e-giftnitro.com
