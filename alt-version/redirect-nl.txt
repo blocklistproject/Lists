@@ -4,7 +4,7 @@
 # Homepage: https://blocklist.site
 # Help: https://github.com/blocklistproject/lists/wiki/
 # License: https://unlicense.org
-# Total number of network filters: 108668
+# Total number of network filters: 108675
 # ------------------------------------[SUPPORT]-------------------------------------
 # You can support by:
 # - reporting false positives
@@ -108684,3 +108684,10 @@ click.junmediadirect.com
 fancy11.com
 www.cricplay.com
 1-xredbet87963.top
+extoso.com
+tjcttxdfelb.com
+cdexvangxfarwl.com
+aaotpokaquathii.com
+worldcoolfeed.com
+srghsmpyvvko.com
+hidelen.com
