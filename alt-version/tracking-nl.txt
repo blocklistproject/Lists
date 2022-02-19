@@ -4,7 +4,7 @@
 # Homepage: https://blocklist.site
 # Help: https://github.com/blocklistproject/lists/wiki/
 # License: https://unlicense.org
-# Total number of network filters: 15052
+# Total number of network filters: 15051
 # ------------------------------------[SUPPORT]-------------------------------------
 # You can support by:
 # - reporting false positives
@@ -13318,7 +13318,6 @@ persos.estat.com
 petametrics.com
 petrous.cn
 pgpartner.com
-phicdn.net
 phluant.com
 phluantmobile.net
 phone.igexin.com
