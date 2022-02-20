@@ -22,6 +22,12 @@ const path = require("path");
 				isHeaderComplete = true;
 			}
 
+			// Ensuring that no version/date might confuse users that read the raw text-file(s)
+			if (line.length > 0 && !line.indexOf("Version")) {
+				console.error(`Line ${index + 1} in ${file} must not contain a Version/Date.`);
+				hasError = true;
+			}
+
 			// Ensuring that all lines start with "#" or "0.0.0.0 "
 			if (line.length > 0 && !line.startsWith("#") && !line.startsWith("0.0.0.0 ")) {
 				console.error(`Line ${index + 1} in ${file} must start with "#" or "0.0.0.0 ".`);
