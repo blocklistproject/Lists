@@ -67774,7 +67774,6 @@ fastlane-adv.rubiconproject.com
 fastlane-metrics.fabric.io
 fastlane.aws.rubiconproject.com
 fastlane.rubiconproject.com
-#0.0.0.0 fastlane.tools
 fastlink.pl
 fastlinkfinder.com
 fastly-analytics.com
@@ -95642,7 +95641,6 @@ mystat.hu
 mystat.it
 mystat.pl
 mystaticfiles.com
-#0.0.0.0 mystats.com
 mystats.nl
 mysteriousmonth.com
 mysteryshop.inq.com
@@ -99785,7 +99783,6 @@ ohmcasting.com
 ohmvrqomsitr.com
 ohmwrite.com
 ohmydating.com
-#0.0.0.0 ohmystats.com
 ohnohaijfq.com
 ohnooo.ru
 ohpojzltnt.bid
@@ -129243,7 +129240,6 @@ tracking.marketviaemail.net
 tracking.masterclass.com
 tracking.maxcdn.com
 tracking.mediago.io
-#0.0.0.0 tracking.medpagetoday.com
 tracking.meete.co
 tracking.melty.es
 tracking.melty.fr
