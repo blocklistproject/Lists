@@ -1,6 +1,5 @@
 ! ------------------------------------[UPDATE]--------------------------------------
 ! Title: The Block List Project - Basic Starter List (adguard)
-! Version:Fri, 12 Jun 2020 21:24:09 +0000
 ! Expires: 1 day
 ! Homepage: https://blocklist.site
 ! Help: https://github.com/blocklistproject/lists/wiki/
