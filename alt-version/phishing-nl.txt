@@ -42829,7 +42829,6 @@ gosulugi-anticovid.ru
 gosulsugi.run
 gosnomera-gosuslugi.ru
 goslusgi.ru
-#0.0.0.0 госуслуги-госномера.рф
 xn--c1aapwflapc.xn--p1ai
 xn----8sbhabmswnjffb4aeag2ac.xn--p1ai
 gosusugli.ru

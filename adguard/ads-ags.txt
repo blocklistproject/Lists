@@ -67774,7 +67774,6 @@
 ||fastlane-metrics.fabric.io^
 ||fastlane.aws.rubiconproject.com^
 ||fastlane.rubiconproject.com^
-!||fastlane.tools^
 ||fastlink.pl^
 ||fastlinkfinder.com^
 ||fastly-analytics.com^
@@ -95642,7 +95641,6 @@
 ||mystat.it^
 ||mystat.pl^
 ||mystaticfiles.com^
-!||mystats.com^
 ||mystats.nl^
 ||mysteriousmonth.com^
 ||mysteryshop.inq.com^
@@ -99785,7 +99783,6 @@
 ||ohmvrqomsitr.com^
 ||ohmwrite.com^
 ||ohmydating.com^
-!||ohmystats.com^
 ||ohnohaijfq.com^
 ||ohnooo.ru^
 ||ohpojzltnt.bid^
@@ -129243,7 +129240,6 @@
 ||tracking.masterclass.com^
 ||tracking.maxcdn.com^
 ||tracking.mediago.io^
-!||tracking.medpagetoday.com^
 ||tracking.meete.co^
 ||tracking.melty.es^
 ||tracking.melty.fr^
