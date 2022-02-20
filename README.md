@@ -146,8 +146,8 @@ It was requested to add support for AdGuard. We are currently testing our lists.
 
 ## Beta Lists
 
-| List             | Original                                                      | No IP                                                                        | dnsmasq                                                                               | Description                                            | Sponsor<sup>&#8224;</sup> |
-| ---------------- | ------------------------------------------------------------- | ---------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- | ------------------------------------------------------ | ------------------------- |
+| List             | Original                                                      | No IP                                                                        | dnsmasq                                                                               | Description                                            |
+| ---------------- | ------------------------------------------------------------- | ---------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- | ------------------------------------------------------ |
 | Smart TV         | [Link](https://blocklistproject.github.io/Lists/smart-tv.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/smart-tv-nl.txt) | [Link](https://blocklistproject.github.io/Lists/dnsmasq-version/smart-tv-dnsmasq.txt) | Smart TV call home and ads                             |
 | Basic Start List | [Link](https://blocklistproject.github.io/Lists/basic.txt)    | [Link](https://blocklistproject.github.io/Lists/alt-version/basic-nl.txt)    | [Link](https://blocklistproject.github.io/Lists/dnsmasq-version/basic-dnsmasq.txt)    | Just a quick basic starter list                        |
 | WhatsApp List    | [Link](https://blocklistproject.github.io/Lists/whatsapp.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/whatsapp-nl.txt) | [Link](https://blocklistproject.github.io/Lists/dnsmasq-version/whatsapp-dnsmasq.txt) | User requested list that blocks only WhatsApp          |
@@ -174,12 +174,6 @@ We are currently working on verifying compatibility with other tools. Please sta
 ## Sponsors:
 
 Special thank you to [Cloud 4 SURE](https://www.cloud4sure.net) for their generous donation every month to help cover our Linode bill.
-
-## Please see below our crypto addresses:
-
-|                                       Algorand                                        |                                Basic Attention Token                                 |                                         ZCash                                          |
-| :-----------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------: |
-| <img src="https://blocklistproject.github.io/Lists/img/algo-qr-code.png" width="125"> | <img src="https://blocklistproject.github.io/Lists/img/btc-qr-code.png" width="125"> | <img src="https://blocklistproject.github.io/Lists/img/zcash-qr-code.png" width="125"> |
 
 # License:
 
