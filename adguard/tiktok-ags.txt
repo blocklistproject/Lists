@@ -4,7 +4,7 @@
 ! Homepage: https://blocklist.site
 ! Help: https://github.com/blocklistproject/lists/wiki/
 ! License: https://unlicense.org
-! Total number of network filters: 3629
+! Total number of network filters: 3698
 ! ------------------------------------[SUPPORT]-------------------------------------
 ! You can support by:
 ! - reporting false positives
@@ -3657,7 +3657,7 @@
 ||lf21-effectcdn-va.tiktokcdn.com^
 ||libra16-platform-useast5.us.tiktokv.com^
 ||log16-applog-useast5.us.tiktokv.com^
-||log16-applog-useast5.us.tiktokv.com.locadomain^
+||log16-applog-useast5.us.tiktokv.com.localdomain^
 ||mon-sg.tiktokv.com^
 ||mon16-platform-useast5.us.tiktokv.com^
 ||mssdk16-platform-useast5.us.tiktokv.com^
@@ -3670,9 +3670,9 @@
 ||pull-cmaf-f16-tt01.fcdn.us.tiktokv.com^
 ||pull-cmaf-f16-tt01.tiktokcdn.com^
 ||pull-cmaf-f16-va01.tiktokcdn.com^
-||pull-cmaf-f16.tiktokcdn.com.locadomain^
+||pull-cmaf-f16.tiktokcdn.com.localdomain^
 ||pull-cmaf-f77-va01.tiktokcdn.com^
-||pull-cmaf-f77-va01.tiktokcdn.com.locadomain^
+||pull-cmaf-f77-va01.tiktokcdn.com.localdomain^
 ||pull-cmaf-l16-va01.tiktokcdn.com^
 ||pull-cmaf-l77-va01.tiktokcdn.com^
 ||pull-f5-gcp01.tiktokcdn.com^
@@ -3687,7 +3687,7 @@
 ||pull-hls-q16-gcp01.tiktokcdn.com^
 ||pull-hls-q16-va01.tiktokcdn.com^
 ||pull-hls-w16-va01.tiktokcdn.com^
-||pull-hls-w16-va01.tiktokcdn.com.locadomain^
+||pull-hls-w16-va01.tiktokcdn.com.localdomain^
 ||pull-hls-w5-va01.tiktokcdn.com^
 ||pull-q5-va01.tiktokcdn.com^
 ||pull-rtmp-l16-va01.tiktokcdn.com^
