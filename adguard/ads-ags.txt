@@ -49283,7 +49283,6 @@
 ||cdn.contentabc.com^
 ||cdn.contentadserver.com^
 ||cdn.contentspread.net^
-||cdn.cookielaw.org^
 ||cdn.cpiera.com^
 ||cdn.cpmstar.com^
 ||cdn.cpnscdn.com^
