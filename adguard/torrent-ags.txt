@@ -273,6 +273,7 @@
 ||peteteo.com^
 ||pharaos-world.de^
 ||piratic.org^
+||pirateproxy-bay.com^
 ||point-blank.cc^
 ||prodigem.com^
 ||prototype24.ath.cx^
