@@ -4,6 +4,10 @@
 
 ## Checklist
 
-- [ ] I have verified that I have not modified any files inside the `alt-version` folder (automated code will automatically update those files)
+- [ ] I have verified that I have not modified the following files:
+      - inside the `alt-version` folder
+      - inside the `dnsmasq-version` folder
+      - everything.txt
 
-- [ ] I have verified that I have not modified any files inside the `dnsmasq-version` folder (automated code will automatically update those files)
+Because automated code will automatically update those files!
+
