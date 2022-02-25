@@ -17,7 +17,7 @@
 &nbsp;
 
 [![Become a Patron](https://www.marinedieselbasics.com/wp-content/uploads/Patreon-Support-logo.png)](https://www.patreon.com/bePatron?u=8892646)
-[![Join our Discord](https://discord.com/assets/ff41b628a47ef3141164bfedb04fb220.png)]https://ulnk.it/blp-discord
+[![Join our Discord](https://discord.com/assets/ff41b628a47ef3141164bfedb04fb220.png)](https://ulnk.it/blp-discord)
 
 &nbsp;
 
