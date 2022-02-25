@@ -16,6 +16,8 @@
 
 &nbsp;
 
+## We have launch our Discord to better help the community stay up to date with the changes we make to this list and get a btter idea of how we can best streamline the process. Please click the link below to join!
+
 &nbsp;
 
 <p align="center">
@@ -23,7 +25,7 @@
 <a href="https://ulnk.it/blp-discord"><img src="https://discord.com/assets/ff41b628a47ef3141164bfedb04fb220.png" width=250 /></a>
 </p>
 &nbsp;
-## We have launch our Discord to better help the community stay up to date with the changes we make to this list and get a btter idea of how we can best streamline the process. Please click the link below to join!
+
 &nbsp;
 
 - [Details](#details)
