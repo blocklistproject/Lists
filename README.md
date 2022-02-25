@@ -16,7 +16,7 @@
 
 &nbsp;
 
-## We have launch our Discord to better help the community stay up to date with the changes we make to this list and get a btter idea of how we can best streamline the process. Please click the link below to join!
+## We have launched our Discord to better help the community stay up to date with the changes we make to this lists and get a btter idea of how we can best streamline the process. Please click the link below to join!
 
 &nbsp;
 
