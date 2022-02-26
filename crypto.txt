@@ -23825,3 +23825,4 @@
 0.0.0.0 primexbt.com
 0.0.0.0 trade.eightcap.com
 0.0.0.0 tradecryptocapital.org
+0.0.0.0 cbtoken.me
