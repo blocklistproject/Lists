@@ -1280,3 +1280,4 @@
 0.0.0.0 hdfccard.ubona.com
 0.0.0.0 bcryp.net
 0.0.0.0 connectwalletnow.com
+0.0.0.0 cbtoken.me
