@@ -273,6 +273,7 @@
 0.0.0.0 peteteo.com
 0.0.0.0 pharaos-world.de
 0.0.0.0 piratic.org
+0.0.0.0 pirateproxy-bay.com
 0.0.0.0 point-blank.cc
 0.0.0.0 prodigem.com
 0.0.0.0 prototype24.ath.cx
