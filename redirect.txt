@@ -94746,7 +94746,6 @@
 0.0.0.0 tornillo.info
 0.0.0.0 tornposter.com
 0.0.0.0 torpark.nfshost.com
-0.0.0.0 torproject.org
 0.0.0.0 torproxy.be
 0.0.0.0 torproxy.net
 0.0.0.0 torqueproxy.info
