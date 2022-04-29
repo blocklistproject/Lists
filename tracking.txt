@@ -13900,7 +13900,6 @@
 0.0.0.0 shadowsmell.com
 0.0.0.0 sharethis.com
 0.0.0.0 sharethrough.com
-0.0.0.0 shifen.com
 0.0.0.0 shifting-frame.com
 0.0.0.0 shinystat.com
 0.0.0.0 shinystat.it
