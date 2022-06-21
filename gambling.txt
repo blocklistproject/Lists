@@ -2136,7 +2136,7 @@
 0.0.0.0 lutrija.co.me
 0.0.0.0 postcodeloterij.nl
 0.0.0.0 nederlandseloterij.nl
-0.0.0.0 statsloterij.nederlandseloterij.nl
+0.0.0.0 staatsloterij.nederlandseloterij.nl
 0.0.0.0 lotto.pl
 0.0.0.0 multipasko.pl
 0.0.0.0 megalotto.pl
