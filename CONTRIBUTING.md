@@ -20,7 +20,8 @@ Issues are the best way to propose changes to the lists (we use Github Flow). We
 
 1. Fork the repo and create your branch from master.
 
-2. Ensure that you have not modified any files inside the `alt-version` folder. Automatic scripts will update those files for you.
+2. Ensure that you have not modified any files inside the `alt-version` `adguard` `dnsmasq-version` folders or
+inside `everything.txt`. Automatic scripts will update those files for you.
 
 3. Issue that pull request!
 
