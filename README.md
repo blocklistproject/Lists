@@ -16,7 +16,7 @@
 
 &nbsp;
 
-## We have launched our Discord to better help the community stay up to date with the changes we make to this lists and get a btter idea of how we can best streamline the process. Please click the link below to join!
+## We have launched our Discord to better help the community stay up to date with the changes we make to this lists and get a better idea of how we can best streamline the process. Please click the link below to join!
 
 &nbsp;
 
@@ -29,11 +29,10 @@
 &nbsp;
 
 - [Details](#details)
-- [Updates](#updates)
 - [Versions](#versions)
 - [Usage](#usage)
 - [Lists](#lists)
-- [Using with Pi-hole](#using-with-pi-hole)
+- [Using with Pi-hole](#pi-hole-instructions)
 - [Using with other tools](#using-with-other-tools)
 - [Sponsors](#sponsors)
 - [License](#license)
