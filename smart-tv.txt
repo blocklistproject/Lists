@@ -1,0 +1,87 @@
+# ------------------------------------[UPDATE]--------------------------------------
+# Title: The Block List Project - Smart TV List
+# Expires: 1 day
+# Homepage: https://blocklist.site
+# Help: https://github.com/blocklistproject/lists/wiki/
+# License: https://unlicense.org
+# Total number of network filters: 72
+# ------------------------------------[SUPPORT]-------------------------------------
+# You can support by:
+# - reporting false positives
+# - making a donation: https://paypal.me/blocklistproject
+# -------------------------------------[INFO]---------------------------------------
+#
+# Smart TV list
+# ------------------------------------[FILTERS]-------------------------------------
+0.0.0.0 acr0.samsungcloudsolution.com
+0.0.0.0 ad.lgappstv.com
+0.0.0.0 ads.samsungads.com
+0.0.0.0 aic-ngfts.lge.com
+0.0.0.0 amarillo.sb.roku.com
+0.0.0.0 az43064.vo.msecnd.net
+0.0.0.0 bif.sr.roku.com
+0.0.0.0 cdn.samsungcloudsolution.com
+0.0.0.0 cloudservices.roku.com
+0.0.0.0 config.samsungads.com
+0.0.0.0 control-zoo-dtsstage.tvinteractive.tv
+0.0.0.0 cooper.logs.roku.com
+0.0.0.0 coordinator-production-28516768.us-east-1.elb.amazonaws.com
+0.0.0.0 d179kwmlpc4o47.cloudfront.ne
+0.0.0.0 d1oxlq5h9kq8q5.cloudfront.net
+0.0.0.0 d2tnx644ijgq6i.cloudfront.net
+0.0.0.0 d3mjsomixevyw7.cloudfront.net
+0.0.0.0 edgesuite.net
+0.0.0.0 eu-auth2.samsungosp.com
+0.0.0.0 events.samsungads.com
+0.0.0.0 game.internetat.tv
+0.0.0.0 gpm.samsungqbe.com
+0.0.0.0 img-resize-cdn-prod.samsungnyc.com
+0.0.0.0 infolink.pavv.co.kr
+0.0.0.0 lcprd1.samsungcloudsolution.net
+0.0.0.0 lgad.cjpowercast.com
+0.0.0.0 log-1.samsungacr.com
+0.0.0.0 log-2.samsungacr.com
+0.0.0.0 log-config.samsungacr.com
+0.0.0.0 ngfts.lge.com
+0.0.0.0 notice.samsungcloudsolution.com
+0.0.0.0 noticecdn.samsungcloudsolution.com
+0.0.0.0 noticefile.samsungcloudsolution.com
+0.0.0.0 ns11.whois.co.kr
+0.0.0.0 ocfconnect-shard-eu02-euwest1.samsungiotcloud.com
+0.0.0.0 oempprd.samsungcloudsolution.com
+0.0.0.0 osb-v2.samsungqbe.com
+0.0.0.0 p.ads.roku.com
+0.0.0.0 premium-videos.telly.com
+0.0.0.0 samsungacr.com
+0.0.0.0 samsungads.com
+0.0.0.0 samsungcloudsolution.com
+0.0.0.0 samsungcloudsolution.net
+0.0.0.0 samsungotn.net
+0.0.0.0 samsungrm.net
+0.0.0.0 scribe.logs.roku.com
+0.0.0.0 scs.samsungqbe.com
+0.0.0.0 smartclip.com
+0.0.0.0 smartclip.net
+0.0.0.0 smartshare.lgtvsdp.com
+0.0.0.0 static.doubleclick.net
+0.0.0.0 syncplusconfig.s3.amazonaws.com
+0.0.0.0 targeted-config-test.samsungacr.com
+0.0.0.0 time.samsungcloudsolution.com
+0.0.0.0 traces.sr.roku.com
+0.0.0.0 track.sr.roku.com
+0.0.0.0 tvinteractive.tv
+0.0.0.0 tvx.adgrx.com
+0.0.0.0 uimetadata.samsungiotcloud.com
+0.0.0.0 us.ad.lgsmartad.com
+0.0.0.0 us.ibs.lgappstv.com
+0.0.0.0 us.info.lgsmartad.com
+0.0.0.0 us.lgtvsdp.com
+0.0.0.0 us.rdx2.lgtvsdp.com
+0.0.0.0 vdterms.samsungcloudsolution.com
+0.0.0.0 yumenetworks.com
+0.0.0.0 osb-apps-v2.samsungqbe.com
+0.0.0.0 osb.samsungqbe.com
+0.0.0.0 gld.push.samsungosp.com
+0.0.0.0 sas.samsungcloudsolution.com
+0.0.0.0 events.cid.samba.tv
+0.0.0.0 platform.cid.samba.tv

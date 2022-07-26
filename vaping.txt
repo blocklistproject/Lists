@@ -1,0 +1,124 @@
+# ------------------------------------[UPDATE]--------------------------------------
+# Title: The Block List Project - Vaping List
+# Expires: 1 day
+# Homepage: https://blocklist.site
+# Help: https://github.com/blocklistproject/lists/wiki/
+# License: https://unlicense.org
+# Total number of network filters: 108
+# ------------------------------------[SUPPORT]-------------------------------------
+# You can support by:
+#  - reporting false positives
+#  - making a donation: https://paypal.me/blocklistproject
+# -------------------------------------[INFO]---------------------------------------
+#
+# Vaping list
+# ------------------------------------[FILTERS]-------------------------------------
+# https://github.com/blocklistproject/Lists/issues/383
+0.0.0.0 vaping.com
+0.0.0.0 vaping.org
+0.0.0.0 vapingdaily.com
+0.0.0.0 www.vaporfi.com
+0.0.0.0 vaporfi.com
+0.0.0.0 vaping.rocks
+0.0.0.0 breazy.com
+0.0.0.0 www.rockbottomvapes.com
+0.0.0.0 rockbottomvapes.com
+0.0.0.0 www.eightvape.com
+0.0.0.0 eightvape.com
+0.0.0.0 bovaping.com
+0.0.0.0 thcvapesoil.com
+0.0.0.0 www.thcvapesoil.com
+0.0.0.0 mail.thcvapesoil.com
+0.0.0.0 www.directvapor.com
+0.0.0.0 directvapor.com
+0.0.0.0 vapingcheap.com
+0.0.0.0 www.vapingcheap.com
+0.0.0.0 vaping360.com
+0.0.0.0 advertise.vaping360.com
+0.0.0.0 cdn.vaping360.com
+0.0.0.0 wwv.vaping360.com
+0.0.0.0 assets1.vaping360.com
+0.0.0.0 www.vaping360.com
+0.0.0.0 go.vaping360.com
+0.0.0.0 media.vaping360.com
+0.0.0.0 vapecraftinc.com
+0.0.0.0 www.vapecraftinc.com
+0.0.0.0 tracking.vapecraftinc.com
+0.0.0.0 deals.vapecraftinc.com
+0.0.0.0 www.vapesuperstore.co.uk
+0.0.0.0 vapesuperstore.co.uk
+0.0.0.0 ww2.vapesuperstore.co.uk
+0.0.0.0 local.vapesuperstore.co.uk
+0.0.0.0 comune.vapesuperstore.co.uk
+0.0.0.0 www.vaping.watch
+0.0.0.0 vaping.watch
+0.0.0.0 www.vaporbeast.com
+0.0.0.0 vaporbeast.com
+0.0.0.0 elementvape.com
+0.0.0.0 www.elementvape.com
+0.0.0.0 blazedvapes.com
+0.0.0.0 www.blazedvapes.com
+0.0.0.0 myvaporstore.com
+0.0.0.0 www.myvaporstore.com
+0.0.0.0 thevapemall.com
+0.0.0.0 www.thevapemall.com
+0.0.0.0 zenithvapecbd.com
+0.0.0.0 www.zenithvapecbd.com
+0.0.0.0 buyvapor.com
+0.0.0.0 www.buyvapor.com
+0.0.0.0 nyvapeshop.com
+0.0.0.0 www.nyvapeshop.com
+0.0.0.0 buypodsnow.com
+0.0.0.0 www.buypodsnow.com
+0.0.0.0 vapordna.com
+0.0.0.0 www.vapordna.com
+0.0.0.0 instagram.vapordna.com
+0.0.0.0 blog.vapordna.com
+0.0.0.0 www.discountvapepen.com
+0.0.0.0 discountvapepen.com
+0.0.0.0 ns1.discountvapepen.com
+0.0.0.0 ns2.discountvapepen.com
+0.0.0.0 buysellvape.com
+0.0.0.0 www.buysellvape.com
+0.0.0.0 vapeadmin.buysellvape.com
+0.0.0.0 buysellaccess.buysellvape.com
+0.0.0.0 api.buysellvape.com
+0.0.0.0 autodiscover.buysellvape.com
+0.0.0.0 mail.buysellvape.com
+0.0.0.0 www.misthub.com
+0.0.0.0 misthub.com
+0.0.0.0 help.misthub.com
+0.0.0.0 test.misthub.com
+0.0.0.0 vape.misthub.com
+0.0.0.0 enterpriseenrollment.misthub.com
+0.0.0.0 msoid.misthub.com
+0.0.0.0 cdn.misthub.com
+0.0.0.0 unsub.misthub.com
+0.0.0.0 westcoastvapesupply.com
+0.0.0.0 amp.westcoastvapesupply.com
+0.0.0.0 files.westcoastvapesupply.com
+0.0.0.0 wholesale.westcoastvapesupply.com
+0.0.0.0 email.westcoastvapesupply.com
+0.0.0.0 blog.westcoastvapesupply.com
+0.0.0.0 www.westcoastvapesupply.com
+0.0.0.0 eliquid.westcoastvapesupply.com
+0.0.0.0 lcdn.westcoastvapesupply.com
+0.0.0.0 slickvapes.com
+0.0.0.0 www.slickvapes.com
+0.0.0.0 cdn.slickvapes.com
+0.0.0.0 blog.slickvapes.com
+0.0.0.0 store.nyvapeshop.com
+0.0.0.0 prelive.nyvapeshop.com
+0.0.0.0 pop.nyvapeshop.com
+0.0.0.0 spam.nyvapeshop.com
+0.0.0.0 cdn.nyvapeshop.com
+0.0.0.0 kibana.nyvapeshop.com
+0.0.0.0 dev.nyvapeshop.com
+0.0.0.0 info.nyvapeshop.com
+0.0.0.0 giantvapes.com
+0.0.0.0 blog.giantvapes.com
+0.0.0.0 www.giantvapes.com
+0.0.0.0 images.giantvapes.com
+0.0.0.0 ftp.giantvapes.com
+0.0.0.0 apps.giantvapes.com
+0.0.0.0 reviews.giantvapes.com

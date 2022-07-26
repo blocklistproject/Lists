@@ -1,28 +1,27 @@
-
-#------------------------------------[UPDATE]--------------------------------------
-# Title: The Block List Project
+# ------------------------------------[UPDATE]--------------------------------------
+# Title: The Block List Project - Tracking List
 # Expires: 1 day
 # Homepage: https://blocklist.site
 # Help: https://github.com/blocklistproject/lists/wiki/
 # License: https://unlicense.org
-# Total number of network filters: 2020
-#------------------------------------[SUPPORT]-------------------------------------
+# Total number of network filters: 15051
+# ------------------------------------[SUPPORT]-------------------------------------
 # You can support by:
 # - reporting false positives
 # - making a donation: https://paypal.me/blocklistproject
-#-------------------------------------[INFO]---------------------------------------
+# -------------------------------------[INFO]---------------------------------------
 #
 # tracking list
-#------------------------------------[FILTERS]-------------------------------------
-# 0.0.0.0 footprint.net Resolved issue #29
-# 0.0.0.0 hubspot.com Removed per issue 52
+# ------------------------------------[FILTERS]-------------------------------------
+# 0.0.0.0 footprint.net Resolved Issue 29
+# 0.0.0.0 hubspot.com Issue 52
 # 0.0.0.0 intercomassets.com Issue 48
 # 0.0.0.0 newrelic.com Issue 53
-#0.0.0.0 byside.com issue #10
-#0.0.0.0 counters.gigya.com removed per issue 7
-#0.0.0.0 gigya.com removed per issue 7
-#0.0.0.0 ipinfo.io Removed per issue #21
-#0.0.0.0 yospace.com issue #12
+# 0.0.0.0 byside.com Issue 10
+# 0.0.0.0 counters.gigya.com Issue 7
+# 0.0.0.0 gigya.com Issue 7
+# 0.0.0.0 ipinfo.io Issue 21
+# 0.0.0.0 yospace.com Issue 12
 0.0.0.0 1-cl0ud.com
 0.0.0.0 1-creative-1.com
 0.0.0.0 1000mercis.com
@@ -43,8 +42,6 @@
 0.0.0.0 200summit.com
 0.0.0.0 206ads.com
 0.0.0.0 207.net
-0.0.0.0 212.150.34.116
-0.0.0.0 213.239.214.240
 0.0.0.0 21sme.com
 0.0.0.0 22find.com
 0.0.0.0 247-inc.com
@@ -103,9 +100,7 @@
 0.0.0.0 6009888.com
 0.0.0.0 6009988.com
 0.0.0.0 628e7ae68a3357896.com
-0.0.0.0 63.214.247.19
 0.0.0.0 65twenty.com
-0.0.0.0 66.226.74.5
 0.0.0.0 6counter.de
 0.0.0.0 777seo.com
 0.0.0.0 778669.com
@@ -126,15 +121,8 @@
 0.0.0.0 809002.com
 0.0.0.0 8096888.com
 0.0.0.0 8099888.com
-0.0.0.0 81.19.88.106
-0.0.0.0 81.95.145.240
 0.0.0.0 8866786.com
 0.0.0.0 8m5sew59gr.bid
-0.0.0.0 91.215.100.37
-0.0.0.0 91.215.100.38
-0.0.0.0 91.215.101.35
-0.0.0.0 91.215.101.36
-0.0.0.0 91.215.103.65
 0.0.0.0 95095.com
 0.0.0.0 950958.com
 0.0.0.0 9nl.com
@@ -874,7 +862,7 @@
 0.0.0.0 blutonic.net
 0.0.0.0 bluuadd.com
 0.0.0.0 bn.uol.com.br
-0.0.0.0 boards.greenhouse.io
+# 0.0.0.0 boards.greenhouse.io Issue 372
 0.0.0.0 bolimubei.com
 0.0.0.0 bombora.com
 0.0.0.0 bongacash.com
@@ -1069,8 +1057,6 @@
 0.0.0.0 cdnh3.net
 0.0.0.0 cedexis-radar.net
 0.0.0.0 cedexis-test.com
-0.0.0.0 cedexis.com
-0.0.0.0 cedexis.net
 0.0.0.0 celebros-analytics.com
 0.0.0.0 celtra.com
 0.0.0.0 central-core-7.com
@@ -2466,6 +2452,7 @@
 0.0.0.0 ipv4-count.gmx.net
 0.0.0.0 ipv6-count.gmx.net
 0.0.0.0 isboost.co.jp
+0.0.0.0 ishare.metric.rediff.com
 0.0.0.0 ist-track.com
 0.0.0.0 itenizesayac.com
 0.0.0.0 iterable.com
@@ -2804,9 +2791,12 @@
 0.0.0.0 metrics.oetker.de
 0.0.0.0 metrics.plex.tv
 0.0.0.0 metrics.raptr.com
+0.0.0.0 metric.ind.rediff.com
+0.0.0.0 metric.rediff.com
 0.0.0.0 metrics.tiscover.com
 0.0.0.0 metrics.toptenreviews.com
 0.0.0.0 metricswindow.com
+0.0.0.0 metricsishare.rediff.com
 0.0.0.0 metrigo.com
 0.0.0.0 mgid.com
 0.0.0.0 mgsvc.com
@@ -13328,7 +13318,6 @@
 0.0.0.0 petametrics.com
 0.0.0.0 petrous.cn
 0.0.0.0 pgpartner.com
-0.0.0.0 phicdn.net
 0.0.0.0 phluant.com
 0.0.0.0 phluantmobile.net
 0.0.0.0 phone.igexin.com
@@ -13911,13 +13900,13 @@
 0.0.0.0 shadowsmell.com
 0.0.0.0 sharethis.com
 0.0.0.0 sharethrough.com
-0.0.0.0 shifen.com
 0.0.0.0 shifting-frame.com
 0.0.0.0 shinystat.com
 0.0.0.0 shinystat.it
 0.0.0.0 shockedfish.com
 0.0.0.0 shootnstarzoffers.click
 0.0.0.0 shop2market.com
+0.0.0.0 shopmetric.rediff.com
 0.0.0.0 shoppingsecurenowonline.com
 0.0.0.0 shoppingshadow.com
 0.0.0.0 shopwindow.com
@@ -14759,6 +14748,7 @@
 0.0.0.0 user-agent-tracker.herokuapp.com
 0.0.0.0 user-api.com
 0.0.0.0 usergrid.com
+0.0.0.0 usmetric.rediff.com
 0.0.0.0 userreplay.net
 0.0.0.0 userreport.com
 0.0.0.0 userstats.com
@@ -15077,7 +15067,11 @@
 0.0.0.0 zzhengre.com
 0.0.0.0 zzword.com
 0.0.0.0 src.labeldollars.com
+0.0.0.0 track.rediff.com
 0.0.0.0 tracker.nice-prod.pro
 0.0.0.0 vasgenerete.site
 0.0.0.0 ntvp.wpu.sh
 0.0.0.0 notification.tubecup.net
+0.0.0.0 rebrandlydomain.com
+0.0.0.0 metrics.icloud.com
+0.0.0.0 geo2.adobe.com

@@ -1,0 +1,87 @@
+# ------------------------------------[UPDATE]--------------------------------------
+# Title: The Block List Project - Smart TV List (NL)
+# Expires: 1 day
+# Homepage: https://blocklist.site
+# Help: https://github.com/blocklistproject/lists/wiki/
+# License: https://unlicense.org
+# Total number of network filters: 72
+# ------------------------------------[SUPPORT]-------------------------------------
+# You can support by:
+# - reporting false positives
+# - making a donation: https://paypal.me/blocklistproject
+# -------------------------------------[INFO]---------------------------------------
+#
+# Smart TV list
+# ------------------------------------[FILTERS]-------------------------------------
+acr0.samsungcloudsolution.com
+ad.lgappstv.com
+ads.samsungads.com
+aic-ngfts.lge.com
+amarillo.sb.roku.com
+az43064.vo.msecnd.net
+bif.sr.roku.com
+cdn.samsungcloudsolution.com
+cloudservices.roku.com
+config.samsungads.com
+control-zoo-dtsstage.tvinteractive.tv
+cooper.logs.roku.com
+coordinator-production-28516768.us-east-1.elb.amazonaws.com
+d179kwmlpc4o47.cloudfront.ne
+d1oxlq5h9kq8q5.cloudfront.net
+d2tnx644ijgq6i.cloudfront.net
+d3mjsomixevyw7.cloudfront.net
+edgesuite.net
+eu-auth2.samsungosp.com
+events.samsungads.com
+game.internetat.tv
+gpm.samsungqbe.com
+img-resize-cdn-prod.samsungnyc.com
+infolink.pavv.co.kr
+lcprd1.samsungcloudsolution.net
+lgad.cjpowercast.com
+log-1.samsungacr.com
+log-2.samsungacr.com
+log-config.samsungacr.com
+ngfts.lge.com
+notice.samsungcloudsolution.com
+noticecdn.samsungcloudsolution.com
+noticefile.samsungcloudsolution.com
+ns11.whois.co.kr
+ocfconnect-shard-eu02-euwest1.samsungiotcloud.com
+oempprd.samsungcloudsolution.com
+osb-v2.samsungqbe.com
+p.ads.roku.com
+premium-videos.telly.com
+samsungacr.com
+samsungads.com
+samsungcloudsolution.com
+samsungcloudsolution.net
+samsungotn.net
+samsungrm.net
+scribe.logs.roku.com
+scs.samsungqbe.com
+smartclip.com
+smartclip.net
+smartshare.lgtvsdp.com
+static.doubleclick.net
+syncplusconfig.s3.amazonaws.com
+targeted-config-test.samsungacr.com
+time.samsungcloudsolution.com
+traces.sr.roku.com
+track.sr.roku.com
+tvinteractive.tv
+tvx.adgrx.com
+uimetadata.samsungiotcloud.com
+us.ad.lgsmartad.com
+us.ibs.lgappstv.com
+us.info.lgsmartad.com
+us.lgtvsdp.com
+us.rdx2.lgtvsdp.com
+vdterms.samsungcloudsolution.com
+yumenetworks.com
+osb-apps-v2.samsungqbe.com
+osb.samsungqbe.com
+gld.push.samsungosp.com
+sas.samsungcloudsolution.com
+events.cid.samba.tv
+platform.cid.samba.tv
