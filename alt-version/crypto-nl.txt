@@ -1,19 +1,18 @@
-#------------------------------------[UPDATE]--------------------------------------
-# Title: The Block List Project
-# Version:Fri, 12 Jun 2020 21:24:09 +0000
+# ------------------------------------[UPDATE]--------------------------------------
+# Title: The Block List Project - Crypto List (NL)
 # Expires: 1 day
 # Homepage: https://blocklist.site
 # Help: https://github.com/blocklistproject/lists/wiki/
 # License: https://unlicense.org
-# Total number of network filters: 22329
-#------------------------------------[SUPPORT]-------------------------------------
+# Total number of network filters: 23789
+# ------------------------------------[SUPPORT]-------------------------------------
 # You can support by:
 # - reporting false positives
 # - making a donation: https://paypal.me/blocklistproject
-#-------------------------------------[INFO]---------------------------------------
+# -------------------------------------[INFO]---------------------------------------
 #
 # Crypto List
-#------------------------------------[FILTERS]-------------------------------------
+# ------------------------------------[FILTERS]-------------------------------------
 0.r.msn.com
 000.0x1f4b0.com
 001.0x1f4b0.com
@@ -393,7 +392,7 @@ adbma.adk2.co
 adbtc.top
 adc.suprnova.cc
 adcast.deviantart.com
-adclick.g.doubleclick.net
+# adclick.g.doubleclick.net Belongs in ad list
 adconity.com
 adcore.lenovomm.com
 add.pool.mn
@@ -780,7 +779,7 @@ am.g.ireader.com
 am9ozs.xyz
 ama.adwo.com
 amaqcgrrmedi.bid
-amazonaws.com
+# amazonaws.com Issue 452
 amber.coin-miners.info
 amber.suprnova.cc
 amdc.m.taobao.com
@@ -814,7 +813,7 @@ analytics.atdmt.com
 analytics.bl
 analytics.blue
 analytics.hz.netease.com
-analytics.kiwifarms.net
+# analytics.kiwifarms.net Issue 250
 analytics.live.com
 analytics.msn.com
 analytics.query.yahoo.com
@@ -1173,7 +1172,7 @@ app.btcchina.com
 app.coinsprofit.com
 app.houyi.baofeng.net
 app.multimining.org
-app.pr0gramm.com
+# app.pr0gramm.com Issue 194
 app.slushpool.com
 app.supportxmr.com
 app.tanwan.com
@@ -1480,7 +1479,7 @@ autologica.ga
 aux2.whalesburg.com
 av.hashhot.com
 av.pool.mn
-avatar.pr0gramm.com
+# avatar.pr0gramm.com Issue 194
 avdfcctzwfdk.com
 avditmiohvtq.bid
 avefyjulko.bid
@@ -1768,7 +1767,7 @@ best-cdn.pl
 best-game.xyz
 best-p2pool.eu
 bestcoinsignals.com
-bestETNpool.com
+bestetnpool.com
 besti.ga
 bestmobiworld.com
 bestsecurepractice.com
@@ -2357,6 +2356,7 @@ btcg-us.miningspeed.com
 btcg.miningspeed.com
 btcguild.com
 btchc.pool.mn
+btcminings.site
 btcnos.com
 btcp-api.suprnova.cc
 btcp-eu.coinblockers.com
@@ -3300,7 +3300,7 @@ conversion.pro.cn
 cookiemapping.wrating.com
 cookies.qp.si
 cookiescript.info
-cookiescript.infos
+# cookiescript.infos Issue 352
 cookiescriptcdn.pro
 cool-pool.net
 coop.pop.baofeng.com
@@ -4603,7 +4603,6 @@ e.baidu.com
 e.breezily168.com
 e.clubske.com
 e.cn.miaozhen.com
-e.crashlytics.com
 e.domob.cn
 e.domob.com.cn
 e.emgwq.com
@@ -4978,7 +4977,7 @@ es.minergate.com
 esc.hashhot.com
 esc.pool.mn
 esc.thecoin.pw
-escobar.pr0gramm.com
+# escobar.pr0gramm.com Issue 194
 esgwceckxumg.com
 eslgydoqbedo.com
 eslydbnukkme.com
@@ -6261,7 +6260,7 @@ fud.hashhot.com
 fud.suprnova.cc
 fuhgvhuukl.bid
 fujiseed.sighash.info
-full.pr0gramm.com
+# full.pr0gramm.com Issue 194
 fund.pool.mn
 fund.suprnova.cc
 funk.majorminers.com
@@ -6875,7 +6874,7 @@ halo.minerpool.net
 halopool.maxhash.org
 ham.hashhot.com
 ham.thecoin.pw
-hans.pr0gramm.com
+# hans.pr0gramm.com Issue 194
 hansa.suprnova.cc
 hanwlgpecblxf.bid
 hao.7654.com
@@ -7296,7 +7295,7 @@ hunantv.m.cn.miaozhen.com
 hund.suprnova.cc
 huodong.ios.shouji.360.cn
 huoying666.com
-hurensohn.pr0gramm.com
+# hurensohn.pr0gramm.com Issue 194
 huriylhqkylbo.bid
 huscav.ethosdistro.com
 husetdmrejiyjy.bid
@@ -7612,7 +7611,7 @@ img.jgchq.com
 img.jizzads.com
 img.jsecoin.com
 img.namunil.com
-img.pr0gramm.com
+# img.pr0gramm.com Issue 194
 img.shouji.sogou.com
 img.taotaosou.cn
 img.toppr.com.cn
@@ -7793,7 +7792,6 @@ ipcouosurtdqc.bid
 ipdcgsdjkz.bid
 ipdlsrwctdjb.com
 ipfs-gateway.ipbc.io
-ipfs.io
 iphonelog.shouji.baofeng.com
 iphwttyqzuhucw.bid
 ipinyou.com
@@ -8450,7 +8448,7 @@ kisshentai.net
 kisvtclf.bid
 kitaji.ethosdistro.com
 kiwi.pool.mn
-kiwifarms.net
+# kiwifarms.net Issue 250
 kiwiminers.com
 kizpkvkdfm.bid
 kjabglumgwbsvq.bid
@@ -9325,7 +9323,7 @@ m.nbhaosheng168.com
 m.panda.voiceads.cn
 m.poloniex.com
 m.pool.mn
-m.pr0gramm.com
+# m.pr0gramm.com Issue 194
 m.pubbirdf.com
 m.qpic.cn
 m.reachmax.cn
@@ -9873,7 +9871,7 @@ miner.nicehash.com
 miner.nimiq.com
 miner.oozing.co
 miner.ppxxmr.com
-miner.pr0gramm.com
+# miner.pr0gramm.com Issue 194
 miner.rocks
 miner1.minergate.com
 miner2.sighash.info
@@ -12645,7 +12643,7 @@ pr.da.netease.com
 pr.thecoin.pw
 pr.ybp.yahoo.com
 pr0gram.org
-pr0gramm.com
+# pr0gramm.com Issue 194
 practivate.adobe.com
 praeicwgzapf.com
 prbitcoin.com
@@ -14415,10 +14413,8 @@ servicer.adskeeper.co.uk
 services.nanopool.org
 services.wes.df.telemetry.microsoft.com
 sestat.baidu.com
-setting.crashlytics.com
 setting.snswin.qq.com
 settings-sandbox.data.microsoft.com
-settings.crashlytics.com
 setup-game.xyz
 setup.nanopool.org
 sexcoin.miningpoolhub.com
@@ -15367,7 +15363,7 @@ stratum.minertopia.org
 stratum.mining-pool.io
 stratum.mining.eligius.st
 stratum.multipool.com
-stratum.myBTCcoin.com
+stratum.mybtccoin.com
 stratum.netcodepool.org
 stratum.new.hashhot.com
 stratum.nicehash.com
@@ -15961,7 +15957,7 @@ thor.nanopool.org
 thpsflsjw.com
 thread.multiminerapp.com
 three-jj.github.io
-thumb.pr0gramm.com
+# thumb.pr0gramm.com Issue 194
 thvdzghlvfoh.com
 thvrvojkkjkkpe.bid
 thx113.ethosdistro.com
@@ -17186,7 +17182,7 @@ vic.minerpool.net
 vic.pool.sexy
 vicofhozbuaf.com
 vid.atdmt.com
-vid.pr0gramm.com
+# vid.pr0gramm.com Issue 194
 video-ad-stats.googlesyndication.com
 video.cooguo.com
 video.estream.nu
@@ -18478,7 +18474,7 @@ wvxnvnrsahfd.bid
 wvxywejnmpsh.bid
 ww.bitcoins.lc
 ww.multipool.com
-ww.pr0gramm.com
+# ww.pr0gramm.com Issue 194
 ww.suprnova.cc
 ww.xiaopiaoyou.com
 ww.xpool.ca
@@ -18571,7 +18567,7 @@ wwis-dubc1-vip60.adobe.com
 wwv.onetad.com
 www-01.nanopool.org
 www-origin.poolmining.org
-www-tb7c.pr0gramm.com
+# www-tb7c.pr0gramm.com Issue 194
 www-test.nicehash.com
 www.114so.cn
 www.115776615-884492032168661957.preview.editmysite.com
@@ -18882,7 +18878,7 @@ www.bellsyscdn.com
 www.berateveng.ru
 www.besocial.online
 www.best-p2pool.eu
-www.bestETNpool.com
+www.bestetnpool.com
 www.besti.ga
 www.bestmobiworld.com
 www.bestsecurepractice.com
@@ -20297,7 +20293,7 @@ www.kippbeak.cf
 www.kippo.eu
 www.kisshentai.net
 www.kiwi.pool.mn
-www.kiwifarms.net
+# www.kiwifarms.net Issue 250
 www.kiwiminers.com
 www.kkxmofkrykox.netcodepool.org
 www.kore.pool.mn
@@ -21113,7 +21109,7 @@ www.ppoi.org
 www.pps.btcguild.com
 www.ppxxmr.com
 www.pr.thecoin.pw
-www.pr0gramm.com
+# www.pr0gramm.com Issue 194
 www.prbitcoin.com
 www.premiumminer.com
 www.preorder.trezor.io
@@ -23814,3 +23810,19 @@ zzqnkezokbegc.bid
 zzvjaqnkq.bid
 zzwzjidz.bid
 zzy1.quyaoya.com
+www.bybit.com
+www.kraken.com
+www.kucoin.com
+www.etoro.com
+phemex.com
+www.tdameritrade.com
+www.forex.com
+crypto.com
+www.webull.com
+crypto.gobabytrade.com
+tradeogre.com
+www.coincorner.com
+primexbt.com
+trade.eightcap.com
+tradecryptocapital.org
+cbtoken.me

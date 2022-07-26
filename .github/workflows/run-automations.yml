@@ -1,0 +1,27 @@
+name: CI
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 15.x
+      - run: node scripts/create-everything-list.js
+      - run: node scripts/remove-duplicates.js
+      - run: node scripts/update-number-of-domains.js
+      - run: node scripts/generate-noip.js
+      - run: node scripts/generate-dnsmasq.js
+      - run: node scripts/generate-adguard.js
+      - name: Commit & Push
+        uses: actions-x/commit@v2
+        with:
+          email: noreply@blocklist.site
+          name: GitHub Actions
+          branch: master

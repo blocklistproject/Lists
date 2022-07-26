@@ -1,19 +1,18 @@
-#------------------------------------[UPDATE]--------------------------------------
-# Title: The Block List Project
-# Version:Fri, 12 Jun 2020 21:24:09 +0000
+# ------------------------------------[UPDATE]--------------------------------------
+# Title: The Block List Project - Crypto List
 # Expires: 1 day
 # Homepage: https://blocklist.site
 # Help: https://github.com/blocklistproject/lists/wiki/
 # License: https://unlicense.org
-# Total number of network filters: 22329
-#------------------------------------[SUPPORT]-------------------------------------
+# Total number of network filters: 23789
+# ------------------------------------[SUPPORT]-------------------------------------
 # You can support by:
 # - reporting false positives
 # - making a donation: https://paypal.me/blocklistproject
-#-------------------------------------[INFO]---------------------------------------
+# -------------------------------------[INFO]---------------------------------------
 #
 # Crypto List
-#------------------------------------[FILTERS]-------------------------------------
+# ------------------------------------[FILTERS]-------------------------------------
 0.0.0.0 0.r.msn.com
 0.0.0.0 000.0x1f4b0.com
 0.0.0.0 001.0x1f4b0.com
@@ -393,7 +392,7 @@
 0.0.0.0 adbtc.top
 0.0.0.0 adc.suprnova.cc
 0.0.0.0 adcast.deviantart.com
-0.0.0.0 adclick.g.doubleclick.net
+# 0.0.0.0 adclick.g.doubleclick.net Belongs in ad list
 0.0.0.0 adconity.com
 0.0.0.0 adcore.lenovomm.com
 0.0.0.0 add.pool.mn
@@ -780,7 +779,7 @@
 0.0.0.0 am9ozs.xyz
 0.0.0.0 ama.adwo.com
 0.0.0.0 amaqcgrrmedi.bid
-0.0.0.0 amazonaws.com
+# 0.0.0.0 amazonaws.com Issue 452
 0.0.0.0 amber.coin-miners.info
 0.0.0.0 amber.suprnova.cc
 0.0.0.0 amdc.m.taobao.com
@@ -814,7 +813,7 @@
 0.0.0.0 analytics.bl
 0.0.0.0 analytics.blue
 0.0.0.0 analytics.hz.netease.com
-0.0.0.0 analytics.kiwifarms.net
+# 0.0.0.0 analytics.kiwifarms.net Issue 250
 0.0.0.0 analytics.live.com
 0.0.0.0 analytics.msn.com
 0.0.0.0 analytics.query.yahoo.com
@@ -1173,7 +1172,7 @@
 0.0.0.0 app.coinsprofit.com
 0.0.0.0 app.houyi.baofeng.net
 0.0.0.0 app.multimining.org
-0.0.0.0 app.pr0gramm.com
+# 0.0.0.0 app.pr0gramm.com Issue 194
 0.0.0.0 app.slushpool.com
 0.0.0.0 app.supportxmr.com
 0.0.0.0 app.tanwan.com
@@ -1480,7 +1479,7 @@
 0.0.0.0 aux2.whalesburg.com
 0.0.0.0 av.hashhot.com
 0.0.0.0 av.pool.mn
-0.0.0.0 avatar.pr0gramm.com
+# 0.0.0.0 avatar.pr0gramm.com Issue 194
 0.0.0.0 avdfcctzwfdk.com
 0.0.0.0 avditmiohvtq.bid
 0.0.0.0 avefyjulko.bid
@@ -1768,7 +1767,7 @@
 0.0.0.0 best-game.xyz
 0.0.0.0 best-p2pool.eu
 0.0.0.0 bestcoinsignals.com
-0.0.0.0 bestETNpool.com
+0.0.0.0 bestetnpool.com
 0.0.0.0 besti.ga
 0.0.0.0 bestmobiworld.com
 0.0.0.0 bestsecurepractice.com
@@ -2357,6 +2356,7 @@
 0.0.0.0 btcg.miningspeed.com
 0.0.0.0 btcguild.com
 0.0.0.0 btchc.pool.mn
+0.0.0.0 btcminings.site
 0.0.0.0 btcnos.com
 0.0.0.0 btcp-api.suprnova.cc
 0.0.0.0 btcp-eu.coinblockers.com
@@ -3300,7 +3300,7 @@
 0.0.0.0 cookiemapping.wrating.com
 0.0.0.0 cookies.qp.si
 0.0.0.0 cookiescript.info
-0.0.0.0 cookiescript.infos
+# 0.0.0.0 cookiescript.infos Issue 352
 0.0.0.0 cookiescriptcdn.pro
 0.0.0.0 cool-pool.net
 0.0.0.0 coop.pop.baofeng.com
@@ -4603,7 +4603,6 @@
 0.0.0.0 e.breezily168.com
 0.0.0.0 e.clubske.com
 0.0.0.0 e.cn.miaozhen.com
-0.0.0.0 e.crashlytics.com
 0.0.0.0 e.domob.cn
 0.0.0.0 e.domob.com.cn
 0.0.0.0 e.emgwq.com
@@ -4978,7 +4977,7 @@
 0.0.0.0 esc.hashhot.com
 0.0.0.0 esc.pool.mn
 0.0.0.0 esc.thecoin.pw
-0.0.0.0 escobar.pr0gramm.com
+# 0.0.0.0 escobar.pr0gramm.com Issue 194
 0.0.0.0 esgwceckxumg.com
 0.0.0.0 eslgydoqbedo.com
 0.0.0.0 eslydbnukkme.com
@@ -6261,7 +6260,7 @@
 0.0.0.0 fud.suprnova.cc
 0.0.0.0 fuhgvhuukl.bid
 0.0.0.0 fujiseed.sighash.info
-0.0.0.0 full.pr0gramm.com
+# 0.0.0.0 full.pr0gramm.com Issue 194
 0.0.0.0 fund.pool.mn
 0.0.0.0 fund.suprnova.cc
 0.0.0.0 funk.majorminers.com
@@ -6875,7 +6874,7 @@
 0.0.0.0 halopool.maxhash.org
 0.0.0.0 ham.hashhot.com
 0.0.0.0 ham.thecoin.pw
-0.0.0.0 hans.pr0gramm.com
+# 0.0.0.0 hans.pr0gramm.com Issue 194
 0.0.0.0 hansa.suprnova.cc
 0.0.0.0 hanwlgpecblxf.bid
 0.0.0.0 hao.7654.com
@@ -7296,7 +7295,7 @@
 0.0.0.0 hund.suprnova.cc
 0.0.0.0 huodong.ios.shouji.360.cn
 0.0.0.0 huoying666.com
-0.0.0.0 hurensohn.pr0gramm.com
+# 0.0.0.0 hurensohn.pr0gramm.com Issue 194
 0.0.0.0 huriylhqkylbo.bid
 0.0.0.0 huscav.ethosdistro.com
 0.0.0.0 husetdmrejiyjy.bid
@@ -7612,7 +7611,7 @@
 0.0.0.0 img.jizzads.com
 0.0.0.0 img.jsecoin.com
 0.0.0.0 img.namunil.com
-0.0.0.0 img.pr0gramm.com
+# 0.0.0.0 img.pr0gramm.com Issue 194
 0.0.0.0 img.shouji.sogou.com
 0.0.0.0 img.taotaosou.cn
 0.0.0.0 img.toppr.com.cn
@@ -7793,7 +7792,6 @@
 0.0.0.0 ipdcgsdjkz.bid
 0.0.0.0 ipdlsrwctdjb.com
 0.0.0.0 ipfs-gateway.ipbc.io
-0.0.0.0 ipfs.io
 0.0.0.0 iphonelog.shouji.baofeng.com
 0.0.0.0 iphwttyqzuhucw.bid
 0.0.0.0 ipinyou.com
@@ -8450,7 +8448,7 @@
 0.0.0.0 kisvtclf.bid
 0.0.0.0 kitaji.ethosdistro.com
 0.0.0.0 kiwi.pool.mn
-0.0.0.0 kiwifarms.net
+# 0.0.0.0 kiwifarms.net Issue 250
 0.0.0.0 kiwiminers.com
 0.0.0.0 kizpkvkdfm.bid
 0.0.0.0 kjabglumgwbsvq.bid
@@ -9325,7 +9323,7 @@
 0.0.0.0 m.panda.voiceads.cn
 0.0.0.0 m.poloniex.com
 0.0.0.0 m.pool.mn
-0.0.0.0 m.pr0gramm.com
+# 0.0.0.0 m.pr0gramm.com Issue 194
 0.0.0.0 m.pubbirdf.com
 0.0.0.0 m.qpic.cn
 0.0.0.0 m.reachmax.cn
@@ -9873,7 +9871,7 @@
 0.0.0.0 miner.nimiq.com
 0.0.0.0 miner.oozing.co
 0.0.0.0 miner.ppxxmr.com
-0.0.0.0 miner.pr0gramm.com
+# 0.0.0.0 miner.pr0gramm.com Issue 194
 0.0.0.0 miner.rocks
 0.0.0.0 miner1.minergate.com
 0.0.0.0 miner2.sighash.info
@@ -12645,7 +12643,7 @@
 0.0.0.0 pr.thecoin.pw
 0.0.0.0 pr.ybp.yahoo.com
 0.0.0.0 pr0gram.org
-0.0.0.0 pr0gramm.com
+# 0.0.0.0 pr0gramm.com Issue 194
 0.0.0.0 practivate.adobe.com
 0.0.0.0 praeicwgzapf.com
 0.0.0.0 prbitcoin.com
@@ -14415,10 +14413,8 @@
 0.0.0.0 services.nanopool.org
 0.0.0.0 services.wes.df.telemetry.microsoft.com
 0.0.0.0 sestat.baidu.com
-0.0.0.0 setting.crashlytics.com
 0.0.0.0 setting.snswin.qq.com
 0.0.0.0 settings-sandbox.data.microsoft.com
-0.0.0.0 settings.crashlytics.com
 0.0.0.0 setup-game.xyz
 0.0.0.0 setup.nanopool.org
 0.0.0.0 sexcoin.miningpoolhub.com
@@ -14551,7 +14547,7 @@
 0.0.0.0 sia.nanopool.org
 0.0.0.0 sia.pool.mn
 0.0.0.0 sia.suprnova.cc
- 0.0.0.0 sia.tech Issue 128
+# 0.0.0.0 sia.tech Issue 128
 0.0.0.0 sia.usa.nicehash.com
 0.0.0.0 sia.waterhole.io
 0.0.0.0 siaalpha.nanopool.org
@@ -15367,7 +15363,7 @@
 0.0.0.0 stratum.mining-pool.io
 0.0.0.0 stratum.mining.eligius.st
 0.0.0.0 stratum.multipool.com
-0.0.0.0 stratum.myBTCcoin.com
+0.0.0.0 stratum.mybtccoin.com
 0.0.0.0 stratum.netcodepool.org
 0.0.0.0 stratum.new.hashhot.com
 0.0.0.0 stratum.nicehash.com
@@ -15961,7 +15957,7 @@
 0.0.0.0 thpsflsjw.com
 0.0.0.0 thread.multiminerapp.com
 0.0.0.0 three-jj.github.io
-0.0.0.0 thumb.pr0gramm.com
+# 0.0.0.0 thumb.pr0gramm.com Issue 194
 0.0.0.0 thvdzghlvfoh.com
 0.0.0.0 thvrvojkkjkkpe.bid
 0.0.0.0 thx113.ethosdistro.com
@@ -17186,7 +17182,7 @@
 0.0.0.0 vic.pool.sexy
 0.0.0.0 vicofhozbuaf.com
 0.0.0.0 vid.atdmt.com
-0.0.0.0 vid.pr0gramm.com
+# 0.0.0.0 vid.pr0gramm.com Issue 194
 0.0.0.0 video-ad-stats.googlesyndication.com
 0.0.0.0 video.cooguo.com
 0.0.0.0 video.estream.nu
@@ -18478,7 +18474,7 @@
 0.0.0.0 wvxywejnmpsh.bid
 0.0.0.0 ww.bitcoins.lc
 0.0.0.0 ww.multipool.com
-0.0.0.0 ww.pr0gramm.com
+# 0.0.0.0 ww.pr0gramm.com Issue 194
 0.0.0.0 ww.suprnova.cc
 0.0.0.0 ww.xiaopiaoyou.com
 0.0.0.0 ww.xpool.ca
@@ -18571,7 +18567,7 @@
 0.0.0.0 wwv.onetad.com
 0.0.0.0 www-01.nanopool.org
 0.0.0.0 www-origin.poolmining.org
-0.0.0.0 www-tb7c.pr0gramm.com
+# 0.0.0.0 www-tb7c.pr0gramm.com Issue 194
 0.0.0.0 www-test.nicehash.com
 0.0.0.0 www.114so.cn
 0.0.0.0 www.115776615-884492032168661957.preview.editmysite.com
@@ -18882,7 +18878,7 @@
 0.0.0.0 www.berateveng.ru
 0.0.0.0 www.besocial.online
 0.0.0.0 www.best-p2pool.eu
-0.0.0.0 www.bestETNpool.com
+0.0.0.0 www.bestetnpool.com
 0.0.0.0 www.besti.ga
 0.0.0.0 www.bestmobiworld.com
 0.0.0.0 www.bestsecurepractice.com
@@ -20297,7 +20293,7 @@
 0.0.0.0 www.kippo.eu
 0.0.0.0 www.kisshentai.net
 0.0.0.0 www.kiwi.pool.mn
-0.0.0.0 www.kiwifarms.net
+# 0.0.0.0 www.kiwifarms.net Issue 250
 0.0.0.0 www.kiwiminers.com
 0.0.0.0 www.kkxmofkrykox.netcodepool.org
 0.0.0.0 www.kore.pool.mn
@@ -21113,7 +21109,7 @@
 0.0.0.0 www.pps.btcguild.com
 0.0.0.0 www.ppxxmr.com
 0.0.0.0 www.pr.thecoin.pw
-0.0.0.0 www.pr0gramm.com
+# 0.0.0.0 www.pr0gramm.com Issue 194
 0.0.0.0 www.prbitcoin.com
 0.0.0.0 www.premiumminer.com
 0.0.0.0 www.preorder.trezor.io
@@ -23814,3 +23810,19 @@
 0.0.0.0 zzvjaqnkq.bid
 0.0.0.0 zzwzjidz.bid
 0.0.0.0 zzy1.quyaoya.com
+0.0.0.0 www.bybit.com
+0.0.0.0 www.kraken.com
+0.0.0.0 www.kucoin.com
+0.0.0.0 www.etoro.com
+0.0.0.0 phemex.com
+0.0.0.0 www.tdameritrade.com
+0.0.0.0 www.forex.com
+0.0.0.0 crypto.com
+0.0.0.0 www.webull.com
+0.0.0.0 crypto.gobabytrade.com
+0.0.0.0 tradeogre.com
+0.0.0.0 www.coincorner.com
+0.0.0.0 primexbt.com
+0.0.0.0 trade.eightcap.com
+0.0.0.0 tradecryptocapital.org
+0.0.0.0 cbtoken.me

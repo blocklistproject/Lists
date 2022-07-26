@@ -1,19 +1,18 @@
-
-#------------------------------------[UPDATE]--------------------------------------
-# Title: The Block List Project
+# ------------------------------------[UPDATE]--------------------------------------
+# Title: The Block List Project - Scam List
 # Expires: 1 day
 # Homepage: https://blocklist.site
 # Help: https://github.com/blocklistproject/lists/wiki/
 # License: https://unlicense.org
-# Total number of network filters:
-#------------------------------------[SUPPORT]-------------------------------------
+# Total number of network filters: 1265
+# ------------------------------------[SUPPORT]-------------------------------------
 # You can support by:
 # - reporting false positives
 # - making a donation: https://paypal.me/blocklistproject
-#-------------------------------------[INFO]---------------------------------------
+# -------------------------------------[INFO]---------------------------------------
 #
 # Scam list
-#------------------------------------[FILTERS]-------------------------------------
+# ------------------------------------[FILTERS]-------------------------------------
 0.0.0.0 10tradeoption.com
 0.0.0.0 123tradeoption.com
 0.0.0.0 1n.yarrid.com
@@ -89,6 +88,7 @@
 0.0.0.0 auxiliarymine.com
 0.0.0.0 auxiliaryoption.com
 0.0.0.0 azitecs.com
+0.0.0.0 bank.si
 0.0.0.0 baroconcept.com
 0.0.0.0 beaswan.com
 0.0.0.0 beesmeth.com
@@ -378,7 +378,7 @@
 0.0.0.0 loaloeloaeeo.com
 0.0.0.0 look-like-star.myshopify.com
 0.0.0.0 lookinmyheart.com
-0.0.0.0 lootcrate.com
+# 0.0.0.0 lootcrate.com 556
 0.0.0.0 loveinbox.co.uk
 0.0.0.0 loveinheart.co.uk
 0.0.0.0 loveinsoul.co.uk
@@ -414,7 +414,7 @@
 0.0.0.0 moteshoes.com
 0.0.0.0 mrarmstrongsclass.com
 0.0.0.0 mualuondi.com
-0.0.0.0 Multicoins.co
+0.0.0.0 multicoins.co
 0.0.0.0 museuw.com
 0.0.0.0 muthaafoundation.org
 0.0.0.0 mv.wiesengrund-sylt.com
@@ -949,7 +949,7 @@
 0.0.0.0 www.loaloeloaeeo.com
 0.0.0.0 www.look-like-star.myshopify.com
 0.0.0.0 www.lookinmyheart.com
-0.0.0.0 www.lootcrate.com
+# 0.0.0.0 www.lootcrate.com 556
 0.0.0.0 www.loveinbox.co.uk
 0.0.0.0 www.loveinheart.co.uk
 0.0.0.0 www.loveinsoul.co.uk
@@ -1189,3 +1189,95 @@
 0.0.0.0 zgalaxytee.com
 0.0.0.0 zukoptions.com
 0.0.0.0 slowdistanttube11.live
+0.0.0.0 rmail-payments.co.uk
+0.0.0.0 citasyencuentros.com
+0.0.0.0 ammjaflk.ru
+0.0.0.0 hovrecording.com
+# 0.0.0.0 whynotwin11.com Issue 375
+0.0.0.0 mycleanpc.com
+0.0.0.0 gghacks.com
+0.0.0.0 www.gghacks.com
+0.0.0.0 roblox.gghacks.com
+0.0.0.0 rewardsgiantusa.com
+0.0.0.0 www.rewardsgiantusa.com
+0.0.0.0 promotionsonlineusa.com
+0.0.0.0 www.promotionsonlineusa.com
+0.0.0.0 cdn.promotionsonlineusa.com
+0.0.0.0 p.promotionsonlineusa.com
+0.0.0.0 y.promotionsonlineusa.com
+0.0.0.0 t.promotionsonlineusa.com
+0.0.0.0 displayoptoffers.com
+0.0.0.0 www.displayoptoffers.com
+0.0.0.0 sweepstakesalerts.com
+0.0.0.0 api.sweepstakesalerts.com
+0.0.0.0 ypa2.sweepstakesalerts.com
+0.0.0.0 play.sweepstakesalerts.com
+0.0.0.0 funnel.sweepstakesalerts.com
+0.0.0.0 cdn.sweepstakesalerts.com
+0.0.0.0 img.sweepstakesalerts.com
+0.0.0.0 www.sweepstakesalerts.com
+0.0.0.0 cdn.play.sweepstakesalerts.com
+0.0.0.0 qualityhealth.com
+0.0.0.0 www.qualityhealth.com
+0.0.0.0 prdapp3-as2.qualityhealth.com
+0.0.0.0 support.qualityhealth.com
+0.0.0.0 api.qualityhealth.com
+0.0.0.0 cdn.qualityhealth.com
+0.0.0.0 mobile.qualityhealth.com
+0.0.0.0 prdapp1-as2.qualityhealth.com
+0.0.0.0 m.qualityhealth.com
+0.0.0.0 test.qualityhealth.com
+0.0.0.0 cdn2.qualityhealth.com
+0.0.0.0 direct.qualityhealth.com
+0.0.0.0 results.qualityhealth.com
+0.0.0.0 apps3.qualityhealth.com
+0.0.0.0 my.qualityhealth.com
+0.0.0.0 demo.qualityhealth.com
+0.0.0.0 consumerproductsusa.com
+0.0.0.0 www.consumerproductsusa.com
+0.0.0.0 get-cracked.com
+0.0.0.0 www.get-cracked.com
+0.0.0.0 validcardcodes.get-cracked.com
+0.0.0.0 roblox.get-cracked.com
+0.0.0.0 freegiftcodes.get-cracked.com
+0.0.0.0 blog.get-cracked.com
+0.0.0.0 gametrailers.get-cracked.com
+0.0.0.0 new.get-cracked.com
+0.0.0.0 microsoft.get-cracked.com
+0.0.0.0 generate.get-cracked.com
+0.0.0.0 ns1.get-cracked.com
+0.0.0.0 keygen.get-cracked.com
+0.0.0.0 getproductkeys.get-cracked.com
+0.0.0.0 downloading.get-cracked.com
+0.0.0.0 server.get-cracked.com
+0.0.0.0 wwwshopstasiacom.get-cracked.com
+0.0.0.0 download.get-cracked.com
+0.0.0.0 hack.get-cracked.com
+0.0.0.0 mediafiire.com
+0.0.0.0 www.mediafiire.com
+0.0.0.0 ftp.mediafiire.com
+0.0.0.0 xboxcode.mediafiire.com
+0.0.0.0 premium-file.mediafiire.com
+0.0.0.0 steamcode.mediafiire.com
+0.0.0.0 psncode.mediafiire.com
+0.0.0.0 download1270.mediafiire.com
+0.0.0.0 d1xkyo9j4r7vnn.cloudfront.net
+0.0.0.0 onlinepromotionsusa.com
+0.0.0.0 www.onlinepromotionsusa.com
+0.0.0.0 w.onlinepromotionsusa.com
+0.0.0.0 pcspeedup.en.softonic.com
+0.0.0.0 greenadblocker.com
+0.0.0.0 d2020yrahex7kc.cloudfront.net
+0.0.0.0 poweradblocker.com
+0.0.0.0 dbrolwbvzhjl6.cloudfront.net
+0.0.0.0 wholedailyfeed.com
+0.0.0.0 gooooooooogle.com
+0.0.0.0 polyhymnia-mar.com
+0.0.0.0 trktrk.club
+0.0.0.0 virpropcnow.xyz
+0.0.0.0 hdfcbk.io
+0.0.0.0 ubona.com
+0.0.0.0 hdfccard.ubona.com
+0.0.0.0 bcryp.net
+0.0.0.0 connectwalletnow.com
+0.0.0.0 cbtoken.me

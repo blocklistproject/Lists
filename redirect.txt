@@ -1,19 +1,18 @@
-
-#------------------------------------[UPDATE]--------------------------------------
-# Title: The Block List Project
+# ------------------------------------[UPDATE]--------------------------------------
+# Title: The Block List Project - Redirect List
 # Expires: 1 day
 # Homepage: https://blocklist.site
 # Help: https://github.com/blocklistproject/lists/wiki/
 # License: https://unlicense.org
-# Total number of network filters: 181664
-#------------------------------------[SUPPORT]-------------------------------------
+# Total number of network filters: 108675
+# ------------------------------------[SUPPORT]-------------------------------------
 # You can support by:
 # - reporting false positives
 # - making a donation: https://paypal.me/blocklistproject
-#-------------------------------------[INFO]---------------------------------------
+# -------------------------------------[INFO]---------------------------------------
 #
 # Redirect list
-#------------------------------------[FILTERS]-------------------------------------
+# ------------------------------------[FILTERS]-------------------------------------
 0.0.0.0 0------------0-------------0.0n-line.biz
 0.0.0.0 0------------0-------------0.0n-line.info
 0.0.0.0 0------------0-------------0.123erp.net
@@ -59480,7 +59479,7 @@
 0.0.0.0 noproxy.us
 0.0.0.0 noproxyads.com
 0.0.0.0 noraproxy.tk
-0.0.0.0 nordvpn.com
+# 0.0.0.0 nordvpn.com Issue 278
 0.0.0.0 noregulation.com
 0.0.0.0 norepick.info
 0.0.0.0 norepick.tk
@@ -77065,7 +77064,7 @@
 0.0.0.0 radiocarb.com
 0.0.0.0 radiofairy.com
 0.0.0.0 radiofarda.be
-0.0.0.0 radiofarda.com
+# 0.0.0.0 radiofarda.com Issue 290
 0.0.0.0 radiofeather.com
 0.0.0.0 radiosurf.tk
 0.0.0.0 radishproxy.xyz
@@ -94747,7 +94746,6 @@
 0.0.0.0 tornillo.info
 0.0.0.0 tornposter.com
 0.0.0.0 torpark.nfshost.com
-0.0.0.0 torproject.org
 0.0.0.0 torproxy.be
 0.0.0.0 torproxy.net
 0.0.0.0 torqueproxy.info
@@ -108660,3 +108658,35 @@
 0.0.0.0 usa.caralla-ver.com
 0.0.0.0 latest.newstenth.com
 0.0.0.0 solvessor-rouslogue.com
+0.0.0.0 ohkdsplu.com
+0.0.0.0 rebrand.ly
+0.0.0.0 www.linkonclick.com
+0.0.0.0 linkonclick.com
+0.0.0.0 fr.stop-bot.com
+0.0.0.0 usegetmarketings.com
+0.0.0.0 myactualblog.com
+0.0.0.0 ballost.org
+0.0.0.0 districtprovocativeforceful.com
+0.0.0.0 freememoryapp.site
+0.0.0.0 helooworld.us
+0.0.0.0 www.helooworld.us
+0.0.0.0 windscreenregimepros.com
+0.0.0.0 weaveradrenaline.com
+0.0.0.0 shiftintercoursebridge.com
+0.0.0.0 tivibyca.com
+0.0.0.0 go.c4ptainr0berts.xyz
+0.0.0.0 click.expmediadirect1.com
+0.0.0.0 007freepics.com
+0.0.0.0 online-dating-steps.com
+0.0.0.0 jystasaki.com
+0.0.0.0 click.junmediadirect.com
+0.0.0.0 fancy11.com
+0.0.0.0 www.cricplay.com
+0.0.0.0 1-xredbet87963.top
+0.0.0.0 extoso.com
+0.0.0.0 tjcttxdfelb.com
+0.0.0.0 cdexvangxfarwl.com
+0.0.0.0 aaotpokaquathii.com
+0.0.0.0 worldcoolfeed.com
+0.0.0.0 srghsmpyvvko.com
+0.0.0.0 hidelen.com
