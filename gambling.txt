@@ -166,6 +166,7 @@
 0.0.0.0 bet33.com
 0.0.0.0 www.bet33.com
 0.0.0.0 bet365.es
+0.0.0.0 www.bet365.es
 0.0.0.0 bet7days.com
 0.0.0.0 www.bet7days.com
 0.0.0.0 bet90.com
@@ -2358,6 +2359,7 @@
 0.0.0.0 purewin.com
 0.0.0.0 betterdicecasino.com
 0.0.0.0 bet365.com
+0.0.0.0 www.bet365.com
 0.0.0.0 cmkt.dafapromo.com
 0.0.0.0 gamdom.com
 0.0.0.0 www.kosmonautcasino.com
@@ -2493,3 +2495,12 @@
 0.0.0.0 www.vision11.in
 0.0.0.0 www.primecaptain.com
 0.0.0.0 india-wheel.pu020ev.com
+0.0.0.0 tulotero.es
+0.0.0.0 www.tulotero.es
+0.0.0.0 tulotero.mx
+0.0.0.0 www.tulotero.mx
+0.0.0.0 web.tulotero.es
+0.0.0.0 web.tulotero.mx
+0.0.0.0 tulotero.net
+0.0.0.0 app.tulotero.net
+0.0.0.0 mx.tulotero.net
