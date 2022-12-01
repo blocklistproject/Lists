@@ -23815,7 +23815,6 @@
 0.0.0.0 www.kucoin.com
 0.0.0.0 www.etoro.com
 0.0.0.0 phemex.com
-0.0.0.0 www.tdameritrade.com
 0.0.0.0 www.forex.com
 0.0.0.0 crypto.com
 0.0.0.0 www.webull.com
