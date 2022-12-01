@@ -21,7 +21,7 @@ jobs:
       - run: node scripts/generate-dnsmasq.js
       - run: node scripts/generate-adguard.js
       - name: Commit & Push
-        uses: actions-x/commit@v2
+        uses: actions-x/commit@v6
         with:
           email: noreply@blocklist.site
           name: GitHub Actions
