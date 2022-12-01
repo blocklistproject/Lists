@@ -4,7 +4,7 @@
 # Homepage: https://blocklist.site
 # Help: https://github.com/blocklistproject/lists/wiki/
 # License: https://unlicense.org
-# Total number of network filters: 190245
+# Total number of network filters: 190239
 # ------------------------------------[SUPPORT]-------------------------------------
 # You can support by:
 # - reporting false positives
@@ -4457,7 +4457,6 @@ afbs.000webhostapp.com
 afcdallas.com
 afconsultingagent.lk
 afcoshockdoctor.com.au
-afd.fr
 afdata.com
 afdcadasd.000webhostapp.com
 afecto.cl
@@ -21412,7 +21411,6 @@ cdn-dropbox-i2.com
 cdn-myappstoreservice.com
 cdn-outlook.email
 cdn.runescape.com.sd3.pw
-cdn2.hubspot.net
 cdntrungbo.edu.vn
 cdnusercontent.men
 cdodtnyty.odyuhua.maxgrowth.ru
@@ -42815,7 +42813,6 @@ gossuslugi.su
 gocusluga.ru
 xn--c1aapkosp.xn--p1ai
 xn--c1aapamrvaatca.xn--p1ai
-госуспуги.рф
 vgosuslugi.ru
 gosusslygi.ru
 gosuslugivrn.ru
@@ -80612,7 +80609,6 @@ pradeepmondal.com
 pradeepnairphotography.com
 pradeepsingh.in
 pradel-artistecontemporain.fr
-pradelletorri.it
 pradomotos.com.br
 praet.gq
 praf.ru
@@ -113366,7 +113362,6 @@ www.afaq.com.tr
 www.afatrading.co.ke
 www.afconsultingagent.lk
 www.afcoshockdoctor.com.au
-www.afd.fr
 www.afdata.com
 www.afdcadasd.000webhostapp.com
 www.afecto.cl
@@ -164666,7 +164661,6 @@ www.pradee.ga
 www.pradeepmondal.com
 www.pradeepnairphotography.com
 www.pradeepsingh.in
-www.pradelletorri.it
 www.praf.ru
 www.pragathipatham.org
 www.pragatiivfcentre.com
