@@ -13,6 +13,14 @@
 #
 # Gambling list
 # ------------------------------------[FILTERS]-------------------------------------
+0.0.0.0 promo.casinoroom.com
+0.0.0.0 kaszinoonline.net
+0.0.0.0 icecasino.com
+0.0.0.0 fezbet.com
+0.0.0.0 lottoland.eu
+0.0.0.0 wazamba.com
+0.0.0.0 grandcasino.hu
+0.0.0.0 vegas.hu
 0.0.0.0 crownbet.com.au
 0.0.0.0 crownbet.com
 0.0.0.0 williamhill.com.au
