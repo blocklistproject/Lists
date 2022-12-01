@@ -4,7 +4,7 @@
 # Homepage: https://blocklist.site
 # Help: https://github.com/blocklistproject/lists/wiki/
 # License: https://unlicense.org
-# Total number of network filters: 154563
+# Total number of network filters: 154569
 # ------------------------------------[SUPPORT]-------------------------------------
 # You can support by:
 # - reporting false positives
@@ -47809,7 +47809,6 @@ cablevision.112.2o7.net
 cablyshaw.com
 cabot.apxor.com
 cac-api.urbanairship.com
-cacerts.thawte.com
 cacfbf85ad2005e4c31.com
 cache-05.pushwoosh.com
 cache-06.pushwoosh.com
@@ -50670,7 +50669,7 @@ chatrouterv3.touchcommerce.com
 chatserver.comm100.cn
 chatsworth.d1.sc.omtrdc.net
 # chaturbate.com Not ads
-chatzoe.de 
+chatzoe.de
 chaucha.cl
 chauksoa.net
 chautcho.com
@@ -57274,7 +57273,6 @@ cuoieria.widget.criteo.com
 cuortwomnr.com
 cuoujvfi.angelcities.com
 cup2board.gold
-cupdates.trusteer.comdl2.pushbulletusercontent.comdyknreymc91ut.cloudfront.netgo.microsoft.comgoogleads.g.doubleclick.netin.getc
 cupidplc.go2cloud.org
 cupzwcxgx.com
 cur.lv
@@ -62601,7 +62599,6 @@ du4rq1xqh3i1k.cloudfront.net
 du73n1kdez35fylsip3fcn7u3jkkt1513559501.nuid.imrworldwide.com
 du8783wkf05yr.cloudfront.net
 dualmarket.info
-dualstack.cloudinary.com
 dualstack.f2.shared.us-eu.fastly.net
 dualvaccine.com
 duamgurza.com
@@ -92229,7 +92226,6 @@ metrica.yandex.ru
 metrica.yandex.ua
 metricfast.com
 metricology.com
-metricool.com
 metrics-api.dimensions.ai
 metrics-api.librato.com
 metrics-cbslocal-com.cdn.ampproject.org
@@ -117127,7 +117123,6 @@ shidvvvhi.com
 shiek1ph.com
 shiekh-shoes.ojrq.net
 shield.sitelock.com
-shifen.com
 shifoagn.uk
 shiftboard.actonsoftware.com
 shihoult.com
@@ -122765,7 +122760,6 @@ status.revcontent.com
 status.rubiconproject.com
 status.segment.com
 status.taplytics.com
-status.thawte.com
 status.treasuredata.com
 status.tubeadvertising.eu
 status.unbounce.com
@@ -149620,7 +149614,6 @@ www.tv4chan.com
 www.tvdttzemicrotome.review
 www.tvnews.or.kr
 www.tvpage.com
-www.tvpassport.com
 www.tvshowslist.com
 www.tvsquad.com
 www.twemyksybtripewomen.review
@@ -154706,7 +154699,6 @@ ga2.line.naver.jp
 ga2x.line.naver.jp
 gs2.line.naver.jp
 gs2x.line.naver.jp
-gw.line.naver.jp
 ns1.line.naver.jp
 ns2.line.naver.jp
 adns1.line.naver.com
@@ -154724,3 +154716,17 @@ ch-news.line-apps.com
 torimochi.line-apps.com
 aax-us.amazom-adsystem.com
 aax-us-pdx.amazom-adsystem.com
+cnzz.yifenghuyu.com
+wy6r8d.qejzyy.cn
+flro0c.tianhongbanjia.cn
+rq8otf.sinochemfuheng.cn
+q784l0.momentchina.cn
+itmo8x.zmdwx.com.cn
+p7vdqa.mayuetong.cn
+c.tkkdoc.com
+xxl.hushenqiquan.com
+lwrao.qycg.wang
+xuwqs.sxtc.wang
+tqqvm.haedo.biz
+cdnbaidu.cjfexmf.cn
+doc.hbears.com
