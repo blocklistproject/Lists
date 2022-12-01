@@ -253,7 +253,6 @@
 0.0.0.0 nipples.hopto.org
 0.0.0.0 niteshdw.com
 0.0.0.0 nolatapers.org
-0.0.0.0 npr.org
 0.0.0.0 nw0.info
 0.0.0.0 nzone.com
 0.0.0.0 oink.me.uk
