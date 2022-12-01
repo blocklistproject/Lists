@@ -459,7 +459,6 @@
 0.0.0.0 adzip.co
 0.0.0.0 aegdigitalgroup.com
 0.0.0.0 aerserv.com
-0.0.0.0 aetna.com
 0.0.0.0 aetterweb.info
 0.0.0.0 affec.tv
 0.0.0.0 affgold.com
@@ -13096,7 +13095,6 @@
 0.0.0.0 nexusapi.com
 0.0.0.0 nexusapp.com
 0.0.0.0 nexusapps.com
-0.0.0.0 nfltags.com
 0.0.0.0 nicecdn01.com
 0.0.0.0 nicecdn02.com
 0.0.0.0 nilsurvey.info
