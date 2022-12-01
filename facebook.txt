@@ -7892,7 +7892,6 @@
 0.0.0.0 graph.facebook.com
 0.0.0.0 graph.fb.me
 0.0.0.0 graph.fbpigeon.com
-0.0.0.0 graph.facebook.com
 0.0.0.0 graph.instagram.com
 0.0.0.0 graph.messenger.com
 0.0.0.0 graph.oculus.com
