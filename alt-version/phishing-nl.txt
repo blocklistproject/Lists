@@ -4,7 +4,7 @@
 # Homepage: https://blocklist.site
 # Help: https://github.com/blocklistproject/lists/wiki/
 # License: https://unlicense.org
-# Total number of network filters: 190239
+# Total number of network filters: 190232
 # ------------------------------------[SUPPORT]-------------------------------------
 # You can support by:
 # - reporting false positives
@@ -78098,7 +78098,6 @@ pennellstoe.gq
 pennshillsoap.com
 pennstatenotary.com
 pennsylvanian-drawe.000webhostapp.com
-pennymac.com
 pennyy.tk
 penopedia.com
 penproduction.ro
@@ -85403,7 +85402,6 @@ rhpamplonareformas.com
 rhriss.com.br
 rhrossi.com.br
 rhsdfgal99.usa.cc
-rhsgroup.ro
 rht-ezwp.karthost.xyz
 rhutucxuopmkjkg.nut.cc
 rhymeless-delight.000webhostapp.com
@@ -93343,7 +93341,6 @@ smarttorun.pl
 smarttraders.co.in
 smartube.vn
 smartunique.com
-smarturl.it
 smartwaysolutions.in
 smartwearsales.com
 smartweb.pt
@@ -138302,7 +138299,6 @@ www.fotostelvio.com
 www.fototheka.pl
 www.fotozas.ca
 www.foukart.com
-www.foundation-alliance.com
 www.foundationworldschool.com
 www.foundingpianos.com.au
 www.fountaincitywrecker.com
@@ -162991,7 +162987,6 @@ www.pennshillsoap.com
 www.pennstatenotary.com
 www.penny-davis.com
 www.pennyforthem.com.au
-www.pennymac.com
 www.pennyy.tk
 www.penopedia.com
 www.penrax.ml
@@ -167743,7 +167738,6 @@ www.rhondagerhard.com
 www.rhondanelson.com
 www.rhondayoungconsulting.com.au
 www.rhoster.com.br
-www.rhsgroup.ro
 www.rhymeless-delight.000webhostapp.com
 www.rhymercorp.com
 www.rhynooffroad.com.au
@@ -172871,7 +172865,6 @@ www.smarttofinishdev.com
 www.smarttorun.pl
 www.smarttrade-investment.net
 www.smarttraders.co.in
-www.smarturl.it
 www.smartwardapp.com
 www.smartwaysolutions.in
 www.smartwearsales.com
