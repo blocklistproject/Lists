@@ -13285,7 +13285,6 @@
 0.0.0.0 passionfruitads.com
 0.0.0.0 pawamedia.com
 0.0.0.0 pc20160301.com
-0.0.0.0 pcapredict.com
 0.0.0.0 pclick.yahoo.com
 0.0.0.0 pct-upd.info
 0.0.0.0 pctupd.info
@@ -14921,7 +14920,8 @@
 0.0.0.0 wikia-beacon.com
 0.0.0.0 win30000.com
 0.0.0.0 win30000.net
-0.0.0.0 wistia.com
+0.0.0.0 pipedream.wistia.com
+0.0.0.0 distillery.wistia.com
 0.0.0.0 wistia.net
 0.0.0.0 wobbegongmedia.net
 0.0.0.0 woopic.com
@@ -15073,3 +15073,7 @@
 0.0.0.0 rebrandlydomain.com
 0.0.0.0 metrics.icloud.com
 0.0.0.0 geo2.adobe.com
+0.0.0.0 api.crowdin.com
+0.0.0.0 crawler.algolia.com
+0.0.0.0 ts.market.mi-img.com
+0.0.0.0 smarturl.it
