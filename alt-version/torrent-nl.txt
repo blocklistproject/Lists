@@ -4,7 +4,7 @@
 # Homepage: https://blocklist.site
 # Help: https://github.com/blocklistproject/lists/wiki/
 # License: https://unlicense.org
-# Total number of network filters: 2623
+# Total number of network filters: 2622
 # ------------------------------------[SUPPORT]-------------------------------------
 # You can support by:
 # - reporting false positives
@@ -253,7 +253,6 @@ nineoneone.nl
 nipples.hopto.org
 niteshdw.com
 nolatapers.org
-npr.org
 nw0.info
 nzone.com
 oink.me.uk
