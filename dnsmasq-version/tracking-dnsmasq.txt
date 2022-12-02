@@ -4,7 +4,7 @@
 # Homepage: https://blocklist.site
 # Help: https://github.com/blocklistproject/lists/wiki/
 # License: https://unlicense.org
-# Total number of network filters: 15048
+# Total number of network filters: 15052
 # ------------------------------------[SUPPORT]-------------------------------------
 # You can support by:
 # - reporting false positives
@@ -13285,7 +13285,6 @@ server=/partnerfeed.itsfogo.com/
 server=/passionfruitads.com/
 server=/pawamedia.com/
 server=/pc20160301.com/
-server=/pcapredict.com/
 server=/pclick.yahoo.com/
 server=/pct-upd.info/
 server=/pctupd.info/
@@ -14921,7 +14920,8 @@ server=/wickhillnews.com/
 server=/wikia-beacon.com/
 server=/win30000.com/
 server=/win30000.net/
-server=/wistia.com/
+server=/pipedream.wistia.com/
+server=/distillery.wistia.com/
 server=/wistia.net/
 server=/wobbegongmedia.net/
 server=/woopic.com/
@@ -15073,3 +15073,7 @@ server=/notification.tubecup.net/
 server=/rebrandlydomain.com/
 server=/metrics.icloud.com/
 server=/geo2.adobe.com/
+server=/api.crowdin.com/
+server=/crawler.algolia.com/
+server=/ts.market.mi-img.com/
+server=/smarturl.it/

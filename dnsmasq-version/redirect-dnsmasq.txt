@@ -4,7 +4,7 @@
 # Homepage: https://blocklist.site
 # Help: https://github.com/blocklistproject/lists/wiki/
 # License: https://unlicense.org
-# Total number of network filters: 108674
+# Total number of network filters: 108675
 # ------------------------------------[SUPPORT]-------------------------------------
 # You can support by:
 # - reporting false positives
@@ -87872,7 +87872,6 @@ server=/supersurf.tk/
 server=/supersurf.xyz/
 server=/supersuss.info/
 server=/supertechproxy.tk/
-server=/supertokens.com/
 server=/supertopsite.info/
 server=/supertunnel.info/
 server=/supertunnela.tk/
@@ -108690,3 +108689,5 @@ server=/aaotpokaquathii.com/
 server=/worldcoolfeed.com/
 server=/srghsmpyvvko.com/
 server=/hidelen.com/
+server=/travelparked.com/
+server=/https-www.store/
