@@ -4,7 +4,7 @@
 # Homepage: https://blocklist.site
 # Help: https://github.com/blocklistproject/lists/wiki/
 # License: https://unlicense.org
-# Total number of network filters: 154569
+# Total number of network filters: 154559
 # ------------------------------------[SUPPORT]-------------------------------------
 # You can support by:
 # - reporting false positives
@@ -633,7 +633,6 @@ _thums.ero-advertising.com
 101-vix-260.mktoresp.com
 101-wmj-500.mktoresp.com
 101.6.87.194.dynamic.dol.ru
-101010.pl
 1010296.adoric-om.com
 10112.engine.mobileapptracking.com
 10130.engine.mobileapptracking.com
@@ -37038,7 +37037,6 @@ api.cossette.adgear.com
 api.cpu.baidu.com
 api.crispadvertising.com
 api.crittercism.com
-api.crowdin.com
 api.crowdtangle.com
 api.crowdtwist.com
 api.cupid.iqiyi.com
@@ -49282,7 +49280,6 @@ cdn.content.exoticads.com
 cdn.contentabc.com
 cdn.contentadserver.com
 cdn.contentspread.net
-cdn.cookielaw.org
 cdn.cpiera.com
 cdn.cpmstar.com
 cdn.cpnscdn.com
@@ -49602,7 +49599,6 @@ cdn.petametrics.com
 cdn.platform.openx.com
 cdn.pljs.ru
 cdn.plopx.com
-cdn.plyr.io
 # cdn.podigee.com Issue 174
 cdn.polmontventures.com
 cdn.popcash.net
@@ -56543,7 +56539,6 @@ crawfordcountybank.com.102.112.2o7.net
 crawlability.com
 crawlclocks.com
 crawler-dev.algolia.com
-crawler.algolia.com
 craydark.pw
 crazy4media.adk2.co
 crazy4media.adk2x.com
@@ -59856,7 +59851,6 @@ deliver.oztam.com.au
 delivere.com
 deliveredby.connectad.io
 deliveroo.7eer.net
-deliveroo.com.sg
 deliveroo.evyy.net
 delivery-asia-northeast-1.openx.net
 delivery-asia-northeast-1.servedbyopenx.com
@@ -83887,7 +83881,6 @@ js.rmbn.ru
 js.ru.redtram.com
 js.rutor.net.pl
 js.sddan.com
-js.sentry-cdn.com
 js.smartredirect.de
 js.smi2.ru
 js.softreklam.com
@@ -118469,7 +118462,6 @@ smartdirect.com
 smarterdownloads.net
 smarterhq.io
 smarterremarketer.net
-smartertravel.com
 smartest.click
 smarteucookiebanner.upsell-apps.com.herokudns.com
 smartfixer.software-phile.com
@@ -128859,7 +128851,6 @@ tracker.nitropay.com
 tracker.nmp1.com
 tracker.offermarket.net
 tracker.onapps.org
-tracker.opentrackr.org
 tracker.peerclick.io
 tracker.pinnaclesports.com
 tracker.plan2.net
@@ -130450,7 +130441,6 @@ ts.flurry.com
 ts.geo.p.xpanama.net
 ts.idavid.liveperson.net
 ts.istrack.com
-ts.market.mi-img.com
 ts.p.xpanama.net
 ts.richmedia.yahoo.com
 ts.rtl.de
