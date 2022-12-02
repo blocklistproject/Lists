@@ -478,7 +478,6 @@
 0.0.0.0 ads.flurry.com
 0.0.0.0 ads.gionee.com
 0.0.0.0 ads.gmodules.com
-0.0.0.0 ads.google.com
 0.0.0.0 ads.locationforexpert.com
 0.0.0.0 ads.msn.com
 0.0.0.0 ads.ninemsn.com.au
@@ -10123,7 +10122,6 @@
 0.0.0.0 mobile.thecoin.pw
 0.0.0.0 mobile2.da.mgtv.com
 0.0.0.0 mobileaccess.clona.ru
-0.0.0.0 mobileads.google.com
 0.0.0.0 mobileads.msn.com
 0.0.0.0 mobilelog.kugou.com
 0.0.0.0 mobilemsg.youku.com

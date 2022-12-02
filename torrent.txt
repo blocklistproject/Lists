@@ -1008,7 +1008,6 @@
 0.0.0.0 forum.punktorrents.com
 0.0.0.0 forums.darkside-raws.net
 0.0.0.0 forums.mvgroup.org
-0.0.0.0 fossbytes.com
 0.0.0.0 fourfriends.biz
 0.0.0.0 fox-kids.info
 0.0.0.0 freebookspot.unblocked.llc
@@ -2040,7 +2039,6 @@
 0.0.0.0 tracker.nyap2p.com
 0.0.0.0 tracker.open-internet.nl
 0.0.0.0 tracker.openbittorrent.com
-0.0.0.0 tracker.opentrackr.org
 0.0.0.0 tracker.openwebtorrent.com
 0.0.0.0 tracker.optus.nu
 0.0.0.0 tracker.paradise-tracker.com
