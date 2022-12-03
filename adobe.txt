@@ -60,7 +60,6 @@
 0.0.0.0 services.adobe.com 
 0.0.0.0 store.adobe.com 
 0.0.0.0 store2.adobe.com 
-0.0.0.0 store3.adobe.com
 0.0.0.0 uds.licenses.adobe.com
 0.0.0.0 k.sni.global.fastly.net
 0.0.0.0 workflow-ui-prod.licensingstack.com
@@ -162,7 +161,6 @@
 0.0.0.0 ids-proxy.account.adobe.com
 0.0.0.0 lcs-cops.adobe.io
 0.0.0.0 lcs-robs.adobe.io
-0.0.0.0 lcs-entitlement.adobe.io
 0.0.0.0 lcs-ulecs.adobe.io
 0.0.0.0 ams.adobe.com
 0.0.0.0 adobelogin.prod.ims.adobejanus.com
