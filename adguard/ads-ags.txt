@@ -115183,6 +115183,7 @@
 ||sdc.radio-canada.ca^
 ||sdc.rbistats.com^
 ||sdc.roadandtrack.com^
+||metrics.roadandtrack.com^
 ||sdc.sanofi-aventis.us^
 ||sdc.shawinc.com^
 ||sdc.tele.net^
@@ -148525,7 +148526,6 @@
 ||www.rm.inmobi.com^
 ||www.rmbn.ru^
 ||www.rmv.so^
-||www.roadandtrack.com^
 ||www.roadmap.unbounce.com^
 ||www.roadtrip.unbounce.com^
 ||www.roars.com^
