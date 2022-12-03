@@ -159,6 +159,14 @@ It was requested to add support for AdGuard. We are currently testing our lists.
 
 &nbsp;
 
+## Alpha Lists
+
+| List  | Original                                                   | No IP                                                                     | dnsmasq                                                                            | Description     |
+| ----- | ---------------------------------------------------------- | ------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | --------------- |
+| Abode | [Link](https://blocklistproject.github.io/Lists/adobe.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/adobe-nl.txt) | [Link](https://blocklistproject.github.io/Lists/dnsmasq-version/adobe-dnsmasq.txt) | Adobe Telemitry |
+
+&nbsp;
+
 ## Deprecated Lists
 
 | List    | Description                                                  | Deletion date (dd.mm.yyyy) |
