@@ -25,7 +25,7 @@ inside `everything.txt`. Automatic scripts will update those files for you.
 
 3. Issue that pull request!
 
-Any contributions you make will be under the Unlincense License
+Any contributions you make will be under the Unlicense License
 
 Report bugs using Github's issues
 
