@@ -4,7 +4,7 @@
 # Homepage: https://blocklist.site
 # Help: https://github.com/blocklistproject/lists/wiki/
 # License: https://unlicense.org
-# Total number of network filters: 190232
+# Total number of network filters: 190231
 # ------------------------------------[SUPPORT]-------------------------------------
 # You can support by:
 # - reporting false positives
@@ -48984,7 +48984,6 @@ ibusttcs.com
 ibuyappleiphones.com
 ibuybroward.com
 ibuywilson.com
-ibx.key.com
 iby.iwob.maxgrowth.ru
 ibz.vhvpybze.in
 ic.meegmfio.in

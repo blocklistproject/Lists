@@ -4,7 +4,7 @@
 ! Homepage: https://blocklist.site
 ! Help: https://github.com/blocklistproject/lists/wiki/
 ! License: https://unlicense.org
-! Total number of network filters: 154559
+! Total number of network filters: 154562
 ! ------------------------------------[SUPPORT]-------------------------------------
 ! You can support by:
 ! - reporting false positives
@@ -154720,3 +154720,6 @@
 ||tqqvm.haedo.biz^
 ||cdnbaidu.cjfexmf.cn^
 ||doc.hbears.com^
+||log-api.pangolin-sdk-toutiao-b.com^
+||p6-be-pack-sign.pglstatp-toutiao.com^
+||p3-be-pack-sign.pglstatp-toutiao.com^

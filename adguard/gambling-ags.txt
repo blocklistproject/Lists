@@ -4,7 +4,7 @@
 ! Homepage: https://blocklist.site
 ! Help: https://github.com/blocklistproject/lists/wiki/
 ! License: https://unlicense.org
-! Total number of network filters: 2496
+! Total number of network filters: 2497
 ! ------------------------------------[SUPPORT]-------------------------------------
 ! You can support by:
 ! - reporting false positives
@@ -20,7 +20,7 @@
 ||fanduel.com^
 ||sportsbook.caesars.com^
 ||playsugarhouse.com^
-||draftings.com^
+||draftkings.com^
 ||promo.casinoroom.com^
 ||kaszinoonline.net^
 ||icecasino.com^
@@ -2509,3 +2509,4 @@
 ||www.vision11.in^
 ||www.primecaptain.com^
 ||india-wheel.pu020ev.com^
+||loro.ch^
