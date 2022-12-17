@@ -2509,3 +2509,4 @@
 0.0.0.0 www.vision11.in
 0.0.0.0 www.primecaptain.com
 0.0.0.0 india-wheel.pu020ev.com
+0.0.0.0 loro.ch
