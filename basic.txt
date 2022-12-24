@@ -41644,7 +41644,6 @@
 0.0.0.0 piwik.datawrapper.de  #[Piwik.Analytics]
 0.0.0.0 piwik.dsp.vn
 0.0.0.0 piwik.ero-advertising.com
-0.0.0.0 piwik.fsf.org
 0.0.0.0 piwik.ientry.com
 0.0.0.0 piwik.medienhaus.com
 0.0.0.0 piwik.mortgageloan.com  #[Piwik.Analytics]
