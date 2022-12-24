@@ -139,7 +139,6 @@
 0.0.0.0 deph.edwardk.info
 0.0.0.0 digitalboots.net
 0.0.0.0 digitalpanic.org
-0.0.0.0 directory.fsf.org
 0.0.0.0 downloadanime.org
 0.0.0.0 dreamorabt.com
 0.0.0.0 eddie4.nl
