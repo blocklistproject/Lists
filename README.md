@@ -15,7 +15,7 @@
 
 &nbsp;
 
-## Make sure to join our discord!
+## Make sure to join our discord! This project does take a fair amount of time to maintain. Please consider joining our patreon and help support our efforts, thank you!
 
 &nbsp;
 
