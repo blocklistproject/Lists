@@ -15,7 +15,7 @@
 
 &nbsp;
 
-## We have launched our Discord to better help the community stay up to date with the changes we make to this lists and get a better idea of how we can best streamline the process. Please click the link below to join!
+## Make sure to join our discord!
 
 &nbsp;
 
@@ -40,7 +40,7 @@
 
 # Details:
 
-These lists were created because the founder of the project wanted something with a little more control over what is being blocked. Many lists are all or nothing. We set out to create lists with more control over what is being blocked.
+These lists were created because the founder of the project wanted something with a little more control over what is being blocked. Many lists out there are all or nothing. We set out to create lists with more control over what is being blocked and believe that we have accomplished that. 
 
 &nbsp;
 
