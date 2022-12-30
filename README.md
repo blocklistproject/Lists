@@ -163,7 +163,7 @@ It was requested to add support for AdGuard. We are currently testing our lists.
 
 | List  | Original                                                   | No IP                                                                     | dnsmasq                                                                            | Description     |
 | ----- | ---------------------------------------------------------- | ------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | --------------- |
-| Abode | [Link](https://blocklistproject.github.io/Lists/adobe.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/adobe-nl.txt) | [Link](https://blocklistproject.github.io/Lists/dnsmasq-version/adobe-dnsmasq.txt) | Adobe Telemitry |
+| Adobe | [Link](https://blocklistproject.github.io/Lists/adobe.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/adobe-nl.txt) | [Link](https://blocklistproject.github.io/Lists/dnsmasq-version/adobe-dnsmasq.txt) | Adobe Telemetry |
 
 &nbsp;
 
