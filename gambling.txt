@@ -2510,3 +2510,5 @@
 0.0.0.0 www.primecaptain.com
 0.0.0.0 india-wheel.pu020ev.com
 0.0.0.0 loro.ch
+0.0.0.0 in.1x001.com
+0.0.0.0 rajbet.com
