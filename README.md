@@ -1,3 +1,4 @@
+<img src="https://raw.githubusercontent.com/blocklistproject/Lists/master/img/logo.webp" height="150px"/>  
 # The Block List Project
 
 [![GitHub issues](https://img.shields.io/github/issues/blocklistproject/lists)](https://github.com/blocklistproject/Lists/issues)
