@@ -1863,7 +1863,7 @@
 0.0.0.0 torrentfinder.ru
 0.0.0.0 torrentfr.org
 0.0.0.0 torrentfrancais.com
-0.0.0.0 torrentfreak.com
+# 0.0.0.0 torrentfreak.com Issue 886
 0.0.0.0 torrentfreakz.org
 0.0.0.0 torrentfriend.net
 0.0.0.0 torrentfunk.unblocked.llc
