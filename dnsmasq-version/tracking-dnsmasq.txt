@@ -4,7 +4,7 @@
 # Homepage: https://blocklist.site
 # Help: https://github.com/blocklistproject/lists/wiki/
 # License: https://unlicense.org
-# Total number of network filters: 15053
+# Total number of network filters: 15071
 # ------------------------------------[SUPPORT]-------------------------------------
 # You can support by:
 # - reporting false positives
@@ -15078,3 +15078,21 @@ server=/crawler.algolia.com/
 server=/ts.market.mi-img.com/
 server=/smarturl.it/
 server=/asus.router.com/
+server=/tr-vcode-od.vivoglobal.com/
+server=/tr-vcode-api.vivoglobal.com/
+server=/tr-st-sl.vivoglobal.com/
+server=/tr-domaincfg.vivoglobal.com/
+server=/tr-timesync.vivoglobal.com/
+server=/tr-romsp-unifyconfig.vivoglobal.com/
+server=/asia-ex-adlog.vivoglobal.com/
+server=/asia-analyzer-appstore.vivoglobal.com/
+server=/asia-exstsdk.vivoglobal.com/
+server=/asia-comort-stsdk.vivoglobal.com/
+server=/asia-comonrt-stsdk.vivoglobal.com/
+server=/netperform-is.vodafone.com.tr/
+server=/vodafonetr.sc.omtrdc.net/
+server=/mplusps.ims.vodafone.com/
+server=/mpluswf.ims.vodafone.com/
+server=/analytics.meaww.com/
+server=/mousegesturesapi.com/
+server=/songlytics.net/
