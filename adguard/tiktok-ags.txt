@@ -4,7 +4,7 @@
 ! Homepage: https://blocklist.site
 ! Help: https://github.com/blocklistproject/lists/wiki/
 ! License: https://unlicense.org
-! Total number of network filters: 3698
+! Total number of network filters: 3699
 ! ------------------------------------[SUPPORT]-------------------------------------
 ! You can support by:
 ! - reporting false positives
@@ -3711,3 +3711,4 @@
 ||video-useast5.tiktokv.com^
 ||webcast16-normal-useast5.us.tiktokv.com^
 ||webcast19-normal-useast5.us.tiktokv.com^
+||mcs-va.tiktok.com.edgekey.net^
