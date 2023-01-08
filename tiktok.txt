@@ -3711,3 +3711,4 @@
 0.0.0.0 video-useast5.tiktokv.com
 0.0.0.0 webcast16-normal-useast5.us.tiktokv.com
 0.0.0.0 webcast19-normal-useast5.us.tiktokv.com
+0.0.0.0 mcs-va.tiktok.com.edgekey.net
