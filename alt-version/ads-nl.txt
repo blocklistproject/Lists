@@ -4,7 +4,7 @@
 # Homepage: https://blocklist.site
 # Help: https://github.com/blocklistproject/lists/wiki/
 # License: https://unlicense.org
-# Total number of network filters: 154575
+# Total number of network filters: 154574
 # ------------------------------------[SUPPORT]-------------------------------------
 # You can support by:
 # - reporting false positives
@@ -63264,7 +63264,7 @@ e7gzz.ouasflpydty21tf.bapb.gdn
 e7is2u38.top
 e7mobilede.widget.criteo.com
 e8.video-ak.cdn.spotify.com
-e8218.dscb1.akamaiedge.net
+# e8218.dscb1.akamaiedge.net Issue 904
 e836-10f2-4339-407b.reporo.net
 e85440ec98f04725.com
 e89.friendfinder.com
