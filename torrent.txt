@@ -2634,3 +2634,4 @@
 0.0.0.0 zooqle.unblocked.llc
 0.0.0.0 zoozle.org
 0.0.0.0 ztracker.hu
+0.0.0.0 getdstudio.cc
