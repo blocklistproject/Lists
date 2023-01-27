@@ -4,7 +4,7 @@
 ! Homepage: https://blocklist.site
 ! Help: https://github.com/blocklistproject/lists/wiki/
 ! License: https://unlicense.org
-! Total number of network filters: 154574
+! Total number of network filters: 154571
 ! ------------------------------------[SUPPORT]-------------------------------------
 ! You can support by:
 ! - reporting false positives
@@ -37344,7 +37344,7 @@
 ||api.pushwoosh.com^
 ||api.pxlad.io^
 ||api.qgraph.io^
-||api.qrserver.com^
+@@||api.qrserver.com^! Issue 924
 ||api.qualaroo.com^
 ||api.qualtrics.com^
 ||api.quantumgraph.com^
@@ -60986,7 +60986,7 @@
 ||discountclick.com^
 ||discountfilterstore.btttag.com^
 ||discounttire.evyy.net^
-||discourse.algolia.com^
+@@||discourse.algolia.com^! issue 913
 ||discourse.amplitude.com^
 ||discourse.hotjar.com^
 ||discover-path.com^
@@ -132669,7 +132669,7 @@
 ||update.ib.adnxs.com^
 ||update.indexww.com^
 ||update.kingoapp.com^
-||update.miui.com^
+@@||update.miui.com^! issue 921
 ||update.moatads.com^
 ||update.mopub.com^
 ||update.openx.com^
