@@ -2141,3 +2141,9 @@
 0.0.0.0 zonawarez.net
 0.0.0.0 zoomtorrents.com
 0.0.0.0 zoozle.org
+0.0.0.0 free4pc.org
+0.0.0.0 piratepc.me
+0.0.0.0 crackedversion.com
+0.0.0.0 greencracks.com
+0.0.0.0 cracksoftwareguru.com
+0.0.0.0 abbaspc.net
