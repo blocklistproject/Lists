@@ -4,7 +4,7 @@
 # Homepage: https://blocklist.site
 # Help: https://github.com/blocklistproject/lists/wiki/
 # License: https://unlicense.org
-# Total number of network filters: 108683
+# Total number of network filters: 108685
 # ------------------------------------[SUPPORT]-------------------------------------
 # You can support by:
 # - reporting false positives
@@ -108699,3 +108699,5 @@ k8i.cc
 dkb-de.online
 sparkassse.safecheck22.com.de
 insta24h.com
+pro.de
+www.pro.de
