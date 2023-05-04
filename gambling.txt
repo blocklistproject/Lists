@@ -13,6 +13,24 @@
 #
 # Gambling list
 # ------------------------------------[FILTERS]-------------------------------------
+0.0.0.0 optibet.lv
+0.0.0.0 laimz.lv
+0.0.0.0 lvbet.lv
+0.0.0.0 williamhill.lv
+0.0.0.0 kazinolatvia.lv
+0.0.0.0 latvijaskazino.lv
+0.0.0.0 feniksscasino.lv
+0.0.0.0 casino777.lv
+0.0.0.0 zeltakazino.com
+0.0.0.0 casinolv.net
+0.0.0.0 betsafe.lv
+0.0.0.0 olybet.lv
+0.0.0.0 lvbet.lv
+0.0.0.0 kazinoonline.com
+0.0.0.0 pafbet.lv
+0.0.0.0 kazinolatvia.lv
+0.0.0.0 latvijaskazino.com
+0.0.0.0 casinolv.net
 0.0.0.0 borgataonline.com
 0.0.0.0 betrivers.com
 0.0.0.0 sisportsbook.com
