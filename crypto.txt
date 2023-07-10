@@ -397,7 +397,6 @@
 0.0.0.0 adcore.lenovomm.com
 0.0.0.0 add.pool.mn
 0.0.0.0 addata.ku6.com
-0.0.0.0 ade.googlesyndication.com
 0.0.0.0 adeventtracker.spotify.com
 0.0.0.0 adfarm.mediaplex.com
 0.0.0.0 adfill.adview.cn
@@ -509,7 +508,6 @@
 0.0.0.0 adserver.adtechus.com
 0.0.0.0 adserver.xpanama.net
 0.0.0.0 adserver.yahoo.com
-0.0.0.0 adservice.google.com
 0.0.0.0 adsfile.qq.com
 0.0.0.0 adsfs.oppomobile.com
 0.0.0.0 adsgroup.qq.com
@@ -628,7 +626,6 @@
 0.0.0.0 aeyjbtwdf.bid
 0.0.0.0 afbfoxmwzlqa.com
 0.0.0.0 afd.baidu.com
-0.0.0.0 afd.l.google.com
 0.0.0.0 afdjljiyagf.ru
 0.0.0.0 afdyfxfrwbfy.com
 0.0.0.0 afedispdljgb.com
@@ -644,7 +641,6 @@
 0.0.0.0 afpmm.alicdn.com
 0.0.0.0 afpssp.alimama.com
 0.0.0.0 afptrack.alimama.com
-0.0.0.0 afs.googlesyndication.com
 0.0.0.0 afyqzjxzuupmz.bid
 0.0.0.0 ag.nukefans.net
 0.0.0.0 agegefpkbll.bid
@@ -1572,7 +1568,6 @@
 0.0.0.0 backup.sumo.semipool.com
 0.0.0.0 bacm.ro
 0.0.0.0 bad.suprnova.cc
-0.0.0.0 badad.googleplex.com
 0.0.0.0 badger.suprnova.cc
 0.0.0.0 badgmvhtvryg.bid
 0.0.0.0 bagoojzsqygg.com
@@ -6628,15 +6623,6 @@
 0.0.0.0 good.pool.mn
 0.0.0.0 goodkino.biz
 0.0.0.0 goodolddownloads.com
-0.0.0.0 google.gus.host
-0.0.0.0 googleads.g.doubleclick.net
-0.0.0.0 googleadservices.com
-0.0.0.0 googleadsserving.cn
-0.0.0.0 googleanalytcs.com
-0.0.0.0 googlecommerce.com
-0.0.0.0 googlesyndication.com
-0.0.0.0 googletagmanager.com
-0.0.0.0 googletagservices.com
 0.0.0.0 goowurzdotcom.bid
 0.0.0.0 gopamdzgpdrwe.bid
 0.0.0.0 goredirect.party
@@ -11824,10 +11810,6 @@
 0.0.0.0 pacrim.eclipsemc.com
 0.0.0.0 padsdel2.cdnads.com
 0.0.0.0 pafovocg.bid
-0.0.0.0 pagead-tpc.l.google.com
-0.0.0.0 pagead.google.com
-0.0.0.0 pagead.l.google.com
-0.0.0.0 pagead2.googlesyndication.com
 0.0.0.0 pagead46.l.doubleclick.net
 0.0.0.0 pagechoice.net
 0.0.0.0 pages.803mine.com
@@ -11878,8 +11860,6 @@
 0.0.0.0 parking.zunmi.cn
 0.0.0.0 parser.houyi.baofeng.net
 0.0.0.0 parthk.co.uk
-0.0.0.0 partner.googleadservices.com
-0.0.0.0 partnerad.l.google.com
 0.0.0.0 partnerads.ysm.yahoo.com
 0.0.0.0 party-nngvitbizn.now.sh
 0.0.0.0 party-vqgdyvoycc.now.sh
@@ -15153,7 +15133,6 @@
 0.0.0.0 static.flv.uuzuonline.com
 0.0.0.0 static.freebitco.in
 0.0.0.0 static.getmonero.org
-0.0.0.0 static.googleadsserving.cn
 0.0.0.0 static.hitbtc.com
 0.0.0.0 static.hk.rs
 0.0.0.0 static.houyi.baofeng.net
@@ -16116,7 +16095,6 @@
 0.0.0.0 toyhxqjgqcjo.com
 0.0.0.0 tp.nanopool.org
 0.0.0.0 tp1.suprnova.cc
-0.0.0.0 tpc.googlesyndication.com
 0.0.0.0 tpdowdhhn.com
 0.0.0.0 tperkulpflry.bid
 0.0.0.0 tpesjhkf.bid
@@ -17181,7 +17159,6 @@
 0.0.0.0 vicofhozbuaf.com
 0.0.0.0 vid.atdmt.com
 # 0.0.0.0 vid.pr0gramm.com Issue 194
-0.0.0.0 video-ad-stats.googlesyndication.com
 0.0.0.0 video.cooguo.com
 0.0.0.0 video.estream.nu
 0.0.0.0 video.nanopool.org
@@ -19981,8 +19958,6 @@
 0.0.0.0 www.godd.pool.mn
 0.0.0.0 www.goldennoncepool.com
 0.0.0.0 www.good.pool.mn
-0.0.0.0 www.google-analytics.com
-0.0.0.0 www.googletagmanager.com
 0.0.0.0 www.gowk.me
 0.0.0.0 www.goxmrminer.com
 0.0.0.0 www.gpu.pool.mn
