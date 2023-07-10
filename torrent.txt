@@ -1826,7 +1826,6 @@
 0.0.0.0 torrent.lt
 0.0.0.0 torrent.mp3quran.net
 0.0.0.0 torrent.net13.ro
-0.0.0.0 torrent.nwps.w
 0.0.0.0 torrent.nwps.ws
 0.0.0.0 torrent.pimpyourmobile.info
 0.0.0.0 torrent.resonatingmedia.com
