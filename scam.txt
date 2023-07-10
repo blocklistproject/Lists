@@ -422,6 +422,7 @@
 0.0.0.0 mycraftypad.com
 0.0.0.0 mystitich4u.com
 0.0.0.0 mytenmerch.com
+0.0.0.0 mywinterhome.com
 0.0.0.0 namemory.co.uk
 0.0.0.0 nanistores.com
 0.0.0.0 nasajones.com
@@ -524,6 +525,7 @@
 0.0.0.0 rebeccatees.com
 0.0.0.0 redbnoptions.com
 0.0.0.0 rediffbase.com
+0.0.0.0 refinely.com
 0.0.0.0 reviewshirts.com
 0.0.0.0 rickamortyshop.com
 0.0.0.0 ringtoperfection.com
@@ -1239,6 +1241,7 @@
 0.0.0.0 www.get-cracked.com
 0.0.0.0 validcardcodes.get-cracked.com
 0.0.0.0 roblox.get-cracked.com
+0.0.0.0 franchisingcity.com
 0.0.0.0 freegiftcodes.get-cracked.com
 0.0.0.0 blog.get-cracked.com
 0.0.0.0 gametrailers.get-cracked.com
@@ -1250,6 +1253,7 @@
 0.0.0.0 getproductkeys.get-cracked.com
 0.0.0.0 downloading.get-cracked.com
 0.0.0.0 server.get-cracked.com
+0.0.0.0 setandforget.net
 0.0.0.0 wwwshopstasiacom.get-cracked.com
 0.0.0.0 download.get-cracked.com
 0.0.0.0 hack.get-cracked.com
@@ -1285,3 +1289,4 @@
 0.0.0.0 kyrycp.online.dream.website
 0.0.0.0 discorcl-nltro.xyz
 0.0.0.0 indianpost.top
+0.0.0.0 soocooponline.net
