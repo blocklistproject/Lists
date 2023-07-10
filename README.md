@@ -97,7 +97,7 @@ It was requested to add support for AdGuard. We are currently testing our lists.
 
 ## Pi-Hole instructions:
 
-1. Copy the link to the Pi-hole format for the desired list (from the appropriate table below).
+1. Copy the link to the Pi-hole format ('Original') for the desired list (from the appropriate table below).
 2. Add the URL to your Pi-hole's block lists (**Login** > **Group Management** > **Adlists** > **Paste list URL in "Address" field, add comment** > **Click "Add"**)
 3. Update Gravity (**Tools** > **Update Gravity** > **Click "Update"** )
 
