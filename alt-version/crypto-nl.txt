@@ -4,7 +4,7 @@
 # Homepage: https://blocklist.site
 # Help: https://github.com/blocklistproject/lists/wiki/
 # License: https://unlicense.org
-# Total number of network filters: 23786
+# Total number of network filters: 23761
 # ------------------------------------[SUPPORT]-------------------------------------
 # You can support by:
 # - reporting false positives
@@ -397,7 +397,6 @@ adconity.com
 adcore.lenovomm.com
 add.pool.mn
 addata.ku6.com
-ade.googlesyndication.com
 adeventtracker.spotify.com
 adfarm.mediaplex.com
 adfill.adview.cn
@@ -509,7 +508,6 @@ adserver.adtech.de
 adserver.adtechus.com
 adserver.xpanama.net
 adserver.yahoo.com
-adservice.google.com
 adsfile.qq.com
 adsfs.oppomobile.com
 adsgroup.qq.com
@@ -628,7 +626,6 @@ aexception.bugly.qq.com
 aeyjbtwdf.bid
 afbfoxmwzlqa.com
 afd.baidu.com
-afd.l.google.com
 afdjljiyagf.ru
 afdyfxfrwbfy.com
 afedispdljgb.com
@@ -644,7 +641,6 @@ afpisdddjik.bid
 afpmm.alicdn.com
 afpssp.alimama.com
 afptrack.alimama.com
-afs.googlesyndication.com
 afyqzjxzuupmz.bid
 ag.nukefans.net
 agegefpkbll.bid
@@ -1572,7 +1568,6 @@ backup.speedup-faucet.com
 backup.sumo.semipool.com
 bacm.ro
 bad.suprnova.cc
-badad.googleplex.com
 badger.suprnova.cc
 badgmvhtvryg.bid
 bagoojzsqygg.com
@@ -6628,15 +6623,6 @@ gonspool.com
 good.pool.mn
 goodkino.biz
 goodolddownloads.com
-google.gus.host
-googleads.g.doubleclick.net
-googleadservices.com
-googleadsserving.cn
-googleanalytcs.com
-googlecommerce.com
-googlesyndication.com
-googletagmanager.com
-googletagservices.com
 goowurzdotcom.bid
 gopamdzgpdrwe.bid
 goredirect.party
@@ -11824,10 +11810,6 @@ package01.com
 pacrim.eclipsemc.com
 padsdel2.cdnads.com
 pafovocg.bid
-pagead-tpc.l.google.com
-pagead.google.com
-pagead.l.google.com
-pagead2.googlesyndication.com
 pagead46.l.doubleclick.net
 pagechoice.net
 pages.803mine.com
@@ -11878,8 +11860,6 @@ paris02.electroneum.hashvault.pro
 parking.zunmi.cn
 parser.houyi.baofeng.net
 parthk.co.uk
-partner.googleadservices.com
-partnerad.l.google.com
 partnerads.ysm.yahoo.com
 party-nngvitbizn.now.sh
 party-vqgdyvoycc.now.sh
@@ -15153,7 +15133,6 @@ static.exosrv.com
 static.flv.uuzuonline.com
 static.freebitco.in
 static.getmonero.org
-static.googleadsserving.cn
 static.hitbtc.com
 static.hk.rs
 static.houyi.baofeng.net
@@ -16116,7 +16095,6 @@ toutiao.2haha.com
 toyhxqjgqcjo.com
 tp.nanopool.org
 tp1.suprnova.cc
-tpc.googlesyndication.com
 tpdowdhhn.com
 tperkulpflry.bid
 tpesjhkf.bid
@@ -17181,7 +17159,6 @@ vic.pool.sexy
 vicofhozbuaf.com
 vid.atdmt.com
 # vid.pr0gramm.com Issue 194
-video-ad-stats.googlesyndication.com
 video.cooguo.com
 video.estream.nu
 video.nanopool.org
@@ -19981,8 +19958,6 @@ www.god.pool.mn
 www.godd.pool.mn
 www.goldennoncepool.com
 www.good.pool.mn
-www.google-analytics.com
-www.googletagmanager.com
 www.gowk.me
 www.goxmrminer.com
 www.gpu.pool.mn
