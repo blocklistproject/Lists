@@ -4,7 +4,7 @@
 # Homepage: https://blocklist.site
 # Help: https://github.com/blocklistproject/lists/wiki/
 # License: https://unlicense.org
-# Total number of network filters: 1269
+# Total number of network filters: 1274
 # ------------------------------------[SUPPORT]-------------------------------------
 # You can support by:
 # - reporting false positives
@@ -422,6 +422,7 @@ server=/mvptrend.com/
 server=/mycraftypad.com/
 server=/mystitich4u.com/
 server=/mytenmerch.com/
+server=/mywinterhome.com/
 server=/namemory.co.uk/
 server=/nanistores.com/
 server=/nasajones.com/
@@ -524,6 +525,7 @@ server=/reanimando.org/
 server=/rebeccatees.com/
 server=/redbnoptions.com/
 server=/rediffbase.com/
+server=/refinely.com/
 server=/reviewshirts.com/
 server=/rickamortyshop.com/
 server=/ringtoperfection.com/
@@ -1239,6 +1241,7 @@ server=/get-cracked.com/
 server=/www.get-cracked.com/
 server=/validcardcodes.get-cracked.com/
 server=/roblox.get-cracked.com/
+server=/franchisingcity.com/
 server=/freegiftcodes.get-cracked.com/
 server=/blog.get-cracked.com/
 server=/gametrailers.get-cracked.com/
@@ -1250,6 +1253,7 @@ server=/keygen.get-cracked.com/
 server=/getproductkeys.get-cracked.com/
 server=/downloading.get-cracked.com/
 server=/server.get-cracked.com/
+server=/setandforget.net/
 server=/wwwshopstasiacom.get-cracked.com/
 server=/download.get-cracked.com/
 server=/hack.get-cracked.com/
@@ -1285,3 +1289,4 @@ server=/amazononlinewinners.in/
 server=/kyrycp.online.dream.website/
 server=/discorcl-nltro.xyz/
 server=/indianpost.top/
+server=/soocooponline.net/
