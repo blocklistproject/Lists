@@ -73,7 +73,6 @@
 0.0.0.0 3b9cc85dcf732d5.se
 0.0.0.0 3lift.com
 0.0.0.0 45.gs
-0.0.0.0 4dsply.com
 0.0.0.0 4nabs.com
 0.0.0.0 4q.iperceptions.com
 0.0.0.0 4seeresults.com
@@ -2669,8 +2668,6 @@
 0.0.0.0 m.quantcount.com
 0.0.0.0 m6r.eu
 0.0.0.0 madisonlogic.com
-0.0.0.0 madnxs.com
-0.0.0.0 madnxs.net
 0.0.0.0 magnetmail.net
 0.0.0.0 magnuum.com
 0.0.0.0 magreprints.com
@@ -12903,7 +12900,6 @@
 0.0.0.0 mookie1.com
 0.0.0.0 moonmedia.info
 0.0.0.0 mopub.cloud
-0.0.0.0 mopub.com
 0.0.0.0 moreusers.info
 0.0.0.0 morevisits.info
 0.0.0.0 mosaicaudience.com
@@ -13321,7 +13317,6 @@
 0.0.0.0 pi.pardot.com
 0.0.0.0 pictela.net
 0.0.0.0 piksel.com
-0.0.0.0 pimpb.us
 0.0.0.0 pinchoo.com
 0.0.0.0 ping.ublock.org
 0.0.0.0 pingback.issuu.com
@@ -14475,7 +14470,6 @@
 0.0.0.0 tracker.dawanda.in
 0.0.0.0 tracker.euroweb.net
 0.0.0.0 tracker.issuu.com
-0.0.0.0 tracker.marinsm.com
 0.0.0.0 tracker.mattel.com
 0.0.0.0 tracker.mc-svc-c.it
 0.0.0.0 tracker.mcontact.pro

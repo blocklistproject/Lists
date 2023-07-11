@@ -2038,7 +2038,6 @@
 0.0.0.0 choudhry.facebook.com
 0.0.0.0 chris.facebook.com
 0.0.0.0 chromebook.fbjs.facebook.com
-0.0.0.0 cinyour.facebook.com
 0.0.0.0 cinyour.messenger.com
 0.0.0.0 cinyourrc.facebook.com
 0.0.0.0 cinyourrc.messenger.com
@@ -13845,7 +13844,6 @@
 0.0.0.0 pbr.oculusvr.com
 0.0.0.0 pc39.m.beta.facebook.com
 0.0.0.0 pd29lbk0qgyo8st6e4chz7n3a5ixm1ufrvjw.fb.me
-0.0.0.0 pdocs.fb.com
 0.0.0.0 peace.facebook.com
 0.0.0.0 peer-as1273.pr03.vie1.tfbnw.net
 0.0.0.0 peer-as8708.pr02.otp1.tfbnw.net
@@ -14070,7 +14068,6 @@
 0.0.0.0 playpen7.fbjs.facebook.com
 0.0.0.0 plazma.oculusvr.com
 0.0.0.0 pletove-masky.internmc.facebook.com
-0.0.0.0 plt.fb.com
 0.0.0.0 pmp.fb.com
 0.0.0.0 po102.psw02.eze1.tfbnw.net
 0.0.0.0 po103.psw01.lga3.tfbnw.net
@@ -14720,7 +14717,6 @@
 0.0.0.0 repository-pixel.fbjs.facebook.com
 0.0.0.0 research.facebook.com
 0.0.0.0 research.facebookmail.com
-0.0.0.0 research.fb.com
 0.0.0.0 respirators.facebookbrand-preprod.fb.com
 0.0.0.0 respiratory-research.internmc.facebook.com
 0.0.0.0 respiratory-research.messenger.com
@@ -16948,13 +16944,11 @@
 0.0.0.0 sphotos-a-mad.xx.fbcdn.net
 0.0.0.0 sphotos-a-mia.xx.fbcdn.net
 0.0.0.0 sphotos-a-mxp.xx.fbcdn.net
-0.0.0.0 sphotos-a-ord.xx.fbcdn.net
 0.0.0.0 sphotos-a-pao.xx.fbcdn.net
 0.0.0.0 sphotos-a-sea.xx.fbcdn.net
 0.0.0.0 sphotos-a-sjc.xx.fbcdn.net
 0.0.0.0 sphotos-a-vie.xx.fbcdn.net
 0.0.0.0 sphotos-a.ak.fbcdn.net
-0.0.0.0 sphotos-a.xx.fbcdn.net
 0.0.0.0 sphotos-b-ams.xx.fbcdn.net
 0.0.0.0 sphotos-b-atl.xx.fbcdn.net
 0.0.0.0 sphotos-b-cdg.xx.fbcdn.net
@@ -16966,12 +16960,10 @@
 0.0.0.0 sphotos-b-mad.xx.fbcdn.net
 0.0.0.0 sphotos-b-mia.xx.fbcdn.net
 0.0.0.0 sphotos-b-mxp.xx.fbcdn.net
-0.0.0.0 sphotos-b-ord.xx.fbcdn.net
 0.0.0.0 sphotos-b-pao.xx.fbcdn.net
 0.0.0.0 sphotos-b-sea.xx.fbcdn.net
 0.0.0.0 sphotos-b-sjc.xx.fbcdn.net
 0.0.0.0 sphotos-b-vie.xx.fbcdn.net
-0.0.0.0 sphotos-b.xx.fbcdn.net
 0.0.0.0 sphotos-h.ak.fbcdn.net
 0.0.0.0 sphotos.ak.fbcdn.net
 0.0.0.0 sphotos.xx.fbcdn.net
@@ -17488,7 +17480,6 @@
 0.0.0.0 taban.oculusvr.com
 0.0.0.0 taex.oculusvr.com
 0.0.0.0 tafensw.facebook.com
-0.0.0.0 tdocs.fb.com
 0.0.0.0 te-in.af-za.ro-ro.fbjs.facebook.com
 0.0.0.0 te-in.ar-ar.developers.prod.facebook.com
 0.0.0.0 te-in.az-az.ro-ro.fbjs.facebook.com

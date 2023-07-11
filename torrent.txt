@@ -2021,7 +2021,6 @@
 0.0.0.0 tracker.ledreactor.org
 0.0.0.0 tracker.leechers-paradise.org
 0.0.0.0 tracker.lelux.fi
-0.0.0.0 tracker.marinsm.com
 0.0.0.0 tracker.metal-torrents.com
 0.0.0.0 tracker.minglong.org
 0.0.0.0 tracker.mininova.org
