@@ -4,7 +4,7 @@
 ! Homepage: https://blocklist.site
 ! Help: https://github.com/blocklistproject/lists/wiki/
 ! License: https://unlicense.org
-! Total number of network filters: 15070
+! Total number of network filters: 15064
 ! ------------------------------------[SUPPORT]-------------------------------------
 ! You can support by:
 ! - reporting false positives
@@ -73,7 +73,6 @@
 ||3b9cc85dcf732d5.se^
 ||3lift.com^
 ||45.gs^
-||4dsply.com^
 ||4nabs.com^
 ||4q.iperceptions.com^
 ||4seeresults.com^
@@ -2669,8 +2668,6 @@
 ||m.quantcount.com^
 ||m6r.eu^
 ||madisonlogic.com^
-||madnxs.com^
-||madnxs.net^
 ||magnetmail.net^
 ||magnuum.com^
 ||magreprints.com^
@@ -12903,7 +12900,6 @@
 ||mookie1.com^
 ||moonmedia.info^
 ||mopub.cloud^
-||mopub.com^
 ||moreusers.info^
 ||morevisits.info^
 ||mosaicaudience.com^
@@ -13321,7 +13317,6 @@
 ||pi.pardot.com^
 ||pictela.net^
 ||piksel.com^
-||pimpb.us^
 ||pinchoo.com^
 ||ping.ublock.org^
 ||pingback.issuu.com^
@@ -14475,7 +14470,6 @@
 ||tracker.dawanda.in^
 ||tracker.euroweb.net^
 ||tracker.issuu.com^
-||tracker.marinsm.com^
 ||tracker.mattel.com^
 ||tracker.mc-svc-c.it^
 ||tracker.mcontact.pro^
