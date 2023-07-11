@@ -586,7 +586,6 @@
 0.0.0.0 niktu.com
 0.0.0.0 nmuca.org
 0.0.0.0 nnm-club.ru
-0.0.0.0 nnm.ru
 0.0.0.0 nod32key.eu
 0.0.0.0 nod32sky.com
 0.0.0.0 nokia-6120c.ru

@@ -1082,7 +1082,6 @@
 0.0.0.0 ibytedtos.com
 0.0.0.0 ibytedtos.com.edgekey.net
 0.0.0.0 ibytedtos.com.edgesuite.net
-0.0.0.0 ibyteimg.com
 0.0.0.0 ibyteimg.com.akamaized.net
 0.0.0.0 ibyteimg.com.edgesuite.net
 0.0.0.0 ic-hl.snssdk.com
@@ -1160,8 +1159,6 @@
 0.0.0.0 internal-lb-all-mix.bytedns.net
 0.0.0.0 internal-lb-all.bytedns.net
 0.0.0.0 io.snssdk.com
-0.0.0.0 ipstatp.com
-0.0.0.0 ipstatp.com.edgekey.net
 0.0.0.0 ipstatp.com.edgesuite.net
 0.0.0.0 ipv6-v16.muscdn.com
 0.0.0.0 ipv6-v16.muscdn.com.akamaized.net
@@ -1487,7 +1484,6 @@
 0.0.0.0 microhttp.snssdk.com
 0.0.0.0 midc-test-hl.snssdk.com
 0.0.0.0 midc-test.snssdk.com
-0.0.0.0 mlab.toutiao.com
 0.0.0.0 mobile.e.l.bytedns.net
 0.0.0.0 mobile.g.l.bytedns.net
 0.0.0.0 mobile.ttgw.tuchong-normal-lb-lf.l.bytedns.net
