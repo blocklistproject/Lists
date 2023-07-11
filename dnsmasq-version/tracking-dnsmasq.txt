@@ -4,7 +4,7 @@
 # Homepage: https://blocklist.site
 # Help: https://github.com/blocklistproject/lists/wiki/
 # License: https://unlicense.org
-# Total number of network filters: 15071
+# Total number of network filters: 15070
 # ------------------------------------[SUPPORT]-------------------------------------
 # You can support by:
 # - reporting false positives
@@ -13067,7 +13067,6 @@ server=/nedstatpro.net/
 server=/nelora.info/
 server=/neodatagroup.com/
 server=/neondollars.com/
-server=/net.ar/
 server=/netcommunities.com/
 server=/netline.com/
 server=/netlog.ru/
