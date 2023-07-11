@@ -4,7 +4,7 @@
 # Homepage: https://blocklist.site
 # Help: https://github.com/blocklistproject/lists/wiki/
 # License: https://unlicense.org
-# Total number of network filters: 2618
+# Total number of network filters: 2617
 # ------------------------------------[SUPPORT]-------------------------------------
 # You can support by:
 # - reporting false positives
@@ -2021,7 +2021,6 @@ tracker.kuroy.me
 tracker.ledreactor.org
 tracker.leechers-paradise.org
 tracker.lelux.fi
-tracker.marinsm.com
 tracker.metal-torrents.com
 tracker.minglong.org
 tracker.mininova.org
