@@ -4,7 +4,7 @@
 # Homepage: https://blocklist.site
 # Help: https://github.com/blocklistproject/lists/wiki/
 # License: https://unlicense.org
-# Total number of network filters: 3695
+# Total number of network filters: 3699
 # ------------------------------------[SUPPORT]-------------------------------------
 # You can support by:
 # - reporting false positives
@@ -1082,6 +1082,7 @@ server=/ib.tiktokv.com/
 server=/ibytedtos.com/
 server=/ibytedtos.com.edgekey.net/
 server=/ibytedtos.com.edgesuite.net/
+server=/ibyteimg.com/
 server=/ibyteimg.com.akamaized.net/
 server=/ibyteimg.com.edgesuite.net/
 server=/ic-hl.snssdk.com/
@@ -1159,6 +1160,8 @@ server=/internal-lb-all-maliva.bytedns.net/
 server=/internal-lb-all-mix.bytedns.net/
 server=/internal-lb-all.bytedns.net/
 server=/io.snssdk.com/
+server=/ipstatp.com/
+server=/ipstatp.com.edgekey.net/
 server=/ipstatp.com.edgesuite.net/
 server=/ipv6-v16.muscdn.com/
 server=/ipv6-v16.muscdn.com.akamaized.net/
@@ -1484,6 +1487,7 @@ server=/microgame.snssdk.com/
 server=/microhttp.snssdk.com/
 server=/midc-test-hl.snssdk.com/
 server=/midc-test.snssdk.com/
+server=/mlab.toutiao.com/
 server=/mobile.e.l.bytedns.net/
 server=/mobile.g.l.bytedns.net/
 server=/mobile.ttgw.tuchong-normal-lb-lf.l.bytedns.net/

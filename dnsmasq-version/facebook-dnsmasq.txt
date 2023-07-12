@@ -4,7 +4,7 @@
 # Homepage: https://blocklist.site
 # Help: https://github.com/blocklistproject/lists/wiki/
 # License: https://unlicense.org
-# Total number of network filters: 22450
+# Total number of network filters: 22459
 # ------------------------------------[SUPPORT]-------------------------------------
 # You can support by:
 #  - reporting false positives
@@ -2038,6 +2038,7 @@ server=/chooseyourmask.ro-ro.fbjs.facebook.com/
 server=/choudhry.facebook.com/
 server=/chris.facebook.com/
 server=/chromebook.fbjs.facebook.com/
+server=/cinyour.facebook.com/
 server=/cinyour.messenger.com/
 server=/cinyourrc.facebook.com/
 server=/cinyourrc.messenger.com/
@@ -13844,6 +13845,7 @@ server=/payments-localisation.whatsapp.com/
 server=/pbr.oculusvr.com/
 server=/pc39.m.beta.facebook.com/
 server=/pd29lbk0qgyo8st6e4chz7n3a5ixm1ufrvjw.fb.me/
+server=/pdocs.fb.com/
 server=/peace.facebook.com/
 server=/peer-as1273.pr03.vie1.tfbnw.net/
 server=/peer-as8708.pr02.otp1.tfbnw.net/
@@ -14068,6 +14070,7 @@ server=/platfrom-lookaside.fbsbx.com/
 server=/playpen7.fbjs.facebook.com/
 server=/plazma.oculusvr.com/
 server=/pletove-masky.internmc.facebook.com/
+server=/plt.fb.com/
 server=/pmp.fb.com/
 server=/po102.psw02.eze1.tfbnw.net/
 server=/po103.psw01.lga3.tfbnw.net/
@@ -14717,6 +14720,7 @@ server=/repository-es-la.fbjs.facebook.com/
 server=/repository-pixel.fbjs.facebook.com/
 server=/research.facebook.com/
 server=/research.facebookmail.com/
+server=/research.fb.com/
 server=/respirators.facebookbrand-preprod.fb.com/
 server=/respiratory-research.internmc.facebook.com/
 server=/respiratory-research.messenger.com/
@@ -16944,11 +16948,13 @@ server=/sphotos-a-lhr.xx.fbcdn.net/
 server=/sphotos-a-mad.xx.fbcdn.net/
 server=/sphotos-a-mia.xx.fbcdn.net/
 server=/sphotos-a-mxp.xx.fbcdn.net/
+server=/sphotos-a-ord.xx.fbcdn.net/
 server=/sphotos-a-pao.xx.fbcdn.net/
 server=/sphotos-a-sea.xx.fbcdn.net/
 server=/sphotos-a-sjc.xx.fbcdn.net/
 server=/sphotos-a-vie.xx.fbcdn.net/
 server=/sphotos-a.ak.fbcdn.net/
+server=/sphotos-a.xx.fbcdn.net/
 server=/sphotos-b-ams.xx.fbcdn.net/
 server=/sphotos-b-atl.xx.fbcdn.net/
 server=/sphotos-b-cdg.xx.fbcdn.net/
@@ -16960,10 +16966,12 @@ server=/sphotos-b-lhr.xx.fbcdn.net/
 server=/sphotos-b-mad.xx.fbcdn.net/
 server=/sphotos-b-mia.xx.fbcdn.net/
 server=/sphotos-b-mxp.xx.fbcdn.net/
+server=/sphotos-b-ord.xx.fbcdn.net/
 server=/sphotos-b-pao.xx.fbcdn.net/
 server=/sphotos-b-sea.xx.fbcdn.net/
 server=/sphotos-b-sjc.xx.fbcdn.net/
 server=/sphotos-b-vie.xx.fbcdn.net/
+server=/sphotos-b.xx.fbcdn.net/
 server=/sphotos-h.ak.fbcdn.net/
 server=/sphotos.ak.fbcdn.net/
 server=/sphotos.xx.fbcdn.net/
@@ -17480,6 +17488,7 @@ server=/ta-in.zh.tw.lite.facebook.com/
 server=/taban.oculusvr.com/
 server=/taex.oculusvr.com/
 server=/tafensw.facebook.com/
+server=/tdocs.fb.com/
 server=/te-in.af-za.ro-ro.fbjs.facebook.com/
 server=/te-in.ar-ar.developers.prod.facebook.com/
 server=/te-in.az-az.ro-ro.fbjs.facebook.com/
