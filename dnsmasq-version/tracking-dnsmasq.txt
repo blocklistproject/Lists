@@ -4,7 +4,7 @@
 # Homepage: https://blocklist.site
 # Help: https://github.com/blocklistproject/lists/wiki/
 # License: https://unlicense.org
-# Total number of network filters: 15064
+# Total number of network filters: 15070
 # ------------------------------------[SUPPORT]-------------------------------------
 # You can support by:
 # - reporting false positives
@@ -73,6 +73,7 @@ server=/360yieldplatform.com/
 server=/3b9cc85dcf732d5.se/
 server=/3lift.com/
 server=/45.gs/
+server=/4dsply.com/
 server=/4nabs.com/
 server=/4q.iperceptions.com/
 server=/4seeresults.com/
@@ -2668,6 +2669,8 @@ server=/lyristechnologies.net/
 server=/m.quantcount.com/
 server=/m6r.eu/
 server=/madisonlogic.com/
+server=/madnxs.com/
+server=/madnxs.net/
 server=/magnetmail.net/
 server=/magnuum.com/
 server=/magreprints.com/
@@ -12900,6 +12903,7 @@ server=/monkeytracker.cz/
 server=/mookie1.com/
 server=/moonmedia.info/
 server=/mopub.cloud/
+server=/mopub.com/
 server=/moreusers.info/
 server=/morevisits.info/
 server=/mosaicaudience.com/
@@ -13317,6 +13321,7 @@ server=/phonetrace.org/
 server=/pi.pardot.com/
 server=/pictela.net/
 server=/piksel.com/
+server=/pimpb.us/
 server=/pinchoo.com/
 server=/ping.ublock.org/
 server=/pingback.issuu.com/
@@ -14470,6 +14475,7 @@ server=/tracker.beezup.com/
 server=/tracker.dawanda.in/
 server=/tracker.euroweb.net/
 server=/tracker.issuu.com/
+server=/tracker.marinsm.com/
 server=/tracker.mattel.com/
 server=/tracker.mc-svc-c.it/
 server=/tracker.mcontact.pro/
