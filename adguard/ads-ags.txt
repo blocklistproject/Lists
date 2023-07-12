@@ -4,7 +4,7 @@
 ! Homepage: https://blocklist.site
 ! Help: https://github.com/blocklistproject/lists/wiki/
 ! License: https://unlicense.org
-! Total number of network filters: 154570
+! Total number of network filters: 154569
 ! ------------------------------------[SUPPORT]-------------------------------------
 ! You can support by:
 ! - reporting false positives
@@ -152191,7 +152191,7 @@
 ||yamrxfbkpirt.com^
 ||yandepit.com^
 ||yandex-metrica.ru^
-||yandex.st^
+@@||yandex.st^! #1023
 ||yandexadexchange.net^
 ||yandexbrowser2019.ru^
 ||yang.hitbox.com^
