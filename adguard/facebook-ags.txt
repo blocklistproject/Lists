@@ -4,7 +4,7 @@
 ! Homepage: https://blocklist.site
 ! Help: https://github.com/blocklistproject/lists/wiki/
 ! License: https://unlicense.org
-! Total number of network filters: 22450
+! Total number of network filters: 22459
 ! ------------------------------------[SUPPORT]-------------------------------------
 ! You can support by:
 !  - reporting false positives
@@ -2038,6 +2038,7 @@
 ||choudhry.facebook.com^
 ||chris.facebook.com^
 ||chromebook.fbjs.facebook.com^
+||cinyour.facebook.com^
 ||cinyour.messenger.com^
 ||cinyourrc.facebook.com^
 ||cinyourrc.messenger.com^
@@ -13844,6 +13845,7 @@
 ||pbr.oculusvr.com^
 ||pc39.m.beta.facebook.com^
 ||pd29lbk0qgyo8st6e4chz7n3a5ixm1ufrvjw.fb.me^
+||pdocs.fb.com^
 ||peace.facebook.com^
 ||peer-as1273.pr03.vie1.tfbnw.net^
 ||peer-as8708.pr02.otp1.tfbnw.net^
@@ -14068,6 +14070,7 @@
 ||playpen7.fbjs.facebook.com^
 ||plazma.oculusvr.com^
 ||pletove-masky.internmc.facebook.com^
+||plt.fb.com^
 ||pmp.fb.com^
 ||po102.psw02.eze1.tfbnw.net^
 ||po103.psw01.lga3.tfbnw.net^
@@ -14717,6 +14720,7 @@
 ||repository-pixel.fbjs.facebook.com^
 ||research.facebook.com^
 ||research.facebookmail.com^
+||research.fb.com^
 ||respirators.facebookbrand-preprod.fb.com^
 ||respiratory-research.internmc.facebook.com^
 ||respiratory-research.messenger.com^
@@ -16944,11 +16948,13 @@
 ||sphotos-a-mad.xx.fbcdn.net^
 ||sphotos-a-mia.xx.fbcdn.net^
 ||sphotos-a-mxp.xx.fbcdn.net^
+||sphotos-a-ord.xx.fbcdn.net^
 ||sphotos-a-pao.xx.fbcdn.net^
 ||sphotos-a-sea.xx.fbcdn.net^
 ||sphotos-a-sjc.xx.fbcdn.net^
 ||sphotos-a-vie.xx.fbcdn.net^
 ||sphotos-a.ak.fbcdn.net^
+||sphotos-a.xx.fbcdn.net^
 ||sphotos-b-ams.xx.fbcdn.net^
 ||sphotos-b-atl.xx.fbcdn.net^
 ||sphotos-b-cdg.xx.fbcdn.net^
@@ -16960,10 +16966,12 @@
 ||sphotos-b-mad.xx.fbcdn.net^
 ||sphotos-b-mia.xx.fbcdn.net^
 ||sphotos-b-mxp.xx.fbcdn.net^
+||sphotos-b-ord.xx.fbcdn.net^
 ||sphotos-b-pao.xx.fbcdn.net^
 ||sphotos-b-sea.xx.fbcdn.net^
 ||sphotos-b-sjc.xx.fbcdn.net^
 ||sphotos-b-vie.xx.fbcdn.net^
+||sphotos-b.xx.fbcdn.net^
 ||sphotos-h.ak.fbcdn.net^
 ||sphotos.ak.fbcdn.net^
 ||sphotos.xx.fbcdn.net^
@@ -17480,6 +17488,7 @@
 ||taban.oculusvr.com^
 ||taex.oculusvr.com^
 ||tafensw.facebook.com^
+||tdocs.fb.com^
 ||te-in.af-za.ro-ro.fbjs.facebook.com^
 ||te-in.ar-ar.developers.prod.facebook.com^
 ||te-in.az-az.ro-ro.fbjs.facebook.com^
