@@ -392,7 +392,7 @@ adbma.adk2.co
 adbtc.top
 adc.suprnova.cc
 adcast.deviantart.com
-# adclick.g.doubleclick.net Belongs in ad list
+adclick.g.doubleclick.net Belongs in ad list
 adconity.com
 adcore.lenovomm.com
 add.pool.mn
@@ -774,7 +774,7 @@ am.g.ireader.com
 am9ozs.xyz
 ama.adwo.com
 amaqcgrrmedi.bid
-# amazonaws.com Issue 452
+amazonaws.com Issue 452
 amber.coin-miners.info
 amber.suprnova.cc
 amdc.m.taobao.com
@@ -808,7 +808,7 @@ analytics.atdmt.com
 analytics.bl
 analytics.blue
 analytics.hz.netease.com
-# analytics.kiwifarms.net Issue 250
+analytics.kiwifarms.net Issue 250
 analytics.live.com
 analytics.msn.com
 analytics.query.yahoo.com
@@ -1167,7 +1167,7 @@ app.btcchina.com
 app.coinsprofit.com
 app.houyi.baofeng.net
 app.multimining.org
-# app.pr0gramm.com Issue 194
+app.pr0gramm.com Issue 194
 app.slushpool.com
 app.supportxmr.com
 app.tanwan.com
@@ -1474,7 +1474,7 @@ autologica.ga
 aux2.whalesburg.com
 av.hashhot.com
 av.pool.mn
-# avatar.pr0gramm.com Issue 194
+avatar.pr0gramm.com Issue 194
 avdfcctzwfdk.com
 avditmiohvtq.bid
 avefyjulko.bid
@@ -3294,7 +3294,7 @@ conversion.pro.cn
 cookiemapping.wrating.com
 cookies.qp.si
 cookiescript.info
-# cookiescript.infos Issue 352
+cookiescript.infos Issue 352
 cookiescriptcdn.pro
 cool-pool.net
 coop.pop.baofeng.com
@@ -4971,7 +4971,7 @@ es.minergate.com
 esc.hashhot.com
 esc.pool.mn
 esc.thecoin.pw
-# escobar.pr0gramm.com Issue 194
+escobar.pr0gramm.com Issue 194
 esgwceckxumg.com
 eslgydoqbedo.com
 eslydbnukkme.com
@@ -6254,7 +6254,7 @@ fud.hashhot.com
 fud.suprnova.cc
 fuhgvhuukl.bid
 fujiseed.sighash.info
-# full.pr0gramm.com Issue 194
+full.pr0gramm.com Issue 194
 fund.pool.mn
 fund.suprnova.cc
 funk.majorminers.com
@@ -6859,7 +6859,7 @@ halo.minerpool.net
 halopool.maxhash.org
 ham.hashhot.com
 ham.thecoin.pw
-# hans.pr0gramm.com Issue 194
+hans.pr0gramm.com Issue 194
 hansa.suprnova.cc
 hanwlgpecblxf.bid
 hao.7654.com
@@ -7280,7 +7280,7 @@ hunantv.m.cn.miaozhen.com
 hund.suprnova.cc
 huodong.ios.shouji.360.cn
 huoying666.com
-# hurensohn.pr0gramm.com Issue 194
+hurensohn.pr0gramm.com Issue 194
 huriylhqkylbo.bid
 huscav.ethosdistro.com
 husetdmrejiyjy.bid
@@ -7596,7 +7596,7 @@ img.jgchq.com
 img.jizzads.com
 img.jsecoin.com
 img.namunil.com
-# img.pr0gramm.com Issue 194
+img.pr0gramm.com Issue 194
 img.shouji.sogou.com
 img.taotaosou.cn
 img.toppr.com.cn
@@ -8433,7 +8433,7 @@ kisshentai.net
 kisvtclf.bid
 kitaji.ethosdistro.com
 kiwi.pool.mn
-# kiwifarms.net Issue 250
+kiwifarms.net Issue 250
 kiwiminers.com
 kizpkvkdfm.bid
 kjabglumgwbsvq.bid
@@ -9308,7 +9308,7 @@ m.nbhaosheng168.com
 m.panda.voiceads.cn
 m.poloniex.com
 m.pool.mn
-# m.pr0gramm.com Issue 194
+m.pr0gramm.com Issue 194
 m.pubbirdf.com
 m.qpic.cn
 m.reachmax.cn
@@ -9528,7 +9528,7 @@ mc.gridcoin.co
 mc.hashhot.com
 mc.pool.mn
 mc.pool.sexy
-# mc.yandex.ru Issue 156
+mc.yandex.ru Issue 156
 mca.pool.mn
 mcagbtdcwklf.com
 mcc.pool.mn
@@ -9856,7 +9856,7 @@ miner.nicehash.com
 miner.nimiq.com
 miner.oozing.co
 miner.ppxxmr.com
-# miner.pr0gramm.com Issue 194
+miner.pr0gramm.com Issue 194
 miner.rocks
 miner1.minergate.com
 miner2.sighash.info
@@ -12621,7 +12621,7 @@ pr.da.netease.com
 pr.thecoin.pw
 pr.ybp.yahoo.com
 pr0gram.org
-# pr0gramm.com Issue 194
+pr0gramm.com Issue 194
 practivate.adobe.com
 praeicwgzapf.com
 prbitcoin.com
@@ -14525,7 +14525,7 @@ sia.luxor.tech
 sia.nanopool.org
 sia.pool.mn
 sia.suprnova.cc
-# sia.tech Issue 128
+sia.tech Issue 128
 sia.usa.nicehash.com
 sia.waterhole.io
 siaalpha.nanopool.org
@@ -15934,7 +15934,7 @@ thor.nanopool.org
 thpsflsjw.com
 thread.multiminerapp.com
 three-jj.github.io
-# thumb.pr0gramm.com Issue 194
+thumb.pr0gramm.com Issue 194
 thvdzghlvfoh.com
 thvrvojkkjkkpe.bid
 thx113.ethosdistro.com
@@ -17158,7 +17158,7 @@ vic.minerpool.net
 vic.pool.sexy
 vicofhozbuaf.com
 vid.atdmt.com
-# vid.pr0gramm.com Issue 194
+vid.pr0gramm.com Issue 194
 video.cooguo.com
 video.estream.nu
 video.nanopool.org
@@ -18449,7 +18449,7 @@ wvxnvnrsahfd.bid
 wvxywejnmpsh.bid
 ww.bitcoins.lc
 ww.multipool.com
-# ww.pr0gramm.com Issue 194
+ww.pr0gramm.com Issue 194
 ww.suprnova.cc
 ww.xiaopiaoyou.com
 ww.xpool.ca
@@ -18542,7 +18542,7 @@ wwis-dubc1-vip60.adobe.com
 wwv.onetad.com
 www-01.nanopool.org
 www-origin.poolmining.org
-# www-tb7c.pr0gramm.com Issue 194
+www-tb7c.pr0gramm.com Issue 194
 www-test.nicehash.com
 www.114so.cn
 www.115776615-884492032168661957.preview.editmysite.com
@@ -20266,7 +20266,7 @@ www.kippbeak.cf
 www.kippo.eu
 www.kisshentai.net
 www.kiwi.pool.mn
-# www.kiwifarms.net Issue 250
+www.kiwifarms.net Issue 250
 www.kiwiminers.com
 www.kkxmofkrykox.netcodepool.org
 www.kore.pool.mn
@@ -21082,7 +21082,7 @@ www.ppoi.org
 www.pps.btcguild.com
 www.ppxxmr.com
 www.pr.thecoin.pw
-# www.pr0gramm.com Issue 194
+www.pr0gramm.com Issue 194
 www.prbitcoin.com
 www.premiumminer.com
 www.preorder.trezor.io
@@ -21362,7 +21362,7 @@ www.sia.hk.nicehash.com
 www.sia.in.nicehash.com
 www.sia.jp.nicehash.com
 www.sia.pool.mn
-# www.sia.tech Issue 128
+www.sia.tech Issue 128
 www.sia.usa.nicehash.com
 www.siamining.com
 www.sib.mine.zpool.ca

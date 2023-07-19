@@ -13,8 +13,8 @@
 #
 # Torrent list
 # ------------------------------------[FILTERS]-------------------------------------
-# mc.yandex.ru Issue 156
-# surfshark.com Issue 161
+mc.yandex.ru Issue 156
+surfshark.com Issue 161
 0second.com
 10mbit.com
 123bits.org
@@ -1862,7 +1862,7 @@ torrentesx.com
 torrentfinder.ru
 torrentfr.org
 torrentfrancais.com
-# torrentfreak.com Issue 886
+torrentfreak.com Issue 886
 torrentfreakz.org
 torrentfriend.net
 torrentfunk.unblocked.llc
