@@ -2,19 +2,21 @@ const fs = require("fs").promises;
 const path = require("path");
 
 (async () => {
-	const files = (await fs.readdir(path.join(__dirname, ".."))).filter((file) => file.endsWith(".txt")); // Array of strings, each representing a single file that ends in `.txt`
+  const files = (await fs.readdir(path.join(__dirname, ".."))).filter(file => file.endsWith(".txt"));
 
-	await Promise.all(files.map(async (file) => { // For each file
-		const existingDomains = new Set();
+  await Promise.all(files.map(async (file) => {
+    const filePath = path.join(__dirname, "..", file);
 
-		const fileContents = await fs.readFile(path.join(__dirname, "..", file), "utf8"); // Get file contents as a string
+    // Read the file contents asynchronously
+    let fileContents = await fs.readFile(filePath, "utf8");
 
-		fileContents.split("\n").forEach((line) => {
-			if (line.startsWith("0.0.0.0 ")) {
-				existingDomains.add(line.replace("0.0.0.0 ", ""));
-			}
-		});
+    // Count the number of network filters using a regex
+    const existingDomainsCount = (fileContents.match(/^0\.0\.0\.0 /gm) || []).length;
 
-		await fs.writeFile(path.join(__dirname, "..", file), fileContents.replace(/^# Total number of network filters: ?(\d*)$/gmu, `# Total number of network filters: ${existingDomains.size}`), "utf8");
-	}));
+    // Replace the total number of network filters in the fileContents
+    fileContents = fileContents.replace(/^# Total number of network filters: ?(\d*)$/gmu, `# Total number of network filters: ${existingDomainsCount}`);
+
+    // Write the updated file contents asynchronously
+    await fs.writeFile(filePath, fileContents, "utf8");
+  }));
 })();
