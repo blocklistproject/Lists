@@ -13,15 +13,15 @@
 #
 # tracking list
 # ------------------------------------[FILTERS]-------------------------------------
-# footprint.net Resolved Issue 29
-# hubspot.com Issue 52
-# intercomassets.com Issue 48
-# newrelic.com Issue 53
-# byside.com Issue 10
-# counters.gigya.com Issue 7
-# gigya.com Issue 7
-# ipinfo.io Issue 21
-# yospace.com Issue 12
+footprint.net Resolved Issue 29
+hubspot.com Issue 52
+intercomassets.com Issue 48
+newrelic.com Issue 53
+byside.com Issue 10
+counters.gigya.com Issue 7
+gigya.com Issue 7
+ipinfo.io Issue 21
+yospace.com Issue 12
 1-cl0ud.com
 1-creative-1.com
 1000mercis.com
@@ -861,7 +861,7 @@ blutonic-ads.com
 blutonic.net
 bluuadd.com
 bn.uol.com.br
-# boards.greenhouse.io Issue 372
+boards.greenhouse.io Issue 372
 bolimubei.com
 bombora.com
 bongacash.com
@@ -13118,7 +13118,7 @@ nmp6.com
 nnn.ru
 nobeta.com.br
 nodes.npm9sh75p.com
-# nosto.com Issue 132
+nosto.com Issue 132
 notice1-09.com
 notice1-11.com
 notice1-12.com
@@ -13422,7 +13422,7 @@ preved.tut.by
 prfhn.com
 pricespider.com
 primefuse.com
-# priority-static-api.nkstatic.com Issue 141
+priority-static-api.nkstatic.com Issue 141
 privacy.aol.com
 privateebusiness.com
 privatescale.com

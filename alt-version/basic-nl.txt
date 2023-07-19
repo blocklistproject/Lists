@@ -85,7 +85,7 @@
 008.free-counters.co.uk
 00author.com
 00fun.com # [Tracking.Cookie]
-# 00go.com Issue 411
+00go.com Issue 411
 00it.com
 00sexus.com
 00webcams.com
@@ -9153,7 +9153,7 @@ api.prooffactor.com
 api.proofpositivemedia.com
 api.publishers.adlive.io
 api.pubnative.net
-# api.punchh.com issue 484
+api.punchh.com issue 484
 api.purpleads.io
 api.push.world
 api.pushdi.com
@@ -29837,7 +29837,7 @@ js.hubspot.com
 js.idio.co
 js.impact.ne.jp
 js.indexww.com
-# js.intercomcdn.com False positive
+js.intercomcdn.com False positive
 js.isboost.co.jp
 js.juicyads.com
 js.kau.li
@@ -31096,7 +31096,7 @@ learn.codefellows.org
 learn.corneagen.com
 learn.donjohnston.com
 learn.hcss.com
-# learn.hedera.com Issue 294
+learn.hedera.com Issue 294
 learn.jacksonhewitt.com
 learn.mays.tamu.edu
 learn.middlebury.edu
@@ -53090,7 +53090,7 @@ taboola.com.edgekey.net
 taboolasyndication.com
 tabxolabs.com
 tackthisclick.com
-# tacloban.gov.ph
+tacloban.gov.ph
 tacobell.d1.sc.omtrdc.net
 tacoda.at.atwola.com
 tacoda.net
@@ -72111,7 +72111,7 @@ www.taboola.com
 www.taboola.com.edgekey.net
 www.taboolasyndication.com
 www.tabxolabs.com
-# www.tacloban.gov.ph
+www.tacloban.gov.ph
 www.tacticaltrainingdatabase.com
 www.taffr.com
 www.tag4arm.com  #[Piwik.Analytics]
