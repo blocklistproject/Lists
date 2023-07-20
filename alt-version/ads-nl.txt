@@ -4,7 +4,7 @@
 # Homepage: https://blocklist.site
 # Help: https://github.com/blocklistproject/lists/wiki/
 # License: https://unlicense.org
-# Total number of network filters: 154562
+# Total number of network filters: 154561
 # ------------------------------------[SUPPORT]-------------------------------------
 # You can support by:
 # - reporting false positives
@@ -36815,7 +36815,7 @@ api.absolute.adswizz.com
 api.accelerator.intl.miui.com
 api.accengage.com
 api.accengage.net
-api.account.xiaomi.com
+# api.account.xiaomi.com #1019
 api.actionbutton.co
 api.actonsoftware.com
 api.ad-brix.com
