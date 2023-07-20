@@ -4,7 +4,7 @@
 ! Homepage: https://blocklist.site
 ! Help: https://github.com/blocklistproject/lists/wiki/
 ! License: https://unlicense.org
-! Total number of network filters: 154565
+! Total number of network filters: 154562
 ! ------------------------------------[SUPPORT]-------------------------------------
 ! You can support by:
 ! - reporting false positives
@@ -37232,7 +37232,7 @@
 ||api.megacool.co^
 ||api.metrics.heroku.com^
 ||api.mgid.com^
-||api.micloud.xiaomi.net^
+@@||api.micloud.xiaomi.net^! #1020
 ||api.mistat.xiaomi.com^
 ||api.miui.security.xiaomi.com^
 ||api.mixpanel.com^
@@ -68519,7 +68519,7 @@
 ||find-cheap-hotels.org^
 ||find-ip-address.org^
 ||find-my-great-life.com^
-||find.api.micloud.xiaomi.net^
+@@||find.api.micloud.xiaomi.net^! #1020
 ||find.keywordblocks.com^
 ||findalternate.com^
 ||findandtry.com^
@@ -133050,7 +133050,7 @@
 ||us.event.cmp.advertising.com^
 ||us.evergage.com^
 ||us.evyy.net^
-||us.find.api.micloud.xiaomi.net^
+@@||us.find.api.micloud.xiaomi.net^! #1020
 ||us.galleryapi.micloud.xiaomi.net^
 ||us.gmads.mookie1.com^
 ||us.heisenberg.inmobi.com^
