@@ -4,7 +4,7 @@
 ! Homepage: https://blocklist.site
 ! Help: https://github.com/blocklistproject/lists/wiki/
 ! License: https://unlicense.org
-! Total number of network filters: 154561
+! Total number of network filters: 154560
 ! ------------------------------------[SUPPORT]-------------------------------------
 ! You can support by:
 ! - reporting false positives
@@ -134588,7 +134588,7 @@
 ||vectormarketing.com^
 ||vectorpastel.com^
 ||vectorsdk.map.qq.com^
-||vectorstock.com^
+@@||vectorstock.com^! #1000
 ||vectrabank.112.2o7.net^
 ||vedety.ru^
 ||vedicfix.com^
