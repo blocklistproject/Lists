@@ -2,30 +2,23 @@ const fs = require("fs").promises;
 const path = require("path");
 
 (async () => {
-	const directory = path.join(__dirname, "..");
-	const files = (await fs.readdir(directory)).filter((file) => file.endsWith(".txt"));
+	const files = (await fs.readdir(path.join(__dirname, ".."))).filter((file) => file.endsWith(".txt")); // Array of strings, each representing a single file that ends in `.txt`
 
-	await Promise.all(
-		files.map(async (file) => {
-			const existingDomains = new Set();
-			const filePath = path.join(directory, file);
+	await Promise.all(files.map(async (file) => { // For each file
+		const existingDomains = new Set();
 
-			const lines = await fs.readFile(filePath, "utf8");
-			const updatedLines = lines
-				.split("\n")
-				.filter((line) => {
-					if (line.startsWith("0.0.0.0 ")) {
-						const domain = line.replace("0.0.0.0 ", "");
-						if (existingDomains.has(domain)) {
-							return false;
-						}
-						existingDomains.add(domain);
-					}
-					return true;
-				})
-				.join("\n");
+		let fileContents = await fs.readFile(path.join(__dirname, "..", file), "utf8"); // Get file contents as a string
 
-			await fs.writeFile(filePath, updatedLines, "utf8");
-		})
-	);
+		fileContents.split("\n").forEach((line) => {
+			if (line.startsWith("0.0.0.0 ")) {
+				const domain = line.replace("0.0.0.0 ", "");
+				if (existingDomains.has(domain)) {
+					fileContents = fileContents.replace(`${line}\n`, "");
+				}
+				existingDomains.add(domain);
+			}
+		});
+
+		await fs.writeFile(path.join(__dirname, "..", file), fileContents, "utf8");
+	}));
 })();
