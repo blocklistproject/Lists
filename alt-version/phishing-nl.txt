@@ -13,8 +13,8 @@
 #
 # Phishing list
 # ------------------------------------[FILTERS]-------------------------------------
-appledetails.u Issue 6
-postfinance.ch Issue 5
+# appledetails.u Issue 6
+# postfinance.ch Issue 5
 0.01.2.13.3.sydneypropertyinvestors.com
 0.01.2.23.3.sydneypropertyinvestors.com
 000.9.009.09.ekurbani.com
@@ -4585,7 +4585,7 @@ aftebucale.ro
 after-dinner-frigat.000webhostapp.com
 after3theatre.org
 afterlifeindustries.com
-aftership.com Issue 520
+# aftership.com Issue 520
 afterwork.com.au
 aftlight.com
 aftu.com.au
@@ -7402,7 +7402,7 @@ andalbagat.net
 andalnetconsultpost201.ml
 andaluciaempresarial.com
 andaniandpartners.com
-andapangasinan.gov.ph
+# andapangasinan.gov.ph
 andasuvi.com.br
 andat.com.vn
 andean-receipt.000webhostapp.com
@@ -8008,7 +8008,7 @@ apalkf.cf
 apapple.com
 aparatosolucoes.com.br
 aparet.ml
-aparriwaterdistrict.gov.ph
+# aparriwaterdistrict.gov.ph
 apartamentoenvalencia.com.ve
 apartamentosadriana.com.br
 apartamentoturisticogranada.es
@@ -8401,7 +8401,7 @@ app.ne0gen.com
 app.no.applefaktur13.aes2applefaktur.ml
 app.pessoafisica.exclusiva.prime.private.tssl.com.br
 app.pngsgold.com
-app.powerbigov.us Issue 113
+# app.powerbigov.us Issue 113
 app.rickshawrides.in
 app.riolabz.com
 app.salmacorp.net
@@ -14191,7 +14191,7 @@ balanceyourdiabetes.com
 balangankab.go.id
 balanrealty.com
 balaw.ec
-balaymalaueg.gov.ph
+# balaymalaueg.gov.ph
 balazhimim.id
 balba.mx
 balbaki.com
@@ -15891,7 +15891,7 @@ bespokemediadubai.com
 bessiesim.club
 best-air.co.il
 best-battleup.gq
-best-cons.ru Issue 190
+# best-cons.ru Issue 190
 best-detox.com
 best-digital-slr-cameras.com
 best-drop.me
@@ -19676,7 +19676,7 @@ bylangner.com
 bylinky.biz
 byliza.com
 bylka.com
-byloth.net Issue #266
+# byloth.net Issue #266
 bymabogados.cl
 bymail.cl
 byonmath.com
@@ -19985,7 +19985,7 @@ cal-family.com
 cal-maxtransport.com
 calabashawnings.co.uk
 caladrius.com.au
-calambamisocc.gov.ph
+# calambamisocc.gov.ph
 calametal.com
 calaosafari.com
 calaproduct.com
@@ -20586,7 +20586,7 @@ cardioshow.tk
 cardisease.com
 cardnanny.com
 cardoctormobile.com
-cardonarizal.gov.ph
+# cardonarizal.gov.ph
 cardozos.com
 cardplanetindia.com
 cardplumbing.com
@@ -23367,7 +23367,7 @@ cinemalenormandie.com
 cinemanetflix.com
 cinemania.us
 cinemanity.com
-cinemazed.be Issue 502
+# cinemazed.be Issue 502
 cinemiz.net
 cineredsocial.com
 cinexfilm.com
@@ -25244,7 +25244,7 @@ conf1rmfb-aps4.at.ua
 confairs.com
 confeccoesegito.com.br
 confeiruna.com
-conferences.sigcomm.org Issue 121
+# conferences.sigcomm.org Issue 121
 conferma-amazon.com
 confermazione-info-update.it
 confetti.com.co
@@ -26532,7 +26532,7 @@ credimatico.com.ve
 credimeta.com
 credinnova.pe
 credit-agricole-alert.com
-credit-agricole.fr Issue 127
+# credit-agricole.fr Issue 127
 credit-agricolefrance.ga
 credit-card-information.elliottback.com
 credit-cusb.com
@@ -31877,7 +31877,7 @@ dulcevilla.com
 dulcimpbordados.com.br
 duldi.com
 duluxshop.lk
-dumalinao.gov.ph
+# dumalinao.gov.ph
 dumalnquicaires.com
 dumancy.pl
 dumationnaure.cf
@@ -43422,7 +43422,7 @@ goyaladvocates.com
 goymotions.com
 goyqospy.qijvipapv.fastsize.ru
 gp-enterprise.in
-gp.org Issue 453
+# gp.org Issue 453
 gpalmerandassociates.com
 gpatbd.com
 gpayconnect.com
@@ -50454,7 +50454,7 @@ imskyritz.000webhostapp.com
 imsolutions.id
 imssupplements.com
 imstagram-log.000webhostapp.com
-imsva91-ctp.trendmicro.com Issue 102
+# imsva91-ctp.trendmicro.com Issue 102
 imt-inc.com
 imtheboss.org
 imtmn.edu.bd
@@ -51086,7 +51086,7 @@ infratechconsulting.com
 infrc2206.000webhostapp.com
 infusion.pbphgwbr.in
 infusorian-altimete.000webhostapp.com
-ing-diba.de Issue 169
+# ing-diba.de Issue 169
 ing.inactividad.online
 ing8f7c6czvu8gf7cv9hg8.top
 ingappupdate.com
@@ -57518,7 +57518,7 @@ kuru-ko.cl
 kurularinsaat.com.tr
 kurwa-mac.com
 kurz-permanentmakeup.sk
-kurzelinks.de Issue 124
+# kurzelinks.de Issue 124
 kuser.usa.cc
 kushadangahs.edu.bd
 kushalengineersinc.com
@@ -57735,7 +57735,7 @@ labanquepostale.fr.compte011.info
 labanquepostale.fr.informations-personnelles008.com
 labanquepostale.fr.kenandkentlawyers.com
 labares.com.br
-labason.gov.ph
+# labason.gov.ph
 labdaiven.com
 labelgallery.net
 labelkaret.com
@@ -58634,7 +58634,7 @@ ldcsolucoes.com.br
 ldcwatch.org
 ldcx.market
 ldcxmanket.com
-ldex.exchange Issue 105
+# ldex.exchange Issue 105
 ldexmarket.com
 ldfa.ml
 ldgsx9yg0l2ukppof9ni.utahelkwhisperer.com
@@ -69165,7 +69165,7 @@ nab-verify-online.com
 nab.activateaccount.info
 nab.bank-confirmation.in
 nab.bank-verification.info
-nab.com.au #547
+# nab.com.au #547
 nab.com.au-66c28750.national-australia-bank-179602f4.3inatree.com.au
 nab.com.au.device-confirm.services
 nab.com.au.lawrencepur.com
@@ -69724,7 +69724,7 @@ ncomcast.net
 ncorecreative.com
 ncp.kjukenhi.in
 ncqcqh.com
-ncr.csc.gov.ph
+# ncr.csc.gov.ph
 ncrealestatedata.com
 ncrefrigeracao.com.br
 ncrgifts.com
@@ -69778,7 +69778,7 @@ ne-skolzko.ru
 ne.xaoujti.maxgrowth.ru
 ne1co.info
 ne2beroas.godaddysites.com
-nea.gov.ph
+# nea.gov.ph
 neagenea.gr
 neaindustrias.com
 neajrmcl.tk
@@ -70363,7 +70363,7 @@ netflixpromotions.online
 netflixproo.com
 netflixquebec.com
 netflixrate.com
-netflixreality.com
+# netflixreality.com
 netflixreanimate.com
 netflixrecadastro.com
 netflixrehberi.com
@@ -72013,7 +72013,7 @@ nplace.jp
 npmghs.edu.bd
 npoforum.ru
 npp89.ddnsgeek.com
-nppa.com.au Flase Positive
+# nppa.com.au Flase Positive
 npumatlanta.org
 npv.com.ve
 npvkdy.site
@@ -81694,7 +81694,7 @@ prospects.pbphgwbr.in
 prospectscientific.com
 prosperbizdepot.com
 prosperchannel.com
-prosperidad.gov.ph
+# prosperidad.gov.ph
 prosperous.szlftjcm.in
 prossrtys.000webhostapp.com
 prostarwiki.com
@@ -84484,8 +84484,8 @@ reginaepiazzetta.it
 reginaldthompson.net
 regiojardines.com
 regiollanta.mx
-region12.dilg.gov.ph
-region3.dilg.gov.ph
+# region12.dilg.gov.ph
+# region3.dilg.gov.ph
 regionkozla.pl
 regionmaya.com.mx
 regionmorges.ch
@@ -84809,7 +84809,7 @@ renovadoramartinez.com
 renovarapometria.com
 renovation4all.gr
 renovationkingdom.com
-renovationkingdom.com.au Issue 207
+# renovationkingdom.com.au Issue 207
 renovationsincalgary.com
 renowala.com
 renownunited.com.au
@@ -85161,7 +85161,7 @@ retreatxxavenue.gq
 retreg.duckdns.org
 retrievalmagnetics.com
 retriever.pbphgwbr.in
-retro-bit.com Issue 153
+# retro-bit.com Issue 153
 retroamusements.com.au
 retrobacklore.net
 retrodungeon.net
@@ -86197,7 +86197,7 @@ romantulis.ca
 romarestaurantbridgwater.co.uk
 romastone.vn
 romblon.esti.edu.ph
-romblonwaterdistrict.gov.ph
+# romblonwaterdistrict.gov.ph
 rome-apartments-it.com
 romehigie.com.br
 romeo.3.goodway.phenixcustomers.co.uk
@@ -98322,7 +98322,7 @@ talabrahinaw.com
 taladkhao.com
 taladrizcargo.cl
 talagram.ir
-talaingod.gov.ph
+# talaingod.gov.ph
 talak.usa.cc
 talal-int.com
 talamos.co.il
@@ -100799,7 +100799,7 @@ tianarafidy.ca
 tianweihk.com
 tianyingsport.com
 tianyuwenxue.zzcn.org
-tiaongwaterdistrict.gov.ph
+# tiaongwaterdistrict.gov.ph
 tiara.szlftjcm.in
 tiaradewi827.000webhostapp.com
 tiasentosa.co.id
@@ -115666,7 +115666,7 @@ www.andahoho.bravehost.com
 www.andakara.com
 www.andalbagat.net
 www.andaniandpartners.com
-www.andapangasinan.gov.ph
+# www.andapangasinan.gov.ph
 www.andasuvi.com.br
 www.andean-receipt.000webhostapp.com
 www.andeankingdomhuaraz.com
@@ -116119,7 +116119,7 @@ www.apalawyers.pt
 www.apalkf.cf
 www.apapple.com
 www.aparnasinha.com
-www.aparriwaterdistrict.gov.ph
+# www.aparriwaterdistrict.gov.ph
 www.apartamentosasturias.net
 www.apartamentoturisticogranada.es
 www.apartcar.com.ar
@@ -121054,7 +121054,7 @@ www.balanrealty.com
 www.balasdecocoribeirao.com.br
 www.balatonmeats.com
 www.balaw.ec
-www.balaymalaueg.gov.ph
+# www.balaymalaueg.gov.ph
 www.balazhimim.id
 www.balba.mx
 www.balbet.ro
@@ -122265,7 +122265,7 @@ www.bespokehoodies.co.uk
 www.bespokemediadubai.com
 www.bessiesim.club
 www.best-air.co.il
-www.best-cons.ru Issue 190
+# www.best-cons.ru Issue 190
 www.best-detox.com
 www.best-digital-slr-cameras.com
 www.best-drop.me
@@ -124933,7 +124933,7 @@ www.byggekonsulent.com
 www.byginobianchi.com
 www.byktol.com
 www.byliza.com
-www.byloth.net Issue #266
+# www.byloth.net Issue #266
 www.bymabogados.cl
 www.bymail.cl
 www.bynow.com.br
@@ -125145,7 +125145,7 @@ www.cakerycafe.com
 www.cal-family.com
 www.calabashawnings.co.uk
 www.caladrius.com.au
-www.calambamisocc.gov.ph
+# www.calambamisocc.gov.ph
 www.calamo.org.mx
 www.calaosafari.com
 www.calaproduct.com
@@ -125583,7 +125583,7 @@ www.cardiologyiipc.com
 www.cardionova.in
 www.cardnanny.com
 www.cardoctormobile.com
-www.cardonarizal.gov.ph
+# www.cardonarizal.gov.ph
 www.cardozos.com
 www.cardplanetindia.com
 www.cardplumbing.com
@@ -128914,7 +128914,7 @@ www.consertodeaquecedores.net
 www.conservational-book.000webhostapp.com
 www.conservativebabylon.com
 www.conservativetones.com
-www.conservatorio.tn.it Issue 142
+# www.conservatorio.tn.it Issue 142
 www.conservatoriodemotril.com
 www.conserved-downgrade.000webhostapp.com
 www.consignadosantander.com.br
@@ -133178,7 +133178,7 @@ www.dulk.ru
 www.dulp.ru
 www.duluti.com.br
 www.duluxshop.lk
-www.dumalinao.gov.ph
+# www.dumalinao.gov.ph
 www.dumbplans.gq
 www.dumbplans.ml
 www.dumbrell.com
@@ -150073,7 +150073,7 @@ www.lab.soccerbeyond.com
 www.lab2a.ma
 www.labanquepostale-securitee.com
 www.labanquepostale.fr.kenandkentlawyers.com
-www.labason.gov.ph
+# www.labason.gov.ph
 www.labbet.fi
 www.labelgallery.net
 www.labella-lodge.com
@@ -158378,7 +158378,7 @@ www.netflixpromotions.online
 www.netflixproo.com
 www.netflixquebec.com
 www.netflixrate.com
-www.netflixreality.com
+# www.netflixreality.com
 www.netflixreanimate.com
 www.netflixrecadastro.com
 www.netflixrehberi.com
@@ -165382,7 +165382,7 @@ www.prospecthillyouthsports.com
 www.prospectscientific.com
 www.prosperbizdepot.com
 www.prosperchannel.com
-www.prosperidad.gov.ph
+# www.prosperidad.gov.ph
 www.prostatasaludable.com
 www.prostate-snip-bronchi.com
 www.prostatitiscanada.ca
@@ -167145,8 +167145,8 @@ www.reggiebox.com
 www.regidorpuebla.org.mx
 www.regina318.000webhostapp.com
 www.reginadorsey.com
-www.region12.dilg.gov.ph
-www.region3.dilg.gov.ph
+# www.region12.dilg.gov.ph
+# www.region3.dilg.gov.ph
 www.regionkozla.pl
 www.regionmaya.com.mx
 www.regishops.com
@@ -167349,7 +167349,7 @@ www.renovadoramartinez.com
 www.renovarapometria.com
 www.renovation4all.gr
 www.renovationkingdom.com
-www.renovationkingdom.com.au Issue 207
+# www.renovationkingdom.com.au Issue 207
 www.renowala.com
 www.renren-project.eu
 www.rensalbrothers.com
@@ -167582,7 +167582,7 @@ www.retractablecellularearpiece.com
 www.retreatatoceanview.com.au
 www.retreg.duckdns.org
 www.retrievalmagnetics.com
-www.retro-bit.com Issue 153
+# www.retro-bit.com Issue 153
 www.retrobacklore.net
 www.retrodungeon.net
 www.retrographics.net
@@ -168272,7 +168272,7 @@ www.romanticplus.com
 www.romantulis.ca
 www.romarestaurantbridgwater.co.uk
 www.romastone.vn
-www.romblonwaterdistrict.gov.ph
+# www.romblonwaterdistrict.gov.ph
 www.rome-apartments-it.com
 www.romeo.3.goodway.phenixcustomers.co.uk
 www.romeo.4.goodway.phenixcustomers.co.uk
@@ -174588,7 +174588,7 @@ www.stoptradzik.pl
 www.stor-apple.com
 www.stora-design.ru
 www.stora.contentprovider.biz
-www.storage.googleapis.com Issue 95
+# www.storage.googleapis.com Issue 95
 www.storagepinetown.co.za
 www.store-amazon.com
 www.store-apple.msk.ru
@@ -175956,7 +175956,7 @@ www.takshilamultimedia.com
 www.taktonet.pl
 www.takumi-system.biz
 www.taladkhao.com
-www.talaingod.gov.ph
+# www.talaingod.gov.ph
 www.talal-int.com
 www.talamos.co.il
 www.talampayaexc.tur.ar
@@ -177734,7 +177734,7 @@ www.tiagosantiago.com.br
 www.tianarafidy.ca
 www.tianyingsport.com
 www.tianyuwenxue.zzcn.org
-www.tiaongwaterdistrict.gov.ph
+# www.tiaongwaterdistrict.gov.ph
 www.tiaradewi827.000webhostapp.com
 www.tiasentosa.co.id
 www.tibatrade.com
@@ -186355,7 +186355,7 @@ www.zalkrjkruyzh.com
 www.zam.co.in
 www.zamanlar2.com
 www.zambile.ro
-www.zamboangadelsur.gov.ph
+# www.zamboangadelsur.gov.ph
 www.zambrano1.000webhostapp.com
 www.zamburi.ro
 www.zamektoszek.eu
@@ -189518,7 +189518,7 @@ zalco.com
 zalghani.my
 zam.co.in
 zamanlar2.com
-zamboangadelsur.gov.ph
+# zamboangadelsur.gov.ph
 zambrano1.000webhostapp.com
 zamburi.ro
 zamcnzle.fasvuqiq.maxgrowth.ru
