@@ -243,7 +243,7 @@
 0.0.0.0 js-agent.newrelic.com
 0.0.0.0 js.intercomcdn.com
 0.0.0.0 js.stripe.com
-# 0.0.0.0 k.sni.global.fastly.net Github issue
+0.0.0.0 k.sni.global.fastly.net
 0.0.0.0 landing.adobe.com
 0.0.0.0 lcs-cops.adobe.io
 0.0.0.0 lcs-entitlement.adobe.io
