@@ -4,7 +4,7 @@
 # Homepage: https://blocklist.site
 # Help: https://github.com/blocklistproject/lists/wiki/
 # License: https://unlicense.org
-# Total number of network filters: 190231
+# Total number of network filters: 190225
 # ------------------------------------[SUPPORT]-------------------------------------
 # You can support by:
 # - reporting false positives
@@ -17339,7 +17339,6 @@ blog.bdipo.com
 blog.berniagabagus.com
 blog.breakawaymedia.com
 blog.brm-inc.com
-blog.btdeployments.cu.m
 blog.btdeployments.cu.ma
 blog.buildingselfconfidence.co.uk
 blog.carmenloven.si
@@ -121398,7 +121397,6 @@ www.barckiesc.com
 www.barclaycard-credit-cards.com
 www.barclaycard-deutschland-sicherheit.info
 www.barclaycard.co.uk-online-customers-personal-support-privacy-policy.fletcherfarmfoundation.org
-www.barclaycard.co.uk-personal-codeb6259568de39651d7a-login.id-107sbtd9cbhsbtd5d80a13c0db1f546757jnq9j5754675780483825.exaways.c
 www.barclayroeder.com
 www.barclays-ae.com
 www.barclays-bank.info
@@ -143327,7 +143325,6 @@ www.https.pay-pal-account.attiazione-id-9829839s837r6s4g4555so9o0s933eh23kk43.mi
 www.https.pay-pal-it.dhxe28sde23ssf.conto-ppl.mioconto-online.it
 www.https.pay-palaccountactivation.id-9829839s837r6s4g4555s33eh23kk43.mio-conto-online.it
 www.https.paypal-it.attivailtuoconto.it
-www.https.portale-titolari-nexi-italia-online-verifica-nexi.it.infomazione.nexi-identita.conto.nexi.bp2ip.dayasinergibisnis.co.i
 www.https.secure.bank-of-america.login.sign.aepsumtzlh.underpains.duckdns.org
 www.https.secure.bank-of-america.login.sign.btbnuabqua.underpains.duckdns.org
 www.https.secure.bank-of-america.login.sign.clnsxtcsql.underpains.duckdns.org
@@ -151967,10 +151964,7 @@ www.login.microsofteonline.cf
 www.login.microsoftonline-idnoxa1-19031.worldmoneytransfer.pl
 www.login.microsoftonline.com.auth.jamentrust.org
 www.login.microsoftonline.com.common.account.oauth22.authorizeclient.id.4345a7b9.9a63.4910.a426.35363201d503.thriveconsulting.ne
-www.login.microsoftonline.com.common.oauth2.authorize.clientid4345a7b9.9a63.4910.a426-35363201d503.response.spreadsheetlimited.c
-www.login.microsoftonline.com.common.oauth2.authorize.clientid4345a7b99a634910a42635363201d503.response.mode.form.postresponse.t
 www.login.microsoftonline.com.common.oauth2.authorize.xcees.org
-www.login.microsoftonline.com.common8u75xfbqf19f91pahcgi6qsaw.authorizef91pahcgi6qsawvsxkv0ik2m1btdsy.oauth278ce259pkh6jtcee8u75
 www.login.microsoftonline.com.muvimov.net
 www.login.microsoftonline.comcommonoauth2authorize.edlorm.com
 www.login.orlandotrucksales.com
