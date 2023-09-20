@@ -79,7 +79,9 @@
 0.0.0.0 astroeggs.com
 0.0.0.0 at4re.com
 0.0.0.0 attractiveservices.com
+0.0.0.0 audiobookbay.is
 0.0.0.0 audiobookbay.li
+0.0.0.0 audiobookbay.se
 0.0.0.0 autocadbmjes.com
 0.0.0.0 autocadbmsa.com
 0.0.0.0 autocadbnaqk.com
