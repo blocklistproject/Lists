@@ -1818,6 +1818,7 @@
 0.0.0.0 www.sharetrick.com
 0.0.0.0 www.sharkdownloads.com
 0.0.0.0 www.shimory.com
+0.0.0.0 www.showrss.info
 0.0.0.0 www.sickdownload.com
 0.0.0.0 www.siliconguide.com
 0.0.0.0 www.sinister.ly
