@@ -1939,6 +1939,7 @@
 0.0.0.0 www.torfinder.net
 0.0.0.0 www.tormov.com
 0.0.0.0 www.torrentdownloads.me
+0.0.0.0 www.torrentgalaxy.to
 0.0.0.0 www.torrents-game.net
 0.0.0.0 www.torrpeda.org
 0.0.0.0 www.trening-kurs.ru
