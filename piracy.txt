@@ -976,6 +976,7 @@
 0.0.0.0 torengine.com
 0.0.0.0 torfinder.net
 0.0.0.0 tormov.com
+0.0.0.0 torrentgalaxy.to
 0.0.0.0 torrents-game.net
 0.0.0.0 torrentz2.eu
 0.0.0.0 torrpeda.org
