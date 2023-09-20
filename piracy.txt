@@ -294,6 +294,7 @@
 0.0.0.0 eztv.ag
 0.0.0.0 eztv.ch
 0.0.0.0 eztv.it
+0.0.0.0 eztv.re
 0.0.0.0 f4freesoftware.com
 0.0.0.0 fashion-factory.ru
 0.0.0.0 feuerbringer.com
@@ -1398,6 +1399,7 @@
 0.0.0.0 www.eztv.ag
 0.0.0.0 www.eztv.ch
 0.0.0.0 www.eztv.it
+0.0.0.0 www.eztv.re
 0.0.0.0 www.f4freesoftware.com
 0.0.0.0 www.f5q.ru
 0.0.0.0 www.farleyscoffeeinc.com
