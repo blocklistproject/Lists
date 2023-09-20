@@ -321,6 +321,7 @@
 0.0.0.0 free-movies-downloads.com
 0.0.0.0 free.appnee.com
 0.0.0.0 free.getlink.vn
+0.0.0.0 freecoursesonline.me
 0.0.0.0 freecrackpatch.com
 0.0.0.0 freecracksoftwares.net
 0.0.0.0 freecrackzone.com
