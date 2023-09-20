@@ -1919,6 +1919,7 @@
 0.0.0.0 www.thepiratebay.fm
 0.0.0.0 www.thepiratebay.gd
 0.0.0.0 www.thepiratebay.ms
+0.0.0.0 www.thepiratebay.org
 0.0.0.0 www.thepiratebay.se
 0.0.0.0 www.thepiratebay.vg
 0.0.0.0 www.thesefiles.com
