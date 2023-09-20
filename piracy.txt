@@ -791,6 +791,7 @@
 0.0.0.0 rth77.ru
 0.0.0.0 run-ricky-run.com
 0.0.0.0 rune-server.org
+0.0.0.0 rutracker.org
 0.0.0.0 s-telecharger.com
 0.0.0.0 s0ft4pc.com
 0.0.0.0 s10.4files.net
