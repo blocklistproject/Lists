@@ -956,6 +956,7 @@
 0.0.0.0 thepiratebay.fm
 0.0.0.0 thepiratebay.gd
 0.0.0.0 thepiratebay.ms
+0.0.0.0 thepiratebay.org
 0.0.0.0 thepiratebay.se
 0.0.0.0 thepiratebay.vg
 0.0.0.0 thesilencemusic.com
