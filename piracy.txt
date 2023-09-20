@@ -1771,6 +1771,7 @@
 0.0.0.0 www.rsmoviedownloads.com
 0.0.0.0 www.rth77.ru
 0.0.0.0 www.run-ricky-run.com
+0.0.0.0 www.rutracker.org
 0.0.0.0 www.rune-server.org
 0.0.0.0 www.s-telecharger.com
 0.0.0.0 www.s0ft4pc.com
