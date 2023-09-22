@@ -534,6 +534,9 @@
 0.0.0.0 atrack.pow7.com
 0.0.0.0 audiobit.ru
 0.0.0.0 audionews.ru
+0.0.0.0 audiobookbay.is
+0.0.0.0 audiobookbay.li
+0.0.0.0 audiobookbay.se
 0.0.0.0 audiostuff.ro
 0.0.0.0 audiotracer.com
 0.0.0.0 audiozonetorrents.com
