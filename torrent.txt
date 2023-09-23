@@ -154,6 +154,7 @@
 0.0.0.0 evolutiontt.org
 0.0.0.0 excalibur.edwardk.info
 0.0.0.0 eztvefnet.org
+0.0.0.0 eztv.re
 0.0.0.0 f.moya.scarywater.net
 0.0.0.0 familyguytorrents.com
 0.0.0.0 fatalbits.ws
