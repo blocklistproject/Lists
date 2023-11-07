@@ -13162,6 +13162,7 @@
 0.0.0.0 samsoftwares.com
 0.0.0.0 sanctioned-suicide.net
 0.0.0.0 sanctioned-suicide.org
+0.0.0.0 sanctionedsuicide.site
 0.0.0.0 sandadd.com
 0.0.0.0 sandwofecjic.eu
 0.0.0.0 sangbongworld.com
