@@ -4,7 +4,7 @@
 # Homepage: https://blocklist.site
 # Help: https://github.com/blocklistproject/lists/wiki/
 # License: https://unlicense.org
-# Total number of network filters: 2618
+# Total number of network filters: 2624
 # ------------------------------------[SUPPORT]-------------------------------------
 # You can support by:
 # - reporting false positives
@@ -153,6 +153,7 @@ server=/everydayjones.com/
 server=/evolutiontt.org/
 server=/excalibur.edwardk.info/
 server=/eztvefnet.org/
+server=/eztv.re/
 server=/f.moya.scarywater.net/
 server=/familyguytorrents.com/
 server=/fatalbits.ws/
@@ -534,6 +535,9 @@ server=/atrack-asia-s1.114913.xyz/
 server=/atrack.pow7.com/
 server=/audiobit.ru/
 server=/audionews.ru/
+server=/audiobookbay.is/
+server=/audiobookbay.li/
+server=/audiobookbay.se/
 server=/audiostuff.ro/
 server=/audiotracer.com/
 server=/audiozonetorrents.com/
@@ -1655,6 +1659,7 @@ server=/sharingzone.se/
 server=/shellife.eu/
 server=/shnflac.net/
 server=/showbits.org/
+server=/showrss.info/
 server=/siambit.com/
 server=/siambt.com/
 server=/sifara.com/
@@ -1866,6 +1871,7 @@ server=/torrentfrancais.com/
 server=/torrentfreakz.org/
 server=/torrentfriend.net/
 server=/torrentfunk.unblocked.llc/
+server=/torrentgalaxy.to/
 server=/torrenthound.com/
 server=/torrenthr.org/
 server=/torrential.ws/
