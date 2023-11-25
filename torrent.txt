@@ -18,6 +18,7 @@
 0.0.0.0 0second.com
 0.0.0.0 10mbit.com
 0.0.0.0 123bits.org
+0.0.0.0 1337x.to
 0.0.0.0 1bt.ru
 0.0.0.0 45rpmtorrents.com
 0.0.0.0 a-bt.ath.cx
@@ -153,6 +154,7 @@
 0.0.0.0 evolutiontt.org
 0.0.0.0 excalibur.edwardk.info
 0.0.0.0 eztvefnet.org
+0.0.0.0 eztv.re
 0.0.0.0 f.moya.scarywater.net
 0.0.0.0 familyguytorrents.com
 0.0.0.0 fatalbits.ws
@@ -534,6 +536,9 @@
 0.0.0.0 atrack.pow7.com
 0.0.0.0 audiobit.ru
 0.0.0.0 audionews.ru
+0.0.0.0 audiobookbay.is
+0.0.0.0 audiobookbay.li
+0.0.0.0 audiobookbay.se
 0.0.0.0 audiostuff.ro
 0.0.0.0 audiotracer.com
 0.0.0.0 audiozonetorrents.com
@@ -1655,6 +1660,7 @@
 0.0.0.0 shellife.eu
 0.0.0.0 shnflac.net
 0.0.0.0 showbits.org
+0.0.0.0 showrss.info
 0.0.0.0 siambit.com
 0.0.0.0 siambt.com
 0.0.0.0 sifara.com
@@ -1866,6 +1872,7 @@
 0.0.0.0 torrentfreakz.org
 0.0.0.0 torrentfriend.net
 0.0.0.0 torrentfunk.unblocked.llc
+0.0.0.0 torrentgalaxy.to
 0.0.0.0 torrenthound.com
 0.0.0.0 torrenthr.org
 0.0.0.0 torrential.ws
