@@ -1210,3 +1210,4 @@
 0.0.0.0 geo2.urls-real.api.twitter.com
 0.0.0.0 api-39-4-8-39-4-5.twitter.com
 0.0.0.0 gnip-stream.twitter.com
+0.0.0.0 x.com
