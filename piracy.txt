@@ -1049,6 +1049,7 @@
 0.0.0.0 warez-bb.org
 0.0.0.0 warez-start.com
 0.0.0.0 warez-vislovo.ru
+0.0.0.0 warez-world.org
 0.0.0.0 warez.loxblog.com
 0.0.0.0 warez4pc.net
 0.0.0.0 warezalot.info
