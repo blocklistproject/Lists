@@ -4,7 +4,7 @@
 # Homepage: https://blocklist.site
 # Help: https://github.com/blocklistproject/lists/wiki/
 # License: https://unlicense.org
-# Total number of network filters: 2134
+# Total number of network filters: 2135
 # ------------------------------------[SUPPORT]-------------------------------------
 # You can support by:
 # - reporting false positives
@@ -1049,6 +1049,7 @@ server=/waplog.net/
 server=/warez-bb.org/
 server=/warez-start.com/
 server=/warez-vislovo.ru/
+server=/warez-world.org/
 server=/warez.loxblog.com/
 server=/warez4pc.net/
 server=/warezalot.info/
