@@ -2108,6 +2108,7 @@
 0.0.0.0 xn--80aejjrnhcji.4files.net
 0.0.0.0 xn--80aeugjdc1b.com
 0.0.0.0 xparadise.ru
+0.0.0.0 xxxclub.to
 0.0.0.0 yiffy-torrent.org
 0.0.0.0 yify-movie.com
 0.0.0.0 yify-movies-torrents.com
