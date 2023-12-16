@@ -2612,6 +2612,7 @@
 0.0.0.0 xtremewrestlingtorrents.net
 0.0.0.0 xtvi.com
 0.0.0.0 xwt-classics.net
+0.0.0.0 xxxclub.to
 0.0.0.0 xxxtor.com
 0.0.0.0 yeeshkul.com
 0.0.0.0 yifytv.unblckd.ist
