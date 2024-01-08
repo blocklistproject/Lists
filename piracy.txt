@@ -957,6 +957,7 @@
 0.0.0.0 thepiratebay.fm
 0.0.0.0 thepiratebay.gd
 0.0.0.0 thepiratebay.ms
+0.0.0.0 thepiratebay.org
 0.0.0.0 thepiratebay.se
 0.0.0.0 thepiratebay.vg
 0.0.0.0 thesilencemusic.com
@@ -1922,6 +1923,7 @@
 0.0.0.0 www.thepiratebay.fm
 0.0.0.0 www.thepiratebay.gd
 0.0.0.0 www.thepiratebay.ms
+0.0.0.0 www.thepiratebay.org
 0.0.0.0 www.thepiratebay.se
 0.0.0.0 www.thepiratebay.vg
 0.0.0.0 www.thesefiles.com
@@ -2076,6 +2078,7 @@
 0.0.0.0 www.yts.ag
 0.0.0.0 www.yts.la
 0.0.0.0 www.yts.re
+0.0.0.0 www.yts.mx
 0.0.0.0 www.zcrack.com
 0.0.0.0 www.zdig1.biz
 0.0.0.0 www.zdownloadx451.ml
@@ -2124,6 +2127,7 @@
 0.0.0.0 youwatch.org
 0.0.0.0 yts.ag
 0.0.0.0 yts.la
+0.0.0.0 yts.mx
 0.0.0.0 yts.re
 0.0.0.0 zcrack.com
 0.0.0.0 zdig1.biz
