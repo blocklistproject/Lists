@@ -4,7 +4,7 @@
 # Homepage: https://blocklist.site
 # Help: https://github.com/blocklistproject/lists/wiki/
 # License: https://unlicense.org
-# Total number of network filters: 76462
+# Total number of network filters: 76459
 # ------------------------------------[SUPPORT]-------------------------------------
 # You can support by:
 # - reporting false positives
@@ -4642,7 +4642,6 @@ server=/ads.clickability.com/
 server=/ads.clickad.com.pl/
 server=/ads.clickagents.com/
 server=/ads.clickbuy.bz/
-server=/ads.clickhouse.com/
 server=/ads.clicksor.cn/
 server=/ads.clicksor.com/
 server=/ads.clickthru.net/
@@ -14927,7 +14926,6 @@ server=/clickfuse.com/
 server=/clickgp.gyao.jp/
 server=/clickheat.topbucks.com/
 server=/clickhereforcellphones.com/
-server=/clickhouse.com/
 server=/clickhype.com/
 server=/clickit.go2net.com/
 server=/clickjump.biz/
@@ -61863,7 +61861,6 @@ server=/www.clickcash.com/
 server=/www.clickclick.com/
 server=/www.clickdensity.com/
 server=/www.clickedgesolutions.com/
-server=/www.clickhouse.com/
 server=/www.clickjump.biz/
 server=/www.clickmanage.com/
 server=/www.clickmeter.com/

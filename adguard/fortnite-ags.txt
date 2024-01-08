@@ -1,0 +1,7 @@
+!fortnite blocklist for pi hole
+fortnite-matchmaking-public-service-live-eu.ol.epicgames.com
+fortnite-matchmaking-public-service-live-eu.ol.epicgames.com
+eos-gateway-ingressv2-prod-c3-w4.befa.live.use1a.on.epicgames.com
+eos-gateway-ingressv2-prod-c3-w3.befa.live.use1a.on.epicgames.com
+datarouter.ol.epicgames.com 
+account-service-prod03-pub-ak-1731030959.us-east-1.elb.amazonaws.com
