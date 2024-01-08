@@ -365,6 +365,7 @@
 0.0.0.0 games4u.ws
 0.0.0.0 gamesfreecheat.com
 0.0.0.0 gamezlinks.net
+0.0.0.0 game-2u.com
 0.0.0.0 gamingstreet.org
 0.0.0.0 garaje.ya.com
 0.0.0.0 general-catalog.com
@@ -690,7 +691,9 @@
 0.0.0.0 ns2.wilsongriak.com
 0.0.0.0 ns2.zipcodeshop.com
 0.0.0.0 nsanedown.com
+0.0.0.0 nsw2u.com
 0.0.0.0 nulledhome.com
+0.0.0.0 nxbrew.com
 0.0.0.0 oakvilleorthotics.com
 0.0.0.0 oldgames.zp.ua
 0.0.0.0 oneleech.com
@@ -762,6 +765,8 @@
 0.0.0.0 prosmart.by
 0.0.0.0 prosmotr-filmov.ru
 0.0.0.0 proxy.nsanedown.com
+0.0.0.0 ps4pkg.com
+0.0.0.0 ps5pkg.net
 0.0.0.0 psd-slice.com
 0.0.0.0 psperspective.net
 0.0.0.0 pspstrana.ru
