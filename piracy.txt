@@ -987,6 +987,7 @@
 0.0.0.0 torengine.com
 0.0.0.0 torfinder.net
 0.0.0.0 tormov.com
+0.0.0.0 torrentgalaxy.to
 0.0.0.0 torrents-game.net
 0.0.0.0 torrentz2.eu
 0.0.0.0 torrpeda.org
@@ -1954,6 +1955,7 @@
 0.0.0.0 www.torfinder.net
 0.0.0.0 www.tormov.com
 0.0.0.0 www.torrentdownloads.me
+0.0.0.0 www.torrentgalaxy.to
 0.0.0.0 www.torrents-game.net
 0.0.0.0 www.torrpeda.org
 0.0.0.0 www.trening-kurs.ru
