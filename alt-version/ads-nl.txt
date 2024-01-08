@@ -4,7 +4,7 @@
 # Homepage: https://blocklist.site
 # Help: https://github.com/blocklistproject/lists/wiki/
 # License: https://unlicense.org
-# Total number of network filters: 154559
+# Total number of network filters: 154556
 # ------------------------------------[SUPPORT]-------------------------------------
 # You can support by:
 # - reporting false positives
@@ -51812,7 +51812,6 @@ clickhere.ru
 clickhereforcellphones.com
 clickhereforfun.org
 clickheretofind.com
-clickhouse.com
 clickhubs.com
 clickhype.com
 clicki.cn
@@ -81996,7 +81995,6 @@ ir0.mobify.com
 ir1p5.voluumtrk.com
 ir2.beap.gemini.yahoo.com
 ir752.voluumtrk.com
-iraiser.eu
 iran-gold.com
 iranpopup.ir
 irantableegh.org
@@ -144824,7 +144822,6 @@ www.clickclick.com
 www.clickdealer.com
 www.clickdensity.com
 www.clickedyclick.com
-www.clickhouse.com
 www.clickice.com
 www.clickintext.com
 www.clickiocdn.com
