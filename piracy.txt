@@ -15,6 +15,7 @@
 # ------------------------------------[FILTERS]-------------------------------------
 0.0.0.0 0daycn.net
 0.0.0.0 100-postal2.blogspot.com
+0.0.0.0 1337x.to
 0.0.0.0 160kbps.4files.net
 0.0.0.0 1clickdown.com
 0.0.0.0 22jumpstreetonlinenow.comunidades.net
