@@ -48,14 +48,15 @@ const listsToIncludeInEverythingList = [
 `# ------------------------------------[UPDATE]--------------------------------------
 # Title: The Block List Project - Everything List
 # Expires: 1 day
-# Homepage: https://blocklist.site
+# Homepage: https://blocklistproject.github.io/Lists/
 # Help: https://github.com/blocklistproject/lists/wiki/
 # License: https://unlicense.org
 # Total number of network filters:
 # ------------------------------------[SUPPORT]-------------------------------------
 # You can support by:
 # - reporting false positives
-# - making a donation: https://paypal.me/blocklistproject
+# - making a donation via paypal: https://paypal.me/blocklistproject
+# - making a donation via patreon: https://www.patreon.com/theblocklistproject
 # -------------------------------------[INFO]---------------------------------------
 #
 # Everything list
