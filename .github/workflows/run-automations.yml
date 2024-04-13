@@ -23,6 +23,6 @@ jobs:
       - name: Commit & Push
         uses: actions-x/commit@v6
         with:
-          email: noreply@blocklist.site
+          email: actions@github.com
           name: GitHub Actions
           branch: master
