@@ -1,5 +1,8 @@
 <img src="https://raw.githubusercontent.com/blocklistproject/Lists/master/img/logo.webp" height="150px"/>  
 
+# MAJOR UPDATE:
+## We are moving forward with a merge of this project and a complete rewrite. As more details are available we will update the repo.
+
 # The Block List Project
 
 [![GitHub issues](https://img.shields.io/github/issues/blocklistproject/lists)](https://github.com/blocklistproject/Lists/issues)
