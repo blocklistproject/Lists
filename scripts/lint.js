@@ -4,79 +4,83 @@ const path = require("path");
 (async () => {
 	let hasError = false;
 
-	const files = (await fs.readdir(path.join(__dirname, ".."))).filter((file) => file.endsWith(".txt")); // Array of strings, each representing a single file that ends in `.txt`
-	await Promise.all(files.filter((file) => file !== "everything.txt").map(async (file) => { // For each file
-		const fileContents = await fs.readFile(path.join(__dirname, "..", file), "utf8"); // Get file contents as a string
+	try {
+		const directoryPath = path.join(__dirname, "..");
+		const files = (await fs.readdir(directoryPath)).filter(file => file.endsWith(".txt") && file !== "everything.txt");
 
-		const commentedURLs = fileContents.split("\n").map((line) => {
-			if (line.startsWith("# 0.0.0.0")) {
-				return line.split(" ")[2].trim();
-			}
+		await Promise.all(files.map(async file => {
+			const filePath = path.join(directoryPath, file);
+			const fileContents = await fs.readFile(filePath, "utf8");
 
-			return null;
-		}).filter((a) => a !== null && !!a);
+			const lines = fileContents.split("\n");
+			const commentedURLs = lines
+				.filter(line => line.startsWith("# 0.0.0.0"))
+				.map(line => line.split(" ")[2].trim());
 
-		let isHeaderComplete = false;
-		fileContents.split("\n").forEach((line, index) => {
-			if (line.startsWith("0.0.0.0")) {
-				isHeaderComplete = true;
-			}
+			let isHeaderComplete = false;
 
-			// Ensuring that no version/date might confuse users that read the raw text-file(s)
-			if (line.length > 0 && !line.indexOf("Version")) {
-				console.error(`Line ${index + 1} in ${file} must not contain a Version/Date.`);
-				hasError = true;
-			}
+			lines.forEach((line, index) => {
+				// Mark the end of the header section
+				if (line.startsWith("0.0.0.0")) {
+					isHeaderComplete = true;
+				}
 
-			// Ensuring that all lines start with "#" or "0.0.0.0 "
-			if (line.length > 0 && !line.startsWith("#") && !line.startsWith("0.0.0.0 ")) {
-				console.error(`Line ${index + 1} in ${file} must start with "#" or "0.0.0.0 ".`);
-				hasError = true;
-			}
-
-			// Checking to ensure all URLs are lowercase
-			if (line.startsWith("0.0.0.0 ")) {
-				const lineNoIP = line.replace("0.0.0.0 ", "");
-				const url = lineNoIP.split("#")[0].trim();
-				if (url.toLowerCase() !== url) {
-					console.error(`Line ${index + 1} in ${file} url ${url} must be all lowercase.`);
+				// Check if the line contains a Version or Date, which should be avoided
+				if (line.includes("Version") || line.includes("Date")) {
+					console.error(`Line ${index + 1} in ${file} must not contain a Version/Date.`);
 					hasError = true;
 				}
-			}
 
-			// Ensuring that all lines that start with `#` are followed by a space
-			if (line.startsWith("#") && line.length > 1 && line[1] !== " ") {
-				console.error(`Line ${index + 1} in ${file} should have a space after #.`);
-				hasError = true;
-			}
-
-			// Ensure that after header is complete that all lines that start with `#` start with `# 0.0.0.0` or `# NOTE:`
-			if (isHeaderComplete && line.startsWith("#") && !line.startsWith("# 0.0.0.0") && !line.startsWith("# NOTE:")) {
-				console.error(`Line ${index + 1} in ${file} should start with "# 0.0.0.0" or "# NOTE:".`);
-				hasError = true;
-			}
-
-			// Ensure that the URL doesn't exist in the commentedURLs array
-			if (line.startsWith("0.0.0.0 ")) {
-				const lineNoIP = line.replace("0.0.0.0 ", "");
-				const url = lineNoIP.split("#")[0].trim();
-				if (commentedURLs.includes(url)) {
-					console.error(`Line ${index + 1} in ${file} url ${url} is commented out in this file. This suggests an error. Please either remove this line or remove the commented URL.`);
+				// Validate that each line starts with "#" or "0.0.0.0 "
+				if (line.trim() && !line.startsWith("#") && !line.startsWith("0.0.0.0 ")) {
+					console.error(`Line ${index + 1} in ${file} must start with "#" or "0.0.0.0 ".`);
 					hasError = true;
 				}
-			}
 
-			// Ensure that the URL doesn't contain whitespace characters
-			if (line.startsWith("0.0.0.0 ")) {
-				const lineNoIP = line.replace("0.0.0.0 ", "");
-				const url = lineNoIP.split("#")[0].trim();
-				if (/\s/gmu.test(url)) {
-					console.error(`Line ${index + 1} in ${file} url ${url} contains whitespace in the URL.`);
+				// Ensure URLs in the file are lowercase
+				if (line.startsWith("0.0.0.0 ")) {
+					const url = line.split(" ")[1].split("#")[0].trim();
+					if (url.toLowerCase() !== url) {
+						console.error(`Line ${index + 1} in ${file} URL ${url} must be all lowercase.`);
+						hasError = true;
+					}
+				}
+
+				// Validate that lines starting with "#" have a space following the "#"
+				if (line.startsWith("#") && line.length > 1 && line[1] !== " ") {
+					console.error(`Line ${index + 1} in ${file} should have a space after "#".`);
 					hasError = true;
 				}
-			}
-		});
-	}));
 
-	process.exit(hasError ? 1 : 0);
+				// Check that lines after the header with "#" start with "# 0.0.0.0" or "# NOTE:"
+				if (isHeaderComplete && line.startsWith("#") && !line.startsWith("# 0.0.0.0") && !line.startsWith("# NOTE:")) {
+					console.error(`Line ${index + 1} in ${file} should start with "# 0.0.0.0" or "# NOTE:".`);
+					hasError = true;
+				}
+
+				// Ensure that no active URL matches a commented-out URL
+				if (line.startsWith("0.0.0.0 ")) {
+					const url = line.split(" ")[1].split("#")[0].trim();
+					if (commentedURLs.includes(url)) {
+						console.error(`Line ${index + 1} in ${file} URL ${url} is commented out in this file. Please remove the duplicate or uncomment the URL.`);
+						hasError = true;
+					}
+				}
+
+				// Ensure URLs do not contain whitespace
+				if (line.startsWith("0.0.0.0 ")) {
+					const url = line.split(" ")[1].split("#")[0].trim();
+					if (/\s/g.test(url)) {
+						console.error(`Line ${index + 1} in ${file} URL ${url} contains whitespace.`);
+						hasError = true;
+					}
+				}
+			});
+		}));
+
+		process.exit(hasError ? 1 : 0);
+	} catch (error) {
+		console.error("An error occurred during file processing:", error);
+		process.exit(1);
+	}
 })();
