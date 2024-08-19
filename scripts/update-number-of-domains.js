@@ -2,19 +2,31 @@ const fs = require("fs").promises;
 const path = require("path");
 
 (async () => {
-	const files = (await fs.readdir(path.join(__dirname, ".."))).filter((file) => file.endsWith(".txt")); // Array of strings, each representing a single file that ends in `.txt`
+	try {
+		const directoryPath = path.join(__dirname, "..");
+		const files = (await fs.readdir(directoryPath)).filter(file => file.endsWith(".txt"));
 
-	await Promise.all(files.map(async (file) => { // For each file
-		const existingDomains = new Set();
+		await Promise.all(files.map(async file => {
+			const filePath = path.join(directoryPath, file);
+			const fileContents = await fs.readFile(filePath, "utf8");
 
-		const fileContents = await fs.readFile(path.join(__dirname, "..", file), "utf8"); // Get file contents as a string
+			// Extract unique domains
+			const existingDomains = new Set(
+				fileContents
+					.split("\n")
+					.filter(line => line.startsWith("0.0.0.0 "))
+					.map(line => line.replace("0.0.0.0 ", ""))
+			);
 
-		fileContents.split("\n").forEach((line) => {
-			if (line.startsWith("0.0.0.0 ")) {
-				existingDomains.add(line.replace("0.0.0.0 ", ""));
-			}
-		});
+			// Update the total number of network filters
+			const updatedContents = fileContents.replace(
+				/^# Total number of network filters: ?(\d*)$/gm,
+				`# Total number of network filters: ${existingDomains.size}`
+			);
 
-		await fs.writeFile(path.join(__dirname, "..", file), fileContents.replace(/^# Total number of network filters: ?(\d*)$/gmu, `# Total number of network filters: ${existingDomains.size}`), "utf8");
-	}));
+			await fs.writeFile(filePath, updatedContents, "utf8");
+		}));
+	} catch (error) {
+		console.error("Error processing files:", error);
+	}
 })();
