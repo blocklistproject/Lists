@@ -2513,3 +2513,4 @@
 0.0.0.0 in.1x001.com
 0.0.0.0 rajbet.com
 0.0.0.0 ecuabet.com
+0.0.0.0 galabingo.com
