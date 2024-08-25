@@ -26,7 +26,7 @@
 0.0.0.0 control-zoo-dtsstage.tvinteractive.tv
 0.0.0.0 cooper.logs.roku.com
 0.0.0.0 coordinator-production-28516768.us-east-1.elb.amazonaws.com
-0.0.0.0 d179kwmlpc4o47.cloudfront.ne
+0.0.0.0 d179kwmlpc4o47.cloudfront.net
 0.0.0.0 d1oxlq5h9kq8q5.cloudfront.net
 0.0.0.0 d2tnx644ijgq6i.cloudfront.net
 0.0.0.0 d3mjsomixevyw7.cloudfront.net
