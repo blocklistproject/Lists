@@ -1,15 +1,35 @@
-const fs = require("fs").promises;
-const path = require("path");
+const fs = require("node:fs").promises;
+const path = require("node:path");
 
 (async () => {
-	const files = (await fs.readdir(path.join(__dirname, ".."))).filter((file) => file.endsWith(".txt")); // Array of strings, each representing a single file that ends in `.txt`
-	await Promise.all(files.map(async (file) => { // For each file
-		const fileContents = await fs.readFile(path.join(__dirname, "..", file), "utf8"); // Get file contents as a string
-		const noIPFileContents = fileContents
-		.replaceAll(/0\.0\.0\.0 (.*?)( .*)?$/gmu, "0.0.0.0 $1/$2") // I need this line to add "/" at the end of each URL
-		.replaceAll(/^0\.0\.0\.0 /gmu, "server=/") // Replace all occurances of "0.0.0.0 " at the beginning of the line with "server=/"
-		.replaceAll(/^# 0\.0\.0\.0 /gmu, "# server=/") // Replace all occurances of "# 0.0.0.0 " at the beginning of the line with "# server=/"
-		.replace(/^# Title: (.*?)$/gmu, "# Title: $1 (dnsmasq)"); // Add (dnsmasq) to end of title
-		await fs.writeFile(path.join(__dirname, "..", "dnsmasq-version", file.replace(".txt", "-dnsmasq.txt")), noIPFileContents, "utf8"); // Write new file to `alt-version` directory
-	}));
+	try {
+		const files = (await fs.readdir(path.join(__dirname, ".."))).filter(
+			(file) => file.endsWith(".txt"),
+		);
+		await Promise.all(
+			files.map(async (file) => {
+				const fileContents = await fs.readFile(
+					path.join(__dirname, "..", file),
+					"utf8",
+				);
+				const dnsmasqFileContents = fileContents
+					.replaceAll(/0\.0\.0\.0 (.*?)( .*)?$/gmu, "0.0.0.0 $1/")
+					.replaceAll(/^0\.0\.0\.0 /gmu, "server=/")
+					.replaceAll(/^# 0\.0\.0\.0 /gmu, "# server=/")
+					.replace(/^# Title: (.*?)$/gmu, "# Title: $1 (dnsmasq)");
+				await fs.writeFile(
+					path.join(
+						__dirname,
+						"..",
+						"dnsmasq-version",
+						file.replace(".txt", "-dnsmasq.txt"),
+					),
+					dnsmasqFileContents,
+					"utf8",
+				);
+			}),
+		);
+	} catch (error) {
+		console.error("Error processing files:", error);
+	}
 })();
