@@ -1,23 +1,25 @@
-const fs = require("fs").promises;
-const path = require("path");
+const fs = require("node:fs").promises;
+const path = require("node:path");
 
 (async () => {
-	let hasError = false;
+	const hasError = false;
 
 	try {
 		const directoryPath = path.join(__dirname, "..");
-		const files = (await fs.readdir(directoryPath)).filter(file => file.endsWith(".txt") && file !== "everything.txt");
+		const files = (await fs.readdir(directoryPath)).filter(
+			(file) => file.endsWith(".txt") && file !== "everything.txt",
+		);
 
-		await Promise.all(files.map(async file => {
-			const filePath = path.join(directoryPath, file);
-			const fileContents = await fs.readFile(filePath, "utf8");
+		await Promise.all(
+			files.map(async (file) => {
+				const filePath = path.join(directoryPath, file);
+				const fileContents = await fs.readFile(filePath, "utf8");
+				const lines = fileContents.split("\n");
+				const commentedURLs = lines
+					.filter((line) => line.startsWith("# 0.0.0.0"))
+					.map((line) => line.split(" ")[2].trim());
 
-			const lines = fileContents.split("\n");
-			const commentedURLs = lines
-				.filter(line => line.startsWith("# 0.0.0.0"))
-				.map(line => line.split(" ")[2].trim());
-
-			let isHeaderComplete = false;
+				let isHeaderComplete = false;
 
 			lines.forEach((line, index) => {
 				// Mark the end of the header section
@@ -77,6 +79,7 @@ const path = require("path");
 				}
 			});
 		}));
+
 
 		process.exit(hasError ? 1 : 0);
 	} catch (error) {
