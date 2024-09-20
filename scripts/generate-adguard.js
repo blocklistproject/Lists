@@ -1,15 +1,35 @@
-const fs = require("fs").promises;
-const path = require("path");
+const fs = require("node:fs").promises;
+const path = require("node:path");
 
 (async () => {
-	const files = (await fs.readdir(path.join(__dirname, ".."))).filter((file) => file.endsWith(".txt")); // Array of strings, each representing a single file that ends in `.txt`
-	await Promise.all(files.map(async (file) => { // For each file
-		const fileContents = await fs.readFile(path.join(__dirname, "..", file), "utf8"); // Get file contents as a string
-		const adGuardFileContents = fileContents
-		.replace(/^# Title: (.*?)$/gmu, "# Title: $1 (adguard)") // Add (adguard) to end of title
-		.replaceAll(/^# 0\.0\.0\.0 (.*?) (.*)/gmu, "@@||$1^! $2")
-		.replaceAll(/0\.0\.0\.0 (.*?)$/gmu, "||$1^")
-		.replaceAll(/^#/gmu, "!");
-		await fs.writeFile(path.join(__dirname, "..", "adguard", file.replace(".txt", "-ags.txt")), adGuardFileContents, "utf8"); // Write new file to `adguard` directory
-	}));
+	try {
+		const files = (await fs.readdir(path.join(__dirname, ".."))).filter(
+			(file) => file.endsWith(".txt"),
+		);
+		await Promise.all(
+			files.map(async (file) => {
+				const fileContents = await fs.readFile(
+					path.join(__dirname, "..", file),
+					"utf8",
+				);
+				const adGuardFileContents = fileContents
+					.replace(/^# Title: (.*?)$/gmu, "# Title: $1 (adguard)")
+					.replaceAll(/^# 0\.0\.0\.0 (.*?) (.*)/gmu, "@@||$1^! $2")
+					.replaceAll(/0\.0\.0\.0 (.*?)$/gmu, "||$1^")
+					.replaceAll(/^#/gmu, "!");
+				await fs.writeFile(
+					path.join(
+						__dirname,
+						"..",
+						"adguard",
+						file.replace(".txt", "-ags.txt"),
+					),
+					adGuardFileContents,
+					"utf8",
+				);
+			}),
+		);
+	} catch (error) {
+		console.error("Error processing files:", error);
+	}
 })();
