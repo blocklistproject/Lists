@@ -42,6 +42,8 @@ steampowered.com
 steamstatic.com
 steamstore-a.akamaihd.net
 steamusercontent-a.akamaihd.net
+store.steampowered.com
+help.steampowered.com
 
 #xbox live
 xbox.com
