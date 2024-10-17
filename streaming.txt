@@ -63,7 +63,7 @@ paramountplus.com
 crunchyroll.com
 
 #claro video
-clarovideo.com
+0.0.0.0 clarovideo.com
 
 #tigo sports
-tigosports.gt
+0.0.0.0 tigosports.gt
