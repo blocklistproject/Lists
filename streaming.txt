@@ -67,3 +67,5 @@ jtvnw.net
 
 #tigo sports
 0.0.0.0 tigosports.gt
+0.0.0.0 www.tigosports.gt
+0.0.0.0 api.tigosports.gt
