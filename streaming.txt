@@ -1,66 +1,66 @@
 #vk
-userapi.com
-vk-cdn.net
-vk-portal.net
-vk.cc
-vk.com
-vkontakte.ru
-vkuservideo.net
-vk.link
+0.0.0.0 userapi.com
+0.0.0.0 vk-cdn.net
+0.0.0.0 vk-portal.net
+0.0.0.0 vk.cc
+0.0.0.0 vk.com
+0.0.0.0 vkontakte.ru
+0.0.0.0 vkuservideo.net
+0.0.0.0 vk.link
 
 #vimeo
-vimeo-video.map.fastly.net
-vimeo.com
-vimeo.map.fastly.net
-vimeocdn.com
+0.0.0.0 vimeo-video.map.fastly.net
+0.0.0.0 vimeo.com
+0.0.0.0 vimeo.map.fastly.net
+0.0.0.0 vimeocdn.com
 
 #twich
-ext-twitch.tv
+0.0.0.0 ext-twitch.tv
 jtvnw.net
-ttvnw.net
-ttvnw.net
-twitch.map.fastly.net
-twitch.tv
-twitchcdn.net
-twitchsvc.net
+0.0.0.0 ttvnw.net
+0.0.0.0 ttvnw.net
+0.0.0.0 twitch.map.fastly.net
+0.0.0.0 twitch.tv
+0.0.0.0 twitchcdn.net
+0.0.0.0 twitchsvc.net
 
 #netflix
-netflix.com
-netflix.net
-nflxext.com
-nflximg.net
-nflxso.net
-nflxvideo.net
+0.0.0.0 netflix.com
+0.0.0.0 netflix.net
+0.0.0.0 nflxext.com
+0.0.0.0 nflximg.net
+0.0.0.0 nflxso.net
+0.0.0.0 nflxvideo.net
 
 #hulu
-hulu.com
+0.0.0.0 hulu.com
 
 #hbo Max
-hbomax.com
-max.com
+0.0.0.0 hbomax.com
+0.0.0.0 max.com
 
 #Disney Plus
-disney-plus.net
-disneyplus.com
-disneyplus.disney.co.jp
-dssott.com
-dssott.com.c.footprint.net
-search-api-disney.bamgrid.com
+0.0.0.0 disney-plus.net
+0.0.0.0 disneyplus.com
+0.0.0.0 disneyplus.disney.co.jp
+0.0.0.0 dssott.com
+0.0.0.0 dssott.com.c.footprint.net
+0.0.0.0 search-api-disney.bamgrid.com
 
 #dailymotion
-dailymotion.com
-dm-event.net
-dmcdn.net
+0.0.0.0 dailymotion.com
+0.0.0.0 dm-event.net
+0.0.0.0 dmcdn.net
 
 #amazon prime video
-primevideo.com
-amazonvideo.com
+0.0.0.0 primevideo.com
+0.0.0.0 amazonvideo.com
 
 #paramount plus
-paramountplus.com
+0.0.0.0 paramountplus.com
 
 #crunchyrroll
-crunchyroll.com
+0.0.0.0 crunchyroll.com
 
 #claro video
 0.0.0.0 clarovideo.com
