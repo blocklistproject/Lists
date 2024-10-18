@@ -66,3 +66,57 @@ ea.com
 #ubisoft
 ubisoft.com
 store.ubisoft.com
+
+####Gamers https://github.com/InAUGral/pihole-blocklist-gametrackers?tab=readme-ov-file
+# nVidia
+ls.dtrace.nvidia.com
+telemetry.gfe.nvidia.com
+accounts.nvgs.nvidia.com
+nvidia.tt.omtrdc.net
+api.commune.ly
+login.nvgs.nvidia.cn
+events.gfe.nvidia.com
+
+# Redshell
+redshell.io
+api.redshell.io
+treasuredata.com
+api.treasuredata.com
+
+# Blizzard
+telemetry-in.battle.net
+
+# Epic Games
+dev.epicgames.com
+api.epicgames.dev
+et.epicgames.com
+et2.epicgames.com
+udn.epicgames.com
+etsource.epicgames.com
+metrics.ol.epicgames.com
+datarouter.ol.epicgames.com
+
+# Unity Engine
+cdp.cloud.unity3d.com
+api.uca.cloud.unity3d.com
+config.uca.cloud.unity3d.com
+perf-events.cloud.unity3d.com
+prd-lender.cdp.internal.unity3d.com
+thind-gke-usc.prd.data.corp.unity3d.com
+thind-prd-knob.data.ie.unity3d.com
+remote-config-proxy-prd.uca.cloud.unity3d.com
+data-optout-service.uca.cloud.unity3d.com
+
+# GOG
+marketing-sections.gog.com
+insights-collector.gog.com
+
+# Google
+google-analytics.com
+google-analytics.ie
+pagead.googlesyndication.com
+pagead2.googlesyndication.com
+ad.doubleclick.net
+ypn-js.overture.com
+googleads.g.doubleclick.net
+googletagmanager.com
