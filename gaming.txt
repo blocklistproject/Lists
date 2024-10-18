@@ -13,6 +13,9 @@ discordapp.net
 epicgames.com
 store.epicgames.com
 
+#electronics arts
+ea.com
+
 #league of legends
 leagueoflegends.com
 lol.riotgames.com
