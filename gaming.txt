@@ -2,6 +2,9 @@
 battle.net
 blizzard.com
 
+#gog
+gog.com
+
 #discord
 discord.com
 discord.gg
