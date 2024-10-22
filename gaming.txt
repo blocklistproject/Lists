@@ -113,6 +113,13 @@ steamstore-a.akamaihd.net
 steamusercontent-a.akamaihd.net
 store.steampowered.com
 help.steampowered.com
+api.steampowered.com
+login.steampowered.com
+store.akamai.steamstatic.com	
+store.steamstatic.com
+store.cloudflare.steamstatic.com
+shared.akamai.steamstatic.com
+shared.fastly.steamstatic.com
 
 #xbox live
 xbox.com
