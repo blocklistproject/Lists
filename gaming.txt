@@ -37,7 +37,11 @@ static-assets-prod.epicgames.com
 tracking.epicgames.com
 presence-public-service-prod.ak.epicgames.com
 datarouter-prod.ak.epicgames.com
-talon-website-prod.ecosec.on.epicgames.com.	
+talon-website-prod.ecosec.on.epicgames.com
+launcher-public-service-prod.ak.epicgames.com
+account-public-service-prod.ak.epicgames.com
+catalog-public-service-prod.ak.epicgames.com
+cloudflare.epicgamescdn.com
 
 #epic games store extended
 account-public-service-prod03.ol.epicgames.com
