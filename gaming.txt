@@ -1,9 +1,23 @@
 #blizzard
 battle.net
 blizzard.com
+us.shop.battle.net
+us.blizzard.com
+navbar.blizzard.com
+www.blizzard.com
+account.battle.net
+blz-contentstack-assets.akamaized.net.	
+images.blz-contentstack.com.	
+assets.blz-contentstack.com.	
+
 
 #gog
 gog.com
+sections.gog.com
+menu.gog.com	
+api.gog.com
+images.gog.com	
+www.gog.com
 
 #discord
 discord.com
@@ -11,10 +25,19 @@ discord.gg
 discord.media
 discordapp.com
 discordapp.net
+cdn.discordapp.com
+
 
 #epic games 
 epicgames.com
 store.epicgames.com
+graphql.epicgames.com
+www.epicgames.com
+static-assets-prod.epicgames.com
+tracking.epicgames.com
+presence-public-service-prod.ak.epicgames.com
+datarouter-prod.ak.epicgames.com
+talon-website-prod.ecosec.on.epicgames.com.	
 
 #epic games store extended
 account-public-service-prod03.ol.epicgames.com
