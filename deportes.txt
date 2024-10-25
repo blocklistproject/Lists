@@ -112,7 +112,6 @@
 *.futbol.aquitodito.com
 *.pirlotv.sbs
 *.futbollibreonline.com
-*.pirlotv.fr
 *.pirlotvguatemala.com
 *.pirlotv.ar
 *.pirlotv.activo.mx
@@ -124,5 +123,6 @@
 *.tarjetarojatvenvivo.de
 *.rojadirectaenvivo.lat
 *.pirlotvhd.ws
+*.pirlotv.fr
 
 
