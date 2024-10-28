@@ -124,5 +124,6 @@
 *.rojadirectaenvivo.lat
 *.pirlotvhd.ws
 *.pirlotv.fr
+*.pirlotvenhd.online
 
 
