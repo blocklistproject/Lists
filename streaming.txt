@@ -1,71 +1,69 @@
 #vk
-0.0.0.0 userapi.com
-0.0.0.0 vk-cdn.net
-0.0.0.0 vk-portal.net
-0.0.0.0 vk.cc
-0.0.0.0 vk.com
-0.0.0.0 vkontakte.ru
-0.0.0.0 vkuservideo.net
-0.0.0.0 vk.link
+*.userapi.com
+*.vk-cdn.net
+*.vk-portal.net
+*.vk.cc
+*.vk.com
+*.vkontakte.ru
+*.vkuservideo.net
+*.vk.link
 
 #vimeo
-0.0.0.0 vimeo-video.map.fastly.net
-0.0.0.0 vimeo.com
-0.0.0.0 vimeo.map.fastly.net
-0.0.0.0 vimeocdn.com
+*.vimeo-video.map.fastly.net
+*.vimeo.com
+*.vimeo.map.fastly.net
+*.vimeocdn.com
 
 #twich
-0.0.0.0 ext-twitch.tv
+*.ext-twitch.tv
 jtvnw.net
-0.0.0.0 ttvnw.net
-0.0.0.0 ttvnw.net
-0.0.0.0 twitch.map.fastly.net
-0.0.0.0 twitch.tv
-0.0.0.0 twitchcdn.net
-0.0.0.0 twitchsvc.net
+*.ttvnw.net
+*.ttvnw.net
+*.twitch.map.fastly.net
+*.twitch.tv
+*.twitchcdn.net
+*.twitchsvc.net
 
 #netflix
-0.0.0.0 netflix.com
-0.0.0.0 netflix.net
-0.0.0.0 nflxext.com
-0.0.0.0 nflximg.net
-0.0.0.0 nflxso.net
-0.0.0.0 nflxvideo.net
+*.netflix.com
+*.netflix.net
+*.nflxext.com
+*.nflximg.net
+*.nflxso.net
+*.nflxvideo.net
 
 #hulu
-0.0.0.0 hulu.com
+*.hulu.com
 
 #hbo Max
-0.0.0.0 hbomax.com
-0.0.0.0 max.com
+*.hbomax.com
+*.max.com
 
 #Disney Plus
-0.0.0.0 disney-plus.net
-0.0.0.0 disneyplus.com
-0.0.0.0 disneyplus.disney.co.jp
-0.0.0.0 dssott.com
-0.0.0.0 dssott.com.c.footprint.net
-0.0.0.0 search-api-disney.bamgrid.com
+*.disney-plus.net
+*.disneyplus.com
+*.disneyplus.disney.co.jp
+*.dssott.com
+*.dssott.com.c.footprint.net
+*.search-api-disney.bamgrid.com
 
 #dailymotion
-0.0.0.0 dailymotion.com
-0.0.0.0 dm-event.net
-0.0.0.0 dmcdn.net
+*.dailymotion.com
+*.dm-event.net
+*.dmcdn.net
 
 #amazon prime video
-0.0.0.0 primevideo.com
-0.0.0.0 amazonvideo.com
+*.amazonvideo.com
 
 #paramount plus
-0.0.0.0 paramountplus.com
+*.paramountplus.com
 
 #crunchyrroll
-0.0.0.0 crunchyroll.com
+*.crunchyroll.com
 
 #claro video
-0.0.0.0 clarovideo.com
+*.clarovideo.com
 
 #tigo sports
-0.0.0.0 tigosports.gt
-0.0.0.0 www.tigosports.gt
-0.0.0.0 api.tigosports.gt
+*.tigosports.gt
+*.api.tigosports.gt
