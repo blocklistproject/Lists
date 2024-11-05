@@ -26,7 +26,7 @@ config.samsungads.com
 control-zoo-dtsstage.tvinteractive.tv
 cooper.logs.roku.com
 coordinator-production-28516768.us-east-1.elb.amazonaws.com
-d179kwmlpc4o47.cloudfront.ne
+d179kwmlpc4o47.cloudfront.net
 d1oxlq5h9kq8q5.cloudfront.net
 d2tnx644ijgq6i.cloudfront.net
 d3mjsomixevyw7.cloudfront.net
