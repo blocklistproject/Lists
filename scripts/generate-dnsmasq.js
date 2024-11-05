@@ -3,33 +3,46 @@ const path = require("node:path");
 
 (async () => {
 	try {
-		const files = (await fs.readdir(path.join(__dirname, ".."))).filter(
-			(file) => file.endsWith(".txt"),
-		);
+		// Define base and output directories
+		const baseDir = path.join(__dirname, "..");
+		const outputDir = path.join(baseDir, "dnsmasq-version");
+
+		// Ensure the output directory exists
+		await fs.mkdir(outputDir, { recursive: true });
+
+		// Get a list of all .txt files in the base directory
+		const files = (await fs.readdir(baseDir)).filter((file) => file.endsWith(".txt"));
+
+		// Process each file concurrently
 		await Promise.all(
 			files.map(async (file) => {
-				const fileContents = await fs.readFile(
-					path.join(__dirname, "..", file),
-					"utf8",
-				);
-				const dnsmasqFileContents = fileContents
-					.replaceAll(/0\.0\.0\.0 (.*?)( .*)?$/gmu, "0.0.0.0 $1/")
-					.replaceAll(/^0\.0\.0\.0 /gmu, "server=/")
-					.replaceAll(/^# 0\.0\.0\.0 /gmu, "# server=/")
-					.replace(/^# Title: (.*?)$/gmu, "# Title: $1 (dnsmasq)");
-				await fs.writeFile(
-					path.join(
-						__dirname,
-						"..",
-						"dnsmasq-version",
-						file.replace(".txt", "-dnsmasq.txt"),
-					),
-					dnsmasqFileContents,
-					"utf8",
-				);
-			}),
+				try {
+					// Read the file contents
+					const filePath = path.join(baseDir, file);
+					const fileContents = await fs.readFile(filePath, "utf8");
+
+					// Perform replacements to format for dnsmasq
+					const dnsmasqFileContents = fileContents
+						.replace(/0\.0\.0\.0 (.*?)( .*)?$/gm, "0.0.0.0 $1/")
+						.replace(/^0\.0\.0\.0 /gm, "server=/")
+						.replace(/^# 0\.0\.0\.0 /gm, "# server=/")
+						.replace(/^# Title: (.*?)$/gm, "# Title: $1 (dnsmasq)");
+
+					// Define output file path
+					const outputFilePath = path.join(outputDir, file.replace(".txt", "-dnsmasq.txt"));
+
+					// Write modified content to output file
+					await fs.writeFile(outputFilePath, dnsmasqFileContents, "utf8");
+
+					console.log(`Processed: ${file}`);
+				} catch (fileError) {
+					console.error(`Error processing file "${file}":`, fileError);
+				}
+			})
 		);
+
+		console.log("All files processed successfully.");
 	} catch (error) {
-		console.error("Error processing files:", error);
+		console.error("Error during file processing:", error);
 	}
 })();
