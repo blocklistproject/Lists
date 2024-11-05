@@ -5,17 +5,17 @@ const path = require("node:path");
 	const hasError = false;
 
 	try {
-		const directoryPath = path.join(__dirname, "..");
-		const files = (await fs.readdir(directoryPath)).filter(
+		let directoryPath = path.join(__dirname, "..");
+		let files = (await fs.readdir(directoryPath)).filter(
 			(file) => file.endsWith(".txt") && file !== "everything.txt",
 		);
 
 		await Promise.all(
 			files.map(async (file) => {
-				const filePath = path.join(directoryPath, file);
-				const fileContents = await fs.readFile(filePath, "utf8");
-				const lines = fileContents.split("\n");
-				const commentedURLs = lines
+				let filePath = path.join(directoryPath, file);
+				let fileContents = await fs.readFile(filePath, "utf8");
+				let lines = fileContents.split("\n");
+				let commentedURLs = lines
 					.filter((line) => line.startsWith("# 0.0.0.0"))
 					.map((line) => line.split(" ")[2].trim());
 
@@ -41,7 +41,7 @@ const path = require("node:path");
 
 				// Ensure URLs in the file are lowercase
 				if (line.startsWith("0.0.0.0 ")) {
-					const url = line.split(" ")[1].split("#")[0].trim();
+					let url = line.split(" ")[1].split("#")[0].trim();
 					if (url.toLowerCase() !== url) {
 						console.error(`Line ${index + 1} in ${file} URL ${url} must be all lowercase.`);
 						hasError = true;
@@ -62,7 +62,7 @@ const path = require("node:path");
 
 				// Ensure that no active URL matches a commented-out URL
 				if (line.startsWith("0.0.0.0 ")) {
-					const url = line.split(" ")[1].split("#")[0].trim();
+					let url = line.split(" ")[1].split("#")[0].trim();
 					if (commentedURLs.includes(url)) {
 						console.error(`Line ${index + 1} in ${file} URL ${url} is commented out in this file. Please remove the duplicate or uncomment the URL.`);
 						hasError = true;
@@ -71,7 +71,7 @@ const path = require("node:path");
 
 				// Ensure URLs do not contain whitespace
 				if (line.startsWith("0.0.0.0 ")) {
-					const url = line.split(" ")[1].split("#")[0].trim();
+					let url = line.split(" ")[1].split("#")[0].trim();
 					if (/\s/g.test(url)) {
 						console.error(`Line ${index + 1} in ${file} URL ${url} contains whitespace.`);
 						hasError = true;
