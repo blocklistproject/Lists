@@ -3,33 +3,46 @@ const path = require("node:path");
 
 (async () => {
 	try {
-		const files = (await fs.readdir(path.join(__dirname, ".."))).filter(
-			(file) => file.endsWith(".txt"),
-		);
+		// Define directories
+		const baseDir = path.join(__dirname, "..");
+		const outputDir = path.join(baseDir, "adguard");
+
+		// Ensure the output directory exists
+		await fs.mkdir(outputDir, { recursive: true });
+
+		// Get a list of all .txt files in the base directory
+		const files = (await fs.readdir(baseDir)).filter((file) => file.endsWith(".txt"));
+
+		// Process each file concurrently
 		await Promise.all(
 			files.map(async (file) => {
-				const fileContents = await fs.readFile(
-					path.join(__dirname, "..", file),
-					"utf8",
-				);
-				const adGuardFileContents = fileContents
-					.replace(/^# Title: (.*?)$/gmu, "# Title: $1 (adguard)")
-					.replaceAll(/^# 0\.0\.0\.0 (.*?) (.*)/gmu, "@@||$1^! $2")
-					.replaceAll(/0\.0\.0\.0 (.*?)$/gmu, "||$1^")
-					.replaceAll(/^#/gmu, "!");
-				await fs.writeFile(
-					path.join(
-						__dirname,
-						"..",
-						"adguard",
-						file.replace(".txt", "-ags.txt"),
-					),
-					adGuardFileContents,
-					"utf8",
-				);
-			}),
+				try {
+					// Read the file contents
+					const filePath = path.join(baseDir, file);
+					const fileContents = await fs.readFile(filePath, "utf8");
+
+					// Perform transformations for AdGuard format
+					const adGuardFileContents = fileContents
+						.replace(/^# Title: (.*?)$/gm, "# Title: $1 (adguard)")
+						.replace(/^# 0\.0\.0\.0 (.*?) (.*)/gm, "@@||$1^! $2")
+						.replace(/0\.0\.0\.0 (.*?)$/gm, "||$1^")
+						.replace(/^#/gm, "!");
+
+					// Define output file path
+					const outputFilePath = path.join(outputDir, file.replace(".txt", "-ags.txt"));
+
+					// Write modified content to output file
+					await fs.writeFile(outputFilePath, adGuardFileContents, "utf8");
+
+					console.log(`Processed: ${file}`);
+				} catch (fileError) {
+					console.error(`Error processing file "${file}":`, fileError);
+				}
+			})
 		);
+
+		console.log("All files processed successfully.");
 	} catch (error) {
-		console.error("Error processing files:", error);
+		console.error("Error during file processing:", error);
 	}
 })();
