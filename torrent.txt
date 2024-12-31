@@ -245,7 +245,6 @@
 0.0.0.0 mybittorrent.com
 0.0.0.0 mywebpages.comcast.net
 0.0.0.0 nanikano.no-ip.org
-0.0.0.0 nasa.gov
 0.0.0.0 netbsd.org
 0.0.0.0 newnova.org
 0.0.0.0 newvoyages.mine.nu
