@@ -1,15 +1,48 @@
-const fs = require("fs").promises;
-const path = require("path");
+const fs = require("node:fs").promises;
+const path = require("node:path");
 
 (async () => {
-	const files = (await fs.readdir(path.join(__dirname, ".."))).filter((file) => file.endsWith(".txt")); // Array of strings, each representing a single file that ends in `.txt`
-	await Promise.all(files.map(async (file) => { // For each file
-		const fileContents = await fs.readFile(path.join(__dirname, "..", file), "utf8"); // Get file contents as a string
-		const noIPFileContents = fileContents
-		.replaceAll(/0\.0\.0\.0 (.*?)( .*)?$/gmu, "0.0.0.0 $1/$2") // I need this line to add "/" at the end of each URL
-		.replaceAll(/^0\.0\.0\.0 /gmu, "server=/") // Replace all occurances of "0.0.0.0 " at the beginning of the line with "server=/"
-		.replaceAll(/^# 0\.0\.0\.0 /gmu, "# server=/") // Replace all occurances of "# 0.0.0.0 " at the beginning of the line with "# server=/"
-		.replace(/^# Title: (.*?)$/gmu, "# Title: $1 (dnsmasq)"); // Add (dnsmasq) to end of title
-		await fs.writeFile(path.join(__dirname, "..", "dnsmasq-version", file.replace(".txt", "-dnsmasq.txt")), noIPFileContents, "utf8"); // Write new file to `alt-version` directory
-	}));
+	try {
+		// Define base and output directories
+		const baseDir = path.join(__dirname, "..");
+		const outputDir = path.join(baseDir, "dnsmasq-version");
+
+		// Ensure the output directory exists
+		await fs.mkdir(outputDir, { recursive: true });
+
+		// Get a list of all .txt files in the base directory
+		const files = (await fs.readdir(baseDir)).filter((file) => file.endsWith(".txt"));
+
+		// Process each file concurrently
+		await Promise.all(
+			files.map(async (file) => {
+				try {
+					// Read the file contents
+					const filePath = path.join(baseDir, file);
+					const fileContents = await fs.readFile(filePath, "utf8");
+
+					// Perform replacements to format for dnsmasq
+					const dnsmasqFileContents = fileContents
+						.replace(/0\.0\.0\.0 (.*?)( .*)?$/gm, "0.0.0.0 $1/")
+						.replace(/^0\.0\.0\.0 /gm, "server=/")
+						.replace(/^# 0\.0\.0\.0 /gm, "# server=/")
+						.replace(/^# Title: (.*?)$/gm, "# Title: $1 (dnsmasq)");
+
+					// Define output file path
+					const outputFilePath = path.join(outputDir, file.replace(".txt", "-dnsmasq.txt"));
+
+					// Write modified content to output file
+					await fs.writeFile(outputFilePath, dnsmasqFileContents, "utf8");
+
+					console.log(`Processed: ${file}`);
+				} catch (fileError) {
+					console.error(`Error processing file "${file}":`, fileError);
+				}
+			})
+		);
+
+		console.log("All files processed successfully.");
+	} catch (error) {
+		console.error("Error during file processing:", error);
+	}
 })();

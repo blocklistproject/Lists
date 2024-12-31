@@ -4,7 +4,7 @@
 # Homepage: https://blocklist.site
 # Help: https://github.com/blocklistproject/lists/wiki/
 # License: https://unlicense.org
-# Total number of network filters: 72
+# Total number of network filters: 78
 # ------------------------------------[SUPPORT]-------------------------------------
 # You can support by:
 # - reporting false positives
@@ -26,7 +26,7 @@ config.samsungads.com
 control-zoo-dtsstage.tvinteractive.tv
 cooper.logs.roku.com
 coordinator-production-28516768.us-east-1.elb.amazonaws.com
-d179kwmlpc4o47.cloudfront.ne
+d179kwmlpc4o47.cloudfront.net
 d1oxlq5h9kq8q5.cloudfront.net
 d2tnx644ijgq6i.cloudfront.net
 d3mjsomixevyw7.cloudfront.net
@@ -62,6 +62,12 @@ scribe.logs.roku.com
 scs.samsungqbe.com
 smartclip.com
 smartclip.net
+cdn.hbbtv.smartclip.net
+scheduler.hbbtv.smartclip.net
+stats.hbbtv.smartclip.net
+hoover.sxp.smartclip.net
+ad.sxp.smartclip.net
+errors.hbbtv.smartclip.net
 smartshare.lgtvsdp.com
 static.doubleclick.net
 syncplusconfig.s3.amazonaws.com

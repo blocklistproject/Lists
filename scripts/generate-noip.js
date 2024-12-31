@@ -1,14 +1,47 @@
-const fs = require("fs").promises;
-const path = require("path");
+const fs = require("node:fs").promises;
+const path = require("node:path");
 
 (async () => {
-	const files = (await fs.readdir(path.join(__dirname, ".."))).filter((file) => file.endsWith(".txt")); // Array of strings, each representing a single file that ends in `.txt`
-	await Promise.all(files.map(async (file) => { // For each file
-		const fileContents = await fs.readFile(path.join(__dirname, "..", file), "utf8"); // Get file contents as a string
-		const noIPFileContents = fileContents
-		.replaceAll(/^0\.0\.0\.0 /gmu, "") // Replace all occurances of "0.0.0.0 " at the beginning of the line with "" (nothing)
-		.replaceAll(/^# 0\.0\.0\.0 /gmu, "# ") // Replace all occurances of "# 0.0.0.0 " at the beginning of the line with "# "
-		.replace(/^# Title: (.*?)$/gmu, "# Title: $1 (NL)"); // Add (NL) to end of title
-		await fs.writeFile(path.join(__dirname, "..", "alt-version", file.replace(".txt", "-nl.txt")), noIPFileContents, "utf8"); // Write new file to `alt-version` directory
-	}));
+	try {
+		// Define directories for better readability and maintainability
+		const baseDir = path.join(__dirname, "..");
+		const outputDir = path.join(baseDir, "alt-version");
+
+		// Ensure the output directory exists, creating it if necessary
+		await fs.mkdir(outputDir, { recursive: true });
+
+		// Filter for .txt files in the base directory
+		const files = (await fs.readdir(baseDir)).filter((file) => file.endsWith(".txt"));
+
+		// Process each file concurrently
+		await Promise.all(
+			files.map(async (file) => {
+				try {
+					// Read file contents
+					const filePath = path.join(baseDir, file);
+					const fileContents = await fs.readFile(filePath, "utf8");
+
+					// Perform replacements
+					const noIPFileContents = fileContents
+						.replace(/^0\.0\.0\.0 /gm, "")
+						.replace(/^# 0\.0\.0\.0 /gm, "# ")
+						.replace(/^# Title: (.*?)$/gm, "# Title: $1 (NL)");
+
+					// Define output file path
+					const outputFilePath = path.join(outputDir, file.replace(".txt", "-nl.txt"));
+
+					// Write modified content to output file
+					await fs.writeFile(outputFilePath, noIPFileContents, "utf8");
+
+					console.log(`Processed: ${file}`);
+				} catch (fileError) {
+					console.error(`Error processing file "${file}":`, fileError);
+				}
+			})
+		);
+
+		console.log("All files processed successfully.");
+	} catch (error) {
+		console.error("Error during file processing:", error);
+	}
 })();

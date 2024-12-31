@@ -1,5 +1,8 @@
 <img src="https://raw.githubusercontent.com/blocklistproject/Lists/master/img/logo.webp" height="150px"/>  
 
+# MAJOR UPDATE:
+## We are moving forward with a merge of this project and a complete rewrite. As more details are available we will update the repo.
+
 # The Block List Project
 
 [![GitHub issues](https://img.shields.io/github/issues/blocklistproject/lists)](https://github.com/blocklistproject/Lists/issues)
@@ -23,7 +26,7 @@
 
 <p align="center">
 <a href="https://www.patreon.com/bePatron?u=8892646"><img src="https://i0.wp.com/thelemicunion.com/wp-content/uploads/2018/07/Patreon-Support-Button.png?w=640&ssl=1" width=250></a>
-<a href="https://ulnk.it/blp-discord"><img src="https://discord.com/assets/ff41b628a47ef3141164bfedb04fb220.png" width=250 /></a>
+<a href="https://discord.com/invite/x9KeVQggkc"><img src="https://discord.com/assets/ff41b628a47ef3141164bfedb04fb220.png" width=250 /></a>
 </p>
 &nbsp;
 

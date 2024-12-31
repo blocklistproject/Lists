@@ -13,8 +13,8 @@
 #
 # Torrent list
 # ------------------------------------[FILTERS]-------------------------------------
-# server=/mc.yandex.ru/ Issue 156
-# server=/surfshark.com/ Issue 161
+# server=/mc.yandex.ru/
+# server=/surfshark.com/
 server=/0second.com/
 server=/10mbit.com/
 server=/123bits.org/
@@ -1867,7 +1867,7 @@ server=/torrentesx.com/
 server=/torrentfinder.ru/
 server=/torrentfr.org/
 server=/torrentfrancais.com/
-# server=/torrentfreak.com/ Issue 886
+# server=/torrentfreak.com/
 server=/torrentfreakz.org/
 server=/torrentfriend.net/
 server=/torrentfunk.unblocked.llc/

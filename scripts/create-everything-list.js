@@ -1,67 +1,73 @@
-const fs = require("fs").promises;
-const path = require("path");
+const fs = require("node:fs").promises;
+const path = require("node:path");
 
+// Lists to include in the "everything" list
 const listsToIncludeInEverythingList = [
-	"abuse",
-	"ads",
-	"crypto",
-	"drugs",
-	"facebook",
-	"fraud",
-	"gambling",
-	"malware",
-	"phishing",
-	"piracy",
-	"porn",
-	"ransomware",
-	"redirect",
-	"scam",
-	"tiktok",
-	"torrent",
-	"tracking",
-
-	// The following lists are in beta and therefore not included in the everything list:
-
-	// "smart-tv",
-	// "basic",
-	// "whatsapp",
-	// "vaping"
+	"abuse", "ads", "crypto", "drugs", "facebook", "fraud",
+	"gambling", "malware", "phishing", "piracy", "porn",
+	"ransomware", "redirect", "scam", "tiktok", "torrent", "tracking",
+	// Beta lists (excluded from "everything" list)
+	// "smart-tv", "basic", "whatsapp", "vaping"
 ];
 
 (async () => {
-	const files = (await fs.readdir(path.join(__dirname, ".."))).filter((file) => file.endsWith(".txt")).filter((file) => listsToIncludeInEverythingList.some((val) => file.startsWith(val))); // Array of strings, each representing a single file that ends in `.txt`
+	try {
+		const baseDir = path.join(__dirname, "..");
 
-	const domains = new Set();
+		// Filter and collect relevant .txt files
+		const files = (await fs.readdir(baseDir)).filter((file) =>
+			file.endsWith(".txt") &&
+			listsToIncludeInEverythingList.some((prefix) => file.startsWith(prefix))
+		);
 
-	await Promise.all(files.map(async (file) => { // For each file
+		// Use a Set to store unique domains
+		const domains = new Set();
 
-		const fileContents = await fs.readFile(path.join(__dirname, "..", file), "utf8"); // Get file contents as a string
+		// Process each file to extract domains
+		await Promise.all(
+			files.map(async (file) => {
+				const filePath = path.join(baseDir, file);
+				const fileContents = await fs.readFile(filePath, "utf8");
 
-		fileContents.split("\n").forEach((line) => {
-			if (line.startsWith("0.0.0.0 ")) {
-				domains.add(line.replace("0.0.0.0 ", ""));
-			}
-		});
-	}));
+				// Extract domains starting with "0.0.0.0"
+				fileContents.split("\n").forEach((line) => {
+					if (line.startsWith("0.0.0.0 ")) {
+						domains.add(line.slice(8)); // Add the domain after "0.0.0.0 "
+					}
+				});
+			})
+		);
 
-	let everythingListContent =
-`# ------------------------------------[UPDATE]--------------------------------------
+		// Generate content for the "everything" list
+		const header = `# ------------------------------------[UPDATE]--------------------------------------
 # Title: The Block List Project - Everything List
 # Expires: 1 day
-# Homepage: https://blocklist.site
+# Homepage: https://blocklistproject.github.io/Lists/
 # Help: https://github.com/blocklistproject/lists/wiki/
 # License: https://unlicense.org
-# Total number of network filters:
+# Total number of network filters: ${domains.size}
 # ------------------------------------[SUPPORT]-------------------------------------
 # You can support by:
 # - reporting false positives
-# - making a donation: https://paypal.me/blocklistproject
+# - making a donation via paypal: https://paypal.me/blocklistproject
+# - making a donation via patreon: https://www.patreon.com/theblocklistproject
 # -------------------------------------[INFO]---------------------------------------
 #
 # Everything list
 # ------------------------------------[FILTERS]-------------------------------------
 `;
-	domains.forEach((val) => everythingListContent += `0.0.0.0 ${val}\n`);
 
-	await fs.writeFile(path.join(__dirname, "..", "everything.txt"), everythingListContent, "utf8");
+		// Concatenate domains into a single list with the header
+		const everythingListContent = `${header}${Array.from(domains)
+			.map((domain) => `0.0.0.0 ${domain}`)
+			.join("\n")}\n`;
+
+		// Write the final "everything" list file
+		const outputFilePath = path.join(baseDir, "everything.txt");
+		await fs.writeFile(outputFilePath, everythingListContent, "utf8");
+
+		console.log("Everything list generated successfully.");
+	} catch (error) {
+		console.error("Error processing files:", error);
+	}
 })();
