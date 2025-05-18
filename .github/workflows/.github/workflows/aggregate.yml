@@ -1,0 +1,56 @@
+name: Build & Release Aggregated Blocklists
+
+on:
+  schedule:
+    - cron:  '0 0 * * *'    # every night at midnight UTC
+  workflow_dispatch:        # manual trigger
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Generate aggregated lists
+        run: python3 scripts/aggregate.py
+
+      - name: Commit outputs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add releases/
+          # only commit if there are changes
+          git diff --quiet || git commit -m "chore: update aggregated lists"
+          git push
+
+  release:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Create GitHub Release
+        id: create_release
+        uses: actions/create-release@v1
+        with:
+          tag_name: aggregated-$(date +'%Y%m%d')
+          release_name: Aggregated Lists $(date +'%Y-%m-%d')
+          draft: false
+          prerelease: false
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Upload release assets
+        uses: softprops/action-gh-release@v1
+        with:
+          files: |
+            releases/aggregated-hosts.txt
+            releases/aggregated-dnsmasq.conf
+            releases/aggregated-adblock.txt
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
