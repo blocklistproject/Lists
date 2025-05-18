@@ -34,17 +34,25 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
+      # 1) Generate YYYYMMDD and put it in $GITHUB_ENV
+      - name: Set release date
+        run: echo "RELEASE_DATE=$(date +'%Y%m%d')" >> $GITHUB_ENV
+
+      # 2) Create the release with a valid tag
       - name: Create GitHub Release
         id: create_release
         uses: actions/create-release@v1
         with:
-          tag_name: aggregated-$(date +'%Y%m%d')
-          release_name: Aggregated Lists $(date +'%Y-%m-%d')
+          tag_name: aggregated-${{ env.RELEASE_DATE }}
+          release_name: Aggregated Lists ${{ env.RELEASE_DATE }}
+          body: |
+            This release contains the aggregated hosts, dnsmasq, and adblock blocklists for ${{ env.RELEASE_DATE }}.
           draft: false
           prerelease: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      # 3) Attach your three files as assets
       - name: Upload release assets
         uses: softprops/action-gh-release@v1
         with:
