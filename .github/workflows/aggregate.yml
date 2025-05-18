@@ -19,31 +19,36 @@ jobs:
       - name: Generate aggregated lists
         run: python3 scripts/aggregate.py
 
+      - name: Verify output files exist
+        run: |
+          mkdir -p releases
+          if [ ! -f releases/aggregated-hosts.txt ] || [ ! -f releases/aggregated-dnsmasq.conf ] || [ ! -f releases/aggregated-adblock.txt ]; then
+            echo "Error: One or more output files are missing!"
+            exit 1
+          fi
+
       - name: Commit outputs
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add releases/
           # only commit if there are changes
-          git diff --quiet || git commit -m "chore: update aggregated lists"
+          git diff --quiet && echo "No changes to commit" || git commit -m "chore: update aggregated lists"
           git push
 
   release:
     needs: build
     runs-on: ubuntu-latest
     steps:
-      # 1) Checkout with full history and push rights
       - name: Checkout code
         uses: actions/checkout@v3
         with:
           fetch-depth: 0            # so tags and history are available
           persist-credentials: true # so we can push
 
-      # 2) Compute YYYYMMDD
       - name: Set release date
         run: echo "RELEASE_DATE=$(date +'%Y%m%d')" >> $GITHUB_ENV
 
-      # 3) Create & push the tag
       - name: Create Git tag
         run: |
           git config user.name "github-actions[bot]"
@@ -51,40 +56,6 @@ jobs:
           git tag aggregated-${{ env.RELEASE_DATE }}
           git push origin aggregated-${{ env.RELEASE_DATE }}
 
-      # 4) Now GitHub Release will find that tag
-      - name: Create GitHub Release
-        id: create_release
-        uses: actions/create-release@v1
-        with:
-          tag_name: aggregated-${{ env.RELEASE_DATE }}
-          release_name: Aggregated Lists ${{ env.RELEASE_DATE }}
-          body: |
-            Aggregated lists for ${{ env.RELEASE_DATE }}.
-          draft: false
-          prerelease: false
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      # 5) Upload the three aggregated files
-      - name: Upload release assets
-        uses: softprops/action-gh-release@v1
-        with:
-          files: |
-            releases/aggregated-hosts.txt
-            releases/aggregated-dnsmasq.conf
-            releases/aggregated-adblock.txt
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-
-      # 1) Generate YYYYMMDD and put it in $GITHUB_ENV
-      - name: Set release date
-        run: echo "RELEASE_DATE=$(date +'%Y%m%d')" >> $GITHUB_ENV
-
-      # 2) Create the release with a valid tag
       - name: Create GitHub Release
         id: create_release
         uses: actions/create-release@v1
@@ -98,7 +69,6 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      # 3) Attach your three files as assets
       - name: Upload release assets
         uses: softprops/action-gh-release@v1
         with:
@@ -106,5 +76,6 @@ jobs:
             releases/aggregated-hosts.txt
             releases/aggregated-dnsmasq.conf
             releases/aggregated-adblock.txt
+          tag_name: aggregated-${{ env.RELEASE_DATE }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
