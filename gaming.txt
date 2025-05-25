@@ -1,0 +1,192 @@
+#blizzard
+battle.net
+blizzard.com
+us.shop.battle.net
+us.blizzard.com
+navbar.blizzard.com
+www.blizzard.com
+account.battle.net
+blz-contentstack-assets.akamaized.net.	
+images.blz-contentstack.com.	
+assets.blz-contentstack.com.	
+
+
+#gog
+gog.com
+sections.gog.com
+menu.gog.com	
+api.gog.com
+images.gog.com	
+www.gog.com
+
+#discord
+discord.com
+discord.gg
+discord.media
+discordapp.com
+discordapp.net
+cdn.discordapp.com
+
+
+#epic games 
+epicgames.com
+store.epicgames.com
+graphql.epicgames.com
+www.epicgames.com
+static-assets-prod.epicgames.com
+tracking.epicgames.com
+presence-public-service-prod.ak.epicgames.com
+datarouter-prod.ak.epicgames.com
+talon-website-prod.ecosec.on.epicgames.com
+launcher-public-service-prod.ak.epicgames.com
+account-public-service-prod.ak.epicgames.com
+catalog-public-service-prod.ak.epicgames.com
+cloudflare.epicgamescdn.com
+
+#epic games store extended
+account-public-service-prod03.ol.epicgames.com
+launcherwaitingroom-public-service-prod06.ol.epicgames.com
+launcher-public-service-prod06.ol.epicgames.com
+www.epicgames.com
+launcher-website-prod07.ol.epicgames.com
+tracking.epicgames.com
+accounts.launcher-website-prod07.ol.epicgames.com
+accounts.epicgames.com
+cdn1.unrealengine.com
+cdn2.unrealengine.com
+datarouter.ol.epicgames.com
+entitlement-public-service-prod08.ol.epicgames.com
+orderprocessor-public-service-ecomprod01.ol.epicgames.com
+catalog-public-service-prod06.ol.epicgames.com
+friends-public-service-prod06.ol.epicgames.com
+lightswitch-public-service-prod06.ol.epicgames.com
+accountportal-website-prod07.ol.epicgames.com
+ut-public-service-prod10.ol.epicgames.com
+epicgames-download1.akamaized.net
+download.epicgames.com
+download2.epicgames.com
+download3.epicgames.com
+download4.epicgames.com
+static-assets-prod.epicgames.com/static
+store-site-backend-static.ak.epicgames.com
+store-content.ak.epicgames.com/api
+library-service.live.use1a.on.epicgames.com
+datastorage-public-service-liveegs.live.use1a.on.epicgames.com
+fastly-download.epicgames.com
+store.epicgames.com
+launcher.store.epicgames.com
+
+#electronics arts
+ea.com
+
+# fortnite blocklist for pi hole
+0.0.0.0 fortnite-matchmaking-public-service-live-eu.ol.epicgames.com
+0.0.0.0 eos-gateway-ingressv2-prod-c3-w4.befa.live.use1a.on.epicgames.com
+0.0.0.0 eos-gateway-ingressv2-prod-c3-w3.befa.live.use1a.on.epicgames.com
+0.0.0.0 datarouter.ol.epicgames.com
+0.0.0.0 account-service-prod03-pub-ak-1731030959.us-east-1.elb.amazonaws.com
+
+#league of legends
+leagueoflegends.com
+lol.riotgames.com
+
+#mincraft
+minecraft.net
+minecraftservices.com
+mojang.com
+
+#playstation
+playstation.net
+
+#roblox
+rbxcdn.com
+roblox.com
+
+#steam
+poweredbysteam.net
+steam-chat.com
+steamcdn-a.akamaihd.net
+steamcommunity.com
+steamcommunity-a.akamaihd.net
+steamcommunity-a.akamaihd.net.edgesuite.net
+steamgames.com
+steamgames.net
+steampowered.com
+steamstatic.com
+steamstore-a.akamaihd.net
+steamusercontent-a.akamaihd.net
+store.steampowered.com
+help.steampowered.com
+api.steampowered.com
+login.steampowered.com
+store.akamai.steamstatic.com	
+store.steamstatic.com
+store.cloudflare.steamstatic.com
+shared.akamai.steamstatic.com
+shared.fastly.steamstatic.com
+
+#xbox live
+xbox.com
+xboxlive.xom
+
+#origin
+origin.com
+ea.com
+
+#ubisoft
+ubisoft.com
+store.ubisoft.com
+
+####Gamers https://github.com/InAUGral/pihole-blocklist-gametrackers?tab=readme-ov-file
+# nVidia
+ls.dtrace.nvidia.com
+telemetry.gfe.nvidia.com
+accounts.nvgs.nvidia.com
+nvidia.tt.omtrdc.net
+api.commune.ly
+login.nvgs.nvidia.cn
+events.gfe.nvidia.com
+
+# Redshell
+redshell.io
+api.redshell.io
+treasuredata.com
+api.treasuredata.com
+
+# Blizzard
+telemetry-in.battle.net
+
+# Epic Games
+dev.epicgames.com
+api.epicgames.dev
+et.epicgames.com
+et2.epicgames.com
+udn.epicgames.com
+etsource.epicgames.com
+metrics.ol.epicgames.com
+datarouter.ol.epicgames.com
+
+# Unity Engine
+cdp.cloud.unity3d.com
+api.uca.cloud.unity3d.com
+config.uca.cloud.unity3d.com
+perf-events.cloud.unity3d.com
+prd-lender.cdp.internal.unity3d.com
+thind-gke-usc.prd.data.corp.unity3d.com
+thind-prd-knob.data.ie.unity3d.com
+remote-config-proxy-prd.uca.cloud.unity3d.com
+data-optout-service.uca.cloud.unity3d.com
+
+# GOG
+marketing-sections.gog.com
+insights-collector.gog.com
+
+# Google
+google-analytics.com
+google-analytics.ie
+pagead.googlesyndication.com
+pagead2.googlesyndication.com
+ad.doubleclick.net
+ypn-js.overture.com
+googleads.g.doubleclick.net
+googletagmanager.com
