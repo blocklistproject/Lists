@@ -1,0 +1,98 @@
+name: Release
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Version tag (e.g., v2.1.0)'
+        required: true
+        type: string
+      prerelease:
+        description: 'Mark as pre-release'
+        required: false
+        type: boolean
+        default: false
+  schedule:
+    # Weekly release every Monday at 6 AM UTC
+    - cron: '0 6 * * 1'
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Full history for changelog
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e .
+
+      - name: Determine version
+        id: version
+        run: |
+          if [ -n "${{ github.event.inputs.version }}" ]; then
+            VERSION="${{ github.event.inputs.version }}"
+          else
+            # Auto-generate version for scheduled releases
+            VERSION="v$(date +%Y.%m.%d)"
+          fi
+          echo "version=$VERSION" >> $GITHUB_OUTPUT
+          echo "Version: $VERSION"
+
+      - name: Get previous release tag
+        id: previous
+        run: |
+          PREV_TAG=$(git describe --tags --abbrev=0 2>/dev/null || echo "")
+          echo "tag=$PREV_TAG" >> $GITHUB_OUTPUT
+          echo "Previous tag: $PREV_TAG"
+
+      - name: Generate changelog
+        id: changelog
+        run: |
+          python scripts/generate-changelog.py \
+            --since "${{ steps.previous.outputs.tag }}" \
+            --output changelog.md
+          
+          echo "## Changelog" >> $GITHUB_STEP_SUMMARY
+          cat changelog.md >> $GITHUB_STEP_SUMMARY
+
+      - name: Build all lists
+        run: python build.py --validate
+
+      - name: Generate statistics
+        run: |
+          python build.py stats > release-stats.txt
+          echo "" >> changelog.md
+          echo "## Statistics" >> changelog.md
+          cat release-stats.txt >> changelog.md
+
+      - name: Create release archive
+        run: |
+          # Create archives for easy download
+          tar -czvf blocklists-all.tar.gz *.txt adguard/ alt-version/ dnsmasq-version/
+          zip -r blocklists-all.zip *.txt adguard/ alt-version/ dnsmasq-version/
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: ${{ steps.version.outputs.version }}
+          name: Block List Project ${{ steps.version.outputs.version }}
+          body_path: changelog.md
+          prerelease: ${{ github.event.inputs.prerelease || false }}
+          files: |
+            blocklists-all.tar.gz
+            blocklists-all.zip
+            release-stats.txt
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
