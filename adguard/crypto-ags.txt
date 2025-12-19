@@ -1,18 +1,16 @@
-! ------------------------------------[UPDATE]--------------------------------------
-! Title: The Block List Project - Crypto List (adguard)
-! Expires: 1 day
-! Homepage: https://blocklist.site
-! Help: https://github.com/blocklistproject/lists/wiki/
-! License: https://unlicense.org
-! Total number of network filters: 23761
-! ------------------------------------[SUPPORT]-------------------------------------
-! You can support by:
-! - reporting false positives
-! - making a donation: https://paypal.me/blocklistproject
-! -------------------------------------[INFO]---------------------------------------
+! Title: Crypto Block List
+! Description: Cryptocurrency mining and scams
+! Homepage: https://github.com/blocklistproject/Lists
+! License: MIT
+! Last modified: 2025-12-19 16:39:31 UTC
+! Format: AdGuard
+! Entries: 23,761
+! URL: 
 !
-! Crypto List
-! ------------------------------------[FILTERS]-------------------------------------
+! This list is maintained by The Block List Project
+! https://github.com/blocklistproject/Lists
+!
+
 ||0.r.msn.com^
 ||000.0x1f4b0.com^
 ||001.0x1f4b0.com^
@@ -392,7 +390,6 @@
 ||adbtc.top^
 ||adc.suprnova.cc^
 ||adcast.deviantart.com^
-@@||adclick.g.doubleclick.net^! Belongs in ad list
 ||adconity.com^
 ||adcore.lenovomm.com^
 ||add.pool.mn^
@@ -774,7 +771,6 @@
 ||am9ozs.xyz^
 ||ama.adwo.com^
 ||amaqcgrrmedi.bid^
-@@||amazonaws.com^! Issue 452
 ||amber.coin-miners.info^
 ||amber.suprnova.cc^
 ||amdc.m.taobao.com^
@@ -808,7 +804,6 @@
 ||analytics.bl^
 ||analytics.blue^
 ||analytics.hz.netease.com^
-@@||analytics.kiwifarms.net^! Issue 250
 ||analytics.live.com^
 ||analytics.msn.com^
 ||analytics.query.yahoo.com^
@@ -1167,7 +1162,6 @@
 ||app.coinsprofit.com^
 ||app.houyi.baofeng.net^
 ||app.multimining.org^
-@@||app.pr0gramm.com^! Issue 194
 ||app.slushpool.com^
 ||app.supportxmr.com^
 ||app.tanwan.com^
@@ -1474,7 +1468,6 @@
 ||aux2.whalesburg.com^
 ||av.hashhot.com^
 ||av.pool.mn^
-@@||avatar.pr0gramm.com^! Issue 194
 ||avdfcctzwfdk.com^
 ||avditmiohvtq.bid^
 ||avefyjulko.bid^
@@ -2661,6 +2654,7 @@
 ||cbolsxvresvu.bid^
 ||cbr.suprnova.cc^
 ||cbrqndeptsw.com^
+||cbtoken.me^
 ||cbwrwcjdctrj.com^
 ||cbxadrwlccrky.bid^
 ||cbxqceuuwnaz.com^
@@ -3294,7 +3288,6 @@
 ||cookiemapping.wrating.com^
 ||cookies.qp.si^
 ||cookiescript.info^
-@@||cookiescript.infos^! Issue 352
 ||cookiescriptcdn.pro^
 ||cool-pool.net^
 ||coop.pop.baofeng.com^
@@ -3506,7 +3499,9 @@
 ||crypto-loot05.coinfaucet.eu^
 ||crypto-pool.fr^
 ||crypto-webminer.com^
+||crypto.com^
 ||crypto.csgocpu.com^
+||crypto.gobabytrade.com^
 ||crypto.n-engine.com^
 ||cryptoactivo.com^
 ||cryptobara.com^
@@ -4971,7 +4966,6 @@
 ||esc.hashhot.com^
 ||esc.pool.mn^
 ||esc.thecoin.pw^
-@@||escobar.pr0gramm.com^! Issue 194
 ||esgwceckxumg.com^
 ||eslgydoqbedo.com^
 ||eslydbnukkme.com^
@@ -6254,7 +6248,6 @@
 ||fud.suprnova.cc^
 ||fuhgvhuukl.bid^
 ||fujiseed.sighash.info^
-@@||full.pr0gramm.com^! Issue 194
 ||fund.pool.mn^
 ||fund.suprnova.cc^
 ||funk.majorminers.com^
@@ -6859,7 +6852,6 @@
 ||halopool.maxhash.org^
 ||ham.hashhot.com^
 ||ham.thecoin.pw^
-@@||hans.pr0gramm.com^! Issue 194
 ||hansa.suprnova.cc^
 ||hanwlgpecblxf.bid^
 ||hao.7654.com^
@@ -7280,7 +7272,6 @@
 ||hund.suprnova.cc^
 ||huodong.ios.shouji.360.cn^
 ||huoying666.com^
-@@||hurensohn.pr0gramm.com^! Issue 194
 ||huriylhqkylbo.bid^
 ||huscav.ethosdistro.com^
 ||husetdmrejiyjy.bid^
@@ -7596,7 +7587,6 @@
 ||img.jizzads.com^
 ||img.jsecoin.com^
 ||img.namunil.com^
-@@||img.pr0gramm.com^! Issue 194
 ||img.shouji.sogou.com^
 ||img.taotaosou.cn^
 ||img.toppr.com.cn^
@@ -8433,7 +8423,6 @@
 ||kisvtclf.bid^
 ||kitaji.ethosdistro.com^
 ||kiwi.pool.mn^
-@@||kiwifarms.net^! Issue 250
 ||kiwiminers.com^
 ||kizpkvkdfm.bid^
 ||kjabglumgwbsvq.bid^
@@ -9308,7 +9297,6 @@
 ||m.panda.voiceads.cn^
 ||m.poloniex.com^
 ||m.pool.mn^
-@@||m.pr0gramm.com^! Issue 194
 ||m.pubbirdf.com^
 ||m.qpic.cn^
 ||m.reachmax.cn^
@@ -9528,7 +9516,6 @@
 ||mc.hashhot.com^
 ||mc.pool.mn^
 ||mc.pool.sexy^
-@@||mc.yandex.ru^! Issue 156
 ||mca.pool.mn^
 ||mcagbtdcwklf.com^
 ||mcc.pool.mn^
@@ -9856,7 +9843,6 @@
 ||miner.nimiq.com^
 ||miner.oozing.co^
 ||miner.ppxxmr.com^
-@@||miner.pr0gramm.com^! Issue 194
 ||miner.rocks^
 ||miner1.minergate.com^
 ||miner2.sighash.info^
@@ -12047,6 +12033,7 @@
 ||ph.whalesburg.com^
 ||phc.hashhot.com^
 ||phc.leetpools.net^
+||phemex.com^
 ||phfknysgvwhnr.bid^
 ||phi.eu.mine.zpool.ca^
 ||phi.mine.zpool.ca^
@@ -12621,7 +12608,6 @@
 ||pr.thecoin.pw^
 ||pr.ybp.yahoo.com^
 ||pr0gram.org^
-@@||pr0gramm.com^! Issue 194
 ||practivate.adobe.com^
 ||praeicwgzapf.com^
 ||prbitcoin.com^
@@ -12648,6 +12634,7 @@
 ||price-aggregator.crypto-daio.co.uk^
 ||pricefbcf.gq^
 ||pricing.jaxx.io^
+||primexbt.com^
 ||pritunl-enterprise.eu-west.cryptopay.me^
 ||pritunl-gps.eu-west.cryptopay.me^
 ||pritunl.eu-west.cryptopay.me^
@@ -14525,7 +14512,6 @@
 ||sia.nanopool.org^
 ||sia.pool.mn^
 ||sia.suprnova.cc^
-@@||sia.tech^! Issue 128
 ||sia.usa.nicehash.com^
 ||sia.waterhole.io^
 ||siaalpha.nanopool.org^
@@ -15934,7 +15920,6 @@
 ||thpsflsjw.com^
 ||thread.multiminerapp.com^
 ||three-jj.github.io^
-@@||thumb.pr0gramm.com^! Issue 194
 ||thvdzghlvfoh.com^
 ||thvrvojkkjkkpe.bid^
 ||thx113.ethosdistro.com^
@@ -16141,7 +16126,10 @@
 ||trackingclub.pro^
 ||trackingsecond.pro^
 ||trade.btcc.com^
+||trade.eightcap.com^
 ||trade.youbit.co.kr^
+||tradecryptocapital.org^
+||tradeogre.com^
 ||traffic-gate-service.info^
 ||traffic-info-service.info^
 ||traffic-optical-service.info^
@@ -17158,7 +17146,6 @@
 ||vic.pool.sexy^
 ||vicofhozbuaf.com^
 ||vid.atdmt.com^
-@@||vid.pr0gramm.com^! Issue 194
 ||video.cooguo.com^
 ||video.estream.nu^
 ||video.nanopool.org^
@@ -18449,7 +18436,6 @@
 ||wvxywejnmpsh.bid^
 ||ww.bitcoins.lc^
 ||ww.multipool.com^
-@@||ww.pr0gramm.com^! Issue 194
 ||ww.suprnova.cc^
 ||ww.xiaopiaoyou.com^
 ||ww.xpool.ca^
@@ -18542,7 +18528,6 @@
 ||wwv.onetad.com^
 ||www-01.nanopool.org^
 ||www-origin.poolmining.org^
-@@||www-tb7c.pr0gramm.com^! Issue 194
 ||www-test.nicehash.com^
 ||www.114so.cn^
 ||www.115776615-884492032168661957.preview.editmysite.com^
@@ -19069,6 +19054,7 @@
 ||www.bws.bitpay.com^
 ||www.bxbc.pool.mn^
 ||www.bxc.coinwire.eu^
+||www.bybit.com^
 ||www.bypass.hashanywhere.com^
 ||www.bytecoin.cloud^
 ||www.bytecoin.crypto-webminer.com^
@@ -19214,6 +19200,7 @@
 ||www.coincadence.com^
 ||www.coincheck.com^
 ||www.coinchecker.backup-pool.com^
+||www.coincorner.com^
 ||www.coincube.io^
 ||www.coiner.site^
 ||www.coinerra.com^
@@ -19725,6 +19712,7 @@
 ||www.etn.spacepools.org^
 ||www.etnhash.net^
 ||www.etnhashpool.tk^
+||www.etoro.com^
 ||www.etzbnfuigipwvs.ru^
 ||www.eu-stratum.bitcoin.cz^
 ||www.eu-stratum.btcguild.com^
@@ -19830,6 +19818,7 @@
 ||www.for.stringengines.com^
 ||www.forever.btcc.com^
 ||www.foreverpool.org^
+||www.forex.com^
 ||www.forminerpro.com^
 ||www.fortrader.ru^
 ||www.forum.bitcoin.org^
@@ -20266,12 +20255,12 @@
 ||www.kippo.eu^
 ||www.kisshentai.net^
 ||www.kiwi.pool.mn^
-@@||www.kiwifarms.net^! Issue 250
 ||www.kiwiminers.com^
 ||www.kkxmofkrykox.netcodepool.org^
 ||www.kore.pool.mn^
 ||www.kosmoplovci.org^
 ||www.kr.binance.com^
+||www.kraken.com^
 ||www.kratos.biz^
 ||www.krb.cryptofriends.org^
 ||www.krb.devphp.org.ua^
@@ -20279,6 +20268,7 @@
 ||www.kronstic.bid^
 ||www.ksc.hashhot.com^
 ||www.ksimdw.ru^
+||www.kucoin.com^
 ||www.kuguopush.com^
 ||www.kunay.nullrefexcep.com^
 ||www.kxrcjhogag.ru^
@@ -21082,7 +21072,6 @@
 ||www.pps.btcguild.com^
 ||www.ppxxmr.com^
 ||www.pr.thecoin.pw^
-@@||www.pr0gramm.com^! Issue 194
 ||www.prbitcoin.com^
 ||www.premiumminer.com^
 ||www.preorder.trezor.io^
@@ -21362,7 +21351,6 @@
 ||www.sia.in.nicehash.com^
 ||www.sia.jp.nicehash.com^
 ||www.sia.pool.mn^
-@@||www.sia.tech^! Issue 128
 ||www.sia.usa.nicehash.com^
 ||www.siamining.com^
 ||www.sib.mine.zpool.ca^
@@ -21926,6 +21914,7 @@
 ||www.webmining.co^
 ||www.websocket.btcc.com^
 ||www.websocket.btcchina.com^
+||www.webull.com^
 ||www.webwidgetz.duckdns.org^
 ||www.webxmr.com^
 ||www.weipool.org^
@@ -23783,18 +23772,3 @@
 ||zzvjaqnkq.bid^
 ||zzwzjidz.bid^
 ||zzy1.quyaoya.com^
-||www.bybit.com^
-||www.kraken.com^
-||www.kucoin.com^
-||www.etoro.com^
-||phemex.com^
-||www.forex.com^
-||crypto.com^
-||www.webull.com^
-||crypto.gobabytrade.com^
-||tradeogre.com^
-||www.coincorner.com^
-||primexbt.com^
-||trade.eightcap.com^
-||tradecryptocapital.org^
-||cbtoken.me^

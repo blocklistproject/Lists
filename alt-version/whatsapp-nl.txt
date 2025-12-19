@@ -1,18 +1,16 @@
-# ------------------------------------[UPDATE]--------------------------------------
-# Title: The Block List Project - Whatsapp List (NL)
-# Expires: 1 day
-# Homepage: https://blocklist.site
-# Help: https://github.com/blocklistproject/lists/wiki/
-# License: https://unlicense.org
-# Total number of network filters: 226
-# ------------------------------------[SUPPORT]-------------------------------------
-# You can support by:
-# - reporting false positives
-# - making a donation: https://paypal.me/blocklistproject
-# -------------------------------------[INFO]---------------------------------------
+# Title: Whatsapp Block List
+# Description: WhatsApp domains
+# Homepage: https://github.com/blocklistproject/Lists
+# License: MIT
+# Last modified: 2025-12-19 16:39:34 UTC
+# Format: domains
+# Entries: 226
+# URL: 
 #
-# Whatsapp list
-# ------------------------------------[FILTERS]-------------------------------------
+# This list is maintained by The Block List Project
+# https://github.com/blocklistproject/Lists
+#
+
 account.whatsapp.com
 alpha.whatsapp.com
 api.whatsapp.com
@@ -119,6 +117,7 @@ media.flos2-1.fna.whatsapp.net
 media.fmnl10-1.fna.whatsapp.net
 media.fplu6-1.fna.whatsapp.net
 media.fprg2-1.fna.whatsapp.net
+media.fqls2-1.fna.whatsapp.net
 media.frec2-1.fna.whatsapp.net
 media.frix1-1.fna.whatsapp.net
 media.frix4-1.fna.whatsapp.net
@@ -146,8 +145,10 @@ mmi731.whatsapp.net
 mms.whatsapp.net
 payments-localisation.whatsapp.com
 pps.whatsapp.net
+privatestats.whatsapp.net
 ratings.whatsapp.com
 sjc.whatsapp.com
+static.whatsapp.net
 support.whatsapp.com
 test-web.whatsapp.com
 translate-dev.whatsapp.com
@@ -236,6 +237,3 @@ www-cdn.whatsapp.net
 www.whatsapp.com
 www.xl.whatsapp.com
 wwwl.whatsapp.com
-static.whatsapp.net
-privatestats.whatsapp.net
-media.fqls2-1.fna.whatsapp.net

@@ -1,18 +1,16 @@
-# ------------------------------------[UPDATE]--------------------------------------
-# Title: The Block List Project - Ransomware List (dnsmasq)
-# Expires: 1 day
-# Homepage: https://blocklist.site
-# Help: https://github.com/blocklistproject/list/wiki/
-# License: https://unlicense.org
-# Total number of network filters: 1904
-# ------------------------------------[SUPPORT]-------------------------------------
-# You can support by:
-# - reporting false positives
-# - making a donation: https://paypal.me/blocklistproject
-# -------------------------------------[INFO]---------------------------------------
+# Title: Ransomware Block List
+# Description: Ransomware C2 and distribution
+# Homepage: https://github.com/blocklistproject/Lists
+# License: MIT
+# Last modified: 2025-12-19 16:39:34 UTC
+# Format: dnsmasq
+# Entries: 1,904
+# URL: 
 #
-# Ransomware list
-# ------------------------------------[FILTERS]-------------------------------------
+# This list is maintained by The Block List Project
+# https://github.com/blocklistproject/Lists
+#
+
 server=/25z5g623wpqpdwis.onion.to/
 server=/27c73bq66y4xqoh7.dorfact.at/
 server=/27lelchgcvs2wpm7.3lhjyx.top/
@@ -1421,6 +1419,7 @@ server=/rbwubtpsyokqn.info/
 server=/real346real.top/
 server=/remoteunityrety.top/
 server=/renaulrtcenturytrick.top/
+server=/res-smartd.info/
 server=/rkiywansamtu.top/
 server=/rolerxunitywsto.top/
 server=/rootaleyz.top/
@@ -1916,4 +1915,3 @@ server=/zjfq4lnfbs7pncr5.onion.to/
 server=/zjfq4lnfbs7pncr5.tor2web.org/
 server=/ztuw5bvuuapzdfya.klimbim.pl/
 server=/zutzt67dcxr6mxcn.onion.to/
-server=/res-smartd.info/

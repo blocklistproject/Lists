@@ -1,18 +1,16 @@
-# ------------------------------------[UPDATE]--------------------------------------
-# Title: The Block List Project - Scam List (NL)
-# Expires: 1 day
-# Homepage: https://blocklist.site
-# Help: https://github.com/blocklistproject/lists/wiki/
-# License: https://unlicense.org
-# Total number of network filters: 1274
-# ------------------------------------[SUPPORT]-------------------------------------
-# You can support by:
-# - reporting false positives
-# - making a donation: https://paypal.me/blocklistproject
-# -------------------------------------[INFO]---------------------------------------
+# Title: Scam Block List
+# Description: Scam domains
+# Homepage: https://github.com/blocklistproject/Lists
+# License: MIT
+# Last modified: 2025-12-19 16:39:34 UTC
+# Format: domains
+# Entries: 1,274
+# URL: 
 #
-# Scam list
-# ------------------------------------[FILTERS]-------------------------------------
+# This list is maintained by The Block List Project
+# https://github.com/blocklistproject/Lists
+#
+
 10tradeoption.com
 123tradeoption.com
 1n.yarrid.com
@@ -65,8 +63,10 @@ alltestbanksolutions.com
 alohazing.com
 alphaoptionstrade.com
 altruetech.com
+amazononlinewinners.in
 americantradingcouncil.com
 ameritradeoptions.com
+ammjaflk.ru
 amznhoodies.com
 amznshirts.com
 amzntees.com
@@ -74,6 +74,9 @@ annemus.com
 aoptee.com
 aozeala.com
 apeloptions.com
+api.qualityhealth.com
+api.sweepstakesalerts.com
+apps3.qualityhealth.com
 apvoc-ga.com
 army-shop.onshopbase.com
 arnoldgloverruss58.myshopify.com
@@ -90,6 +93,7 @@ auxiliaryoption.com
 azitecs.com
 bank.si
 baroconcept.com
+bcryp.net
 beaswan.com
 beesmeth.com
 benecharm.com
@@ -120,6 +124,7 @@ bitsyfarm.com
 bitworldzone.com
 blanketmart.us
 blingyy.com
+blog.get-cracked.com
 bltskins.com
 bofxsmartoption.com
 boobeeshop.com
@@ -160,7 +165,13 @@ capitalmult.com
 capitaloption.net
 cartooy.com
 catchemboxe.com
+cbtoken.me
 cdftradeoption.com
+cdn.play.sweepstakesalerts.com
+cdn.promotionsonlineusa.com
+cdn.qualityhealth.com
+cdn.sweepstakesalerts.com
+cdn2.qualityhealth.com
 celebtoysshop.com
 cfds100.com
 chaptersinvestment.com
@@ -169,6 +180,7 @@ chipteeamz.com
 cillva.com
 cinaletlia.com
 cipustar.com
+citasyencuentros.com
 cityofdream.co.uk
 classicraftdesign.com
 clemoa.com
@@ -184,6 +196,8 @@ coinhub.com
 coinxo.tech
 colorandcotton.com
 confiancetrades.com
+connectwalletnow.com
+consumerproductsusa.com
 cookietee.com
 coolest3d.com
 coolestpod.com
@@ -201,20 +215,30 @@ cryptoption.org
 cryptot.net
 csgoproleague.com
 customurink.com
+d1xkyo9j4r7vnn.cloudfront.net
+d2020yrahex7kc.cloudfront.net
 dailycoinbit.com
 dailytradeoption.com
 dancewithdream.com
 danylevych.com
 dautee.com
+dbrolwbvzhjl6.cloudfront.net
 decorwallart.store
 defcon7.com.br
 deforts.com
+demo.qualityhealth.com
 denningwelldrilling.com
 devifoodgrains.com
 dezpez.com
+direct.qualityhealth.com
 directtrade24.com
+discorcl-nltro.xyz
+displayoptoffers.com
 dkfodboldstore.com
 doubleoption.org
+download.get-cracked.com
+download1270.mediafiire.com
+downloading.get-cracked.com
 drakternorge.com
 dreamstee.com
 dreamstees.com
@@ -264,12 +288,16 @@ foryourdears.com
 fotballsko-salg.com
 fotballskotilbud.com
 foxzily.xyz
+franchisingcity.com
+freegiftcodes.get-cracked.com
 friday89.com
 friday99.com
 frogspring.life
 fruitstee.com
 ftboptions.com
+ftp.mediafiire.com
 fundsoption.com
+funnel.sweepstakesalerts.com
 fveco.com
 fxbioptions.com
 fxbit-trade.com
@@ -284,6 +312,7 @@ fxtradesmart.com
 gadgetinfinityz.com
 gain24option.com
 gameconsoless.com
+gametrailers.get-cracked.com
 gantoslo.com
 gearathena.com
 gearclover.com
@@ -292,6 +321,10 @@ gearstastic.com
 gearstastic.net
 gearstastics.com
 gearver.com
+generate.get-cracked.com
+get-cracked.com
+getproductkeys.get-cracked.com
+gghacks.com
 giftbias.com
 gladiadormalas.com.br
 glanceclock.com
@@ -303,20 +336,25 @@ glowcoins.com
 glstee.com
 godeskonettbutikk.com
 goldenexperttrade.com
+gooooooooogle.com
 gowarehouse.net
 goyourheart.com
 gracesector.com
 graciaszone.com
 gramoption.com
+greenadblocker.com
 greenerforex.com
 gsport.com
 guaranteoptions.com
 guccitees.com
 gunstee.com
+hack.get-cracked.com
 haowei.me
 happylifetee.com
 hash-connect.net
 hbofunkoshop.com
+hdfcbk.io
+hdfccard.ubona.com
 heightoption.com
 helpnanacenter.helpscoutdocs.com
 hermanistore.com
@@ -328,6 +366,7 @@ hmccommerce.com
 hollisternorge.com
 holmedalblikk.no
 hookahheroes.com
+hovrecording.com
 hqoptions.com
 hugetrump.com
 hunterbeus.com
@@ -335,6 +374,8 @@ icelandclothing.myshopify.com
 ikiha.com
 ikryptobot.com
 ilpollenza-sorso23.it
+img.sweepstakesalerts.com
+indianpost.top
 ingeniousplc.com
 investmenttradingoptions.com
 iq-tradeoption.com
@@ -351,6 +392,7 @@ jollyfamilygifts.net
 jorvanda.com
 joseph-holland.com
 justbasicshop.com
+keygen.get-cracked.com
 khoinguyenhanoi.vn
 kigurumi-usa.com
 killercharm.com
@@ -361,6 +403,7 @@ kingteestore.com
 kisserine.com
 kitchendecor.shop
 ksvitmimay.com
+kyrycp.online.dream.website
 ladamustore.com
 lakersfanshoponline.com
 laxtradeoption.com
@@ -378,7 +421,6 @@ litcomplex.com
 loaloeloaeeo.com
 look-like-star.myshopify.com
 lookinmyheart.com
-# lootcrate.com 556
 loveinbox.co.uk
 loveinheart.co.uk
 loveinsoul.co.uk
@@ -390,11 +432,13 @@ lucysstyle.com
 lunapresent.com
 luvinstars.com
 luxsgear.com
+m.qualityhealth.com
 marleytecnologica.com
 massiveopt.com
 maxtradeoptions.com
 mayor4london.com
 mbtnorge.com
+mediafiire.com
 megatrade-option.com
 meladermfacts.com
 memotero.com
@@ -402,8 +446,10 @@ meowpinky.com
 merchbeebee.com
 merchvips.com
 mercyzone.com
+microsoft.get-cracked.com
 miuprints.com
 mncprobuild.com
+mobile.qualityhealth.com
 moebel-thiems.com
 monkstars.co
 monkstars.com
@@ -419,6 +465,8 @@ museuw.com
 muthaafoundation.org
 mv.wiesengrund-sylt.com
 mvptrend.com
+my.qualityhealth.com
+mycleanpc.com
 mycraftypad.com
 mystitich4u.com
 mytenmerch.com
@@ -432,6 +480,7 @@ nationoption.com
 natistore.us
 natistorez.com
 nedistores.com
+new.get-cracked.com
 newgstore.com
 newlifetee.com
 nextradeoptions.com
@@ -448,6 +497,7 @@ norgefotball.com
 norgejakke.com
 norgejakkerbutikk.com
 norgeshoes.com
+ns1.get-cracked.com
 odinpc.com
 oflike.com
 ogogear.com
@@ -455,6 +505,7 @@ oldcube.com
 olympoption.com
 omgrm.com
 oneteloption.com
+onlinepromotionsusa.com
 onlycooltees.com
 optimal-options.com
 optimatradings.com
@@ -465,6 +516,7 @@ optionlevel.com
 optionplot.com
 orderquilt.com
 orderstee.com
+p.promotionsonlineusa.com
 paceoptions.com
 pandzee.com
 parajumpers-salg.com
@@ -474,6 +526,7 @@ parajumpersnorway.com
 parajumperssalg.com
 pavetrade.com
 payingbtc.com
+pcspeedup.en.softonic.com
 peakcurrency.com
 pearstee.com
 peekpok.com
@@ -490,16 +543,22 @@ pharaohstore.com
 pickablegift.com
 pickcheaptee.com
 pjs.outlet.com
+play.sweepstakesalerts.com
 plexoption.com
 pluscrypto-capital.com
 plustradeoption.com
 plutostars.com
 podmart.mobi
+polyhymnia-mar.com
 popeurope.com
 poravoda.com
 potentialprofitoptions.com
 pottalfinance.com
 potterheads.co
+poweradblocker.com
+prdapp1-as2.qualityhealth.com
+prdapp3-as2.qualityhealth.com
+premium-file.mediafiire.com
 premium-options.com
 premiumqualityblanket.com
 premiumtour-don.com
@@ -509,7 +568,10 @@ procrypton.com
 profit360options.com
 projectorprousa.com
 promotebuy.com
+promotionsonlineusa.com
 proudofyournation.com
+psncode.mediafiire.com
+qualityhealth.com
 quatangidol.com
 queueoption.com
 quickcryptominerson.com
@@ -526,11 +588,16 @@ rebeccatees.com
 redbnoptions.com
 rediffbase.com
 refinely.com
+results.qualityhealth.com
 reviewshirts.com
+rewardsgiantusa.com
 rickamortyshop.com
 ringtoperfection.com
 ritavitastore.com
 rjgriffith.com
+rmail-payments.co.uk
+roblox.get-cracked.com
+roblox.gghacks.com
 rockinlives.com
 royaldecorcollection.com
 royaldecorhome.store
@@ -542,7 +609,9 @@ saveeeee.myshopify.com
 savingsoption.com
 sedark.com
 sentees.com
+server.get-cracked.com
 seryna.co
+setandforget.net
 sharonup.com
 shinezily.com
 shirttest.com
@@ -559,6 +628,7 @@ skinszone.net
 skonmdnorge.com
 skyfxhub.com
 skytee3d.com
+slowdistanttube11.live
 smartnationfx.com
 smartoptionbn.com
 smartoptioners.com
@@ -569,6 +639,7 @@ sodipi.com
 soldtee.com
 solepersonal.com
 somethingapparel.com
+soocooponline.net
 souhoney.com
 southpark-fan.com
 speedoptions.co
@@ -579,6 +650,7 @@ sportswearfanatics.com
 spreadstores.com
 springstrade.com
 startuplatte.com
+steamcode.mediafiire.com
 steamgateways.com
 steamunlock.com
 steamunlock.gifts
@@ -664,11 +736,14 @@ sugarandpearl.com
 sunleaftravel.com
 superofferte.shop
 supertradeoption.com
+support.qualityhealth.com
 surprisesandgifts.com
 survivalcatsupply.com
+sweepstakesalerts.com
 swellsup.com
 swiftoptiontrader.com
 swing-options.com
+t.promotionsonlineusa.com
 tartannewzealand.myshopify.com
 tartanz.co
 tee24h.com
@@ -680,6 +755,7 @@ teepro.life
 teeslegendary.com
 teesunshine.com
 teezill.com
+test.qualityhealth.com
 thecabinas.com
 thechildhooddream.com
 thegeekgifts.com
@@ -723,6 +799,7 @@ trendsharks.com
 trendygladys.com
 treverschmelerkris18.myshopify.com
 tritino.net
+trktrk.club
 tromselementbygg.no
 trustedoption.net
 trustexpertoptions.com
@@ -730,6 +807,7 @@ tulumwellnessacademy.com
 tycomex.com
 tyovo.com
 u.umax-pro.ru
+ubona.com
 ultimate-tech-products.myshopify.com
 ultimatepayoption.com
 ultraboxlab.com
@@ -744,14 +822,18 @@ usefulnpro.com
 ushiro.org
 uuc.joyofprogress.com
 valarstore.com
+validcardcodes.get-cracked.com
 verfun.com
 vetoro.cc
 viberman.com
 vikingstore.co
 vipticketgiveaway.com
+virpropcnow.xyz
+w.onlinepromotionsusa.com
 wanedo.net
 wavetshirt.com
 whbinder.com
+wholedailyfeed.com
 windbellstore.com
 worldbinaryoption.com
 wowviral.net
@@ -826,6 +908,7 @@ www.cloverszone.com
 www.cmoboy.com
 www.cocumbertee.com
 www.colorandcotton.com
+www.consumerproductsusa.com
 www.cookietee.com
 www.coolest3d.com
 www.coolestpod.com
@@ -844,6 +927,7 @@ www.deforts.com
 www.denningwelldrilling.com
 www.devifoodgrains.com
 www.dezpez.com
+www.displayoptoffers.com
 www.dkfodboldstore.com
 www.drakternorge.com
 www.dreamstee.com
@@ -892,6 +976,8 @@ www.gearstastic.com
 www.gearstastic.net
 www.gearstastics.com
 www.gearver.com
+www.get-cracked.com
+www.gghacks.com
 www.giftbias.com
 www.gladiadormalas.com.br
 www.glanceclock.com
@@ -951,7 +1037,6 @@ www.litcomplex.com
 www.loaloeloaeeo.com
 www.look-like-star.myshopify.com
 www.lookinmyheart.com
-# www.lootcrate.com 556
 www.loveinbox.co.uk
 www.loveinheart.co.uk
 www.loveinsoul.co.uk
@@ -966,6 +1051,7 @@ www.luxsgear.com
 www.marleytecnologica.com
 www.mayor4london.com
 www.mbtnorge.com
+www.mediafiire.com
 www.meladermfacts.com
 www.memotero.com
 www.meowpinky.com
@@ -1013,6 +1099,7 @@ www.oflike.com
 www.ogogear.com
 www.oldcube.com
 www.omgrm.com
+www.onlinepromotionsusa.com
 www.onlycooltees.com
 www.orderquilt.com
 www.orderstee.com
@@ -1042,7 +1129,9 @@ www.premiumtour-don.com
 www.pridesocial.net
 www.printteestore.com
 www.promotebuy.com
+www.promotionsonlineusa.com
 www.proudofyournation.com
+www.qualityhealth.com
 www.quatangidol.com
 www.quiltstudiolaren.com
 www.quintrendy.com
@@ -1054,6 +1143,7 @@ www.realteepro.com
 www.reanimando.org
 www.rebeccatees.com
 www.reviewshirts.com
+www.rewardsgiantusa.com
 www.rickamortyshop.com
 www.ringtoperfection.com
 www.rjgriffith.com
@@ -1113,6 +1203,7 @@ www.sunsetstore.net
 www.superofferte.shop
 www.surprisesandgifts.com
 www.survivalcatsupply.com
+www.sweepstakesalerts.com
 www.swellsup.com
 www.tartannewzealand.myshopify.com
 www.tartanz.co
@@ -1178,115 +1269,19 @@ www.yomoun.com
 www.yuynstore.com
 www.zedbubble.com
 www.zgalaxytee.com
+wwwshopstasiacom.get-cracked.com
+xboxcode.mediafiire.com
 xmasbauble.com
 xtrefinance.com
+y.promotionsonlineusa.com
 yeahteesmile.com
 yeswevibe.com
 yeyvibe.com
 yeyvibes.com
 yomoun.com
+ypa2.sweepstakesalerts.com
 yuynstore.com
 zedbubble.com
 zedoption.com
 zgalaxytee.com
 zukoptions.com
-slowdistanttube11.live
-rmail-payments.co.uk
-citasyencuentros.com
-ammjaflk.ru
-hovrecording.com
-# whynotwin11.com Issue 375
-mycleanpc.com
-gghacks.com
-www.gghacks.com
-roblox.gghacks.com
-rewardsgiantusa.com
-www.rewardsgiantusa.com
-promotionsonlineusa.com
-www.promotionsonlineusa.com
-cdn.promotionsonlineusa.com
-p.promotionsonlineusa.com
-y.promotionsonlineusa.com
-t.promotionsonlineusa.com
-displayoptoffers.com
-www.displayoptoffers.com
-sweepstakesalerts.com
-api.sweepstakesalerts.com
-ypa2.sweepstakesalerts.com
-play.sweepstakesalerts.com
-funnel.sweepstakesalerts.com
-cdn.sweepstakesalerts.com
-img.sweepstakesalerts.com
-www.sweepstakesalerts.com
-cdn.play.sweepstakesalerts.com
-qualityhealth.com
-www.qualityhealth.com
-prdapp3-as2.qualityhealth.com
-support.qualityhealth.com
-api.qualityhealth.com
-cdn.qualityhealth.com
-mobile.qualityhealth.com
-prdapp1-as2.qualityhealth.com
-m.qualityhealth.com
-test.qualityhealth.com
-cdn2.qualityhealth.com
-direct.qualityhealth.com
-results.qualityhealth.com
-apps3.qualityhealth.com
-my.qualityhealth.com
-demo.qualityhealth.com
-consumerproductsusa.com
-www.consumerproductsusa.com
-get-cracked.com
-www.get-cracked.com
-validcardcodes.get-cracked.com
-roblox.get-cracked.com
-franchisingcity.com
-freegiftcodes.get-cracked.com
-blog.get-cracked.com
-gametrailers.get-cracked.com
-new.get-cracked.com
-microsoft.get-cracked.com
-generate.get-cracked.com
-ns1.get-cracked.com
-keygen.get-cracked.com
-getproductkeys.get-cracked.com
-downloading.get-cracked.com
-server.get-cracked.com
-setandforget.net
-wwwshopstasiacom.get-cracked.com
-download.get-cracked.com
-hack.get-cracked.com
-mediafiire.com
-www.mediafiire.com
-ftp.mediafiire.com
-xboxcode.mediafiire.com
-premium-file.mediafiire.com
-steamcode.mediafiire.com
-psncode.mediafiire.com
-download1270.mediafiire.com
-d1xkyo9j4r7vnn.cloudfront.net
-onlinepromotionsusa.com
-www.onlinepromotionsusa.com
-w.onlinepromotionsusa.com
-pcspeedup.en.softonic.com
-greenadblocker.com
-d2020yrahex7kc.cloudfront.net
-poweradblocker.com
-dbrolwbvzhjl6.cloudfront.net
-wholedailyfeed.com
-gooooooooogle.com
-polyhymnia-mar.com
-trktrk.club
-virpropcnow.xyz
-hdfcbk.io
-ubona.com
-hdfccard.ubona.com
-bcryp.net
-connectwalletnow.com
-cbtoken.me
-amazononlinewinners.in
-kyrycp.online.dream.website
-discorcl-nltro.xyz
-indianpost.top
-soocooponline.net

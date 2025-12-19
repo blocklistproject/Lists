@@ -1,124 +1,121 @@
-# ------------------------------------[UPDATE]--------------------------------------
-# Title: The Block List Project - Vaping List (dnsmasq)
-# Expires: 1 day
-# Homepage: https://blocklist.site
-# Help: https://github.com/blocklistproject/lists/wiki/
-# License: https://unlicense.org
-# Total number of network filters: 108
-# ------------------------------------[SUPPORT]-------------------------------------
-# You can support by:
-#  - reporting false positives
-#  - making a donation: https://paypal.me/blocklistproject
-# -------------------------------------[INFO]---------------------------------------
+# Title: Vaping Block List
+# Description: Vaping and e-cigarette sites
+# Homepage: https://github.com/blocklistproject/Lists
+# License: MIT
+# Last modified: 2025-12-19 16:39:34 UTC
+# Format: dnsmasq
+# Entries: 108
+# URL: 
 #
-# Vaping list
-# ------------------------------------[FILTERS]-------------------------------------
-# https://github.com/blocklistproject/Lists/issues/383
-server=/vaping.com/
-server=/vaping.org/
-server=/vapingdaily.com/
-server=/www.vaporfi.com/
-server=/vaporfi.com/
-server=/vaping.rocks/
-server=/breazy.com/
-server=/www.rockbottomvapes.com/
-server=/rockbottomvapes.com/
-server=/www.eightvape.com/
-server=/eightvape.com/
-server=/bovaping.com/
-server=/thcvapesoil.com/
-server=/www.thcvapesoil.com/
-server=/mail.thcvapesoil.com/
-server=/www.directvapor.com/
-server=/directvapor.com/
-server=/vapingcheap.com/
-server=/www.vapingcheap.com/
-server=/vaping360.com/
+# This list is maintained by The Block List Project
+# https://github.com/blocklistproject/Lists
+#
+
 server=/advertise.vaping360.com/
-server=/cdn.vaping360.com/
-server=/wwv.vaping360.com/
+server=/amp.westcoastvapesupply.com/
+server=/api.buysellvape.com/
+server=/apps.giantvapes.com/
 server=/assets1.vaping360.com/
-server=/www.vaping360.com/
-server=/go.vaping360.com/
-server=/media.vaping360.com/
-server=/vapecraftinc.com/
-server=/www.vapecraftinc.com/
-server=/tracking.vapecraftinc.com/
-server=/deals.vapecraftinc.com/
-server=/www.vapesuperstore.co.uk/
-server=/vapesuperstore.co.uk/
-server=/ww2.vapesuperstore.co.uk/
-server=/local.vapesuperstore.co.uk/
-server=/comune.vapesuperstore.co.uk/
-server=/www.vaping.watch/
-server=/vaping.watch/
-server=/www.vaporbeast.com/
-server=/vaporbeast.com/
-server=/elementvape.com/
-server=/www.elementvape.com/
+server=/autodiscover.buysellvape.com/
 server=/blazedvapes.com/
-server=/www.blazedvapes.com/
-server=/myvaporstore.com/
-server=/www.myvaporstore.com/
-server=/thevapemall.com/
-server=/www.thevapemall.com/
-server=/zenithvapecbd.com/
-server=/www.zenithvapecbd.com/
-server=/buyvapor.com/
-server=/www.buyvapor.com/
-server=/nyvapeshop.com/
-server=/www.nyvapeshop.com/
-server=/buypodsnow.com/
-server=/www.buypodsnow.com/
-server=/vapordna.com/
-server=/www.vapordna.com/
-server=/instagram.vapordna.com/
+server=/blog.giantvapes.com/
+server=/blog.slickvapes.com/
 server=/blog.vapordna.com/
-server=/www.discountvapepen.com/
+server=/blog.westcoastvapesupply.com/
+server=/bovaping.com/
+server=/breazy.com/
+server=/buypodsnow.com/
+server=/buysellaccess.buysellvape.com/
+server=/buysellvape.com/
+server=/buyvapor.com/
+server=/cdn.misthub.com/
+server=/cdn.nyvapeshop.com/
+server=/cdn.slickvapes.com/
+server=/cdn.vaping360.com/
+server=/comune.vapesuperstore.co.uk/
+server=/deals.vapecraftinc.com/
+server=/dev.nyvapeshop.com/
+server=/directvapor.com/
 server=/discountvapepen.com/
+server=/eightvape.com/
+server=/elementvape.com/
+server=/eliquid.westcoastvapesupply.com/
+server=/email.westcoastvapesupply.com/
+server=/enterpriseenrollment.misthub.com/
+server=/files.westcoastvapesupply.com/
+server=/ftp.giantvapes.com/
+server=/giantvapes.com/
+server=/go.vaping360.com/
+server=/help.misthub.com/
+server=/images.giantvapes.com/
+server=/info.nyvapeshop.com/
+server=/instagram.vapordna.com/
+server=/kibana.nyvapeshop.com/
+server=/lcdn.westcoastvapesupply.com/
+server=/local.vapesuperstore.co.uk/
+server=/mail.buysellvape.com/
+server=/mail.thcvapesoil.com/
+server=/media.vaping360.com/
+server=/misthub.com/
+server=/msoid.misthub.com/
+server=/myvaporstore.com/
 server=/ns1.discountvapepen.com/
 server=/ns2.discountvapepen.com/
-server=/buysellvape.com/
-server=/www.buysellvape.com/
-server=/vapeadmin.buysellvape.com/
-server=/buysellaccess.buysellvape.com/
-server=/api.buysellvape.com/
-server=/autodiscover.buysellvape.com/
-server=/mail.buysellvape.com/
-server=/www.misthub.com/
-server=/misthub.com/
-server=/help.misthub.com/
-server=/test.misthub.com/
-server=/vape.misthub.com/
-server=/enterpriseenrollment.misthub.com/
-server=/msoid.misthub.com/
-server=/cdn.misthub.com/
-server=/unsub.misthub.com/
-server=/westcoastvapesupply.com/
-server=/amp.westcoastvapesupply.com/
-server=/files.westcoastvapesupply.com/
-server=/wholesale.westcoastvapesupply.com/
-server=/email.westcoastvapesupply.com/
-server=/blog.westcoastvapesupply.com/
-server=/www.westcoastvapesupply.com/
-server=/eliquid.westcoastvapesupply.com/
-server=/lcdn.westcoastvapesupply.com/
-server=/slickvapes.com/
-server=/www.slickvapes.com/
-server=/cdn.slickvapes.com/
-server=/blog.slickvapes.com/
-server=/store.nyvapeshop.com/
-server=/prelive.nyvapeshop.com/
+server=/nyvapeshop.com/
 server=/pop.nyvapeshop.com/
-server=/spam.nyvapeshop.com/
-server=/cdn.nyvapeshop.com/
-server=/kibana.nyvapeshop.com/
-server=/dev.nyvapeshop.com/
-server=/info.nyvapeshop.com/
-server=/giantvapes.com/
-server=/blog.giantvapes.com/
-server=/www.giantvapes.com/
-server=/images.giantvapes.com/
-server=/ftp.giantvapes.com/
-server=/apps.giantvapes.com/
+server=/prelive.nyvapeshop.com/
 server=/reviews.giantvapes.com/
+server=/rockbottomvapes.com/
+server=/slickvapes.com/
+server=/spam.nyvapeshop.com/
+server=/store.nyvapeshop.com/
+server=/test.misthub.com/
+server=/thcvapesoil.com/
+server=/thevapemall.com/
+server=/tracking.vapecraftinc.com/
+server=/unsub.misthub.com/
+server=/vape.misthub.com/
+server=/vapeadmin.buysellvape.com/
+server=/vapecraftinc.com/
+server=/vapesuperstore.co.uk/
+server=/vaping.com/
+server=/vaping.org/
+server=/vaping.rocks/
+server=/vaping.watch/
+server=/vaping360.com/
+server=/vapingcheap.com/
+server=/vapingdaily.com/
+server=/vaporbeast.com/
+server=/vapordna.com/
+server=/vaporfi.com/
+server=/westcoastvapesupply.com/
+server=/wholesale.westcoastvapesupply.com/
+server=/ww2.vapesuperstore.co.uk/
+server=/wwv.vaping360.com/
+server=/www.blazedvapes.com/
+server=/www.buypodsnow.com/
+server=/www.buysellvape.com/
+server=/www.buyvapor.com/
+server=/www.directvapor.com/
+server=/www.discountvapepen.com/
+server=/www.eightvape.com/
+server=/www.elementvape.com/
+server=/www.giantvapes.com/
+server=/www.misthub.com/
+server=/www.myvaporstore.com/
+server=/www.nyvapeshop.com/
+server=/www.rockbottomvapes.com/
+server=/www.slickvapes.com/
+server=/www.thcvapesoil.com/
+server=/www.thevapemall.com/
+server=/www.vapecraftinc.com/
+server=/www.vapesuperstore.co.uk/
+server=/www.vaping.watch/
+server=/www.vaping360.com/
+server=/www.vapingcheap.com/
+server=/www.vaporbeast.com/
+server=/www.vapordna.com/
+server=/www.vaporfi.com/
+server=/www.westcoastvapesupply.com/
+server=/www.zenithvapecbd.com/
+server=/zenithvapecbd.com/

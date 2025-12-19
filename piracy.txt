@@ -1,18 +1,16 @@
-# ------------------------------------[UPDATE]--------------------------------------
-# Title: The Block List Project - Piracy List
-# Expires: 1 day
-# Homepage: https://blocklist.site
-# Help: https://github.com/blocklistproject/lists/wiki/
-# License: https://unlicense.org
-# Total number of network filters: 2153
-# ------------------------------------[SUPPORT]-------------------------------------
-# You can support by:
-# - reporting false positives
-# - making a donation: https://paypal.me/blocklistproject
-# -------------------------------------[INFO]---------------------------------------
+# Title: Piracy Block List
+# Description: Piracy and illegal streaming
+# Homepage: https://github.com/blocklistproject/Lists
+# License: MIT
+# Last modified: 2025-12-19 16:39:33 UTC
+# Format: hosts
+# Entries: 2,153
+# URL: 
 #
-# Piracy list
-# ------------------------------------[FILTERS]-------------------------------------
+# This list is maintained by The Block List Project
+# https://github.com/blocklistproject/Lists
+#
+
 0.0.0.0 0daycn.net
 0.0.0.0 100-postal2.blogspot.com
 0.0.0.0 1337x.to
@@ -42,6 +40,7 @@
 0.0.0.0 a2zapk.com
 0.0.0.0 a2zcrack.com
 0.0.0.0 abandon5000.com
+0.0.0.0 abbaspc.net
 0.0.0.0 abv-media.ru
 0.0.0.0 activationkeys.org
 0.0.0.0 addone.ru
@@ -160,6 +159,7 @@
 0.0.0.0 crackedmine.com
 0.0.0.0 crackedpc.org
 0.0.0.0 crackedreal.com
+0.0.0.0 crackedversion.com
 0.0.0.0 crackevo.com
 0.0.0.0 crackfind.com
 0.0.0.0 crackingpremium.com
@@ -178,6 +178,7 @@
 0.0.0.0 cracksfiles.com
 0.0.0.0 crackslink.com
 0.0.0.0 cracksnow.com
+0.0.0.0 cracksoftwareguru.com
 0.0.0.0 cracksoftwarez.com
 0.0.0.0 crackspider.net
 0.0.0.0 cracksurl.com
@@ -323,6 +324,7 @@
 0.0.0.0 free-movies-downloads.com
 0.0.0.0 free.appnee.com
 0.0.0.0 free.getlink.vn
+0.0.0.0 free4pc.org
 0.0.0.0 freecoursesonline.me
 0.0.0.0 freecrackpatch.com
 0.0.0.0 freecracksoftwares.net
@@ -362,12 +364,12 @@
 0.0.0.0 fztvseries.mobi
 0.0.0.0 g2g.fm
 0.0.0.0 gadget-vault.com
+0.0.0.0 game-2u.com
 0.0.0.0 gamegear.nl
 0.0.0.0 gamerzneeds.net
 0.0.0.0 games4u.ws
 0.0.0.0 gamesfreecheat.com
 0.0.0.0 gamezlinks.net
-0.0.0.0 game-2u.com
 0.0.0.0 gamingstreet.org
 0.0.0.0 garaje.ya.com
 0.0.0.0 general-catalog.com
@@ -392,6 +394,7 @@
 0.0.0.0 gpsmarshrut.net
 0.0.0.0 grand-turk.com
 0.0.0.0 grand-upload.com
+0.0.0.0 greencracks.com
 0.0.0.0 grimhosting.com
 0.0.0.0 grinderz.org
 0.0.0.0 gsm.waptop.info
@@ -743,6 +746,7 @@
 0.0.0.0 piratebrowser.net
 0.0.0.0 piratebrowser.org
 0.0.0.0 piratecity.net
+0.0.0.0 piratepc.me
 0.0.0.0 pittsbororelayforlife.org
 0.0.0.0 playfiles.zz.mu
 0.0.0.0 pleer.com
@@ -852,6 +856,7 @@
 0.0.0.0 serialstart.com
 0.0.0.0 serialsurf.com
 0.0.0.0 sertico.wordpress.com
+0.0.0.0 sexuria.net
 0.0.0.0 shabri.org
 0.0.0.0 share2downloads.com
 0.0.0.0 sharebeast.com
@@ -1824,7 +1829,6 @@
 0.0.0.0 www.seriousfiles.com
 0.0.0.0 www.seriousurls.com
 0.0.0.0 www.sexandlive.com
-0.0.0.0 sexuria.net
 0.0.0.0 www.shabri.org
 0.0.0.0 www.share2downloads.com
 0.0.0.0 www.sharebeast.com
@@ -2088,8 +2092,8 @@
 0.0.0.0 www.youwatch.org
 0.0.0.0 www.yts.ag
 0.0.0.0 www.yts.la
-0.0.0.0 www.yts.re
 0.0.0.0 www.yts.mx
+0.0.0.0 www.yts.re
 0.0.0.0 www.zcrack.com
 0.0.0.0 www.zdig1.biz
 0.0.0.0 www.zdownloadx451.ml
@@ -2160,9 +2164,3 @@
 0.0.0.0 zonawarez.net
 0.0.0.0 zoomtorrents.com
 0.0.0.0 zoozle.org
-0.0.0.0 free4pc.org
-0.0.0.0 piratepc.me
-0.0.0.0 crackedversion.com
-0.0.0.0 greencracks.com
-0.0.0.0 cracksoftwareguru.com
-0.0.0.0 abbaspc.net
