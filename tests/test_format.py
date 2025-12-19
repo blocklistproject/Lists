@@ -54,7 +54,7 @@ class TestFormatHosts:
         result = format_hosts(domains)
         
         lines = result.split("\n")
-        domain_lines = [l for l in lines if l.startswith("0.0.0.0")]
+        domain_lines = [line for line in lines if line.startswith("0.0.0.0")]
         
         assert domain_lines[0] == "0.0.0.0 z.com"
         assert domain_lines[1] == "0.0.0.0 a.com"
@@ -101,7 +101,7 @@ class TestFormatAdguard:
         
         assert "! Title: Test" in result
         # Should NOT use # comments
-        lines = [l for l in result.split("\n") if l.startswith("#")]
+        lines = [line for line in result.split("\n") if line.startswith("#")]
         assert len(lines) == 0
     
     def test_includes_metadata(self):

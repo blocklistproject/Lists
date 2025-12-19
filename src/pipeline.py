@@ -14,15 +14,15 @@ from typing import Any
 
 # Support both relative and absolute imports
 try:
-    from .config import get_format_config, get_list_names, get_settings, load_config
+    from .config import get_format_config, get_list_names, load_config
     from .format import write_output
-    from .merge import apply_allowlist, merge_from_files, sort_domains
+    from .merge import apply_allowlist, sort_domains
     from .normalize import extract_allowlist_from_hosts, parse_file_to_set
     from .validate import validate_domain_set
 except ImportError:
-    from config import get_format_config, get_list_names, get_settings, load_config
+    from config import get_format_config, get_list_names, load_config
     from format import write_output
-    from merge import apply_allowlist, merge_from_files, sort_domains
+    from merge import apply_allowlist, sort_domains
     from normalize import extract_allowlist_from_hosts, parse_file_to_set
     from validate import validate_domain_set
 
