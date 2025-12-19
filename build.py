@@ -155,30 +155,16 @@ def single(ctx, list_name):
 def verify(ctx):
     """Verify all output formats are consistent."""
     output_dir = ctx.obj.get("output_dir", PROJECT_ROOT)
-    verbose = ctx.obj.get("verbose", False)
-    
-    config_path = PROJECT_ROOT / "config" / "lists.yml"
-    config = load_config(config_path)
-    lists_to_check = get_list_names(config)
     
     click.echo("Verifying output consistency...")
     
-    all_consistent = True
-    for list_name in lists_to_check:
-        is_consistent, mismatches = verify_output_consistency(list_name, output_dir)
-        
-        if is_consistent:
-            if verbose:
-                click.secho(f"  ✓ {list_name}", fg="green")
-        else:
-            all_consistent = False
-            click.secho(f"  ✗ {list_name}", fg="red")
-            for mismatch in mismatches:
-                click.echo(f"    {mismatch}")
+    inconsistencies = verify_output_consistency(output_dir)
     
-    if all_consistent:
+    if not inconsistencies:
         click.secho("\nAll outputs are consistent!", fg="green")
     else:
+        for list_name, error_msg in inconsistencies:
+            click.secho(f"  ✗ {list_name}: {error_msg}", fg="red")
         click.secho("\nSome outputs are inconsistent!", fg="red")
         sys.exit(1)
 
