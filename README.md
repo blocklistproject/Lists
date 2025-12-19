@@ -1,8 +1,5 @@
 <img src="https://raw.githubusercontent.com/blocklistproject/Lists/master/img/logo.webp" height="150px"/>  
 
-# MAJOR UPDATE:
-## We are moving forward with a merge of this project and a complete rewrite. As more details are available we will update the repo.
-
 # The Block List Project
 
 [![GitHub issues](https://img.shields.io/github/issues/blocklistproject/lists)](https://github.com/blocklistproject/Lists/issues)
@@ -16,11 +13,6 @@
 ![GitHub Maintained](https://img.shields.io/badge/maintained-yes-green)
 [![ko-fi](https://badgen.net/badge/Support%20Us/Ko-Fi?color=orange)](https://ko-fi.com/P5P521OPP)
 [![patreon](https://badgen.net/badge/Support%20Us/Patreon?color=red)](https://www.patreon.com/bePatron?u=8892646)
-![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fblocklistproject%2FLists&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Traffic+%28Daily%2FTotal%29&edge_flat=false)
-
-&nbsp;
-
-## Make sure to join our discord! This project does take a fair amount of time to maintain. Please consider joining our patreon and help support our efforts, thank you!
 
 &nbsp;
 
@@ -28,173 +20,198 @@
 <a href="https://www.patreon.com/bePatron?u=8892646"><img src="https://i0.wp.com/thelemicunion.com/wp-content/uploads/2018/07/Patreon-Support-Button.png?w=640&ssl=1" width=250></a>
 <a href="https://discord.com/invite/x9KeVQggkc"><img src="https://discord.com/assets/ff41b628a47ef3141164bfedb04fb220.png" width=250 /></a>
 </p>
-&nbsp;
 
 &nbsp;
 
-- [Details](#details)
-- [Versions](#versions)
-- [Usage](#usage)
-- [Lists](#lists)
-- [Using with Pi-hole](#pi-hole-instructions)
-- [Using with other tools](#using-with-other-tools)
-- [Sponsors](#sponsors)
+## Table of Contents
+
+- [About](#about)
+- [Quick Start](#quick-start)
+- [Available Lists](#available-lists)
+- [Formats](#formats)
+- [Contributing](#contributing)
+- [For Developers](#for-developers)
 - [License](#license)
 
 &nbsp;
 
-# Details:
+## About
 
-These lists were created because the founder of the project wanted something with a little more control over what is being blocked. Many lists out there are all or nothing. We set out to create lists with more control over what is being blocked and believe that we have accomplished that. 
+The Block List Project provides curated domain blocklists for various categories of unwanted content. Our lists are designed to give you control over what gets blocked, rather than an all-or-nothing approach.
 
-&nbsp;
-
-# Versions:
-
-<details>
-<summary>Original Version:</summary>
-
-<Original>&nbsp;All urls in the version of the list are listed in the host file as follows</Original>
-
-<p>  &nbsp;&nbsp;0.0.0.0 example.com</p>
-</details>
-&nbsp;
-<details>
-<summary>No Leading 0s Version:</summary>
-
-<p>&nbsp;All urls in this version of the list are listed in the host file as follows</p>
-
-<p>  &nbsp;&nbsp;example.com</p>
-
-Our users brought it to our attention that some devices error out if the url is preceded by an IP address.
-
-</details>
-&nbsp;
-<details>
-<summary>DNSMASQ Version:</summary>
-
-<p>&nbsp;All urls in this version of the list are listed in the host file as follows</p>
-
-<p>  &nbsp;&nbsp;server=/example.com/</p>
-
-It was requested to add support for dnsmasq. Please provide feedback.
-
-</details>
-&nbsp;
-<details>
-<summary>Adguard Version:</summary>
-
-<p>&nbsp;All urls in this version of the list are listed in the host file as follows</p>
-
-<p>  &nbsp;&nbsp;||example.com^</p>
-
-It was requested to add support for AdGuard. We are currently testing our lists. Please provide feedback.
-
-</details>
-&nbsp;
-
-# Usage:
-
-<details>
-    <summary>Using with <a href="https://pi-hole.net" target="_blank">Pi-Hole</a>:</summary>
-
-## Pi-Hole instructions:
-
-1. Copy the link to the Pi-hole format ('Original') for the desired list (from the appropriate table below).
-2. Add the URL to your Pi-hole's block lists (**Login** > **Group Management** > **Adlists** > **Paste list URL in "Address" field, add comment** > **Click "Add"**)
-3. Update Gravity (**Tools** > **Update Gravity** > **Click "Update"** )
-
-&nbsp;
-<sup>Instructions current as of Pi-hole 5.2.4. Instructions may currently be slightly different. Instructions will be updated once ver. 6 is release. Thank you</sup>
-
-</details>
-&nbsp;
-<details>
-    <summary>Using with <a href="https://adguard.com/en/adguard-home/overview.html">AdGuard Home</a>:</summary>
-
-## AdGuard instructions:
-
-1. Copy the link to the AdGuard format for the desired list (from the appropriate table below).
-2. Add the URL to you AdGuard's block list (**Login** > **Filters** > **DNS Blocklists** > **Add blocklist** > **Add a custom list** > **Enter Name** > **Paste copied link URL**)
-3. List is automatically enabled and ready to start blocking.
-
-&nbsp;
-<sup>Instructions are current as of AdGuard Home version 0.106.3</sup>
-
-</details>
-&nbsp;
-
-# Lists:
+All lists are:
+- ✅ **Free and open source** — always will be
+- ✅ **Regularly updated** — automated builds on every change
+- ✅ **Available in multiple formats** — Pi-hole, AdGuard, dnsmasq, and more
+- ✅ **Community maintained** — submit requests via GitHub Issues
 
 &nbsp;
 
-## Main Lists
+## Quick Start
 
-| List       | Original                                                        | No IP                                                                          | DNSMASQ                                                                                 | AdGuard <br> <sup>BETA</sup>                                                | Description                                                                                              |
-| ---------- | --------------------------------------------------------------- | ------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
-| Abuse      | [Link](https://blocklistproject.github.io/Lists/abuse.txt)      | [Link](https://blocklistproject.github.io/Lists/alt-version/abuse-nl.txt)      | [Link](https://blocklistproject.github.io/Lists/dnsmasq-version/abuse-dnsmasq.txt)      | [Link](https://blocklistproject.github.io/Lists/adguard/abuse-ags.txt)      | Lists of sites created to deceive                                                                        |
-| Ads        | [Link](https://blocklistproject.github.io/Lists/ads.txt)        | [Link](https://blocklistproject.github.io/Lists/alt-version/ads-nl.txt)        | [Link](https://blocklistproject.github.io/Lists/dnsmasq-version/ads-dnsmasq.txt)        | [Link](https://blocklistproject.github.io/Lists/adguard/ads-ags.txt)        | Ad servers / sites                                                                                       |
-| Crypto     | [Link](https://blocklistproject.github.io/Lists/crypto.txt)     | [Link](https://blocklistproject.github.io/Lists/alt-version/crypto-nl.txt)     | [Link](https://blocklistproject.github.io/Lists/dnsmasq-version/crypto-dnsmasq.txt)     | [Link](https://blocklistproject.github.io/Lists/adguard/crypto-ags.txt)     | Crypto / cryptojacking based sites <br> <sup>Can break normal "good" crypto sites</sup>                  |
-| Drugs      | [Link](https://blocklistproject.github.io/Lists/drugs.txt)      | [Link](https://blocklistproject.github.io/Lists/alt-version/drugs-nl.txt)      | [Link](https://blocklistproject.github.io/Lists/dnsmasq-version/drugs-dnsmasq.txt)      | [Link](https://blocklistproject.github.io/Lists/adguard/drugs-ags.txt)      | RE sites that deal with illegal drugs <br><sub>Including RX drugs illegal to posses in the US</sub>      |
-| Everything | [Link](https://blocklistproject.github.io/Lists/everything.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/everything-nl.txt) | [Link](https://blocklistproject.github.io/Lists/dnsmasq-version/everything-dnsmasq.txt) | [Link](https://blocklistproject.github.io/Lists/adguard/everything-ags.txt) | List including all non beta list domains                                                                 |
-| Facebook   | [Link](https://blocklistproject.github.io/Lists/facebook.txt)   | [Link](https://blocklistproject.github.io/Lists/alt-version/facebook-nl.txt)   | [Link](https://blocklistproject.github.io/Lists/dnsmasq-version/facebook-dnsmasq.txt)   | [Link](https://blocklistproject.github.io/Lists/adguard/facebook-ags.txt)   | Block FB and FB related / owned services                                                                 |
-| Fraud      | [Link](https://blocklistproject.github.io/Lists/fraud.txt)      | [Link](https://blocklistproject.github.io/Lists/alt-version/fraud-nl.txt)      | [Link](https://blocklistproject.github.io/Lists/dnsmasq-version/fraud-dnsmasq.txt)      | [Link](https://blocklistproject.github.io/Lists/adguard/fraud-ags.txt)      | Sites created to defraud                                                                                    |
-| Gambling   | [Link](https://blocklistproject.github.io/Lists/gambling.txt)   | [Link](https://blocklistproject.github.io/Lists/alt-version/gambling-nl.txt)   | [Link](https://blocklistproject.github.io/Lists/dnsmasq-version/gambling-dnsmasq.txt)   | [Link](https://blocklistproject.github.io/Lists/adguard/gambling-ags.txt)   | All gambling based site legit and illegal                                                                |
-| Malware    | [Link](https://blocklistproject.github.io/Lists/malware.txt)    | [Link](https://blocklistproject.github.io/Lists/alt-version/malware-nl.txt)    | [Link](https://blocklistproject.github.io/Lists/dnsmasq-version/malware-dnsmasq.txt)    | [Link](https://blocklistproject.github.io/Lists/adguard/malware-ags.txt)    | Known sites that host malware                                                                            |
-| Phishing   | [Link](https://blocklistproject.github.io/Lists/phishing.txt)   | [Link](https://blocklistproject.github.io/Lists/alt-version/phishing-nl.txt)   | [Link](https://blocklistproject.github.io/Lists/dnsmasq-version/phishing-dnsmasq.txt)   | [Link](https://blocklistproject.github.io/Lists/adguard/phishing-ags.txt)   | Sites created to phish info                                                                              |
-| Piracy     | [Link](https://blocklistproject.github.io/Lists/piracy.txt)     | [Link](https://blocklistproject.github.io/Lists/alt-version/piracy-nl.txt)     | [Link](https://blocklistproject.github.io/Lists/dnsmasq-version/piracy-dnsmasq.txt)     | [Link](https://blocklistproject.github.io/Lists/adguard/piracy-ags.txt)     | Known sites that allow for illegal downloads                                                             |
-| Porn       | [Link](https://blocklistproject.github.io/Lists/porn.txt)       | [Link](https://blocklistproject.github.io/Lists/alt-version/porn-nl.txt)       | [Link](https://blocklistproject.github.io/Lists/dnsmasq-version/porn-dnsmasq.txt)       | [Link](https://blocklistproject.github.io/Lists/adguard/porn-ags.txt)       | Porn or sites that promote porn                                                                          |
-| Ransomware | [Link](https://blocklistproject.github.io/Lists/ransomware.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/ransomware-nl.txt) | [Link](https://blocklistproject.github.io/Lists/dnsmasq-version/ransomware-dnsmasq.txt) | [Link](https://blocklistproject.github.io/Lists/adguard/ransomware-ags.txt) | Known sites that host or contain ransomware                                                              |
-| Redirect   | [Link](https://blocklistproject.github.io/Lists/redirect.txt)   | [Link](https://blocklistproject.github.io/Lists/alt-version/redirect-nl.txt)   | [Link](https://blocklistproject.github.io/Lists/dnsmasq-version/redirect-dnsmasq.txt)   | [Link](https://blocklistproject.github.io/Lists/adguard/redirect-ags.txt)   | Sites that redirect you from your intended site                                                         |
-| Scam       | [Link](https://blocklistproject.github.io/Lists/scam.txt)       | [Link](https://blocklistproject.github.io/Lists/alt-version/scam-nl.txt)       | [Link](https://blocklistproject.github.io/Lists/dnsmasq-version/scam-dnsmasq.txt)       | [Link](https://blocklistproject.github.io/Lists/adguard/scam-ags.txt)       | Sites that intend to scam                                                                                |
-| TikTok     | [Link](https://blocklistproject.github.io/Lists/tiktok.txt)     | [Link](https://blocklistproject.github.io/Lists/alt-version/tiktok-nl.txt)     | [Link](https://blocklistproject.github.io/Lists/dnsmasq-version/tiktok-dnsmasq.txt)     | [Link](https://blocklistproject.github.io/Lists/adguard/tiktok-ags.txt)     | Copy and pasted into your device                                                                         |
-| Torrent    | [Link](https://blocklistproject.github.io/Lists/torrent.txt)    | [Link](https://blocklistproject.github.io/Lists/alt-version/torrent-nl.txt)    | [Link](https://blocklistproject.github.io/Lists/dnsmasq-version/torrent-dnsmasq.txt)    | [Link](https://blocklistproject.github.io/Lists/adguard/torrent-ags.txt)    | Torrent directory <br> <sub>Will likely block legit torrent sites used for legal software download</sub> |
-| Tracking   | [Link](https://blocklistproject.github.io/Lists/tracking.txt)   | [Link](https://blocklistproject.github.io/Lists/alt-version/tracking-nl.txt)   | [Link](https://blocklistproject.github.io/Lists/dnsmasq-version/tracking-dnsmasq.txt)   | [Link](https://blocklistproject.github.io/Lists/adguard/tracking-ags.txt)   | Sites dedicated to tracking and gathering visitor info                                                   |
+### Pi-hole
 
-&nbsp;
+1. Copy the link for your desired list from the [Available Lists](#available-lists) section
+2. Go to **Group Management** → **Adlists** → Paste URL → **Add**
+3. Go to **Tools** → **Update Gravity**
 
-## Beta Lists
+### AdGuard Home
 
-| List             | Original                                                      | No IP                                                                        | dnsmasq                                                                               | Description                                            |
-| ---------------- | ------------------------------------------------------------- | ---------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- | ------------------------------------------------------ |
-| Smart TV         | [Link](https://blocklistproject.github.io/Lists/smart-tv.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/smart-tv-nl.txt) | [Link](https://blocklistproject.github.io/Lists/dnsmasq-version/smart-tv-dnsmasq.txt) | Smart TV call home and ads                             |
-| Basic Start List | [Link](https://blocklistproject.github.io/Lists/basic.txt)    | [Link](https://blocklistproject.github.io/Lists/alt-version/basic-nl.txt)    | [Link](https://blocklistproject.github.io/Lists/dnsmasq-version/basic-dnsmasq.txt)    | Just a quick basic starter list                        |
-| WhatsApp List    | [Link](https://blocklistproject.github.io/Lists/whatsapp.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/whatsapp-nl.txt) | [Link](https://blocklistproject.github.io/Lists/dnsmasq-version/whatsapp-dnsmasq.txt) | User requested list that blocks only WhatsApp          |
-| Vaping list      | [Link](https://blocklistproject.github.io/Lists/vaping.txt)   | [Link](https://blocklistproject.github.io/Lists/alt-version/vaping-nl.txt)   | [Link](https://blocklistproject.github.io/Lists/dnsmasq-version/vaping-dnsmasq.txt)   | User requested list that blocks sites promoting vaping |
+1. Copy the AdGuard format link for your desired list
+2. Go to **Filters** → **DNS Blocklists** → **Add blocklist** → **Add a custom list**
+3. Paste the URL and click **Save**
+
+### Other DNS Blockers
+
+Use the appropriate format for your software:
+- **Hosts file format**: Use the "Original" links
+- **Domain-only format**: Use the "No IP" links  
+- **dnsmasq**: Use the "DNSMASQ" links
+- **AdGuard/AdBlock**: Use the "AdGuard" links
 
 &nbsp;
 
-## Alpha Lists
+## Available Lists
 
-| List  | Original                                                   | No IP                                                                     | dnsmasq                                                                            | Description     |
-| ----- | ---------------------------------------------------------- | ------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | --------------- |
-| Adobe | [Link](https://blocklistproject.github.io/Lists/adobe.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/adobe-nl.txt) | [Link](https://blocklistproject.github.io/Lists/dnsmasq-version/adobe-dnsmasq.txt) | Adobe Telemetry |
+### Main Lists
+
+| List | Original | No IP | DNSMASQ | AdGuard | Description |
+|------|----------|-------|---------|---------|-------------|
+| Abuse | [Link](https://blocklistproject.github.io/Lists/abuse.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/abuse-nl.txt) | [Link](https://blocklistproject.github.io/Lists/dnsmasq-version/abuse-dnsmasq.txt) | [Link](https://blocklistproject.github.io/Lists/adguard/abuse-ags.txt) | Deceptive/abusive sites |
+| Ads | [Link](https://blocklistproject.github.io/Lists/ads.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/ads-nl.txt) | [Link](https://blocklistproject.github.io/Lists/dnsmasq-version/ads-dnsmasq.txt) | [Link](https://blocklistproject.github.io/Lists/adguard/ads-ags.txt) | Ad servers |
+| Crypto | [Link](https://blocklistproject.github.io/Lists/crypto.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/crypto-nl.txt) | [Link](https://blocklistproject.github.io/Lists/dnsmasq-version/crypto-dnsmasq.txt) | [Link](https://blocklistproject.github.io/Lists/adguard/crypto-ags.txt) | Cryptojacking/crypto scams |
+| Drugs | [Link](https://blocklistproject.github.io/Lists/drugs.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/drugs-nl.txt) | [Link](https://blocklistproject.github.io/Lists/dnsmasq-version/drugs-dnsmasq.txt) | [Link](https://blocklistproject.github.io/Lists/adguard/drugs-ags.txt) | Illegal drug sites |
+| Facebook | [Link](https://blocklistproject.github.io/Lists/facebook.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/facebook-nl.txt) | [Link](https://blocklistproject.github.io/Lists/dnsmasq-version/facebook-dnsmasq.txt) | [Link](https://blocklistproject.github.io/Lists/adguard/facebook-ags.txt) | Facebook/Meta services |
+| Fraud | [Link](https://blocklistproject.github.io/Lists/fraud.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/fraud-nl.txt) | [Link](https://blocklistproject.github.io/Lists/dnsmasq-version/fraud-dnsmasq.txt) | [Link](https://blocklistproject.github.io/Lists/adguard/fraud-ags.txt) | Fraud sites |
+| Gambling | [Link](https://blocklistproject.github.io/Lists/gambling.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/gambling-nl.txt) | [Link](https://blocklistproject.github.io/Lists/dnsmasq-version/gambling-dnsmasq.txt) | [Link](https://blocklistproject.github.io/Lists/adguard/gambling-ags.txt) | Gambling sites |
+| Malware | [Link](https://blocklistproject.github.io/Lists/malware.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/malware-nl.txt) | [Link](https://blocklistproject.github.io/Lists/dnsmasq-version/malware-dnsmasq.txt) | [Link](https://blocklistproject.github.io/Lists/adguard/malware-ags.txt) | Malware hosts |
+| Phishing | [Link](https://blocklistproject.github.io/Lists/phishing.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/phishing-nl.txt) | [Link](https://blocklistproject.github.io/Lists/dnsmasq-version/phishing-dnsmasq.txt) | [Link](https://blocklistproject.github.io/Lists/adguard/phishing-ags.txt) | Phishing sites |
+| Piracy | [Link](https://blocklistproject.github.io/Lists/piracy.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/piracy-nl.txt) | [Link](https://blocklistproject.github.io/Lists/dnsmasq-version/piracy-dnsmasq.txt) | [Link](https://blocklistproject.github.io/Lists/adguard/piracy-ags.txt) | Piracy/illegal downloads |
+| Porn | [Link](https://blocklistproject.github.io/Lists/porn.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/porn-nl.txt) | [Link](https://blocklistproject.github.io/Lists/dnsmasq-version/porn-dnsmasq.txt) | [Link](https://blocklistproject.github.io/Lists/adguard/porn-ags.txt) | Adult content |
+| Ransomware | [Link](https://blocklistproject.github.io/Lists/ransomware.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/ransomware-nl.txt) | [Link](https://blocklistproject.github.io/Lists/dnsmasq-version/ransomware-dnsmasq.txt) | [Link](https://blocklistproject.github.io/Lists/adguard/ransomware-ags.txt) | Ransomware C2/distribution |
+| Redirect | [Link](https://blocklistproject.github.io/Lists/redirect.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/redirect-nl.txt) | [Link](https://blocklistproject.github.io/Lists/dnsmasq-version/redirect-dnsmasq.txt) | [Link](https://blocklistproject.github.io/Lists/adguard/redirect-ags.txt) | Malicious redirects |
+| Scam | [Link](https://blocklistproject.github.io/Lists/scam.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/scam-nl.txt) | [Link](https://blocklistproject.github.io/Lists/dnsmasq-version/scam-dnsmasq.txt) | [Link](https://blocklistproject.github.io/Lists/adguard/scam-ags.txt) | Scam sites |
+| TikTok | [Link](https://blocklistproject.github.io/Lists/tiktok.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/tiktok-nl.txt) | [Link](https://blocklistproject.github.io/Lists/dnsmasq-version/tiktok-dnsmasq.txt) | [Link](https://blocklistproject.github.io/Lists/adguard/tiktok-ags.txt) | TikTok domains |
+| Torrent | [Link](https://blocklistproject.github.io/Lists/torrent.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/torrent-nl.txt) | [Link](https://blocklistproject.github.io/Lists/dnsmasq-version/torrent-dnsmasq.txt) | [Link](https://blocklistproject.github.io/Lists/adguard/torrent-ags.txt) | Torrent sites |
+| Tracking | [Link](https://blocklistproject.github.io/Lists/tracking.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/tracking-nl.txt) | [Link](https://blocklistproject.github.io/Lists/dnsmasq-version/tracking-dnsmasq.txt) | [Link](https://blocklistproject.github.io/Lists/adguard/tracking-ags.txt) | Tracking/analytics |
+| Twitter | [Link](https://blocklistproject.github.io/Lists/twitter.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/twitter-nl.txt) | [Link](https://blocklistproject.github.io/Lists/dnsmasq-version/twitter-dnsmasq.txt) | [Link](https://blocklistproject.github.io/Lists/adguard/twitter-ags.txt) | Twitter/X domains |
+
+### Beta Lists
+
+| List | Original | No IP | DNSMASQ | AdGuard | Description |
+|------|----------|-------|---------|---------|-------------|
+| Basic | [Link](https://blocklistproject.github.io/Lists/basic.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/basic-nl.txt) | [Link](https://blocklistproject.github.io/Lists/dnsmasq-version/basic-dnsmasq.txt) | [Link](https://blocklistproject.github.io/Lists/adguard/basic-ags.txt) | Starter protection list |
+| Smart TV | [Link](https://blocklistproject.github.io/Lists/smart-tv.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/smart-tv-nl.txt) | [Link](https://blocklistproject.github.io/Lists/dnsmasq-version/smart-tv-dnsmasq.txt) | [Link](https://blocklistproject.github.io/Lists/adguard/smart-tv-ags.txt) | Smart TV telemetry |
+| Vaping | [Link](https://blocklistproject.github.io/Lists/vaping.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/vaping-nl.txt) | [Link](https://blocklistproject.github.io/Lists/dnsmasq-version/vaping-dnsmasq.txt) | [Link](https://blocklistproject.github.io/Lists/adguard/vaping-ags.txt) | Vaping/e-cigarette sites |
+| WhatsApp | [Link](https://blocklistproject.github.io/Lists/whatsapp.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/whatsapp-nl.txt) | [Link](https://blocklistproject.github.io/Lists/dnsmasq-version/whatsapp-dnsmasq.txt) | [Link](https://blocklistproject.github.io/Lists/adguard/whatsapp-ags.txt) | WhatsApp domains |
 
 &nbsp;
 
-## Deprecated Lists
+## Formats
 
-| List    | Description                                                  | Deletion date (dd.mm.yyyy) |
-| ------- | ------------------------------------------------------------ | -------------------------- |
-| YouTube | This lists was removed due to the way YouTube serves its ads | 01.10.2021                 |
-
-<sup>\*Not supported by or affiliated with Pi-hole.</sup>
+| Format | Use Case | Example |
+|--------|----------|---------|
+| **Original (hosts)** | Pi-hole, hosts file | `0.0.0.0 example.com` |
+| **No IP (domains)** | Some routers, simple lists | `example.com` |
+| **DNSMASQ** | dnsmasq DNS server | `server=/example.com/` |
+| **AdGuard** | AdGuard Home, browser extensions | `\|\|example.com^` |
 
 &nbsp;
 
-<sup>&#8224; A sponsor is someone that supports us on Patreon. All list are free and will always be free. This is just a way to say thank you to those that help keep this project going! </sup>
+## Contributing
 
-## Using with other tools:
+We welcome contributions! Here's how you can help:
 
-We are currently working on verifying compatibility with other tools. Please stand by. If you have a suggestion on a tool we should support please comment on our [Reddit](https://www.reddit.com/r/blocklistproject/) page.
+### Request a Domain Addition
+1. [Open an Add Request](https://github.com/blocklistproject/Lists/issues/new?template=add-request.yml)
+2. Fill out the form with the domain and evidence
+3. Our bot will check if it's already listed
+4. A maintainer will review and add it
 
-## Sponsors:
+### Report a False Positive
+1. [Open a Remove Request](https://github.com/blocklistproject/Lists/issues/new?template=remove-request.yml)
+2. Explain why the domain should be unblocked
+3. A maintainer will review and remove it
 
-Special thank you to [Cloud 4 SURE](https://www.cloud4sure.net) for their generous donation every month to help cover our Linode bill.
+### Direct Contributions
+1. Fork the repository
+2. Edit the appropriate `.txt` file in the root directory
+3. Submit a Pull Request
+4. Our CI will validate the changes automatically
 
-# License:
+&nbsp;
 
-For more details, see the [LICENSE](https://github.com/blocklistproject/Lists/blob/master/LICENSE) file.
+## For Developers
+
+### Building Locally
+
+```bash
+# Clone the repository
+git clone https://github.com/blocklistproject/Lists.git
+cd Lists
+
+# Create virtual environment
+python -m venv .venv
+source .venv/bin/activate  # or .venv\Scripts\activate on Windows
+
+# Install dependencies
+pip install -e ".[dev]"
+
+# Run tests
+pytest
+
+# Build all lists
+python build.py
+
+# Build specific list
+python build.py --list ads
+
+# Dry run (preview without writing)
+python build.py --dry-run --verbose
+```
+
+### CLI Commands
+
+```bash
+python build.py --help          # Show all options
+python build.py list            # List available blocklists
+python build.py stats           # Show domain counts
+python build.py verify          # Verify output consistency
+python build.py --validate      # Build with validation
+```
+
+### Project Structure
+
+```
+Lists/
+├── *.txt                 # Source blocklists (hosts format)
+├── adguard/              # AdGuard format output
+├── alt-version/          # Domain-only format output
+├── dnsmasq-version/      # dnsmasq format output
+├── config/
+│   └── lists.yml         # List definitions and settings
+├── src/                  # Python source code
+│   ├── config.py         # Configuration loader
+│   ├── normalize.py      # Format parsing
+│   ├── merge.py          # Deduplication
+│   ├── validate.py       # Domain validation
+│   ├── format.py         # Output formatters
+│   └── pipeline.py       # Build orchestration
+├── tests/                # Test suite
+└── build.py              # CLI entry point
+```
+
+&nbsp;
+
+## Sponsors
+
+Special thank you to [Cloud 4 SURE](https://www.cloud4sure.net) for their generous donation to help cover infrastructure costs.
+
+&nbsp;
+
+## License
+
+This project is licensed under the [Unlicense](https://github.com/blocklistproject/Lists/blob/master/LICENSE) — free and open source, no restrictions.
 
 &nbsp;
 

@@ -1,0 +1,109 @@
+name: ➕ Add Domain Request
+description: Request to add a domain to a blocklist
+title: "[Add] "
+labels: ["add-request", "triage"]
+assignees:
+  - blocklistproject
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Add Domain Request
+        Please fill out the form below to request adding a domain to a blocklist.
+        
+        **Before submitting:**
+        - Check if the domain is already in the list you're requesting
+        - Provide evidence of why this domain should be blocked
+
+  - type: input
+    id: domain
+    attributes:
+      label: Domain to add
+      description: Enter the full domain name (e.g., `badsite.example.com`)
+      placeholder: example.com
+    validations:
+      required: true
+
+  - type: dropdown
+    id: list
+    attributes:
+      label: Target blocklist
+      description: Which list should this domain be added to?
+      options:
+        - abuse
+        - ads
+        - crypto
+        - drugs
+        - facebook
+        - fraud
+        - gambling
+        - malware
+        - phishing
+        - piracy
+        - porn
+        - ransomware
+        - redirect
+        - scam
+        - smart-tv
+        - tiktok
+        - torrent
+        - tracking
+        - twitter
+        - vaping
+        - whatsapp
+        - youtube
+        - other (specify in additional info)
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: What type of threat or content is this?
+      options:
+        - Advertising / Tracking
+        - Malware / Ransomware
+        - Phishing / Scam
+        - Adult content
+        - Gambling
+        - Social media
+        - Streaming / Piracy
+        - Cryptocurrency
+        - Telemetry
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence / Reason
+      description: Why should this domain be blocked? Include links to reports, screenshots, or other evidence.
+      placeholder: |
+        - VirusTotal report: https://virustotal.com/...
+        - URLhaus report: https://urlhaus.abuse.ch/...
+        - Description of malicious behavior observed
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional information
+      description: Any other relevant details (related domains, first seen date, etc.)
+      placeholder: Optional additional context
+
+  - type: checkboxes
+    id: verification
+    attributes:
+      label: Verification
+      description: Please confirm the following
+      options:
+        - label: I have verified this domain is currently active
+          required: true
+        - label: I have checked this domain is not already in the requested list
+          required: true
+        - label: I understand this is a public blocklist and my request will be reviewed
+          required: true

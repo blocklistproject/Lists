@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 📖 Documentation
+    url: https://github.com/blocklistproject/Lists/wiki
+    about: Check our wiki for setup guides and FAQ
+  - name: 💬 Discussions
+    url: https://github.com/blocklistproject/Lists/discussions
+    about: Ask questions and discuss with the community
+  - name: ☕ Support the Project
+    url: https://paypal.me/blocklistproject
+    about: Help keep this project running
