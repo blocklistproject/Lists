@@ -1,0 +1,171 @@
+# Block List Project - List Definitions
+# Each list defines: name, category, description, output formats
+
+settings:
+  # Header template for generated files
+  homepage: "https://blocklist.site"
+  help: "https://github.com/blocklistproject/lists/wiki/"
+  license: "https://unlicense.org"
+  support: "https://paypal.me/blocklistproject"
+  expires: "1 day"
+
+# Output format configurations
+formats:
+  hosts:
+    extension: ".txt"
+    output_dir: "."
+    prefix: "0.0.0.0 "
+    comment_char: "#"
+  
+  domains:
+    extension: "-nl.txt"
+    output_dir: "alt-version"
+    prefix: ""
+    comment_char: "#"
+  
+  adguard:
+    extension: "-ags.txt"
+    output_dir: "adguard"
+    prefix: "||"
+    suffix: "^"
+    comment_char: "!"
+  
+  dnsmasq:
+    extension: "-dnsmasq.txt"
+    output_dir: "dnsmasq-version"
+    prefix: "server=/"
+    suffix: "/"
+    comment_char: "#"
+
+# List definitions
+lists:
+  abuse:
+    description: "Domains involved in abuse"
+    category: security
+    status: stable
+  
+  ads:
+    description: "Ad serving domains"
+    category: advertising
+    status: stable
+  
+  adobe:
+    description: "Adobe telemetry and activation"
+    category: telemetry
+    status: alpha
+  
+  basic:
+    description: "Basic protection list"
+    category: general
+    status: beta
+  
+  crypto:
+    description: "Cryptocurrency mining and scams"
+    category: security
+    status: stable
+  
+  drugs:
+    description: "Drug-related domains"
+    category: content
+    status: stable
+  
+  facebook:
+    description: "Facebook and Meta domains"
+    category: social
+    status: stable
+  
+  fortnite:
+    description: "Fortnite-related domains"
+    category: gaming
+    status: stable
+  
+  fraud:
+    description: "Fraud and scam domains"
+    category: security
+    status: stable
+  
+  gambling:
+    description: "Gambling sites"
+    category: content
+    status: stable
+  
+  malware:
+    description: "Malware distribution domains"
+    category: security
+    status: stable
+  
+  phishing:
+    description: "Phishing domains"
+    category: security
+    status: stable
+  
+  piracy:
+    description: "Piracy and illegal streaming"
+    category: content
+    status: stable
+  
+  porn:
+    description: "Adult content domains"
+    category: content
+    status: stable
+  
+  ransomware:
+    description: "Ransomware C2 and distribution"
+    category: security
+    status: stable
+  
+  redirect:
+    description: "URL shorteners and redirects"
+    category: tracking
+    status: stable
+  
+  scam:
+    description: "Scam domains"
+    category: security
+    status: stable
+  
+  smart-tv:
+    description: "Smart TV telemetry"
+    category: telemetry
+    status: beta
+  
+  tiktok:
+    description: "TikTok domains"
+    category: social
+    status: stable
+  
+  torrent:
+    description: "Torrent and P2P sites"
+    category: content
+    status: stable
+  
+  tracking:
+    description: "Tracking and analytics"
+    category: tracking
+    status: stable
+  
+  twitter:
+    description: "Twitter/X domains"
+    category: social
+    status: stable
+  
+  vaping:
+    description: "Vaping and e-cigarette sites"
+    category: content
+    status: beta
+  
+  whatsapp:
+    description: "WhatsApp domains"
+    category: social
+    status: beta
+  
+  youtube:
+    description: "YouTube domains (deprecated - ads served from same domains)"
+    category: social
+    status: deprecated
+
+# Combined list configuration
+combined:
+  everything:
+    description: "All stable lists combined"
+    include_status: [stable]  # Only include stable lists, not beta/alpha/deprecated

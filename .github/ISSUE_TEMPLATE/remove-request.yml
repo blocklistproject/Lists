@@ -1,0 +1,115 @@
+name: ➖ Remove Domain Request (False Positive)
+description: Request to remove a domain that was incorrectly blocked
+title: "[Remove] "
+labels: ["remove-request", "false-positive", "triage"]
+assignees:
+  - blocklistproject
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Remove Domain Request
+        Use this form to report a false positive - a legitimate domain that was incorrectly added to a blocklist.
+        
+        **Note:** We take false positive reports seriously. Please provide as much evidence as possible.
+
+  - type: input
+    id: domain
+    attributes:
+      label: Domain to remove
+      description: Enter the full domain name that should be removed
+      placeholder: legitimate-site.com
+    validations:
+      required: true
+
+  - type: dropdown
+    id: list
+    attributes:
+      label: Current blocklist
+      description: Which list is this domain currently on?
+      options:
+        - abuse
+        - ads
+        - crypto
+        - drugs
+        - facebook
+        - fraud
+        - gambling
+        - malware
+        - phishing
+        - piracy
+        - porn
+        - ransomware
+        - redirect
+        - scam
+        - smart-tv
+        - tiktok
+        - torrent
+        - tracking
+        - twitter
+        - vaping
+        - whatsapp
+        - youtube
+        - unknown (please check for me)
+    validations:
+      required: true
+
+  - type: textarea
+    id: reason
+    attributes:
+      label: Why is this a false positive?
+      description: Explain why this domain should not be blocked
+      placeholder: |
+        - This is the official website for [company/service]
+        - This domain is used for [legitimate purpose]
+        - It was flagged due to [misunderstanding]
+    validations:
+      required: true
+
+  - type: input
+    id: website
+    attributes:
+      label: Official website or documentation
+      description: Link to prove this is a legitimate service
+      placeholder: https://example.com/about
+    validations:
+      required: false
+
+  - type: textarea
+    id: impact
+    attributes:
+      label: Impact description
+      description: How is blocking this domain affecting you or others?
+      placeholder: |
+        - Cannot access essential service
+        - Breaking functionality of [application]
+        - Affecting [number] of users
+    validations:
+      required: false
+
+  - type: dropdown
+    id: urgency
+    attributes:
+      label: Urgency
+      description: How urgent is this removal?
+      options:
+        - Low - Minor inconvenience
+        - Medium - Affecting daily use
+        - High - Critical service impacted
+        - Critical - Security or business impact
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: verification
+    attributes:
+      label: Verification
+      description: Please confirm the following
+      options:
+        - label: I have verified this domain is currently being blocked by this project
+          required: true
+        - label: I am not affiliated with the domain in a way that creates a conflict of interest
+          required: false
+        - label: I understand removal requests are reviewed and may take time
+          required: true

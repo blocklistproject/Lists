@@ -3,3 +3,20 @@
 
 #Internal Script
 /Internal_Scripts
+
+#Contruct Files
+CHECKLIST.md
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+dist/
+build/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Docs (archived)
+docs/Optimize.md

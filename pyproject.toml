@@ -1,0 +1,35 @@
+[project]
+name = "blocklist-project"
+version = "2.0.0"
+description = "DNS blocklists for various categories - complete rewrite"
+readme = "README.md"
+license = { text = "Unlicense" }
+requires-python = ">=3.10"
+dependencies = [
+    "pyyaml>=6.0",
+    "tldextract>=5.0",
+    "click>=8.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+    "pytest-cov>=4.0",
+]
+
+[project.scripts]
+blocklist = "src.build:main"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+python_functions = ["test_*"]
+addopts = "-v --tb=short"
