@@ -26,6 +26,7 @@
 ## Table of Contents
 
 - [About](#about)
+- [What's New in v2.0](#whats-new-in-v20)
 - [Quick Start](#quick-start)
 - [Available Lists](#available-lists)
 - [Formats](#formats)
@@ -44,6 +45,53 @@ All lists are:
 - ✅ **Regularly updated** — automated builds on every change
 - ✅ **Available in multiple formats** — Pi-hole, AdGuard, dnsmasq, and more
 - ✅ **Community maintained** — submit requests via GitHub Issues
+
+&nbsp;
+
+## What's New in v2.0
+
+We've completely rebuilt the project infrastructure from the ground up. After 6 months of planning, we're excited to share what's changed.
+
+### Why We Rewrote Everything
+
+The old system worked, but it was held together with duct tape. We had a mix of JavaScript and Python scripts that nobody wanted to touch, inconsistent build processes, and no automated testing. When bugs appeared, fixing one thing broke another.
+
+We needed something maintainable — not just for us, but for anyone who wants to contribute.
+
+### What Changed
+
+**For Users:** Nothing breaks! All your existing URLs continue to work. Same lists, same formats, same locations. We rebuilt the engine without changing the car.
+
+**For Contributors:** 
+- New structured issue templates make it easier to request additions or removals
+- Our triage bot automatically checks if a domain already exists in our lists
+- Pull requests now get validated automatically — no more waiting for a human to catch simple errors
+
+**Under the Hood:**
+- Replaced 7 JavaScript scripts with a single Python codebase
+- Added 151 automated tests (yes, really)
+- Config-driven architecture — all list definitions live in `config/lists.yml`
+- Proper domain validation catches invalid entries before they ship
+- TLD verification ensures we don't accidentally block legitimate domains
+- Critical domain protection prevents catastrophic mistakes (no more accidentally blocking google.com)
+
+### The Technical Bits
+
+If you're curious about the architecture:
+
+```
+Old System:              New System:
+─────────────            ─────────────
+7 JS scripts             1 Python package
+0 tests                  151 tests
+Manual validation        Automated validation
+Ad-hoc builds            CI/CD pipeline
+Mixed formats            Config-driven formats
+```
+
+The new build system runs `pytest` on every change, validates domain syntax, checks TLDs against the public suffix list, and generates all four output formats automatically. Everything flows through a single `build.py` CLI.
+
+We wrote about the full rationale in our [archived optimization document](docs/Optimize.md) if you want the deep dive.
 
 &nbsp;
 
