@@ -1,6 +1,18 @@
-# fortnite blocklist for pi hole
-0.0.0.0 fortnite-matchmaking-public-service-live-eu.ol.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c3-w4.befa.live.use1a.on.epicgames.com
-0.0.0.0 eos-gateway-ingressv2-prod-c3-w3.befa.live.use1a.on.epicgames.com
-0.0.0.0 datarouter.ol.epicgames.com
+# Title: Fortnite Block List
+# Description: Fortnite-related domains
+# Homepage: https://github.com/blocklistproject/Lists
+# License: MIT
+# Last modified: 2025-12-19 16:39:31 UTC
+# Format: hosts
+# Entries: 5
+# URL: 
+#
+# This list is maintained by The Block List Project
+# https://github.com/blocklistproject/Lists
+#
+
 0.0.0.0 account-service-prod03-pub-ak-1731030959.us-east-1.elb.amazonaws.com
+0.0.0.0 datarouter.ol.epicgames.com
+0.0.0.0 eos-gateway-ingressv2-prod-c3-w3.befa.live.use1a.on.epicgames.com
+0.0.0.0 eos-gateway-ingressv2-prod-c3-w4.befa.live.use1a.on.epicgames.com
+0.0.0.0 fortnite-matchmaking-public-service-live-eu.ol.epicgames.com

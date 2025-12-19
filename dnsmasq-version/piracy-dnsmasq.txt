@@ -1,18 +1,16 @@
-# ------------------------------------[UPDATE]--------------------------------------
-# Title: The Block List Project - Piracy List (dnsmasq)
-# Expires: 1 day
-# Homepage: https://blocklist.site
-# Help: https://github.com/blocklistproject/lists/wiki/
-# License: https://unlicense.org
-# Total number of network filters: 2153
-# ------------------------------------[SUPPORT]-------------------------------------
-# You can support by:
-# - reporting false positives
-# - making a donation: https://paypal.me/blocklistproject
-# -------------------------------------[INFO]---------------------------------------
+# Title: Piracy Block List
+# Description: Piracy and illegal streaming
+# Homepage: https://github.com/blocklistproject/Lists
+# License: MIT
+# Last modified: 2025-12-19 16:39:33 UTC
+# Format: dnsmasq
+# Entries: 2,153
+# URL: 
 #
-# Piracy list
-# ------------------------------------[FILTERS]-------------------------------------
+# This list is maintained by The Block List Project
+# https://github.com/blocklistproject/Lists
+#
+
 server=/0daycn.net/
 server=/100-postal2.blogspot.com/
 server=/1337x.to/
@@ -42,6 +40,7 @@ server=/8millimeters.com/
 server=/a2zapk.com/
 server=/a2zcrack.com/
 server=/abandon5000.com/
+server=/abbaspc.net/
 server=/abv-media.ru/
 server=/activationkeys.org/
 server=/addone.ru/
@@ -160,6 +159,7 @@ server=/crackedme.com/
 server=/crackedmine.com/
 server=/crackedpc.org/
 server=/crackedreal.com/
+server=/crackedversion.com/
 server=/crackevo.com/
 server=/crackfind.com/
 server=/crackingpremium.com/
@@ -178,6 +178,7 @@ server=/crackserialpro.com/
 server=/cracksfiles.com/
 server=/crackslink.com/
 server=/cracksnow.com/
+server=/cracksoftwareguru.com/
 server=/cracksoftwarez.com/
 server=/crackspider.net/
 server=/cracksurl.com/
@@ -323,6 +324,7 @@ server=/free-movie-s.com/
 server=/free-movies-downloads.com/
 server=/free.appnee.com/
 server=/free.getlink.vn/
+server=/free4pc.org/
 server=/freecoursesonline.me/
 server=/freecrackpatch.com/
 server=/freecracksoftwares.net/
@@ -362,12 +364,12 @@ server=/fzmoviez.org/
 server=/fztvseries.mobi/
 server=/g2g.fm/
 server=/gadget-vault.com/
+server=/game-2u.com/
 server=/gamegear.nl/
 server=/gamerzneeds.net/
 server=/games4u.ws/
 server=/gamesfreecheat.com/
 server=/gamezlinks.net/
-server=/game-2u.com/
 server=/gamingstreet.org/
 server=/garaje.ya.com/
 server=/general-catalog.com/
@@ -392,6 +394,7 @@ server=/goucod.ru/
 server=/gpsmarshrut.net/
 server=/grand-turk.com/
 server=/grand-upload.com/
+server=/greencracks.com/
 server=/grimhosting.com/
 server=/grinderz.org/
 server=/gsm.waptop.info/
@@ -743,6 +746,7 @@ server=/piratebrowser.com/
 server=/piratebrowser.net/
 server=/piratebrowser.org/
 server=/piratecity.net/
+server=/piratepc.me/
 server=/pittsbororelayforlife.org/
 server=/playfiles.zz.mu/
 server=/pleer.com/
@@ -852,6 +856,7 @@ server=/serials.sw.cracks.me.uk/
 server=/serialstart.com/
 server=/serialsurf.com/
 server=/sertico.wordpress.com/
+server=/sexuria.net/
 server=/shabri.org/
 server=/share2downloads.com/
 server=/sharebeast.com/
@@ -1824,7 +1829,6 @@ server=/www.serialsurf.com/
 server=/www.seriousfiles.com/
 server=/www.seriousurls.com/
 server=/www.sexandlive.com/
-server=/sexuria.net/
 server=/www.shabri.org/
 server=/www.share2downloads.com/
 server=/www.sharebeast.com/
@@ -2088,8 +2092,8 @@ server=/www.youronlinemovies.net/
 server=/www.youwatch.org/
 server=/www.yts.ag/
 server=/www.yts.la/
-server=/www.yts.re/
 server=/www.yts.mx/
+server=/www.yts.re/
 server=/www.zcrack.com/
 server=/www.zdig1.biz/
 server=/www.zdownloadx451.ml/
@@ -2160,9 +2164,3 @@ server=/zmovie.ru/
 server=/zonawarez.net/
 server=/zoomtorrents.com/
 server=/zoozle.org/
-server=/free4pc.org/
-server=/piratepc.me/
-server=/crackedversion.com/
-server=/greencracks.com/
-server=/cracksoftwareguru.com/
-server=/abbaspc.net/

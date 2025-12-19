@@ -1,18 +1,16 @@
-# ------------------------------------[UPDATE]--------------------------------------
-# Title: The Block List Project - Whatsapp List (dnsmasq)
-# Expires: 1 day
-# Homepage: https://blocklist.site
-# Help: https://github.com/blocklistproject/lists/wiki/
-# License: https://unlicense.org
-# Total number of network filters: 226
-# ------------------------------------[SUPPORT]-------------------------------------
-# You can support by:
-# - reporting false positives
-# - making a donation: https://paypal.me/blocklistproject
-# -------------------------------------[INFO]---------------------------------------
+# Title: Whatsapp Block List
+# Description: WhatsApp domains
+# Homepage: https://github.com/blocklistproject/Lists
+# License: MIT
+# Last modified: 2025-12-19 16:39:34 UTC
+# Format: dnsmasq
+# Entries: 226
+# URL: 
 #
-# Whatsapp list
-# ------------------------------------[FILTERS]-------------------------------------
+# This list is maintained by The Block List Project
+# https://github.com/blocklistproject/Lists
+#
+
 server=/account.whatsapp.com/
 server=/alpha.whatsapp.com/
 server=/api.whatsapp.com/
@@ -119,6 +117,7 @@ server=/media.flos2-1.fna.whatsapp.net/
 server=/media.fmnl10-1.fna.whatsapp.net/
 server=/media.fplu6-1.fna.whatsapp.net/
 server=/media.fprg2-1.fna.whatsapp.net/
+server=/media.fqls2-1.fna.whatsapp.net/
 server=/media.frec2-1.fna.whatsapp.net/
 server=/media.frix1-1.fna.whatsapp.net/
 server=/media.frix4-1.fna.whatsapp.net/
@@ -146,8 +145,10 @@ server=/mmi731.whatsapp.net/
 server=/mms.whatsapp.net/
 server=/payments-localisation.whatsapp.com/
 server=/pps.whatsapp.net/
+server=/privatestats.whatsapp.net/
 server=/ratings.whatsapp.com/
 server=/sjc.whatsapp.com/
+server=/static.whatsapp.net/
 server=/support.whatsapp.com/
 server=/test-web.whatsapp.com/
 server=/translate-dev.whatsapp.com/
@@ -236,6 +237,3 @@ server=/www-cdn.whatsapp.net/
 server=/www.whatsapp.com/
 server=/www.xl.whatsapp.com/
 server=/wwwl.whatsapp.com/
-server=/static.whatsapp.net/
-server=/privatestats.whatsapp.net/
-server=/media.fqls2-1.fna.whatsapp.net/

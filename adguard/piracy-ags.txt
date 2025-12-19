@@ -1,18 +1,16 @@
-! ------------------------------------[UPDATE]--------------------------------------
-! Title: The Block List Project - Piracy List (adguard)
-! Expires: 1 day
-! Homepage: https://blocklist.site
-! Help: https://github.com/blocklistproject/lists/wiki/
-! License: https://unlicense.org
-! Total number of network filters: 2153
-! ------------------------------------[SUPPORT]-------------------------------------
-! You can support by:
-! - reporting false positives
-! - making a donation: https://paypal.me/blocklistproject
-! -------------------------------------[INFO]---------------------------------------
+! Title: Piracy Block List
+! Description: Piracy and illegal streaming
+! Homepage: https://github.com/blocklistproject/Lists
+! License: MIT
+! Last modified: 2025-12-19 16:39:33 UTC
+! Format: AdGuard
+! Entries: 2,153
+! URL: 
 !
-! Piracy list
-! ------------------------------------[FILTERS]-------------------------------------
+! This list is maintained by The Block List Project
+! https://github.com/blocklistproject/Lists
+!
+
 ||0daycn.net^
 ||100-postal2.blogspot.com^
 ||1337x.to^
@@ -42,6 +40,7 @@
 ||a2zapk.com^
 ||a2zcrack.com^
 ||abandon5000.com^
+||abbaspc.net^
 ||abv-media.ru^
 ||activationkeys.org^
 ||addone.ru^
@@ -160,6 +159,7 @@
 ||crackedmine.com^
 ||crackedpc.org^
 ||crackedreal.com^
+||crackedversion.com^
 ||crackevo.com^
 ||crackfind.com^
 ||crackingpremium.com^
@@ -178,6 +178,7 @@
 ||cracksfiles.com^
 ||crackslink.com^
 ||cracksnow.com^
+||cracksoftwareguru.com^
 ||cracksoftwarez.com^
 ||crackspider.net^
 ||cracksurl.com^
@@ -323,6 +324,7 @@
 ||free-movies-downloads.com^
 ||free.appnee.com^
 ||free.getlink.vn^
+||free4pc.org^
 ||freecoursesonline.me^
 ||freecrackpatch.com^
 ||freecracksoftwares.net^
@@ -362,12 +364,12 @@
 ||fztvseries.mobi^
 ||g2g.fm^
 ||gadget-vault.com^
+||game-2u.com^
 ||gamegear.nl^
 ||gamerzneeds.net^
 ||games4u.ws^
 ||gamesfreecheat.com^
 ||gamezlinks.net^
-||game-2u.com^
 ||gamingstreet.org^
 ||garaje.ya.com^
 ||general-catalog.com^
@@ -392,6 +394,7 @@
 ||gpsmarshrut.net^
 ||grand-turk.com^
 ||grand-upload.com^
+||greencracks.com^
 ||grimhosting.com^
 ||grinderz.org^
 ||gsm.waptop.info^
@@ -743,6 +746,7 @@
 ||piratebrowser.net^
 ||piratebrowser.org^
 ||piratecity.net^
+||piratepc.me^
 ||pittsbororelayforlife.org^
 ||playfiles.zz.mu^
 ||pleer.com^
@@ -852,6 +856,7 @@
 ||serialstart.com^
 ||serialsurf.com^
 ||sertico.wordpress.com^
+||sexuria.net^
 ||shabri.org^
 ||share2downloads.com^
 ||sharebeast.com^
@@ -1824,7 +1829,6 @@
 ||www.seriousfiles.com^
 ||www.seriousurls.com^
 ||www.sexandlive.com^
-||sexuria.net^
 ||www.shabri.org^
 ||www.share2downloads.com^
 ||www.sharebeast.com^
@@ -2088,8 +2092,8 @@
 ||www.youwatch.org^
 ||www.yts.ag^
 ||www.yts.la^
-||www.yts.re^
 ||www.yts.mx^
+||www.yts.re^
 ||www.zcrack.com^
 ||www.zdig1.biz^
 ||www.zdownloadx451.ml^
@@ -2160,9 +2164,3 @@
 ||zonawarez.net^
 ||zoomtorrents.com^
 ||zoozle.org^
-||free4pc.org^
-||piratepc.me^
-||crackedversion.com^
-||greencracks.com^
-||cracksoftwareguru.com^
-||abbaspc.net^

@@ -1,18 +1,16 @@
-! ------------------------------------[UPDATE]--------------------------------------
-! Title: The Block List Project - Redirect List (adguard)
-! Expires: 1 day
-! Homepage: https://blocklist.site
-! Help: https://github.com/blocklistproject/lists/wiki/
-! License: https://unlicense.org
-! Total number of network filters: 108684
-! ------------------------------------[SUPPORT]-------------------------------------
-! You can support by:
-! - reporting false positives
-! - making a donation: https://paypal.me/blocklistproject
-! -------------------------------------[INFO]---------------------------------------
+! Title: Redirect Block List
+! Description: URL shorteners and redirects
+! Homepage: https://github.com/blocklistproject/Lists
+! License: MIT
+! Last modified: 2025-12-19 16:39:34 UTC
+! Format: AdGuard
+! Entries: 108,684
+! URL: 
 !
-! Redirect list
-! ------------------------------------[FILTERS]-------------------------------------
+! This list is maintained by The Block List Project
+! https://github.com/blocklistproject/Lists
+!
+
 ||0------------0-------------0.0n-line.biz^
 ||0------------0-------------0.0n-line.info^
 ||0------------0-------------0.123erp.net^
@@ -159,6 +157,7 @@
 ||007bondproxy.ml^
 ||007browse.info^
 ||007bypass.info^
+||007freepics.com^
 ||007nightfire.info^
 ||007pc.info^
 ||007prox.info^
@@ -480,6 +479,7 @@
 ||1-proxy.orgfree.com^
 ||1-qhelicopter.tk^
 ||1-search-engine-marketing.net^
+||1-xredbet87963.top^
 ||1.360chadang.com^
 ||1.44qs.com^
 ||1.coosertyc.com^
@@ -1369,6 +1369,7 @@
 ||2fastvpn.tk^
 ||2firewall.cn^
 ||2fo.info^
+||2fr.cc^
 ||2freeproxyserver.info^
 ||2freewill.info^
 ||2fsurf.tk^
@@ -3124,6 +3125,7 @@
 ||9ivpnfreesurf.tk^
 ||9j1vpn.tk^
 ||9jvpn.tk^
+||9k.gg^
 ||9l4vpn.tk^
 ||9l5vpns.tk^
 ||9lb.info^
@@ -3332,6 +3334,7 @@
 ||aanonymotkflatks.tk^
 ||aanonymousfreegrtkder.tk^
 ||aaosquad.com^
+||aaotpokaquathii.com^
 ||aaproxy.pw^
 ||aarabicpronunciationsdes.tk^
 ||aarg.info^
@@ -9390,6 +9393,7 @@
 ||balloonloansecuresurf.tk^
 ||balloonparty.tk^
 ||balloonz.co.cc^
+||ballost.org^
 ||ballotboxes.co.cc^
 ||ballroad.tk^
 ||ballsize.tk^
@@ -14729,7 +14733,6 @@
 ||bugh.info^
 ||bugheel.com^
 ||bughide.info^
-@@||bugmenot.com^! #998
 ||bugsattack.co.cc^
 ||bugsinfo.info^
 ||bugspirit.com^
@@ -17055,6 +17058,7 @@
 ||cdbrokers.tk^
 ||cdcaseproxy.info^
 ||cdex.info^
+||cdexvangxfarwl.com^
 ||cdforex.tk^
 ||cdgproxy.info^
 ||cdiffcolitis.com^
@@ -18373,6 +18377,8 @@
 ||click-a-box.com^
 ||click-here.cn^
 ||click-online.online^
+||click.expmediadirect1.com^
+||click.junmediadirect.com^
 ||click007.info^
 ||click2007.usa.gs^
 ||click2surf.us^
@@ -23268,6 +23274,7 @@
 ||distributev.tk^
 ||distributionanonymotk.tk^
 ||districtfree.info^
+||districtprovocativeforceful.com^
 ||districtproxy.com^
 ||disturbances.co.cc^
 ||disurf.tk^
@@ -23333,6 +23340,7 @@
 ||dk03.info^
 ||dk04.info^
 ||dk05.info^
+||dkb-de.online^
 ||dken.cf^
 ||dken.ga^
 ||dkproxy.cf^
@@ -26958,6 +26966,7 @@
 ||externalways.tk^
 ||extext.org^
 ||exti.info^
+||extoso.com^
 ||extra-easy-income.com^
 ||extra-fast.co.cc^
 ||extra-ltkkla.tk^
@@ -27669,6 +27678,7 @@
 ||famousproxy.ml^
 ||famoustunnel.tk^
 ||famousunblocker.info^
+||fancy11.com^
 ||fancycurrent.info^
 ||fancyproxy.eu^
 ||fancystuff.info^
@@ -30169,7 +30179,6 @@
 ||fishsydney.tk^
 ||fishtool.cf^
 ||fishtool.gq^
-@@||fisica.unina.it^! Issue 126
 ||fiskino.info^
 ||fista.info^
 ||fitcproxy.tk^
@@ -32292,6 +32301,7 @@
 ||fr.pazhan.net^
 ||fr.rolename.info^
 ||fr.rowesofa.info^
+||fr.stop-bot.com^
 ||fr.unblockyoutuber.com^
 ||fr.vpnunlock.asia^
 ||fr.wasalive.com^
@@ -33534,6 +33544,7 @@
 ||freemegabypass.tk^
 ||freemegasite.info^
 ||freemein.tk^
+||freememoryapp.site^
 ||freemeproxyweb-floxy.tk^
 ||freemeprxyy.co.cc^
 ||freemesnowuk.tk^
@@ -35425,6 +35436,7 @@
 ||fur8.info^
 ||fur9.info^
 ||furball.info^
+||furiousfar.com^
 ||furiousmotor.tk^
 ||furiousness.com^
 ||furiousproxy.co.cc^
@@ -37296,6 +37308,7 @@
 ||go.blogdem.info^
 ||go.bloom.us^
 ||go.bprwm.com^
+||go.c4ptainr0berts.xyz^
 ||go.chic-girl.org^
 ||go.chugged.info^
 ||go.coccert.org^
@@ -37672,6 +37685,7 @@
 ||goldeagles.tk^
 ||goldearrings.tk^
 ||golden-eye.cx.cc^
+||goldenbettingefforlessefforless.com^
 ||goldencompass.tk^
 ||goldendoorcasino.com^
 ||goldenfilter.tk^
@@ -39168,6 +39182,7 @@
 ||growlightreviewsa.tk^
 ||growlinforex.co.cc^
 ||grownrate.tk^
+||grownuplieutenant.com^
 ||growthed.tk^
 ||growthgreen-world.tk^
 ||growthgreensy.tk^
@@ -39482,6 +39497,7 @@
 ||had-wait.co.cc^
 ||hadkon.ed.mu^
 ||hadproxy.info^
+||hadquellseventeen.com^
 ||hadry.top^
 ||hads4you8.tk^
 ||hadtobeout.tk^
@@ -40237,6 +40253,7 @@
 ||helocsecuresurf.tk^
 ||helocsecuresurf6now.tk^
 ||helocsecuresurf7.tk^
+||helooworld.us^
 ||heloways.tk^
 ||help-im-trapped.info^
 ||help-ip-bypass.info^
@@ -41429,6 +41446,7 @@
 ||hidelast.tk^
 ||hidelaw.info^
 ||hidelego.com^
+||hidelen.com^
 ||hidelife.info^
 ||hidelights.info^
 ||hidelikebinladen.com^
@@ -42902,6 +42920,7 @@
 ||home-mortgages.tk^
 ||home-online.xyz^
 ||home-webproxy.tk^
+||home.istcommun.info^
 ||home.kaos.to^
 ||home.zonnet.nl^
 ||home4refinancerates7.tk^
@@ -43787,6 +43806,7 @@
 ||https-miproxy.tk^
 ||https-proxy.ga^
 ||https-surf.info^
+||https-www.store^
 ||https.analistiambientali.org^
 ||https.bostonvipguestlist.com^
 ||https.freerealestatelistings.us^
@@ -45357,6 +45377,7 @@
 ||inspired.clawed.info^
 ||inspireshot.tk^
 ||inspy.info^
+||insta24h.com^
 ||instaair.info^
 ||instaedu.tk^
 ||instafxforex.co.cc^
@@ -45896,6 +45917,7 @@
 ||invitationenvelopes.co.cc^
 ||inviteanonymotks.tk^
 ||inviteanonymotkssh.tk^
+||invitesuperstitiousadmire.com^
 ||invitetrip.tk^
 ||invizible.co.tv^
 ||invok3r.info^
@@ -46890,6 +46912,7 @@
 ||istanbulproxy.com^
 ||istartedawebsite.com^
 ||istayhidden.info^
+||istcommun.info^
 ||isteal.info^
 ||istealth.info^
 ||istealth.net^
@@ -48389,6 +48412,7 @@
 ||jylppy69.riemurasia.net^
 ||jynq.info^
 ||jyrm.com^
+||jystasaki.com^
 ||jzmz.com^
 ||k-kproxys.tk^
 ||k-mart.info^
@@ -48406,6 +48430,7 @@
 ||k1h.info^
 ||k1ppa.info^
 ||k5o.info^
+||k8i.cc^
 ||k99.biz^
 ||k9bible.com^
 ||k9z.info^
@@ -49324,8 +49349,8 @@
 ||kqproxy.info^
 ||kques4tions.tk^
 ||krakkle.info^
-||kral_oyun_kraloyun.sitemynet.com^
 ||kral-oyun.org^
+||kral_oyun_kraloyun.sitemynet.com^
 ||kraloyun.in^
 ||kranka.info^
 ||krap.info^
@@ -49778,6 +49803,7 @@
 ||latesleeper.ml^
 ||latesleeper.tk^
 ||latest-vpn.info^
+||latest.newstenth.com^
 ||latestc.tk^
 ||latestcloud.info^
 ||latestd.tk^
@@ -50832,6 +50858,7 @@
 ||linkmefree.us^
 ||linkmetube.com^
 ||linkmeup.info^
+||linkonclick.com^
 ||linkosis.com^
 ||linkparty.cn^
 ||linkprotected.info^
@@ -55832,6 +55859,7 @@
 ||myaccess.url.ph^
 ||myaccessall.info^
 ||myactivework.co.cc^
+||myactualblog.com^
 ||myaddress.cf^
 ||myaddress.ga^
 ||myaddress.gq^
@@ -59479,7 +59507,6 @@
 ||noproxy.us^
 ||noproxyads.com^
 ||noraproxy.tk^
-@@||nordvpn.com^! Issue 278
 ||noregulation.com^
 ||norepick.info^
 ||norepick.tk^
@@ -60359,6 +60386,7 @@
 ||offshoreserver.info^
 ||offshoreservers.info^
 ||offshoresurf.info^
+||offshoretolerantbenignity.com^
 ||offshoretunnel.info^
 ||offshoretunnels.info^
 ||offshoreunblocker.info^
@@ -60401,6 +60429,7 @@
 ||ohio-proxytunnel.co.cc^
 ||ohioclaims.info^
 ||ohioschool.info^
+||ohkdsplu.com^
 ||ohmy44proxy.tk^
 ||ohmy4proxy.tk^
 ||ohmyfacebook.tk^
@@ -60812,6 +60841,7 @@
 ||online-8affiliate.tk^
 ||online-browser.com^
 ||online-calculator.biz^
+||online-dating-steps.com^
 ||online-forex-0.tk^
 ||online-forex-1.tk^
 ||online-forex-2.tk^
@@ -62539,6 +62569,7 @@
 ||paddystock.tk^
 ||padforexappgw.tk^
 ||padrone.info^
+||padsanz.com^
 ||paedneur.info^
 ||page-proxy.cn^
 ||page.ne.jp^
@@ -65340,6 +65371,7 @@
 ||preparers.info^
 ||preparetaxes.co.cc^
 ||preparing-visit.co.cc^
+||prepenseprepensedefiance.com^
 ||preppyproxy.co.cc^
 ||prepsoncrack.net^
 ||prer.info^
@@ -65855,6 +65887,7 @@
 ||pro-xytopsite.com^
 ||pro-xyy.info^
 ||pro.blaster.ch^
+||pro.de^
 ||pro.dragonfans.net^
 ||pro.theelse.com^
 ||pro.xies.info^
@@ -76034,6 +76067,7 @@
 ||public-proxy.gq^
 ||public-proxy.info^
 ||public-proxy.org^
+||public.cdnvault.com^
 ||public.citrixmonkey.com^
 ||public.cobanaz.com^
 ||public.codeforex.com^
@@ -77002,6 +77036,7 @@
 ||r-tunnel.com^
 ||r-ua.com^
 ||r.ls.la^
+||r.randomnew.com^
 ||r0-proxy.tk^
 ||r0n.info^
 ||r0o0.com^
@@ -77064,7 +77099,6 @@
 ||radiocarb.com^
 ||radiofairy.com^
 ||radiofarda.be^
-@@||radiofarda.com^! Issue 290
 ||radiofeather.com^
 ||radiosurf.tk^
 ||radishproxy.xyz^
@@ -77699,6 +77733,7 @@
 ||reborder.tk^
 ||rebounded.info^
 ||rebr.info^
+||rebrand.ly^
 ||rebrowseme.tk^
 ||rebuildnow.tk^
 ||rebuilt.clawed.info^
@@ -77739,6 +77774,7 @@
 ||record-foritallnow.tk^
 ||recordhigh.tk^
 ||recordi.tk^
+||recordingroadsidezoo.com^
 ||recordproxies.co.cc^
 ||recordsproxies.co.cc^
 ||recovercrashs.tk^
@@ -78008,6 +78044,7 @@
 ||refineunfold.tk^
 ||refl.info^
 ||reflectonc.tk^
+||refpamjeql.top^
 ||refreforex.co.cc^
 ||refreshallupdates.tk^
 ||refreshgoal.tk^
@@ -79177,6 +79214,7 @@
 ||rstinc.org^
 ||rt5rw3.co.cc^
 ||rt8.info^
+||rtb.4armn.com^
 ||rtil.info^
 ||rtisement.tk^
 ||rtsc.info^
@@ -82528,6 +82566,7 @@
 ||shiftinghands.info^
 ||shiftingrocks.info^
 ||shiftingwater.info^
+||shiftintercoursebridge.com^
 ||shiftprox.tk^
 ||shiftproxy.info^
 ||shiftunblock.tk^
@@ -83625,6 +83664,7 @@
 ||slashpound.info^
 ||slaughterblog.com^
 ||slavedog.tk^
+||slaveforgetfulsneak.com^
 ||slayerdark10.tk^
 ||slayter.freehost24h.com^
 ||slazy.info^
@@ -84746,6 +84786,7 @@
 ||solveany.tk^
 ||solveintertkbypass.tk^
 ||solvemaths.info^
+||solvessor-rouslogue.com^
 ||somasurf.co.cc^
 ||some-real.co.cc^
 ||some-standard.co.cc^
@@ -85165,6 +85206,7 @@
 ||spareproxy96.tk^
 ||sparesaddressmanually.biz^
 ||sparkart.tk^
+||sparkassse.safecheck22.com.de^
 ||sparked.clawed.info^
 ||sparked.mask.wtf.la^
 ||sparkforex.tk^
@@ -86004,6 +86046,7 @@
 ||srelo.com^
 ||srenthouseonltkes.tk^
 ||srenthouseonltkesour.tk^
+||srghsmpyvvko.com^
 ||srilla.info^
 ||sripingtool.co.cc^
 ||sriratu.tk^
@@ -92631,6 +92674,7 @@
 ||test.anonproxies.com^
 ||test.net46.net^
 ||test101.net76.net^
+||testamentfendsounding.com^
 ||testars.com^
 ||testbbs.tk^
 ||testcheck.ml^
@@ -93983,11 +94027,13 @@
 ||tiufanlesurf.tk^
 ||tiufanlesurfnow.tk^
 ||tiufanlesurfs.tk^
+||tivibyca.com^
 ||tixi.info^
 ||tixonstock.tk^
 ||tixxoo.com^
 ||tizent.fakefall.com^
 ||tizz.info^
+||tjcttxdfelb.com^
 ||tk-justrmationisurfs.tk^
 ||tk3proxy.tk^
 ||tka1945.tk^
@@ -95242,6 +95288,7 @@
 ||travelocitysurf.tk^
 ||travelonline.tk^
 ||travelpackage.tk^
+||travelparked.com^
 ||travelprox.com^
 ||travelprox.info^
 ||travelproxy.tk^
@@ -100668,6 +100715,7 @@
 ||usa-vpnshop.info^
 ||usa-vpnshopinfo.tk^
 ||usa.alive.org.au^
+||usa.caralla-ver.com^
 ||usa.compuhelp.com^
 ||usa.llopisagario.biz^
 ||usa.myprox.org^
@@ -100934,6 +100982,7 @@
 ||usefulbrowsing5.tk^
 ||usefulness.info^
 ||usegame.tk^
+||usegetmarketings.com^
 ||usehere.info^
 ||usehi5.com^
 ||useinsyria.tk^
@@ -103388,6 +103437,7 @@
 ||weathered.mask.wtf.la^
 ||weatherland.tk^
 ||weatherwatchlive.info^
+||weaveradrenaline.com^
 ||web--free.ga^
 ||web-507.info^
 ||web-5proxyme.tk^
@@ -105349,6 +105399,7 @@
 ||windproxy.cn^
 ||windproxy.info^
 ||windscan.tk^
+||windscreenregimepros.com^
 ||windsforex.co.cc^
 ||windshieldspam.tk^
 ||windstealth.com^
@@ -105913,6 +105964,7 @@
 ||worldcapture.tk^
 ||worldcirculate.tk^
 ||worldcloud.info^
+||worldcoolfeed.com^
 ||worldcup2010e.tk^
 ||worldcupnow.co.cc^
 ||worldcupspain.co.cc^
@@ -106316,6 +106368,10 @@
 ||wwv.zurischinsurances.com^
 ||www-proxy.hb1.srv.t-online.de^
 ||www.anonymous-surfing.eu^
+||www.cricplay.com^
+||www.helooworld.us^
+||www.linkonclick.com^
+||www.pro.de^
 ||www.proxy-foxy.info^
 ||www.proxyfoxy.co.tv^
 ||www.touringproxy.co.cc^
@@ -108639,65 +108695,3 @@
 ||zzzz.thaidark.org^
 ||zzzzz.cz.cc^
 ||zzzzzzzzz.info^
-||invitesuperstitiousadmire.com^
-||istcommun.info^
-||home.istcommun.info^
-||testamentfendsounding.com^
-||goldenbettingefforlessefforless.com^
-||grownuplieutenant.com^
-||slaveforgetfulsneak.com^
-||recordingroadsidezoo.com^
-||public.cdnvault.com^
-||offshoretolerantbenignity.com^
-||hadquellseventeen.com^
-||prepenseprepensedefiance.com^
-||rtb.4armn.com^
-||r.randomnew.com^
-||padsanz.com^
-||usa.caralla-ver.com^
-||latest.newstenth.com^
-||solvessor-rouslogue.com^
-||ohkdsplu.com^
-||rebrand.ly^
-||www.linkonclick.com^
-||linkonclick.com^
-||fr.stop-bot.com^
-||usegetmarketings.com^
-||myactualblog.com^
-||ballost.org^
-||districtprovocativeforceful.com^
-||freememoryapp.site^
-||helooworld.us^
-||www.helooworld.us^
-||windscreenregimepros.com^
-||weaveradrenaline.com^
-||shiftintercoursebridge.com^
-||tivibyca.com^
-||go.c4ptainr0berts.xyz^
-||click.expmediadirect1.com^
-||007freepics.com^
-||online-dating-steps.com^
-||jystasaki.com^
-||click.junmediadirect.com^
-||fancy11.com^
-||www.cricplay.com^
-||1-xredbet87963.top^
-||extoso.com^
-||tjcttxdfelb.com^
-||cdexvangxfarwl.com^
-||aaotpokaquathii.com^
-||worldcoolfeed.com^
-||srghsmpyvvko.com^
-||hidelen.com^
-||travelparked.com^
-||https-www.store^
-||furiousfar.com^
-||refpamjeql.top^
-||k8i.cc^
-||2fr.cc^
-||9k.gg^
-||dkb-de.online^
-||sparkassse.safecheck22.com.de^
-||insta24h.com^
-||pro.de^
-||www.pro.de^

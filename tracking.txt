@@ -1,27 +1,16 @@
-# ------------------------------------[UPDATE]--------------------------------------
-# Title: The Block List Project - Tracking List
-# Expires: 1 day
-# Homepage: https://blocklist.site
-# Help: https://github.com/blocklistproject/lists/wiki/
-# License: https://unlicense.org
-# Total number of network filters: 15070
-# ------------------------------------[SUPPORT]-------------------------------------
-# You can support by:
-# - reporting false positives
-# - making a donation: https://paypal.me/blocklistproject
-# -------------------------------------[INFO]---------------------------------------
+# Title: Tracking Block List
+# Description: Tracking and analytics
+# Homepage: https://github.com/blocklistproject/Lists
+# License: MIT
+# Last modified: 2025-12-19 16:39:34 UTC
+# Format: hosts
+# Entries: 15,070
+# URL: 
 #
-# tracking list
-# ------------------------------------[FILTERS]-------------------------------------
-# 0.0.0.0 footprint.net Resolved Issue 29
-# 0.0.0.0 hubspot.com Issue 52
-# 0.0.0.0 intercomassets.com Issue 48
-# 0.0.0.0 newrelic.com Issue 53
-# 0.0.0.0 byside.com Issue 10
-# 0.0.0.0 counters.gigya.com Issue 7
-# 0.0.0.0 gigya.com Issue 7
-# 0.0.0.0 ipinfo.io Issue 21
-# 0.0.0.0 yospace.com Issue 12
+# This list is maintained by The Block List Project
+# https://github.com/blocklistproject/Lists
+#
+
 0.0.0.0 1-cl0ud.com
 0.0.0.0 1-creative-1.com
 0.0.0.0 1000mercis.com
@@ -590,6 +579,7 @@
 0.0.0.0 analytics.live-panorama.com
 0.0.0.0 analytics.live.com
 0.0.0.0 analytics.magelan.it
+0.0.0.0 analytics.meaww.com
 0.0.0.0 analytics.microsoft.com
 0.0.0.0 analytics.msn.com
 0.0.0.0 analytics.newsinc.com
@@ -629,6 +619,7 @@
 0.0.0.0 apero-bigdata.com
 0.0.0.0 apester.com
 0.0.0.0 api.b2c.com
+0.0.0.0 api.crowdin.com
 0.0.0.0 api.mobula.sdk.duapps.com
 0.0.0.0 api.wipmania.com
 0.0.0.0 api.worldsense.com
@@ -713,10 +704,16 @@
 0.0.0.0 as134124.net
 0.0.0.0 as55819.net
 0.0.0.0 ashfordinvestments.com
+0.0.0.0 asia-analyzer-appstore.vivoglobal.com
+0.0.0.0 asia-comonrt-stsdk.vivoglobal.com
+0.0.0.0 asia-comort-stsdk.vivoglobal.com
+0.0.0.0 asia-ex-adlog.vivoglobal.com
+0.0.0.0 asia-exstsdk.vivoglobal.com
 0.0.0.0 asocials.com
 0.0.0.0 aspirer.xyz
 0.0.0.0 assoc-amazon.jp
 0.0.0.0 astutemetrics.com
+0.0.0.0 asus.router.com
 0.0.0.0 at.amgdgt.com
 0.0.0.0 atdmt.com
 0.0.0.0 atemda.com
@@ -861,7 +858,6 @@
 0.0.0.0 blutonic.net
 0.0.0.0 bluuadd.com
 0.0.0.0 bn.uol.com.br
-# 0.0.0.0 boards.greenhouse.io Issue 372
 0.0.0.0 bolimubei.com
 0.0.0.0 bombora.com
 0.0.0.0 bongacash.com
@@ -1416,6 +1412,7 @@
 0.0.0.0 crash.steampowered.com
 0.0.0.0 crashdump.spotify.com
 0.0.0.0 crashlytics.com
+0.0.0.0 crawler.algolia.com
 0.0.0.0 crazyegg.com
 0.0.0.0 crealytics.com
 0.0.0.0 createabetterinternet.com
@@ -1632,6 +1629,7 @@
 0.0.0.0 displaywords.com
 0.0.0.0 displaywords.net
 0.0.0.0 disqusads.com
+0.0.0.0 distillery.wistia.com
 0.0.0.0 distralytics.com
 0.0.0.0 dl-rms.com
 0.0.0.0 dleke.com
@@ -2059,6 +2057,7 @@
 0.0.0.0 genericlink.com
 0.0.0.0 genieesspv.jp
 0.0.0.0 geo.query.yahoo.com
+0.0.0.0 geo2.adobe.com
 0.0.0.0 geoadnxs.com
 0.0.0.0 geoadnxs.net
 0.0.0.0 geoadnxs.org
@@ -2775,6 +2774,8 @@
 0.0.0.0 meteora.us
 0.0.0.0 metric.asos.com
 0.0.0.0 metric.gstatic.com
+0.0.0.0 metric.ind.rediff.com
+0.0.0.0 metric.rediff.com
 0.0.0.0 metrics.aftonbladet.se
 0.0.0.0 metrics.apple.com
 0.0.0.0 metrics.argos.co.uk
@@ -2783,6 +2784,7 @@
 0.0.0.0 metrics.ctvdigital.net
 0.0.0.0 metrics.expressen.se
 0.0.0.0 metrics.foxnews.com
+0.0.0.0 metrics.icloud.com
 0.0.0.0 metrics.ikea.com
 0.0.0.0 metrics.marksandspencer.com
 0.0.0.0 metrics.mzstatic.com
@@ -2790,12 +2792,10 @@
 0.0.0.0 metrics.oetker.de
 0.0.0.0 metrics.plex.tv
 0.0.0.0 metrics.raptr.com
-0.0.0.0 metric.ind.rediff.com
-0.0.0.0 metric.rediff.com
 0.0.0.0 metrics.tiscover.com
 0.0.0.0 metrics.toptenreviews.com
-0.0.0.0 metricswindow.com
 0.0.0.0 metricsishare.rediff.com
+0.0.0.0 metricswindow.com
 0.0.0.0 metrigo.com
 0.0.0.0 mgid.com
 0.0.0.0 mgsvc.com
@@ -12913,6 +12913,7 @@
 0.0.0.0 mouseflow.net
 0.0.0.0 mouseflow.org
 0.0.0.0 mouseflow.us
+0.0.0.0 mousegesturesapi.com
 0.0.0.0 moutaihotel.cn
 0.0.0.0 movfile.net
 0.0.0.0 movingos.com
@@ -12923,6 +12924,8 @@
 0.0.0.0 mparticle.com
 0.0.0.0 mpdotrk.com
 0.0.0.0 mpire.com
+0.0.0.0 mplusps.ims.vodafone.com
+0.0.0.0 mpluswf.ims.vodafone.com
 0.0.0.0 mplxtms.com
 0.0.0.0 mpn-analytics.mokonocdn.com
 0.0.0.0 mpstat.us
@@ -13071,6 +13074,7 @@
 0.0.0.0 netline.com
 0.0.0.0 netlog.ru
 0.0.0.0 netmng.com
+0.0.0.0 netperform-is.vodafone.com.tr
 0.0.0.0 netscope.data.marktest.pt
 0.0.0.0 netseer.com
 0.0.0.0 netshelter.net
@@ -13118,10 +13122,10 @@
 0.0.0.0 nnn.ru
 0.0.0.0 nobeta.com.br
 0.0.0.0 nodes.npm9sh75p.com
-# 0.0.0.0 nosto.com Issue 132
 0.0.0.0 notice1-09.com
 0.0.0.0 notice1-11.com
 0.0.0.0 notice1-12.com
+0.0.0.0 notification.tubecup.net
 0.0.0.0 notificationmessaging.com
 0.0.0.0 novao.com
 0.0.0.0 novao.net
@@ -13133,6 +13137,7 @@
 0.0.0.0 nster.net
 0.0.0.0 nt.vc
 0.0.0.0 ntv.io
+0.0.0.0 ntvp.wpu.sh
 0.0.0.0 nuffnang.com.sg
 0.0.0.0 nuggad.net
 0.0.0.0 numerino.cz
@@ -13332,6 +13337,7 @@
 0.0.0.0 pingmemessenger.net
 0.0.0.0 pingmemessenger.us
 0.0.0.0 pipeaota.com
+0.0.0.0 pipedream.wistia.com
 0.0.0.0 pipeschannels.com
 0.0.0.0 pippio.com
 0.0.0.0 piwik.bahag.com
@@ -13422,7 +13428,6 @@
 0.0.0.0 prfhn.com
 0.0.0.0 pricespider.com
 0.0.0.0 primefuse.com
-# 0.0.0.0 priority-static-api.nkstatic.com Issue 141
 0.0.0.0 privacy.aol.com
 0.0.0.0 privateebusiness.com
 0.0.0.0 privatescale.com
@@ -13583,6 +13588,7 @@
 0.0.0.0 rebranded.link
 0.0.0.0 rebrandly.com
 0.0.0.0 rebrandly.pro
+0.0.0.0 rebrandlydomain.com
 0.0.0.0 reclaimthenet.com
 0.0.0.0 recomenda.com.br
 0.0.0.0 red.tingrinter.com
@@ -14062,6 +14068,7 @@
 0.0.0.0 smartology.net
 0.0.0.0 smartpassage.com
 0.0.0.0 smartstream.tv
+0.0.0.0 smarturl.it
 0.0.0.0 smb-store.c66.me
 0.0.0.0 smct.co
 0.0.0.0 smetrics.mcafee.com
@@ -14115,6 +14122,7 @@
 0.0.0.0 solorpowernowme.com
 0.0.0.0 solution.weborama.fr
 0.0.0.0 solvemedia.com
+0.0.0.0 songlytics.net
 0.0.0.0 sonobi.com
 0.0.0.0 soos.soliver.de
 0.0.0.0 soosooka.com
@@ -14154,6 +14162,7 @@
 0.0.0.0 spynet2.microsoft.com
 0.0.0.0 spynetalt.microsoft.com
 0.0.0.0 spyvisit.com
+0.0.0.0 src.labeldollars.com
 0.0.0.0 srv123.com
 0.0.0.0 srv4pub.com
 0.0.0.0 srvntrk.com
@@ -14398,6 +14407,12 @@
 0.0.0.0 touchstoneresearch.com
 0.0.0.0 tqlkg.com
 0.0.0.0 tqn.com
+0.0.0.0 tr-domaincfg.vivoglobal.com
+0.0.0.0 tr-romsp-unifyconfig.vivoglobal.com
+0.0.0.0 tr-st-sl.vivoglobal.com
+0.0.0.0 tr-timesync.vivoglobal.com
+0.0.0.0 tr-vcode-api.vivoglobal.com
+0.0.0.0 tr-vcode-od.vivoglobal.com
 0.0.0.0 traaack.com
 0.0.0.0 track-flow.com
 0.0.0.0 track-mv-01.com
@@ -14444,6 +14459,7 @@
 0.0.0.0 track.pplnk.com
 0.0.0.0 track.prize-wave.com
 0.0.0.0 track.productsup.com
+0.0.0.0 track.rediff.com
 0.0.0.0 track.searchignite.com
 0.0.0.0 track.securedvisit.com
 0.0.0.0 track.shop2market.com
@@ -14480,6 +14496,7 @@
 0.0.0.0 tracker.mc-svc-c.it
 0.0.0.0 tracker.mcontact.pro
 0.0.0.0 tracker.neon-images.com
+0.0.0.0 tracker.nice-prod.pro
 0.0.0.0 tracker.openholidayguide.de
 0.0.0.0 tracker.oplkw.com
 0.0.0.0 tracker.softgarden.de
@@ -14641,6 +14658,7 @@
 0.0.0.0 truviewanalytics.com
 0.0.0.0 truviewdata.com
 0.0.0.0 trychameleon.com
+0.0.0.0 ts.market.mi-img.com
 0.0.0.0 ttmdduyuru.net
 0.0.0.0 ttxm.co.uk
 0.0.0.0 tubemogul.com
@@ -14744,11 +14762,11 @@
 0.0.0.0 user-agent-tracker.herokuapp.com
 0.0.0.0 user-api.com
 0.0.0.0 usergrid.com
-0.0.0.0 usmetric.rediff.com
 0.0.0.0 userreplay.net
 0.0.0.0 userreport.com
 0.0.0.0 userstats.com
 0.0.0.0 userzoom.com
+0.0.0.0 usmetric.rediff.com
 0.0.0.0 usyncapp.com
 0.0.0.0 utarget.ru
 0.0.0.0 utmtrk2.smileycentral.com
@@ -14761,6 +14779,7 @@
 0.0.0.0 valtrk.com
 0.0.0.0 valueclick.com
 0.0.0.0 valueclick.ne.jp
+0.0.0.0 vasgenerete.site
 0.0.0.0 vcmedia.vn
 0.0.0.0 vcommission.com
 0.0.0.0 vdna-assets.com
@@ -14816,6 +14835,7 @@
 0.0.0.0 visualwebsiteoptimizer.com
 0.0.0.0 vizu.com
 0.0.0.0 vncovers.com
+0.0.0.0 vodafonetr.sc.omtrdc.net
 0.0.0.0 voicefive.com
 0.0.0.0 voluumtrk.com
 0.0.0.0 voluumtrk2.com
@@ -14919,8 +14939,6 @@
 0.0.0.0 wikia-beacon.com
 0.0.0.0 win30000.com
 0.0.0.0 win30000.net
-0.0.0.0 pipedream.wistia.com
-0.0.0.0 distillery.wistia.com
 0.0.0.0 wistia.net
 0.0.0.0 wobbegongmedia.net
 0.0.0.0 woopic.com
@@ -15063,35 +15081,3 @@
 0.0.0.0 zylpfood.com
 0.0.0.0 zzhengre.com
 0.0.0.0 zzword.com
-0.0.0.0 src.labeldollars.com
-0.0.0.0 track.rediff.com
-0.0.0.0 tracker.nice-prod.pro
-0.0.0.0 vasgenerete.site
-0.0.0.0 ntvp.wpu.sh
-0.0.0.0 notification.tubecup.net
-0.0.0.0 rebrandlydomain.com
-0.0.0.0 metrics.icloud.com
-0.0.0.0 geo2.adobe.com
-0.0.0.0 api.crowdin.com
-0.0.0.0 crawler.algolia.com
-0.0.0.0 ts.market.mi-img.com
-0.0.0.0 smarturl.it
-0.0.0.0 asus.router.com
-0.0.0.0 tr-vcode-od.vivoglobal.com
-0.0.0.0 tr-vcode-api.vivoglobal.com
-0.0.0.0 tr-st-sl.vivoglobal.com
-0.0.0.0 tr-domaincfg.vivoglobal.com
-0.0.0.0 tr-timesync.vivoglobal.com
-0.0.0.0 tr-romsp-unifyconfig.vivoglobal.com
-0.0.0.0 asia-ex-adlog.vivoglobal.com
-0.0.0.0 asia-analyzer-appstore.vivoglobal.com
-0.0.0.0 asia-exstsdk.vivoglobal.com
-0.0.0.0 asia-comort-stsdk.vivoglobal.com
-0.0.0.0 asia-comonrt-stsdk.vivoglobal.com
-0.0.0.0 netperform-is.vodafone.com.tr
-0.0.0.0 vodafonetr.sc.omtrdc.net
-0.0.0.0 mplusps.ims.vodafone.com
-0.0.0.0 mpluswf.ims.vodafone.com
-0.0.0.0 analytics.meaww.com
-0.0.0.0 mousegesturesapi.com
-0.0.0.0 songlytics.net

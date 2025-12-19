@@ -19,7 +19,5 @@ build/
 htmlcov/
 
 # Docs (archived)
-docs/
+instruct/
 
-# Tests
-tests/

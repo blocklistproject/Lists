@@ -1,18 +1,16 @@
-# ------------------------------------[UPDATE]--------------------------------------
-# Title: The Block List Project - Ransomware List
-# Expires: 1 day
-# Homepage: https://blocklist.site
-# Help: https://github.com/blocklistproject/list/wiki/
-# License: https://unlicense.org
-# Total number of network filters: 1904
-# ------------------------------------[SUPPORT]-------------------------------------
-# You can support by:
-# - reporting false positives
-# - making a donation: https://paypal.me/blocklistproject
-# -------------------------------------[INFO]---------------------------------------
+# Title: Ransomware Block List
+# Description: Ransomware C2 and distribution
+# Homepage: https://github.com/blocklistproject/Lists
+# License: MIT
+# Last modified: 2025-12-19 16:39:34 UTC
+# Format: hosts
+# Entries: 1,904
+# URL: 
 #
-# Ransomware list
-# ------------------------------------[FILTERS]-------------------------------------
+# This list is maintained by The Block List Project
+# https://github.com/blocklistproject/Lists
+#
+
 0.0.0.0 25z5g623wpqpdwis.onion.to
 0.0.0.0 27c73bq66y4xqoh7.dorfact.at
 0.0.0.0 27lelchgcvs2wpm7.3lhjyx.top
@@ -1421,6 +1419,7 @@
 0.0.0.0 real346real.top
 0.0.0.0 remoteunityrety.top
 0.0.0.0 renaulrtcenturytrick.top
+0.0.0.0 res-smartd.info
 0.0.0.0 rkiywansamtu.top
 0.0.0.0 rolerxunitywsto.top
 0.0.0.0 rootaleyz.top
@@ -1916,4 +1915,3 @@
 0.0.0.0 zjfq4lnfbs7pncr5.tor2web.org
 0.0.0.0 ztuw5bvuuapzdfya.klimbim.pl
 0.0.0.0 zutzt67dcxr6mxcn.onion.to
-0.0.0.0 res-smartd.info

@@ -1,18 +1,16 @@
-! ------------------------------------[UPDATE]--------------------------------------
-! Title: The Block List Project - Basic Starter List (adguard)
-! Expires: 1 day
-! Homepage: https://blocklist.site
-! Help: https://github.com/blocklistproject/lists/wiki/
-! License: https://unlicense.org
-! Total number of network filters: 76459
-! ------------------------------------[SUPPORT]-------------------------------------
-! You can support by:
-! - reporting false positives
-! - making a donation: https://paypal.me/blocklistproject
-! -------------------------------------[INFO]---------------------------------------
+! Title: Basic Block List
+! Description: Basic protection list
+! Homepage: https://github.com/blocklistproject/Lists
+! License: MIT
+! Last modified: 2025-12-19 16:39:31 UTC
+! Format: AdGuard
+! Entries: 76,459
+! URL: 
 !
-! Starter Basic List
-! ------------------------------------[FILTERS]-------------------------------------
+! This list is maintained by The Block List Project
+! https://github.com/blocklistproject/Lists
+!
+
 ||0-app.com^
 ||0.0.0.0.beeglivesex.com^
 ||0.0.0.0.creative.hpyrdr.com^
@@ -84,8 +82,7 @@
 ||008.free-counter.co.uk^
 ||008.free-counters.co.uk^
 ||00author.com^
-||00fun.com # [Tracking.Cookie]^
-@@||00go.com^! Issue 411
+||00fun.com # [tracking.cookie]^
 ||00it.com^
 ||00sexus.com^
 ||00webcams.com^
@@ -113,7 +110,7 @@
 ||0532a9.r.axf8.net^
 ||05tz2e9.com^
 ||061606084448.c.mystat-in.net^
-||06272002-dbase.hitcountz.net  # Web bugs in spam^
+||06272002-dbase.hitcountz.net  # web bugs in spam^
 ||064bdf.r.axf8.net^
 ||070806142521.c.mystat-in.net^
 ||07634.com^
@@ -352,7 +349,7 @@
 ||1456.api.swrve.com^
 ||1456.content.swrve.com^
 ||145639-4902.link.iwanttodeliver.com^
-||14713804a.l2m.net  #[Tracking.Cookie]^
+||14713804a.l2m.net  #[tracking.cookie]^
 ||148.xg4ken.com^
 ||1493361689.rsc.cdn77.org^
 ||14b.info^
@@ -571,7 +568,7 @@
 ||2001-007.com^
 ||2001positions.com^
 ||2005-search.com^
-||2006mindfreaklike.blogspot.com  # Facebook trojan^
+||2006mindfreaklike.blogspot.com  # facebook trojan^
 ||2016monclerselltokyo.net^
 ||2017bootsjapan.com^
 ||2017supremetokyo.com^
@@ -835,7 +832,7 @@
 ||30001.hittail.com^
 ||300sk.com^
 ||30181.content.swrve.com^
-||30280827a.l2m.net  #[WebBug]^
+||30280827a.l2m.net  #[webbug]^
 ||302br.net^
 ||30500.content.swrve.com^
 ||30506.api.swrve.com^
@@ -2376,7 +2373,7 @@
 ||ac-transfer.com^
 ||ac.acadomia.fr^
 ||ac.adpia.vn^
-||ac.ajur.info  #[WebBug]^
+||ac.ajur.info  #[webbug]^
 ||ac.atpanel.com^
 ||ac.batmobi.net^
 ||ac.i2i.jp^
@@ -2390,7 +2387,7 @@
 ||ac.ybinst3.ec.yimg.com^
 ||ac.ybinst4.ec.yimg.com^
 ||ac.ybinst5.ec.yimg.com^
-||ac.ybinst6.ec.yimg.com  #[WebBug]^
+||ac.ybinst6.ec.yimg.com  #[webbug]^
 ||ac.ybinst7.ec.yimg.com^
 ||ac.ybinst8.ec.yimg.com^
 ||ac.ybinst9.ec.yimg.com^
@@ -2528,7 +2525,7 @@
 ||activate.ensighten.com^
 ||activation-netflix.com^
 ||active-r-is-1-2.net.daraz.com^
-||active.cache.el-mundo.net  #[Omniture]^
+||active.cache.el-mundo.net  #[omniture]^
 ||active.hit.stat24.com^
 ||active.iperceptions.com^
 ||activeideas.net^
@@ -2687,7 +2684,7 @@
 ||ad.adlegend.com^
 ||ad.admarketplace.net^
 ||ad.admitad.com^
-||ad.adnet.biz  #[Tracking.Cookie]^
+||ad.adnet.biz  #[tracking.cookie]^
 ||ad.adnet.de^
 ||ad.adnetwork.com.br^
 ||ad.adnetwork.net^
@@ -2791,7 +2788,7 @@
 ||ad.db3nf.com^
 ||ad.dc2.adtech.de^
 ||ad.ddo.jp^
-||ad.de.doubleclick.net  #[Tracking.Cookie]^
+||ad.de.doubleclick.net  #[tracking.cookie]^
 ||ad.dedicatedmedia.com^
 ||ad.depositfiles.com^
 ||ad.designtaxi.com^
@@ -2922,7 +2919,7 @@
 ||ad.jorte.com^
 ||ad.jorudan.co.jp^
 ||ad.jp.ap.valu.com^
-||ad.jp.ap.valuecommerce.com  #[WebBug]^
+||ad.jp.ap.valuecommerce.com  #[webbug]^
 ||ad.jp.doubleclick.net^
 ||ad.kat.ph^
 ||ad.kataweb.it^
@@ -3159,7 +3156,7 @@
 ||ad.xmovies8.si^
 ||ad.xrea.com^
 ||ad.xtendmedia.com^
-||ad.yadro.ru  #[Tracking.Cookie]^
+||ad.yadro.ru  #[tracking.cookie]^
 ||ad.yemeksepeti.com^
 ||ad.yieldlab.net^
 ||ad.yieldmanager.com^
@@ -3658,7 +3655,7 @@
 ||addenly.info^
 ||adderall.ourtablets.com^
 ||adderallxr.freespaces.com^
-||addfreestats.com  #[WebBug]^
+||addfreestats.com  #[webbug]^
 ||addirector.vindicosuite.com^
 ||additcinggames.com^
 ||addjump.com^
@@ -3691,7 +3688,7 @@
 ||adecn.com^
 ||adedy.com^
 ||adeimptrck.com^
-||adelogs.adobe.com  #See http://www.theregister.co.uk/2014/10/07/adobe_digital_editions_4_caught_snooping_into_ebook_collections_of_users/^
+||adelogs.adobe.com  #see http://www.theregister.co.uk/2014/10/07/adobe_digital_editions_4_caught_snooping_into_ebook_collections_of_users/^
 ||adelphic-partners.tremorhub.com^
 ||ademails.com^
 ||adengage.com^
@@ -3831,7 +3828,7 @@
 ||adinplay-d.openx.net^
 ||adinte.jp^
 ||adinterax.cnet.com.edgesuite.net^
-||adinterax.com  #[Tracking.Cookie]^
+||adinterax.com  #[tracking.cookie]^
 ||adipex.1.p2l.info^
 ||adipex.24sws.ws^
 ||adipex.3.p2l.info^
@@ -3940,7 +3937,7 @@
 ||adlik2.akavita.com^
 ||adlock.in^
 ||adlockscreen.goforandroid.com^
-||adlog.com.com  # Used by Ziff Davis to serve^
+||adlog.com.com  # used by ziff davis to serve^
 ||adlog.flurry.com^
 ||adlog.foxitcloud.com^
 ||adlog.vivo.com.cn^
@@ -4171,7 +4168,7 @@
 ||adopt.admicro.vn^
 ||adopt.euroclick.com^
 ||adopt.precisead.com^
-||adopt.specificclick.net  #[Tracking.Cookie]^
+||adopt.specificclick.net  #[tracking.cookie]^
 ||adorebeauty.org^
 ||adoric-om.com^
 ||adorigin.com^
@@ -4409,7 +4406,7 @@
 ||ads.advertise.net^
 ||ads.advertisespace.com^
 ||ads.adviad.com^
-||ads.adviva.net  #[Tracking.Cookie]^
+||ads.adviva.net  #[tracking.cookie]^
 ||ads.advolume.com^
 ||ads.adworldnetwork.com^
 ||ads.adx.nu^
@@ -4668,7 +4665,7 @@
 ||ads.comicbookresources.com^
 ||ads.conlatatca.vn^
 ||ads.consumeraffairs.com^
-||ads.contactmusic.com  #[AdvertPro]^
+||ads.contactmusic.com  #[advertpro]^
 ||ads.contentabc.com^
 ||ads.contextweb.com^
 ||ads.coopson.com^
@@ -4759,7 +4756,7 @@
 ||ads.ecircles.com^
 ||ads.economist.com^
 ||ads.ecosalon.com^
-||ads.ecrush.com  #[AdvertPro]^
+||ads.ecrush.com  #[advertpro]^
 ||ads.edbindex.dk^
 ||ads.edirectme.com^
 ||ads.egrana.com.br^
@@ -4976,7 +4973,7 @@
 ||ads.identads.com^
 ||ads.idgworldexpo.com^
 ||ads.iforex.com^
-||ads.ign.com  #[Tracking.Cookie]^
+||ads.ign.com  #[tracking.cookie]^
 ||ads.ihaberadserver.com^
 ||ads.iknowthatgirl.com^
 ||ads.illuminatednation.com^
@@ -5042,7 +5039,7 @@
 ||ads.jokaroo.com^
 ||ads.jornadavirtual.com.mx^
 ||ads.jossip.com^
-||ads.jpost.com  #[RealMedia]^
+||ads.jpost.com  #[realmedia]^
 ||ads.jubii.dk^
 ||ads.juicyads.com^
 ||ads.junctionbox.com^
@@ -5374,7 +5371,7 @@
 ||ads.primeinteractive.net^
 ||ads.primissima.it^
 ||ads.printscr.com^
-||ads.prisacom.com  #[RealMedia]^
+||ads.prisacom.com  #[realmedia]^
 ||ads.privatemedia.co^
 ||ads.pro-market.net^
 ||ads.pro-market.net.edgesuite.net^
@@ -5399,7 +5396,7 @@
 ||ads.racunalniske-novice.com^
 ||ads.radialserver.com^
 ||ads.radio1.lv^
-||ads.rampidads.com  #[Tracking.Cookie]^
+||ads.rampidads.com  #[tracking.cookie]^
 ||ads.rasmussenreports.com^
 ||ads.ratemyprofessors.com^
 ||ads.rcgroups.com^
@@ -5627,7 +5624,7 @@
 ||ads.trinitymirror.co.uk^
 ||ads.triongames.com^
 ||ads.tripican.com^
-||ads.tripod.com  #[Tracking.Cookie]^
+||ads.tripod.com  #[tracking.cookie]^
 ||ads.tripod.lycos.co.uk^
 ||ads.tripod.lycos.de^
 ||ads.tripod.lycos.es^
@@ -6469,7 +6466,7 @@
 ||adserver.shadow.snapads.com^
 ||adserver.sharewareonline.com^
 ||adserver.singnet.com^
-||adserver.sitesense.com  #[Parking Service]^
+||adserver.sitesense.com  #[parking service]^
 ||adserver.sl.kharkov.ua^
 ||adserver.smashtv.com^
 ||adserver.snapads.com^
@@ -6717,7 +6714,7 @@
 ||adsrv.bankrate.com^
 ||adsrv.deviantart.com^
 ||adsrv.dispatch.com^
-||adsrv.ea.com  #[affects Battlefield]^
+||adsrv.ea.com  #[affects battlefield]^
 ||adsrv.eacdn.com^
 ||adsrv.emporis.com^
 ||adsrv.heraldtribune.com^
@@ -6831,7 +6828,7 @@
 ||adtechus.com^
 ||adtegrity.com^
 ||adtegrity.net^
-||adtegrity.spinbox.net  #[Tracking.Cookie]^
+||adtegrity.spinbox.net  #[tracking.cookie]^
 ||adtekmedia.com^
 ||adtelligent-d.openx.net^
 ||adtext.pl^
@@ -6903,7 +6900,7 @@
 ||adultadworld.com^
 ||adultdating-plan2.com^
 ||adultdatingtest.worlddatingforum.com^
-||adultfriendfinder.com  #[Tracking.Cookie]^
+||adultfriendfinder.com  #[tracking.cookie]^
 ||adultimate.net^
 ||adultlinksco.com^
 ||adultmild.com^
@@ -6974,7 +6971,7 @@
 ||adv.pushtimize.com^
 ||adv.r7.com^
 ||adv.sec.intl.miui.com^
-||adv.sexcounter.com  #[Tracking.Cookie]^
+||adv.sexcounter.com  #[tracking.cookie]^
 ||adv.starozagorci.com^
 ||adv.strategy.it^
 ||adv.surinter.net^
@@ -7922,7 +7919,7 @@
 ||allgetaways.us.intellitxt.com^
 ||allgo.xyz^
 ||allhiphop.us.intellitxt.com^
-||allhqpics.com  # Facebook trojan^
+||allhqpics.com  # facebook trojan^
 ||alliance.adbureau.net^
 ||alliance4media.com^
 ||allianzmarket.com^
@@ -8214,7 +8211,7 @@
 ||analytic.cibc.com^
 ||analytic.detik.com^
 ||analytic.gatewayinterface.com^
-||analytic.spamfighter.com  #[Omniture]^
+||analytic.spamfighter.com  #[omniture]^
 ||analytic.underarmour.com^
 ||analyticcdn.globalmailer.com^
 ||analyticdns.org^
@@ -9152,7 +9149,6 @@
 ||api.proofpositivemedia.com^
 ||api.publishers.adlive.io^
 ||api.pubnative.net^
-@@||api.punchh.com^! issue 484
 ||api.purpleads.io^
 ||api.push.world^
 ||api.pushdi.com^
@@ -9243,7 +9239,7 @@
 ||api.webpush.jp^
 ||api.weltevree.eu^
 ||api.west.bidtellect.com^
-||api.wipmania.com  #[affects WorldIP]^
+||api.wipmania.com  #[affects worldip]^
 ||api.wonderpush.com^
 ||api.wootric.com^
 ||api.wootric.com.herokudns.com^
@@ -10160,7 +10156,7 @@
 ||atlas.iad-03.braze.com^
 ||atlas.r.akipam.com^
 ||atlasconcreteworks.com^
-||atlasdmt.com  #[Tracking.Cookie]^
+||atlasdmt.com  #[tracking.cookie]^
 ||atlassbx.com^
 ||atlassian.122.2o7.net^
 ||atm.youku.com^
@@ -10487,7 +10483,7 @@
 ||b-1st.com^
 ||b-mobile.pl^
 ||b-s500.com^
-||b.6sc.co  #[WebBug]^
+||b.6sc.co  #[webbug]^
 ||b.a2gw.com^
 ||b.abnad.net^
 ||b.adexchangemachine.com^
@@ -10738,7 +10734,7 @@
 ||bank12.ads.mp.mydas.mobi^
 ||bank13.ads.dt.mydas.mobi^
 ||bank13.ads.mp.mydas.mobi^
-||bank15.ads.dt.mydas.mobi  #[Mobile.Advertising]^
+||bank15.ads.dt.mydas.mobi  #[mobile.advertising]^
 ||bank15.ads.mp.mydas.mobi^
 ||bank16.ads.dt.mydas.mobi^
 ||bank16.ads.mp.mydas.mobi^
@@ -10820,7 +10816,7 @@
 ||banner.freeservers.com^
 ||banner.fyber.com^
 ||banner.gameads.io^
-||banner.goldenpalace.com  #[Tracking.Cookie]^
+||banner.goldenpalace.com  #[tracking.cookie]^
 ||banner.hpmdnetwork.ru^
 ||banner.icmedia.eu^
 ||banner.img.co.za^
@@ -10860,7 +10856,7 @@
 ||banner.techarp.com^
 ||banner.thadaco.vn^
 ||banner.titan-dsl.de^
-||banner.titanpoker.com  #[Adware.Casino]^
+||banner.titanpoker.com  #[adware.casino]^
 ||banner.tonygpoker.com^
 ||banner.trangvangvietnam.com^
 ||banner.usacasino.com^
@@ -10986,7 +10982,7 @@
 ||banners.newsru.com^
 ||banners.nextcard.com^
 ||banners.outpersonals.com^
-||banners.outster.com  #[Tracking.Cookie]^
+||banners.outster.com  #[tracking.cookie]^
 ||banners.passion.com^
 ||banners.payserve.com^
 ||banners.pennyweb.com^
@@ -11178,7 +11174,7 @@
 ||bbreakt88.z19.web.core.windows.net^
 ||bbs.bjchun.com^
 ||bbs.ws^
-||bbtv.blinkx.com  #[Trojan.Win32.Agent.wif]^
+||bbtv.blinkx.com  #[trojan.win32.agent.wif]^
 ||bbu-edukacja.com.pl^
 ||bbumgames.pushwoosh.com^
 ||bbvacolombia.sc.omtrdc.net^
@@ -11259,7 +11255,7 @@
 ||beacon-us-iad3.rubiconproject.com^
 ||beacon-us-west.rubiconproject.com^
 ||beacon.affil.walmart.com^
-||beacon.clickequations.net  #[WebBug]^
+||beacon.clickequations.net  #[webbug]^
 ||beacon.cracked.com^
 ||beacon.deepintent.com^
 ||beacon.eb-collector.com^
@@ -11282,7 +11278,7 @@
 ||beacon.riskified.com^
 ||beacon.rum.dynapis.info^
 ||beacon.s-onetag.com^
-||beacon.scorecardresearch.com  #[WebBug]^
+||beacon.scorecardresearch.com  #[webbug]^
 ||beacon.scorecardresearch.com.edgekey.net^
 ||beacon.searchlinks.com^
 ||beacon.securestudies.com^
@@ -11323,7 +11319,7 @@
 ||beamincrease.com^
 ||beanx88.xyz^
 ||beap-bc.yahoo.com^
-||beap.adx.yahoo.com  #[WebBug]^
+||beap.adx.yahoo.com  #[webbug]^
 ||beap.gemini.yahoo.com^
 ||bearcatpumps.com.cn^
 ||beasybd.com^
@@ -11612,7 +11608,7 @@
 ||bi-analytics.cloudapp.net^
 ||bi-collector.oneapm.com^
 ||bi.admicro.vn^
-||bi.medscape.com  #[WebBug][affects Medscape app]^
+||bi.medscape.com  #[webbug][affects medscape app]^
 ||bi.yeshen.com^
 ||biakon.com.pl^
 ||bibincom.com^
@@ -12043,7 +12039,7 @@
 ||blubox.pl^
 ||blucher.iad-03.braze.com^
 ||blue.sexer.com^
-||blueadvertise.com  #[Google.Diagnostic][2013-01-02]^
+||blueadvertise.com  #[google.diagnostic][2013-01-02]^
 ||bluecava.com^
 ||blueconic.com^
 ||blueconic.net^
@@ -12228,8 +12224,8 @@
 ||bostonscientificcorporation.112.2o7.net^
 ||bostonsubwayoffer.com^
 ||bot2.googlerenewals.net^
-||botd.wordpress.com  #[WebBug]^
-||botd2.wordpress.com  #[WebBug]^
+||botd.wordpress.com  #[webbug]^
+||botd2.wordpress.com  #[webbug]^
 ||botduke1.ug^
 ||boteco.pl^
 ||botifiles.com^
@@ -12426,7 +12422,7 @@
 ||brudne-tajemnice.pl^
 ||brukernano.actonservice.com^
 ||brumflix.com^
-||brunga.at  # Facebook phishing attempt^
+||brunga.at  # facebook phishing attempt^
 ||bruset.no^
 ||brwser-message.pw^
 ||brxfinance.com^
@@ -12772,7 +12768,7 @@
 ||by.bollore-logistics.com^
 ||by.essl.optimost.com^
 ||by.optimost.com^
-||by.uservoice.com  #[WebBug]^
+||by.uservoice.com  #[webbug]^
 ||by2.uservoice.com^
 ||byagadget.com^
 ||byckimsodzarazz.site^
@@ -12798,7 +12794,7 @@
 ||c-eus.w.inmobi.com^
 ||c-web.biz^
 ||c.a.t.webtracker.jp^
-||c.abnad.net  #[Tracking.Cookie]^
+||c.abnad.net  #[tracking.cookie]^
 ||c.actiondesk.com^
 ||c.ad-srv.co^
 ||c.ad6media.fr^
@@ -12827,7 +12823,7 @@
 ||c.be.msn.com^
 ||c.bebi.com^
 ||c.betrad.com^
-||c.bigmir.net  #[WebBug]^
+||c.bigmir.net  #[webbug]^
 ||c.bing.com^
 ||c.blogads.com^
 ||c.br.msn.com^
@@ -12892,7 +12888,7 @@
 ||c.media-dl.co^
 ||c.mgid.com^
 ||c.msn.com^
-||c.mtro.co  #[MetroGuild Widget Tracking]^
+||c.mtro.co  #[metroguild widget tracking]^
 ||c.mttwtrack.com^
 ||c.my.msn.com^
 ||c.mystat-in.net^
@@ -12984,7 +12980,7 @@
 ||c1.popads.net^
 ||c1.rfihub.net^
 ||c1.smartclick.net^
-||c1.statcounter.com  #[Tracking.Cookie]^
+||c1.statcounter.com  #[tracking.cookie]^
 ||c1.teaser-goods.ru^
 ||c1.thecounter.de^
 ||c1.xxxcounter.com^
@@ -13004,18 +13000,18 @@
 ||c1exchange.com^
 ||c2.amazingcounters.com^
 ||c2.clickprotects.com^
-||c2.gostats.com  #[Tracking.Cookie]^
+||c2.gostats.com  #[tracking.cookie]^
 ||c2.gostats.vn^
 ||c2.l.qq.com^
 ||c2.outster.com^
 ||c2.popads.net^
 ||c2.rfihub.net^
-||c2.statcounter.com  #[WebBug]^
+||c2.statcounter.com  #[webbug]^
 ||c2.taboola.com^
 ||c2.tentaculos.net^
 ||c2.thecounter.de^
 ||c2.xxxcounter.com^
-||c2.zedo.com  #[Tracking.Cookie]^
+||c2.zedo.com  #[tracking.cookie]^
 ||c20.statcounter.com^
 ||c21.statcounter.com^
 ||c22.statcounter.com^
@@ -13074,8 +13070,8 @@
 ||c5.statcounter.com^
 ||c5.zedo.com^
 ||c6.amazingcounters.com^
-||c6.edgesuite.net  #[RealMedia]^
-||c6.statcounter.com  #[Analytics.Tracker]^
+||c6.edgesuite.net  #[realmedia]^
+||c6.statcounter.com  #[analytics.tracker]^
 ||c6.zedo.com^
 ||c6530e.r.axf8.net^
 ||c7.adforgeinc.com^
@@ -13148,7 +13144,7 @@
 ||cachewww.europacasino.com^
 ||cacp-hlb.doubleverify.com^
 ||cacp-hlb.dvgtm.akadns.net^
-||cad.chosun.com  #[RealMedia]^
+||cad.chosun.com  #[realmedia]^
 ||cadaver.org^
 ||cade.clmbtech.com^
 ||cadillacescalade.com^
@@ -13484,7 +13480,7 @@
 ||cc.chango.com^
 ||cc.connextra.com^
 ||cc.i2i.jp^
-||cc.iwon.com  #[iWon Progressive Counter]^
+||cc.iwon.com  #[iwon progressive counter]^
 ||cc.klapi.cn^
 ||cc.lbesec.com^
 ||cc.swiftype.com^
@@ -13694,7 +13690,7 @@
 ||cdn.altitudeplatform.com^
 ||cdn.amateurmatch.com^
 ||cdn.ambientplatform.vn^
-||cdn.amgdgt.com  #[WebBug]^
+||cdn.amgdgt.com  #[webbug]^
 ||cdn.amplitude.com^
 ||cdn.api.fotoable.com^
 ||cdn.appdynamics.com^
@@ -13718,7 +13714,7 @@
 ||cdn.automatad.com^
 ||cdn.avantisvideo.com^
 ||cdn.avazutracking.net^
-||cdn.avmws.com  #[AvantMetrics]^
+||cdn.avmws.com  #[avantmetrics]^
 ||cdn.ayads.co^
 ||cdn.banner.thumbplay.com^
 ||cdn.bannerflow.com^
@@ -14322,7 +14318,7 @@
 ||ceskarepublika.net^
 ||ceskydomov.alias.ngs.modry.cz^
 ||cetelemportugal2.solution.weborama.fr^
-||cetrk.com  #[Crazy Egg]^
+||cetrk.com  #[crazy egg]^
 ||cettiarl.com^
 ||cevik01supermarkt.nl^
 ||cezaevinegonder.com^
@@ -14356,7 +14352,7 @@
 ||cgi.honesty.com^
 ||cgi.hotstat.nl^
 ||cgi.i-mobile.co.jp^
-||cgi.sexlist.com  #[Tracking.Cookie]^
+||cgi.sexlist.com  #[tracking.cookie]^
 ||cgi1.sexlist.com^
 ||cgicounter.onlinehome.de^
 ||cgicounter.puretec.de^
@@ -14394,7 +14390,7 @@
 ||chanalytics.merchantadvantage.com^
 ||chancefordates3.com^
 ||chanekee.ga^
-||changduk26.com  # Facebook trojan^
+||changduk26.com  # facebook trojan^
 ||change-bank.co^
 ||change-bank.io^
 ||change-bank.org^
@@ -14503,7 +14499,7 @@
 ||chefallseason.net.daraz.com^
 ||chefeladlevi.com^
 ||chefti.info^
-||chelick.net  # Facebook trojan^
+||chelick.net  # facebook trojan^
 ||chelsi.money-for-you-2021.ru^
 ||chemistrylurver.blogspot.com^
 ||chemollez.blogspot.com^
@@ -14669,7 +14665,7 @@
 ||ciszhp.gutefrage.net^
 ||citepucevasuxuqesu.ga^
 ||cithingy.info^
-||citi.bridgetrack.com  #[Tracking.Cookie]^
+||citi.bridgetrack.com  #[tracking.cookie]^
 ||citi.bridgetrack.com.edgesuite.net^
 ||citiconstructioncorp.com^
 ||citihits.lk^
@@ -14814,7 +14810,7 @@
 ||click.affiliate.ameba.jp^
 ||click.am1.adm.cnzz.net^
 ||click.amazingfacts.org^
-||click.atdmt.com  #[Tracking.Cookie]^
+||click.atdmt.com  #[tracking.cookie]^
 ||click.avenuea.com^
 ||click.axiatraders.com^
 ||click.bounceads.net^
@@ -14981,7 +14977,7 @@
 ||clickserve.us2.dartsearch.net^
 ||clicksor.com^
 ||clicksotrk.com^
-||clickspring.net  #used by a spyware product called PurityScan^
+||clickspring.net  #used by a spyware product called purityscan^
 ||clickstatsview.chooseonlinecasino.com^
 ||clickstatsview.earnmoneycasinos.com^
 ||clickstatsview.hourfreeplaycasinos.com^
@@ -15064,7 +15060,7 @@
 ||clips.coolerads.com^
 ||clipserv.adclip.com^
 ||clit.sextracker.com^
-||clit1.sextracker.com  #[Tracking.Cookie]^
+||clit1.sextracker.com  #[tracking.cookie]^
 ||clit10.sextracker.com^
 ||clit11.sextracker.com^
 ||clit12.sextracker.com^
@@ -15543,10 +15539,10 @@
 ||collector-009.newrelic.com^
 ||collector-010.newrelic.com^
 ||collector-1054.tvsquared.com^
-||collector-184.tvsquared.com  #[Piwik.Analytics]^
-||collector-195.tvsquared.com  #[Piwik.Analytics]^
+||collector-184.tvsquared.com  #[piwik.analytics]^
+||collector-195.tvsquared.com  #[piwik.analytics]^
 ||collector-2398.tvsquared.com^
-||collector-428.tvsquared.com  #[Piwik.Analytics]^
+||collector-428.tvsquared.com  #[piwik.analytics]^
 ||collector-a.perimeterx.net^
 ||collector-hpn.cliqz.com^
 ||collector-px0etyn5vq.perimeterx.net^
@@ -15674,7 +15670,7 @@
 ||communications.siffron.com^
 ||communications.taylorcorp.com^
 ||communisave.co.za^
-||community.adlandpro.com  #[Tracking.Cookie]^
+||community.adlandpro.com  #[tracking.cookie]^
 ||community.allhiphop.com^
 ||community.newcastle.edu.au^
 ||community.reimclub.com^
@@ -15973,7 +15969,7 @@
 ||content.harrisproductsgroup.com^
 ||content.hydraulicsproducts.com^
 ||content.integral-marketing.com^
-||content.ipro.com  #[WebBug]^
+||content.ipro.com  #[webbug]^
 ||content.joinaxxess.com^
 ||content.lansweeper.com^
 ||content.linkoffers.net^
@@ -16280,7 +16276,7 @@
 ||counter.fateback.com^
 ||counter.gamespy.com^
 ||counter.hitbox.com^
-||counter.hitslink.com  #[Tracking.Cookie]^
+||counter.hitslink.com  #[tracking.cookie]^
 ||counter.hitslinks.com^
 ||counter.htmlvalidator.com^
 ||counter.impressur.com^
@@ -16381,7 +16377,7 @@
 ||counter29.bravenet.com^
 ||counter3.bravenet.com^
 ||counter3.sextracker.be^
-||counter3.sextracker.com  #[Tracking.Cookie]^
+||counter3.sextracker.com  #[tracking.cookie]^
 ||counter30.bravenet.com^
 ||counter31.bravenet.com^
 ||counter32.bravenet.com^
@@ -16540,7 +16536,7 @@
 ||cpxiappnexusvpaidvideo235346.s.moatpixel.com^
 ||cpxigen865632366955.s.moatpixel.com^
 ||cpxinteractive.com^
-||cqcounter.com  #[WebBug]^
+||cqcounter.com  #[webbug]^
 ||cqishr.mobile.de^
 ||cqpmvc.businessinsider.fr^
 ||cqpmvc.femmeactuelle.fr^
@@ -17042,7 +17038,7 @@
 ||cybilling.com^
 ||cyclobenzaprine.1.p2l.info^
 ||cyclobenzaprine.ourtablets.com^
-||cyclops.prod.untd.com  #[RealMedia]^
+||cyclops.prod.untd.com  #[realmedia]^
 ||cydoor.com^
 ||cyfrowepotwory.pl^
 ||cyfrowypolsate.com^
@@ -17204,7 +17200,7 @@
 ||d18xeid0tdaswq.cloudfront.net^
 ||d1b42iaez29svr.cloudfront.net^
 ||d1biit4cku48wr.cloudfront.net^
-||d1fc8wv8zag5ca.cloudfront.net  #[Snowplow JavaScript tracker]^
+||d1fc8wv8zag5ca.cloudfront.net  #[snowplow javascript tracker]^
 ||d1fjbm89xo24p6.cloudfront.net^
 ||d1jikhx1ssl81z.cloudfront.net^
 ||d1k5vgf76yp8wa.cloudfront.net^
@@ -17298,7 +17294,7 @@
 ||da.hornbach.se^
 ||da.hornbach.sk^
 ||da.maif.fr^
-||da.newstogram.com  #[WebBug]^
+||da.newstogram.com  #[webbug]^
 ||da.oipzyrzffum.ovh^
 ||da.us.criteo.com^
 ||da.us.criteo.net^
@@ -17445,7 +17441,7 @@
 ||data-ssl.stepstone.fr^
 ||data-ssl.stepstone.nl^
 ||data-token.com^
-||data.abebooks.com  #[WebBug.eluminate]^
+||data.abebooks.com  #[webbug.eluminate]^
 ||data.ad-score.com^
 ||data.adlermode.com^
 ||data.ads.oppomobile.com^
@@ -17492,7 +17488,7 @@
 ||data.mob.com^
 ||data.mobclix.com^
 ||data.murdoog.com^
-||data.nal.usda.gov  #[Universal Federated Analytics]^
+||data.nal.usda.gov  #[universal federated analytics]^
 ||data.namesakeoscilloscopemarquis.com^
 ||data.netscope.marktest.pt^
 ||data.netweaver.uk^
@@ -17692,9 +17688,9 @@
 ||daxioma.com^
 ||daxkapital.com^
 ||dayyfq.rapidonline.com^
-||db.riskwaters.com  #[WebTrends]^
+||db.riskwaters.com  #[webtrends]^
 ||db.utag.ijinshan.com^
-||db0.net-filter.com  #[WebtraffIQ Code]^
+||db0.net-filter.com  #[webtraffiq code]^
 ||db0.sitestats.com^
 ||db1.sitestats.com^
 ||db2.net-filter.com^
@@ -17731,7 +17727,7 @@
 ||dc.letv.com^
 ||dc.lsosad.com^
 ||dc.sabela.com.pl^
-||dc.sify.com  #[WebTrends]^
+||dc.sify.com  #[webtrends]^
 ||dc.webtrends.com^
 ||dc.widespace.com^
 ||dc.yieldify.com^
@@ -17739,9 +17735,9 @@
 ||dc56.s290.meetrics.net^
 ||dc5zdxob07xpk.cloudfront.net^
 ||dc61.s290.meetrics.net^
-||dc8xl0ndzn2cb.cloudfront.net  #[Snowplow analytics]^
+||dc8xl0ndzn2cb.cloudfront.net  #[snowplow analytics]^
 ||dcads.sina.com.cn^
-||dcapps.disney.go.com  #[WebBug]^
+||dcapps.disney.go.com  #[webbug]^
 ||dcbuyer.dspx.tv^
 ||dccfog.petco.com^
 ||dcclaa.instyle.de^
@@ -17781,7 +17777,7 @@
 ||dcs.netbiscuits.net^
 ||dcs.plussizetech.com^
 ||dcs.reiseversicherung.de^
-||dcs.wtlive.com  #[Tracking.Cookie]^
+||dcs.wtlive.com  #[tracking.cookie]^
 ||dcshoespolska.com^
 ||dcshoessklep.com^
 ||dcstest.wtlive.com^
@@ -18115,7 +18111,7 @@
 ||destgrena.at^
 ||destinymc.co.za^
 ||destructoid.us.intellitxt.com^
-||desv383oqqc0.cloudfront.net  #[Popcorn Metrics]^
+||desv383oqqc0.cloudfront.net  #[popcorn metrics]^
 ||deta.ero-advertising.com^
 ||detailedglue.com^
 ||detailedgovernment.com^
@@ -18240,7 +18236,7 @@
 ||di.ifolor.ch^
 ||di.ifolor.net^
 ||di.nend.net^
-||di.rlcdn.com  #[Marketing Evolution Tracking]^
+||di.rlcdn.com  #[marketing evolution tracking]^
 ||di.ssl.msdk.qq.com^
 ||di8n.bfmtv.com^
 ||diabakter.pl^
@@ -18304,7 +18300,7 @@
 ||differentpplz.top^
 ||differept.com^
 ||difgo4.wixsite.com^
-||digg.analytics.live.com  #[WebBug]^
+||digg.analytics.live.com  #[webbug]^
 ||digiaquascr.com^
 ||digicertwc.rubiconproject.com.edgekey.net^
 ||digikulture-d.openx.net^
@@ -18404,7 +18400,7 @@
 ||direct.adsrvr.org^
 ||direct.t-mobile.com^
 ||directaclick.com^
-||directads.mcafee.com  #[Tracking.Cookie]^
+||directads.mcafee.com  #[tracking.cookie]^
 ||directadvert.ru^
 ||directhackerz.tk^
 ||directivepub.com^
@@ -18731,11 +18727,11 @@
 ||domainfwd.com^
 ||domainfwding.com^
 ||domaining.in^
-||domainpark.sitelutions.com  #[Parking Service]^
+||domainpark.sitelutions.com  #[parking service]^
 ||domainplayersclub.com^
 ||domains.livejasmin.com^
 ||domains4google.com^
-||domainsponsor.com  #[Tracking.Cookie][WIPO.D2006-0523]^
+||domainsponsor.com  #[tracking.cookie][wipo.d2006-0523]^
 ||domainsteam.de^
 ||dombuczki.pl^
 ||domdex.com^
@@ -18952,7 +18948,7 @@
 ||downloaduj.pl^
 ||downloadupload.com^
 ||downloadwarez.org^
-||downloadz.us  #[Spamdexing]^
+||downloadz.us  #[spamdexing]^
 ||downwhite.com^
 ||doxera.biz^
 ||dp-medien.eu^
@@ -19449,7 +19445,7 @@
 ||e-mail-regulamin.site^
 ||e-mailprywatnosc.online^
 ||e-mailprywatnosc.site^
-||e-marketing.entelchile.net  #[RealMedia]^
+||e-marketing.entelchile.net  #[realmedia]^
 ||e-mojemiasto.eu^
 ||e-monitoring-pocztapolska.org^
 ||e-n.y-1shz2prbmdj6wvny-1sez2pra2dj6wjmyepdzadpwudj6x9ny-1seq-2-2.stats.esomniture.com^
@@ -19486,7 +19482,7 @@
 ||e-zaginieni.pl^
 ||e-zaginioneosoby.eu^
 ||e-zeitung.de^
-||e-zshopper.activeshopper.com  #[Adware.ActivShop]^
+||e-zshopper.activeshopper.com  #[adware.activshop]^
 ||e.8p30k.cn^
 ||e.aa.online-metrix.net^
 ||e.abnad.net^
@@ -19849,7 +19845,7 @@
 ||ee.connextra.com^
 ||ee.sightful.nl^
 ||eedclicks.ero-advertising.com^
-||eegad.freeservers.com  #[Tracking.Cookie]^
+||eegad.freeservers.com  #[tracking.cookie]^
 ||eelara.com^
 ||eelsoup.net^
 ||eenany.com^
@@ -20338,7 +20334,7 @@
 ||en.btcprofit.we-trck.com^
 ||en.dd.blueline.be^
 ||en.johnhardy.com^
-||en.likefever.org  # Facebook trojan^
+||en.likefever.org  # facebook trojan^
 ||en.search.etargetnet.com^
 ||en.ultrex.ru^
 ||en25.com^
@@ -21194,7 +21190,7 @@
 ||exhibits4court.com^
 ||exilum.com^
 ||exit-ad.com^
-||exit-ad.de  #[Tracking.Cookie]^
+||exit-ad.de  #[tracking.cookie]^
 ||exit.oxcash2.com^
 ||exit.silvercash.com^
 ||exit.xpays.com^
@@ -21291,7 +21287,7 @@
 ||extra-prizes4you.life^
 ||extragenerators.xyz^
 ||extremblog.com^
-||extreme-dm.com  #[WebBug]^
+||extreme-dm.com  #[webbug]^
 ||extreme-ip-lookup.com^
 ||extremeoverclocking.us.intellitxt.com^
 ||extremereach.com^
@@ -21631,7 +21627,7 @@
 ||fasadagliwice.pl^
 ||fascinatedfeather.com^
 ||fasebook-onlineapp.com.pl^
-||fashion-tube.be  #[Win32/InstallMonetizer.AN]^
+||fashion-tube.be  #[win32/installmonetizer.an]^
 ||fashionableman.pl^
 ||fast-lost4tmz.world^
 ||fast-mac-upp.com^
@@ -22245,7 +22241,7 @@
 ||fl.5.p2l.info^
 ||fl.a.ki^
 ||fl.adpxl.co^
-||fl01.ct2.comclick.com  #[Tracking.Cookie]^
+||fl01.ct2.comclick.com  #[tracking.cookie]^
 ||fl5dpe.oui.sncf^
 ||flagcounter.com^
 ||flagpoles.gnl-live.bbcverticals.com^
@@ -22370,7 +22366,7 @@
 ||flufanceineo.com^
 ||fluoxetine.1.p2l.info^
 ||flurry.cachefly.net^
-||flurry.com  #[Mobile Ads]^
+||flurry.com  #[mobile ads]^
 ||flury-ycpi.gycpi.b.yahoodns.net^
 ||flw.ero-advertising.com^
 ||fly-analytics.com^
@@ -22738,7 +22734,7 @@
 ||freehostservers.com^
 ||freehot-datehookup.com^
 ||freehot-datehookup1.com^
-||freeimghost.trafflow.com  #[Spamdexing]^
+||freeimghost.trafflow.com  #[spamdexing]^
 ||freeindiangals.com^
 ||freeinvisiblecounters.com^
 ||freeipodnanouk.co.uk^
@@ -22858,7 +22854,7 @@
 ||fu-7fab9ddce6.upalytics.com^
 ||fu-bf3749f2e0.upalytics.com^
 ||fu-e01a50651b.upalytics.com^
-||fu.golikeus.net  # Facebook trojan^
+||fu.golikeus.net  # facebook trojan^
 ||fucebook.com^
 ||fudezz.grid.id^
 ||fudezz.kompas.com^
@@ -22899,7 +22895,7 @@
 ||funnel-assets.startappservice.com^
 ||funnelchair.com^
 ||funnyfotobox.pl^
-||funnyreign.com  # heavy spam (Site Advisor received 1075 e-mails/week)^
+||funnyreign.com  # heavy spam (site advisor received 1075 e-mails/week)^
 ||funsilly.com^
 ||funskan.pl^
 ||funsolo.net^
@@ -23128,7 +23124,7 @@
 ||gamestats.herocraft.com^
 ||gamesw.oewabox.at^
 ||gametwogame.com^
-||gamevance.com  #[Trojan-Downloader.Win32.Small.gkk]^
+||gamevance.com  #[trojan-downloader.win32.small.gkk]^
 ||gamewallet.jp^
 ||gamezmelt.com^
 ||gaming-online.petrovka.info^
@@ -23453,7 +23449,7 @@
 ||gds.mmstat.com^
 ||gds786bomyc.com^
 ||gdsns1.mmstat.com^
-||gdyn.cnn.com  #[WebBug]^
+||gdyn.cnn.com  #[webbug]^
 ||gdyn.cnngo.com^
 ||gdyn.nba.com^
 ||gdyn.trutv.com^
@@ -23637,7 +23633,7 @@
 ||get.tutoads.tv^
 ||get.updater.com^
 ||get.virtuelabs.com^
-||get.whitesmoke.com  #[Adware.Zugo.B]^
+||get.whitesmoke.com  #[adware.zugo.b]^
 ||get.x-link.pl^
 ||get24update.link4all.info^
 ||get4laid-today2.com^
@@ -23786,7 +23782,7 @@
 ||girl-sunfinder1.com^
 ||girlguydate.cyou^
 ||girlmeetspeople.blogspot.com^
-||girlownedbypolicelike.blogspot.com  # Facebook trojan^
+||girlownedbypolicelike.blogspot.com  # facebook trojan^
 ||girlporn.ru^
 ||girls-chat.tv^
 ||girlsaskguys.us.intellitxt.com^
@@ -25056,7 +25052,7 @@
 ||goat.cx^
 ||goatse.bz^
 ||goatse.ca^
-||goatse.cx  # More information on sites such as^
+||goatse.cx  # more information on sites such as^
 ||goatse.ru^
 ||goatsegirl.org^
 ||goautofinance.com^
@@ -25106,7 +25102,7 @@
 ||gojordanbusiness.com^
 ||gokano.com^
 ||goku-sklep.pl^
-||goku.brightcove.com  #[WebBug]^
+||goku.brightcove.com  #[webbug]^
 ||gold-barber.pl^
 ||gold.investforex.id^
 ||goldadpremium.com^
@@ -25213,7 +25209,7 @@
 ||gorisemarkets.com^
 ||goryhotel.pl^
 ||goshenhealth.hrm.healthgrades.com^
-||goska.siol.net  #[RealMedia]^
+||goska.siol.net  #[realmedia]^
 ||gospodarstwo-rolne.com.pl^
 ||gossipcenter.us.intellitxt.com^
 ||gossiponthis.us.intellitxt.com^
@@ -25500,7 +25496,7 @@
 ||gsdk.proximabeta.com^
 ||gserv.cneteu.net^
 ||gserv.zdnet.co.uk^
-||gsf-cf.softonic.com  #[Win32/OpenCandy.C]^
+||gsf-cf.softonic.com  #[win32/opencandy.c]^
 ||gsicpbs.112.2o7.net^
 ||gslbeacon.lijit.com^
 ||gsm-mobile-phone.beesearch.info^
@@ -25527,7 +25523,7 @@
 ||gtmedia.us.intellitxt.com^
 ||gtmjs.com^
 ||gtop100.com^
-||gtp1.acecounter.com  #[Tracking.Cookie]^
+||gtp1.acecounter.com  #[tracking.cookie]^
 ||gtp16.acecounter.com^
 ||gtradersoft.com^
 ||gtsdk.batmobi.net^
@@ -25790,7 +25786,7 @@
 ||hasztagpomagam.website^
 ||hata.ero-advertising.com^
 ||hathor.eztonez.com^
-||hatrecord.ru  # Facebook trojan^
+||hatrecord.ru  # facebook trojan^
 ||hatter-story.info^
 ||hatyailandscape.com^
 ||haus-pesjak.at^
@@ -25849,7 +25845,7 @@
 ||hbtra.jixie.io^
 ||hc.baidu.com^
 ||hc.viam.com.vn^
-||hc2.humanclick.com  #[Tracking.Cookie]^
+||hc2.humanclick.com  #[tracking.cookie]^
 ||hcanorthtexas.hrm.healthgrades.com^
 ||hcecde.dieti-natura.com^
 ||hcg82f2b.com^
@@ -26195,7 +26191,7 @@
 ||hits.puls.lv^
 ||hits.spylog.com^
 ||hits.theguardian.com^
-||hits.webstat.com  #[Tracking.Cookie]^
+||hits.webstat.com  #[tracking.cookie]^
 ||hits3.truehits.net^
 ||hits4me.com^
 ||hitsite.crazy-bee.com^
@@ -26430,7 +26426,7 @@
 ||hosting2192940.online.pro^
 ||hostingfreelife.com^
 ||hostingparacolombia.com^
-||hostingprod.com  #[WebBug]^
+||hostingprod.com  #[webbug]^
 ||hostkrd.ovh^
 ||hostname24.eu^
 ||hostpowermedium.112.2o7.net^
@@ -26809,7 +26805,7 @@
 ||i.ipromote.com^
 ||i.isnssdk.com^
 ||i.kissmetrics.com^
-||i.l.cnn.net  #[WebBug]^
+||i.l.cnn.net  #[webbug]^
 ||i.l.inmobicdn.cn^
 ||i.l.inmobicdn.net^
 ||i.laih.com^
@@ -27202,7 +27198,7 @@
 ||ierdafrica.org.ng^
 ||iesb.us.intellitxt.com^
 ||iesnare.co.uk^
-||iesnare.com  # See http://www.codingthewheel.com/archives/online-gambling-privacy-iesnare^
+||iesnare.com  # see http://www.codingthewheel.com/archives/online-gambling-privacy-iesnare^
 ||iethpk.notino.ro^
 ||iexecplatform.com^
 ||iexploreservice.com^
@@ -27227,7 +27223,7 @@
 ||ifnyop.priceline.com^
 ||iforexgain.com^
 ||ifr.adjust-net.jp^
-||iframe.adultfriendfinder.com  #[Adware.Redalert]^
+||iframe.adultfriendfinder.com  #[adware.redalert]^
 ||iframecash.biz^
 ||iframes.awempire.com^
 ||iframes.perfectgonzo.com^
@@ -27429,7 +27425,7 @@
 ||images-cdn.azoogleads.com^
 ||images-demand.ssacdn.com^
 ||images-dl.taboola.com^
-||images-pw.secureserver.net  #[Parking Service]^
+||images-pw.secureserver.net  #[parking service]^
 ||images-static.vrvm.com^
 ||images.3lift.com^
 ||images.about.com^
@@ -27452,7 +27448,7 @@
 ||images.dable.io^
 ||images.dailydiscounts.com  # "spam bugs"^
 ||images.datatrics.com^
-||images.ddc.com  #[Parking Service]^
+||images.ddc.com  #[parking service]^
 ||images.directtrack.com^
 ||images.domainsponsor.com^
 ||images.dwell.com^
@@ -27513,7 +27509,7 @@
 ||images4.taboola.com^
 ||images5.taboola.com^
 ||images9.engageya.com^
-||imagescroll.detik.com  #[WebBug]^
+||imagescroll.detik.com  #[webbug]^
 ||imageserv.adtech.de^
 ||imageserv.adtech.fr^
 ||imageserv.adtech.us^
@@ -27600,7 +27596,7 @@
 ||img.msgtag.com^
 ||img.net.daraz.com^
 ||img.netwrix.com^
-||img.parked.ru  #[Parking Service]^
+||img.parked.ru  #[parking service]^
 ||img.polyad.net^
 ||img.prohardver.hu^
 ||img.pulsemgr.com^
@@ -27676,7 +27672,7 @@
 ||imgpromo.easyrencontre.com^
 ||imgraovat.vnecdn.net^
 ||imgs.adverticum.net^
-||imgserv.adbutler.com  #[Tracking.Cookie]^
+||imgserv.adbutler.com  #[tracking.cookie]^
 ||imgx.jampp.com^
 ||imgx.livejasmin.com^
 ||imgx.mediav.com^
@@ -27750,7 +27746,7 @@
 ||impes.tradedoubler.com^
 ||impfi.tradedoubler.com^
 ||impfr.tradedoubler.com^
-||impgb.tradedoubler.com  #[WebBug]^
+||impgb.tradedoubler.com  #[webbug]^
 ||impie.tradedoubler.com^
 ||impit.tradedouble.com^
 ||impit.tradedoubler.com^
@@ -29634,7 +29630,7 @@
 ||jln3.clstudios.com^
 ||jmbase.my^
 ||jmbi58.cjt1.net^
-||jmm.livestat.com  #[Tracking.Cookie]^
+||jmm.livestat.com  #[tracking.cookie]^
 ||jmn.jangonetwork.com^
 ||jmp2click.com^
 ||jmsyap.112.2o7.net^
@@ -29827,7 +29823,7 @@
 ||js.gumgum.com^
 ||js.himediads.com^
 ||js.hotkeys.com^
-||js.hs-analytics.net  #[HubSpot Analytics Tracking Code]^
+||js.hs-analytics.net  #[hubspot analytics tracking code]^
 ||js.hs-scripts.com^
 ||js.hscollectedforms.net^
 ||js.hsleadflows.net^
@@ -29835,7 +29831,6 @@
 ||js.idio.co^
 ||js.impact.ne.jp^
 ||js.indexww.com^
-@@||js.intercomcdn.com^! False positive
 ||js.isboost.co.jp^
 ||js.juicyads.com^
 ||js.kau.li^
@@ -29860,7 +29855,7 @@
 ||js.ptengine.com^
 ||js.pulseinsights.com^
 ||js.rating-widget.com^
-||js.redtram.com  #[RedTramCookies]^
+||js.redtram.com  #[redtramcookies]^
 ||js.revsci.net^
 ||js.rfp.fout.jp^
 ||js.ru.redtram.com^
@@ -29902,7 +29897,7 @@
 ||js15.adlooxtracking.com^
 ||js2.ad-score.com^
 ||js2.adflare.bz^
-||js3.clickzs.com  #[Tracking.Cookie]^
+||js3.clickzs.com  #[tracking.cookie]^
 ||js34dc10.gamooga.com^
 ||js4.clickzs.com^
 ||js4.ringrevenue.com^
@@ -30000,7 +29995,7 @@
 ||juran.pl^
 ||justdating.online^
 ||justdeckshamilton.ca^
-||juste.ru  # Twitter trojan^
+||juste.ru  # twitter trojan^
 ||justicejudo.com^
 ||justin.usesfathom.com^
 ||justinscott.com.au^
@@ -30362,7 +30357,7 @@
 ||kipussy.com^
 ||kiralyvidi.eu^
 ||kirbyrisk.actonservice.com^
-||kirgo.at  # Facebook phishing attempt^
+||kirgo.at  # facebook phishing attempt^
 ||kirkik.com^
 ||kirstenbijlsma.com^
 ||kiskegyed.creatorword.com^
@@ -30514,7 +30509,7 @@
 ||kona7.kontera.com^
 ||kona8.kontera.com^
 ||konax.kontera.com^
-||konflow.com  # Facebook trojan^
+||konflow.com  # facebook trojan^
 ||konicaminoltahd.122.2o7.net^
 ||koniec500plus.eu^
 ||koniecikroppka.website^
@@ -30780,7 +30775,7 @@
 ||l.zeroredirect.com^
 ||l0-secure.videohub.tv^
 ||l1.britannica.com^
-||l1.cdn.qnsr.com  #[WebBug]^
+||l1.cdn.qnsr.com  #[webbug]^
 ||l1.qsstats.com^
 ||l1.zedo.com^
 ||l2.l.qq.com^
@@ -31094,7 +31089,6 @@
 ||learn.corneagen.com^
 ||learn.donjohnston.com^
 ||learn.hcss.com^
-@@||learn.hedera.com^! Issue 294
 ||learn.jacksonhewitt.com^
 ||learn.mays.tamu.edu^
 ||learn.middlebury.edu^
@@ -31339,10 +31333,10 @@
 ||like.likewut.net^
 ||likeivu.com^
 ||likekopi.com^
-||likeportal.com  # Facebook trojan^
-||likespike.com  # Facebook trojan^
-||likethis.mbosoft.com  # Facebook trojan^
-||likethislist.biz  # Facebook trojan^
+||likeportal.com  # facebook trojan^
+||likespike.com  # facebook trojan^
+||likethis.mbosoft.com  # facebook trojan^
+||likethislist.biz  # facebook trojan^
 ||likowac-trzeba.eu^
 ||likuidator.com^
 ||lili24.website^
@@ -31378,7 +31372,7 @@
 ||link.hitachi-hightech.com^
 ||link.info.livejasmin.com^
 ||link.inspec-bv.com^
-||link.ixs1.net  #[WebBug]^
+||link.ixs1.net  #[webbug]^
 ||link.krxd.net^
 ||link.lloydsbank.com^
 ||link.masterstats.com^
@@ -31736,7 +31730,7 @@
 ||log.adsplay.xyz^
 ||log.adtimaserver.vn^
 ||log.adywind.com^
-||log.aebn.net  #[WebBug.eluminate]^
+||log.aebn.net  #[webbug.eluminate]^
 ||log.agoop.net^
 ||log.anninhthudo.vn^
 ||log.api.zaloapp.com^
@@ -31787,7 +31781,7 @@
 ||log.mp3.zing.vn^
 ||log.ncaudienceexchange.com^
 ||log.news.zing.vn^
-||log.newsvine.com  #[WebBug]^
+||log.newsvine.com  #[webbug]^
 ||log.ngaynay.vn^
 ||log.nhipcaudautu.vn^
 ||log.o2o.service.zaloapp.com^
@@ -31861,7 +31855,7 @@
 ||log7.adsplay.xyz^
 ||log999.goo.ne.jp^
 ||loga.hit-parade.com^
-||loga.xiti.com  #[Tracking.Cookie]^
+||loga.xiti.com  #[tracking.cookie]^
 ||logapi.misa.com.vn^
 ||logc1.xiti.com^
 ||logc11.xiti.com^
@@ -31948,7 +31942,7 @@
 ||login.microsoftorline.com^
 ||login.net.daraz.com^
 ||login.rtk.io^
-||login.tracking101.com  #[Tracking.Cookie]^
+||login.tracking101.com  #[tracking.cookie]^
 ||login.trezor.com.stockfootagesindia.com^
 ||login.yahoo-change-password.com^
 ||login.yahoo.com.0x4fc271.tk^
@@ -31993,7 +31987,7 @@
 ||logs.eresmas.net^
 ||logs.gaana.com^
 ||logs.giaoducthoidai.vn^
-||logs.loggly.com  #[WebBug]^
+||logs.loggly.com  #[webbug]^
 ||logs.roku.com^
 ||logs.sexy-parade.com^
 ||logs.spilgames.com^
@@ -32029,7 +32023,7 @@
 ||logv145.xiti.com^
 ||logv16.xiti.com^
 ||logv17.xiti.com^
-||logv18.xiti.com  #[WebBug]^
+||logv18.xiti.com  #[webbug]^
 ||logv19.xiti.com^
 ||logv2.mp3.zing.vn^
 ||logv2.r-oo.jp^
@@ -32429,7 +32423,7 @@
 ||m.tusdk.com^
 ||m.uberall.com^
 ||m.uk.2mdn.net^
-||m.usersonline.com  #[WebBug]^
+||m.usersonline.com  #[webbug]^
 ||m.v.fwmrm.net^
 ||m.vistaresourcegroup.com^
 ||m.vpadn.com^
@@ -32894,7 +32888,7 @@
 ||mailcheckisp.biz  # "spam bugs"^
 ||mailer.livejasmin.com^
 ||mailers.unitedadlabel.com^
-||mailfoogae.appspot.com  # Streak email tracker^
+||mailfoogae.appspot.com  # streak email tracker^
 ||mailforfreedom.com^
 ||mailgate.sbell.com.cn^
 ||mailgw.thtf.com.cn^
@@ -33055,7 +33049,7 @@
 ||map-js.link^
 ||map.go.affec.tv^
 ||map.liferay.com^
-||map.media6degrees.com  #[WebBug]^
+||map.media6degrees.com  #[webbug]^
 ||map.rockwellautomation.com^
 ||maper.info^
 ||mapi.apptimize.com^
@@ -33961,7 +33955,7 @@
 ||media.admob.com^
 ||media.adnetwork.vn^
 ||media.adrcdn.com^
-||media.adrevolver.com  #[Tracking.Cookie]^
+||media.adrevolver.com  #[tracking.cookie]^
 ||media.adrime.com^
 ||media.ads.gfsrv.net^
 ||media.adshadow.net^
@@ -33988,7 +33982,7 @@
 ||media.espace-plus.net^
 ||media.exchange-it.com^
 ||media.fairlink.ru^
-||media.fastclick.net  # Likewise, this may interfere with some^
+||media.fastclick.net  # likewise, this may interfere with some^
 ||media.fc2.com^
 ||media.foundry42.com^
 ||media.frameworksinstitute.org^
@@ -35967,7 +35961,7 @@
 ||msg.simeji.baidu.jp^
 ||msg.umengcloud.com^
 ||msgstore2.pldtprv.net^
-||msgtag.com  #[Email tracker]^
+||msgtag.com  #[email tracker]^
 ||mshelp247.weebly.com^
 ||msite.baidu.com^
 ||mslinks-downloads.com^
@@ -35985,7 +35979,7 @@
 ||msna1com.112.2o7.net^
 ||msnaccountservices.112.2o7.net^
 ||msnad.nuggad.net^
-||msnads-wm9.fplive.net  #[MSN Video Ads]^
+||msnads-wm9.fplive.net  #[msn video ads]^
 ||msnbc.112.2o7.net^
 ||msnbc.us.intellitxt.com^
 ||msnbcnewsvine.112.2o7.net^
@@ -36046,11 +36040,11 @@
 ||mt15.mtree.com^
 ||mt2.mtree.com^
 ||mt32.mtree.com^
-||mt34.mtree.com  #[Google.Diagnostic]^
+||mt34.mtree.com  #[google.diagnostic]^
 ||mt35.mtree.com^
 ||mt37.mtree.com^
 ||mt4.mtree.com  #[xxxtoolbar.com]^
-||mt55.mtree.com  #[Troj/Istbar-BL]^
+||mt55.mtree.com  #[troj/istbar-bl]^
 ||mt58.mtree.com^
 ||mt83.mtree.com^
 ||mt94.mtree.com^
@@ -36506,7 +36500,7 @@
 ||myinstahookuper1.com^
 ||mylaaccesorios.com^
 ||mylifetoperfection.blogspot.com^
-||mylike.co.uk  # Facebook trojan^
+||mylike.co.uk  # facebook trojan^
 ||mylink-today.com^
 ||mylivejasmin.org^
 ||myloved-ch1ck1.com^
@@ -36904,7 +36898,7 @@
 ||nazwapaiement-pl-bd26d814.klostoga45.at^
 ||nazwapay-pl-f7dbc2f0.klostoga45.at^
 ||nb.5.p2l.info^
-||nb.myspace.com  #[WebBug]^
+||nb.myspace.com  #[webbug]^
 ||nb.netbreak.com.au^
 ||nba.112.2o7.net^
 ||nbads.com^
@@ -37056,7 +37050,7 @@
 ||ndl1mx1-a-fixed.sancharnet.in^
 ||ndl1pp1-a-fixed.sancharnet.in^
 ||ndn.cdn.auditude.com^
-||ndparking.com  #[Parking Service]^
+||ndparking.com  #[parking service]^
 ||ne.5.p2l.info^
 ||near-back.com^
 ||near-fast.com^
@@ -37803,7 +37797,7 @@
 ||novvvaggazetapolska.cyou^
 ||now-instahookups2.com^
 ||now-profit-here2.life^
-||now.eloqua.com  #[WebBug][Tracking.Cookie]^
+||now.eloqua.com  #[webbug][tracking.cookie]^
 ||now.kennasecurity.com^
 ||now.strategiccoach.com^
 ||now.unimac.com^
@@ -38035,7 +38029,7 @@
 ||ntbanner.digitalriver.com^
 ||ntcompatible.us.intellitxt.com^
 ||ntkrnlpa.info^
-||ntlligent.info  #[Spamdexing]^
+||ntlligent.info  #[spamdexing]^
 ||ntracking.optimatic.com^
 ||ntralpenedhy.pro^
 ||ntrb.qc.coccoc.com^
@@ -38171,7 +38165,7 @@
 ||o.carmax.com^
 ||o.cityads.com^
 ||o.cmp.advertising.com^
-||o.detik.com  #[WebBug]^
+||o.detik.com  #[webbug]^
 ||o.fandango.com^
 ||o.lenovo.com^
 ||o.opentable.com^
@@ -38606,7 +38600,7 @@
 ||offers.amilia.com^
 ||offers.bycontext.com^
 ||offers.cdn.natpal.com^
-||offers.cloackp.com  #[ScamFraudAlert.Antispyware]^
+||offers.cloackp.com  #[scamfraudalert.antispyware]^
 ||offers.egym.com^
 ||offers.impower.com^
 ||offers.nordvpn.com^
@@ -40024,7 +40018,7 @@
 ||oracles-network.org^
 ||oracls.network^
 ||oralse.ca^
-||oralse.cx  # en.wikipedia.org/wiki/List_of_shock_sites^
+||oralse.cx  # en.wikipedia.org/wiki/list_of_shock_sites^
 ||orange-kodzik.890m.com^
 ||orange.fr-enqueteannuelle.xyz^
 ||orange.fr-enqueteofficielle.online^
@@ -40352,7 +40346,7 @@
 ||p.presage.io^
 ||p.profistats.net^
 ||p.publico.es^
-||p.raasnet.com  #[WebBug]^
+||p.raasnet.com  #[webbug]^
 ||p.reed.co.uk^
 ||p.reuters.com^
 ||p.rfihub.com^
@@ -40713,7 +40707,7 @@
 ||parisboutique.co^
 ||park.above.com^
 ||park.parkingpanel.com^
-||parkcloud.dynadot.com  #[Parking Service]^
+||parkcloud.dynadot.com  #[parking service]^
 ||parketsy.pro^
 ||parkhiker.com^
 ||parkhussion.com^
@@ -41546,7 +41540,7 @@
 ||pickmeupnews.us.intellitxt.com^
 ||pickytime.com^
 ||pics.cnomy.com^
-||pics.kolmic.com  #[Parking Service]^
+||pics.kolmic.com  #[parking service]^
 ||picture-uploads.com^
 ||pie.wirelessregistry.com^
 ||piechnik.com.pl^
@@ -41638,19 +41632,19 @@
 ||piwiarniagdynia.pl^
 ||piwik.adspaces.ero-advertising.com^
 ||piwik.awesomewm.org^
-||piwik.cam-content.com  #[Piwik.Analytics]^
-||piwik.datawrapper.de  #[Piwik.Analytics]^
+||piwik.cam-content.com  #[piwik.analytics]^
+||piwik.datawrapper.de  #[piwik.analytics]^
 ||piwik.dsp.vn^
 ||piwik.ero-advertising.com^
 ||piwik.ientry.com^
 ||piwik.medienhaus.com^
-||piwik.mortgageloan.com  #[Piwik.Analytics]^
+||piwik.mortgageloan.com  #[piwik.analytics]^
 ||piwik.openstreetmap.org^
 ||piwik.org^
-||piwik.pokerlistings.com  #[Piwik.Analytics]^
+||piwik.pokerlistings.com  #[piwik.analytics]^
 ||piwik.rta.vn^
 ||piwik.tienhiep.com.vn^
-||piwik.wsws.org  #[Piwik.Analytics]^
+||piwik.wsws.org  #[piwik.analytics]^
 ||pix-us.revjet.com^
 ||pix.adrta.com^
 ||pix.airbusgroup.com^
@@ -41742,7 +41736,7 @@
 ||pixel.newscred.com^
 ||pixel.onaudience.com^
 ||pixel.parsely.com^
-||pixel.pcworld.com  #[WebBug]^
+||pixel.pcworld.com  #[webbug]^
 ||pixel.programmatictrader.com^
 ||pixel.quantcount.com^
 ||pixel.quantserve.com^
@@ -41769,7 +41763,7 @@
 ||pixel1097.everesttech.net^
 ||pixel1324.everesttech.net^
 ||pixel1350.everesttech.net^
-||pixel1370.everesttech.net  #[WebBug]^
+||pixel1370.everesttech.net  #[webbug]^
 ||pixel1553.everesttech.net^
 ||pixel1739.everesttech.net^
 ||pixelb.randi.adswizz.com^
@@ -41957,7 +41951,7 @@
 ||pl1.yumenetworks.com^
 ||pl106067.puhtml.com^
 ||pl107977.puhtml.com^
-||pl108062.puhtml.com  #[Terriclicks]^
+||pl108062.puhtml.com  #[terriclicks]^
 ||pl109504.puhtml.com^
 ||pl11074444.puhtml.com^
 ||pl120422.puhtml.com^
@@ -42655,7 +42649,7 @@
 ||porannynewsik10.online^
 ||poratuj-znajomego.eu^
 ||porl.weebly.com^
-||porn.mtree.com  #[Dialer.Moneytree]^
+||porn.mtree.com  #[dialer.moneytree]^
 ||porngraph.com^
 ||pornmania.pl^
 ||porno-tv.com^
@@ -42943,7 +42937,6 @@
 ||pre.ads.justpremium.com^
 ||preaf-ad.jp^
 ||preaf.jp^
-||prebid_stats.mars.media^
 ||prebid-a.rubiconproject.com^
 ||prebid-a.rubiconproject.net.akadns.net^
 ||prebid-match.dotomi.com^
@@ -42976,6 +42969,7 @@
 ||prebid.s-onetag.com^
 ||prebid.scupio.com^
 ||prebid.sin3.adnxs.com^
+||prebid_stats.mars.media^
 ||preblogs.com^
 ||precisioncounter.com^
 ||predictad.com^
@@ -43090,7 +43084,7 @@
 ||privacy.ics.com^
 ||privacy.us.criteo.com^
 ||privacyassistant.net^
-||privatamateure.com  #[Sagnet Group]^
+||privatamateure.com  #[sagnet group]^
 ||private-id.tk^
 ||private-lib-ln-1.net.daraz.com^
 ||private.cisco-capwap-controller.net.daraz.com^
@@ -43266,7 +43260,7 @@
 ||profitrevolution.live^
 ||profitrumour.com^
 ||profitsitesbiz.com^
-||proflashdata.com  # Facebook trojan^
+||proflashdata.com  # facebook trojan^
 ||profolan.pl^
 ||profootballweekly.us.intellitxt.com^
 ||progettocrea.org^
@@ -43739,7 +43733,7 @@
 ||pubpress.net^
 ||pubs.adsparc.net^
 ||pubs.hiddennetwork.com^
-||pubs.mgn.net  #[Grolier Network]^
+||pubs.mgn.net  #[grolier network]^
 ||pubserver.xl.pt^
 ||pubshop.img.uol.com.br^
 ||pubstatus.sinaapp.com^
@@ -43984,7 +43978,7 @@
 ||qqlogo.qq.com^
 ||qqqqttt.weebly.com^
 ||qqrp.adj.st^
-||qrcdownload.ibcustomerzone.com  #[dware.QUADRegClean]^
+||qrcdownload.ibcustomerzone.com  #[dware.quadregclean]^
 ||qring-tms.qq.com^
 ||qs25e-musmm.ads.tremorhub.com^
 ||qsearch.media.net^
@@ -44574,7 +44568,7 @@
 ||redirect.site50.net^
 ||redirect.xmlheads.com^
 ||redirecting.pl^
-||redirectingat.com  #[SkimLinks]^
+||redirectingat.com  #[skimlinks]^
 ||redirectlnk.redirectme.net^
 ||redirectmail.ringover.com^
 ||redirectme.net^
@@ -44962,8 +44956,8 @@
 ||retirewellinvestors.com^
 ||retrak.co.ke^
 ||return.bs.domainnamesales.com^
-||return.domainnamesales.com  #[Parking.Service]^
-||return.uk.domainnamesales.com  #[Parking.Service]^
+||return.domainnamesales.com  #[parking.service]^
+||return.uk.domainnamesales.com  #[parking.service]^
 ||reunion.tt.omtrdc.net^
 ||reunioncom.112.2o7.net^
 ||reuters.demdex.net^
@@ -45827,7 +45821,7 @@
 ||s.yjtag.jp^
 ||s.yomob.com.cn^
 ||s.youmi.net^
-||s.youtube.com  # Blocking this will interfere with video watching history^
+||s.youtube.com  # blocking this will interfere with video watching history^
 ||s.zeroredirect.com^
 ||s.zkcdn.net^
 ||s0-2mdn-net.l.google.com^
@@ -45916,7 +45910,7 @@
 ||s20dh7e9dh.com^
 ||s21.sitemeter.com^
 ||s212.ucoz.net^
-||s2150.t.eloqua.com  #[WebBug]^
+||s2150.t.eloqua.com  #[webbug]^
 ||s22.sitemeter.com^
 ||s23.sitemeter.com^
 ||s24.sitemeter.com^
@@ -46006,7 +46000,7 @@
 ||s9kkremkr0.com^
 ||sa.aol.com.122.2o7.net^
 ||sa.api.intl.miui.com^
-||sa.bbc.co.uk  #[may affect iPlayer app]^
+||sa.bbc.co.uk  #[may affect iplayer app]^
 ||sa.digital.wilhelmsen.com^
 ||sa.entireweb.com^
 ||sa.jumptap.com^
@@ -46601,7 +46595,7 @@
 ||scorecardresearch.com.edgekey.net^
 ||scoremygift.com^
 ||scorepconline.club^
-||scottishstuff-online.com  # Canadian bank phishing site^
+||scottishstuff-online.com  # canadian bank phishing site^
 ||scottrade.112.2o7.net^
 ||scout.bergfreunde.de^
 ||scout.bergfreunde.eu^
@@ -46910,7 +46904,7 @@
 ||search.effectivebrand.com^
 ||search.etargetnet.com^
 ||search.freeonline.com^
-||search.in  #[Parking Service]^
+||search.in  #[parking service]^
 ||search.info.com^
 ||search.ipromote.com^
 ||search.keywordblocks.com^
@@ -47545,7 +47539,7 @@
 ||server-br.imrworldwide.com^
 ||server-by.imrworldwide.com^
 ||server-ca.imrworldwide.com^
-||server-de.imrworldwide.com  #[Tracking.Cookie]^
+||server-de.imrworldwide.com  #[tracking.cookie]^
 ||server-dk.imrworldwide.com^
 ||server-ee.imrworldwide.com^
 ||server-fi.imrworldwide.com^
@@ -47683,7 +47677,7 @@
 ||service.persianstat.com^
 ||service.sponsorpay.com^
 ||service.trustclick.ne.jp^
-||service.urchin.com  #[Urchin Tracking Module]^
+||service.urchin.com  #[urchin tracking module]^
 ||service.videoplaza.tv^
 ||service001.adtech.de^
 ||service001.adtech.fr^
@@ -47716,7 +47710,7 @@
 ||services.cdn.speedshiftmedia.com^
 ||services.hearstmags.com^
 ||services.insurads.com^
-||services.krxd.net  #[Geo.Webbug]^
+||services.krxd.net  #[geo.webbug]^
 ||services.serving-sys.com^
 ||services.webspectator.com^
 ||services.x-traceur.com^
@@ -47869,7 +47863,7 @@
 ||sfo3.ipromote.com^
 ||sfo4.ipromote.com^
 ||sfp-adserver-cdn.sharethrough.com^
-||sftp.clickability.com  #[Tracking.Cookie]^
+||sftp.clickability.com  #[tracking.cookie]^
 ||sftr2.external.xerox.com^
 ||sftrack.searchforce.net^
 ||sg-cdn.bidgear.com^
@@ -48342,8 +48336,8 @@
 ||sitesrvncdnmain.biz^
 ||sitesrvservfjrsrv.ru^
 ||sitestat.com^
-||sitestats.com  #[Tracking.Cookie]^
-||sitestats.tiscali.co.uk  #[WebBug]^
+||sitestats.com  #[tracking.cookie]^
+||sitestats.tiscali.co.uk  #[webbug]^
 ||sitetracker.com^
 ||sitionne.pro^
 ||siuhfioweoiwue.fun^
@@ -50581,7 +50575,7 @@
 ||spyarsenal.com^
 ||spyhunter-download.s3.amazonaws.com^
 ||spykemediatrack.com^
-||spylog.com  #[WebBug]^
+||spylog.com  #[webbug]^
 ||spymac.us.intellitxt.com^
 ||spyware-removers.shengen.ru^
 ||spyware-scan.100gal.net^
@@ -51028,7 +51022,7 @@
 ||ssum.casalemedia.com^
 ||ssum.casalemedia.com.edgekey.net^
 ||ssxd.mediav.com^
-||st-1.1fichier.com  #[Piwik.Analytics]^
+||st-1.1fichier.com  #[piwik.analytics]^
 ||st-a-id.anthill.vn^
 ||st-a.anthill.vn^
 ||st-a.cdp.asia^
@@ -51059,7 +51053,7 @@
 ||st.azcardinals.com^
 ||st.bahn.de^
 ||st.bebi.com^
-||st.blogads.com  #[WebBug]^
+||st.blogads.com  #[webbug]^
 ||st.core.polyad.net^
 ||st.devcodin.com^
 ||st.districtm.ca^
@@ -51140,7 +51134,7 @@
 ||staging.snip.answers.com^
 ||stagolk.com^
 ||stags.bluekai.com^
-||stags.peer39.net  #[PrivacyChoice.Tracker]^
+||stags.peer39.net  #[privacychoice.tracker]^
 ||stakim.org^
 ||stakingscrew.com^
 ||stakingslope.com^
@@ -51245,7 +51239,7 @@
 ||stat.alibaba.com^
 ||stat.aport.ru^
 ||stat.appsgeyser.com^
-||stat.blogads.com  #[WebBug]^
+||stat.blogads.com  #[webbug]^
 ||stat.canal-plus.com^
 ||stat.cliche.se^
 ||stat.clickfrog.ru^
@@ -51284,8 +51278,8 @@
 ||stat.ringier.cz^
 ||stat.rolledwil.biz^
 ||stat.smbc.co.jp^
-||stat.stars.ru  #[WebBug]^
-||stat.synergy-e.com  #[Piwik.Analytics]^
+||stat.stars.ru  #[webbug]^
+||stat.synergy-e.com  #[piwik.analytics]^
 ||stat.tomdebruijn.com^
 ||stat.tudou.com^
 ||stat.umsu.de^
@@ -51500,14 +51494,14 @@
 ||static.retirementcommunitiesfyi.com^
 ||static.rqmob.com^
 ||static.rungrinh.vn^
-||static.scanscout.com  #[Video.adpresentation]^
+||static.scanscout.com  #[video.adpresentation]^
 ||static.scroll.com^
 ||static.securedtouch.com^
 ||static.share-videos.se^
 ||static.sharethrough.com^
 ||static.site24x7rum.com^
 ||static.skimlinks.com^
-||static.smni.com  # Santa Monica - popunders^
+||static.smni.com  # santa monica - popunders^
 ||static.snapmobile.asia^
 ||static.sojern.com^
 ||static.sourcetobin.com^
@@ -51625,10 +51619,10 @@
 ||stats.baby-care.de^
 ||stats.backcountry.com^
 ||stats.bannersnack.com^
-||stats.bbc.co.uk  #[may affect iPlayer app]^
+||stats.bbc.co.uk  #[may affect iplayer app]^
 ||stats.becu.org^
 ||stats.benui.ca^
-||stats.berkman.harvard.edu  #[Piwik.Analytics]^
+||stats.berkman.harvard.edu  #[piwik.analytics]^
 ||stats.bertwagner.com^
 ||stats.bestservers.co^
 ||stats.bidgear.com^
@@ -51711,7 +51705,7 @@
 ||stats.emmas.site^
 ||stats.epicurious.com^
 ||stats.ero-advertising.com^
-||stats.esomniture.com  #[Tracking.Cookie]^
+||stats.esomniture.com  #[tracking.cookie]^
 ||stats.eteleon.de^
 ||stats.examiner.com^
 ||stats.f-secure.com^
@@ -51765,7 +51759,7 @@
 ||stats.idsoft.com^
 ||stats.ign.com^
 ||stats.ilsemedia.nl^
-||stats.immense.net  #[Piwik.Analytics]^
+||stats.immense.net  #[piwik.analytics]^
 ||stats.immunefi.com^
 ||stats.independent.co.uk^
 ||stats.indexstats.com^
@@ -51855,7 +51849,7 @@
 ||stats.pagefair.com^
 ||stats.pandora.com^
 ||stats.parstools.com^
-||stats.partypoker.com  #[WebBug]^
+||stats.partypoker.com  #[webbug]^
 ||stats.pasteapp.io^
 ||stats.patout.dev^
 ||stats.patriot.win^
@@ -51967,7 +51961,7 @@
 ||stats.video.search.yahoo.com^
 ||stats.vietnammoi.vn^
 ||stats.virtualghostwriter.com^
-||stats.virtuemart.net  #[Piwik.Analytics]^
+||stats.virtuemart.net  #[piwik.analytics]^
 ||stats.visamundi.fr^
 ||stats.visions.ch^
 ||stats.visistat.com^
@@ -52031,7 +52025,7 @@
 ||stats5.lightningcast.com^
 ||stats6.lightningcast.net^
 ||statse-omtrdc.deka.de^
-||statse.webtrendslive.com  #[SDC Advanced Tracking Code]^
+||statse.webtrendslive.com  #[sdc advanced tracking code]^
 ||statserv.net^
 ||statsf.tubemogul.com^
 ||statsfe2.ws.microsoft.com^
@@ -52947,7 +52941,7 @@
 ||t.bawafx.com^
 ||t.bbtrack.net^
 ||t.beanstalkdata.com^
-||t.blogreaderproject.com  #[WebBug]^
+||t.blogreaderproject.com  #[webbug]^
 ||t.bmmetrix.com^
 ||t.cfjump.com^
 ||t.channeladvisor.com^
@@ -52970,7 +52964,7 @@
 ||t.felmat.net^
 ||t.festo.com^
 ||t.firstpromoter.com^
-||t.flux.com  #[WebBug]^
+||t.flux.com  #[webbug]^
 ||t.frtyg.com^
 ||t.gammaplatform.com^
 ||t.global.yyapi.net^
@@ -53016,7 +53010,7 @@
 ||t.sharethis.com^
 ||t.sieu-viet.com^
 ||t.signaletre.com^
-||t.signauxdeux.com  # Another email opentracker from hubspot^
+||t.signauxdeux.com  # another email opentracker from hubspot^
 ||t.silvinst.com^
 ||t.singular.net^
 ||t.skimresources.com^
@@ -53088,7 +53082,6 @@
 ||taboolasyndication.com^
 ||tabxolabs.com^
 ||tackthisclick.com^
-! ||tacloban.gov.ph^
 ||tacobell.d1.sc.omtrdc.net^
 ||tacoda.at.atwola.com^
 ||tacoda.net^
@@ -53255,7 +53248,7 @@
 ||talkaxis.com^
 ||talkcity.realtracker.com^
 ||talkingpointsmemo-d.openx.net^
-||tally.upsideout.com  #[Piwik.Analytics]^
+||tally.upsideout.com  #[piwik.analytics]^
 ||taloussanomat.linkpulse.com^
 ||taltus.co.uk^
 ||tamgrt.com^
@@ -53356,7 +53349,7 @@
 ||tates.freestats.com^
 ||tats.cecash.com^
 ||tatsumi-sys.jp^
-||tattooshaha.info  # Facebook trojan^
+||tattooshaha.info  # facebook trojan^
 ||taukibreez.iad-03.braze.com^
 ||taurus.ug^
 ||tavelscape.com^
@@ -53374,7 +53367,7 @@
 ||tbsveryfunnyads.112.2o7.net^
 ||tbtrack.zutrack.com^
 ||tc-bic.appspot.com^
-||tc.adlink.net  #[WebBug]^
+||tc.adlink.net  #[webbug]^
 ||tc.airfrance.com^
 ||tc.snpsresidential.com^
 ||tc.tradetracker.net^
@@ -53809,7 +53802,7 @@
 ||textad.xpress.com^
 ||textad.xxxcupid.com^
 ||textad.xxxmatch.com^
-||textads.adultadworld.com  #[AdEngage]^
+||textads.adultadworld.com  #[adengage]^
 ||textads.biz^
 ||textads.madisonavenue.com^
 ||textads.sexmoney.com^
@@ -53928,7 +53921,7 @@
 ||thecrypto-genius.net^
 ||thecryptogenius.com^
 ||thedailystarcom.112.2o7.net^
-||thedatesafe.com  # Facebook trojan^
+||thedatesafe.com  # facebook trojan^
 ||thedatingconference.com^
 ||thedemocraticpost.com^
 ||thedesertship.com^
@@ -54388,7 +54381,7 @@
 ||tomocoin.network^
 ||tomocoln.io^
 ||tomorrowcrypto.vip^
-||tomorrownewstoday.com  # I'm not sure what it does, but it seems to be associated with a phishing attempt on Facebook^
+||tomorrownewstoday.com  # i'm not sure what it does, but it seems to be associated with a phishing attempt on facebook^
 ||toms.us.intellitxt.com^
 ||tomsforumz.us.intellitxt.com^
 ||tomshardware.fr.intellitxt.com^
@@ -54854,7 +54847,7 @@
 ||track.cam4tracking.com^
 ||track.celtra.com^
 ||track.chanret.com^
-||track.childrensalon.com  #[Piwik.Analytics]^
+||track.childrensalon.com  #[piwik.analytics]^
 ||track.clearsender.com^
 ||track.clickbooth.com^
 ||track.clickcabintracker.com^
@@ -54897,13 +54890,13 @@
 ||track.futureshop.ca^
 ||track.game18click.com^
 ||track.gammaplatform.com^
-||track.gawker.com  #[WebBug]^
+||track.gawker.com  #[webbug]^
 ||track.greatofferstoyou.net^
 ||track.grmtracking.com^
 ||track.hexcan.com^
 ||track.homestead.com^
 ||track.hotdrugsstore.in^
-||track.hubspot.com  #[WebBug]^
+||track.hubspot.com  #[webbug]^
 ||track.icheck.com.vn^
 ||track.idtargeting.com^
 ||track.india-marketing.in^
@@ -55319,7 +55312,7 @@
 ||tracking.cairn.info^
 ||tracking.carprices.com^
 ||tracking.cat.com^
-||tracking.cdiscount.com  #[WebBug]^
+||tracking.cdiscount.com  #[webbug]^
 ||tracking.cengage.com^
 ||tracking.changehealthcare.com^
 ||tracking.chem-agilent.com^
@@ -55814,7 +55807,7 @@
 ||trialreg.com^
 ||triangle.dealsaver.com^
 ||tribal.us.intellitxt.com^
-||tribalfusion.com  #[Tracking.Cookie]^
+||tribalfusion.com  #[tracking.cookie]^
 ||tribalfusion.speedera.net^
 ||tribez.game-insight.com^
 ||triboo01.webtrekk.net^
@@ -56171,7 +56164,7 @@
 ||tw.c.appier.net^
 ||tw.schroders.email^
 ||tw2.adserver.yahoo.com^
-||twci.coremetrics.com  #[Tracking.Cookie]^
+||twci.coremetrics.com  #[tracking.cookie]^
 ||tweaks.us.intellitxt.com^
 ||tweaktown.us.intellitxt.com^
 ||tweakvista.us.intellitxt.com^
@@ -56409,9 +56402,9 @@
 ||udkcrj.com^
 ||udm.ia6.scorecardresearch.com^
 ||udm.ia7.scorecardresearch.com^
-||udm.ia8.scorecardresearch.com  #[Microsoft Mahjong]^
+||udm.ia8.scorecardresearch.com  #[microsoft mahjong]^
 ||udm.ia9.scorecardresearch.com^
-||udm.ri1.scorecardresearch.com  #[Microsoft Mahjong]^
+||udm.ri1.scorecardresearch.com  #[microsoft mahjong]^
 ||udm.ri2.scorecardresearch.com^
 ||udm.ri3.scorecardresearch.com^
 ||udm.ri4.scorecardresearch.com^
@@ -56419,7 +56412,7 @@
 ||udm.ri6.scorecardresearch.com^
 ||udm.ri7.scorecardresearch.com^
 ||udm.ri8.scorecardresearch.com^
-||udm.ri9.scorecardresearch.com  #[Microsoft Mahjong]^
+||udm.ri9.scorecardresearch.com  #[microsoft mahjong]^
 ||udm.scorecardresearch.com^
 ||udmserve.net^
 ||udn-usd-d.openx.net^
@@ -56643,7 +56636,7 @@
 ||up-eazy1.xyz^
 ||up-poczta-polska.net^
 ||up.llw0.com^
-||up.nytimes.com  #[WebBug][About.com]^
+||up.nytimes.com  #[webbug][about.com]^
 ||up2date.moonfruit.com^
 ||upalytics.com^
 ||upc.d2.sc.omtrdc.net^
@@ -56816,7 +56809,7 @@
 ||us-west-tlx.3lift.com^
 ||us-west.load.exelator.com^
 ||us-wf.taboola.com^
-||us.2.cqcounter.com  #[Wildcard DNS]^
+||us.2.cqcounter.com  #[wildcard dns]^
 ||us.a1.yimg.com^
 ||us.ads.justpremium.com^
 ||us.adserver.yahoo.com^
@@ -57055,7 +57048,7 @@
 ||v1.nedstatbasic.net^
 ||v1.stat.ku6.com^
 ||v1.your-notification.tools^
-||v10.xmlsearch.miva.com  #[Adware.Zeno]^
+||v10.xmlsearch.miva.com  #[adware.zeno]^
 ||v10c.events.data.microsoft.com^
 ||v16.56.com^
 ||v1adserver.com^
@@ -58426,12 +58419,12 @@
 ||web-redirecting.com^
 ||web-sdk.control.kochava.com^
 ||web-sdk.urbanairship.com^
-||web-stat.com  #[Tracking.Cookie]^
-||web-t.9gag.com  #[Piwik.Analytics]^
+||web-stat.com  #[tracking.cookie]^
+||web-t.9gag.com  #[piwik.analytics]^
 ||web-vb3.web.app^
 ||web.53.localytics.com^
 ||web.a.ns.emailvision.net.daraz.com^
-||web.acumenpi.com  #[AdvertPro]^
+||web.acumenpi.com  #[advertpro]^
 ||web.adblade.com^
 ||web.api.adtimaserver.vn^
 ||web.araglegal.com^
@@ -58464,7 +58457,7 @@
 ||web.survey-poll.com^
 ||web.thebeessolution.com^
 ||web.unltd.info^
-||web.vindicosuite.com  #[WebBug]^
+||web.vindicosuite.com  #[webbug]^
 ||web.vortex.data.microsoft.com^
 ||web.vortex.data.msn.com^
 ||web.x.ilpost.it^
@@ -58502,7 +58495,7 @@
 ||webcash.nl^
 ||webcashmaker.com^
 ||webchatingrooms.com^
-||webclients.net  #[Webclients Ad Network]^
+||webclients.net  #[webclients ad network]^
 ||webcodau.mangoads.vn^
 ||webcompteur.com^
 ||webconnect.net^
@@ -58638,7 +58631,7 @@
 ||webtrends.telenet.be^
 ||webtrends.thisis.co.uk^
 ||webtrends.townhall.com^
-||webtrendslive.com  #[SmartSource Data Collector]^
+||webtrendslive.com  #[smartsource data collector]^
 ||webuser.uk.intellitxt.com^
 ||webuysupplystore.mooo.com^
 ||webview.unityads.unity3d.com^
@@ -59360,7 +59353,7 @@
 ||wt.bankmillennium.pl^
 ||wt.envivas.de^
 ||wt.generali.de^
-||wt.o.nytimes.com  #[WebBug]^
+||wt.o.nytimes.com  #[webbug]^
 ||wt.sexsearch.com^
 ||wt.sexsearchcom.com^
 ||wt.vhb.de^
@@ -59372,7 +59365,7 @@
 ||wtnj.worldnow.com^
 ||wtp101.com^
 ||wtrs.101com.com^
-||wtsdc.worldnow.com  #[WebTrends]^
+||wtsdc.worldnow.com  #[webtrends]^
 ||wttd.douglas.at^
 ||wttd.douglas.de^
 ||wttd.douglas.it^
@@ -59551,7 +59544,7 @@
 ||www.12-12-1a.fun^
 ||www.12-12-2a.fun^
 ||www.123banners.com^
-||www.123count.com  #[Tracking.Cookie]^
+||www.123count.com  #[tracking.cookie]^
 ||www.123counter.superstats.com^
 ||www.123go.com^
 ||www.123movies.my.id^
@@ -59667,7 +59660,7 @@
 ||www.3663333633.findprofile.net.pl^
 ||www.39dvd-999.com^
 ||www.3animalsex.com^
-||www.3bsoftware.com  #[Spyware Protection Pro]^
+||www.3bsoftware.com  #[spyware protection pro]^
 ||www.3ds.ero-advertising.com^
 ||www.3dstats.com^
 ||www.3fazowa-ostrzalka-do-nozy-pl.com^
@@ -59831,7 +59824,7 @@
 ||www.actus.org.pl^
 ||www.ad-center.com^
 ||www.ad-click.biz^
-||www.ad-groups.com  #[Ban Man Pro Banner Code]^
+||www.ad-groups.com  #[ban man pro banner code]^
 ||www.ad-net.co.uk^
 ||www.ad-souk.com^
 ||www.ad-up.com^
@@ -59949,7 +59942,7 @@
 ||www.adjmps.com^
 ||www.adjug.com^
 ||www.adkokurier.org^
-||www.adlandpro.com  #[Tracking.Cookie]^
+||www.adlandpro.com  #[tracking.cookie]^
 ||www.adloader.com^
 ||www.adlock.in^
 ||www.adlogix.com^
@@ -59960,7 +59953,7 @@
 ||www.admicro.vn^
 ||www.admin.iesnare.co.uk^
 ||www.admin.iesnare.com^
-||www.adminder.com  #[Tracking.Cookie]^
+||www.adminder.com  #[tracking.cookie]^
 ||www.adminhelpdeskunit.moonfruit.com^
 ||www.adminuprageunit.moonfruit.com^
 ||www.admixxer.com^
@@ -59974,7 +59967,7 @@
 ||www.adnxs.com^
 ||www.adobe.5v.pl^
 ||www.adobee.com^
-||www.adobetag.com  #[SiteCatalyst Link Tracking]^
+||www.adobetag.com  #[sitecatalyst link tracking]^
 ||www.adobur.com^
 ||www.adocean.pl^
 ||www.adoptim.com^
@@ -60082,7 +60075,7 @@
 ||www.adultcommercial.net^
 ||www.adultdatelink.com^
 ||www.adultdating-plan2.com^
-||www.adultfriendfinder.com  #[Troj/Small-AG][Adware-Adroar.dll]^
+||www.adultfriendfinder.com  #[troj/small-ag][adware-adroar.dll]^
 ||www.adultlinkexchange.com^
 ||www.adultlinksco.com^
 ||www.adv.axiatraders.com^
@@ -60114,7 +60107,7 @@
 ||www.advicevideoline.com^
 ||www.adview.cn^
 ||www.adw.ero-advertising.com^
-||www.adwarespy.com  #[Symantec.AdwareSpy]^
+||www.adwarespy.com  #[symantec.adwarespy]^
 ||www.adwidecenter.com^
 ||www.adwokaci-24.pl^
 ||www.adwords.google.lloymlincs.com^
@@ -60137,7 +60130,7 @@
 ||www.af-mark.jp^
 ||www.afantispy.com^
 ||www.afcebook.com^
-||www.afcyhf.com  #[WebBug]^
+||www.afcyhf.com  #[webbug]^
 ||www.afedgh.org^
 ||www.affiliate-b.com^
 ||www.affiliate-fr.com^
@@ -60394,7 +60387,7 @@
 ||www.allfet.info^
 ||www.allfiles.pl^
 ||www.allgo.xyz^
-||www.allhqpics.com  # Facebook trojan^
+||www.allhqpics.com  # facebook trojan^
 ||www.alliance4media.com^
 ||www.allianzmarket.com^
 ||www.allibest.com^
@@ -60580,7 +60573,7 @@
 ||www.aplikacjeplay.com^
 ||www.aplikacjeplay24.com^
 ||www.aplsolutionsonline.com^
-||www.apmebf.com  #[Tracking.Cookie]^
+||www.apmebf.com  #[tracking.cookie]^
 ||www.apogara.plus.com^
 ||www.app-messenger-lite.com^
 ||www.app-netflix.ratedyork.tk^
@@ -60612,7 +60605,7 @@
 ||www.appliedsemantics.com^
 ||www.applog.camera360.com^
 ||www.appnexus.com^
-||www.apponic.com  #[Win32/InstallCore.NR]^
+||www.apponic.com  #[win32/installcore.nr]^
 ||www.apps.co.pl^
 ||www.apps.id.net^
 ||www.appsdorado.com^
@@ -60708,7 +60701,7 @@
 ||www.astrocash.org^
 ||www.ata.ero-advertising.com^
 ||www.atcofiles.com^
-||www.atdmt.com  #[AveA Action Tag]^
+||www.atdmt.com  #[avea action tag]^
 ||www.atdnetwork.com^
 ||www.atelievayana.com^
 ||www.atforum.pl^
@@ -60785,7 +60778,7 @@
 ||www.awarialaptopa.pl^
 ||www.awesomevipoffers.com^
 ||www.awin.com^
-||www.awltovhc.com  #[WebBug]^
+||www.awltovhc.com  #[webbug]^
 ||www.aws50plus.pl^
 ||www.axeramus-poeta.blogspot.com^
 ||www.axes.co^
@@ -60882,7 +60875,7 @@
 ||www.banstex.com^
 ||www.banvar.com^
 ||www.baq24.pl^
-||www.bar.ry2002.02-ry014.snpr.hotmx.hair.zaam.net  # In spam^
+||www.bar.ry2002.02-ry014.snpr.hotmx.hair.zaam.net  # in spam^
 ||www.barcaacademyistanbul.com^
 ||www.barclaysghana.org^
 ||www.bargainbeautybuys.com^
@@ -61253,7 +61246,7 @@
 ||www.bluoxyn.com^
 ||www.blureflly.com^
 ||www.bmillenhome.com^
-||www.bmmetrix.com  #[WebBug][Tracking.Cookie]^
+||www.bmmetrix.com  #[webbug][tracking.cookie]^
 ||www.bn-allorbank.com^
 ||www.bnbaccess.eu^
 ||www.bncoposta.com^
@@ -61563,7 +61556,7 @@
 ||www.cashlayer.com^
 ||www.cashthat.com^
 ||www.casino770.com^
-||www.casinotropez.com  #[Tracking.Cookie]^
+||www.casinotropez.com  #[tracking.cookie]^
 ||www.castllypay.com^
 ||www.casualdatingandyou.com^
 ||www.cata.ero-advertising.com^
@@ -61728,7 +61721,7 @@
 ||www.cheekybanners.com^
 ||www.cheese-forest.com^
 ||www.chefeladlevi.com^
-||www.chelick.net  # Facebook trojan^
+||www.chelick.net  # facebook trojan^
 ||www.chelsi.money-for-you-2021.ru^
 ||www.chemistrylurver.blogspot.com^
 ||www.chemollez.blogspot.com^
@@ -61870,7 +61863,7 @@
 ||www.clicksgear.com^
 ||www.clicksor.com^
 ||www.clicksotrk.com^
-||www.clickspring.net  #used by a spyware product called PurityScan^
+||www.clickspring.net  #used by a spyware product called purityscan^
 ||www.clicktale.com^
 ||www.clicktale.net^
 ||www.clickterra.net^
@@ -61982,7 +61975,7 @@
 ||www.commerce-offer.com^
 ||www.commerce-rewardpath.com^
 ||www.commercialclientsgroup.ru^
-||www.commission-junction.com  #[Tracking.Cookie]^
+||www.commission-junction.com  #[tracking.cookie]^
 ||www.commissionempire.com^
 ||www.complainerscla.xyz^
 ||www.comptoncymru.com^
@@ -62090,7 +62083,7 @@
 ||www.coswtymmusibyc.online^
 ||www.cotamsiestaloo.site^
 ||www.cotc.net^
-||www.counter-gratis.com  #[Tracking.Cookie]^
+||www.counter-gratis.com  #[tracking.cookie]^
 ||www.counter.bloke.com^
 ||www.counter.sexhound.nl^
 ||www.counter.superstats.com^
@@ -62149,7 +62142,7 @@
 ||www.cqcounter.com^
 ||www.cr-sq.com^
 ||www.cr-toptom.com^
-||www.crackserver.com  #[StopBadware.Report]^
+||www.crackserver.com  #[stopbadware.report]^
 ||www.crakmedia.com^
 ||www.crazygarden.pl^
 ||www.crazypopups.com^
@@ -62398,7 +62391,7 @@
 ||www.dataasmierci.blogspot.com^
 ||www.datacollect.vmall.com^
 ||www.datadoghq-browser-agent.com^
-||www.dataforce.net  #[Spamdexing]^
+||www.dataforce.net  #[spamdexing]^
 ||www.datanotary.com^
 ||www.datapolish.com^
 ||www.datasmierci01.blogspot.com^
@@ -63416,7 +63409,7 @@
 ||www.exitopolska.com^
 ||www.exmsolution.com^
 ||www.exoclick.com^
-||www.experclick.com  #[Tracking.Cookie]^
+||www.experclick.com  #[tracking.cookie]^
 ||www.expertbike.pl^
 ||www.expertfx.net^
 ||www.expertoptions.in^
@@ -63702,7 +63695,7 @@
 ||www.fgoogle.com^
 ||www.fhatfee.ero-advertising.com^
 ||www.fhgfffdsf9.appspot.com^
-||www.fhserve.com  #[OpenX]^
+||www.fhserve.com  #[openx]^
 ||www.fhukaja.pl^
 ||www.ficken-ficken-ficken.cxa.de^
 ||www.ficken-xxx.cxa.de^
@@ -64153,7 +64146,7 @@
 ||www.fruitlauncher.com^
 ||www.fss.neostrada.pl^
 ||www.ftacebook.com^
-||www.ftjcfx.com  #[WebBug]^
+||www.ftjcfx.com  #[webbug]^
 ||www.ftp-reklama.gpd24.pl^
 ||www.fucebook.com^
 ||www.fuckbookdating.com^
@@ -65142,7 +65135,7 @@
 ||www.huckgreenenudfoun.tk^
 ||www.huebner.com.pl^
 ||www.huellacero.cl^
-||www.hugedomains.com  #[Parking Service]^
+||www.hugedomains.com  #[parking service]^
 ||www.hugetradingincome.com^
 ||www.hugobosspl.pl^
 ||www.hugobosspl.top^
@@ -65165,7 +65158,7 @@
 ||www.hybriddistribution.dk^
 ||www.hypercounter.com^
 ||www.hypertechz.com^
-||www.hypertracker.com  #[Tracking.Cookie]^
+||www.hypertracker.com  #[tracking.cookie]^
 ||www.hyut.000webhostapp.com^
 ||www.hyvf65qiht.us^
 ||www.hzoponkarz.j.pl^
@@ -65190,7 +65183,7 @@
 ||www.i-wiadomosci24.eu^
 ||www.i-wydarzenia24.eu^
 ||www.i-younet.ne.jp^
-||www.i.matheranalytics.com  #[WebBug]^
+||www.i.matheranalytics.com  #[webbug]^
 ||www.i24.dfirma.pl^
 ||www.i8i.eu^
 ||www.iadsdk.apple.com^
@@ -65260,7 +65253,7 @@
 ||www.ielektronik.pl^
 ||www.ierdafrica.org.ng^
 ||www.iesnare.co.uk^
-||www.iesnare.com  # See http://www.codingthewheel.com/archives/online-gambling-privacy-iesnare^
+||www.iesnare.com  # see http://www.codingthewheel.com/archives/online-gambling-privacy-iesnare^
 ||www.ifaktygwalt.eu^
 ||www.ifaktygwalt.pl^
 ||www.ifileyou.com^
@@ -65642,7 +65635,7 @@
 ||www.insectrunfollow7.live^
 ||www.insectrunfollow8.live^
 ||www.insectrunfollow9.live^
-||www.insightexpress.com  #[Lavasoft.BannedSite]^
+||www.insightexpress.com  #[lavasoft.bannedsite]^
 ||www.inskinad.com^
 ||www.insta-hookup-club1.com^
 ||www.insta-hookup.com^
@@ -65668,10 +65661,10 @@
 ||www.instytutmed.pl^
 ||www.insurance-rewardpath.com^
 ||www.intela.com^
-||www.intelli-direct.com  #[WebBug]^
+||www.intelli-direct.com  #[webbug]^
 ||www.intellisuggest.com^
 ||www.intellitxt.com^
-||www.interactivebrands.com  #[SpyEraser]^
+||www.interactivebrands.com  #[spyeraser]^
 ||www.interactivetrade.com^
 ||www.intergsm.pl^
 ||www.interia-24-pl.livejournal.com^
@@ -65777,7 +65770,7 @@
 ||www.istrefa.net^
 ||www.isuzi.com^
 ||www.itcity.pl^
-||www.itcompany.com  #[Riskware/PUP]^
+||www.itcompany.com  #[riskware/pup]^
 ||www.itdept.moonfruit.com^
 ||www.itelefon.org^
 ||www.itidmoringlea.ml^
@@ -66370,7 +66363,7 @@
 ||www.ld-netflix.com^
 ||www.ldg-exh.mitsubishielectric.co.jp^
 ||www.ldrcp.pl^
-||www.lduhtrp.net  #[WebBug]^
+||www.lduhtrp.net  #[webbug]^
 ||www.le1er.net^
 ||www.lead.network^
 ||www.leaderstandard.com^
@@ -66474,10 +66467,10 @@
 ||www.lijit.com^
 ||www.like-decydujacy.eu^
 ||www.likeivu.com^
-||www.likeportal.com  # Facebook trojan^
-||www.likespike.com  # Facebook trojan^
-||www.likethis.mbosoft.com  # Facebook trojan^
-||www.likethislist.biz  # Facebook trojan^
+||www.likeportal.com  # facebook trojan^
+||www.likespike.com  # facebook trojan^
+||www.likethis.mbosoft.com  # facebook trojan^
+||www.likethislist.biz  # facebook trojan^
 ||www.likowac-trzeba.eu^
 ||www.likuidator.com^
 ||www.lili24.website^
@@ -66685,7 +66678,7 @@
 ||www.lollastuff.blogspot.com^
 ||www.lolshock.com^
 ||www.loltrain.com^
-||www.lomalindasda.org  # Facebook trojan^
+||www.lomalindasda.org  # facebook trojan^
 ||www.lombard-kolobrzeg.pl^
 ||www.lombardujemy.com^
 ||www.lombardzik.net^
@@ -67125,7 +67118,7 @@
 ||www.merryholidays.org^
 ||www.mesangar.blogspot.com^
 ||www.mesohair.pl^
-||www.messagetag.com  #[Email tracker]^
+||www.messagetag.com  #[email tracker]^
 ||www.messenger-20-21-update.blogspot.com^
 ||www.messenger-lite.com^
 ||www.metaankieta.pl^
@@ -67484,7 +67477,7 @@
 ||www.myinstahookuper1.com^
 ||www.myishop.co.uk^
 ||www.mylifetoperfection.blogspot.com^
-||www.mylike.co.uk  # Facebook trojan^
+||www.mylike.co.uk  # facebook trojan^
 ||www.mylivejasmin.org^
 ||www.mylottoadserv.com^
 ||www.mylovecards.com^
@@ -68839,9 +68832,9 @@
 ||www.one-pay.xyz^
 ||www.onef.cf^
 ||www.onemed.com.pl^
-||www.onesafe-software.com  #[ScamFraudAlert.Antispyware]^
+||www.onesafe-software.com  #[scamfraudalert.antispyware]^
 ||www.oneseventeensouth.blogspot.com^
-||www.onestat.com  #[Tracking.Cookie]^
+||www.onestat.com  #[tracking.cookie]^
 ||www.onestatfree.com^
 ||www.onet-24.space^
 ||www.onet-biznes.online^
@@ -69019,7 +69012,7 @@
 ||www.organizuj-konkursy.eu^
 ||www.organogold.com^
 ||www.orientgatewayltd.com^
-||www.originalicons.com  # installs IE extension^
+||www.originalicons.com  # installs ie extension^
 ||www.originscheduler.com^
 ||www.orion.iad.appboy.com^
 ||www.orkisz24.pl^
@@ -69389,7 +69382,7 @@
 ||www.pdxor02.com^
 ||www.peachy18.com^
 ||www.peak2poem.com^
-||www.peakclick.com  #[AdWare.SideSearch.g][FindFmToolbar]^
+||www.peakclick.com  #[adware.sidesearch.g][findfmtoolbar]^
 ||www.peczta24.net^
 ||www.pedigree1.plus.com^
 ||www.peep1alea.com^
@@ -70344,7 +70337,7 @@
 ||www.profitrevolution.live^
 ||www.profitsitesbiz.com^
 ||www.profitzone.com^
-||www.proflashdata.com  # Facebook trojan^
+||www.proflashdata.com  # facebook trojan^
 ||www.profolan.pl^
 ||www.program3.com^
 ||www.programdarmowy.pl^
@@ -70522,7 +70515,7 @@
 ||www.qcoldtui1999.com^
 ||www.qetup12.com^
 ||www.qitrck.com^
-||www.qksrv.net  #[Tracking.Cookie]^
+||www.qksrv.net  #[tracking.cookie]^
 ||www.qksz.net^
 ||www.qlzn6i1l.com^
 ||www.qpodgladacz.glt.pl^
@@ -70534,7 +70527,7 @@
 ||www.quadre.pl^
 ||www.quality-products1.blogspot.com^
 ||www.qualityindustrialcoatings.com^
-||www.quantserve.com  #: Ad Tracking, JavaScript, etc.^
+||www.quantserve.com  #: ad tracking, javascript, etc.^
 ||www.quareclk.com^
 ||www.quartexindustries.com^
 ||www.quartier-midi.be^
@@ -70641,7 +70634,7 @@
 ||www.rd-direct.com^
 ||www.rdeswa1.com^
 ||www.reacredit.com.br^
-||www.readnotify.com  #[Email Tracker]^
+||www.readnotify.com  #[email tracker]^
 ||www.real-best-girls3.com^
 ||www.real-dates-now2.com^
 ||www.real-dating-now1.com^
@@ -71136,7 +71129,7 @@
 ||www.sebder.roboinside.me^
 ||www.secdelivery.org^
 ||www.secret-flirtcontact.com^
-||www.secretbehindporn.com  #[ScamFraudAlert.Pharmacy]^
+||www.secretbehindporn.com  #[scamfraudalert.pharmacy]^
 ||www.secretosx.com^
 ||www.secrets-flirtcontact11.com^
 ||www.secretsflirt-contact2.com^
@@ -71645,7 +71638,7 @@
 ||www.specialstat.com^
 ||www.specificclick.com^
 ||www.specificmedia.com^
-||www.specificpop.com  #[Tracking.Cookie]^
+||www.specificpop.com  #[tracking.cookie]^
 ||www.specilized.com^
 ||www.specjalniedlaciebie.com^
 ||www.specjalservice.pl^
@@ -71885,7 +71878,7 @@
 ||www.storeconfig.mistat.intl.xiaomi.com^
 ||www.stores.smobyttl.cc^
 ||www.storq.pl^
-||www.storygize.net  #[WebBug]^
+||www.storygize.net  #[webbug]^
 ||www.stotom.pl^
 ||www.stranded-in-iowa.blogspot.com^
 ||www.strangefullthiggngs.com^
@@ -72108,10 +72101,9 @@
 ||www.taboola.com.edgekey.net^
 ||www.taboolasyndication.com^
 ||www.tabxolabs.com^
-! ||www.tacloban.gov.ph^
 ||www.tacticaltrainingdatabase.com^
 ||www.taffr.com^
-||www.tag4arm.com  #[Piwik.Analytics]^
+||www.tag4arm.com  #[piwik.analytics]^
 ||www.tajnespotkania.eu^
 ||www.tajskimasazsopot.pl^
 ||www.takano-sekai.blogspot.com^
@@ -72163,7 +72155,7 @@
 ||www.targetingnow.com^
 ||www.targilotniczetorun.pl^
 ||www.tarocardsfornoobs.top^
-||www.tattooshaha.info  # Facebook trojan^
+||www.tattooshaha.info  # facebook trojan^
 ||www.tavelscape.com^
 ||www.taylorspub.com^
 ||www.tbitcoin.me^
@@ -72335,7 +72327,7 @@
 ||www.thecatsmeow-andrea.blogspot.com^
 ||www.thecrypto-genius.net^
 ||www.thecryptogenius.com^
-||www.thedatesafe.com  # Facebook trojan^
+||www.thedatesafe.com  # facebook trojan^
 ||www.thedatingconference.com^
 ||www.theexgirlfriends.com^
 ||www.thefazlinazira.blogspot.com^
@@ -72549,7 +72541,7 @@
 ||www.tpc.hu^
 ||www.tpocztapolska.com^
 ||www.tpskp.com^
-||www.tqlkg.com  #[WebBug]^
+||www.tqlkg.com  #[webbug]^
 ||www.tr.bfc-mp.caisse-epargne.fr^
 ||www.tr100.net^
 ||www.tr553.com^
@@ -72933,7 +72925,7 @@
 ||www.upgrade-flash-player.digital^
 ||www.upgradebasic.com^
 ||www.upgradeexplorer.com^
-||www.upi6.pillsstore-c.com  # Facebook trojan^
+||www.upi6.pillsstore-c.com  # facebook trojan^
 ||www.upocztapolska.net^
 ||www.uprawomocnic.moonfruit.com^
 ||www.uproar.com^
@@ -72983,7 +72975,7 @@
 ||www.ustaw--tlo-fb.blogspot.com^
 ||www.usterkiwloclawek.za.pl^
 ||www.usunwirusa.pl^
-||www.utarget.co.uk  #[utarget Ad code]^
+||www.utarget.co.uk  #[utarget ad code]^
 ||www.utrzymaj-etap.eu^
 ||www.uusms.org^
 ||www.uvy3.pl^
@@ -73119,7 +73111,7 @@
 ||www.virtumundo.com^
 ||www.visa-payment.sytes.net^
 ||www.vision2020.pl^
-||www.visitor-track.com  #[WebBug]^
+||www.visitor-track.com  #[webbug]^
 ||www.visitoronearthxrussellathletic.xyz^
 ||www.visitortracklog.com^
 ||www.visotka.in^
@@ -74140,7 +74132,7 @@
 ||www.zebrapozyczki.pl^
 ||www.zebywybielanie.c.pl^
 ||www.zechsal.pl^
-||www.zedo.com  #[Adware.RaxSearch]^
+||www.zedo.com  #[adware.raxsearch]^
 ||www.zee.cws.conviva.com^
 ||www.zegarki.sklep24.org^
 ||www.zejrzyj-zdjecia.bo.pl^
@@ -74264,7 +74256,7 @@
 ||www08.kentaku.co.jp^
 ||www1.acemetrix.com^
 ||www1.ad.tomshardware.com^
-||www1.addfreestats.com  #[Tracking.Cookie]^
+||www1.addfreestats.com  #[tracking.cookie]^
 ||www1.adireland.com^
 ||www1.amigo2.ne.jp^
 ||www1.amnhealthcare.com^
@@ -74281,7 +74273,7 @@
 ||www1.firesavez5.com^
 ||www1.firesavez6.com^
 ||www1.hfm-phe.com^
-||www1.iwon.com  #[ADW_IWON.B]^
+||www1.iwon.com  #[adw_iwon.b]^
 ||www1.kawasaki-motors.com^
 ||www1.mcsrentalsoftware.com^
 ||www1.mpnrs.com^
@@ -74332,7 +74324,7 @@
 ||www18.a8.net^
 ||www18.glam.com^
 ||www18.moba8.net^
-||www18.officedepot.com  #[WebBug.eluminate]^
+||www18.officedepot.com  #[webbug.eluminate]^
 ||www180.myway.com^
 ||www19.a8.net^
 ||www19.moba8.net^
@@ -74804,7 +74796,7 @@
 ||www3.kidney.org^
 ||www3.lennar.international^
 ||www3.livingstonintl.com^
-||www3.macys.com  #[WebBug.eluminate]^
+||www3.macys.com  #[webbug.eluminate]^
 ||www3.metso.com^
 ||www3.mogroup.com^
 ||www3.nationalgeographic.com^
@@ -75175,9 +75167,9 @@
 ||xbox1emulator.org^
 ||xbox360.ign.us.intellitxt.com^
 ||xbox360emulator.com^
-||xbs.mtree.com  #[Troj/NSUpdate-A]^
-||xbs.pao.mtree.com  #[TROJ_DYFUCA.X]^
-||xbs.sea.mtree.com  #[MoneyTree Dialer]^
+||xbs.mtree.com  #[troj/nsupdate-a]^
+||xbs.pao.mtree.com  #[troj_dyfuca.x]^
+||xbs.sea.mtree.com  #[moneytree dialer]^
 ||xcache.ad360.vn^
 ||xch.smrtgs.com^
 ||xchange.ro^
@@ -75649,7 +75641,7 @@
 ||ybinst0.ec.yimg.com^
 ||ybinst1.ec.yimg.com^
 ||ybinst2.ec.yimg.com^
-||ybinst3.ec.yimg.com  #[Bing.WebBug]^
+||ybinst3.ec.yimg.com  #[bing.webbug]^
 ||ybinst4.ec.yimg.com^
 ||ybinst5.ec.yimg.com^
 ||ybinst6.ec.yimg.com^
@@ -76199,7 +76191,7 @@
 ||zebywybielanie.c.pl^
 ||zechsal.pl^
 ||zedo-d.openx.net^
-||zedo.com  #[WebBug]^
+||zedo.com  #[webbug]^
 ||zee.cws.conviva.com^
 ||zeepln.io^
 ||zeevex-online.com^
@@ -76278,7 +76270,7 @@
 ||zhalehziba.com^
 ||zhaoyouxiu.com^
 ||zhcxvk.qvc.com^
-||zhirok.com  #[Spamdexing]^
+||zhirok.com  #[spamdexing]^
 ||zhiziyun.com^
 ||ziber.io^
 ||zielonewariacje.pl^

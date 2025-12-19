@@ -1,25 +1,25 @@
-# ------------------------------------[UPDATE]--------------------------------------
-# Title: The Block List Project - Smart TV List (dnsmasq)
-# Expires: 1 day
-# Homepage: https://blocklist.site
-# Help: https://github.com/blocklistproject/lists/wiki/
-# License: https://unlicense.org
-# Total number of network filters: 78
-# ------------------------------------[SUPPORT]-------------------------------------
-# You can support by:
-# - reporting false positives
-# - making a donation: https://paypal.me/blocklistproject
-# -------------------------------------[INFO]---------------------------------------
+# Title: Smart-Tv Block List
+# Description: Smart TV telemetry
+# Homepage: https://github.com/blocklistproject/Lists
+# License: MIT
+# Last modified: 2025-12-19 16:39:34 UTC
+# Format: dnsmasq
+# Entries: 78
+# URL: 
 #
-# Smart TV list
-# ------------------------------------[FILTERS]-------------------------------------
+# This list is maintained by The Block List Project
+# https://github.com/blocklistproject/Lists
+#
+
 server=/acr0.samsungcloudsolution.com/
 server=/ad.lgappstv.com/
+server=/ad.sxp.smartclip.net/
 server=/ads.samsungads.com/
 server=/aic-ngfts.lge.com/
 server=/amarillo.sb.roku.com/
 server=/az43064.vo.msecnd.net/
 server=/bif.sr.roku.com/
+server=/cdn.hbbtv.smartclip.net/
 server=/cdn.samsungcloudsolution.com/
 server=/cloudservices.roku.com/
 server=/config.samsungads.com/
@@ -31,10 +31,14 @@ server=/d1oxlq5h9kq8q5.cloudfront.net/
 server=/d2tnx644ijgq6i.cloudfront.net/
 server=/d3mjsomixevyw7.cloudfront.net/
 server=/edgesuite.net/
+server=/errors.hbbtv.smartclip.net/
 server=/eu-auth2.samsungosp.com/
+server=/events.cid.samba.tv/
 server=/events.samsungads.com/
 server=/game.internetat.tv/
+server=/gld.push.samsungosp.com/
 server=/gpm.samsungqbe.com/
+server=/hoover.sxp.smartclip.net/
 server=/img-resize-cdn-prod.samsungnyc.com/
 server=/infolink.pavv.co.kr/
 server=/lcprd1.samsungcloudsolution.net/
@@ -49,8 +53,11 @@ server=/noticefile.samsungcloudsolution.com/
 server=/ns11.whois.co.kr/
 server=/ocfconnect-shard-eu02-euwest1.samsungiotcloud.com/
 server=/oempprd.samsungcloudsolution.com/
+server=/osb-apps-v2.samsungqbe.com/
 server=/osb-v2.samsungqbe.com/
+server=/osb.samsungqbe.com/
 server=/p.ads.roku.com/
+server=/platform.cid.samba.tv/
 server=/premium-videos.telly.com/
 server=/samsungacr.com/
 server=/samsungads.com/
@@ -58,18 +65,15 @@ server=/samsungcloudsolution.com/
 server=/samsungcloudsolution.net/
 server=/samsungotn.net/
 server=/samsungrm.net/
+server=/sas.samsungcloudsolution.com/
+server=/scheduler.hbbtv.smartclip.net/
 server=/scribe.logs.roku.com/
 server=/scs.samsungqbe.com/
 server=/smartclip.com/
 server=/smartclip.net/
-server=/cdn.hbbtv.smartclip.net/
-server=/scheduler.hbbtv.smartclip.net/
-server=/stats.hbbtv.smartclip.net/
-server=/hoover.sxp.smartclip.net/
-server=/ad.sxp.smartclip.net/
-server=/errors.hbbtv.smartclip.net/
 server=/smartshare.lgtvsdp.com/
 server=/static.doubleclick.net/
+server=/stats.hbbtv.smartclip.net/
 server=/syncplusconfig.s3.amazonaws.com/
 server=/targeted-config-test.samsungacr.com/
 server=/time.samsungcloudsolution.com/
@@ -85,9 +89,3 @@ server=/us.lgtvsdp.com/
 server=/us.rdx2.lgtvsdp.com/
 server=/vdterms.samsungcloudsolution.com/
 server=/yumenetworks.com/
-server=/osb-apps-v2.samsungqbe.com/
-server=/osb.samsungqbe.com/
-server=/gld.push.samsungosp.com/
-server=/sas.samsungcloudsolution.com/
-server=/events.cid.samba.tv/
-server=/platform.cid.samba.tv/
