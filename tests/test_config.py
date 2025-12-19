@@ -1,7 +1,5 @@
 """Tests for configuration loading."""
 
-import pytest
-from pathlib import Path
 
 from src.config import load_config, get_list_names, get_format_config, get_settings
 

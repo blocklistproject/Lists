@@ -1,6 +1,5 @@
 """Tests for normalize module."""
 
-import pytest
 from pathlib import Path
 
 from src.normalize import (

@@ -19,4 +19,7 @@ build/
 htmlcov/
 
 # Docs (archived)
-docs/Optimize.md
+docs/
+
+# Tests
+tests/
