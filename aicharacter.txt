@@ -12,6 +12,7 @@ butterflies.ai
 c.ai
 candy.ai
 carter.chat
+api.carter.chat
 chai-ai.app
 chai.ml
 character.ai
