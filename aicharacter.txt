@@ -5,6 +5,7 @@ achcha.fm
 anima-ai.com
 anima.ai
 api.carter.chat
+api-elb.iher.ai.lan
 beta.character.ai
 bot3.ai
 botify.ai
@@ -12,7 +13,7 @@ butterflies.ai
 c.ai
 candy.ai
 carter.chat
-api.carter.chat
+cdn.iher.ai
 chai-ai.app
 chai.ml
 character.ai
@@ -21,6 +22,7 @@ charactercafe.ai
 charstar.ai
 chatmate.ai
 chub.ai
+conn.iher.ai
 crushon.ai
 deepen.ai
 dippy.ai
