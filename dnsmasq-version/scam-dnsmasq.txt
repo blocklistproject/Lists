@@ -1285,3 +1285,4 @@ server=/zedbubble.com/
 server=/zedoption.com/
 server=/zgalaxytee.com/
 server=/zukoptions.com/
+server=/mssupport.tech/

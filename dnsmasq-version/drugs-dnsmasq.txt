@@ -744,7 +744,6 @@ server=/affordablerx.com/
 server=/affordhere.com/
 server=/africanfly.com/
 server=/afterchance.com/
-server=/aftership.com/
 server=/afterteam.com/
 server=/agaest.net/
 server=/againon.com/
