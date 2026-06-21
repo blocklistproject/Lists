@@ -2511,6 +2511,7 @@
 0.0.0.0 zenitbet.com
 0.0.0.0 zetpoker.eu
 0.0.0.0 zodiacu.com
+0.0.0.0 visioncasino.net
 0.0.0.0 top-onlinecasino.ph
 0.0.0.0 playtimeapp.net
 0.0.0.0 playtime.org.ph
