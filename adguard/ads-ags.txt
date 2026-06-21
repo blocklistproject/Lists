@@ -104229,7 +104229,6 @@
 ||piwik.onlinemagasinet.no^
 ||piwik.org^
 ||piwik.pokerlistings.com^
-||piwik.pro^
 ||piwik.redtube.com^
 ||piwik.schulzesteinmann.de^
 ||piwik.shenghuo.xiaomi.com^
