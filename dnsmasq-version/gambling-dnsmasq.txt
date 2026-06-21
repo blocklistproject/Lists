@@ -2511,3 +2511,4 @@ server=/zebrabet.com.au/
 server=/zenitbet.com/
 server=/zetpoker.eu/
 server=/zodiacu.com/
+server=/789bingo.com/

@@ -2520,3 +2520,4 @@
 0.0.0.0 scattergamesph.com
 0.0.0.0 www.playtime.ph
 0.0.0.0 www.ptgaming.ph
+0.0.0.0 789bingo.com
