@@ -1,7 +1,7 @@
 name: ➕ Add Domain Request
 description: Request to add a domain to a blocklist
 title: "[Add] "
-labels: ["add-request", "triage"]
+labels: ["request:add", "status:needs-triage"]
 assignees:
   - blocklistproject
 

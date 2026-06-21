@@ -87,7 +87,7 @@ jobs:
             
             if (isAddRequest) {
               if (isPresent) {
-                labels.push('duplicate');
+                labels.push('status:duplicate');
                 comment = `## 🔍 Domain Check Result
             
             The domain \`${domain}\` is **already present** in the following list(s):
@@ -97,17 +97,17 @@ jobs:
             
             If you believe this is a different domain or subdomain, please clarify in a comment.`;
               } else {
-                labels.push('verified-new');
+                labels.push('status:verified-new');
                 comment = `## ✅ Domain Check Result
             
             The domain \`${domain}\` is **not currently blocked** in any list.
             
             This domain is eligible to be added. A maintainer will review this request.`;
               }
-              labels.push('add-request');
+              labels.push('request:add');
             } else if (isRemoveRequest) {
               if (isPresent) {
-                labels.push('verified-exists');
+                labels.push('status:verified-exists');
                 comment = `## 🔍 Domain Check Result
             
             The domain \`${domain}\` was found in the following list(s):
@@ -115,14 +115,14 @@ jobs:
             
             A maintainer will review this removal request.`;
               } else {
-                labels.push('not-found');
+                labels.push('status:not-found');
                 comment = `## ❓ Domain Check Result
             
             The domain \`${domain}\` was **not found** in any blocklist.
             
             Please verify the domain spelling or check if it has already been removed.`;
               }
-              labels.push('remove-request');
+              labels.push('request:remove');
             }
             
             // Add labels

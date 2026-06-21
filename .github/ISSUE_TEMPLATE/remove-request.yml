@@ -1,7 +1,7 @@
 name: ➖ Remove Domain Request (False Positive)
 description: Request to remove a domain that was incorrectly blocked
 title: "[Remove] "
-labels: ["remove-request", "false-positive", "triage"]
+labels: ["request:remove", "status:needs-triage"]
 assignees:
   - blocklistproject
 

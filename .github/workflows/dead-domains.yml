@@ -120,5 +120,5 @@ jobs:
               repo: context.repo.repo,
               title: `[Maintenance] Dead Domain Report - ${new Date().toISOString().split('T')[0]}`,
               body: body,
-              labels: ['maintenance', 'automated']
+              labels: ['request:maintenance', 'source:automation']
             });
