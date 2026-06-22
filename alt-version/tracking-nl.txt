@@ -2,9 +2,9 @@
 # Description: Tracking and analytics
 # Homepage: https://github.com/blocklistproject/Lists
 # License: MIT
-# Last modified: 2026-06-22 06:29:20 UTC
+# Last modified: 2026-06-22 06:40:10 UTC
 # Format: domains
-# Entries: 15,070
+# Entries: 15,069
 # URL: 
 #
 # This list is maintained by The Block List Project
@@ -1793,7 +1793,6 @@ elabs7.com
 elabs8.com
 elabs9.com
 elasticad.net
-elasticbeanstalk.com
 electricals2compare.com
 electronics2compare.com
 elitechnology.com
