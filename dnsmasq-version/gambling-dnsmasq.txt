@@ -2,7 +2,7 @@
 # Description: Gambling sites
 # Homepage: https://github.com/blocklistproject/Lists
 # License: MIT
-# Last modified: 2026-06-22 22:47:16 UTC
+# Last modified: 2026-06-22 22:57:14 UTC
 # Format: dnsmasq
 # Entries: 2,509
 # URL: 

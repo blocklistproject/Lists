@@ -2,9 +2,9 @@
 # Description: Phishing domains
 # Homepage: https://github.com/blocklistproject/Lists
 # License: MIT
-# Last modified: 2026-06-22 22:47:17 UTC
+# Last modified: 2026-06-22 22:57:15 UTC
 # Format: domains
-# Entries: 190,225
+# Entries: 190,226
 # URL: 
 #
 # This list is maintained by The Block List Project
@@ -90209,6 +90209,7 @@ sellwithburnside.com
 sellyourcell.in
 sellyourmac.co.za
 selmart.net
+selot.jp.net
 selouskingalodge.com
 seltvideos.com
 selvagoldcovering.com
