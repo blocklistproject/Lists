@@ -2,9 +2,9 @@
 # Description: Phishing domains
 # Homepage: https://github.com/blocklistproject/Lists
 # License: MIT
-# Last modified: 2026-06-22 00:08:59 UTC
+# Last modified: 2026-06-22 06:29:19 UTC
 # Format: domains
-# Entries: 190,222
+# Entries: 190,225
 # URL: 
 #
 # This list is maintained by The Block List Project
@@ -42109,6 +42109,7 @@ gitelocationgroupebailleul.com
 gitess.com
 githabulrangers.com.au
 githaralaw.co.ke
+github.com
 gitixieb.huv.fastsize.ru
 gitlab.do-lang.org
 gitlab.whiteops.io
@@ -55827,6 +55828,7 @@ kazprofess.kz
 kazps.com
 kazukogstone.com
 kazuled.com.vn
+kazwex.com
 kazzpc.com
 kba.org.pk
 kbanka.com
@@ -178881,6 +178883,7 @@ www.trustindustries.rw
 www.trustlinkmm.com
 www.trustmidia.com.br
 www.trustpasslogin.com
+www.trustpilot.com
 www.trustsolucoes.com.br
 www.trusttravelusa.com
 www.trusturman.com
