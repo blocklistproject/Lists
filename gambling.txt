@@ -2,9 +2,9 @@
 # Description: Gambling sites
 # Homepage: https://github.com/blocklistproject/Lists
 # License: MIT
-# Last modified: 2026-06-22 06:40:08 UTC
+# Last modified: 2026-06-22 09:52:50 UTC
 # Format: hosts
-# Entries: 2,510
+# Entries: 2,509
 # URL: 
 #
 # This list is maintained by The Block List Project
@@ -307,7 +307,6 @@
 0.0.0.0 casino.vernons.com
 0.0.0.0 casino.williamhill.com
 0.0.0.0 casinoandfriends.com
-0.0.0.0 casinobitco.in # sportsbook
 0.0.0.0 casinocalzone.com
 0.0.0.0 casinocruise.com
 0.0.0.0 casinoeuro.com

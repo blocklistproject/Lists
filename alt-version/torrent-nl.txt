@@ -2,9 +2,9 @@
 # Description: Torrent and P2P sites
 # Homepage: https://github.com/blocklistproject/Lists
 # License: MIT
-# Last modified: 2026-06-22 06:40:10 UTC
+# Last modified: 2026-06-22 09:52:58 UTC
 # Format: domains
-# Entries: 2,624
+# Entries: 2,623
 # URL: 
 #
 # This list is maintained by The Block List Project
@@ -1673,7 +1673,6 @@ theswarm.me
 thetorrentsource.org
 thetracker.org
 thetradersden.org
-thetradersden.org/forums/tracker
 thevault.bz
 thewtd.com
 thexchangerslounge.kicks-ass.net

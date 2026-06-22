@@ -2,9 +2,9 @@
 ! Description: Tracking and analytics
 ! Homepage: https://github.com/blocklistproject/Lists
 ! License: MIT
-! Last modified: 2026-06-22 06:40:10 UTC
+! Last modified: 2026-06-22 09:52:58 UTC
 ! Format: AdGuard
-! Entries: 15,069
+! Entries: 15,052
 ! URL: 
 !
 ! This list is maintained by The Block List Project
@@ -415,7 +415,6 @@
 ||advertising.aol.com^
 ||advertising.bbcworldwide.com^
 ||advertising.com^
-||advertising.microsoft.com^
 ||adverts.itv.com^
 ||advertserve.com^
 ||adviva.net^
@@ -580,7 +579,6 @@
 ||analytics.live.com^
 ||analytics.magelan.it^
 ||analytics.meaww.com^
-||analytics.microsoft.com^
 ||analytics.msn.com^
 ||analytics.newsinc.com^
 ||analytics.nionex.net^
@@ -833,7 +831,6 @@
 ||bigtentresearch.com^
 ||bigtentresearch.net^
 ||billmscurlrev.com^
-||bingads.microsoft.com^
 ||bis-dic15.com^
 ||bispd.com^
 ||bisrv.com^
@@ -1634,7 +1631,6 @@
 ||dl-rms.com^
 ||dleke.com^
 ||dlqm.net^
-||dmd.metaservices.microsoft.com^
 ||dmp.theadex.com^
 ||dmtracker.com^
 ||dmtracking2.alibaba.com^
@@ -2333,7 +2329,6 @@
 ||ib-ibi.com^
 ||ibillboard.com^
 ||icandi.de^
-||id.google.com^
 ||id.google.de^
 ||idaguang.com^
 ||idev.bookingline.bucksnet.co.uk^
@@ -2772,11 +2767,9 @@
 ||meteora.co^
 ||meteora.us^
 ||metric.asos.com^
-||metric.gstatic.com^
 ||metric.ind.rediff.com^
 ||metric.rediff.com^
 ||metrics.aftonbladet.se^
-||metrics.apple.com^
 ||metrics.argos.co.uk^
 ||metrics.barclays.co.uk^
 ||metrics.cbc.ca^
@@ -13891,7 +13884,6 @@
 ||serving-sys.com^
 ||servingclks.com^
 ||sessioncam.com^
-||settings-win.data.microsoft.com^
 ||sex-affiliation.com^
 ||sexad.net^
 ||sexcount.com^
@@ -14158,8 +14150,6 @@
 ||sptslmtrafms.com^
 ||spylog.com^
 ||spylog.ru^
-||spynet2.microsoft.com^
-||spynetalt.microsoft.com^
 ||spyvisit.com^
 ||src.labeldollars.com^
 ||srv123.com^
@@ -14194,7 +14184,6 @@
 ||stats.g.doubleclick.net^
 ||stats.l.doubleclick.net^
 ||stats.olark.com^
-||stats.paypal.com^
 ||stats.reinvigorate.net^
 ||stats.royalbank.com^
 ||stats.searchtrack.net^
@@ -14204,8 +14193,6 @@
 ||stats.yellowphoenix18.de^
 ||stats4all.com^
 ||stats4free.de^
-||statsfe1.ws.microsoft.com^
-||statsfe2.ws.microsoft.com^
 ||statsy.net^
 ||stattrack.0catch.com^
 ||statuscake-email.com^
@@ -14328,11 +14315,9 @@
 ||telemetry.battle.net^
 ||telemetry.gfe.nvidia.com^
 ||telemetry.jivosite.com^
-||telemetry.microsoft.com^
 ||telemetry.microsoft.com.nsatc.net^
 ||telemetry.mozilla.org^
 ||telemetry.nvidia.com^
-||telemetry.urs.microsoft.com^
 ||televisions2compare.com^
 ||telize.com^
 ||tellapart.com^
@@ -14841,7 +14826,6 @@
 ||voluumtrk3.com^
 ||vortex-bn2.metron.live.com.nsatc.net^
 ||vortex-cy2.metron.live.com.nsatc.net^
-||vortex-win.data.microsoft.com^
 ||voucher-club.com^
 ||voucheralley.com^
 ||vouchercodeclub.com^
@@ -14862,7 +14846,6 @@
 ||watcheezy.net^
 ||waterthurst.com^
 ||watson.live.com^
-||watson.microsoft.com^
 ||waudit.cz^
 ||wayjump.com^
 ||wci-fl.com^
