@@ -2,9 +2,9 @@
 # Description: Scam domains
 # Homepage: https://github.com/blocklistproject/Lists
 # License: MIT
-# Last modified: 2025-12-19 16:39:34 UTC
+# Last modified: 2026-06-22 00:09:00 UTC
 # Format: dnsmasq
-# Entries: 1,274
+# Entries: 1,275
 # URL: 
 #
 # This list is maintained by The Block List Project
@@ -459,6 +459,7 @@ server=/morgansinvestment.com/
 server=/moslt.com/
 server=/moteshoes.com/
 server=/mrarmstrongsclass.com/
+server=/mssupport.tech/
 server=/mualuondi.com/
 server=/multicoins.co/
 server=/museuw.com/
@@ -1285,4 +1286,3 @@ server=/zedbubble.com/
 server=/zedoption.com/
 server=/zgalaxytee.com/
 server=/zukoptions.com/
-server=/mssupport.tech/

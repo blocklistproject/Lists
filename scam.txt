@@ -2,9 +2,9 @@
 # Description: Scam domains
 # Homepage: https://github.com/blocklistproject/Lists
 # License: MIT
-# Last modified: 2025-12-19 16:39:34 UTC
+# Last modified: 2026-06-22 00:09:00 UTC
 # Format: hosts
-# Entries: 1,274
+# Entries: 1,275
 # URL: 
 #
 # This list is maintained by The Block List Project
@@ -459,6 +459,7 @@
 0.0.0.0 moslt.com
 0.0.0.0 moteshoes.com
 0.0.0.0 mrarmstrongsclass.com
+0.0.0.0 mssupport.tech
 0.0.0.0 mualuondi.com
 0.0.0.0 multicoins.co
 0.0.0.0 museuw.com
@@ -1285,4 +1286,3 @@
 0.0.0.0 zedoption.com
 0.0.0.0 zgalaxytee.com
 0.0.0.0 zukoptions.com
-0.0.0.0 mssupport.tech

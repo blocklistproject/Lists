@@ -2,9 +2,9 @@
 # Description: Ad serving domains
 # Homepage: https://github.com/blocklistproject/Lists
 # License: MIT
-# Last modified: 2025-12-19 16:39:31 UTC
+# Last modified: 2026-06-22 00:08:58 UTC
 # Format: domains
-# Entries: 154,554
+# Entries: 154,553
 # URL: 
 #
 # This list is maintained by The Block List Project
@@ -26378,6 +26378,7 @@ adbl.spieletipps.de
 adblade.com
 adblade.org
 adblender.ru
+adblendr.io
 adblock-proxy.rtty.in
 adblock.fr
 adblockanalytics.com
@@ -123441,7 +123442,6 @@ supply.colossusssp.com
 supply.upjers.com
 supply.xapads.com
 supply2.clickganic.com
-supplyframe.com
 support-ip.com
 support-win1230.com
 support.a-ads.com
@@ -154564,4 +154564,3 @@ zzxosget.com
 zzz.adx1.com
 zzz.clickbank.net
 zzznews.ru
-adblendr.io

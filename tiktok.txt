@@ -2,9 +2,9 @@
 # Description: TikTok domains
 # Homepage: https://github.com/blocklistproject/Lists
 # License: MIT
-# Last modified: 2025-12-19 16:39:34 UTC
+# Last modified: 2026-06-22 00:09:00 UTC
 # Format: hosts
-# Entries: 3,699
+# Entries: 3,725
 # URL: 
 #
 # This list is maintained by The Block List Project
@@ -96,6 +96,7 @@
 0.0.0.0 adshare.toutiao.com
 0.0.0.0 adx.toutiao.com
 0.0.0.0 agent.toutiao.com
+0.0.0.0 aggr32-normal.tiktokv.eu
 0.0.0.0 aideas.toutiao.com
 0.0.0.0 akcqacex.qfyf1toi.com
 0.0.0.0 alisg-normal-lb.byteoversea.net
@@ -263,7 +264,9 @@
 0.0.0.0 api16-core-ipv6.sgsnssdk.com
 0.0.0.0 api16-core-n-alisg.tiktokv.com
 0.0.0.0 api16-core-n-alisg.tiktokv.com.edgekey.net
+0.0.0.0 api16-core-no1a.tiktokv.eu
 0.0.0.0 api16-core-useast5.us.tiktokv.com
+0.0.0.0 api16-core-useastred.tiktokv.eu
 0.0.0.0 api16-core-va.tiktokv.com
 0.0.0.0 api16-core-va.tiktokv.com.edgekey.net
 0.0.0.0 api16-normal-c-alisg.tiktokv.com
@@ -281,7 +284,9 @@
 0.0.0.0 api16-normal-i-sg.sgsnssdk.com
 0.0.0.0 api16-normal-ipv4.sgsnssdk.com
 0.0.0.0 api16-normal-ipv6.sgsnssdk.com
+0.0.0.0 api16-normal-no1a.tiktokv.eu
 0.0.0.0 api16-normal-useast5.us.tiktokv.com
+0.0.0.0 api16-normal-useastred.tiktokv.eu
 0.0.0.0 api16-normal-v4.tiktokv.com
 0.0.0.0 api16-normal-v4.tiktokv.com.edgekey.net
 0.0.0.0 api16-normal-v6.tiktokv.com
@@ -579,6 +584,7 @@
 0.0.0.0 brn-cgk-v1.l.byteoversea.net
 0.0.0.0 bsdk.sgsnssdk.com
 0.0.0.0 bsdk.snssdk.com
+0.0.0.0 bsync16-normal-no1a.tiktokv.eu
 0.0.0.0 business-sg.topbuzz.com
 0.0.0.0 business.tiktok.com
 0.0.0.0 business.topbuzz.com
@@ -670,6 +676,7 @@
 0.0.0.0 compass-ns.byteoversea.net
 0.0.0.0 coresite-iad-api1.l.byteoversea.net
 0.0.0.0 coresite-iad-v1.l.byteoversea.net
+0.0.0.0 cp-rp16-normal-no1a.tiktokv.eu
 0.0.0.0 crash.snssdk.com
 0.0.0.0 creator.toutiao.com
 0.0.0.0 creatormarketplace.tiktok.com
@@ -929,6 +936,7 @@
 0.0.0.0 frontier.snssdk.com
 0.0.0.0 frontier.tiktokv.com
 0.0.0.0 frontier.us.tiktokv.com
+0.0.0.0 frontier16-normal-no1a.tiktokv.eu
 0.0.0.0 ft.snssdk.com
 0.0.0.0 ft.snssdk.com.w.kunluncan.com
 0.0.0.0 fusioncdn-lf.snssdk.com
@@ -967,6 +975,8 @@
 0.0.0.0 gecko16-normal-c-useast1a.tiktokv.com.edgesuite.net
 0.0.0.0 gecko16-normal-c-useast2a.tiktokv.com
 0.0.0.0 gecko16-normal-c-useast2a.tiktokv.com.edgesuite.net
+0.0.0.0 gecko16-normal-no1a.tiktokv.eu
+0.0.0.0 gecko32-normal-no1a.tiktokv.eu
 0.0.0.0 gedfaccdcf.temp.p23.tc.cdntip.com
 0.0.0.0 getstarted.tiktok.com
 0.0.0.0 getstarted.tiktok.com.edgekey.net
@@ -1017,6 +1027,7 @@
 0.0.0.0 hotapi-va.isnssdk.com
 0.0.0.0 hotapi-va.isnssdk.com.edgekey.net
 0.0.0.0 hotapi.sgsnssdk.com
+0.0.0.0 hotapi16-normal-no1a.tiktokv.eu
 0.0.0.0 hotapi16-platform-useast5.us.tiktokv.com
 0.0.0.0 hotsoon-a-hl.snssdk.com
 0.0.0.0 hotsoon-a-hl.snssdk.com.w.kunluncan.com
@@ -1242,6 +1253,7 @@
 0.0.0.0 jsb-va.tiktokv.com.edgekey.net
 0.0.0.0 jsb.snssdk.com
 0.0.0.0 jsb16-normal-c-useast1a.tiktokv.com
+0.0.0.0 jsb16-normal-no1a.tiktokv.eu
 0.0.0.0 jtjxpx.qfyf1toi.com
 0.0.0.0 juliangyinqing.com
 0.0.0.0 just-test-1.byteoversea.com
@@ -1379,6 +1391,7 @@
 0.0.0.0 lianmengapi.snssdk.com
 0.0.0.0 lianmengapi.snssdk.com.w.kunluncan.com
 0.0.0.0 libra16-platform-useast5.us.tiktokv.com
+0.0.0.0 libra32-normal-no1a.tiktokv.eu
 0.0.0.0 library.musical.ly
 0.0.0.0 link-sg.byteoversea.com
 0.0.0.0 link-va.byteoversea.com
@@ -1426,6 +1439,8 @@
 0.0.0.0 log16-normal-c-useast1a.tiktokv.com.edgekey.net
 0.0.0.0 log16-normal-c-useast2a.tiktokv.com
 0.0.0.0 log16-normal-c-useast2a.tiktokv.com.edgekey.net
+0.0.0.0 log16-normal-no1a.tiktokv.eu
+0.0.0.0 log16-normal-useastred.tiktokv.eu
 0.0.0.0 log16.byteoversea.com
 0.0.0.0 log16.byteoversea.com.edgekey.net
 0.0.0.0 log2-useast1a.musical.ly
@@ -1437,6 +1452,7 @@
 0.0.0.0 log3-ipv6.snssdk.com
 0.0.0.0 log3-normal-c-alisg.tiktokv.com
 0.0.0.0 log3-normal-c-useast1a.tiktokv.com
+0.0.0.0 log32-normal-no1a.tiktokv.eu
 0.0.0.0 log53-normal-c-alisg.tiktokv.com
 0.0.0.0 log53-normal-c-useast1a.tiktokv.com
 0.0.0.0 log58-normal-c-alisg.tiktokv.com
@@ -1532,6 +1548,7 @@
 0.0.0.0 mon.tiktokv.com
 0.0.0.0 mon.tiktokv.com.edgesuite.net
 0.0.0.0 mon.toutiao.com
+0.0.0.0 mon16-normal-no1a.tiktokv.eu
 0.0.0.0 mon16-platform-useast5.us.tiktokv.com
 0.0.0.0 mongoosev.byted.org
 0.0.0.0 monitor.isnssdk.com
@@ -1568,6 +1585,7 @@
 0.0.0.0 mr.snssdk.com
 0.0.0.0 mssdk-sg.byteoversea.com
 0.0.0.0 mssdk.snssdk.com
+0.0.0.0 mssdk16-normal-no1a.tiktokv.eu
 0.0.0.0 mssdk16-platform-useast5.us.tiktokv.com
 0.0.0.0 mtg-bkk-v1.l.byteoversea.net
 0.0.0.0 mu.isnssdk.com
@@ -1631,6 +1649,8 @@
 0.0.0.0 ns3.c.bytetcdn.com
 0.0.0.0 o-sg.ibytedtos.com
 0.0.0.0 o-us.ibytedtos.com
+0.0.0.0 oec16-normal-no1a.tiktokv.eu
+0.0.0.0 oec32-normal-no1a.tiktokv.eu
 0.0.0.0 onelink-1664648862.eu-west-1.elb.amazonaws.com
 0.0.0.0 open-api.musical.ly
 0.0.0.0 open-api.tiktok.com
@@ -2319,6 +2339,7 @@
 0.0.0.0 rtlog.snssdk.com
 0.0.0.0 rtlog.snssdk.com.w.kunluncan.com
 0.0.0.0 rtlog.tiktokv.com
+0.0.0.0 rtlog16-normal-no1a.tiktokv.eu
 0.0.0.0 rtmp-l11.tiktokcdn.liveplay.myqcloud.com
 0.0.0.0 rtmpup1.pstatp.com
 0.0.0.0 rtmpup4.pstatp.com
@@ -2425,6 +2446,7 @@
 0.0.0.0 search16-normal-c-useast1a.tiktokv.com.edgekey.net
 0.0.0.0 search16-normal-c-useast2a.tiktokv.com
 0.0.0.0 search16-normal-c-useast2a.tiktokv.com.edgekey.net
+0.0.0.0 search16-normal-no1a.tiktokv.eu
 0.0.0.0 search21-normal-c-alisg.tiktokv.com
 0.0.0.0 security-api.snssdk.com
 0.0.0.0 security-hl.snssdk.com
@@ -2727,10 +2749,12 @@
 0.0.0.0 tms3.pstatp.com
 0.0.0.0 tms3.pstatp.com.w.kunlunle.com
 0.0.0.0 tnc16-alisg.tiktokv.com
+0.0.0.0 tnc16-normal-useastred.tiktokv.eu
 0.0.0.0 tnc16-platform-alisg.tiktokv.com
 0.0.0.0 tnc16-platform-useast1a.tiktokv.com
 0.0.0.0 tnc16-platform-useast5.us.tiktokv.com
 0.0.0.0 tnc16-useast1a.tiktokv.com
+0.0.0.0 tnc19-normal-no1a.tiktokv.eu
 0.0.0.0 tnc3-aliec2.snssdk.com
 0.0.0.0 tnc3-alisc1.snssdk.com
 0.0.0.0 tnc3-bjlgy.snssdk.com
@@ -3367,6 +3391,7 @@
 0.0.0.0 vcs-va.byteoversea.com
 0.0.0.0 vcs-va.tiktokv.com
 0.0.0.0 vcs.snssdk.com
+0.0.0.0 vcs16-normal-no1a.tiktokv.eu
 0.0.0.0 vcs16-platform-useast5.us.tiktokv.com
 0.0.0.0 verification-va-useast1a.musical.ly
 0.0.0.0 verification-va-useast1a.musical.ly.edgesuite.net
@@ -3509,6 +3534,7 @@
 0.0.0.0 webcast16-normal-c-useast1a.tiktokv.com.edgekey.net
 0.0.0.0 webcast16-normal-c-useast2a.tiktokv.com
 0.0.0.0 webcast16-normal-c-useast2a.tiktokv.com.edgekey.net
+0.0.0.0 webcast16-normal-no1a.tiktokv.eu
 0.0.0.0 webcast16-normal-useast5.us.tiktokv.com
 0.0.0.0 webcast16-useast1a.musical.ly
 0.0.0.0 webcast16-useast2a.musical.ly
@@ -3710,29 +3736,3 @@
 0.0.0.0 zttvu.v.bsgslb.com
 0.0.0.0 zttvv.v.bsgslb.com
 0.0.0.0 zttvw.v.bsgslb.com
-0.0.0.0 webcast16-normal-no1a.tiktokv.eu
-0.0.0.0 aggr32-normal.tiktokv.eu
-0.0.0.0 gecko16-normal-no1a.tiktokv.eu
-0.0.0.0 mssdk16-normal-no1a.tiktokv.eu
-0.0.0.0 api16-core-useastred.tiktokv.eu
-0.0.0.0 jsb16-normal-no1a.tiktokv.eu
-0.0.0.0 api16-normal-no1a.tiktokv.eu
-0.0.0.0 mon16-normal-no1a.tiktokv.eu
-0.0.0.0 frontier16-normal-no1a.tiktokv.eu
-0.0.0.0 api16-normal-useastred.tiktokv.eu
-0.0.0.0 vcs16-normal-no1a.tiktokv.eu
-0.0.0.0 tnc16-normal-useastred.tiktokv.eu
-0.0.0.0 tnc19-normal-no1a.tiktokv.eu
-0.0.0.0 log16-normal-no1a.tiktokv.eu
-0.0.0.0 rtlog16-normal-no1a.tiktokv.eu
-0.0.0.0 oec16-normal-no1a.tiktokv.eu
-0.0.0.0 cp-rp16-normal-no1a.tiktokv.eu
-0.0.0.0 bsync16-normal-no1a.tiktokv.eu
-0.0.0.0 search16-normal-no1a.tiktokv.eu
-0.0.0.0 oec32-normal-no1a.tiktokv.eu
-0.0.0.0 log32-normal-no1a.tiktokv.eu
-0.0.0.0 log16-normal-useastred.tiktokv.eu
-0.0.0.0 libra32-normal-no1a.tiktokv.eu
-0.0.0.0 hotapi16-normal-no1a.tiktokv.eu
-0.0.0.0 gecko32-normal-no1a.tiktokv.eu
-0.0.0.0 api16-core-no1a.tiktokv.eu
