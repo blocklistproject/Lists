@@ -2,9 +2,9 @@
 # Description: Tracking and analytics
 # Homepage: https://github.com/blocklistproject/Lists
 # License: MIT
-# Last modified: 2026-06-22 06:40:10 UTC
+# Last modified: 2026-06-22 09:52:58 UTC
 # Format: hosts
-# Entries: 15,069
+# Entries: 15,052
 # URL: 
 #
 # This list is maintained by The Block List Project
@@ -415,7 +415,6 @@
 0.0.0.0 advertising.aol.com
 0.0.0.0 advertising.bbcworldwide.com
 0.0.0.0 advertising.com
-0.0.0.0 advertising.microsoft.com
 0.0.0.0 adverts.itv.com
 0.0.0.0 advertserve.com
 0.0.0.0 adviva.net
@@ -580,7 +579,6 @@
 0.0.0.0 analytics.live.com
 0.0.0.0 analytics.magelan.it
 0.0.0.0 analytics.meaww.com
-0.0.0.0 analytics.microsoft.com
 0.0.0.0 analytics.msn.com
 0.0.0.0 analytics.newsinc.com
 0.0.0.0 analytics.nionex.net
@@ -833,7 +831,6 @@
 0.0.0.0 bigtentresearch.com
 0.0.0.0 bigtentresearch.net
 0.0.0.0 billmscurlrev.com
-0.0.0.0 bingads.microsoft.com
 0.0.0.0 bis-dic15.com
 0.0.0.0 bispd.com
 0.0.0.0 bisrv.com
@@ -1634,7 +1631,6 @@
 0.0.0.0 dl-rms.com
 0.0.0.0 dleke.com
 0.0.0.0 dlqm.net
-0.0.0.0 dmd.metaservices.microsoft.com
 0.0.0.0 dmp.theadex.com
 0.0.0.0 dmtracker.com
 0.0.0.0 dmtracking2.alibaba.com
@@ -2333,7 +2329,6 @@
 0.0.0.0 ib-ibi.com
 0.0.0.0 ibillboard.com
 0.0.0.0 icandi.de
-0.0.0.0 id.google.com
 0.0.0.0 id.google.de
 0.0.0.0 idaguang.com
 0.0.0.0 idev.bookingline.bucksnet.co.uk
@@ -2772,11 +2767,9 @@
 0.0.0.0 meteora.co
 0.0.0.0 meteora.us
 0.0.0.0 metric.asos.com
-0.0.0.0 metric.gstatic.com
 0.0.0.0 metric.ind.rediff.com
 0.0.0.0 metric.rediff.com
 0.0.0.0 metrics.aftonbladet.se
-0.0.0.0 metrics.apple.com
 0.0.0.0 metrics.argos.co.uk
 0.0.0.0 metrics.barclays.co.uk
 0.0.0.0 metrics.cbc.ca
@@ -13891,7 +13884,6 @@
 0.0.0.0 serving-sys.com
 0.0.0.0 servingclks.com
 0.0.0.0 sessioncam.com
-0.0.0.0 settings-win.data.microsoft.com
 0.0.0.0 sex-affiliation.com
 0.0.0.0 sexad.net
 0.0.0.0 sexcount.com
@@ -14158,8 +14150,6 @@
 0.0.0.0 sptslmtrafms.com
 0.0.0.0 spylog.com
 0.0.0.0 spylog.ru
-0.0.0.0 spynet2.microsoft.com
-0.0.0.0 spynetalt.microsoft.com
 0.0.0.0 spyvisit.com
 0.0.0.0 src.labeldollars.com
 0.0.0.0 srv123.com
@@ -14194,7 +14184,6 @@
 0.0.0.0 stats.g.doubleclick.net
 0.0.0.0 stats.l.doubleclick.net
 0.0.0.0 stats.olark.com
-0.0.0.0 stats.paypal.com
 0.0.0.0 stats.reinvigorate.net
 0.0.0.0 stats.royalbank.com
 0.0.0.0 stats.searchtrack.net
@@ -14204,8 +14193,6 @@
 0.0.0.0 stats.yellowphoenix18.de
 0.0.0.0 stats4all.com
 0.0.0.0 stats4free.de
-0.0.0.0 statsfe1.ws.microsoft.com
-0.0.0.0 statsfe2.ws.microsoft.com
 0.0.0.0 statsy.net
 0.0.0.0 stattrack.0catch.com
 0.0.0.0 statuscake-email.com
@@ -14328,11 +14315,9 @@
 0.0.0.0 telemetry.battle.net
 0.0.0.0 telemetry.gfe.nvidia.com
 0.0.0.0 telemetry.jivosite.com
-0.0.0.0 telemetry.microsoft.com
 0.0.0.0 telemetry.microsoft.com.nsatc.net
 0.0.0.0 telemetry.mozilla.org
 0.0.0.0 telemetry.nvidia.com
-0.0.0.0 telemetry.urs.microsoft.com
 0.0.0.0 televisions2compare.com
 0.0.0.0 telize.com
 0.0.0.0 tellapart.com
@@ -14841,7 +14826,6 @@
 0.0.0.0 voluumtrk3.com
 0.0.0.0 vortex-bn2.metron.live.com.nsatc.net
 0.0.0.0 vortex-cy2.metron.live.com.nsatc.net
-0.0.0.0 vortex-win.data.microsoft.com
 0.0.0.0 voucher-club.com
 0.0.0.0 voucheralley.com
 0.0.0.0 vouchercodeclub.com
@@ -14862,7 +14846,6 @@
 0.0.0.0 watcheezy.net
 0.0.0.0 waterthurst.com
 0.0.0.0 watson.live.com
-0.0.0.0 watson.microsoft.com
 0.0.0.0 waudit.cz
 0.0.0.0 wayjump.com
 0.0.0.0 wci-fl.com

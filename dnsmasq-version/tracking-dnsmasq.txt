@@ -2,9 +2,9 @@
 # Description: Tracking and analytics
 # Homepage: https://github.com/blocklistproject/Lists
 # License: MIT
-# Last modified: 2026-06-22 06:40:10 UTC
+# Last modified: 2026-06-22 09:52:58 UTC
 # Format: dnsmasq
-# Entries: 15,069
+# Entries: 15,052
 # URL: 
 #
 # This list is maintained by The Block List Project
@@ -415,7 +415,6 @@ server=/advertising.amazon.co.uk/
 server=/advertising.aol.com/
 server=/advertising.bbcworldwide.com/
 server=/advertising.com/
-server=/advertising.microsoft.com/
 server=/adverts.itv.com/
 server=/advertserve.com/
 server=/adviva.net/
@@ -580,7 +579,6 @@ server=/analytics.live-panorama.com/
 server=/analytics.live.com/
 server=/analytics.magelan.it/
 server=/analytics.meaww.com/
-server=/analytics.microsoft.com/
 server=/analytics.msn.com/
 server=/analytics.newsinc.com/
 server=/analytics.nionex.net/
@@ -833,7 +831,6 @@ server=/bigspeedpro.com/
 server=/bigtentresearch.com/
 server=/bigtentresearch.net/
 server=/billmscurlrev.com/
-server=/bingads.microsoft.com/
 server=/bis-dic15.com/
 server=/bispd.com/
 server=/bisrv.com/
@@ -1634,7 +1631,6 @@ server=/distralytics.com/
 server=/dl-rms.com/
 server=/dleke.com/
 server=/dlqm.net/
-server=/dmd.metaservices.microsoft.com/
 server=/dmp.theadex.com/
 server=/dmtracker.com/
 server=/dmtracking2.alibaba.com/
@@ -2333,7 +2329,6 @@ server=/iasds01.com/
 server=/ib-ibi.com/
 server=/ibillboard.com/
 server=/icandi.de/
-server=/id.google.com/
 server=/id.google.de/
 server=/idaguang.com/
 server=/idev.bookingline.bucksnet.co.uk/
@@ -2772,11 +2767,9 @@ server=/metalyzer.com/
 server=/meteora.co/
 server=/meteora.us/
 server=/metric.asos.com/
-server=/metric.gstatic.com/
 server=/metric.ind.rediff.com/
 server=/metric.rediff.com/
 server=/metrics.aftonbladet.se/
-server=/metrics.apple.com/
 server=/metrics.argos.co.uk/
 server=/metrics.barclays.co.uk/
 server=/metrics.cbc.ca/
@@ -13891,7 +13884,6 @@ server=/service.avail.net/
 server=/serving-sys.com/
 server=/servingclks.com/
 server=/sessioncam.com/
-server=/settings-win.data.microsoft.com/
 server=/sex-affiliation.com/
 server=/sexad.net/
 server=/sexcount.com/
@@ -14158,8 +14150,6 @@ server=/sprinkletxt.com/
 server=/sptslmtrafms.com/
 server=/spylog.com/
 server=/spylog.ru/
-server=/spynet2.microsoft.com/
-server=/spynetalt.microsoft.com/
 server=/spyvisit.com/
 server=/src.labeldollars.com/
 server=/srv123.com/
@@ -14194,7 +14184,6 @@ server=/stats.ft.com/
 server=/stats.g.doubleclick.net/
 server=/stats.l.doubleclick.net/
 server=/stats.olark.com/
-server=/stats.paypal.com/
 server=/stats.reinvigorate.net/
 server=/stats.royalbank.com/
 server=/stats.searchtrack.net/
@@ -14204,8 +14193,6 @@ server=/stats.wp.com/
 server=/stats.yellowphoenix18.de/
 server=/stats4all.com/
 server=/stats4free.de/
-server=/statsfe1.ws.microsoft.com/
-server=/statsfe2.ws.microsoft.com/
 server=/statsy.net/
 server=/stattrack.0catch.com/
 server=/statuscake-email.com/
@@ -14328,11 +14315,9 @@ server=/telemetry.appex.bing.net/
 server=/telemetry.battle.net/
 server=/telemetry.gfe.nvidia.com/
 server=/telemetry.jivosite.com/
-server=/telemetry.microsoft.com/
 server=/telemetry.microsoft.com.nsatc.net/
 server=/telemetry.mozilla.org/
 server=/telemetry.nvidia.com/
-server=/telemetry.urs.microsoft.com/
 server=/televisions2compare.com/
 server=/telize.com/
 server=/tellapart.com/
@@ -14841,7 +14826,6 @@ server=/voluumtrk2.com/
 server=/voluumtrk3.com/
 server=/vortex-bn2.metron.live.com.nsatc.net/
 server=/vortex-cy2.metron.live.com.nsatc.net/
-server=/vortex-win.data.microsoft.com/
 server=/voucher-club.com/
 server=/voucheralley.com/
 server=/vouchercodeclub.com/
@@ -14862,7 +14846,6 @@ server=/waparena.xyz/
 server=/watcheezy.net/
 server=/waterthurst.com/
 server=/watson.live.com/
-server=/watson.microsoft.com/
 server=/waudit.cz/
 server=/wayjump.com/
 server=/wci-fl.com/

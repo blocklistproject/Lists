@@ -2,9 +2,9 @@
 # Description: Phishing domains
 # Homepage: https://github.com/blocklistproject/Lists
 # License: MIT
-# Last modified: 2026-06-22 06:40:09 UTC
+# Last modified: 2026-06-22 09:52:54 UTC
 # Format: domains
-# Entries: 190,225
+# Entries: 190,223
 # URL: 
 #
 # This list is maintained by The Block List Project
@@ -42109,7 +42109,6 @@ gitelocationgroupebailleul.com
 gitess.com
 githabulrangers.com.au
 githaralaw.co.ke
-github.com
 gitixieb.huv.fastsize.ru
 gitlab.do-lang.org
 gitlab.whiteops.io
@@ -77079,7 +77078,6 @@ paypal.com-x-signin.review-case.a882888cfdf8e2a355b768086dfb58a0.info
 paypal.com.0.confirmation.account-security.39612823e89e12155115a36a9b9328ae39612823e89e12155115a36a9b932.3233.privado.info
 paypal.com.798273.ml
 paypal.com.7updatetonew.duckdns.org
-paypal.com.account.security.mo.verification.iatxmjzqhibe81zbfzz.checksecurity.jnidicadefnaleaa46cq6nxackdbw.secure.account-stats
 paypal.com.account.update.paypal.com.paradiseyouthclub.com
 paypal.com.amaaonaws.com
 paypal.com.au-deviceid7956075-customer83034.julienobles.com

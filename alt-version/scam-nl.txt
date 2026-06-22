@@ -2,9 +2,9 @@
 # Description: Scam domains
 # Homepage: https://github.com/blocklistproject/Lists
 # License: MIT
-# Last modified: 2026-06-22 06:40:10 UTC
+# Last modified: 2026-06-22 09:52:58 UTC
 # Format: domains
-# Entries: 1,278
+# Entries: 1,275
 # URL: 
 #
 # This list is maintained by The Block List Project
@@ -154,11 +154,9 @@ bull-option.com
 bullionoption.org
 bulliontrade24.com
 buloption.com
-bunwaejrx.com #issue 44 add request
 burgershirt.com
 buydubuy.com
 buzzazone.com
-calcotsjvila.cat #issue 45 add requeset
 candlesbymadison.com
 caperforaciones.com
 capitalmult.com
@@ -326,7 +324,6 @@ get-cracked.com
 getproductkeys.get-cracked.com
 gghacks.com
 giftbias.com
-github.com
 gladiadormalas.com.br
 glanceclock.com
 glendaz.com

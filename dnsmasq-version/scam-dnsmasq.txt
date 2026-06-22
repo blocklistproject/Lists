@@ -2,9 +2,9 @@
 # Description: Scam domains
 # Homepage: https://github.com/blocklistproject/Lists
 # License: MIT
-# Last modified: 2026-06-22 06:40:10 UTC
+# Last modified: 2026-06-22 09:52:58 UTC
 # Format: dnsmasq
-# Entries: 1,278
+# Entries: 1,275
 # URL: 
 #
 # This list is maintained by The Block List Project
@@ -154,11 +154,9 @@ server=/bull-option.com/
 server=/bullionoption.org/
 server=/bulliontrade24.com/
 server=/buloption.com/
-server=/bunwaejrx.com #issue 44 add request/
 server=/burgershirt.com/
 server=/buydubuy.com/
 server=/buzzazone.com/
-server=/calcotsjvila.cat #issue 45 add requeset/
 server=/candlesbymadison.com/
 server=/caperforaciones.com/
 server=/capitalmult.com/
@@ -326,7 +324,6 @@ server=/get-cracked.com/
 server=/getproductkeys.get-cracked.com/
 server=/gghacks.com/
 server=/giftbias.com/
-server=/github.com/
 server=/gladiadormalas.com.br/
 server=/glanceclock.com/
 server=/glendaz.com/
