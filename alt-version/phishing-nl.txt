@@ -2,9 +2,9 @@
 # Description: Phishing domains
 # Homepage: https://github.com/blocklistproject/Lists
 # License: MIT
-# Last modified: 2026-06-22 15:15:19 UTC
+# Last modified: 2026-06-22 15:34:59 UTC
 # Format: domains
-# Entries: 190,223
+# Entries: 190,224
 # URL: 
 #
 # This list is maintained by The Block List Project
@@ -103500,6 +103500,7 @@ uk-account-support.com
 uk-appleid.com
 uk-appleidservice.com
 uk-bnk.com
+uk-dpd-parcelmovex.sbs
 uk-paypal.net
 uk-refund-support.com
 uk-restore.com
