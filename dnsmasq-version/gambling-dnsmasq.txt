@@ -2,9 +2,9 @@
 # Description: Gambling sites
 # Homepage: https://github.com/blocklistproject/Lists
 # License: MIT
-# Last modified: 2025-12-19 16:39:32 UTC
+# Last modified: 2026-06-22 00:08:58 UTC
 # Format: dnsmasq
-# Entries: 2,500
+# Entries: 2,510
 # URL: 
 #
 # This list is maintained by The Block List Project
@@ -45,6 +45,7 @@ server=/724sports.com/
 server=/777.com/
 server=/7777.bg/
 server=/777bets.co.uk/
+server=/789bingo.com/
 server=/7epta7.com/
 server=/7godscasino.com/
 server=/7jackpots.com/
@@ -959,6 +960,10 @@ server=/playgrandcasino.com/
 server=/playojo.com/
 server=/playolg.ca/
 server=/playsugarhouse.com/
+server=/playtime.org.ph/
+server=/playtimeapp.net/
+server=/playtimecasino.ph/
+server=/playtimegame.com.ph/
 server=/plexodds.com/
 server=/plus.betway.com/
 server=/pocketvegas.co.uk/
@@ -1038,6 +1043,7 @@ server=/sblp.intertops.eu/
 server=/sbobet.com/
 server=/scandibet.com/
 server=/scasino.com/
+server=/scattergamesph.com/
 server=/score99.net/
 server=/scotbet.com/
 server=/seabet.com/
@@ -1190,6 +1196,7 @@ server=/toals.co.uk/
 server=/tommyfrench.com/
 server=/tomwaterhouse.com/
 server=/tonybet.com/
+server=/top-onlinecasino.ph/
 server=/topbet.eu/
 server=/topbetta.com/
 server=/topbetta.com.au/
@@ -1237,6 +1244,7 @@ server=/viks.com/
 server=/villabet.com/
 server=/vinnarum.com/
 server=/vipsports.eu/
+server=/visioncasino.net/
 server=/vitalbet.com/
 server=/voltbet.com/
 server=/voodoodreams.com/
@@ -2203,6 +2211,7 @@ server=/www.playgrandcasino.com/
 server=/www.playnow.com/
 server=/www.playojo.com/
 server=/www.playolg.ca/
+server=/www.playtime.ph/
 server=/www.playzax-top.com/
 server=/www.plexodds.com/
 server=/www.pocketvegas.co.uk/
@@ -2228,6 +2237,7 @@ server=/www.pro-factory.com/
 server=/www.proline.ca/
 server=/www.promotions.epic.partners/
 server=/www.propawin.com/
+server=/www.ptgaming.ph/
 server=/www.punchbets.com/
 server=/www.purepoker.eu/
 server=/www.queenvegas.com/
@@ -2511,4 +2521,3 @@ server=/zebrabet.com.au/
 server=/zenitbet.com/
 server=/zetpoker.eu/
 server=/zodiacu.com/
-server=/789bingo.com/

@@ -2,9 +2,9 @@
 # Description: Drug-related domains
 # Homepage: https://github.com/blocklistproject/Lists
 # License: MIT
-# Last modified: 2025-12-19 16:39:31 UTC
+# Last modified: 2026-06-22 00:08:58 UTC
 # Format: dnsmasq
-# Entries: 26,031
+# Entries: 26,030
 # URL: 
 #
 # This list is maintained by The Block List Project
@@ -3753,7 +3753,6 @@ server=/copperknife.com/
 server=/copye.net/
 server=/copyor.com/
 server=/coralynmarcia.ru/
-server=/corbina.ru/
 server=/cordero.com/
 server=/cordiemignon.su/
 server=/core-wax.com/
@@ -5766,6 +5765,7 @@ server=/formjoin.com/
 server=/forsteam.ru/
 server=/forthehigh.at/
 server=/fortlite.com/
+server=/forum.grasscity.com/
 server=/forum.luckybiologicalsale.be/
 server=/forum.magicsafeprogram.su/
 server=/forumnews02.kokoom.com/
@@ -19423,7 +19423,6 @@ server=/www.consultshaw.com/
 server=/www.contact-recustomer.com/
 server=/www.coolsex.smartherbsdeal.su/
 server=/www.coralynmarcia.ru/
-server=/www.corbina.ru/
 server=/www.cordero.com/
 server=/www.cordiemignon.su/
 server=/www.corenaaurie.ru/
@@ -20190,6 +20189,7 @@ server=/www.for-diet4fatloss.world/
 server=/www.forepoll.biz/
 server=/www.forever-fatlost.net/
 server=/www.forgettingthepill.com/
+server=/www.forum.grasscity.com/
 server=/www.forum.luckybiologicalsale.be/
 server=/www.forum.magicsafeprogram.su/
 server=/www.foryourx.com/

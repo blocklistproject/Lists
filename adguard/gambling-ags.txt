@@ -2,9 +2,9 @@
 ! Description: Gambling sites
 ! Homepage: https://github.com/blocklistproject/Lists
 ! License: MIT
-! Last modified: 2025-12-19 16:39:32 UTC
+! Last modified: 2026-06-22 00:08:58 UTC
 ! Format: AdGuard
-! Entries: 2,500
+! Entries: 2,510
 ! URL: 
 !
 ! This list is maintained by The Block List Project
@@ -45,6 +45,7 @@
 ||777.com^
 ||7777.bg^
 ||777bets.co.uk^
+||789bingo.com^
 ||7epta7.com^
 ||7godscasino.com^
 ||7jackpots.com^
@@ -959,6 +960,10 @@
 ||playojo.com^
 ||playolg.ca^
 ||playsugarhouse.com^
+||playtime.org.ph^
+||playtimeapp.net^
+||playtimecasino.ph^
+||playtimegame.com.ph^
 ||plexodds.com^
 ||plus.betway.com^
 ||pocketvegas.co.uk^
@@ -1038,6 +1043,7 @@
 ||sbobet.com^
 ||scandibet.com^
 ||scasino.com^
+||scattergamesph.com^
 ||score99.net^
 ||scotbet.com^
 ||seabet.com^
@@ -1190,6 +1196,7 @@
 ||tommyfrench.com^
 ||tomwaterhouse.com^
 ||tonybet.com^
+||top-onlinecasino.ph^
 ||topbet.eu^
 ||topbetta.com^
 ||topbetta.com.au^
@@ -1237,6 +1244,7 @@
 ||villabet.com^
 ||vinnarum.com^
 ||vipsports.eu^
+||visioncasino.net^
 ||vitalbet.com^
 ||voltbet.com^
 ||voodoodreams.com^
@@ -2203,6 +2211,7 @@
 ||www.playnow.com^
 ||www.playojo.com^
 ||www.playolg.ca^
+||www.playtime.ph^
 ||www.playzax-top.com^
 ||www.plexodds.com^
 ||www.pocketvegas.co.uk^
@@ -2228,6 +2237,7 @@
 ||www.proline.ca^
 ||www.promotions.epic.partners^
 ||www.propawin.com^
+||www.ptgaming.ph^
 ||www.punchbets.com^
 ||www.purepoker.eu^
 ||www.queenvegas.com^
@@ -2511,4 +2521,3 @@
 ||zenitbet.com^
 ||zetpoker.eu^
 ||zodiacu.com^
-||789bingo.com^

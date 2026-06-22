@@ -2,9 +2,9 @@
 ! Description: Drug-related domains
 ! Homepage: https://github.com/blocklistproject/Lists
 ! License: MIT
-! Last modified: 2025-12-19 16:39:31 UTC
+! Last modified: 2026-06-22 00:08:58 UTC
 ! Format: AdGuard
-! Entries: 26,031
+! Entries: 26,030
 ! URL: 
 !
 ! This list is maintained by The Block List Project
@@ -3753,7 +3753,6 @@
 ||copye.net^
 ||copyor.com^
 ||coralynmarcia.ru^
-||corbina.ru^
 ||cordero.com^
 ||cordiemignon.su^
 ||core-wax.com^
@@ -5766,6 +5765,7 @@
 ||forsteam.ru^
 ||forthehigh.at^
 ||fortlite.com^
+||forum.grasscity.com^
 ||forum.luckybiologicalsale.be^
 ||forum.magicsafeprogram.su^
 ||forumnews02.kokoom.com^
@@ -19423,7 +19423,6 @@
 ||www.contact-recustomer.com^
 ||www.coolsex.smartherbsdeal.su^
 ||www.coralynmarcia.ru^
-||www.corbina.ru^
 ||www.cordero.com^
 ||www.cordiemignon.su^
 ||www.corenaaurie.ru^
@@ -20190,6 +20189,7 @@
 ||www.forepoll.biz^
 ||www.forever-fatlost.net^
 ||www.forgettingthepill.com^
+||www.forum.grasscity.com^
 ||www.forum.luckybiologicalsale.be^
 ||www.forum.magicsafeprogram.su^
 ||www.foryourx.com^
