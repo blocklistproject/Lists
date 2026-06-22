@@ -2,9 +2,9 @@
 # Description: Ad serving domains
 # Homepage: https://github.com/blocklistproject/Lists
 # License: MIT
-# Last modified: 2026-06-22 17:34:50 UTC
+# Last modified: 2026-06-22 18:10:36 UTC
 # Format: domains
-# Entries: 154,412
+# Entries: 154,409
 # URL: 
 #
 # This list is maintained by The Block List Project
@@ -116947,7 +116947,6 @@ sheknows-stylecaster.t.domdex.com
 sheknows-tagan.adlightning.com
 sheknows-uncategorized.t.domdex.com
 sheknows.us.intellitxt.com
-sheldonbrown.com
 shell.demdex.net
 shell.tt.omtrdc.net
 shellersyheaefm.download
@@ -148596,8 +148595,6 @@ www.sharethis.com
 www.sharethrough.com
 www.shdfsdf.info
 www.shecards.net
-www.sheetedgfypgdtws.download
-www.sheldonbrown.com
 www.shellersyheaefm.download
 www.sheshine.com
 www.shglegle.com
