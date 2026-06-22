@@ -2,9 +2,9 @@
 # Description: Tracking and analytics
 # Homepage: https://github.com/blocklistproject/Lists
 # License: MIT
-# Last modified: 2026-06-22 19:21:46 UTC
+# Last modified: 2026-06-22 22:42:02 UTC
 # Format: dnsmasq
-# Entries: 15,052
+# Entries: 15,051
 # URL: 
 #
 # This list is maintained by The Block List Project
@@ -2679,7 +2679,6 @@ server=/mailtrack.me/
 server=/mainad.com/
 server=/mainadv.com/
 server=/maintrack.us/
-server=/mandrillapp.com/
 server=/map2.ssl.hwcdn.net/
 server=/margree.com/
 server=/marinsm.com/
