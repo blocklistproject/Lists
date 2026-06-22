@@ -2,7 +2,7 @@
 # Description: URL shorteners and redirects
 # Homepage: https://github.com/blocklistproject/Lists
 # License: MIT
-# Last modified: 2026-06-22 22:42:02 UTC
+# Last modified: 2026-06-22 22:47:18 UTC
 # Format: dnsmasq
 # Entries: 108,684
 # URL: 

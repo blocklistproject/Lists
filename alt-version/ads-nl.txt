@@ -2,9 +2,9 @@
 # Description: Ad serving domains
 # Homepage: https://github.com/blocklistproject/Lists
 # License: MIT
-# Last modified: 2026-06-22 22:41:58 UTC
+# Last modified: 2026-06-22 22:47:14 UTC
 # Format: domains
-# Entries: 154,409
+# Entries: 154,408
 # URL: 
 #
 # This list is maintained by The Block List Project
@@ -140089,7 +140089,6 @@ wa.eonline.com
 wa.essent.nl
 wa.koowo.com
 wa.kuwo.cn
-wa.me
 wa.metro.co.uk
 wa.ui-portal.de
 wa4etw9l.top
