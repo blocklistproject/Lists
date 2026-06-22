@@ -2,7 +2,7 @@
 # Description: Adult content domains
 # Homepage: https://github.com/blocklistproject/Lists
 # License: MIT
-# Last modified: 2026-06-22 18:10:40 UTC
+# Last modified: 2026-06-22 19:21:45 UTC
 # Format: hosts
 # Entries: 0
 # URL: 
