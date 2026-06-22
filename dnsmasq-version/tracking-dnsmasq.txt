@@ -2,7 +2,7 @@
 # Description: Tracking and analytics
 # Homepage: https://github.com/blocklistproject/Lists
 # License: MIT
-# Last modified: 2026-06-22 00:09:00 UTC
+# Last modified: 2026-06-22 06:29:20 UTC
 # Format: dnsmasq
 # Entries: 15,070
 # URL: 

@@ -2,9 +2,9 @@
 # Description: Scam domains
 # Homepage: https://github.com/blocklistproject/Lists
 # License: MIT
-# Last modified: 2026-06-22 00:09:00 UTC
+# Last modified: 2026-06-22 06:29:20 UTC
 # Format: dnsmasq
-# Entries: 1,275
+# Entries: 1,278
 # URL: 
 #
 # This list is maintained by The Block List Project
@@ -326,6 +326,7 @@ server=/get-cracked.com/
 server=/getproductkeys.get-cracked.com/
 server=/gghacks.com/
 server=/giftbias.com/
+server=/github.com/
 server=/gladiadormalas.com.br/
 server=/glanceclock.com/
 server=/glendaz.com/
@@ -392,6 +393,7 @@ server=/jollyfamilygifts.net/
 server=/jorvanda.com/
 server=/joseph-holland.com/
 server=/justbasicshop.com/
+server=/kazwex.com/
 server=/keygen.get-cracked.com/
 server=/khoinguyenhanoi.vn/
 server=/kigurumi-usa.com/
@@ -1240,6 +1242,7 @@ server=/www.trendygladys.com/
 server=/www.treverschmelerkris18.myshopify.com/
 server=/www.tritino.net/
 server=/www.tromselementbygg.no/
+server=/www.trustpilot.com/
 server=/www.tulumwellnessacademy.com/
 server=/www.tycomex.com/
 server=/www.ultimate-tech-products.myshopify.com/

@@ -2,9 +2,9 @@
 # Description: Scam domains
 # Homepage: https://github.com/blocklistproject/Lists
 # License: MIT
-# Last modified: 2026-06-22 00:09:00 UTC
+# Last modified: 2026-06-22 06:29:20 UTC
 # Format: hosts
-# Entries: 1,275
+# Entries: 1,278
 # URL: 
 #
 # This list is maintained by The Block List Project
@@ -326,6 +326,7 @@
 0.0.0.0 getproductkeys.get-cracked.com
 0.0.0.0 gghacks.com
 0.0.0.0 giftbias.com
+0.0.0.0 github.com
 0.0.0.0 gladiadormalas.com.br
 0.0.0.0 glanceclock.com
 0.0.0.0 glendaz.com
@@ -392,6 +393,7 @@
 0.0.0.0 jorvanda.com
 0.0.0.0 joseph-holland.com
 0.0.0.0 justbasicshop.com
+0.0.0.0 kazwex.com
 0.0.0.0 keygen.get-cracked.com
 0.0.0.0 khoinguyenhanoi.vn
 0.0.0.0 kigurumi-usa.com
@@ -1240,6 +1242,7 @@
 0.0.0.0 www.treverschmelerkris18.myshopify.com
 0.0.0.0 www.tritino.net
 0.0.0.0 www.tromselementbygg.no
+0.0.0.0 www.trustpilot.com
 0.0.0.0 www.tulumwellnessacademy.com
 0.0.0.0 www.tycomex.com
 0.0.0.0 www.ultimate-tech-products.myshopify.com
@@ -1286,6 +1289,3 @@
 0.0.0.0 zedoption.com
 0.0.0.0 zgalaxytee.com
 0.0.0.0 zukoptions.com
-0.0.0.0 kazwex.com
-0.0.0.0 www.trustpilot.com
-0.0.0.0 github.com

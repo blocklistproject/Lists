@@ -2,9 +2,9 @@
 ! Description: Ad serving domains
 ! Homepage: https://github.com/blocklistproject/Lists
 ! License: MIT
-! Last modified: 2026-06-22 00:08:58 UTC
+! Last modified: 2026-06-22 06:29:18 UTC
 ! Format: AdGuard
-! Entries: 154,553
+! Entries: 154,554
 ! URL: 
 !
 ! This list is maintained by The Block List Project
@@ -31234,6 +31234,7 @@
 ||adsby.bidtheatre.com^
 ||adsby.breezeads.com^
 ||adsby.effective-ads.com^
+||adsby.io^
 ||adsby.klikki.com^
 ||adsby.popupmoney.com^
 ||adsby.webtraffic.se^
@@ -102718,6 +102719,7 @@
 ||panel.research-int.se^
 ||panel.scorecardresearch.com^
 ||panel.vargakragard.se^
+||panel.webanalytic.org^
 ||panel2.research-int.se^
 ||panelapi.veinteractive.com^
 ||panelapihk.veinteractive.com^
@@ -121776,7 +121778,6 @@
 ||static.itrack.it^
 ||static.jp.as.criteo.net^
 ||static.juicyads.com^
-||static.jvc.gg^
 ||static.kameleoon.com^
 ||static.kameleoon.eu^
 ||static.kibboko.com^

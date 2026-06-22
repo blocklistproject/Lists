@@ -2,9 +2,9 @@
 # Description: Scam domains
 # Homepage: https://github.com/blocklistproject/Lists
 # License: MIT
-# Last modified: 2026-06-22 00:09:00 UTC
+# Last modified: 2026-06-22 06:29:20 UTC
 # Format: domains
-# Entries: 1,275
+# Entries: 1,278
 # URL: 
 #
 # This list is maintained by The Block List Project
@@ -326,6 +326,7 @@ get-cracked.com
 getproductkeys.get-cracked.com
 gghacks.com
 giftbias.com
+github.com
 gladiadormalas.com.br
 glanceclock.com
 glendaz.com
@@ -392,6 +393,7 @@ jollyfamilygifts.net
 jorvanda.com
 joseph-holland.com
 justbasicshop.com
+kazwex.com
 keygen.get-cracked.com
 khoinguyenhanoi.vn
 kigurumi-usa.com
@@ -1240,6 +1242,7 @@ www.trendygladys.com
 www.treverschmelerkris18.myshopify.com
 www.tritino.net
 www.tromselementbygg.no
+www.trustpilot.com
 www.tulumwellnessacademy.com
 www.tycomex.com
 www.ultimate-tech-products.myshopify.com
