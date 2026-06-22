@@ -1286,3 +1286,6 @@
 0.0.0.0 zedoption.com
 0.0.0.0 zgalaxytee.com
 0.0.0.0 zukoptions.com
+0.0.0.0 kazwex.com
+0.0.0.0 www.trustpilot.com
+0.0.0.0 github.com
