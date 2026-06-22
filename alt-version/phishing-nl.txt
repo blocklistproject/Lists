@@ -2,9 +2,9 @@
 # Description: Phishing domains
 # Homepage: https://github.com/blocklistproject/Lists
 # License: MIT
-# Last modified: 2026-06-22 18:10:40 UTC
+# Last modified: 2026-06-22 19:21:45 UTC
 # Format: domains
-# Entries: 190,224
+# Entries: 190,225
 # URL: 
 #
 # This list is maintained by The Block List Project
@@ -95393,6 +95393,7 @@ statwald.de
 staubsblog.com
 staubwoelkchen.at
 stavreko.cz
+stay-house24891.com
 stayclassy.ru
 staydryboatlauncher.com
 stayinsa.co.za
