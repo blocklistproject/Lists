@@ -2,7 +2,7 @@
 ! Description: URL shorteners and redirects
 ! Homepage: https://github.com/blocklistproject/Lists
 ! License: MIT
-! Last modified: 2026-06-23 16:04:22 UTC
+! Last modified: 2026-06-23 16:04:59 UTC
 ! Format: AdGuard
 ! Entries: 108,685
 ! URL: 
