@@ -2,9 +2,9 @@
 # Description: Phishing domains
 # Homepage: https://github.com/blocklistproject/Lists
 # License: MIT
-# Last modified: 2026-06-23 05:37:35 UTC
+# Last modified: 2026-06-23 05:41:48 UTC
 # Format: domains
-# Entries: 190,224
+# Entries: 190,226
 # URL: 
 #
 # This list is maintained by The Block List Project
@@ -15717,6 +15717,7 @@ bendemeertouristpark.com.au
 benderpainting.bc.ca
 benderterrace.net
 bendery-fortress.com
+bendigorewardsaj-homes.info
 bendinat-villa.com
 bendiouis-immobilier.com
 benditagraca.com.br
@@ -122128,6 +122129,7 @@ www.bendemeertouristpark.com.au
 www.benderpainting.bc.ca
 www.benderterrace.net
 www.bendery-fortress.com
+www.bendigorewardsaj-homes.info
 www.bendinat-villa.com
 www.bendmunchkinmanor.com
 www.bends.in
