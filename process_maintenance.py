@@ -159,6 +159,8 @@ def process_maintenance_issue(issue):
         print('  No dead domains found in sample; skipping')
         comment = f'Checked {len(domains_to_check)} domains from the sample; all appear alive. No action taken.'
         subprocess.run(['gh', 'issue', 'comment', str(issue_num), '--body', comment], cwd=REPO_DIR, check=True)
+
+        subprocess.run(['gh', 'issue', 'close', str(issue_num), '--reason', 'completed'], cwd=REPO_DIR, check=True)
         return
     
     # For each dead domain, find which lists it belongs to and remove
@@ -174,6 +176,8 @@ def process_maintenance_issue(issue):
         print('  No domains found in any list; skipping')
         comment = f'Checked {len(dead_domains)} dead domains from sample; none found in current lists. No action taken.'
         subprocess.run(['gh', 'issue', 'comment', str(issue_num), '--body', comment], cwd=REPO_DIR, check=True)
+
+        subprocess.run(['gh', 'issue', 'close', str(issue_num), '--reason', 'completed'], cwd=REPO_DIR, check=True)
         return
     
     # Prepare commit message
@@ -228,16 +232,19 @@ def process_maintenance_issue(issue):
                   '\n'.join([f'- {domain} (from: {", ".join(lists)})' for domain, lists in removed_from.items()]) + \
                   f'\n\nCommit: {commit_sha}'
         subprocess.run(['gh', 'issue', 'comment', str(issue_num), '--body', comment], cwd=REPO_DIR, check=True)
+
+        subprocess.run(['gh', 'issue', 'close', str(issue_num), '--reason', 'completed'], cwd=REPO_DIR, check=True)
         
         # Update labels: remove status:needs-triage, add status:verified-removed
         subprocess.run(['gh', 'issue', 'edit', str(issue_num), '--remove-label', 'status:needs-triage'], cwd=REPO_DIR, check=True)
-        subprocess.run(['gh', 'issue', 'edit', str(issue_num), '--add-label', 'status:verified-removed'], cwd=REPO_DIR, check=True)
         
         print(f'  Processed issue #{issue_num}')
     except subprocess.CalledProcessError as e:
         print(f'  Error processing issue #{issue_num}: {e}')
         comment = f'Failed to process dead domains: {e}'
         subprocess.run(['gh', 'issue', 'comment', str(issue_num), '--body', comment], cwd=REPO_DIR, check=True)
+
+        subprocess.run(['gh', 'issue', 'close', str(issue_num), '--reason', 'completed'], cwd=REPO_DIR, check=True)
 
 def main():
     # Get all open maintenance issues
