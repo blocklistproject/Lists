@@ -2,9 +2,9 @@
 # Description: Ad serving domains
 # Homepage: https://github.com/blocklistproject/Lists
 # License: MIT
-# Last modified: 2026-06-23 18:57:24 UTC
+# Last modified: 2026-06-23 19:34:59 UTC
 # Format: domains
-# Entries: 154,405
+# Entries: 154,407
 # URL: 
 #
 # This list is maintained by The Block List Project
@@ -82433,6 +82433,7 @@ ivypx.voluumtrk.com
 iw.a.mobimagic.com
 iw3.a.mobimagic.com
 iwa.hit.interia.pl
+iwad.cachefly.net
 iwantmoar.net
 iwanttodeliver.com
 iwanttoearn.money
@@ -91203,6 +91204,7 @@ mdsrggcnmybae.bid
 mdstaugustine.112.2o7.net
 mdstrat.actonsoftware.com
 mdt-www.marketo.com
+mdtb.ads.aps.amazon-adsystem.com
 mdtopeka.112.2o7.net
 mdtrack.click
 mdulmrphzsnvw.com

@@ -2,7 +2,7 @@
 # Description: Fortnite-related domains
 # Homepage: https://github.com/blocklistproject/Lists
 # License: MIT
-# Last modified: 2026-06-23 18:57:24 UTC
+# Last modified: 2026-06-23 19:34:59 UTC
 # Format: dnsmasq
 # Entries: 5
 # URL: 
