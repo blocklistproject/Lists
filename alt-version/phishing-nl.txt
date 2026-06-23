@@ -2,9 +2,9 @@
 # Description: Phishing domains
 # Homepage: https://github.com/blocklistproject/Lists
 # License: MIT
-# Last modified: 2026-06-23 10:50:56 UTC
+# Last modified: 2026-06-23 10:52:03 UTC
 # Format: domains
-# Entries: 190,226
+# Entries: 190,225
 # URL: 
 #
 # This list is maintained by The Block List Project
@@ -127450,7 +127450,6 @@ www.cinemanetflix.com
 www.cinemania.us
 www.cinemanity.com
 www.cinemateus.com.br
-www.cinemazed.be
 www.cinemiz.net
 www.cinkantonlances.com
 www.cinny.athlodomi.com
