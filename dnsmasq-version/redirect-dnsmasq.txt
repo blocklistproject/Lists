@@ -2,9 +2,9 @@
 # Description: URL shorteners and redirects
 # Homepage: https://github.com/blocklistproject/Lists
 # License: MIT
-# Last modified: 2026-06-23 10:52:03 UTC
+# Last modified: 2026-06-23 10:56:16 UTC
 # Format: dnsmasq
-# Entries: 108,684
+# Entries: 108,685
 # URL: 
 #
 # This list is maintained by The Block List Project
@@ -12371,6 +12371,7 @@ server=/blocklearning.co.uk/
 server=/blocklessinter9tk.tk/
 server=/blocklink.info/
 server=/blocklinkbypass.tk/
+server=/blocklist.site/
 server=/blockmeno.com/
 server=/blockmenot.biz/
 server=/blockmenot.co.uk/
