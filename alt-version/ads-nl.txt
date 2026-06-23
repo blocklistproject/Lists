@@ -2,9 +2,9 @@
 # Description: Ad serving domains
 # Homepage: https://github.com/blocklistproject/Lists
 # License: MIT
-# Last modified: 2026-06-23 11:49:48 UTC
+# Last modified: 2026-06-23 16:04:11 UTC
 # Format: domains
-# Entries: 154,408
+# Entries: 154,405
 # URL: 
 #
 # This list is maintained by The Block List Project
@@ -37382,7 +37382,6 @@ api.sdk.wiman.io
 api.sdk.zadn.vn
 api.sdkbox.com
 api.searchiq.co
-api.sec.intl.miui.com
 api.sec.miui.com
 api.segment.io
 api.selfserve.rubiconproject.com
@@ -81694,7 +81693,6 @@ ip134.timesink.com
 ip193.cn
 ip2.casalemedia.com
 ip2c.landscape.co.jp
-ip2location.com
 ip2map.com
 ip2phrase.com
 ip400054.nym2.appnexus.com
@@ -142398,7 +142396,6 @@ ws.moengage.com
 ws.onthe.io
 ws.plmokn.pw
 ws.push-notifs.com
-ws.pusherapp.com
 ws.routehero.com
 ws.sessioncam.com
 ws.sharethis.com
