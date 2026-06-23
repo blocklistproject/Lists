@@ -2,9 +2,9 @@
 ! Description: Adult content domains
 ! Homepage: https://github.com/blocklistproject/Lists
 ! License: MIT
-! Last modified: 2026-06-23 18:46:52 UTC
+! Last modified: 2026-06-23 18:50:58 UTC
 ! Format: AdGuard
-! Entries: 2
+! Entries: 3
 ! URL: 
 !
 ! This list is maintained by The Block List Project
@@ -12,4 +12,5 @@
 !
 
 ||cumgloryhole.se^
+||reddvideo.tube^
 ||xiumhua.com cumgloryhole.se^

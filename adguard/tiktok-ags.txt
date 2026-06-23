@@ -2,7 +2,7 @@
 ! Description: TikTok domains
 ! Homepage: https://github.com/blocklistproject/Lists
 ! License: MIT
-! Last modified: 2026-06-23 18:46:52 UTC
+! Last modified: 2026-06-23 18:50:59 UTC
 ! Format: AdGuard
 ! Entries: 3,725
 ! URL: 
