@@ -2,9 +2,9 @@
 # Description: Ad serving domains
 # Homepage: https://github.com/blocklistproject/Lists
 # License: MIT
-# Last modified: 2026-06-23 19:34:59 UTC
+# Last modified: 2026-06-23 20:44:42 UTC
 # Format: domains
-# Entries: 154,407
+# Entries: 154,406
 # URL: 
 #
 # This list is maintained by The Block List Project
@@ -102226,7 +102226,6 @@ p2pmining.com
 p2pool.co
 p2pool.in
 p2pool.info
-p2pool.io
 p2pool.neocities.org
 p2pool.org
 p2pool.site
