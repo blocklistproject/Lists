@@ -2,7 +2,7 @@
 # Description: Facebook and Meta domains
 # Homepage: https://github.com/blocklistproject/Lists
 # License: MIT
-# Last modified: 2026-06-23 11:43:05 UTC
+# Last modified: 2026-06-23 11:44:18 UTC
 # Format: dnsmasq
 # Entries: 22,459
 # URL: 
