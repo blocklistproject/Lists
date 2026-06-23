@@ -2,7 +2,7 @@
 # Description: Ransomware C2 and distribution
 # Homepage: https://github.com/blocklistproject/Lists
 # License: MIT
-# Last modified: 2026-06-23 01:27:13 UTC
+# Last modified: 2026-06-23 01:27:29 UTC
 # Format: domains
 # Entries: 1,904
 # URL: 
