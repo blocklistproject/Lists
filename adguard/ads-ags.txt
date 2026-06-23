@@ -2,7 +2,7 @@
 ! Description: Ad serving domains
 ! Homepage: https://github.com/blocklistproject/Lists
 ! License: MIT
-! Last modified: 2026-06-23 18:50:58 UTC
+! Last modified: 2026-06-23 18:57:24 UTC
 ! Format: AdGuard
 ! Entries: 154,405
 ! URL: 

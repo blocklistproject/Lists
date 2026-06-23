@@ -2,9 +2,9 @@
 # Description: Facebook and Meta domains
 # Homepage: https://github.com/blocklistproject/Lists
 # License: MIT
-# Last modified: 2026-06-23 18:50:58 UTC
+# Last modified: 2026-06-23 18:57:24 UTC
 # Format: domains
-# Entries: 22,459
+# Entries: 22,362
 # URL: 
 #
 # This list is maintained by The Block List Project
@@ -236,7 +236,6 @@ ad-dk.lite.facebook.com
 adeo.facebook.com
 adipregister.new.facebook.com
 adistance.messenger.com
-admin.giphy.com
 admin.instagram.com
 admin.intern.facebook.com
 ads.facebook.com
@@ -616,7 +615,6 @@ any-graph.facebook.com
 anywhere.truevisions.tv.fb.me
 apache.mirror.facebook.net
 apacpolicy.fb.com
-api-qa.giphy.com
 api-read.facebook.com
 api-stage.p.oculusvr.com
 api-video.facebook.com
@@ -627,7 +625,6 @@ api.facebook.com
 api.fb.com
 api.fb.messenger.com
 api.fbcdn.com
-api.giphy.com
 api.google.fb.messenger.com
 api.instagram.com
 api.new.facebook.com
@@ -1395,13 +1392,10 @@ ar.messenger.com
 ar.yearinreview.fb.com
 ar2ipwlc8kh7p2u-pxe.hu-hu.fi-fi.m.lite.facebook.com
 ar51rdcqo3ms7.fr-fr.developers.prod.facebook.com
-arcade-qa.giphy.com
-arcade.giphy.com
 archiv.oculusvr.com
 argentinasinvacunas.beta.facebook.com
 artificialintelligence-notes.fb.me
 artistawake.facebook.com
-arts.giphy.com
 as-in.az-az.ro-ro.fbjs.facebook.com
 as-in.es-la.zh-cn.fbjs.facebook.com
 as-in.facebook.com
@@ -1624,7 +1618,6 @@ beta-shv-09-frc1.facebook.com
 beta.facebook.com
 beta.facebook.net
 beta.facedome.facebook.net
-beta.giphy.com
 beta.messenger.com
 beta.t.facebook.com
 beta.vvv.facebook.com
@@ -1751,7 +1744,6 @@ blackvirus.alpha.facebook.com
 block-test-facebook.developerdan.com
 block-test.developerdan.com
 blog.facebook.com
-blog.giphy.com
 blog.instagram.com
 blog.it-it.fbjs.facebook.com
 blog.lite.facebook.com
@@ -1998,14 +1990,8 @@ ccoronacv.extern.facebook.com
 ccoronacv.internmc.facebook.com
 ccrms.facebook.com
 cdg2.fbcdn.net
-cdn-qa.giphy.com
 cdn.fbsbx.com
-cdn.giphy.com
 cdn.whatsapp.net
-cdn0.giphy.com
-cdn1.giphy.com
-cdn2.giphy.com
-cdn4.giphy.com
 cdninstagram.com
 cdp.fb.com
 cekvirus.staging.scgraph.facebook.com
@@ -2108,7 +2094,6 @@ consumo.messenger.com
 content.fb.com
 contentdistributionpolicies.fb.com
 contentdistributionpolicy.fb.com
-cookies.giphy.com
 core01.m.beta.facebook.com
 coressabores2012.facebookbrand-2018-dev.fb.com
 corona-de-tucson.messenger.com
@@ -2164,7 +2149,6 @@ covid19updte.facebookbrand-preprod.fb.com
 cpan.mirror.facebook.net
 craneresorts.facebook.com
 crashlogs.whatsapp.net
-create.giphy.com
 creatingwebsite-maskolis.messenger.com
 creatingwebsite-maskolis.scgraph.facebook.com
 creative.cdninstagram.com
@@ -2916,7 +2900,6 @@ dev-web.whatsapp.com
 dev.facebook.com
 dev.facebookvirtualassistant.com
 dev.fb.com
-dev.giphy.com
 dev.messenger.com
 dev.oculusvr.com
 dev.vvv.facebook.com
@@ -2924,7 +2907,6 @@ dev1-de.fbjs.facebook.com
 dev1-portal.fbjs.facebook.com
 developer.facebook.com
 developer.facebook.net
-developer.giphy.com
 developer.messenger.com
 developer.oculus.com
 developer.oculusvr.com
@@ -2939,7 +2921,6 @@ developers.extern.facebook.com
 developers.facebook.com
 developers.facebook.net
 developers.fr-fr.es-la.he-il.fbjs.facebook.com
-developers.giphy.com
 developers.hu-hu.ar.lite.facebook.com
 developers.hu-hu.hu-hu.dns.facebook.com
 developers.hu-hu.it-it.prod.facebook.com
@@ -2953,7 +2934,6 @@ developers.new.facebook.com
 developers.oculus.com
 developers.prod.facebook.com
 developers.sv-se.fbjs.facebook.com
-devportal.giphy.com
 dialup.m.beta.facebook.com
 digitaleslernen.fb.com
 digitaleslernzentrum.fb.com
@@ -3020,7 +3000,6 @@ ds2-dev.fb.com
 ds2-preprod.fb.com
 dungeonhero.oculusvr.com
 duracell.facebook.com
-dvr.giphy.com
 dwcho3004545.oculusvr.com
 dxc.facebook.com
 dyi.www.instagram.com
@@ -3798,7 +3777,6 @@ edgetee-upload-staging-hkt.xx.fbcdn.net
 edgetee-upload-staging-sin.xx.fbcdn.net
 edgetee-upload-staging-sin6-2.xx.fbcdn.net
 edgetee-upload-staging-xsp.xx.fbcdn.net
-editor.giphy.com
 edpbr.facebook.com
 edppt.facebook.com
 edu.fb.com
@@ -4231,7 +4209,6 @@ en.gb.messenger.com
 en.lite.facebook.com
 engineerfortheweek.fb.com
 engineering.fb.com
-engineering.giphy.com
 engineering.instagram.com
 eni.facebook.com
 ent-a.xx.fbcdn.net
@@ -4259,8 +4236,6 @@ eo-eo.ka-ge.ro-ro.fbjs.facebook.com
 eo-eo.m.prod.facebook.com
 eo-eo.nb-no.ro-ro.fbjs.facebook.com
 eo-eo.www.fbjs.facebook.com
-ephemeral-media.giphy.com
-ephmedia.giphy.com
 epixel.fbjs.facebook.com
 epsilontel.facebook.com
 eqcoivd.fb.me
@@ -5040,7 +5015,6 @@ europe-fb.m.beta.facebook.com
 europeanunion.fb.com
 euwe-fb.m.beta.facebook.com
 events.fb.com
-events.giphy.com
 eventsfb.m.beta.facebook.com
 everis.facebook.com
 evg.oculusvr.com
@@ -6579,8 +6553,6 @@ fblite-mini.c10r.facebook.com
 fblite-p1.c10r.facebook.com
 fblite-ws-p1.c10r.facebook.com
 fblq3-1.fna.whatsapp.net
-fbm-bot-qa.giphy.com
-fbm-bot.giphy.com
 fbonly-test-bgp-01-eze1.facebook.com
 fbonly-test-bgp-02-bom1.facebook.com
 fbonly-test-bgp-02-mia3.facebook.com
@@ -7794,14 +7766,10 @@ ghcpim.fbjs.facebook.com
 ghmoupbqw8e5zla04skyctrj317f6xdn9v2i.fb.me
 ghostfacemask.messenger.com
 gi315.oculusvr.com
-gifdanceparty.giphy.com
 giftofgiving.fb.com
 gingerhotels.m.facebook.com
-giphy-analytics.giphy.com
-giphy.com
 giphy.fb.me
 giphy.map.fastly.net
-giphy_analytics.giphy.com
 giphyscripts.s3.amazonaws.com
 gl-es.aap.lite.facebook.com
 gl-es.af-za.ro-ro.fbjs.facebook.com
@@ -8652,8 +8620,6 @@ hy-am.zh-cn.zh-cn.fbjs.facebook.com
 hy-am.zh-tw.ro-ro.fbjs.facebook.com
 hydro.facebook.com
 hyperlapse.instagram.com
-i-test.giphy.com
-i.giphy.com
 i.instagram.com
 i.messenger.com
 ia.m.beta.facebook.com
@@ -8817,8 +8783,6 @@ image.dev.oculusvr.com
 image.email.oculusvr.com
 image.mc.facebookmail.com
 images.ak.instagram.com
-imaging-qa.giphy.com
-imaging.giphy.com
 imap.instagram.fmnl5-1.fna.fbcdn.net
 imap.messenger.com
 imap4.instagram.fmnl5-1.fna.fbcdn.net
@@ -8847,8 +8811,6 @@ infeccionvaginal.facebookbrand-dev.fb.com
 infeccionvaginal.messenger.com
 infection-resources-co.messenger.com
 info.internet.org
-ingest-qa.giphy.com
-ingest.giphy.com
 initiatives.france.fb.com
 inside.lite.facebook.com
 insidefeed.fb.com
@@ -11375,11 +11337,9 @@ jagltsd.fr-fr-public.fbjs.facebook.com
 japankai.facebook.com
 jawbreaker.facebookbrand-2018-preprod.fb.com
 jazz-clap-coop.facebook.com
-jenkins.giphy.com
 jetairways.m.facebook.com
 jguuc5.dns.facebook.com
 job.edge-tcp-tunnel-shv-01-mba1.fbjs.facebook.com
-jobs.giphy.com
 jobsatecovib2d.fb.me
 jp.messenger.com
 jp.yearinreview.fb.com
@@ -11760,11 +11720,6 @@ ko-kr.zh.lite.facebook.com
 ko-kr.zh.tw.lite.facebook.com
 ko.newsroom.fb.com
 kofax.autodiscover.oculusvr.com
-kong-2-qa.giphy.com
-kong-2.giphy.com
-kong-imaging-prod.giphy.com
-kong-qa.giphy.com
-kong.giphy.com
 korea.fb.com
 korona-karpat.beta.messenger.com
 korona-karpat.facebookbrand-release.fb.com
@@ -11848,7 +11803,6 @@ la-va.tr-tr.lite.facebook.com
 la-va.www.fbjs.facebook.com
 la-va.zh-tw.ro-ro.fbjs.facebook.com
 la.messenger.com
-labs.giphy.com
 lacouronne.facebookbrand-preprod.fb.com
 lacouronne.internmcr.facebook.com
 lacouronne.messenger.com
@@ -12853,13 +12807,7 @@ media.fyzd1-3.fna.whatsapp.net
 media.fzrh1-1.fna.whatsapp.net
 media.fzty2-1.fna.whatsapp.net
 media.fzvk1-1.fna.whatsapp.net
-media.giphy.com
 media.whatsapp.com
-media0.giphy.com
-media1.giphy.com
-media2.giphy.com
-media3.giphy.com
-media4.giphy.com
 mediapartnerships.mc.facebookmail.com
 melbournewater.facebook.com
 meli.facebook.com
@@ -13788,16 +13736,12 @@ our.hr.facebook.com
 our.intern.facebook.com
 our.internmc.facebook.com
 ousaemichan1.oculusvr.com
-outlook-dev.giphy.com
-outlook-v3.giphy.com
-outlook.giphy.com
 ovrtesting.oculusvr.com
 owa.m.beta.facebook.com
 ozonteam.m.facebook.com
 p-upload.facebook.com
 p-upload.latest.facebook.com
 p.facebook.com
-p.giphy.com
 p.update.fbsbx.com
 p5l6t64b4p048l0czf.ar.ar.lite.facebook.com
 pa-in.af-za.ro-ro.fbjs.facebook.com
@@ -13824,10 +13768,7 @@ pandemic0105.latest.instagram.com
 pandemic0105.m.fb.me
 pandemic2.facebookbrand-dev.fb.com
 pandemicflu.facebookbrand-preprod.fb.com
-panopticon.giphy.com
 parents.instagram.com
-partner-hub-api-qa.giphy.com
-partner-hub-api.giphy.com
 partners.c10r.facebook.com
 partners.cstools.facebook.com
 partners.facebook.com
@@ -13882,9 +13823,6 @@ pi.beta.facebook.com
 pics.m.beta.facebook.com
 pilipinas.fb.com
 pimg.fb.com
-pingback-dev.giphy.com
-pingback-staging.giphy.com
-pingback.giphy.com
 pixel-brand.fbjs.facebook.com
 pixel-demo.fbjs.facebook.com
 pixel-edge.fbjs.facebook.com
@@ -14643,21 +14581,16 @@ pttworkplace.facebook.com
 ptuebiz-010utodiscover.oculusvr.com
 pub-respiratory-advil-us-stg-sj.facebookbrand-dev.fb.com
 pubicstaticvoidmain.fb.me
-publicapi-qa.giphy.com
 publicstaticvoid.beta.facebook.com
 publicstaticvoid.dev.messenger.com
 publicstaticvoid.internmcr.facebook.com
 publicvoidlife.beta.facebook.com
 punahou.facebook.com
-puppet.giphy.com
 puskesmaskota.messenger.com
 pv3oi8206cejo0.is-is.ro-ro.fbjs.facebook.com
 pvcmaskkousoku.internmcr.facebook.com
 q019f5r1itdmz.fbjs.facebook.com
 q6w7dp9vehg3fit12xumcr85bk4noa0jylzs.fbsbx.com
-qa-dvr.giphy.com
-qa-imaging.giphy.com
-qa-ws-imaging.giphy.com
 qal.fbjs.facebook.com
 qcg11.fava.fb.com
 qmf11.fava.fb.com
@@ -16319,12 +16252,9 @@ scontent.fzrh3-1.fna.fbcdn.net
 scontent.whatsapp.net
 scontent.xx.fbcdn.net
 scotiabank.m.facebook.com
-scripts.giphy.com
 sdvg.facebook.com
 se.messenger.com
 se.msn.messenger.com
-search-ux-qa.giphy.com
-search-ux.giphy.com
 search.fb.com
 searchcombinationdistance.internmc.facebook.com
 searchportal.fbjs.facebook.com
@@ -16377,8 +16307,6 @@ shortcut-virus-remover.scgraph.facebook.com
 shortwave.c10r.facebook.com
 shortwave.facebook.com
 shortwave.instagram.com
-shorty-qa.giphy.com
-shorty.giphy.com
 si-cha.cstools.facebook.com
 si-chao.cstools.facebook.com
 si-lk.af-za.ro-ro.fbjs.facebook.com
@@ -16578,7 +16506,6 @@ smtpin.vvv.facebook.com
 sn-zw.facebook.com
 sn-zw.lite.facebook.com
 snafu.tfbnw.net
-snapchat.media.giphy.com
 snaptu-d-shv-05-frc3.facebook.com
 snaptu-d-shv-10-frc1.facebook.com
 snaptu-d.facebook.com
@@ -17154,10 +17081,7 @@ sso.stage.autodiscover.oculusvr.com
 ssvc-gb.facebook.com
 stage.autodiscover.oculusvr.com
 stage.messenger.com
-staging-dvr.giphy.com
-staging-imaging.giphy.com
 staging.facebookvirtualassistant.com
-staging.media.giphy.com
 staging.scgraph.facebook.com
 staging40.oculusvr.com
 stagingm.fbjs.facebook.com
@@ -17202,10 +17126,8 @@ staticxx.new.facebook.com
 stats.m.beta.facebook.com
 stats.messenger.com
 status.fb.com
-status.giphy.com
 status.msn.messenger.com
 stg-de-de.fbjs.facebook.com
-stickers.giphy.com
 stimulsoft.fb.me
 stock.m.beta.facebook.com
 stopcovid.messenger.com
@@ -17231,7 +17153,6 @@ succeedtogether.facebook.com
 sun.beta.facebook.com
 sundance.fb.com
 sunyedu.facebook.com
-support.giphy.com
 support.oculus.com
 support.oculusvr.com
 support.whatsapp.com
@@ -17525,8 +17446,6 @@ test.fb.me
 testkitchen.fb.me
 testkitchen.messenger.com
 testmask.messenger.com
-text-qa.giphy.com
-text.giphy.com
 tfbnw.net
 tg-tj.facebook.com
 tg-tj.it-it.de-de.prod.facebook.com
@@ -17885,19 +17804,12 @@ tsel.messenger.com
 turk-fb.m.beta.facebook.com
 turkes-la.fbjs.facebook.com
 turkeypixel.fbjs.facebook.com
-tv-origin.giphy.com
-tv-web.giphy.com
 tv.fb.com
-tv.giphy.com
-tvapi-qa.giphy.com
 tvirus.messenger.com
 tw.lite.facebook.com
 tw.messenger.com
 tw.msn.messenger.com
-twitch-qa.giphy.com
-twitch.giphy.com
 twitter.facebook.com
-twitter.giphy.com
 tz-ma.aap.lite.facebook.com
 tz-ma.af-za.ro-ro.fbjs.facebook.com
 tz-ma.az-az.ro-ro.fbjs.facebook.com
@@ -17983,12 +17895,9 @@ up.web.whatsapp.com
 upc.m.facebook.com
 update.fbsbx.com
 upload-business.facebook.com
-upload-dev.giphy.com
 upload-ec2.instagram.com
-upload-qa.giphy.com
 upload.beta.facebook.com
 upload.facebook.com
-upload.giphy.com
 upload.instagram.com
 upload.latest.facebook.com
 upload.lite.facebook.com
@@ -18791,7 +18700,6 @@ wd89975cf1kjx33lic-gi2tamjzgq3tsmd.snr.whatsapp.net
 wdc88c0d61kj5raqed-giydemrshaztqnb.snr.whatsapp.net
 wdcd48dfd1kd6w2vsa-gu4domjwgaztqmd.snr.whatsapp.net
 we77704cc1ky7456tc-geytcobqgiztcmjy.snr.whatsapp.net
-web-prod.giphy.com
 web.beta.facebook.com
 web.facebook.com
 web.fb.me
@@ -18964,8 +18872,6 @@ workplacebcp.facebook.com
 workplacebcp.m.facebook.com
 workplaceblog.fb.com
 worldline1.oculusvr.com
-ws-imaging-qa.giphy.com
-ws-imaging.giphy.com
 ws.shortwave.facebook.com
 ws2.messenger.com
 ww.cinyour.facebook.com
@@ -19794,7 +19700,6 @@ www.ga-ie.it-it.fr-fr.fbjs.facebook.com
 www.garena.messenger.com
 www.gb.lite.facebook.com
 www.germany.fb.com
-www.giphy.com
 www.giphyscripts.s3.amazonaws.com
 www.going-global.fb.com
 www.google.messenger.com
@@ -21076,9 +20981,7 @@ wwwwindowslive.messenger.com
 wwwwww.messenger.com
 wwwwwwiorg-fba-edge-shv-01-sju1.lite.facebook.com
 wwwx.messenger.com
-x-qa.giphy.com
 x.facebook.com
-x.giphy.com
 x22lookaside.fbsbx.com
 xjgoow.dns.facebook.com
 xl.fb.me
