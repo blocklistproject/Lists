@@ -2,7 +2,7 @@
 # Description: Smart TV telemetry
 # Homepage: https://github.com/blocklistproject/Lists
 # License: MIT
-# Last modified: 2026-06-23 16:04:12 UTC
+# Last modified: 2026-06-23 16:04:22 UTC
 # Format: domains
 # Entries: 78
 # URL: 
