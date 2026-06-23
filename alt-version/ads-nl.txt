@@ -2,9 +2,9 @@
 # Description: Ad serving domains
 # Homepage: https://github.com/blocklistproject/Lists
 # License: MIT
-# Last modified: 2026-06-23 20:44:42 UTC
+# Last modified: 2026-06-23 20:46:40 UTC
 # Format: domains
-# Entries: 154,406
+# Entries: 154,405
 # URL: 
 #
 # This list is maintained by The Block List Project
@@ -37426,7 +37426,6 @@ api.supersonicads.com
 api.survicate.com
 api.swrve.com
 api.taboola.com
-api.tapas.io
 api.tapjoy.com
 api.taplytics.com
 api.taps.io
