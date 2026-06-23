@@ -2,9 +2,9 @@
 # Description: Adult content domains
 # Homepage: https://github.com/blocklistproject/Lists
 # License: MIT
-# Last modified: 2026-06-23 18:57:25 UTC
+# Last modified: 2026-06-23 19:35:00 UTC
 # Format: domains
-# Entries: 3
+# Entries: 5
 # URL: 
 #
 # This list is maintained by The Block List Project
@@ -12,5 +12,7 @@
 #
 
 cumgloryhole.se
+ersties.com
 reddvideo.tube
+www.reddvideo.tube
 xiumhua.com cumgloryhole.se
