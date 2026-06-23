@@ -2,9 +2,9 @@
 # Description: Torrent and P2P sites
 # Homepage: https://github.com/blocklistproject/Lists
 # License: MIT
-# Last modified: 2026-06-23 20:46:41 UTC
+# Last modified: 2026-06-23 20:49:06 UTC
 # Format: hosts
-# Entries: 2,623
+# Entries: 2,621
 # URL: 
 #
 # This list is maintained by The Block List Project
@@ -1692,7 +1692,6 @@
 0.0.0.0 tollytorrents.com
 0.0.0.0 tooziq.com
 0.0.0.0 top-torrent0.net
-0.0.0.0 topbytes.net
 0.0.0.0 tophos.org
 0.0.0.0 topseed.lt
 0.0.0.0 tor-eiffel.net
@@ -2506,7 +2505,6 @@
 0.0.0.0 www.tnt-vision.com
 0.0.0.0 www.todotorrents.com
 0.0.0.0 www.tokyotosho.com
-0.0.0.0 www.topbytes.net
 0.0.0.0 www.tophos.org
 0.0.0.0 www.torentas.lt
 0.0.0.0 www.torrent-line.com
