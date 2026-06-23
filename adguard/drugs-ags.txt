@@ -2,7 +2,7 @@
 ! Description: Drug-related domains
 ! Homepage: https://github.com/blocklistproject/Lists
 ! License: MIT
-! Last modified: 2026-06-23 16:04:59 UTC
+! Last modified: 2026-06-23 16:05:26 UTC
 ! Format: AdGuard
 ! Entries: 26,030
 ! URL: 
