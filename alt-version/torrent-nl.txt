@@ -2,9 +2,9 @@
 # Description: Torrent and P2P sites
 # Homepage: https://github.com/blocklistproject/Lists
 # License: MIT
-# Last modified: 2026-06-22 22:57:16 UTC
+# Last modified: 2026-06-23 01:25:25 UTC
 # Format: domains
-# Entries: 2,623
+# Entries: 2,624
 # URL: 
 #
 # This list is maintained by The Block List Project
@@ -1162,6 +1162,7 @@ natorrent.com
 natorrente.com
 ncore.cc
 ncore.hu
+ncore.pro
 nemesis09.com
 nerealus.lt
 netbsd.org
