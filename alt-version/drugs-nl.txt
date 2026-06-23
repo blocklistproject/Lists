@@ -2,7 +2,7 @@
 # Description: Drug-related domains
 # Homepage: https://github.com/blocklistproject/Lists
 # License: MIT
-# Last modified: 2026-06-23 01:25:25 UTC
+# Last modified: 2026-06-23 01:25:40 UTC
 # Format: domains
 # Entries: 26,030
 # URL: 
