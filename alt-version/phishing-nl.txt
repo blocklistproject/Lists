@@ -2,9 +2,9 @@
 # Description: Phishing domains
 # Homepage: https://github.com/blocklistproject/Lists
 # License: MIT
-# Last modified: 2026-06-23 01:27:29 UTC
+# Last modified: 2026-06-23 05:37:35 UTC
 # Format: domains
-# Entries: 190,226
+# Entries: 190,224
 # URL: 
 #
 # This list is maintained by The Block List Project
@@ -76509,7 +76509,6 @@ payetherer20.000webhostapp.com
 payficient.com
 paygiveaway.com
 paygoworkercomp.com
-payhip.com
 payinbee.icu
 payintl-paypal.com
 payipal-infomation.mondomaide.ovh
@@ -162065,7 +162064,6 @@ www.payficient.com
 www.paygiveaway.com
 www.paygoworkercomp.com
 www.payhelpser.000webhostapp.com
-www.payhip.com
 www.payiipal.com
 www.payipaal.com
 www.paykassa2018.ru
