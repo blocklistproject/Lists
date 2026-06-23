@@ -2,7 +2,7 @@
 # Description: Torrent and P2P sites
 # Homepage: https://github.com/blocklistproject/Lists
 # License: MIT
-# Last modified: 2026-06-23 10:56:16 UTC
+# Last modified: 2026-06-23 11:43:06 UTC
 # Format: hosts
 # Entries: 2,623
 # URL: 
