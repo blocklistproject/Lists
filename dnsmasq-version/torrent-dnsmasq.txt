@@ -2,9 +2,9 @@
 # Description: Torrent and P2P sites
 # Homepage: https://github.com/blocklistproject/Lists
 # License: MIT
-# Last modified: 2026-06-23 10:49:48 UTC
+# Last modified: 2026-06-23 10:50:56 UTC
 # Format: dnsmasq
-# Entries: 2,624
+# Entries: 2,623
 # URL: 
 #
 # This list is maintained by The Block List Project
@@ -422,7 +422,6 @@ server=/cartoonchaos.org/
 server=/cartoonmenace.com/
 server=/casanovax.com/
 server=/cattorrent.co.uk/
-server=/cbc.ca/
 server=/ccfbits.org/
 server=/cdn.retget.ru/
 server=/ceasers-palace.info/

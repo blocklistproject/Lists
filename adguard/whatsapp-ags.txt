@@ -2,7 +2,7 @@
 ! Description: WhatsApp domains
 ! Homepage: https://github.com/blocklistproject/Lists
 ! License: MIT
-! Last modified: 2026-06-23 10:49:48 UTC
+! Last modified: 2026-06-23 10:50:56 UTC
 ! Format: AdGuard
 ! Entries: 226
 ! URL: 
