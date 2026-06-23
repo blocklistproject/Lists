@@ -2,7 +2,7 @@
 # Description: Domains involved in abuse
 # Homepage: https://github.com/blocklistproject/Lists
 # License: MIT
-# Last modified: 2026-06-23 18:50:57 UTC
+# Last modified: 2026-06-23 18:57:24 UTC
 # Format: dnsmasq
 # Entries: 0
 # URL: 

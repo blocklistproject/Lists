@@ -2,7 +2,7 @@
 # Description: Twitter/X domains
 # Homepage: https://github.com/blocklistproject/Lists
 # License: MIT
-# Last modified: 2026-06-23 18:50:59 UTC
+# Last modified: 2026-06-23 18:57:25 UTC
 # Format: domains
 # Entries: 1,193
 # URL: 
