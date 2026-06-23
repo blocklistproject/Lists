@@ -2,9 +2,9 @@
 # Description: Torrent and P2P sites
 # Homepage: https://github.com/blocklistproject/Lists
 # License: MIT
-# Last modified: 2026-06-23 20:46:41 UTC
+# Last modified: 2026-06-23 20:49:06 UTC
 # Format: dnsmasq
-# Entries: 2,623
+# Entries: 2,621
 # URL: 
 #
 # This list is maintained by The Block List Project
@@ -1692,7 +1692,6 @@ server=/tokyotosho.com/
 server=/tollytorrents.com/
 server=/tooziq.com/
 server=/top-torrent0.net/
-server=/topbytes.net/
 server=/tophos.org/
 server=/topseed.lt/
 server=/tor-eiffel.net/
@@ -2506,7 +2505,6 @@ server=/www.thorbits.org/
 server=/www.tnt-vision.com/
 server=/www.todotorrents.com/
 server=/www.tokyotosho.com/
-server=/www.topbytes.net/
 server=/www.tophos.org/
 server=/www.torentas.lt/
 server=/www.torrent-line.com/
