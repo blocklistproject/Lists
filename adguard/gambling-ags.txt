@@ -2,7 +2,7 @@
 ! Description: Gambling sites
 ! Homepage: https://github.com/blocklistproject/Lists
 ! License: MIT
-! Last modified: 2026-06-23 05:41:48 UTC
+! Last modified: 2026-06-23 05:50:02 UTC
 ! Format: AdGuard
 ! Entries: 2,509
 ! URL: 
