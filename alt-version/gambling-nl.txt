@@ -2,12 +2,14 @@
 # Description: Gambling sites
 # Homepage: https://github.com/blocklistproject/Lists
 # License: MIT
-# Last modified: 2026-06-23 16:05:26 UTC
+# Last modified: 2026-06-23 18:42:33 UTC
 # Format: domains
-# Entries: 0
+# Entries: 2
 # URL: 
 #
 # This list is maintained by The Block List Project
 # https://github.com/blocklistproject/Lists
 #
 
+casinos-en-ligne-belge.com
+cb-128943.com
