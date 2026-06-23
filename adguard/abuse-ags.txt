@@ -2,7 +2,7 @@
 ! Description: Domains involved in abuse
 ! Homepage: https://github.com/blocklistproject/Lists
 ! License: MIT
-! Last modified: 2026-06-23 11:44:18 UTC
+! Last modified: 2026-06-23 11:45:13 UTC
 ! Format: AdGuard
 ! Entries: 0
 ! URL: 
