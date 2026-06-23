@@ -17,7 +17,7 @@ def check_domain_alive(domain):
     """Return True if domain appears alive (DNS or HTTP responds), False otherwise."""
     # DNS check
     try:
-        socket.getaddrinfo(domain, 80, timeout=5)
+        socket.getaddrinfo(domain, 80, timeout=2)
         return True
     except socket.gaierror:
         pass
@@ -28,7 +28,7 @@ def check_domain_alive(domain):
     for protocol in ['http', 'https']:
         url = f'{protocol}://{domain}'
         try:
-            resp = requests.head(url, timeout=5, allow_redirects=True)
+            resp = requests.head(url, timeout=2, allow_redirects=True)
             # Consider any HTTP response as alive (even 4xx/5xx might be a parking page)
             # But we want to see if there's a web server responding.
             # We'll consider it alive if we get a response (any status) or if there's a redirect.
