@@ -2,7 +2,7 @@
 ! Description: Facebook and Meta domains
 ! Homepage: https://github.com/blocklistproject/Lists
 ! License: MIT
-! Last modified: 2026-06-23 05:50:02 UTC
+! Last modified: 2026-06-23 10:46:38 UTC
 ! Format: AdGuard
 ! Entries: 22,459
 ! URL: 

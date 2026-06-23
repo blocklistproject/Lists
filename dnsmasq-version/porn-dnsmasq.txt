@@ -2,12 +2,13 @@
 # Description: Adult content domains
 # Homepage: https://github.com/blocklistproject/Lists
 # License: MIT
-# Last modified: 2026-06-23 05:50:02 UTC
+# Last modified: 2026-06-23 10:46:38 UTC
 # Format: dnsmasq
-# Entries: 0
+# Entries: 1
 # URL: 
 #
 # This list is maintained by The Block List Project
 # https://github.com/blocklistproject/Lists
 #
 
+server=/xiumhua.com/
