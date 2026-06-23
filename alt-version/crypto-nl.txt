@@ -2,9 +2,9 @@
 # Description: Cryptocurrency mining and scams
 # Homepage: https://github.com/blocklistproject/Lists
 # License: MIT
-# Last modified: 2026-06-23 11:49:48 UTC
+# Last modified: 2026-06-23 16:04:11 UTC
 # Format: domains
-# Entries: 23,728
+# Entries: 23,727
 # URL: 
 #
 # This list is maintained by The Block List Project
@@ -2008,7 +2008,6 @@ biz.vpon.com
 biz.weibo.com
 biz5.kankan.com
 bizoninvest.com
-bj.bcebos.com
 bj.imp.voiceads.cn
 bjdfckchzsa.bid
 bjdnserror1.wo.com.cn
