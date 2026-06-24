@@ -2,9 +2,9 @@
 ! Description: Adult content domains
 ! Homepage: https://github.com/blocklistproject/Lists
 ! License: MIT
-! Last modified: 2026-06-24 08:14:11 UTC
+! Last modified: 2026-06-24 08:14:41 UTC
 ! Format: AdGuard
-! Entries: 22
+! Entries: 23
 ! URL: 
 !
 ! This list is maintained by The Block List Project
@@ -12,6 +12,7 @@
 !
 
 ||auntmia.com^
+||boobsandboobs.nl^
 ||coomer.st^
 ||cumgloryhole.se^
 ||ersties.com^
