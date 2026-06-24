@@ -49781,7 +49781,6 @@ cdn.yottos.com
 cdn.yourtopoffers.info
 cdn.zarget.com
 cdn.zeusclicks.com
-cdn.ziffstatic.com
 cdn.zkmobi.com
 cdn.zopim.com
 cdn0.fyber.com
