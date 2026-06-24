@@ -2,23 +2,34 @@
 ! Description: Adult content domains
 ! Homepage: https://github.com/blocklistproject/Lists
 ! License: MIT
-! Last modified: 2026-06-24 07:31:14 UTC
+! Last modified: 2026-06-24 08:14:11 UTC
 ! Format: AdGuard
-! Entries: 11
+! Entries: 22
 ! URL: 
 !
 ! This list is maintained by The Block List Project
 ! https://github.com/blocklistproject/Lists
 !
 
+||auntmia.com^
 ||coomer.st^
 ||cumgloryhole.se^
 ||ersties.com^
+||freshxxxpics.com^
+||hdpornpics.xxx^
+||hotpornphotos.com^
+||nakedyounggirl.com^
+||pictoa.com^
+||pornpics.com^
 ||reddvideo.tube^
 ||rule34gen.com^
 ||rule34video.com^
 ||sbgefree.org^
+||sexhotpictures.com^
+||sexporn.pics^
+||sexvid.xxx^
 ||watchporn.to^
 ||www.reddvideo.tube^
 ||www.sbgefree.org^
 ||xiumhua.com cumgloryhole.se^
+||youngmint.com^

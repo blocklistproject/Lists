@@ -2,23 +2,34 @@
 # Description: Adult content domains
 # Homepage: https://github.com/blocklistproject/Lists
 # License: MIT
-# Last modified: 2026-06-24 07:31:14 UTC
+# Last modified: 2026-06-24 08:14:11 UTC
 # Format: dnsmasq
-# Entries: 11
+# Entries: 22
 # URL: 
 #
 # This list is maintained by The Block List Project
 # https://github.com/blocklistproject/Lists
 #
 
+server=/auntmia.com/
 server=/coomer.st/
 server=/cumgloryhole.se/
 server=/ersties.com/
+server=/freshxxxpics.com/
+server=/hdpornpics.xxx/
+server=/hotpornphotos.com/
+server=/nakedyounggirl.com/
+server=/pictoa.com/
+server=/pornpics.com/
 server=/reddvideo.tube/
 server=/rule34gen.com/
 server=/rule34video.com/
 server=/sbgefree.org/
+server=/sexhotpictures.com/
+server=/sexporn.pics/
+server=/sexvid.xxx/
 server=/watchporn.to/
 server=/www.reddvideo.tube/
 server=/www.sbgefree.org/
 server=/xiumhua.com cumgloryhole.se/
+server=/youngmint.com/

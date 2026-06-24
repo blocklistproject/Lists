@@ -2,23 +2,34 @@
 # Description: Adult content domains
 # Homepage: https://github.com/blocklistproject/Lists
 # License: MIT
-# Last modified: 2026-06-24 07:31:14 UTC
+# Last modified: 2026-06-24 08:14:11 UTC
 # Format: hosts
-# Entries: 11
+# Entries: 22
 # URL: 
 #
 # This list is maintained by The Block List Project
 # https://github.com/blocklistproject/Lists
 #
 
+0.0.0.0 auntmia.com
 0.0.0.0 coomer.st
 0.0.0.0 cumgloryhole.se
 0.0.0.0 ersties.com
+0.0.0.0 freshxxxpics.com
+0.0.0.0 hdpornpics.xxx
+0.0.0.0 hotpornphotos.com
+0.0.0.0 nakedyounggirl.com
+0.0.0.0 pictoa.com
+0.0.0.0 pornpics.com
 0.0.0.0 reddvideo.tube
 0.0.0.0 rule34gen.com
 0.0.0.0 rule34video.com
 0.0.0.0 sbgefree.org
+0.0.0.0 sexhotpictures.com
+0.0.0.0 sexporn.pics
+0.0.0.0 sexvid.xxx
 0.0.0.0 watchporn.to
 0.0.0.0 www.reddvideo.tube
 0.0.0.0 www.sbgefree.org
 0.0.0.0 xiumhua.com cumgloryhole.se
+0.0.0.0 youngmint.com
