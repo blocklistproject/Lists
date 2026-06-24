@@ -2,9 +2,9 @@
 # Description: Ad serving domains
 # Homepage: https://github.com/blocklistproject/Lists
 # License: MIT
-# Last modified: 2026-06-24 00:02:53 UTC
+# Last modified: 2026-06-24 02:00:50 UTC
 # Format: domains
-# Entries: 154,404
+# Entries: 154,403
 # URL: 
 #
 # This list is maintained by The Block List Project
@@ -107964,7 +107964,6 @@ pulse.data.flurry.com
 pulse.flurry.com
 pulse.inmobi.com
 pulse.smi2.ru
-pulse360.com
 pulsedm-ap-test.amobee.com
 pulsedm-ap.amobee.com
 pulselog.com
