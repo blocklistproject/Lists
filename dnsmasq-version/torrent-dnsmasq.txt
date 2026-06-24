@@ -2,9 +2,9 @@
 # Description: Torrent and P2P sites
 # Homepage: https://github.com/blocklistproject/Lists
 # License: MIT
-# Last modified: 2026-06-24 02:00:51 UTC
+# Last modified: 2026-06-24 04:16:32 UTC
 # Format: dnsmasq
-# Entries: 2,621
+# Entries: 2,620
 # URL: 
 #
 # This list is maintained by The Block List Project
@@ -824,7 +824,6 @@ server=/hdchina.org/
 server=/hdcity.org/
 server=/hdclub.com.ua/
 server=/hddown.com/
-server=/hddx.haldrie.com/
 server=/hdmay.org/
 server=/hdme.eu/
 server=/hdmega.unblckd.bet/
