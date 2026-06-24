@@ -2,9 +2,9 @@
 ! Description: Torrent and P2P sites
 ! Homepage: https://github.com/blocklistproject/Lists
 ! License: MIT
-! Last modified: 2026-06-24 02:00:51 UTC
+! Last modified: 2026-06-24 04:16:32 UTC
 ! Format: AdGuard
-! Entries: 2,621
+! Entries: 2,620
 ! URL: 
 !
 ! This list is maintained by The Block List Project
@@ -824,7 +824,6 @@
 ||hdcity.org^
 ||hdclub.com.ua^
 ||hddown.com^
-||hddx.haldrie.com^
 ||hdmay.org^
 ||hdme.eu^
 ||hdmega.unblckd.bet^

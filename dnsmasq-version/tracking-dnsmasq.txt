@@ -2,9 +2,9 @@
 # Description: Tracking and analytics
 # Homepage: https://github.com/blocklistproject/Lists
 # License: MIT
-# Last modified: 2026-06-24 02:00:51 UTC
+# Last modified: 2026-06-24 04:16:32 UTC
 # Format: dnsmasq
-# Entries: 15,051
+# Entries: 15,050
 # URL: 
 #
 # This list is maintained by The Block List Project
@@ -2085,7 +2085,6 @@ server=/gfsql.geforce.com/
 server=/gfswl.geforce.com/
 server=/ggimg.tapas.net/
 server=/ggo.directrev.com/
-server=/ghostery.com/
 server=/gigabytedealz.com/
 server=/gillyhunt.com/
 server=/gimmescreenshot.com/

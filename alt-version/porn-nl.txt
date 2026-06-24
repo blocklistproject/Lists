@@ -2,17 +2,23 @@
 # Description: Adult content domains
 # Homepage: https://github.com/blocklistproject/Lists
 # License: MIT
-# Last modified: 2026-06-24 02:00:51 UTC
+# Last modified: 2026-06-24 04:16:32 UTC
 # Format: domains
-# Entries: 5
+# Entries: 11
 # URL: 
 #
 # This list is maintained by The Block List Project
 # https://github.com/blocklistproject/Lists
 #
 
+coomer.st
 cumgloryhole.se
 ersties.com
 reddvideo.tube
+rule34gen.com
+rule34video.com
+sbgefree.org
+watchporn.to
 www.reddvideo.tube
+www.sbgefree.org
 xiumhua.com cumgloryhole.se

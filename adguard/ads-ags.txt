@@ -2,9 +2,9 @@
 ! Description: Ad serving domains
 ! Homepage: https://github.com/blocklistproject/Lists
 ! License: MIT
-! Last modified: 2026-06-24 02:00:50 UTC
+! Last modified: 2026-06-24 04:16:31 UTC
 ! Format: AdGuard
-! Entries: 154,403
+! Entries: 154,402
 ! URL: 
 !
 ! This list is maintained by The Block List Project
@@ -49781,7 +49781,6 @@
 ||cdn.yourtopoffers.info^
 ||cdn.zarget.com^
 ||cdn.zeusclicks.com^
-||cdn.ziffstatic.com^
 ||cdn.zkmobi.com^
 ||cdn.zopim.com^
 ||cdn0.fyber.com^
@@ -51036,6 +51035,7 @@
 ||cid5.actonsoftware.com^
 ||cidemo.actonsoftware.com^
 ||cidev.actonsoftware.com^
+||cidswimaj.com^
 ||ciecissstwncw.com^
 ||ciee.evergage.com^
 ||cieh.mx^
@@ -97234,7 +97234,6 @@
 ||nimdinb.com^
 ||nimei2tu5n.mentalist.kameleoon.com^
 ||nimg.media.net^
-||nimiq.com^
 ||nimiq.watch^
 ||nimiqchain.info^
 ||nimiqpool.com^
