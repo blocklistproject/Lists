@@ -2,7 +2,7 @@
 # Description: Scam domains
 # Homepage: https://github.com/blocklistproject/Lists
 # License: MIT
-# Last modified: 2026-06-24 08:14:12 UTC
+# Last modified: 2026-06-24 08:14:41 UTC
 # Format: domains
 # Entries: 0
 # URL: 
