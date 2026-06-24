@@ -2,7 +2,7 @@
 # Description: TikTok domains
 # Homepage: https://github.com/blocklistproject/Lists
 # License: MIT
-# Last modified: 2026-06-24 04:17:54 UTC
+# Last modified: 2026-06-24 07:31:14 UTC
 # Format: domains
 # Entries: 3,725
 # URL: 
