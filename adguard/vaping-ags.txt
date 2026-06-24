@@ -2,7 +2,7 @@
 ! Description: Vaping and e-cigarette sites
 ! Homepage: https://github.com/blocklistproject/Lists
 ! License: MIT
-! Last modified: 2026-06-23 20:49:06 UTC
+! Last modified: 2026-06-24 00:02:54 UTC
 ! Format: AdGuard
 ! Entries: 108
 ! URL: 

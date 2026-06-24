@@ -2,9 +2,9 @@
 # Description: Ad serving domains
 # Homepage: https://github.com/blocklistproject/Lists
 # License: MIT
-# Last modified: 2026-06-23 20:49:05 UTC
+# Last modified: 2026-06-24 00:02:53 UTC
 # Format: domains
-# Entries: 154,405
+# Entries: 154,404
 # URL: 
 #
 # This list is maintained by The Block List Project
@@ -116477,7 +116477,6 @@ services.cmp.advertising.com
 services.districtm.net
 services.hearstmags.com
 services.krxd.net
-services.ludokingapi.com
 services.mailermailer.com
 services.rol.ru
 services.serving-sys.com
