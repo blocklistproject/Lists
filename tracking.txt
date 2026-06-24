@@ -2085,7 +2085,6 @@
 0.0.0.0 gfswl.geforce.com
 0.0.0.0 ggimg.tapas.net
 0.0.0.0 ggo.directrev.com
-0.0.0.0 ghostery.com
 0.0.0.0 gigabytedealz.com
 0.0.0.0 gillyhunt.com
 0.0.0.0 gimmescreenshot.com
