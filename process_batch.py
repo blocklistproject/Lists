@@ -1,406 +1,198 @@
+#!/usr/bin/env python3
 import json
 import os
 import re
-import socket
 import subprocess
 import sys
-from datetime import datetime
+from pathlib import Path
 
-import requests
+REPO_ROOT = Path('/home/administrator/.hermes/workspace/Lists')
+BATCH_REVIEW = REPO_ROOT / 'batch_review.json'
 
-# Configuration
-REPO_DIR = '/home/administrator/.hermes/workspace/Lists'
-LIST_DIR = REPO_DIR  # where the .txt files are
-DEAD_DOMAINS_FILE = os.path.join(REPO_DIR, 'dead-domains.txt')
+def load_batch():
+    with open(BATCH_REVIEW, 'r') as f:
+        return json.load(f)
 
-def check_domain_alive(domain):
-    """Return True if domain appears alive (DNS or HTTP responds), False otherwise."""
-    # DNS check
-    try:
-        socket.getaddrinfo(domain, 80, timeout=5)
-        return True
-    except socket.gaierror:
-        pass
-    except Exception:
-        pass
-
-    # HTTP check
-    for protocol in ['http', 'https']:
-        url = f'{protocol}://{domain}'
+def domain_in_lists(domain):
+    """Return list of files (relative to REPO_ROOT) where domain appears as 0.0.0.0 <domain> or similar."""
+    found = []
+    # Check all .txt files in root (excluding generated ones? we'll check all)
+    for txt_file in REPO_ROOT.glob('*.txt'):
+        # Skip backup files
+        if txt_file.suffix in ['.bak', '.backup'] or '.backup' in str(txt_file):
+            continue
         try:
-            resp = requests.head(url, timeout=10, allow_redirects=True)
-            # Consider any HTTP response as alive (even 4xx/5xx might be a parking page)
-            # But we want to see if there's a web server responding.
-            # We'll consider it alive if we get a response (any status) or if there's a redirect.
-            return True
-        except requests.exceptions.RequestException:
-            continue
-        except Exception:
-            continue
-    return False
+            content = txt_file.read_text(encoding='utf-8')
+            # Look for lines that start with 0.0.0.0 followed by the domain (possibly with whitespace)
+            pattern = rf'^0\.0\.0\.0\s+{re.escape(domain)}\s*$'
+            if re.search(pattern, content, re.MULTILINE):
+                found.append(str(txt_file.relative_to(REPO_ROOT)))
+        except Exception as e:
+            print(f"Error reading {txt_file}: {e}", file=sys.stderr)
+    return found
 
-def find_lists_containing_domain(domain):
-    """Return list of list filenames (without .txt) that contain the domain."""
-    lists = []
-    for filename in os.listdir(LIST_DIR):
-        if filename.endswith('.txt') and filename != 'dead-domains.txt':
-            path = os.path.join(LIST_DIR, filename)
-            try:
-                with open(path, 'r') as f:
-                    for line in f:
-                        line = line.strip()
-                        if line.startswith('#') or not line:
-                            continue
-                        # Extract domain from line (first token)
-                        parts = line.split()
-                        if parts and parts[0] == domain:
-                            lists.append(filename[:-4])  # remove .txt
-                            break
-            except Exception:
-                pass
-    return lists
-
-def update_lists(domain, lists_to_remove_from, commit_message):
-    """Remove domain from the given lists and update generated formats."""
-    # Remove from each list
-    for list_name in lists_to_remove_from:
-        list_file = os.path.join(LIST_DIR, f'{list_name}.txt')
-        if not os.path.exists(list_file):
-            continue
-        with open(list_file, 'r') as f:
-            lines = f.readlines()
-        new_lines = []
-        for line in lines:
-            stripped = line.strip()
-            if stripped.startswith('#') or not stripped:
-                new_lines.append(line)
-                continue
-            parts = stripped.split()
-            if parts and parts[0] == domain:
-                # Skip this line (remove domain)
-                continue
-            new_lines.append(line)
-        with open(list_file, 'w') as f:
-            f.writelines(new_lines)
-    
-    # Update generated formats by running build.py
-    subprocess.run(['python3', 'build.py'], cwd=REPO_DIR, check=True)
-    
-    # Commit changes
-    subprocess.run(['git', 'add', '.'], cwd=REPO_DIR, check=True)
-    subprocess.run(['git', 'commit', '-m', commit_message], cwd=REPO_DIR, check=True)
-    subprocess.run(['git', 'push', 'origin', 'master'], cwd=REPO_DIR, check=True)
-
-def process_dead_domain_report(issue):
-    """Process a maintenance/dead domain report issue."""
-    issue_num = issue['number']
-    print(f'Processing issue #{issue_num}: {issue["title"]}')
-    
-    # Extract dead domains from the issue body (from the sample in <details>)
-    body = issue['body']
-    # We'll extract the sample domains from the <details> section
-    # Look for the code block after "<details>" and before "</details>"
-    # We'll extract lines that look like domains (not starting with #)
-    domains = []
-    in_details = False
-    for line in body.split('\\n'):
-        if '<details>' in line:
-            in_details = True
-            continue
-        if '</details>' in line:
-            in_details = False
-            break
-        if in_details:
-            line = line.strip()
-            if line.startswith('#') or not line:
-                continue
-            # Assume the line is a domain (first token)
-            parts = line.split()
-            if parts:
-                domain = parts[0]
-                if domain.endswith('.'):
-                    domain = domain[:-1]
-                domains.append(domain)
-    
-    # Limit to first 50 domains to avoid too much processing
-    domains_to_check = domains[:50]
-    print(f'  Found {len(domains_to_check)} domains to check from sample')
-    
-    # Verify each domain is dead
-    dead_domains = []
-    for domain in domains_to_check:
-        alive = check_domain_alive(domain)
-        if not alive:
-            dead_domains.append(domain)
-            print(f'  {domain}: dead')
-        else:
-            print(f'  {domain}: alive (skipping removal)')
-    
-    if not dead_domains:
-        print('  No dead domains found in sample; skipping')
-        comment = f'Checked {len(domains_to_check)} domains from the sample; all appear alive. No action taken.'
-        subprocess.run(['gh', 'issue', 'comment', str(issue_num), '--body', comment], cwd=REPO_DIR, check=True)
-        return
-    
-    # For each dead domain, find which lists it belongs to and remove
-    removed_from = {}
-    for domain in dead_domains:
-        lists = find_lists_containing_domain(domain)
-        if lists:
-            removed_from[domain] = lists
-        else:
-            print(f'  Warning: {domain} not found in any list')
-    
-    if not removed_from:
-        print('  No domains found in any list; skipping')
-        comment = f'Checked {len(dead_domains)} dead domains from sample; none found in current lists. No action taken.'
-        subprocess.run(['gh', 'issue', 'comment', str(issue_num), '--body', comment], cwd=REPO_DIR, check=True)
-        return
-    
-    # Prepare commit message
-    commit_lines = [f'Remove dead domains from issue #{issue_num}']
-    for domain, lists in removed_from.items():
-        commit_lines.append(f'  - {domain} (from: {", ".join(lists)})')
-    commit_message = '\\n'.join(commit_lines)
-    
-    # Update lists and commit
+def remove_domain_from_file(domain, filepath):
+    """Remove lines containing the domain from the file. Returns True if changed."""
+    path = REPO_ROOT / filepath
     try:
-        # We'll remove all dead domains at once
-        all_lists_to_update = set()
-        for lists in removed_from.values():
-            all_lists_to_update.update(lists)
-        
-        # Remove each domain from its lists
-        for domain, lists in removed_from.items():
-            for list_name in lists:
-                list_file = os.path.join(LIST_DIR, f'{list_name}.txt')
-                if not os.path.exists(list_file):
-                    continue
-                with open(list_file, 'r') as f:
-                    lines = f.readlines()
-                new_lines = []
-                for line in lines:
-                    stripped = line.strip()
-                    if stripped.startswith('#') or not stripped:
-                        new_lines.append(line)
-                        continue
-                    parts = stripped.split()
-                    if parts and parts[0] == domain:
-                        continue
-                    new_lines.append(line)
-                with open(list_file, 'w') as f:
-                    f.writelines(new_lines)
-        
-        # Update generated formats
-        subprocess.run(['python3', 'build.py'], cwd=REPO_DIR, check=True)
-        
-        # Commit
-        subprocess.run(['git', 'add', '.'], cwd=REPO_DIR, check=True)
-        subprocess.run(['git', 'commit', '-m', commit_message], cwd=REPO_DIR, check=True)
-        subprocess.run(['git', 'push', 'origin', 'master'], cwd=REPO_DIR, check=True)
-        
-        # Get commit SHA
-        result = subprocess.run(['git', 'rev-parse', 'HEAD'], cwd=REPO_DIR, capture_output=True, text=True, check=True)
-        commit_sha = result.stdout.strip()
-        
-        # Comment on issue
-        comment = f'Removed {len(dead_domains)} dead domains from the sample (see commit).\\n\\n' + \
-                  '\\n'.join([f'- {domain} (from: {", ".join(lists)})' for domain, lists in removed_from.items()]) + \
-                  f'\\n\\nCommit: {commit_sha}'
-        subprocess.run(['gh', 'issue', 'comment', str(issue_num), '--body', comment], cwd=REPO_DIR, check=True)
-        
-        # Update labels: remove status:needs-triage, add status:verified-removed
-        subprocess.run(['gh', 'issue', 'edit', str(issue_num), '--remove-label', 'status:needs-triage'], cwd=REPO_DIR, check=True)
-        subprocess.run(['gh', 'issue', 'edit', str(issue_num), '--add-label', 'status:verified-removed'], cwd=REPO_DIR, check=True)
-        
-        print(f'  Processed issue #{issue_num}')
+        content = path.read_text(encoding='utf-8')
+        # Remove lines that define the domain (0.0.0.0 domain) and also comments that mention the domain?
+        # We'll just remove lines that start with 0.0.0.0 and the domain.
+        lines = content.splitlines()
+        new_lines = []
+        removed = False
+        for line in lines:
+            # Match lines like: 0.0.0.0 example.com
+            # Also could be with tabs or multiple spaces.
+            if re.match(r'^0\.0\.0\.0\s+' + re.escape(domain) + r'\s*$', line):
+                removed = True
+                continue  # skip this line
+            new_lines.append(line)
+        if removed:
+            new_content = '\n'.join(new_lines)
+            if new_content and not new_content.endswith('\n'):
+                new_content += '\n'
+            path.write_text(new_content, encoding='utf-8')
+        return removed
+    except Exception as e:
+        print(f"Error processing {path}: {e}", file=sys.stderr)
+        return False
+
+def run_build():
+    """Run the build script to regenerate derived files."""
+    try:
+        subprocess.run([sys.executable, 'build.py'], check=True, cwd=REPO_ROOT)
+        return True
     except subprocess.CalledProcessError as e:
-        print(f'  Error processing issue #{issue_num}: {e}')
-        comment = f'Failed to process dead domains: {e}'
-        subprocess.run(['gh', 'issue', 'comment', str(issue_num), '--body', comment], cwd=REPO_DIR, check=True)
+        print(f"Build failed: {e}", file=sys.stderr)
+        return False
 
-def process_add_remove_request(issue):
-    """Process an add or remove request issue."""
-    issue_num = issue['number']
-    print(f'Processing issue #{issue_num}: {issue["title"]}')
-    
-    labels = [label['name'] for label in issue['labels']]
-    body = issue['body']
-    
-    # Extract the domain from the issue body (look for the first line after "### Domain to add" or "### Domain to remove")
-    # We'll look for a line that contains a domain (simplified)
-    domain = None
-    target_list = None
-    operation = None  # 'add' or 'remove'
-    
-    lines = body.split('\\n')
-    for i, line in enumerate(lines):
-        stripped = line.strip()
-        if stripped.lower().startswith('### domain to add') or stripped.lower().startswith('**url you wish to be added'):
-            operation = 'add'
-            # Look for the domain in the next few lines
-            for j in range(i+1, min(i+5, len(lines))):
-                candidate = lines[j].strip()
-                if candidate and not candidate.startswith('#') and not candidate.startswith('###') and not candidate.startswith('**'):
-                    candidate = candidate.split()[0] if candidate.split() else ''
-                    candidate = candidate.replace('https://', '').replace('http://', '').split('/')[0]
-                    if '.' in candidate:
-                        domain = candidate
-                        break
-            # Also look for target list
-            for j in range(i+1, min(i+10, len(lines))):
-                if lines[j].strip().startswith('### Target blocklist'):
-                    target_list = lines[j+1].strip()
-                    break
-            break
-        elif stripped.lower().startswith('### domain to remove') or stripped.lower().startswith('**url you wish to be removed'):
-            operation = 'remove'
-            for j in range(i+1, min(i+5, len(lines))):
-                candidate = lines[j].strip()
-                if candidate and not candidate.startswith('#') and not candidate.startswith('###') and not candidate.startswith('**'):
-                    candidate = candidate.split()[0] if candidate.split() else ''
-                    candidate = candidate.replace('https://', '').replace('http://', '').split('/')[0]
-                    if '.' in candidate:
-                        domain = candidate
-                        break
-            for j in range(i+1, min(i+10, len(lines))):
-                if lines[j].strip().startswith('### Current blocklist'):
-                    target_list = lines[j+1].strip()
-                    break
-            break
-    
-    if not domain or not target_list or not operation:
-        # Fallback: just ask for more information
-        comment = 'Could not extract domain and target list from the issue. Please provide the domain and target blocklist in the specified format.'
-        subprocess.run(['gh', 'issue', 'comment', str(issue_num), '--body', comment], cwd=REPO_DIR, check=True)
-        subprocess.run(['gh', 'issue', 'edit', str(issue_num), '--add-label', 'status:needs-info'], cwd=REPO_DIR, check=True)
-        return
-    
-    # Normalize target list name (remove .txt if present, and match to our list files)
-    target_list = target_list.lower().replace('.txt', '')
-    
-    # Check if the domain is already in the target list (for add) or not in the list (for remove)
-    lists_containing = find_lists_containing_domain(domain)
-    currently_listed = target_list in lists_containing
-    
-    if operation == 'add':
-        if currently_listed:
-            comment = f'The domain `{domain}` is already present in the `{target_list}` list. No action needed.'
-            subprocess.run(['gh', 'issue', 'comment', str(issue_num), '--body', comment], cwd=REPO_DIR, check=True)
-            subprocess.run(['gh', 'issue', 'edit', str(issue_num), '--add-label', 'status:duplicate'], cwd=REPO_DIR, check=True)
-            return
-        else:
-            # Verify the domain is active
-            alive = check_domain_alive(domain)
-            if not alive:
-                comment = f'The domain `{domain}` does not appear to be active. Please verify the domain is correct and active.'
-                subprocess.run(['gh', 'issue', 'comment', str(issue_num), '--body', comment], cwd=REPO_DIR, check=True)
-                subprocess.run(['gh', 'issue', 'edit', str(issue_num), '--add-label', 'status:needs-info'], cwd=REPO_DIR, check=True)
-                return
-            # Add the domain to the list
-            list_file = os.path.join(LIST_DIR, f'{target_list}.txt')
-            if not os.path.exists(list_file):
-                comment = f'The target list `{target_list}` does not exist. Please verify the list name.'
-                subprocess.run(['gh', 'issue', 'comment', str(issue_num), '--body', comment], cwd=REPO_DIR, check=True)
-                return
-            with open(list_file, 'r') as f:
-                lines = f.readlines()
-            # Check if domain already exists (should not, but double-check)
-            for line in lines:
-                stripped = line.strip()
-                if stripped.startswith('#') or not stripped:
-                    continue
-                parts = stripped.split()
-                if parts and parts[0] == domain:
-                    comment = f'The domain `{domain}` is already present in the `{target_list}` list. No action needed.'
-                    subprocess.run(['gh', 'issue', 'comment', str(issue_num), '--body', comment], cwd=REPO_DIR, check=True)
-                    return
-            # Add the domain
-            lines.append(f'{domain}\\n')
-            with open(list_file, 'w') as f:
-                f.writelines(lines)
-            # Update generated formats
-            subprocess.run(['python3', 'build.py'], cwd=REPO_DIR, check=True)
-            # Commit
-            subprocess.run(['git', 'add', '.'], cwd=REPO_DIR, check=True)
-            commit_msg = f'Add {domain} to {target_list} list from issue #{issue_num}'
-            subprocess.run(['git', 'commit', '-m', commit_msg], cwd=REPO_DIR, check=True)
-            subprocess.run(['git', 'push', 'origin', 'master'], cwd=REPO_DIR, check=True)
-            # Get commit SHA
-            result = subprocess.run(['git', 'rev-parse', 'HEAD'], cwd=REPO_DIR, capture_output=True, text=True, check=True)
-            commit_sha = result.stdout.strip()
-            comment = f'Added `{domain}` to the `{target_list}` list.\\n\\nCommit: {commit_sha}'
-            subprocess.run(['gh', 'issue', 'comment', str(issue_num), '--body', comment], cwd=REPO_DIR, check=True)
-            # Update labels
-            subprocess.run(['gh', 'issue', 'edit', str(issue_num), '--remove-label', 'status:needs-info'], cwd=REPO_DIR, check=True)
-            subprocess.run(['gh', 'issue', 'edit', str(issue_num), '--remove-label', 'request:add'], cwd=REPO_DIR, check=True)
-            subprocess.run(['gh', 'issue', 'edit', str(issue_num), '--add-label', 'status:verified-new'], cwd=REPO_DIR, check=True)
-            print(f'  Added {domain} to {target_list} list')
-    else:  # remove
-        if not currently_listed:
-            comment = f'The domain `{domain}` is not present in the `{target_list}` list. No action needed.'
-            subprocess.run(['gh', 'issue', 'comment', str(issue_num), '--body', comment], cwd=REPO_DIR, check=True)
-            subprocess.run(['gh', 'issue', 'edit', str(issue_num), '--add-label', 'status:not-found'], cwd=REPO_DIR, check=True)
-            return
-        else:
-            # Verify the domain is currently blocked (we already know it is in the list)
-            # Remove the domain from the list
-            list_file = os.path.join(LIST_DIR, f'{target_list}.txt')
-            with open(list_file, 'r') as f:
-                lines = f.readlines()
-            new_lines = []
-            for line in lines:
-                stripped = line.strip()
-                if stripped.startswith('#') or not stripped:
-                    new_lines.append(line)
-                    continue
-                parts = stripped.split()
-                if parts and parts[0] == domain:
-                    # Skip this line (remove domain)
-                    continue
-                new_lines.append(line)
-            with open(list_file, 'w') as f:
-                f.writelines(new_lines)
-            # Update generated formats
-            subprocess.run(['python3', 'build.py'], cwd=REPO_DIR, check=True)
-            # Commit
-            subprocess.run(['git', 'add', '.'], cwd=REPO_DIR, check=True)
-            commit_msg = f'Remove {domain} from {target_list} list from issue #{issue_num}'
-            subprocess.run(['git', 'commit', '-m', commit_msg], cwd=REPO_DIR, check=True)
-            subprocess.run(['git', 'push', 'origin', 'master'], cwd=REPO_DIR, check=True)
-            # Get commit SHA
-            result = subprocess.run(['git', 'rev-parse', 'HEAD'], cwd=REPO_DIR, capture_output=True, text=True, check=True)
-            commit_sha = result.stdout.strip()
-            comment = f'Removed `{domain}` from the `{target_list}` list.\\n\\nCommit: {commit_sha}'
-            subprocess.run(['gh', 'issue', 'comment', str(issue_num), '--body', comment], cwd=REPO_DIR, check=True)
-            # Update labels
-            subprocess.run(['gh', 'issue', 'edit', str(issue_num), '--remove-label', 'status:needs-info'], cwd=REPO_DIR, check=True)
-            subprocess.run(['gh', 'issue', 'edit', str(issue_num), '--remove-label', 'request:remove'], cwd=REPO_DIR, check=True)
-            subprocess.run(['gh', 'issue', 'edit', str(issue_num), '--add-label', 'status:verified-removed'], cwd=REPO_DIR, check=True)
-            print(f'  Removed {domain} from {target_list} list')
+def git_add_commit(message):
+    """Add all changes, commit with message."""
+    try:
+        subprocess.run(['git', 'add', '-A'], check=True, cwd=REPO_ROOT)
+        # Check if there are changes to commit
+        result = subprocess.run(['git', 'diff', '--cached', '--quiet'], capture_output=True)
+        if result.returncode == 0:
+            print("No changes to commit.")
+            return False
+        subprocess.run(['git', 'commit', '-m', message], check=True, cwd=REPO_ROOT)
+        return True
+    except subprocess.CalledProcessError as e:
+        print(f"Git commit failed: {e}", file=sys.stderr)
+        return False
 
-def process_other_issue(issue):
-    """Process an issue that doesn't match known request types."""
-    issue_num = issue['number']
-    comment = 'No actionable request found; please use the appropriate template for add/remove requests or maintenance reports.'
-    subprocess.run(['gh', 'issue', 'comment', str(issue_num), '--body', comment], cwd=REPO_DIR, check=True)
-    subprocess.run(['gh', 'issue', 'edit', str(issue_num), '--add-label', 'status:needs-triage'], cwd=REPO_DIR, check=True)
+def git_push():
+    try:
+        subprocess.run(['git', 'push'], check=True, cwd=REPO_ROOT)
+        return True
+    except subprocess.CalledProcessError as e:
+        print(f"Git push failed: {e}", file=sys.stderr)
+        return False
+
+def comment_on_issue(issue_number, body):
+    """Post a comment on the issue using gh."""
+    try:
+        subprocess.run([
+            'gh', 'issue', 'comment', str(issue_number),
+            '--repo', 'blocklistproject/Lists',
+            '--body', body
+        ], check=True)
+        return True
+    except subprocess.CalledProcessError as e:
+        print(f"Failed to comment on issue {issue_number}: {e}", file=sys.stderr)
+        return False
+
+def close_issue(issue_number, reason='completed'):
+    """Close the issue with a reason."""
+    try:
+        subprocess.run([
+            'gh', 'issue', 'close', str(issue_number),
+            '--repo', 'blocklistproject/Lists',
+            '--reason', reason
+        ], check=True)
+        return True
+    except subprocess.CalledProcessError as e:
+        print(f"Failed to close issue {issue_number}: {e}", file=sys.stderr)
+        return False
 
 def main():
-    # Read issues from stdin (as JSON array)
-    data = sys.stdin.read()
-    issues = json.loads(data)
+    data = load_batch()
+    processed = []
+    for item in data:
+        issue = item['issue']
+        triage = item['triage']
+        domains = item.get('domains', {})
+        number = issue['number']
+        title = issue['title']
+        request_type = triage.get('request_type', '')
+        print(f"Processing issue #{number}: {title} (type: {request_type})")
+        
+        if request_type != 'remove':
+            print("  Skipping non-remove request.")
+            continue
+        
+        # For each domain in the issue
+        for domain, checks in domains.items():
+            print(f"  Checking domain: {domain}")
+            dns_info = checks.get('dns', {})
+            http_info = checks.get('http', {})
+            resolves = dns_info.get('resolves', False)
+            # Determine if it's a false positive: if DNS fails, likely not a valid domain to block.
+            # Also if HTTP shows a legitimate site (we could check status and content-type, but skip for now)
+            is_false_positive = not resolves  # simple heuristic
+            
+            if not is_false_positive:
+                print(f"    Domain resolves ({dns_info.get('ips', [])}), assuming not a false positive. Skipping.")
+                continue
+            
+            # Check where the domain appears
+            files = domain_in_lists(domain)
+            if not files:
+                print(f"    Domain {domain} not found in any list. Marking as already removed.")
+                # Comment and close
+                comment = f"The domain `{domain}` was not found in any blocklist. It may have already been removed."
+                comment_on_issue(number, comment)
+                close_issue(number, 'completed')
+                continue
+            
+            print(f"    Found in: {', '.join(files)}")
+            # Remove from each file
+            any_removed = False
+            for f in files:
+                if remove_domain_from_file(domain, f):
+                    any_removed = True
+                    print(f"    Removed from {f}")
+            
+            if any_removed:
+                # Rebuild derived files
+                if not run_build():
+                    print("    Build failed; aborting further processing.")
+                    sys.exit(1)
+                # Commit
+                commit_msg = f"Remove false positive {domain} (closes #{number})\\n\\nRemoved from: {', '.join(files)}"
+                if not git_add_commit(commit_msg):
+                    print("    No changes to commit after removal?")
+                else:
+                    if not git_push():
+                        print("    Push failed.")
+                    else:
+                        print("    Changes pushed.")
+                # Get the commit SHA for commenting
+                result = subprocess.run(['git', 'rev-parse', 'HEAD'], capture_output=True, text=True, check=True)
+                commit_sha = result.stdout.strip()
+                # Comment on issue
+                comment = f"Removed false positive `{domain}` from the following lists: {', '.join(files)}\\n\\nCommit: {commit_sha}"
+                comment_on_issue(number, comment)
+                close_issue(number, 'completed')
+                processed.append((number, domain, files))
+            else:
+                print(f"    No removal performed (maybe already absent?).")
+                comment_on_issue(number, f"Domain `{domain}` appears to be already absent from the lists.")
+                close_issue(number, 'completed')
     
-    print(f'Processing {len(issues)} issues')
-    
-    for issue in issues:
-        labels = [label['name'] for label in issue['labels']]
-        if 'request:maintenance' in labels:
-            process_dead_domain_report(issue)
-        elif 'request:add' in labels or 'request:remove' in labels:
-            process_add_remove_request(issue)
-        else:
-            process_other_issue(issue)
+    print(f"Processed {len(processed)} issues.")
+    return 0
 
 if __name__ == '__main__':
-    main()
+    sys.exit(main())

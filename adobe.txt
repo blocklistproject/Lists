@@ -280,7 +280,6 @@
 0.0.0.0 odin.adobe.com
 0.0.0.0 okta.com
 0.0.0.0 oktacdn.com
-0.0.0.0 oktapreview.com
 0.0.0.0 omniture.com
 0.0.0.0 omtrdc.net
 0.0.0.0 oobe.adobe.com
