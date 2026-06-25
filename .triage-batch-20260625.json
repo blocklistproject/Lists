@@ -1,26 +1,157 @@
 {
   "batch_date": "2026-06-25",
-  "batch_number": 4,
-  "issues_processed": 1,
+  "batch_number": 3,
+  "issues_processed": 10,
   "pr_processed": [],
   "issues_closed": 0,
-  "issues_commented": [1660],
+  "issues_commented": [
+    1660
+  ],
   "pr_merged": [],
   "pr_closed": [],
-  "commits_pushed": ["de5a002"],
+  "commits_pushed": [
+    "de5a002"
+  ],
   "ci_status": {
     "last_run": "2026-06-25T22:23:00.000000",
     "status": "pending"
   },
   "notes_updated": [],
-  "batch_start": "2026-06-25T22:17:00.000000",
-  "issues_left_open": 55,
+  "batch_start": "2026-06-25T17:48:43.687938",
+  "issues_left_open": 10,
   "batch_4_processed": [
     {
       "issue_number": 1660,
       "action": "remove",
       "reason": "False positive - Microsoft enterprise auth domain (trafficmanager.net for Azure/M365 login). Blocked domain www.tm.a.prd.aadg.trafficmanager.net breaks Microsoft login. Removed from ads.txt. CI pending.",
       "sha": "de5a002"
+    }
+  ],
+  "batch_3_processed": [
+    {
+      "issue": 1342,
+      "title": "[Add request] Porn Ads",
+      "action": "unverified",
+      "reason": "DNS: False, HTTP: 0",
+      "domain": "ads.dragonfru.it",
+      "target_list": "ads.txt",
+      "evidence": "ads providers from n/sfw sites like danbooru, rule34.xxx and furaffinity with trackers",
+      "dns_ok": false,
+      "http_status": 0,
+      "http_url": "",
+      "http_type": "<urlopen error [Errno -2] Name or service not known>",
+      "in_lists": []
+    },
+    {
+      "issue": 1341,
+      "title": "[Add request]",
+      "action": "unverified",
+      "reason": "DNS: True, HTTP: 403",
+      "domain": "caribbeancom.com",
+      "target_list": "Porn",
+      "evidence": "by their own description: \"Caribbeancom is a No.1 Japanese uncensored porn site.\"",
+      "dns_ok": true,
+      "http_status": 403,
+      "http_url": "https://www.caribbeancom.com/",
+      "http_type": "text/html",
+      "in_lists": []
+    },
+    {
+      "issue": 1340,
+      "title": "[Remove Request] - graphql.api.dailymotion.com",
+      "action": "needs_review",
+      "reason": "",
+      "domain": "",
+      "target_list": "",
+      "evidence": ""
+    },
+    {
+      "issue": 1339,
+      "title": "[Add request] Porn website",
+      "action": "add",
+      "reason": "Verified: DNS OK, HTTP 200",
+      "domain": "www.freepornvideos.xxx",
+      "target_list": "Porn",
+      "evidence": "The website contains lots of full length porn videos, organised by pornstar, producer channel, and type/tag",
+      "dns_ok": true,
+      "http_status": 200,
+      "http_url": "https://www.freepornvideos.xxx",
+      "http_type": "text/html; charset=utf-8",
+      "in_lists": []
+    },
+    {
+      "issue": 1338,
+      "title": "[Add request] Porn Website",
+      "action": "unverified",
+      "reason": "DNS: False, HTTP: 0",
+      "domain": "bunkr-albums.io",
+      "target_list": "Porn",
+      "evidence": "The website is basically a search box where you type a porn star's name, and get directories of Porn videos uploaded by users",
+      "dns_ok": false,
+      "http_status": 0,
+      "http_url": "",
+      "http_type": "<urlopen error [Errno -2] Name or service not known>",
+      "in_lists": []
+    },
+    {
+      "issue": 1336,
+      "title": "[Add request] Drugs website",
+      "action": "unverified",
+      "reason": "DNS: True, HTTP: 403",
+      "domain": "forum.grasscity.com",
+      "target_list": "drugs.txt",
+      "evidence": "The drugs.txt file doesn't have the domains mentioned above. However, this subdomain (forum.grasscity.com) exists and should be categorized as drugs because it's a subdomain of grasscity.com that is in drugs.txt.",
+      "dns_ok": true,
+      "http_status": 403,
+      "http_url": "https://grasscity.forum/",
+      "http_type": "text/html; charset=UTF-8",
+      "in_lists": []
+    },
+    {
+      "issue": 1335,
+      "title": "NO LONGER MAINTAINED - Make This Clear!",
+      "action": "needs_review",
+      "reason": "",
+      "domain": "",
+      "target_list": "",
+      "evidence": ""
+    },
+    {
+      "issue": 1333,
+      "title": "[Remove Request] - mirror.truenetwork.ru",
+      "action": "needs_review",
+      "reason": "",
+      "domain": "",
+      "target_list": "",
+      "evidence": ""
+    },
+    {
+      "issue": 1331,
+      "title": "[Remove Request] - mycliplister.com",
+      "action": "not_found",
+      "reason": "Domain not found in any list",
+      "domain": "",
+      "target_list": "",
+      "evidence": "",
+      "dns_ok": false,
+      "http_status": 0,
+      "http_url": "",
+      "http_type": "<urlopen error [Errno -2] Name or service not known>",
+      "in_lists": []
+    },
+    {
+      "issue": 1330,
+      "title": "[Remove Request] - sdk.privacy-center.org",
+      "action": "not_found",
+      "reason": "Domain not found in any list",
+      "domain": "",
+      "target_list": "",
+      "evidence": "",
+      "dns_ok": true,
+      "http_status": 200,
+      "http_url": "https://sdk.privacy-center.org",
+      "http_type": "text/html; charset=utf-8",
+      "in_lists": []
     }
   ]
 }
