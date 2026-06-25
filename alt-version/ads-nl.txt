@@ -2,9 +2,9 @@
 # Description: Ad serving domains
 # Homepage: https://github.com/blocklistproject/Lists
 # License: MIT
-# Last modified: 2026-06-25 05:49:14 UTC
+# Last modified: 2026-06-25 05:50:28 UTC
 # Format: domains
-# Entries: 154,402
+# Entries: 154,407
 # URL: 
 #
 # This list is maintained by The Block List Project
@@ -28165,6 +28165,7 @@ ads-iad2-lb8.adsymptotic.com
 ads-iad2.adsymptotic.com
 ads-icl.googleusercontent.com
 ads-im-netz.de
+ads-inmobi-comtm.trafficmanager.net
 ads-instrument.focalink.com
 ads-intl.everesttech.net
 ads-ipm.adhese.com
@@ -62365,6 +62366,7 @@ dsnrmg.g2afse.com
 dsnrmg.go2affise.com
 dsosvbpuhw.download
 dsp-1.ogury.io
+dsp-adcreative.mobshark.net.cdn.cloudflare.net
 dsp-creative.demandbase.com
 dsp-d.ants.vn
 dsp-dmp.aralego.com
@@ -71700,6 +71702,7 @@ gcomrarlta.com
 gcontentdelivery.info
 gcounter.hosting4u.net
 gcp-events.apester.com
+gcp-prod-md.apptimize.eu
 gcpbftsiwdrajj.com
 gcrqbzvwhz.bid
 gcsbr.voluumtrk.com
@@ -91139,6 +91142,7 @@ mcyopesbusomqf.com
 mczemvlzkndplq.com
 mczuljmdpysftg.com
 md-a-c.apptimize.com
+md-a-c.apptimize.eu
 md-a-d.apptimize.com
 md-a-s.apptimize.com
 md-hl.apptimize.com
@@ -115171,6 +115175,7 @@ sdk.hockeyapp.net
 sdk.hostyour.video
 sdk.hr.amp.igexin.com
 sdk.iad-01.braze.com
+sdk.iad-01.braze.com.cdn.cloudflare.net
 sdk.iad-02.braze.com
 sdk.iad-03.appboy.com
 sdk.iad-03.braze.com
