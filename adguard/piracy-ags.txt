@@ -2,7 +2,7 @@
 ! Description: Piracy and illegal streaming
 ! Homepage: https://github.com/blocklistproject/Lists
 ! License: MIT
-! Last modified: 2026-06-25 05:51:41 UTC
+! Last modified: 2026-06-25 05:52:37 UTC
 ! Format: AdGuard
 ! Entries: 2,153
 ! URL: 
