@@ -2,9 +2,9 @@
 ! Description: Ad serving domains
 ! Homepage: https://github.com/blocklistproject/Lists
 ! License: MIT
-! Last modified: 2026-06-25 05:50:28 UTC
+! Last modified: 2026-06-25 05:51:39 UTC
 ! Format: AdGuard
-! Entries: 154,407
+! Entries: 154,416
 ! URL: 
 !
 ! This list is maintained by The Block List Project
@@ -11109,11 +11109,13 @@
 ||ac.ybinst9.ec.yimg.com^
 ||ac2.msn.com^
 ||ac3.msn.com^
+||ac538dae8e7d387e6.awsglobalaccelerator.com^
 ||ac54-5a99-5148-10e1.reporo.net^
 ||ac6.i2idata.com^
 ||ac8.i2i.jp^
 ||ac8fa7667e3813ce8699c44b5aa71900f.profile.tpe50-c1.cloudfront.net^
 ||ac9d98.r.axf8.net^
+||aca45e02989724e66.awsglobalaccelerator.com^
 ||acaa-hk2.everesttech.net^
 ||acaa-or1.everesttech.net^
 ||acaa-va5.everesttech.net^
@@ -47376,6 +47378,7 @@
 ||c1.video-ak.cdn.spotify.com^
 ||c1.xgals.biz^
 ||c1.xxxcounter.com^
+||c1.yodo1.com^
 ||c1.zedo.com^
 ||c10.la4.download.9appsinstall.com^
 ||c10.statcounter.com^
@@ -54045,6 +54048,7 @@
 ||config.sdk.scopely.io^
 ||config.sdk.wiman.io^
 ||config.shazamid.com^
+||config.ssp.taxssp.com^
 ||config.tremorhub.com^
 ||config.uca.cloud.unity3d.com^
 ||config.unityads.unity3d.com^
@@ -65894,6 +65898,7 @@
 ||event-tag.yesware.com.herokudns.com^
 ||event-tracker.fiksu.com^
 ||event-tracker.production.fiksu.com^
+||event-us.ssp.taxssp.com^
 ||event.2leva.bg^
 ||event.adotsolution.com^
 ||event.adpia.vn^
@@ -115108,6 +115113,7 @@
 ||sdk-key.ulsee.com^
 ||sdk-log.gwallet.com^
 ||sdk-logs.matomy.com^
+||sdk-mas.yodo1.com^
 ||sdk-open-lbs.getui.com^
 ||sdk-open-phone.getui.com^
 ||sdk-orion.appboy.com^
@@ -115279,6 +115285,7 @@
 ||sdkconfig.ad.xiaomi.com^
 ||sdkconfig.vrvm.com^
 ||sdkdata.appia.com^
+||sdkeu.ssp.taxssp.com^
 ||sdkevents.zapr.in^
 ||sdkfjxjertertry.com^
 ||sdkgw.us1.twilio.com^
@@ -120797,8 +120804,10 @@
 ||ssp-api.propellerads.com^
 ||ssp-auction.vidint.net^
 ||ssp-csync.smartadserver.com^
+||ssp-eventlb-linode-us.ssp.taxssp.com^
 ||ssp-events.chartboost.com^
 ||ssp-fe-us-e2.content-ad.net^
+||ssp-lb-do-eu3.taxssp.com^
 ||ssp-notify.propellerads.com^
 ||ssp-px.content-ad.net^
 ||ssp-service.adtelligent.com^
