@@ -1,1 +1,15 @@
-{}
+{
+  "2026-06-25": {
+    "batch_number": 4,
+    "commits": ["de5a002"],
+    "actions": [
+      {
+        "issue": 1660,
+        "type": "remove",
+        "domain": "www.tm.a.prd.aadg.trafficmanager.net",
+        "list": "ads",
+        "reason": "False positive - Microsoft enterprise auth domain. Breaks M365/Azure login."
+      }
+    ]
+  }
+}
