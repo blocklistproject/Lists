@@ -1,0 +1,19 @@
+{
+  "batch_start": "2026-06-24T19:52:00.000000",
+  "issues_processed": 46,
+  "issues_closed": 0,
+  "issues_left_open": 46,
+  "pr_processed": 0,
+  "pr_merged": 0,
+  "commits_pushed": 0,
+  "snapshot": {
+    "total_open_issues": 100,
+    "needs_triage": 11,
+    "triaged": 30,
+    "needs_info": 42,
+    "request_add": 51,
+    "request_remove": 45,
+    "bot_issues": 2
+  },
+  "next_action": "Continue triage - process oldest issues first"
+}
