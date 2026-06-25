@@ -2,9 +2,9 @@
 # Description: Ad serving domains
 # Homepage: https://github.com/blocklistproject/Lists
 # License: MIT
-# Last modified: 2026-06-25 10:06:32 UTC
+# Last modified: 2026-06-25 22:23:21 UTC
 # Format: domains
-# Entries: 154,437
+# Entries: 154,435
 # URL: 
 #
 # This list is maintained by The Block List Project
@@ -149188,7 +149188,6 @@ www.tldtgs.com
 www.tlehflrectus.review
 www.tlkrvyuincommodes.review
 www.tlvmedia.com
-www.tm.a.prd.aadg.trafficmanager.net
 www.tms.triboomedia.it
 www.tmtrck.com
 www.tnctrx.com
@@ -153230,7 +153229,6 @@ zabpkrvgswdroz.com
 zacbwfgqvxan.com
 zacqkexd.com
 zaczpeabsygpdz.bid
-zadarma.com
 zadcloud.com
 zadhrsvmawp.com
 zads.care2.com
