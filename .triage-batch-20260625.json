@@ -1,0 +1,131 @@
+{
+  "batch": 1,
+  "start_time": "2026-06-25T12:26:15.839582Z",
+  "issues_processed": [
+    {
+      "issue": 1567,
+      "title": "[Feature Request] Add isMalicious.com as a data source",
+      "labels": [
+        "status:needs-info"
+      ],
+      "author": "hexablob",
+      "status": "needs-triage",
+      "domain": null,
+      "body_preview": "## Maintainer Triage\\n\\nThank you for the feature request. We attempted to access the provided blocklist URLs (e.g., https://ismalicious.com/api/blocklist/download/blocklist-domains-all.txt) but they returned HTML error pages (possibly due to access restrictions or incorrect URL).\\n\\nTo evaluate this data source, we need a working direct link to a plain-text blocklist (one domain per line) that we can automatically fetch and verify.\\n\\nPlease provide:\\n1. A working URL to a sample blocklist (e.g"
+    },
+    {
+      "issue": 1554,
+      "title": "0.0.0.0 does not work with IPv6.",
+      "labels": [
+        "enhancement",
+        "status:triaged"
+      ],
+      "author": "alsyundawy",
+      "status": "needs-triage",
+      "domain": null,
+      "body_preview": "## Maintainer Triage\n\nThank you for raising this important point about IPv6 support.\n\nUpon reviewing the blocklist format (e.g., in malware.txt), we see that entries are currently in the format \"0.0.0.0 domain\". As noted, this does not block IPv6 traffic.\n\nWe acknowledge that adding \":: domain\" entries would be necessary for full IPv6 coverage. However, before making such a change, we need to consider:\n1. Backward compatibility: ensuring existing tools that parse these files continue to work.\n2."
+    },
+    {
+      "issue": 1535,
+      "title": "[Add request]",
+      "labels": [
+        "request:add",
+        "status:needs-info"
+      ],
+      "author": "Krischubby1",
+      "status": "needs-triage",
+      "domain": null,
+      "body_preview": "URL you wish to be added:\n\nWhy you believe this should be added:\n\nAdd to list:  porn.txt\n\nOther info you think we should know:\n"
+    },
+    {
+      "issue": 1523,
+      "title": "[Add request] Add `https://dmv.cagov-jh.vip/portal`",
+      "labels": [
+        "request:add",
+        "status:needs-triage"
+      ],
+      "author": "brodyhoskins",
+      "status": "needs-triage",
+      "domain": "dmv.cagov-jh.vip",
+      "body_preview": "URL you wish to be added: https://dmv.cagov-jh.vip/portal\n\nWhy you believe this should be added: Phishing scam\n\nAdd to list: Phishing\n\nOther info you think we should know: The URL is used in an SMS phishing campaign:\n\n```\nCA DMV Final reminder: Enforcement Penalties Begin on June 21.\nOur records show that as of today, you still have an outstanding traffic ticket. In accordance with California State Administrative Code 15C-16.003, If you do not complete payment by June 20, 2025, we will take the "
+    },
+    {
+      "issue": 1522,
+      "title": "[Add request] Add `share.google`",
+      "labels": [
+        "request:add",
+        "status:needs-triage"
+      ],
+      "author": "brodyhoskins",
+      "status": "needs-triage",
+      "domain": null,
+      "body_preview": "URL you wish to be added: `share.google`\n\nWhy you believe this should be added: Domain used by Google mobile apps to mask true destination URL\n\nAdd to list: Redirect"
+    },
+    {
+      "issue": 1487,
+      "title": "[Add request] pa-cd.com",
+      "labels": [
+        "request:add",
+        "status:needs-triage",
+        "status:needs-info"
+      ],
+      "author": "Mailaender",
+      "status": "needs-triage",
+      "domain": "lwqvhgk.pa-cd.com",
+      "body_preview": "URL you wish to be added: https://lwqvhgk.pa-cd.com/?Rdt=On\n\nWhy you believe this should be added: 1 px web beacon\n\nAdd to list: not sure\n\nOther info you think we should know: from a HbbTV device\n"
+    },
+    {
+      "issue": 1486,
+      "title": "[Add request]",
+      "labels": [
+        "request:add",
+        "status:needs-triage",
+        "status:needs-info"
+      ],
+      "author": "yxkhkhiw",
+      "status": "needs-triage",
+      "domain": "www.trustpilot.com",
+      "body_preview": "URL you wish to be added: kazwex.com\n\nWhy you believe this should be added: \n\nA fake promotional image is circulating on Discord, claiming that YouTuber MrBeast is giving away $2,500 via kazwex.com using a promo code \"BONUS\".\n\nTrustpilot reports confirming the scam: https://www.trustpilot.com/review/kazwex.com\n\nImage used in the scam:  \n![Image](https://github.com/user-attachments/assets/5046bf63-042e-4206-aff5-0abddba5fa38)\n\nAdd to list: scam, phishing"
+    },
+    {
+      "issue": 1485,
+      "title": "[Remove Request] - torrent.fedoraproject.org",
+      "labels": [
+        "request:remove",
+        "status:needs-triage",
+        "status:needs-info"
+      ],
+      "author": "pullasuti",
+      "status": "needs-triage",
+      "domain": "github.com",
+      "body_preview": "URL you wish to be removed:\ntorrent.fedoraproject.org\n\nWhy you believe this to be a false positive:\nNon-malicious and completely legal torrent tracker distributing Fedora Linux\n\nList it is on:\nhttps://github.com/blocklistproject/Lists/blob/master/torrent.txt\n\nOther info you think we should know:\n"
+    },
+    {
+      "issue": 1467,
+      "title": "webanalytic",
+      "labels": [
+        "request:add",
+        "status:needs-triage",
+        "status:needs-info"
+      ],
+      "author": "trackerct",
+      "status": "needs-triage",
+      "domain": null,
+      "body_preview": "panel.webanalytic.org\n*analytic\n\nadsby.io\n*ad sever"
+    },
+    {
+      "issue": 1466,
+      "title": "ADD Vivoglobal / OPPO tracker",
+      "labels": [
+        "request:add",
+        "status:needs-triage",
+        "status:needs-info"
+      ],
+      "author": "trackerct",
+      "status": "needs-triage",
+      "domain": "github.com",
+      "body_preview": "litemsg.ekatox.com\ntr.ekatox.com\nliteapi.ekatox.com\ng-api.ekatox.com\nhttpdns-euex-push.heytapmobile.com\nmdp-appconf-eu.heytapdl.com\nicota-service-eu.allawnos.com\nmdp-appconf-tr.heytapdl.com\nmdp-appconf-sg.heytapdl.com\nappconf-ocs-eu.heytapdl.com\nobus-dc-eu.heytapmobile.com\n\nhttps://github.com/hagezi/dns-blocklists/issues/5558#event-17513470491\n\n\ntr-gdpr-vgc-datacenter.vivoglobal.com\nvhs.wwstat.com\nvhs.wwstat.com.eo.dnse0.com\nin-third-appstore.vivoglobal.com\naz.appstore.vivo.com.cn\ntr-album-api.v"
+    }
+  ],
+  "status": "complete"
+}
