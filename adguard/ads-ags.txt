@@ -2,9 +2,9 @@
 ! Description: Ad serving domains
 ! Homepage: https://github.com/blocklistproject/Lists
 ! License: MIT
-! Last modified: 2026-06-25 05:51:39 UTC
+! Last modified: 2026-06-25 05:52:35 UTC
 ! Format: AdGuard
-! Entries: 154,416
+! Entries: 154,428
 ! URL: 
 !
 ! This list is maintained by The Block List Project
@@ -24416,6 +24416,7 @@
 ||ad.mox.tv^
 ||ad.msn.co.il^
 ||ad.mtburn.com^
+||ad.multispaces.net^
 ||ad.musica.com^
 ||ad.musicmatch.com^
 ||ad.mwork.vn^
@@ -33438,6 +33439,7 @@
 ||adx.allstar.cz^
 ||adx.atnext.com^
 ||adx.callback.batmobi.net^
+||adx.catsonictp.com^
 ||adx.chip.de^
 ||adx.com.ru^
 ||adx.g.doubleclick.net^
@@ -37085,6 +37087,7 @@
 ||api.final.env.sandbox53.localytics.com^
 ||api.flicktweets.com^
 ||api.flocktory.com^
+||api.flowsixteen.com^
 ||api.flurry.com^
 ||api.flyertown.ca^
 ||api.fo.startappservice.com^
@@ -42378,6 +42381,7 @@
 ||bdnfszdqwaduv.com^
 ||bdotqoqzxauf.com^
 ||bdozkocgkljj.com^
+||bdplus-all-v4.qiniu.com.bplslb.com^
 ||bdplus.baidu.com^
 ||bdrcr.nexage.com^
 ||bdrfwkzu.bid^
@@ -50074,6 +50078,7 @@
 ||cdno.stickyadstv.com^
 ||cdnondemand.org^
 ||cdnorig.smartadserver.com^
+||cdnovs.multiopen.cn^
 ||cdnp.ad-stir.com^
 ||cdnp1.yieldoptimizer.com^
 ||cdnpoc.clicktale.net^
@@ -62251,6 +62256,7 @@
 ||dropzenad.com^
 ||droqnswhcfk.com^
 ||drosstik.com^
+||drovs.excelliance.cn^
 ||drowadri.racing^
 ||drowle.com^
 ||drowningpool.net^
@@ -65640,6 +65646,7 @@
 ||eu-adstatic.sam4m.com^
 ||eu-analytics.sam4m.com^
 ||eu-ast.adiquity.com^
+||eu-cdn.youngle.tech^
 ||eu-central-1-prod-t.singular.net^
 ||eu-central-1.appodeal.com^
 ||eu-central-1b.connectad.io^
@@ -65712,6 +65719,7 @@
 ||eu.crittercism.com^
 ||eu.digitaldsp.com^
 ||eu.event.cmp.advertising.com^
+||eu.inspi-dsp.com^
 ||eu.intentmedia.net^
 ||eu.link.decideinteractive.com^
 ||eu.market-place.su^
@@ -71751,6 +71759,7 @@
 ||gdhlysucwzyzu.com^
 ||gdhtshpyz.bid^
 ||gdixpvfqbhun.com^
+||gdl.youngle.tech^
 ||gdmconvtrck.com^
 ||gdmdigital.com^
 ||gdn.bigfishgames.com^
@@ -77541,6 +77550,7 @@
 ||i.idownloadgalore.com^
 ||i.imedia.cz^
 ||i.imstks.com^
+||i.inspi-dsp.com^
 ||i.interia.pl^
 ||i.ipromote.com^
 ||i.isnssdk.com^
@@ -88121,6 +88131,7 @@
 ||log.mediacategory.com^
 ||log.mmstat.com^
 ||log.mobpowertech.com^
+||log.multispaces.net^
 ||log.musical.ly^
 ||log.myfirsttab.com^
 ||log.nablerstats.com^
@@ -126756,6 +126767,7 @@
 ||tkarkbzkirlw.com^
 ||tkbo.com^
 ||tkcatwalk.aotter.net^
+||tkda.catsonictp.com^
 ||tkdsp.mobvista.com^
 ||tkeeebdseixv.com^
 ||tkekbn5sfk.com^
