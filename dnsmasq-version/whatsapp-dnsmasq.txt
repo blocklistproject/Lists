@@ -2,7 +2,7 @@
 # Description: WhatsApp domains
 # Homepage: https://github.com/blocklistproject/Lists
 # License: MIT
-# Last modified: 2026-06-25 05:52:38 UTC
+# Last modified: 2026-06-25 05:53:34 UTC
 # Format: dnsmasq
 # Entries: 226
 # URL: 

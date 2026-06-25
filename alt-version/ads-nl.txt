@@ -2,9 +2,9 @@
 # Description: Ad serving domains
 # Homepage: https://github.com/blocklistproject/Lists
 # License: MIT
-# Last modified: 2026-06-25 05:52:35 UTC
+# Last modified: 2026-06-25 05:53:31 UTC
 # Format: domains
-# Entries: 154,428
+# Entries: 154,438
 # URL: 
 #
 # This list is maintained by The Block List Project
@@ -59438,6 +59438,7 @@ dcplayf.com
 dcqhbqwlcukxu.com
 dcqyyaprodclf.bid
 dcs-beta.demdex.net
+dcs-ups.g03.yahoodns.net
 dcs.adgear.com
 dcs.maxthon.com
 dcs.netbiscuits.net
@@ -78495,6 +78496,7 @@ idrdmyixk.com
 idreammedia.com
 idregie.com
 idritracker.com
+ids.ad.gt.cdn.cloudflare.net
 ids.cdnwidget.com
 idsearch.ucnews.ucweb.com
 idspaces.ero-advertising.com
@@ -81594,6 +81596,7 @@ inyour.atlassolutions.com
 inze5.voluumtrk.com
 io-beauty.ojrq.net
 io-cdn.bfmio.com
+io-cookie-sync-1725936127.us-east-1.elb.amazonaws.com
 io.dizx.xyz
 io.innertrends.com
 io.narrative.io
@@ -93703,6 +93706,7 @@ mobileconspiracy.go2cloud.org
 mobilecore-thor.ironbeast.io
 mobilecore.com
 mobilecore.ironbeast.io
+mobilecrashreporting.googleapis.com
 mobilecrm.accengage.com
 mobiledl.adboe.com
 mobiledreams.offerstrack.net
@@ -101818,6 +101822,7 @@ p-v2.presage.io
 p.ace.advertising.com
 p.actionx.com
 p.ad.gt
+p.ad.gt.cdn.cloudflare.net
 p.adbrn.com
 p.addthis.com
 p.adnxs.com
@@ -104616,6 +104621,7 @@ pixelinteractivemedia.com
 pixeljs-ads.pubmatic.com
 pixellitomedia.com
 pixelrevenue.com
+pixels.ad.gt.cdn.cloudflare.net
 pixels.adzmedia.com
 pixels.asia
 pixels.livingsocial.com
@@ -115182,6 +115188,7 @@ sdk.fiksu.com
 sdk.fitle.com
 sdk.follow-apps.com
 sdk.fra-01.braze.eu
+sdk.fra-01.braze.eu.cdn.cloudflare.net
 sdk.g.uc.cn
 sdk.gplayspace.com
 sdk.gpowers.net
@@ -115878,6 +115885,7 @@ sefortme.pro
 seg-1.adjust.com
 seg-2.adjust.com
 seg.ad.gt
+seg.ad.gt.cdn.cloudflare.net
 seg.mmtro.com
 seg.sharethis.com
 sega.go2cloud.org
@@ -138787,6 +138795,7 @@ vimhuspifwyy.com
 vimlsrcfgjyr.bid
 vimobi.com
 vimvio.ru
+vin3.cookies.ovhnextmillmedia.com
 vinaads.vn
 vinbet.biz
 vincero-watches.pxf.io
@@ -149180,6 +149189,7 @@ www.tldtgs.com
 www.tlehflrectus.review
 www.tlkrvyuincommodes.review
 www.tlvmedia.com
+www.tm.a.prd.aadg.trafficmanager.net
 www.tms.triboomedia.it
 www.tmtrck.com
 www.tnctrx.com
