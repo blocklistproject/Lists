@@ -1,6 +1,6 @@
 {
   "batch_date": "2026-06-25",
-  "batch_number": 2,
+  "batch_number": 10,
   "issues_processed": 10,
   "pr_processed": [],
   "issues_closed": 0,
@@ -21,7 +21,7 @@
     "90-Daily/2026-06-25.md",
     "10-Projects/BlocklistProject-GitHub-Triage.md"
   ],
-  "batch_start": "2026-06-25T15:09:08.157402",
+  "batch_start": "2026-06-25T15:15:48.561003",
   "issues_left_open": 10,
   "batch_2_processed": [
     {
@@ -106,6 +106,128 @@
         "request:remove"
       ],
       "action": "not_found"
+    }
+  ],
+  "batch_10_processed": [
+    {
+      "issue": 1214,
+      "title": "[Remove Request] - track.kuronekoyamato.co.jp ",
+      "action": "not_found",
+      "reason": "Domain not found in any list",
+      "domain": "",
+      "target_list": "",
+      "evidence": "",
+      "dns_ok": true,
+      "http_status": 0,
+      "http_url": "",
+      "http_type": "<urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1016)>",
+      "in_lists": []
+    },
+    {
+      "issue": 1213,
+      "title": "[Add request] DRM blocklist",
+      "action": "needs_review",
+      "reason": "",
+      "domain": "",
+      "target_list": "",
+      "evidence": ""
+    },
+    {
+      "issue": 1212,
+      "title": "[Remove Request] - ",
+      "action": "needs_review",
+      "reason": "",
+      "domain": "",
+      "target_list": "",
+      "evidence": ""
+    },
+    {
+      "issue": 1209,
+      "title": "[Remove Request] - False Positive: Drug Infopool - a prevention website",
+      "action": "not_found",
+      "reason": "Domain not found in any list",
+      "domain": "",
+      "target_list": "",
+      "evidence": "",
+      "dns_ok": true,
+      "http_status": 0,
+      "http_url": "",
+      "http_type": "URL can't contain control characters. '19699 0.0.0.0 www.drug-infopool.de' (found at least ' ')",
+      "in_lists": []
+    },
+    {
+      "issue": 1208,
+      "title": "[Remove Request] - RCE Event",
+      "action": "not_found",
+      "reason": "Domain not found in any list",
+      "domain": "",
+      "target_list": "",
+      "evidence": "",
+      "dns_ok": true,
+      "http_status": 200,
+      "http_url": "https://events.rceevent.de/region/",
+      "http_type": "text/html; charset=utf-8",
+      "in_lists": []
+    },
+    {
+      "issue": 1207,
+      "title": "[Add request] Xiaomi Router tracker",
+      "action": "unverified",
+      "reason": "DNS: True, HTTP: 404",
+      "domain": "eu.api.miwifi.com",
+      "target_list": "tracker",
+      "evidence": "because this send data to xiaomi when you use xiaomi router",
+      "dns_ok": true,
+      "http_status": 404,
+      "http_url": "https://eu.api.miwifi.com",
+      "http_type": "text/html; charset=utf-8",
+      "in_lists": []
+    },
+    {
+      "issue": 1206,
+      "title": "[Add request] rambleconcernedscar.com and ploteight.com and proftrafficcounter.com",
+      "action": "unverified",
+      "reason": "DNS: False, HTTP: 0",
+      "domain": "rambleconcernedscar.com and ploteight.com and proftrafficcounter.com",
+      "target_list": "",
+      "evidence": "",
+      "dns_ok": false,
+      "http_status": 0,
+      "http_url": "",
+      "http_type": "URL can't contain control characters. 'rambleconcernedscar.com and ploteight.com and proftrafficcounter.com' (found at least ' ')",
+      "in_lists": []
+    },
+    {
+      "issue": 1205,
+      "title": "[Remove Request] - js.stripe.com",
+      "action": "needs_review",
+      "reason": "",
+      "domain": "",
+      "target_list": "",
+      "evidence": ""
+    },
+    {
+      "issue": 1201,
+      "title": "[Add request]",
+      "action": "needs_review",
+      "reason": "",
+      "domain": "",
+      "target_list": "",
+      "evidence": ""
+    },
+    {
+      "issue": 1200,
+      "title": "[Remove Request] - darkroom.com",
+      "action": "not_found",
+      "reason": "Domain not found in any list",
+      "domain": "",
+      "target_list": "",
+      "evidence": "",
+      "dns_ok": true,
+      "http_status": 200,
+      "http_url": "https://darkroom.com",
+      "http_type": "text/html; charset=utf-8",
+      "in_lists": []
     }
   ]
 }
