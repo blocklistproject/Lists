@@ -2,7 +2,7 @@
 # Description: Basic protection list
 # Homepage: https://github.com/blocklistproject/Lists
 # License: MIT
-# Last modified: 2026-06-25 10:06:33 UTC
+# Last modified: 2026-06-25 22:23:21 UTC
 # Format: domains
 # Entries: 76,040
 # URL: 
