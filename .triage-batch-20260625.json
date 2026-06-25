@@ -21,25 +21,31 @@
     "90-Daily/2026-06-25.md",
     "10-Projects/BlocklistProject-GitHub-Triage.md"
   ],
-  "batch_start": "2026-06-25T14:39:42.530961",
+  "batch_start": "2026-06-25T15:09:08.157402",
   "issues_left_open": 10,
   "batch_2_processed": [
     {
       "issue": 1567,
       "title": "[Feature Request] Add isMalicious.com as a data source",
-      "labels": ["enhancement"],
+      "labels": [
+        "enhancement"
+      ],
       "action": "needs_review"
     },
     {
       "issue": 1554,
       "title": "0.0.0.0 does not work with IPv6.",
-      "labels": ["bug"],
+      "labels": [
+        "bug"
+      ],
       "action": "needs_review"
     },
     {
       "issue": 1522,
       "title": "[Add request] Add `share.google`",
-      "labels": ["request:add"],
+      "labels": [
+        "request:add"
+      ],
       "action": "add",
       "domain": "share.google",
       "dns_ok": true,
@@ -48,43 +54,57 @@
     {
       "issue": 1467,
       "title": "webanalytic",
-      "labels": ["request:add"],
+      "labels": [
+        "request:add"
+      ],
       "action": "needs_review"
     },
     {
       "issue": 1393,
       "title": "[Remove Request] - webredir.vip.gandi.net",
-      "labels": ["request:remove"],
+      "labels": [
+        "request:remove"
+      ],
       "action": "not_found"
     },
     {
       "issue": 1359,
       "title": "[Remove Request] - etel-tuning.eu and etel-tuning.de",
-      "labels": ["request:remove"],
+      "labels": [
+        "request:remove"
+      ],
       "action": "not_found"
     },
     {
       "issue": 1358,
       "title": "[Remove Request] - files.catbox.moe",
-      "labels": ["request:remove"],
+      "labels": [
+        "request:remove"
+      ],
       "action": "not_found"
     },
     {
       "issue": 1357,
       "title": "[Remove Request] - c.xbox.com, o.xbox.com",
-      "labels": ["request:remove"],
+      "labels": [
+        "request:remove"
+      ],
       "action": "not_found"
     },
     {
       "issue": 1356,
       "title": "[Remove Request] - whiteroad.io",
-      "labels": ["request:remove"],
+      "labels": [
+        "request:remove"
+      ],
       "action": "not_found"
     },
     {
       "issue": 1355,
       "title": "[Remove Request] -",
-      "labels": ["request:remove"],
+      "labels": [
+        "request:remove"
+      ],
       "action": "not_found"
     }
   ]
