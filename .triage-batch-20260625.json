@@ -1,19 +1,26 @@
 {
   "batch_date": "2026-06-25",
   "batch_number": 4,
-  "issues_processed": 0,
+  "issues_processed": 1,
   "pr_processed": [],
   "issues_closed": 0,
-  "issues_commented": [],
+  "issues_commented": [1660],
   "pr_merged": [],
   "pr_closed": [],
-  "commits_pushed": [],
+  "commits_pushed": ["de5a002"],
   "ci_status": {
-    "last_run": null,
+    "last_run": "2026-06-25T22:23:00.000000",
     "status": "pending"
   },
   "notes_updated": [],
   "batch_start": "2026-06-25T22:17:00.000000",
-  "issues_left_open": 56,
-  "batch_4_processed": []
+  "issues_left_open": 55,
+  "batch_4_processed": [
+    {
+      "issue_number": 1660,
+      "action": "remove",
+      "reason": "False positive - Microsoft enterprise auth domain (trafficmanager.net for Azure/M365 login). Blocked domain www.tm.a.prd.aadg.trafficmanager.net breaks Microsoft login. Removed from ads.txt. CI pending.",
+      "sha": "de5a002"
+    }
+  ]
 }
