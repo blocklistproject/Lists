@@ -2,7 +2,7 @@
 # Description: Ad serving domains
 # Homepage: https://github.com/blocklistproject/Lists
 # License: MIT
-# Last modified: 2026-06-24 08:14:40 UTC
+# Last modified: 2026-06-25 05:49:14 UTC
 # Format: domains
 # Entries: 154,402
 # URL: 
@@ -77774,6 +77774,7 @@ i_mobistar.tealiumiq.com
 ia-cert.inner-active.mobi
 ia-client01.inner-active.mobi
 ia-vast.inner-active.mobi
+ia.greedygame.com
 ia.iinfo.cz
 ia.spinbox.net
 ia1.7search.com
@@ -139150,7 +139151,6 @@ vmomentapi.apk.v-mate.mobi
 vmp.boldchat.com
 vmqbifesgqs.com
 vmrsmnrvzh.com
-vms.bluebillywig.com
 vms.netseer.com
 vmss.boldchat.com
 vmstats.varrando.com
