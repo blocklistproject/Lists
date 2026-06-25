@@ -1,12 +1,30 @@
 {
   "batch_date": "2026-06-25",
-  "issues_processed": [],
+  "batch_number": 1,
+  "issues_processed": [
+    {
+      "issue": 1456,
+      "title": "[Remove Request] - zadarma.com",
+      "labels": ["request:remove"],
+      "author": "pullasuti",
+      "status": "completed",
+      "action": "removed",
+      "domain": "zadarma.com",
+      "list": "ads"
+    }
+  ],
   "pr_processed": [],
-  "issues_closed": [],
-  "issues_commented": [],
+  "issues_closed": [1456],
+  "issues_commented": [1456],
   "pr_merged": [],
   "pr_closed": [],
-  "commits_pushed": [],
-  "ci_status": {},
-  "notes_updated": []
+  "commits_pushed": ["0cf0328"],
+  "ci_status": {
+    "last_run": "2026-06-25T15:35:17Z",
+    "status": "queued"
+  },
+  "notes_updated": [
+    "90-Daily/2026-06-25.md",
+    "10-Projects/BlocklistProject-GitHub-Triage.md"
+  ]
 }
