@@ -38,8 +38,10 @@ def split_fields(body: str) -> dict[str, str]:
         fields[key] = body[start:end].strip()
     return fields
 
-def normalize_domain(text: str) -> str | None:
+def normalize_domain(text: str | None) -> str | None:
     """Normalize a domain string."""
+    if not text:
+        return None
     text = text.strip().strip('`<>[]{}.,;\'"')
     if not text or text.lower() in {'_no response_', 'no response'}:
         return None
