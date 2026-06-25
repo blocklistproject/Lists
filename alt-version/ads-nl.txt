@@ -2,9 +2,9 @@
 # Description: Ad serving domains
 # Homepage: https://github.com/blocklistproject/Lists
 # License: MIT
-# Last modified: 2026-06-25 05:53:31 UTC
+# Last modified: 2026-06-25 10:05:16 UTC
 # Format: domains
-# Entries: 154,438
+# Entries: 154,437
 # URL: 
 #
 # This list is maintained by The Block List Project
@@ -93706,7 +93706,6 @@ mobileconspiracy.go2cloud.org
 mobilecore-thor.ironbeast.io
 mobilecore.com
 mobilecore.ironbeast.io
-mobilecrashreporting.googleapis.com
 mobilecrm.accengage.com
 mobiledl.adboe.com
 mobiledreams.offerstrack.net
