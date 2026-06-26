@@ -14,7 +14,7 @@
     1245,
     1243
   ],
-  "status": "reviewed",
+  "status": "applied",
   "results": [
     {
       "issue": 1348,
@@ -146,5 +146,63 @@
       "reason": "Verified: DNS OK, HTTP 200",
       "evidence": "i was wondering why some sites still have ads working and i found this in one of them: `https://a.magsrv.com/ad-provider.js`"
     }
-  ]
+  ],
+  "applied_at": "2026-06-26T22:56:05.526932Z",
+  "results_summary": {
+    "processed": 10,
+    "failed": 0,
+    "processed_list": [
+      {
+        "issue": 1348,
+        "action": "needs_review",
+        "status": "success"
+      },
+      {
+        "issue": 1335,
+        "action": "needs_review",
+        "status": "success"
+      },
+      {
+        "issue": 1256,
+        "action": "not_found",
+        "status": "success"
+      },
+      {
+        "issue": 1254,
+        "action": "needs_review",
+        "status": "success"
+      },
+      {
+        "issue": 1251,
+        "action": "unverified",
+        "status": "success"
+      },
+      {
+        "issue": 1250,
+        "action": "unverified",
+        "status": "success"
+      },
+      {
+        "issue": 1249,
+        "action": "not_found",
+        "status": "success"
+      },
+      {
+        "issue": 1248,
+        "action": "not_found",
+        "status": "success"
+      },
+      {
+        "issue": 1245,
+        "action": "not_found",
+        "status": "success"
+      },
+      {
+        "issue": 1243,
+        "action": "add",
+        "status": "success"
+      }
+    ],
+    "failed_list": []
+  }
 }
