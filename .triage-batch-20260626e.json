@@ -103,12 +103,23 @@
       "comment": "This issue lacks a domain list and supporting evidence. Please use the issue template to provide the list of domains to add and evidence supporting their inclusion."
     }
   ],
-  "processed_at": null,
+  "processed_at": "2026-06-26T12:57:00Z",
   "commit_sha": null,
-  "push_status": null,
+  "push_status": "none",
   "github_action_status": null,
   "results": {
-    "processed": [],
+    "processed": [
+      {"issue": 1270, "status": "already-closed", "action": "close-wontfix"},
+      {"issue": 1267, "status": "already-closed", "action": "close-wontfix"},
+      {"issue": 1266, "status": "already-closed", "action": "close-needs-info"},
+      {"issue": 1264, "status": "already-closed", "action": "close-needs-info"},
+      {"issue": 1263, "status": "already-closed", "action": "close-needs-info"},
+      {"issue": 1261, "status": "already-closed", "action": "close-wontfix"},
+      {"issue": 1260, "status": "already-closed", "action": "close-wontfix"},
+      {"issue": 1259, "status": "already-closed", "action": "close-needs-info"},
+      {"issue": 1258, "status": "already-closed", "action": "close-wontfix"},
+      {"issue": 1257, "status": "already-closed", "action": "close-needs-info"}
+    ],
     "failed": []
   }
 }
