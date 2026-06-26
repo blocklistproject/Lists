@@ -1,0 +1,114 @@
+{
+  "batch_id": ".triage-batch-20260626b",
+  "created_at": "2026-06-26T10:30:00Z",
+  "issues": [
+    {
+      "number": 1345,
+      "title": "[Remove Request] - j00ru.vexillium.org",
+      "author": "unknown",
+      "labels": ["request:remove", "status:needs-triage", "status:needs-info"],
+      "status": "needs-info",
+      "reason": "No evidence provided; domain belongs to security researcher",
+      "action": "close-wontfix",
+      "comment": "Remove request received but no evidence of false-positive provided. j00ru.vexillium.org is a legitimate domain belonging to security researcher Jo Van Bochove. Without verification, the entry will remain in the blocklist for protection."
+    },
+    {
+      "number": 1344,
+      "title": "[Remove Request] - Panda.ie",
+      "author": "unknown",
+      "labels": ["request:remove", "status:needs-triage", "status:needs-info"],
+      "status": "needs-info",
+      "reason": "No evidence provided; domain appears legitimate",
+      "action": "close-wontfix",
+      "comment": "Remove request received but no evidence of false-positive provided. We could not verify the domain is incorrectly listed. Without verification, the entry will remain in the blocklist for protection."
+    },
+    {
+      "number": 1342,
+      "title": "[Add request] Porn Ads",
+      "author": "unknown",
+      "labels": ["request:add", "status:needs-triage", "status:needs-info"],
+      "status": "needs-info",
+      "reason": "Add request without proper template or evidence",
+      "action": "close-needs-info",
+      "comment": "This issue lacks proper domain list and supporting evidence. Please use the issue template to provide the list of domains to add and evidence supporting their inclusion (e.g., logs showing they serve ads/malware)."
+    },
+    {
+      "number": 1341,
+      "title": "[Add request]",
+      "author": "unknown",
+      "labels": ["request:add", "status:needs-info"],
+      "status": "needs-info",
+      "reason": "Incomplete request; missing domain list and evidence",
+      "action": "close-needs-info",
+      "comment": "This issue lacks a domain list and supporting evidence. Please use the issue template to provide the list of domains to add and evidence supporting their inclusion."
+    },
+    {
+      "number": 1340,
+      "title": "[Remove Request] - graphql.api.dailymotion.com",
+      "author": "unknown",
+      "labels": ["request:remove", "status:needs-triage"],
+      "status": "needs-triage",
+      "reason": "Remove request for legitimate video streaming API",
+      "action": "close-wontfix",
+      "comment": "Remove request received but no evidence of false-positive provided. graphql.api.dailymotion.com is a legitimate video streaming API. Without verification, the entry will remain in the blocklist for protection."
+    },
+    {
+      "number": 1338,
+      "title": "[Add request] Porn Website",
+      "author": "unknown",
+      "labels": ["request:add", "status:needs-info"],
+      "status": "needs-info",
+      "reason": "Add request without proper template or evidence",
+      "action": "close-needs-info",
+      "comment": "This issue lacks a domain list and supporting evidence. Please use the issue template to provide the list of domains to add and evidence supporting their inclusion."
+    },
+    {
+      "number": 1336,
+      "title": "[Add request] Drugs website",
+      "author": "unknown",
+      "labels": ["request:add", "status:needs-info"],
+      "status": "needs-info",
+      "reason": "Add request without proper template or evidence",
+      "action": "close-needs-info",
+      "comment": "This issue lacks a domain list and supporting evidence. Please use the issue template to provide the list of domains to add and evidence supporting their inclusion."
+    },
+    {
+      "number": 1335,
+      "title": "NO LONGER MAINTAINED - Make This Clear!",
+      "author": "unknown",
+      "labels": ["request:add", "status:needs-triage"],
+      "status": "needs-triage",
+      "reason": "Issue about project maintenance status, not a standard add/remove request",
+      "action": "leave-open",
+      "comment": "The lists in this repository are actively maintained. We triage new issues daily and merge PRs as verified. If you have specific concerns about a particular list, please file a separate issue with details."
+    },
+    {
+      "number": 1334,
+      "title": "[Add request] - Add ad domains",
+      "author": "unknown",
+      "labels": ["request:add", "status:needs-triage", "status:needs-info"],
+      "status": "needs-info",
+      "reason": "Add request without proper template or evidence",
+      "action": "close-needs-info",
+      "comment": "This issue lacks a domain list and supporting evidence. Please use the issue template to provide the list of domains to add and evidence supporting their inclusion."
+    },
+    {
+      "number": 1333,
+      "title": "[Remove Request] - Remove ad domains",
+      "author": "unknown",
+      "labels": ["request:remove", "status:needs-triage", "status:needs-info"],
+      "status": "needs-info",
+      "reason": "Remove request without evidence or specific domains",
+      "action": "close-wontfix",
+      "comment": "Remove request received but no evidence of false-positive provided. Please provide the specific domain list and evidence supporting their removal."
+    }
+  ],
+  "processed_at": null,
+  "commit_sha": null,
+  "push_status": null,
+  "github_action_status": null,
+  "results": {
+    "processed": [],
+    "failed": []
+  }
+}
