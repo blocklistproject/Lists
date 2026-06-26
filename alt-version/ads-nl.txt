@@ -2,9 +2,9 @@
 # Description: Ad serving domains
 # Homepage: https://github.com/blocklistproject/Lists
 # License: MIT
-# Last modified: 2026-06-25 22:23:21 UTC
+# Last modified: 2026-06-26 23:27:50 UTC
 # Format: domains
-# Entries: 154,435
+# Entries: 154,436
 # URL: 
 #
 # This list is maintained by The Block List Project
@@ -8810,6 +8810,7 @@ a.lolwot.com
 a.lon.lpsnmedia.net
 a.lpsnmedia.net
 a.macuser.co.uk
+a.magsrv.com
 a.marketgid.com
 a.mayakinfo.ru
 a.measurementaz.com
