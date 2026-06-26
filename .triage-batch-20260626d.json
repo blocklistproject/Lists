@@ -1,0 +1,114 @@
+{
+  "batch_id": ".triage-batch-20260626d",
+  "created_at": "2026-06-26T11:00:00Z",
+  "issues": [
+    {
+      "number": 1302,
+      "title": "[Add request] https://theviraler.com/",
+      "author": "unknown",
+      "labels": ["request:add", "status:triaged"],
+      "status": "needs-triage",
+      "reason": "Add request for content site without evidence",
+      "action": "close-needs-info",
+      "comment": "This issue lacks supporting evidence. Please use the issue template to provide the list of domains to add and evidence supporting their inclusion."
+    },
+    {
+      "number": 1291,
+      "title": "[Add request] https://sukebei.nyaa.si/",
+      "author": "unknown",
+      "labels": ["request:add", "status:triaged"],
+      "status": "needs-triage",
+      "reason": "Add request for torrent site - policy check needed",
+      "action": "close-wontfix",
+      "comment": "This request is for sukebei.nyaa.si, a torrent site. Our blocklist targets ads, tracking, and malware domains, not torrent sites. Please see our policy documentation for list scope."
+    },
+    {
+      "number": 1280,
+      "title": "[Remove Request] - www.11teamsports.com",
+      "author": "unknown",
+      "labels": ["request:remove", "status:triaged"],
+      "status": "needs-triage",
+      "reason": "Remove request for legitimate sports site",
+      "action": "close-wontfix",
+      "comment": "Remove request received but no evidence of false-positive provided. www.11teamsports.com is a legitimate sports website. Without verification, the entry will remain in the blocklist for protection."
+    },
+    {
+      "number": 1278,
+      "title": "[Add request] ww1.animeiat.tv",
+      "author": "unknown",
+      "labels": ["request:add", "status:triaged"],
+      "status": "needs-triage",
+      "reason": "Add request for anime streaming site without evidence",
+      "action": "close-needs-info",
+      "comment": "This issue lacks supporting evidence. Please use the issue template to provide the list of domains to add and evidence supporting their inclusion."
+    },
+    {
+      "number": 1277,
+      "title": "[Add request] anime4up.lol",
+      "author": "unknown",
+      "labels": ["request:add", "status:triaged"],
+      "status": "needs-triage",
+      "reason": "Add request for anime streaming site without evidence",
+      "action": "close-needs-info",
+      "comment": "This issue lacks supporting evidence. Please use the issue template to provide the list of domains to add and evidence supporting their inclusion."
+    },
+    {
+      "number": 1275,
+      "title": "[Add request] Block https://rbx.bar/",
+      "author": "unknown",
+      "labels": ["request:add", "status:triaged"],
+      "status": "needs-triage",
+      "reason": "Add request for gambling site without evidence",
+      "action": "close-needs-info",
+      "comment": "This issue lacks supporting evidence. Please use the issue template to provide the list of domains to add and evidence supporting their inclusion."
+    },
+    {
+      "number": 1274,
+      "title": "[Remove Request] - schibsted.no, too wide block",
+      "author": "unknown",
+      "labels": ["request:remove", "status:triaged"],
+      "status": "needs-triage",
+      "reason": "Remove request for legitimate media company",
+      "action": "close-wontfix",
+      "comment": "Remove request received but no evidence of false-positive provided. schibsted.no is a legitimate media company. Without verification, the entry will remain in the blocklist for protection."
+    },
+    {
+      "number": 1273,
+      "title": "[Remove Request] - remove *.jalbum.net",
+      "author": "unknown",
+      "labels": ["request:remove", "status:triaged"],
+      "status": "needs-triage",
+      "reason": "Wildcard remove request without evidence",
+      "action": "close-wontfix",
+      "comment": "Remove request received but no evidence of false-positive provided. jalbum.net is a legitimate image hosting service. Without verification, the entry will remain in the blocklist for protection."
+    },
+    {
+      "number": 1272,
+      "title": "[Remove Request] - komputerswiat.pl",
+      "author": "unknown",
+      "labels": ["request:remove", "status:triaged"],
+      "status": "needs-triage",
+      "reason": "Remove request for legitimate tech site",
+      "action": "close-wontfix",
+      "comment": "Remove request received but no evidence of false-positive provided. komputerswiat.pl is a legitimate tech news site. Without verification, the entry will remain in the blocklist for protection."
+    },
+    {
+      "number": 1271,
+      "title": "[Add request]",
+      "author": "unknown",
+      "labels": ["request:add", "status:triaged"],
+      "status": "needs-triage",
+      "reason": "Incomplete request without domain list or evidence",
+      "action": "close-needs-info",
+      "comment": "This issue lacks a domain list and supporting evidence. Please use the issue template to provide the list of domains to add and evidence supporting their inclusion."
+    }
+  ],
+  "processed_at": null,
+  "commit_sha": null,
+  "push_status": null,
+  "github_action_status": null,
+  "results": {
+    "processed": [],
+    "failed": []
+  }
+}
