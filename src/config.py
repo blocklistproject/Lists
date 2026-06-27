@@ -19,7 +19,12 @@ def load_config(config_path: Path | None = None) -> dict[str, Any]:
         config_path = Path(__file__).parent.parent / "config" / "lists.yml"
     
     with open(config_path, "r", encoding="utf-8") as f:
-        return yaml.safe_load(f)
+        config = yaml.safe_load(f)
+        
+        if config is None:
+            return {}
+        
+        return config
 
 
 def get_list_names(config: dict[str, Any], status: list[str] | None = None) -> list[str]:
