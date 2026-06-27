@@ -1,56 +1,70 @@
 # Label Taxonomy Migration Guide
 
-## Target Taxonomy
+## Current State (as of 2026-06-27)
 
-```
-request:add     - Add domain to list
-request:remove  - Remove domain from list
+### Labels Used on Open Issues
+- `status:needs-info` - Needs more information from reporter
+- `bot` - Applied automatically by bot/cron
+- `status:needs-review` - Issue needs human review
+- `request:add` - Request to add a domain to a blocklist
+- `request:remove` - False-positive/removal request
+- `status:triaged` - Triaged by Hermes Agent
+- `status:unverified` - Domain verification failed (DNS/HTTP)
+- `status:not-found` - Requested removal target was not found
+- `status:needs-triage` - Needs maintainer review
 
-status:needs-triage    - Awaiting initial review
-status:needs-info      - Missing evidence required
-status:verified-new    - Domain is active, add recommended
-status:verified-exists - Domain is active, removal recommended
-status:not-found       - Domain not found/active
-status:blocked         - Cannot process (policy/legal)
-status:completed       - Action taken
+### Issue Statistics
+- **Total open issues:** ~70+
+- **Open PRs:** 0
 
-area:adguard          - AdGuard Home format
-area:dnsmasq          - Dnsmasq format
-area:alt              - Alternative formats
-area:everything       - Everything combined list
-```
+## Recommended Taxonomy
 
-## Migration Steps
+### Status Labels (state tracking)
+- `status:needs-triage` - Needs maintainer review
+- `status:needs-info` - Needs more information from reporter
+- `status:verified-new` - Domain verified and added
+- `status:verified-exists` - Domain verified and already present
+- `status:not-found` - Domain not found/verified removal target
+- `status:blocked` - Blocked by external dependency
+- `status:duplicate` - Duplicate of another issue
 
-1. **Audit current labels and issue counts** (read-only)
-2. **Create/update canonical labels** first (low-risk, no notifications)
-3. **Update issue templates and workflows** to emit canonical labels
-4. **Migrate issues in batches** (add canonical, preserve old if user hasn't approved removal)
-5. **Verify no open issues carry legacy labels**
-6. **Delete obsolete labels** only after verification
-7. **Update templates/workflows** to prevent reintroduction
+### Request Labels (issue type)
+- `request:add` - Add a domain to a blocklist
+- `request:remove` - Remove a domain from a blocklist
+- `request:maintenance` - Dead domain/legitimate cleanup request
+- `question` - Question about the project
 
-## Pitfalls
+### Source Labels (origin tracking)
+- `source:automation` - Created by bot/cron
+- `source:human` - Created by user/reporter
 
-- Bulk label changes notify subscribers → get approval before large migrations
-- Do not delete old labels before automation is updated
-- `gh issue edit` exhausts GraphQL rate limit on large batches → switch to REST if needed
-- Contradictory bot statuses → prefer `status:needs-triage`
+## Migration Strategy
 
-## REST Fallback for Bulk Migrations
+### Phase 1: Label Audit
+1. List all repo labels and usage counts
+2. Identify duplicate/conflicting labels
+3. Identify labels referenced by templates that don't exist
 
-If GraphQL quota exhausted:
+### Phase 2: Label Updates
+1. Create canonical label definitions
+2. Update issue templates
+3. Update workflow files
 
-```bash
-# Get issue numbers with label
-curl -s \
-  -H "Authorization: token $GITHUB_TOKEN" \
-  "https://api.github.com/repos/$OWNER/$REPO/issues?labels=needs-triage&state=open" \
-  | python3 -c "import sys,json; [print(i['number']) for i in json.load(sys.stdin)]"
+### Phase 3: Issue Migration
+1. Process issues in batches of 10
+2. Add canonical labels while preserving old ones
+3. Remove old labels only after migration is complete
 
-# Set complete label set via REST
-curl -s -X PATCH \
-  -H "Authorization: token $GITHUB_TOKEN" \
-  https://api.github.com/repos/$OWNER/$REPO/issues/N \
-  -d '{"labels": ["canonical:label1", "canonical:label2"]}'
-```
+## Current Workflow
+
+1. **Triage new issues** - Check for structured fields
+2. **Verify domains** - DNS and HTTP checks
+3. **Apply appropriate labels** - Based on findings
+4. **Comment with evidence** - Include commit SHA when applicable
+5. **Close completed issues** - Use reason `completed`
+
+## Notes
+
+- Avoid bulk label removals that could notify subscribers
+- Keep old labels during migration for compatibility
+- Update automation/templates before deleting obsolete labels
