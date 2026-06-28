@@ -2,9 +2,9 @@
 # Description: Basic protection list
 # Homepage: https://github.com/blocklistproject/Lists
 # License: MIT
-# Last modified: 2026-06-27 20:15:50 UTC
+# Last modified: 2026-06-28 17:18:59 UTC
 # Format: hosts
-# Entries: 76,040
+# Entries: 76,036
 # URL: 
 #
 # This list is maintained by The Block List Project
@@ -5120,7 +5120,6 @@
 0.0.0.0 ads.metblogs.com
 0.0.0.0 ads.metropolis.co.jp
 0.0.0.0 ads.mgnetwork.com
-0.0.0.0 ads.miarroba.com
 0.0.0.0 ads.mic.com
 0.0.0.0 ads.millionairemate.com
 0.0.0.0 ads.milliyet.cubecdn.net
@@ -15822,7 +15821,6 @@
 0.0.0.0 contacto.gtc.com.gt
 0.0.0.0 contacto.leaseplango.es
 0.0.0.0 contactos-gay.com
-0.0.0.0 contadores.miarroba.com
 0.0.0.0 container-csr12.net.daraz.com
 0.0.0.0 container.pointroll.com
 0.0.0.0 containercar13.net.daraz.com
@@ -26004,7 +26002,6 @@
 0.0.0.0 hitboxenterprise.com
 0.0.0.0 hitboxwireless.com
 0.0.0.0 hitcounter01.xspp.com
-0.0.0.0 hitcounters.miarroba.com
 0.0.0.0 hitcpm.com
 0.0.0.0 hitfarm.com
 0.0.0.0 hitfilm.pl
@@ -39503,7 +39500,6 @@
 0.0.0.0 online-xanax.petrovka.info
 0.0.0.0 online.creedglobal.in
 0.0.0.0 online.euromoney.com
-0.0.0.0 online.miarroba.com
 0.0.0.0 online.mobify.net
 0.0.0.0 online.sh.cn
 0.0.0.0 online.slb.lfengmobile.com

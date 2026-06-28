@@ -2,9 +2,9 @@
 ! Description: Scam domains
 ! Homepage: https://github.com/blocklistproject/Lists
 ! License: MIT
-! Last modified: 2026-06-27 20:15:52 UTC
+! Last modified: 2026-06-28 17:19:02 UTC
 ! Format: AdGuard
-! Entries: 1,275
+! Entries: 1,276
 ! URL: 
 !
 ! This list is maintained by The Block List Project
@@ -401,6 +401,7 @@
 ||kingteestore.com^
 ||kisserine.com^
 ||kitchendecor.shop^
+||kobold-ai.com^
 ||ksvitmimay.com^
 ||kyrycp.online.dream.website^
 ||ladamustore.com^
@@ -1286,4 +1287,3 @@
 ||zedoption.com^
 ||zgalaxytee.com^
 ||zukoptions.com^
-||kobold-ai.com^

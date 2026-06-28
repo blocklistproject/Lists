@@ -2,9 +2,9 @@
 ! Description: Ad serving domains
 ! Homepage: https://github.com/blocklistproject/Lists
 ! License: MIT
-! Last modified: 2026-06-28 14:58:23 UTC
+! Last modified: 2026-06-28 17:18:59 UTC
 ! Format: AdGuard
-! Entries: 154,366
+! Entries: 154,362
 ! URL: 
 !
 ! This list is maintained by The Block List Project
@@ -29298,7 +29298,6 @@
 ||ads.metropolis.co.jp^
 ||ads.mgmt.somee.com^
 ||ads.mgnetwork.com^
-||ads.miarroba.com^
 ||ads.mic.com^
 ||ads.midatlantic.aaa.com^
 ||ads.midwayusa.com^
@@ -49402,6 +49401,7 @@
 ||cdn.leon.ru^
 ||cdn.lfstmedia.com^
 ||cdn.libraries.inpwrd.com^
+||cdn.liftoff-creatives.io^
 ||cdn.liftoff.io^
 ||cdn.linksmart.com^
 ||cdn.linkwelove.com^
@@ -54201,7 +54201,6 @@
 ||contadd.com^
 ||contador-de-visitas.com^
 ||contadordevisitas.es^
-||contadores.miarroba.com^
 ||contadores.miarroba.es^
 ||contadorgratis.com^
 ||contadorgratis.es^
@@ -75879,7 +75878,6 @@
 ||hitcounter.ru^
 ||hitcounter.servmetric.com^
 ||hitcounter01.xspp.com^
-||hitcounters.miarroba.com^
 ||hitcountersonline.com^
 ||hitcounterstats.com^
 ||hitcpm.com^
@@ -92632,7 +92630,6 @@
 ||miamioh.qualtrics.com^
 ||miaozhen-cm.admaster.com.cn^
 ||miaozhen.com^
-||miarroba.com^
 ||miastina.pw^
 ||mibebu.com^
 ||mibet.com^
@@ -100175,7 +100172,6 @@
 ||online.cnzz.com^
 ||online.com^
 ||online.koko-ko.com^
-||online.miarroba.com^
 ||online.mik123.com^
 ||online.mobify.net^
 ||online.qdigital.co.il^

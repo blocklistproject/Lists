@@ -2,9 +2,9 @@
 # Description: Basic protection list
 # Homepage: https://github.com/blocklistproject/Lists
 # License: MIT
-# Last modified: 2026-06-27 20:15:50 UTC
+# Last modified: 2026-06-28 17:18:59 UTC
 # Format: dnsmasq
-# Entries: 76,040
+# Entries: 76,036
 # URL: 
 #
 # This list is maintained by The Block List Project
@@ -5120,7 +5120,6 @@ server=/ads.metaplug.com/
 server=/ads.metblogs.com/
 server=/ads.metropolis.co.jp/
 server=/ads.mgnetwork.com/
-server=/ads.miarroba.com/
 server=/ads.mic.com/
 server=/ads.millionairemate.com/
 server=/ads.milliyet.cubecdn.net/
@@ -15822,7 +15821,6 @@ server=/contactmusic.us.intellitxt.com/
 server=/contacto.gtc.com.gt/
 server=/contacto.leaseplango.es/
 server=/contactos-gay.com/
-server=/contadores.miarroba.com/
 server=/container-csr12.net.daraz.com/
 server=/container.pointroll.com/
 server=/containercar13.net.daraz.com/
@@ -26004,7 +26002,6 @@ server=/hitboxcentral.com/
 server=/hitboxenterprise.com/
 server=/hitboxwireless.com/
 server=/hitcounter01.xspp.com/
-server=/hitcounters.miarroba.com/
 server=/hitcpm.com/
 server=/hitfarm.com/
 server=/hitfilm.pl/
@@ -39503,7 +39500,6 @@ server=/online-viagra.petrovka.info/
 server=/online-xanax.petrovka.info/
 server=/online.creedglobal.in/
 server=/online.euromoney.com/
-server=/online.miarroba.com/
 server=/online.mobify.net/
 server=/online.sh.cn/
 server=/online.slb.lfengmobile.com/

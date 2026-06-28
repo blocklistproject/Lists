@@ -2,9 +2,9 @@
 # Description: Scam domains
 # Homepage: https://github.com/blocklistproject/Lists
 # License: MIT
-# Last modified: 2026-06-27 20:15:52 UTC
+# Last modified: 2026-06-28 17:19:02 UTC
 # Format: dnsmasq
-# Entries: 1,275
+# Entries: 1,276
 # URL: 
 #
 # This list is maintained by The Block List Project
@@ -401,6 +401,7 @@ server=/kindapod.com/
 server=/kingteestore.com/
 server=/kisserine.com/
 server=/kitchendecor.shop/
+server=/kobold-ai.com/
 server=/ksvitmimay.com/
 server=/kyrycp.online.dream.website/
 server=/ladamustore.com/
@@ -1286,4 +1287,3 @@ server=/zedbubble.com/
 server=/zedoption.com/
 server=/zgalaxytee.com/
 server=/zukoptions.com/
-address=/kobold-ai.com/

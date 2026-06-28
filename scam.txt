@@ -2,9 +2,9 @@
 # Description: Scam domains
 # Homepage: https://github.com/blocklistproject/Lists
 # License: MIT
-# Last modified: 2026-06-27 20:15:52 UTC
+# Last modified: 2026-06-28 17:19:02 UTC
 # Format: hosts
-# Entries: 1,275
+# Entries: 1,276
 # URL: 
 #
 # This list is maintained by The Block List Project
@@ -401,6 +401,7 @@
 0.0.0.0 kingteestore.com
 0.0.0.0 kisserine.com
 0.0.0.0 kitchendecor.shop
+0.0.0.0 kobold-ai.com
 0.0.0.0 ksvitmimay.com
 0.0.0.0 kyrycp.online.dream.website
 0.0.0.0 ladamustore.com
@@ -1286,4 +1287,3 @@
 0.0.0.0 zedoption.com
 0.0.0.0 zgalaxytee.com
 0.0.0.0 zukoptions.com
-kobold-ai.com

@@ -2,9 +2,9 @@
 # Description: Phishing domains
 # Homepage: https://github.com/blocklistproject/Lists
 # License: MIT
-# Last modified: 2026-06-27 20:15:51 UTC
+# Last modified: 2026-06-28 17:19:01 UTC
 # Format: domains
-# Entries: 190,218
+# Entries: 190,215
 # URL: 
 #
 # This list is maintained by The Block List Project
@@ -83724,7 +83724,6 @@ rccn.info
 rcco.in
 rcdauganda.org
 rcddc.org
-rce-event.de
 rce-jo.com
 rcentral527.webserversystems.com
 rcg.kjukenhi.in
@@ -95474,6 +95473,7 @@ steamcommuhity.com
 steamcommuinlty.com
 steamcommujtliy.com
 steamcommumnity.com
+steamcommumtiy.com
 steamcommunety.com
 steamcommunety.net
 steamcommuniitu.com
@@ -166627,7 +166627,6 @@ www.rccgliberia.org
 www.rccgpavilion.org
 www.rccgpraiseassembly.com.ng
 www.rcco.in
-www.rce-event.de
 www.rce-jo.com
 www.rcgrp.us
 www.rchobbyindia.com
@@ -184612,7 +184611,6 @@ www.xekhachhaicuong.com
 www.xemayanhem.com
 www.xemoz.com
 www.xenangdaiduong.com.vn
-www.xenet.es
 www.xenew.tk
 www.xenewns.tk
 www.xenoninfotech.in
@@ -187500,7 +187498,6 @@ xemoz.com
 xenangdaiduong.com.vn
 xenaroda.com
 xenctoy.ga
-xenet.es
 xenew.tk
 xenewns.tk
 xenoninfotech.in
