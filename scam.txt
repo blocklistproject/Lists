@@ -1286,3 +1286,4 @@
 0.0.0.0 zedoption.com
 0.0.0.0 zgalaxytee.com
 0.0.0.0 zukoptions.com
+kobold-ai.com
