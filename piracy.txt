@@ -2,7 +2,7 @@
 # Description: Piracy and illegal streaming
 # Homepage: https://github.com/blocklistproject/Lists
 # License: MIT
-# Last modified: 2026-06-27 20:15:51 UTC
+# Last modified: 2026-06-28 17:19:01 UTC
 # Format: hosts
 # Entries: 2,153
 # URL: 

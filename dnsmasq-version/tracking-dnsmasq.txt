@@ -2,9 +2,9 @@
 # Description: Tracking and analytics
 # Homepage: https://github.com/blocklistproject/Lists
 # License: MIT
-# Last modified: 2026-06-27 20:15:52 UTC
+# Last modified: 2026-06-28 17:19:02 UTC
 # Format: dnsmasq
-# Entries: 15,050
+# Entries: 15,051
 # URL: 
 #
 # This list is maintained by The Block List Project
@@ -14170,6 +14170,7 @@ server=/stathat.com/
 server=/static.audienceinsights.net/
 server=/static.chartbeat.com/
 server=/static.zanox.com/
+server=/statistik.changing-cities.org/
 server=/statistik.i22.de/
 server=/stats.adthink-media.com/
 server=/stats.adurr.com/

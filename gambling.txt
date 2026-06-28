@@ -2,9 +2,9 @@
 # Description: Gambling sites
 # Homepage: https://github.com/blocklistproject/Lists
 # License: MIT
-# Last modified: 2026-06-27 20:15:50 UTC
+# Last modified: 2026-06-28 17:19:00 UTC
 # Format: hosts
-# Entries: 2
+# Entries: 10
 # URL: 
 #
 # This list is maintained by The Block List Project
@@ -13,11 +13,11 @@
 
 0.0.0.0 casinos-en-ligne-belge.com
 0.0.0.0 cb-128943.com
+0.0.0.0 fezbet4.com
 0.0.0.0 odds.am
 0.0.0.0 pokerstars-01.com
-0.0.0.0 fezbet4.com
-0.0.0.0 sportfogadás.com
-0.0.0.0 unibet-112.com
-0.0.0.0 tippmixpro.hu
 0.0.0.0 sportfogadas.org
+0.0.0.0 sportfogadás.com
 0.0.0.0 tippmix.hu
+0.0.0.0 tippmixpro.hu
+0.0.0.0 unibet-112.com

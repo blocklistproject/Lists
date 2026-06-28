@@ -2,9 +2,9 @@
 ! Description: Basic protection list
 ! Homepage: https://github.com/blocklistproject/Lists
 ! License: MIT
-! Last modified: 2026-06-27 20:15:50 UTC
+! Last modified: 2026-06-28 17:18:59 UTC
 ! Format: AdGuard
-! Entries: 76,040
+! Entries: 76,036
 ! URL: 
 !
 ! This list is maintained by The Block List Project
@@ -5120,7 +5120,6 @@
 ||ads.metblogs.com^
 ||ads.metropolis.co.jp^
 ||ads.mgnetwork.com^
-||ads.miarroba.com^
 ||ads.mic.com^
 ||ads.millionairemate.com^
 ||ads.milliyet.cubecdn.net^
@@ -15822,7 +15821,6 @@
 ||contacto.gtc.com.gt^
 ||contacto.leaseplango.es^
 ||contactos-gay.com^
-||contadores.miarroba.com^
 ||container-csr12.net.daraz.com^
 ||container.pointroll.com^
 ||containercar13.net.daraz.com^
@@ -26004,7 +26002,6 @@
 ||hitboxenterprise.com^
 ||hitboxwireless.com^
 ||hitcounter01.xspp.com^
-||hitcounters.miarroba.com^
 ||hitcpm.com^
 ||hitfarm.com^
 ||hitfilm.pl^
@@ -39503,7 +39500,6 @@
 ||online-xanax.petrovka.info^
 ||online.creedglobal.in^
 ||online.euromoney.com^
-||online.miarroba.com^
 ||online.mobify.net^
 ||online.sh.cn^
 ||online.slb.lfengmobile.com^

@@ -2,9 +2,9 @@
 # Description: Drug-related domains
 # Homepage: https://github.com/blocklistproject/Lists
 # License: MIT
-# Last modified: 2026-06-27 20:15:50 UTC
+# Last modified: 2026-06-28 17:19:00 UTC
 # Format: domains
-# Entries: 26,030
+# Entries: 26,029
 # URL: 
 #
 # This list is maintained by The Block List Project
@@ -19692,7 +19692,6 @@ www.drspanel.nl
 www.drspharm.com
 www.drucillcecilia.ru
 www.drug-24.com
-www.drug-infopool.de
 www.drug-rx-pharmacy.org
 www.drug-screen.com
 www.drug-store-24h.com

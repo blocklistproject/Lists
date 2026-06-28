@@ -2,9 +2,9 @@
 ! Description: Gambling sites
 ! Homepage: https://github.com/blocklistproject/Lists
 ! License: MIT
-! Last modified: 2026-06-27 20:15:50 UTC
+! Last modified: 2026-06-28 17:19:00 UTC
 ! Format: AdGuard
-! Entries: 2
+! Entries: 10
 ! URL: 
 !
 ! This list is maintained by The Block List Project
@@ -13,3 +13,11 @@
 
 ||casinos-en-ligne-belge.com^
 ||cb-128943.com^
+||fezbet4.com^
+||odds.am^
+||pokerstars-01.com^
+||sportfogadas.org^
+||sportfogadás.com^
+||tippmix.hu^
+||tippmixpro.hu^
+||unibet-112.com^
