@@ -248,13 +248,13 @@ def parse_issue(issue: dict) -> dict:
         list_match = re.search(r"Add\s+to\s+list:\s*(\S+)", body, re.IGNORECASE)
         if list_match:
             list_name = list_match.group(1).strip()
-            result["list"] = list_name.lower().replace(".txt", "")
+            result["list"] = list_name.lower().replace(".txt", "").rstrip(",")
             
     elif "[remove" in title.lower() or "[remove" in body.lower():
         result["type"] = "remove"
         
         # Extract domain from title first
-        domain_match = re.search(r"\[remove\s+(?:request\])?\s*(.+?)(?:\s*\])?$", title, re.IGNORECASE)
+        domain_match = re.search(r"\[remove\s+(?:request\])?\s*(.+?)(?:\s*\\])?$", title, re.IGNORECASE)
         if domain_match:
             result["domain"] = domain_match.group(1).strip()
         
@@ -268,7 +268,7 @@ def parse_issue(issue: dict) -> dict:
         list_match = re.search(r"List\s+it\s+is\s+on:\s*(\S+)", body, re.IGNORECASE)
         if list_match:
             list_name = list_match.group(1).strip()
-            result["list"] = list_name.lower().replace(".txt", "")
+            result["list"] = list_name.lower().replace(".txt", "").rstrip(",")
     
     # Extract evidence/reason from body
     if not result["evidence"]:
