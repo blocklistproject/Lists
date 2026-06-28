@@ -14489,7 +14489,6 @@
 0.0.0.0 tracker.webstyle.com
 0.0.0.0 tracker.webstyle.de
 0.0.0.0 tracker.winload.de
-0.0.0.0 tracker2.itzmx.com
 0.0.0.0 trackersimulator.org
 0.0.0.0 trackerstatistik.init-ag.de
 0.0.0.0 trackertec.nznweb.com.br
@@ -15062,3 +15061,6 @@
 0.0.0.0 zylpfood.com
 0.0.0.0 zzhengre.com
 0.0.0.0 zzword.com
+0.0.0.0 wwwstat.rz.uni-leipzig.de
+0.0.0.0 uni.wwwstat.rz.uni-leipzig.de
+0.0.0.0 rtnl.bxcl.de
