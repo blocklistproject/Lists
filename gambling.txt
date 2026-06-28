@@ -13,3 +13,11 @@
 
 0.0.0.0 casinos-en-ligne-belge.com
 0.0.0.0 cb-128943.com
+0.0.0.0 odds.am
+0.0.0.0 pokerstars-01.com
+0.0.0.0 fezbet4.com
+0.0.0.0 sportfogadás.com
+0.0.0.0 unibet-112.com
+0.0.0.0 tippmixpro.hu
+0.0.0.0 sportfogadas.org
+0.0.0.0 tippmix.hu
