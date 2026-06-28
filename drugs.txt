@@ -19692,7 +19692,7 @@
 0.0.0.0 www.drspharm.com
 0.0.0.0 www.drucillcecilia.ru
 0.0.0.0 www.drug-24.com
-0.0.0.0 www.drug-infopool.de
+0.0.0.0 www.drugdetoxification.com
 0.0.0.0 www.drug-rx-pharmacy.org
 0.0.0.0 www.drug-screen.com
 0.0.0.0 www.drug-store-24h.com
