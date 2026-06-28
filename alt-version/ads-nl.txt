@@ -2,9 +2,9 @@
 # Description: Ad serving domains
 # Homepage: https://github.com/blocklistproject/Lists
 # License: MIT
-# Last modified: 2026-06-27 20:15:50 UTC
+# Last modified: 2026-06-28 14:58:23 UTC
 # Format: domains
-# Entries: 154,436
+# Entries: 154,366
 # URL: 
 #
 # This list is maintained by The Block List Project
@@ -614,8 +614,6 @@
 100.1qingdao.com
 100.6.87.194.dynamic.dol.ru
 100023.live173.com
-10006.hittail.com
-100065.hittail.com
 1000zakazov.ru
 1001movies.com
 1001noch.net
@@ -639,7 +637,6 @@
 10148.tlnk.io
 101649310.keywordblocks.com
 1016557.fls.doubleclick.net
-10168.hittail.com
 1017680.109mview.atdmt.com.1.6000.302br.net
 1018d7.r.axf8.net
 101com.com
@@ -668,7 +665,6 @@
 10310.engine.mobileapptracking.com
 103118.measurementapi.com
 1033.bitterstrawberry.com
-103532.hittail.com
 10372.bapi.adsafeprotected.com
 1039.everesttech.net
 10394-127.ampxchange.com
@@ -694,10 +690,8 @@
 106.6.87.194.dynamic.dol.ru
 1061.engine.mobileapptracking.com
 10624.engine.mobileapptracking.com
-106242.hittail.com
 106310.measurementapi.com
 10646.bapi.adsafeprotected.com
-106794.hittail.com
 10680.engine.mobileapptracking.com
 10684.engine.mobileapptracking.com
 107-fms-070.mktoresp.com
@@ -718,8 +712,6 @@
 108.6.87.194.dynamic.dol.ru
 10806.engine.mobileapptracking.com
 10811.bapi.adsafeprotected.com
-108411.hittail.com
-108434.hittail.com
 108557.genieessp.com
 10860.engine.mobileapptracking.com
 10892.engine.mobileapptracking.com
@@ -940,7 +932,6 @@
 126-quf-067.mktoresp.com
 126.6.87.194.dynamic.dol.ru
 126.xg4ken.com
-1262.hittail.com
 12638.engine.mobileapptracking.com
 12648afd00d93.com
 12650.engine.mobileapptracking.com
@@ -968,7 +959,6 @@
 12840.engine.mobileapptracking.com
 12846.engine.mobileapptracking.com
 128642122.keywordblocks.com
-12877.hittail.com
 1288af19.akstat.io
 1288afl9.akstat.io
 128cash.org
@@ -1009,7 +999,6 @@
 13194.engine.mobileapptracking.com
 1319483.fls.doubleclick.net
 132.6.87.194.dynamic.dol.ru
-13223.hittail.com
 1324251.fls.doubleclick.net
 1326154.fls.doubleclick.net
 13270.engine.mobileapptracking.com
@@ -1103,7 +1092,6 @@
 14212.engine.mobileapptracking.com
 14223500.adoric-om.com
 14226.engine.mobileapptracking.com
-14228.hittail.com
 14232.engine.mobileapptracking.com
 142376-hb.adomik.com
 14257518e297edf3d2a1.com
@@ -1192,7 +1180,6 @@
 151150.measurementapi.com
 1511930.fls.doubleclick.net
 1513878.fls.doubleclick.net
-15141.hittail.com
 151785341.keywordblocks.com
 152.6.87.194.dynamic.dol.ru
 15242.engine.mobileapptracking.com
@@ -1238,14 +1225,12 @@
 156.6.87.194.dynamic.dol.ru
 156050.measurementapi.com
 15624.engine.mobileapptracking.com
-15628.hittail.com
 15634.engine.mobileapptracking.com
 156396.engine.mobileapptracking.com
 156654.engine.mobileapptracking.com
 156690.measurementapi.com
 1567000.fls.doubleclick.net
 156846.engine.mobileapptracking.com
-15694.hittail.com
 156950.engine.mobileapptracking.com
 157-events.olark.com
 157.6.87.194.dynamic.dol.ru
@@ -1377,7 +1362,6 @@
 1656.tm.zedo.com
 165604.engine.mobileapptracking.com
 16562.engine.mobileapptracking.com
-16565.hittail.com
 165786.engine.mobileapptracking.com
 165a4.v.fwmrm.net
 165a7.v.fwmrm.net
@@ -1934,7 +1918,6 @@
 190939.measurementapi.com
 190953.engine.mobileapptracking.com
 190963.engine.mobileapptracking.com
-19097.hittail.com
 190993.engine.mobileapptracking.com
 191.6.87.194.dynamic.dol.ru
 191023.measurementapi.com
@@ -2048,7 +2031,6 @@
 194985.engine.mobileapptracking.com
 195-ulc-200.mktoresp.com
 195.6.87.194.dynamic.dol.ru
-19500.hittail.com
 195018.measure.mobileapptracking.com
 195043.engine.mobileapptracking.com
 195057.measurementapi.com
@@ -2059,7 +2041,6 @@
 1952.content.swrve.com
 195204.engine.mobileapptracking.com
 19524.engine.mobileapptracking.com
-19533.hittail.com
 19534.redirect.appmetrica.yandex.com
 195349.measurementapi.com
 195421.engine.mobileapptracking.com
@@ -2694,7 +2675,6 @@
 20882.engine.mobileapptracking.com
 20896.engine.mobileapptracking.com
 209.6.87.194.dynamic.dol.ru
-20909.hittail.com
 20936.engine.mobileapptracking.com
 20954.engine.mobileapptracking.com
 2096-c494-2b19-a39d.reporo.net
@@ -2773,7 +2753,6 @@
 218.6.87.194.dynamic.dol.ru
 2180-ae7c-524f-6ea7.reporo.net
 21804.engine.mobileapptracking.com
-21807.hittail.com
 21810.engine.mobileapptracking.com
 2183.jsjmlejl.clickshield.net
 218333161.keywordblocks.com
@@ -2849,7 +2828,6 @@
 225.6.87.194.dynamic.dol.ru
 225103.measurementapi.com
 225201762.keywordblocks.com
-22537.hittail.com
 2257.tm.zedo.com
 225821.measurementapi.com
 2259.api.swrve.com
@@ -2925,7 +2903,6 @@
 233-kml-790.mktoresp.com
 233.6.87.194.dynamic.dol.ru
 233.bitterstrawberry.com
-23315.hittail.com
 2332696.fls.doubleclick.net
 23332.engine.mobileapptracking.com
 23346.engine.mobileapptracking.com
@@ -2980,7 +2957,6 @@
 238097-hb.adomik.com
 23820173.adoric-om.com
 238303871.keywordblocks.com
-23837.hittail.com
 23844.engine.mobileapptracking.com
 23874.engine.mobileapptracking.com
 23882.engine.mobileapptracking.com
@@ -3036,7 +3012,6 @@
 247-pyd-578.mktoresp.com
 247121152.keywordblocks.com
 247149511.keywordblocks.com
-24725.hittail.com
 247590.r.axf8.net
 2478.engine.mobileapptracking.com
 2478.tlnk.io
@@ -3058,7 +3033,6 @@
 248-cvm-931.mktoresp.com
 248-gzr-890.mktoresp.com
 248-qhf-280.mktoresp.com
-24809.hittail.com
 248841121.keywordblocks.com
 249361-hb.adomik.com
 2499034.fls.doubleclick.net
@@ -3091,7 +3065,6 @@
 24x7mcafeesupportnumber.com
 25.news-subscribe.com
 2505110097.log.optimizely.com
-25057.hittail.com
 2506-ce6e-3191-738a.reporo.net
 2507573.fls.doubleclick.net
 251-bls-301.mktoresp.com
@@ -3100,7 +3073,6 @@
 2517d.s.fwmrm.net
 2517d.v.fwmrm.net
 251816177.keywordblocks.com
-25184.hittail.com
 2525252fpixel.everesttech.net
 25252flivecareer.7eer.net
 25288202.adoric-om.com
@@ -3154,7 +3126,6 @@
 262537781.keywordblocks.com
 2627.content.swrve.com
 262855726.log.optimizely.com
-26288.hittail.com
 262891241.keywordblocks.com
 2633.tm.zedo.com
 263517451.keywordblocks.com
@@ -3196,7 +3167,6 @@
 273895282.keywordblocks.com
 274-bwb-611.mktoresp.com
 274517160.keywordblocks.com
-27460.hittail.com
 274a717d311ac90f.com
 275-koe-800.mktoresp.com
 2754428.adoric-om.com
@@ -3212,7 +3182,6 @@
 2778255fe56.com
 278-dul-470.mktoresp.com
 27823402.adoric-om.com
-27891.hittail.com
 2792900.fls.doubleclick.net
 2793343.fls.doubleclick.net
 2796.api.swrve.com
@@ -3231,7 +3200,6 @@
 2819c.v.fwmrm.net
 2822.v.fwmrm.net
 2824cfe1-ddaf-4e0d-8978-26cbbc0ec730.nuid.imrworldwide.com
-28305.hittail.com
 2838.tm.zedo.com
 2840522.fls.doubleclick.net
 2840523.fls.doubleclick.net
@@ -3623,7 +3591,6 @@
 30.video-ak.cdn.spotify.com
 30000.api.swrve.com
 30000.content.swrve.com
-30001.hittail.com
 300355.measurementapi.com
 3003809.fls.doubleclick.net
 30061.api.swrve.com
@@ -3726,7 +3693,6 @@
 307c-ff21-488f-60c1.reporo.net
 3080.engine.mobileapptracking.com
 308041.measurementapi.com
-30811.hittail.com
 308248513.log.optimizely.com
 3084.tm.zedo.com
 3086.api.swrve.com
@@ -3763,8 +3729,6 @@
 313-gjl-850.mktoresp.com
 3130320.fls.doubleclick.net
 313349.measurementapi.com
-31335.hittail.com
-314.hittail.com
 314428.measurementapi.com
 315-ftt-121.mktoresp.com
 3151.77152.blueseek.com
@@ -3779,7 +3743,6 @@
 317427912.keywordblocks.com
 318022972.keywordblocks.com
 318555312.keywordblocks.com
-31870.hittail.com
 3188.engine.mobileapptracking.com
 319-vud-720.mktoresp.com
 3192-6558-18ed-4634.reporo.net
@@ -3814,7 +3777,6 @@
 3236700.fls.doubleclick.net
 32398268.adoric-om.com
 324-bzd-350.mktoresp.com
-3241.hittail.com
 3243857.fls.doubleclick.net
 324493962.keywordblocks.com
 3250.v.fwmrm.net
@@ -3940,14 +3902,12 @@
 340ca72733c9e46fb1.com
 341-sft-270.mktoresp.com
 3412342.fls.doubleclick.net
-3415.hittail.com
 3416.engine.mobileapptracking.com
 341800575.log.optimizely.com
 342-gkd-711.mktoresp.com
 342-mmw-280.mktoresp.com
 342235131.keywordblocks.com
 34239362.adoric-om.com
-34245.hittail.com
 342534530.keywordblocks.com
 3426.api.swrve.com
 343.bitterstrawberry.com
@@ -3970,9 +3930,7 @@
 345can.com
 346-brc-940.mktoresp.com
 346-cyc-960.mktoresp.com
-3463.hittail.com
 3463728.fls.doubleclick.net
-34673.hittail.com
 3468466.fls.doubleclick.net
 3469203.fls.doubleclick.net
 347-iat-677.mktoresp.com
@@ -4007,7 +3965,6 @@
 353432852.keywordblocks.com
 3535200.fls.doubleclick.net
 35369.9265.302br.net
-35385.hittail.com
 354-exc-411.mktoresp.com
 354-lpt-160.mktoresp.com
 354184683.search.media.net
@@ -4448,11 +4405,9 @@
 391-dcy-831.mktoresp.com
 3912800.fls.doubleclick.net
 3916309.fls.doubleclick.net
-3918.hittail.com
 3918882.fls.doubleclick.net
 392385.artb.adtelligent.com
 392a50219df6.com
-3933.hittail.com
 3933769.fls.doubleclick.net
 3936.engine.mobileapptracking.com
 3941-9707-df57-b0f4.reporo.net
@@ -4466,7 +4421,6 @@
 395347641.keywordblocks.com
 3954462.fls.doubleclick.net
 3956316.fls.doubleclick.net
-3957.hittail.com
 395721220.keywordblocks.com
 3959.api.swrve.com
 3959.content.swrve.com
@@ -4765,7 +4719,6 @@
 413107.eurtb.adtelligent.com
 4133.88.primosearch.com
 4133110.fls.doubleclick.net
-4134.hittail.com
 4134200.fls.doubleclick.net
 4136110.fls.doubleclick.net
 41375241.adoric-om.com
@@ -5146,7 +5099,6 @@
 4558700.fls.doubleclick.net
 4559200.fls.doubleclick.net
 456-qch-520.mktoresp.com
-4560.hittail.com
 4560200.fls.doubleclick.net
 4561500.fls.doubleclick.net
 4562600.fls.doubleclick.net
@@ -5195,7 +5147,6 @@
 4610400.fls.doubleclick.net
 4610658.fls.doubleclick.net
 4611243.fls.doubleclick.net
-4612.hittail.com
 461421.ortb.adtelligent.com
 4618627.fls.doubleclick.net
 46188081.adoric-om.com
@@ -7066,7 +7017,6 @@
 71.6.87.194.dynamic.dol.ru
 7107.bapi.adsafeprotected.com
 7114.bapi.adsafeprotected.com
-71158.hittail.com
 711609032.keywordblocks.com
 713-xsc-918.mktoresp.com
 7130-c5e3-76e0-b5fe.reporo.net
@@ -7132,7 +7082,6 @@
 73.news-subscribe.com
 7303a09a9435e14d2141-577d252383f9c1423860b10142058ad7.r27.cf2.rackcdn.com
 7306.engine.mobileapptracking.com
-73091.hittail.com
 731829171.keywordblocks.com
 732-rqc-880.mktoresp.com
 732063851.keywordblocks.com
@@ -7277,7 +7226,6 @@
 772-ake-210.mktoresp.com
 772-goh-920.mktoresp.com
 772-kgg-249.mktoresp.com
-77266.hittail.com
 7730.engine.mobileapptracking.com
 7731-1e8f-2cbc-ae5e.reporo.net
 77348831.adoric-om.com
@@ -7330,7 +7278,6 @@
 787254981.keywordblocks.com
 788-vna-120.mktoresp.com
 7882.bapi.adsafeprotected.com
-78843.hittail.com
 7899-5a70-d490-46a1.reporo.net
 7899-7fc3-3379-0ddd.reporo.net
 78e3-711c-d833-db7f.reporo.net
@@ -7595,7 +7542,6 @@
 813-pgo-800.mktoresp.com
 814.content.swrve.com
 81414897.adoric-om.com
-815.hittail.com
 8158ad2ee8d4.com
 816-wib-540.mktoresp.com
 8162.engine.mobileapptracking.com
@@ -7627,7 +7573,6 @@
 825-wpk-761.mktoresp.com
 82504257.adoric-om.com
 8259400.fls.doubleclick.net
-8260.hittail.com
 8260757.fls.doubleclick.net
 82617131.webengage.co
 82617207.webengage.co
@@ -7699,7 +7644,6 @@
 8503a4170f10a9d.com
 850a54dbd2398a2.com
 850f-6072-c5a3-cce2.reporo.net
-85103.hittail.com
 8519.bapi.adsafeprotected.com
 852.im
 8524.engine.mobileapptracking.com
@@ -7820,7 +7764,6 @@
 893-kje-970.mktoresp.com
 895-aqn-021.mktoresp.com
 895-cgw-711.mktoresp.com
-8959.hittail.com
 897-cmd-695.mktoresp.com
 897-ijr-850.mktoresp.com
 897-tds-380.mktoresp.com
@@ -7987,7 +7930,6 @@
 92.6.87.194.dynamic.dol.ru
 9210.engine.mobileapptracking.com
 9215.302br.net
-922.hittail.com
 9223-4522-a23a-9a3a.reporo.net
 922441.bapi.adsafeprotected.com
 922526.bapi.adsafeprotected.com
@@ -8029,7 +7971,6 @@
 9332-e090-d81a-f3e4.reporo.net
 9332.302br.net
 9333.302br.net
-93367.hittail.com
 9340.302br.net
 93466.measurementapi.com
 934743222.keywordblocks.com
@@ -8044,7 +7985,6 @@
 938567431.keywordblocks.com
 939-paz-320.mktoresp.com
 939237cdc62078.com
-9394.hittail.com
 93976391.adoric-om.com
 93c8c9a28e1db445.com
 94.6.87.194.dynamic.dol.ru
@@ -8059,7 +7999,6 @@
 943.engine.mobileapptracking.com
 94397662.adoric-om.com
 944279.parkingcrew.net
-9446.hittail.com
 944e66f8683ac43c.com
 945-cxd-062.mktoresp.com
 945.measurementapi.com
@@ -8086,23 +8025,19 @@
 951-jdx-440.mktoresp.com
 951-ofl-421.mktoresp.com
 9510.engine.mobileapptracking.com
-95126.hittail.com
 952236667.keywordblocks.com
 9528.302br.net
 954-lkm-700.mktoresp.com
 954-ywz-330.mktoresp.com
 9546.302br.net
-9547.hittail.com
 955-bai-200.mktoresp.com
 95539.com
 9554.engine.mobileapptracking.com
 95558000.com
 955725141.keywordblocks.com
-9563.hittail.com
 956491384.keywordblocks.com
 95662602.adoric-om.com
 957-vqh-616.mktoresp.com
-9571.hittail.com
 957328-hb.adomik.com
 957500771.keywordblocks.com
 957745966.keywordblocks.com
@@ -8121,7 +8056,6 @@
 961.com
 9614-b261-9ab1-8536.reporo.net
 9615.302br.net
-96175.hittail.com
 961905451.keywordblocks.com
 962-hzy-660.mktoresp.com
 962-ndj-210.mktoresp.com
@@ -8202,7 +8136,6 @@
 991-jsn-701.mktoresp.com
 991.com
 991552004212107.engine.mobileapptracking.com
-99400.hittail.com
 994119.r.axf8.net
 994329-hb.adomik.com
 994329.hb.adomik.com
@@ -37272,7 +37205,6 @@ api.news.uodoo.com
 api.newsfeed.intl.miui.com
 api.newshub.uodoo.com
 api.newshuntads.com
-api.nexx.cloud
 api.ning.com
 api.nirror.abtasty.com
 api.niumobi.com
@@ -128095,7 +128027,6 @@ track.kscentraltrack.us
 track.ksta.de
 track.ktplay.com
 track.kuntfu.com
-track.kuronekoyamato.co.jp
 track.ladyboysclub.com
 track.latinasex.com
 track.latinatranny.com
@@ -147499,7 +147430,6 @@ www.nextoptim.com
 www.nextstudent.com
 www.nexus.ensighten.com
 www.neyscape.com
-www.nfbio.dk
 www.ngads.com
 www.ngbn.net
 www.ngludvfyaspiration.review
