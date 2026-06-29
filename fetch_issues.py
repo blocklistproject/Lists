@@ -1,29 +1,57 @@
 #!/usr/bin/env python3
-import os, json, urllib.request, urllib.error
+import os, json, sys, urllib.request, urllib.error
 
 hermes_env = os.path.expanduser('~/.hermes/.env')
-GITHUB_TOKEN = None
+GITHUB_TOKEN=None
 if os.path.exists(hermes_env):
     with open(hermes_env) as f:
         for line in f:
             if line.startswith('GITHUB_TOKEN='):
-                GITHUB_TOKEN = line.strip().split('=', 1)[1].strip()
+                GITHUB_TOKEN=line.strip().split('=', 1)[1].strip()
                 break
 
+if not GITHUB_TOKEN:
+    print('GITHUB_TOKEN not found', file=sys.stderr)
+    sys.exit(1)
+
 owner_repo = 'blocklistproject/Lists'
-url = f'https://api.github.com/repos/{owner_repo}/issues?state=open&per_page=100&direction=asc'
+all_issues = []
+page = 1
 
-req = urllib.request.Request(url)
-req.add_header('Authorization', f'token {GITHUB_TOKEN}')
-req.add_header('Accept', 'application/vnd.github.v3+json')
+while True:
+    url = f'https://api.github.com/repos/{owner_repo}/issues?state=open&per_page=100&page={page}&direction=asc'
+    req = urllib.request.Request(url)
+    req.add_header('Authorization', f'token {GITHUB_TOKEN}')
+    req.add_header('Accept', 'application/vnd.github.v3+json')
+    
+    try:
+        with urllib.request.urlopen(req) as resp:
+            data = json.loads(resp.read().decode())
+            if not data:
+                break
+            for issue in data:
+                if 'pull_request' not in issue:
+                    all_issues.append(issue)
+            page += 1
+    except urllib.error.HTTPError as e:
+        print(f'HTTP Error {e.code}: {e.reason}', file=sys.stderr)
+        break
+    except Exception as e:
+        print(f'Error: {e}', file=sys.stderr)
+        break
 
-try:
-    with urllib.request.urlopen(req) as resp:
-        data = json.loads(resp.read().decode())
-        issues = [i for i in data if 'pull_request' not in i]
-        print(f'Found {len(issues)} open issues')
-        for issue in issues:
-            labels = ', '.join(l['name'] for l in issue.get('labels', []))
-            print(f"Issue #{issue['number']:5}  {issue['state']:6}  {labels:40}  {issue['title']}")
-except urllib.error.HTTPError as e:
-    print(f'HTTP Error {e.code}: {e.reason}')
+# Save to file
+with open('/tmp/issues.json', 'w') as f:
+    json.dump(all_issues, f, indent=2)
+
+print(f'Found {len(all_issues)} open issues')
+print(f'Saved to /tmp/issues.json')
+
+# Print summary
+add_count = sum(1 for i in all_issues if any('request:add' in l['name'] for l in i.get('labels', [])))
+remove_count = sum(1 for i in all_issues if any('request:remove' in l['name'] for l in i.get('labels', [])))
+triaged_count = sum(1 for i in all_issues if any('status:triaged' in l['name'] for l in i.get('labels', [])))
+
+print(f'Add requests: {add_count}')
+print(f'Remove requests: {remove_count}')
+print(f'Triaged: {triaged_count}')
