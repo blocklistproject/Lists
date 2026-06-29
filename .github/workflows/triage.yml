@@ -125,6 +125,14 @@ jobs:
               labels.push('request:remove');
             }
             
+            // Remove status:needs-triage if adding status:verified-new, status:verified-exists, status:not-found, or status:duplicate
+            const hasNeedsTriage = context.payload.issue.labels?.some(l => l.name === 'status:needs-triage');
+            const hasStatusLabel = labels.some(l => ['status:verified-new', 'status:verified-exists', 'status:not-found', 'status:duplicate'].includes(l));
+            
+            if (hasNeedsTriage && hasStatusLabel) {
+              labels = labels.filter(l => l !== 'status:needs-triage');
+            }
+            
             // Add labels
             if (labels.length > 0) {
               await github.rest.issues.addLabels({
