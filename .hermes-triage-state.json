@@ -1,0 +1,25 @@
+{
+  "last_sync": "2026-06-29T01:35:00Z",
+  "repo": "blocklistproject/Lists",
+  "open_issues": 241,
+  "open_prs": 0,
+  "by_status": {
+    "needs-triage": 25,
+    "needs-info": 30,
+    "triaged": 186
+  },
+  "by_type": {
+    "remove": 160,
+    "add": 81
+  },
+  "recent_updates": {
+    "last_24h": 145,
+    "last_48h": 210,
+    "last_7d": 238
+  },
+  "top_requests": [
+    {"issue": 1174, "title": "[Remove Request] - miarroba.com", "updated": "2026-06-28T23:26:53Z"},
+    {"issue": 1167, "title": "[Remove Request] - ", "updated": "2026-06-29T01:24:58Z", "status": "needs-info"},
+    {"issue": 1005, "title": "Invalid entries on abuse list", "updated": "2026-06-28T19:51:59Z", "status": "needs-triage"}
+  ]
+}
