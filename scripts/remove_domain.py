@@ -56,7 +56,7 @@ def main():
         if not os.path.exists(path):
             print(f"File not found: {path}")
             continue
-        with open(path, 'r') as f:
+        with open(path) as f:
             lines = f.readlines()
         new_lines = []
         removed = 0
@@ -73,28 +73,28 @@ def main():
             changed_files.append(rel_path)
         else:
             print(f"No match found in {rel_path}")
-    
+
     if not changed_files:
         print("No changes made.")
         return 0
-    
+
     # Run build.py to regenerate derived files
     print("\nRunning build.py...")
     result = os.system("python3 build.py")
     if result != 0:
         print("Build failed!")
         return 1
-    
+
     # Commit changes
     print("\nCommitting changes...")
     os.system("git add .")
     commit_msg = f"Remove false positive domain {DOMAIN} from blocklists\n\nRemoved from: {', '.join(changed_files)}"
     os.system(f'git commit -m "{commit_msg}"')
-    
+
     # Push
     print("\nPushing to origin...")
     os.system("git push origin master")
-    
+
     print("\nDone.")
     return 0
 
