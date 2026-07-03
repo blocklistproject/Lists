@@ -1,0 +1,87 @@
+name: Close Stale Issues
+
+on:
+  schedule:
+    # Run daily at midnight UTC
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+permissions:
+  issues: write
+  pull-requests: write
+
+jobs:
+  stale:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/stale@v9
+        with:
+          # Issue configuration
+          days-before-stale: 60
+          days-before-close: 14
+          stale-issue-label: 'status:stale'
+          close-issue-label: 'status:closed-stale'
+          exempt-issue-labels: 'status:blocked,status:needs-info,pinned'
+          
+          stale-issue-message: |
+            ## 📅 Stale Issue Notice
+            
+            This issue has been inactive for **60 days** and is now marked as stale.
+            
+            If this is still relevant:
+            - ✅ Add a comment with updates or additional information
+            - 🔄 The `status:stale` label will be removed automatically
+            
+            If no activity occurs within **14 days**, this issue will be automatically closed.
+            
+            ---
+            
+            _Thank you for your contribution to The Block List Project!_
+          
+          close-issue-message: |
+            ## 🔒 Issue Closed Due to Inactivity
+            
+            This issue has been automatically closed after being inactive for **74 days** (60 days stale + 14 days grace period).
+            
+            If you still need assistance:
+            - 🔄 You can reopen this issue with additional information
+            - 🆕 Or create a new issue with updated details
+            
+            ---
+            
+            _Thank you for your contribution to The Block List Project!_
+          
+          # PR configuration (less aggressive)
+          days-before-pr-stale: 90
+          days-before-pr-close: 30
+          stale-pr-label: 'status:stale'
+          close-pr-label: 'status:closed-stale'
+          exempt-pr-labels: 'status:blocked,status:needs-review,pinned'
+          
+          stale-pr-message: |
+            ## 📅 Stale Pull Request Notice
+            
+            This PR has been inactive for **90 days** and is now marked as stale.
+            
+            If this PR is still relevant:
+            - ✅ Rebase on the latest `master` branch
+            - ✅ Resolve any merge conflicts
+            - ✅ Add a comment with updates
+            
+            If no activity occurs within **30 days**, this PR will be automatically closed.
+          
+          close-pr-message: |
+            ## 🔒 PR Closed Due to Inactivity
+            
+            This PR has been automatically closed after being inactive for **120 days** (90 days stale + 30 days grace period).
+            
+            If you'd like to continue this work:
+            - 🔄 Reopen this PR and bring it up to date
+            - 🆕 Or create a new PR with the changes
+          
+          # Operation limits
+          operations-per-run: 50
+          remove-stale-when-updated: true
+          
+          # Debugging
+          debug-only: false
