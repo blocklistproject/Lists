@@ -51,7 +51,7 @@ class PipelineResult:
 def get_output_path(
     base_dir: Path,
     list_name: str,
-    format_name: str,
+    _format_name: str,
     format_config: dict[str, Any],
 ) -> Path:
     """Determine the output path for a list in a given format.
@@ -205,11 +205,7 @@ def run_pipeline(
     config = load_config(config_path)
 
     # Determine which lists to build
-    if lists:
-        list_names = lists
-    else:
-        # Build all stable and beta lists by default
-        list_names = get_list_names(config, status=["stable", "beta"])
+    list_names = lists or get_list_names(config, status=["stable", "beta"])
 
     results: list[BuildResult] = []
     errors: list[str] = []
@@ -266,7 +262,6 @@ def verify_output_consistency(base_dir: Path) -> list[tuple[str, str]]:
         # Get domain counts for each format
         counts: dict[str, int] = {}
 
-        # hosts (root)
         if hosts_file.exists():
             counts["hosts"] = len(parse_file_to_set(hosts_file))
 

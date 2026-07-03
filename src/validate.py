@@ -336,7 +336,7 @@ def load_critical_domains_from_file(path: Path) -> set[str]:
 
     domains: set[str] = set()
 
-    with open(path, encoding='utf-8') as f:
+    with path.open(encoding='utf-8') as f:
         for line in f:
             line = line.strip()
             if line and not line.startswith('#'):

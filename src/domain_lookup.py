@@ -81,7 +81,7 @@ def domain_in_file(domain: str, file_path: Path, format_type: str = "hosts") -> 
     }.get(format_type, _check_hosts_format)
 
     try:
-        with open(file_path, encoding="utf-8") as f:
+        with file_path.open(encoding="utf-8") as f:
             for line in f:
                 if checker(line, domain):
                     return True
