@@ -8,7 +8,7 @@
 - `status:needs-review` - Issue needs human review
 - `request:add` - Request to add a domain to a blocklist
 - `request:remove` - False-positive/removal request
-- `status:triaged` - Triaged by Hermes Agent
+- `status:triaged` - Triaged by automated agent
 - `status:unverified` - Domain verification failed (DNS/HTTP)
 - `status:not-found` - Requested removal target was not found
 - `status:needs-triage` - Needs maintainer review

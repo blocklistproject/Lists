@@ -19,10 +19,9 @@ from urllib.error import HTTPError, URLError
 sys.path.insert(0, str(Path(__file__).parent))
 
 try:
-    from src.config import VAULT_DIR, WORKSPACE_DIR, TEMP_DIR
+    from src.config import WORKSPACE_DIR, TEMP_DIR
 except ImportError:
     # Fallback to environment variables if src.config not available
-    VAULT_DIR = Path(os.environ.get("HERMES_VAULT", Path.home() / ".hermes" / "vault"))
     WORKSPACE_DIR = Path(os.environ.get("WORKSPACE_DIR", Path.cwd()))
     TEMP_DIR = Path(os.environ.get("TEMP_DIR", "/tmp"))
 

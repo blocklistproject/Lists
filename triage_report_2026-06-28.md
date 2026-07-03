@@ -7,7 +7,7 @@
 - **Request remove:** 61
 - **Needs triage:** 5
 - **Needs info:** 17
-- **Triaged by Hermes:** 7
+- **Triaged by automated agent:** 7
 
 ## Issues Needing Triage (no status:triaged label)
 
@@ -108,7 +108,7 @@
 
 - 5 issues have `status:needs-triage` label
 - 17 issues have `status:needs-info` label (awaiting reporter response)
-- 7 issues already have `status:triaged` label applied by Hermes
+- 7 issues already have `status:triaged` label applied by automated agent
 - Next batch: Apply `status:triaged` label to untriaged issues and add `bot` label
 
 ## Notes

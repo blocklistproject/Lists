@@ -1,17 +1,12 @@
 #!/usr/bin/env python3
 import os, json, sys, urllib.request, urllib.error
 
-hermes_env = os.path.expanduser('~/.hermes/.env')
-GITHUB_TOKEN=None
-if os.path.exists(hermes_env):
-    with open(hermes_env) as f:
-        for line in f:
-            if line.startswith('GITHUB_TOKEN='):
-                GITHUB_TOKEN=line.strip().split('=', 1)[1].strip()
-                break
+# Get GitHub token from environment variable
+GITHUB_TOKEN = os.environ.get('GITHUB_TOKEN')
 
 if not GITHUB_TOKEN:
-    print('GITHUB_TOKEN not found', file=sys.stderr)
+    print('GITHUB_TOKEN environment variable not set', file=sys.stderr)
+    print('Please set: export GITHUB_TOKEN=your_token_here', file=sys.stderr)
     sys.exit(1)
 
 owner_repo = 'blocklistproject/Lists'

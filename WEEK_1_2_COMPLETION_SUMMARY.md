@@ -24,8 +24,8 @@ All critical security and foundation items have been successfully implemented:
 - ✅ Created enhanced `src/config.py` with environment-aware path management:
   - `PROJECT_ROOT` - configurable via `PROJECT_ROOT` env var
   - `WORKSPACE_DIR` - configurable via `WORKSPACE_DIR` env var
-  - `VAULT_DIR` - configurable via `HERMES_VAULT` env var
   - `TEMP_DIR` - configurable via `TEMP_DIR` env var
+  - `GITHUB_TOKEN` - configurable via `GITHUB_TOKEN` env var
 - ✅ All paths now use environment variables with sensible defaults
 
 #### 3. **Project Structure Reorganization** ✅

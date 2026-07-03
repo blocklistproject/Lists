@@ -14,12 +14,14 @@ import yaml
 # Project directories (configurable via environment variables)
 PROJECT_ROOT = Path(os.environ.get("PROJECT_ROOT", Path(__file__).parent.parent))
 WORKSPACE_DIR = Path(os.environ.get("WORKSPACE_DIR", PROJECT_ROOT))
-VAULT_DIR = Path(os.environ.get("HERMES_VAULT", Path.home() / ".hermes" / "vault"))
 
 # Temporary files
 TEMP_DIR = Path(os.environ.get("TEMP_DIR", "/tmp"))
 ISSUES_FILE = TEMP_DIR / "issues.json"
 RESULTS_FILE = TEMP_DIR / "batch_results.json"
+
+# GitHub token for API access (optional)
+GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
 
 # Config directory
 CONFIG_DIR = PROJECT_ROOT / "config"
