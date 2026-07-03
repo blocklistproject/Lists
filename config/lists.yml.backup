@@ -1,0 +1,271 @@
+# Block List Project - List Definitions
+# Each list defines: name, category, description, output formats, and upstream sources
+
+settings:
+  # Header template for generated files
+  homepage: "https://blocklist.site"
+  help: "https://github.com/blocklistproject/lists/wiki/"
+  license: "https://unlicense.org"
+  support: "https://paypal.me/blocklistproject"
+  expires: "1 day"
+  
+  # Upstream monitoring configuration
+  upstream:
+    enabled: true
+    check_frequency: "daily"  # How often to check: daily, weekly, hourly
+    auto_merge_threshold: 10  # Auto-merge if changes are less than this number
+    require_review_threshold: 100  # Require manual review if changes exceed this
+    cache_ttl: 86400  # Cache upstream responses for 24 hours (in seconds)
+
+# Output format configurations
+formats:
+  hosts:
+    extension: ".txt"
+    output_dir: "."
+    prefix: "0.0.0.0 "
+    comment_char: "#"
+  
+  domains:
+    extension: "-nl.txt"
+    output_dir: "alt-version"
+    prefix: ""
+    comment_char: "#"
+  
+  adguard:
+    extension: "-ags.txt"
+    output_dir: "adguard"
+    prefix: "||"
+    suffix: "^"
+    comment_char: "!"
+  
+  dnsmasq:
+    extension: "-dnsmasq.txt"
+    output_dir: "dnsmasq-version"
+    prefix: "server=/"
+    suffix: "/"
+    comment_char: "#"
+
+# List definitions
+lists:
+  abuse:
+    description: "Domains involved in abuse"
+    category: security
+    status: stable
+    upstream_sources:
+      - url: "https://raw.githubusercontent.com/mitchellkrogza/The-Big-List-of-Hacked-Malware-Web-Sites/master/hacked-domains.list"
+        format: domains  # plain domain list
+        trusted: true
+        update_frequency: daily
+      - url: "https://urlhaus.abuse.ch/downloads/hostfile/"
+        format: hosts  # 0.0.0.0 format
+        trusted: true
+        update_frequency: daily
+        filter_comments: true  # Skip lines starting with #
+  
+  ads:
+    description: "Ad serving domains"
+    category: advertising
+    status: stable
+    upstream_sources:
+      - url: "https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts"
+        format: hosts
+        trusted: true
+        update_fre
+    upstream_sources:
+      - url: "https://raw.githubusercontent.com/Snefru/CryptoBlockingList/master/list.txt"
+        format: domains
+        trusted: true
+        update_frequency: daily
+      - url: "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt"
+        format: hosts
+        trusted: true
+        update_frequency: weeklyquency: daily
+        filter_category: ads  # Only take ad-related domains
+      - url: "https://adaway.org/hosts.txt"
+        format: hosts
+        trusted: true
+        update_frequency: weekly
+      - url: "https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0"
+        format: hosts
+        trusted: true
+        update_frequency: weekly
+  
+  adobe:
+    upstream_sources:
+      - url: "https://raw.githubusercontent.com/mitchellkrogza/Phishing.Database/master/phishing-domains-ACTIVE.txt"
+        format: domains
+        trusted: true
+        update_fre
+    upstream_sources:
+      - url: "https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts"
+        format: hosts
+        trusted: true
+        update_frequency: weeklyquency: daily
+        max_domains: 1000  # Limit to prevent huge merges
+    description: "Adobe telemetry and activation"
+    category: telemetry
+    status: alpha
+  
+  basic:
+    description: "Basic protection list"
+    category: general
+    status: beta
+  
+  crypto:
+    description: "Cryptocurrency mining and scams"
+    category: security
+    status: stable
+  
+  drugs:
+    description: "Drug-related domains"
+    category: content
+    status: stable
+  
+  facebook:
+    description: "Facebook and Meta domains"
+    category: social
+    status: stable
+    upstream_sources:
+      - url: "https://urlhaus.abuse.ch/downloads/hostfile/"
+        format: hosts
+        trusted: true
+        update_fre
+    upstream_sources:
+      - url: "https://raw.githubusercontent.com/mitchellkrogza/Phishing.Database/master/phishing-domains-ACTIVE.txt"
+        format: domains
+        trusted: true
+        update_frequency: daily
+        max_domains: 1000
+      - url: "https://phishing.army/download/phishing_army_blocklist.txt"
+        format: domains
+        trusted: true
+        update_fre
+    upstream_sources:
+      - url: "https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts"
+        format: hosts
+        trusted: true
+        update_frequency: weekly
+        # Note: Large list, may need sampling or incremental updatesquency: dailyquency: daily
+      - url: "https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt"
+        format: domains
+        trusted: true
+        update_frequency: daily
+      - url: "https://malware-filter.gitlab.io/malware-filter/urlhaus-filter-hosts.txt"
+        format: hosts
+        trusted: true
+        update_fre
+    upstream_sources:
+      - url: "https://raw.githubusercontent.com/Casualtek/Ransomware-IP-Domain/master/Domain.txt"
+        format: domains
+        trusted: true
+        update_frequency: daily
+      - url: "https://ransomwaretracker.abuse.ch/downloads/RW_DOMBL.txt"
+        format: domains
+        trusted: false  # Requires review due to sensitivity
+        update_frequency: dailyquency: daily
+  
+  fortnite:
+    description: "Fortnite-related domains"
+    category: gaming
+    status: stable
+  
+  fraud:
+    description: "Fraud and scam domains"
+    category: security
+    status: stable
+  
+  gambling:
+    description: "Gambling sites"
+    category: content
+    status: stable
+  
+  malware:
+    description: "Malware distribution domains"
+    category: security
+    status: stable
+  
+  phishing:
+    description: "Phishing domains"
+    category: security
+    status: stable
+  
+  piracy:
+    upstream_sources:
+      - url: "https://hostfiles.frogeye.fr/firstparty-trackers-hosts.txt"
+        format: hosts
+        trusted: true
+        update_frequency: weekly
+      - url: "https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt"
+        format: hosts
+        trusted: true
+        update_frequency: weekly
+        filter_category: tracking
+    description: "Piracy and illegal streaming"
+    category: content
+    status: stable
+  
+  porn:
+    description: "Adult content domains"
+    category: content
+    status: stable
+  
+  ransomware:
+    description: "Ransomware C2 and distribution"
+    category: security
+    status: stable
+  
+  redirect:
+    description: "URL shorteners and redirects"
+    category: tracking
+    status: stable
+  
+  scam:
+    description: "Scam domains"
+    category: security
+    status: stable
+  
+  smart-tv:
+    description: "Smart TV telemetry"
+    category: telemetry
+    status: beta
+  
+  tiktok:
+    description: "TikTok domains"
+    category: social
+    status: stable
+  
+  torrent:
+    description: "Torrent and P2P sites"
+    category: content
+    status: stable
+  
+  tracking:
+    description: "Tracking and analytics"
+    category: tracking
+    status: stable
+  
+  twitter:
+    description: "Twitter/X domains"
+    category: social
+    status: stable
+  
+  vaping:
+    description: "Vaping and e-cigarette sites"
+    category: content
+    status: beta
+  
+  whatsapp:
+    description: "WhatsApp domains"
+    category: social
+    status: beta
+  
+  youtube:
+    description: "YouTube domains (deprecated - ads served from same domains)"
+    category: social
+    status: deprecated
+
+# Combined list configuration
+combined:
+  everything:
+    description: "All stable lists combined"
+    include_status: [stable]  # Only include stable lists, not beta/alpha/deprecated
