@@ -15,4 +15,4 @@
 - [List positive aspects]
 
 ---
-*Reviewed by Hermes Agent*
+*Reviewed by automated agent*

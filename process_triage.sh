@@ -1,7 +1,8 @@
 #!/bin/bash
 set -euo pipefail
 
-cd /home/administrator/.hermes/workspace/Lists
+# Use WORKSPACE_DIR environment variable or current directory
+cd "${WORKSPACE_DIR:-$(pwd)}"
 
 PERSISTENT_STATE_FILE="/tmp/triate_state_blocklistproject"
 PROCESSED_FILE="/tmp/processed_items_$$"  # we might not need this now
@@ -20,7 +21,7 @@ ensure_label() {
 }
 
 # Labels we will use
-ensure_label "status:triaged" "0052cc" "Triaged by Hermes Agent"
+ensure_label "status:triaged" "0052cc" "Triaged by automated agent"
 ensure_label "status:mergeable" "0e8a16" "Merges cleanly with base branch"
 ensure_label "status:conflicts" "b60205" "Has merge conflicts with base branch"
 
@@ -85,12 +86,12 @@ process_item() {
     git checkout master 2>/dev/null || true
     if git merge --no-commit --no-ff pr-$number 2>/dev/null; then
       echo "Merge successful"
-      gh pr comment $number --body "Triaged by Hermes Agent: Merges cleanly with base branch."
+      gh pr comment $number --body "Triaged by automated agent: Merges cleanly with base branch."
       gh pr edit $number --add-label "status:mergeable" 2>/dev/null || true || true
       git merge --abort 2>/dev/null || true
     else
       echo "Merge conflicts or failed to fetch"
-      gh pr comment $number --body "Triaged by Hermes Agent: Merge conflicts or could not test merge."
+      gh pr comment $number --body "Triaged by automated agent: Merge conflicts or could not test merge."
       gh pr edit $number --add-label "status:conflicts" 2>/dev/null || true
     fi
     git checkout master 2>/dev/null || true
@@ -99,7 +100,7 @@ process_item() {
   else
     # Issue triage
     gh issue edit $number --add-label "status:triaged" 2>/dev/null || true
-    gh issue comment $number --body "Triaged by Hermes Agent." 2>/dev/null || true
+    gh issue comment $number --body "Triaged by automated agent." 2>/dev/null || true
     mark_processed "$type" "$number"
   fi
 }

@@ -54,7 +54,6 @@ htmlcov/
 *.json.bak
 dead-domains.txt
 cron_output.txt
-.hermes/
 
 # Ruff cache
 .ruff_cache/

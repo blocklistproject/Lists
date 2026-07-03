@@ -26,6 +26,18 @@ All Week 1-2 quick start items have been successfully completed! See [WEEK_1_2_C
 
 **Next Phase:** Code Quality & Tooling (Week 3-4)
 
+**README.md Updated:** 2026-07-03
+- ✅ Added Build, Python 3.10+, and Ruff badges
+- ✅ Created comprehensive "For Developers" section with subsections
+- ✅ Added "Environment Variables" documentation
+- ✅ Enhanced "Building Lists" with more examples
+- ✅ Added "Code Quality Tools" section with pre-commit hooks info
+- ✅ Updated "Project Structure" with all new modules and scripts/ directory
+- ✅ Enhanced "Contributing" section with step-by-step workflow
+- ✅ Added "Development" section with module documentation
+- ✅ Added "Troubleshooting" section
+- ✅ Updated "What's New in v2.0" with latest improvements
+
 ---
 
 ## 📋 Executive Summary
@@ -92,7 +104,7 @@ The Block List Project v2.0 rewrite represents a significant architectural impro
   - Uses shared config module for paths
   
 - [x] **COMPLETED:** Create `src/config.py` enhancement
-  - Added PROJECT_ROOT, WORKSPACE_DIR, VAULT_DIR configuration
+  - Added PROJECT_ROOT, WORKSPACE_DIR, TEMP_DIR configuration
   - All paths now use environment variables with sensible defaults
   - Centralized path management for entire project
   ```python
@@ -102,12 +114,14 @@ The Block List Project v2.0 rewrite represents a significant architectural impro
   # Project directories
   PROJECT_ROOT = Path(os.environ.get("PROJECT_ROOT", Path(__file__).parent.parent))
   WORKSPACE_DIR = Path(os.environ.get("WORKSPACE_DIR", PROJECT_ROOT))
-  VAULT_DIR = Path(os.environ.get("HERMES_VAULT", Path.home() / ".hermes" / "vault"))
   
   # Temporary files
   TEMP_DIR = Path(os.environ.get("TEMP_DIR", "/tmp"))
   ISSUES_FILE = TEMP_DIR / "issues.json"
   RESULTS_FILE = TEMP_DIR / "batch_results.json"
+  
+  # GitHub token for API access
+  GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
   `x] **COMPLETED:** Move root-level scripts to appropriate locations
   - Moved `fetch_issues.py` → `scripts/fetch_issues.py`
   - Moved `process_batch.py` → `scripts/process_batch.py`
@@ -199,7 +213,6 @@ The Block List Project v2.0 rewrite represents a significant architectural impro
   *.json.bak
   dead-domains.txt
   cron_output.txt
-  .hermes/
   
   # Keep generated files (they're committed)
   # !adguard/
@@ -1123,13 +1136,19 @@ For immediate impact, start with these high-priority items:
 
 ### Additional Completed Items
 - [x] **COMPLETED 2026-07-03:** Enhanced `src/config.py` with path management
-  - **Notes:** Added PROJECT_ROOT, WORKSPACE_DIR, VAULT_DIR, TEMP_DIR with env var support
+  - **Notes:** Added PROJECT_ROOT, WORKSPACE_DIR, TEMP_DIR, GITHUB_TOKEN with env var support
   - **Changes:** All paths now configurable via environment variables
   - **Impact:** Central path configuration for entire project
 - [x] **COMPLETED 2026-07-03:** Created `src/exceptions.py`
   - **Notes:** Custom exception hierarchy for blocklist operations
   - **Changes:** Added BlocklistError, ConfigurationError, ValidationError, BuildError, etc.
   - **Impact:** Better error handling and debugging
+
+- [x] **COMPLETED 2026-07-03:** Removed all Hermes legacy system references
+  - **Notes:** Removed HERMES_VAULT, .hermes/ paths, and legacy system references
+  - **Changes:** Updated 13 files (code, docs, scripts) to use generic alternatives
+  - **Impact:** Cleaner codebase without legacy dependencies. See HERMES_REMOVAL_SUMMARY.md
+  - **Files Modified:** src/config.py, scripts/fetch_issues.py, scripts/review_issues_batch.py, README.md, .gitignore, process_triage.sh, and 7 documentation files
 
 ---
 

@@ -2,6 +2,9 @@
 
 # The Block List Project
 
+[![Build](https://github.com/blocklistproject/Lists/workflows/Build%20Blocklists/badge.svg)](https://github.com/blocklistproject/Lists/actions)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
+[![Code style: ruff](https://img.shields.io/badge/code%20style-ruff-000000.svg)](https://github.com/astral-sh/ruff)
 [![GitHub issues](https://img.shields.io/github/issues/blocklistproject/lists)](https://github.com/blocklistproject/Lists/issues)
 [![GitHub closed issues](https://badgen.net/github/closed-issues/blocklistproject/Lists?color=green)](https://github.com/blocklistproject/Lists/issues?q=is%3Aissue+is%3Aclosed)
 [![GitHub contributors](https://img.shields.io/github/contributors/blocklistproject/lists)](https://github.com/blocklistproject/Lists/graphs/contributors)
@@ -32,6 +35,11 @@
 - [Formats](#formats)
 - [Contributing](#contributing)
 - [For Developers](#for-developers)
+  - [Quick Setup](#quick-setup)
+  - [Environment Variables](#environment-variables)
+  - [Building Lists](#building-lists)
+  - [Code Quality Tools](#code-quality-tools)
+  - [Project Structure](#project-structure)
 - [License](#license)
 
 &nbsp;
@@ -66,6 +74,8 @@ We needed something maintainable — not just for us, but for anyone who wants t
 - New structured issue templates make it easier to request additions or removals
 - Our triage bot automatically checks if a domain already exists in our lists
 - Pull requests now get validated automatically — no more waiting for a human to catch simple errors
+- Pre-commit hooks ensure code quality before commits
+- Modern Python tooling (Ruff, MyPy) for faster development
 
 **Under the Hood:**
 - Replaced 7 JavaScript scripts with a single Python codebase
@@ -74,6 +84,10 @@ We needed something maintainable — not just for us, but for anyone who wants t
 - Proper domain validation catches invalid entries before they ship
 - TLD verification ensures we don't accidentally block legitimate domains
 - Critical domain protection prevents catastrophic mistakes (no more accidentally blocking google.com)
+- Environment-aware configuration for flexible deployments
+- Structured logging for better debugging
+- Custom exception hierarchy for clear error handling
+- Unified domain lookup utility eliminates code duplication
 
 ### The Technical Bits
 
@@ -87,9 +101,21 @@ Old System:              New System:
 Manual validation        Automated validation
 Ad-hoc builds            CI/CD pipeline
 Mixed formats            Config-driven formats
+Hardcoded paths          Environment variables
+No code quality tools    Ruff + MyPy + Pre-commit
 ```
 
 The new build system runs `pytest` on every change, validates domain syntax, checks TLDs against the public suffix list, and generates all four output formats automatically. Everything flows through a single `build.py` CLI.
+
+**Latest Improvements (2026-07-03):**
+- ✨ Added structured logging system
+- ✨ Created unified domain lookup utility
+- ✨ Implemented custom exception hierarchy
+- ✨ Environment-aware path configuration
+- ✨ Pre-commit hooks for automated quality checks
+- ✨ Modern linting with Ruff (10x faster than flake8)
+- ✨ Strict type checking with MyPy
+- ✨ Organized project structure (scripts in scripts/ directory)
 
 We wrote about the full rationale in our [archived optimization document](docs/Optimize.md) if you want the deep dive.
 
@@ -182,16 +208,51 @@ We welcome contributions! Here's how you can help:
 3. A maintainer will review and remove it
 
 ### Direct Contributions
-1. Fork the repository
-2. Edit the appropriate `.txt` file in the root directory
-3. Submit a Pull Request
-4. Our CI will validate the changes automatically
+
+**Important:** Only edit source `.txt` files in the root directory. Never modify files in `adguard/`, `alt-version/`, or `dnsmasq-version/` — these are auto-generated.
+
+```bash
+# 1. Fork and clone the repository
+git clone https://github.com/YOUR_USERNAME/Lists.git
+cd Lists
+
+# 2. Create a feature branch
+git checkout -b add-malicious-domain
+
+# 3. Edit the appropriate source file
+# Example: Add domain to ads.txt
+echo "0.0.0.0 badads.example.com" >> ads.txt
+
+# 4. Install dependencies and run tests
+pip install -e ".[dev]"
+pytest
+
+# 5. Build and validate
+python build.py --validate
+
+# 6. Commit your changes (pre-commit hooks will run automatically)
+git add ads.txt
+git commit -m "Add badads.example.com to ads list"
+
+# 7. Push and create Pull Request
+git push origin add-malicious-domain
+```
+
+Our CI will automatically:
+- ✅ Run all 151 tests
+- ✅ Validate domain syntax
+- ✅ Check for duplicates
+- ✅ Verify TLDs
+- ✅ Build all output formats
+- ✅ Run code quality checks
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
 
 &nbsp;
 
 ## For Developers
 
-### Building Locally
+### Quick Setup
 
 ```bash
 # Clone the repository
@@ -202,58 +263,217 @@ cd Lists
 python -m venv .venv
 source .venv/bin/activate  # or .venv\Scripts\activate on Windows
 
-# Install dependencies
+# Install dependencies (includes dev tools: pytest, ruff, mypy, pre-commit)
 pip install -e ".[dev]"
 
-# Run tests
-pytest
+# Install pre-commit hooks (recommended)
+pre-commit install
 
+# Run tests to verify setup
+pytest
+```
+
+### Environment Variables
+
+The project supports environment-based configuration for different deployment scenarios:
+
+```bash
+# Project paths (optional - defaults to current directory)
+export PROJECT_ROOT=/path/to/Lists
+export WORKSPACE_DIR=/path/to/Lists
+
+# Temporary files location (optional - defaults to /tmp)
+export TEMP_DIR=/custom/tmp
+
+# GitHub token for API access (optional - for scripts that fetch issues)
+export GITHUB_TOKEN=your_github_token_here
+```
+
+All paths default to sensible values, so these are only needed for custom deployments.
+
+### Building Lists
+
+```bash
 # Build all lists
 python build.py
 
 # Build specific list
 python build.py --list ads
 
+# Build multiple specific lists
+python build.py --list ads --list malware --list phishing
+
 # Dry run (preview without writing)
 python build.py --dry-run --verbose
+
+# Build with validation
+python build.py --validate --verbose
+
+# Build to custom output directory
+python build.py --output-dir /custom/path
 ```
 
-### CLI Commands
+### Code Quality Tools
+
+We use modern Python tooling to maintain high code quality:
 
 ```bash
-python build.py --help          # Show all options
-python build.py list            # List available blocklists
-python build.py stats           # Show domain counts
-python build.py verify          # Verify output consistency
-python build.py --validate      # Build with validation
+# Run all tests with coverage
+pytest -v --cov=src --cov-report=html
+
+# Lint and format code with Ruff (10x faster than flake8)
+ruff check .                    # Check for issues
+ruff check . --fix              # Auto-fix issues
+ruff format .                   # Format code
+
+# Type checking with MyPy
+mypy src/
+
+# Run all pre-commit checks manually
+pre-commit run --all-files
 ```
+
+**Pre-commit Hooks:** Once installed with `pre-commit install`, these checks run automatically before each commit:
+- ✅ Ruff linting and formatting
+- ✅ YAML, JSON, and TOML validation
+- ✅ Trailing whitespace removal
+- ✅ End-of-file fixer
+- ✅ Private key detection
+- ✅ MyPy type checking
 
 ### Project Structure
 
 ```
 Lists/
-├── *.txt                 # Source blocklists (hosts format)
-├── adguard/              # AdGuard format output
-├── alt-version/          # Domain-only format output
-├── dnsmasq-version/      # dnsmasq format output
+├── *.txt                      # Source blocklists (hosts format)
+├── *.ip                       # IP-based blocklists
+├── adguard/                   # AdGuard format output (auto-generated)
+├── alt-version/               # Domain-only format output (auto-generated)
+├── dnsmasq-version/           # dnsmasq format output (auto-generated)
 ├── config/
-│   └── lists.yml         # List definitions and settings
-├── src/                  # Python source code
-│   ├── config.py         # Configuration loader
-│   ├── normalize.py      # Format parsing
-│   ├── merge.py          # Deduplication
-│   ├── validate.py       # Domain validation
-│   ├── format.py         # Output formatters
-│   └── pipeline.py       # Build orchestration
-├── tests/                # Test suite
-└── build.py              # CLI entry point
+│   └── lists.yml              # List definitions and settings
+├── src/                       # Python source code
+│   ├── config.py              # Configuration loader + path management
+│   ├── logger.py              # Structured logging system
+│   ├── exceptions.py          # Custom exception hierarchy
+│   ├── domain_lookup.py       # Unified domain search utility
+│   ├── normalize.py           # Format parsing
+│   ├── merge.py               # Deduplication
+│   ├── validate.py            # Domain validation
+│   ├── format.py              # Output formatters
+│   └── pipeline.py            # Build orchestration
+├── scripts/                   # Maintenance and utility scripts
+│   ├── fetch_issues.py        # GitHub issue fetching
+│   ├── process_maintenance.py # Dead domain checking
+│   ├── review_issues_batch.py # Issue triage automation
+│   ├── remove_domain.py       # Domain removal utility
+│   ├── aggregate.py           # Domain aggregation
+│   ├── check-dead-domains.py  # Dead domain scanner
+│   ├── generate-stats.py      # Statistics generation
+│   └── generate-changelog.py  # Changelog generation
+├── tests/                     # Test suite (151 tests)
+│   ├── test_config.py
+│   ├── test_normalize.py
+│   ├── test_validate.py
+│   ├── test_merge.py
+│   ├── test_format.py
+│   └── test_pipeline.py
+├── .github/
+│   └── workflows/             # CI/CD automation
+│       ├── build.yml          # Build and test pipeline
+│       ├── triage.yml         # Automatic issue triage
+│       └── dead-domains.yml   # Dead domain detection
+├── build.py                   # CLI entry point
+├── pyproject.toml             # Project configuration
+├── .pre-commit-config.yaml    # Pre-commit hooks configuration
+└── IMPROVEMENT_PLAN.md        # Development roadmap
 ```
+
+**Note:** Only edit source `.txt` and `.ip` files. The `adguard/`, `alt-version/`, and `dnsmasq-version/` directories are auto-generated by `build.py`.
 
 &nbsp;
 
 ## Sponsors
 
 Special thank you to [Cloud 4 SURE](https://www.cloud4sure.net) for their generous donation to help cover infrastructure costs.
+
+---
+
+## Development
+
+### Requirements
+- Python 3.10 or higher
+- Git
+- (Optional) Pre-commit for automatic code quality checks
+
+### Module Documentation
+
+**`src/config.py`** - Configuration and path management
+- Environment-aware paths (PROJECT_ROOT, WORKSPACE_DIR, etc.)
+- YAML configuration loader
+- Settings and format configuration
+
+**`src/logger.py`** - Structured logging
+- Console and file logging
+- Configurable log levels
+- Proper formatting with timestamps
+
+**`src/exceptions.py`** - Custom exceptions
+- BlocklistError (base class)
+- ConfigurationError, ValidationError, BuildError
+- DomainNotFoundError, NetworkError, FileFormatError
+
+**`src/domain_lookup.py`** - Unified domain search
+- Search domains across all list formats
+- DomainLocation dataclass for results
+- Consistent domain checking logic
+
+**`src/validate.py`** - Domain validation
+- Syntax validation
+- TLD verification
+- Critical domain protection
+- False positive detection
+
+**`src/pipeline.py`** - Build orchestration
+- Coordinates all build steps
+- Handles multiple output formats
+- Provides build statistics
+
+### Useful Scripts
+
+Located in `scripts/` directory:
+
+- **`generate-stats.py`** - Generate statistics for all lists
+- **`generate-changelog.py`** - Create changelog from git history
+- **`check-dead-domains.py`** - Scan for inactive domains
+- **`fetch_issues.py`** - Fetch open GitHub issues
+- **`review_issues_batch.py`** - Automated issue triage
+
+Run scripts with: `python scripts/<script-name>.py`
+
+### Troubleshooting
+
+**Import errors after updates:**
+```bash
+pip install -e ".[dev]" --force-reinstall
+```
+
+**Pre-commit hooks not running:**
+```bash
+pre-commit install
+pre-commit autoupdate
+```
+
+**Tests failing:**
+```bash
+# Run specific test
+pytest tests/test_validate.py -v
+
+# Run with detailed output
+pytest -vv --tb=long
+```
+
+---
 
 &nbsp;
 
