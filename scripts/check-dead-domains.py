@@ -34,16 +34,16 @@ class DomainCheckResult(NamedTuple):
 
 def check_domain_resolves(domain: str, timeout: float = 2.0) -> DomainCheckResult:
     """Check if a domain has any DNS records.
-    
+
     Args:
         domain: Domain name to check
         timeout: Socket timeout in seconds
-        
+
     Returns:
         DomainCheckResult with resolution status
     """
     socket.setdefaulttimeout(timeout)
-    
+
     try:
         # Try to resolve the domain (A record)
         socket.gethostbyname(domain)
@@ -51,7 +51,7 @@ def check_domain_resolves(domain: str, timeout: float = 2.0) -> DomainCheckResul
     except socket.gaierror as e:
         # Name resolution failed
         return DomainCheckResult(domain=domain, resolves=False, error=str(e))
-    except socket.timeout:
+    except TimeoutError:
         return DomainCheckResult(domain=domain, resolves=False, error="timeout")
     except Exception as e:
         return DomainCheckResult(domain=domain, resolves=False, error=str(e))
@@ -64,59 +64,59 @@ def check_domains_parallel(
     progress_callback=None,
 ) -> list[DomainCheckResult]:
     """Check multiple domains in parallel.
-    
+
     Args:
         domains: List of domains to check
         max_workers: Number of parallel threads
         timeout: Socket timeout per domain
         progress_callback: Optional callback for progress updates
-        
+
     Returns:
         List of DomainCheckResult objects
     """
     results: list[DomainCheckResult] = []
     checked = 0
     total = len(domains)
-    
+
     with ThreadPoolExecutor(max_workers=max_workers) as executor:
         futures = {
             executor.submit(check_domain_resolves, domain, timeout): domain
             for domain in domains
         }
-        
+
         for future in as_completed(futures):
             result = future.result()
             results.append(result)
             checked += 1
-            
+
             if progress_callback and checked % 100 == 0:
                 progress_callback(checked, total)
-    
+
     return results
 
 
 def load_domains_from_list(list_name: str) -> set[str]:
     """Load domains from a blocklist file."""
-    root = Path(".")
-    
+    root = Path()
+
     # Try root .txt file
     txt_path = root / f"{list_name}.txt"
     if txt_path.exists():
         return parse_file_to_set(txt_path)
-    
+
     return set()
 
 
 def get_all_list_names() -> list[str]:
     """Get names of all blocklists."""
-    root = Path(".")
+    root = Path()
     names = []
-    
+
     for txt_file in root.glob("*.txt"):
         if txt_file.name not in ["README.md", "LICENSE", "everything.txt"]:
             if not txt_file.name.startswith("."):
                 names.append(txt_file.stem)
-    
+
     return sorted(names)
 
 
@@ -160,96 +160,93 @@ def main():
         action="store_true",
         help="Show detailed output"
     )
-    
+
     args = parser.parse_args()
-    
+
     if not args.list and not args.all:
         parser.error("Either --list or --all is required")
-    
+
     # Determine which lists to check
-    if args.all:
-        list_names = get_all_list_names()
-    else:
-        list_names = [args.list]
-    
+    list_names = get_all_list_names() if args.all else [args.list]
+
     all_dead_domains: dict[str, list[str]] = {}
     total_checked = 0
     total_dead = 0
-    
+
     for list_name in list_names:
         print(f"\n{'='*50}")
         print(f"Checking list: {list_name}")
         print(f"{'='*50}")
-        
+
         domains = load_domains_from_list(list_name)
         if not domains:
             print(f"  No domains found for {list_name}")
             continue
-        
+
         print(f"  Total domains: {len(domains):,}")
-        
+
         # Sample domains
         sample_size = min(args.sample, len(domains))
         sampled = random.sample(sorted(domains), sample_size)
         print(f"  Sampling: {sample_size:,} domains")
-        
+
         # Check domains
         def progress(checked, total):
             print(f"  Progress: {checked}/{total}", end="\r")
-        
+
         results = check_domains_parallel(
             sampled,
             max_workers=args.workers,
             timeout=args.timeout,
             progress_callback=progress if args.verbose else None,
         )
-        
+
         # Analyze results
         dead = [r for r in results if not r.resolves]
         alive = [r for r in results if r.resolves]
-        
+
         total_checked += len(results)
         total_dead += len(dead)
-        
+
         print("\n  Results:")
         print(f"    Resolving: {len(alive):,} ({len(alive)/len(results)*100:.1f}%)")
         print(f"    Dead: {len(dead):,} ({len(dead)/len(results)*100:.1f}%)")
-        
+
         if dead:
             all_dead_domains[list_name] = [r.domain for r in dead]
-            
+
             if args.verbose:
                 print("\n  Dead domains (sample):")
                 for r in dead[:10]:
                     print(f"    - {r.domain}: {r.error}")
                 if len(dead) > 10:
                     print(f"    ... and {len(dead) - 10} more")
-    
+
     # Summary
     print(f"\n{'='*50}")
     print("SUMMARY")
     print(f"{'='*50}")
     print(f"Total domains checked: {total_checked:,}")
     print(f"Total dead domains: {total_dead:,} ({total_dead/total_checked*100:.1f}%)")
-    
+
     # Estimate total dead in full lists
     if args.sample < 10000:
         print("\nNote: Based on sampling. Actual dead domain count may vary.")
-    
+
     # Output dead domains
     if args.output and all_dead_domains:
         with open(args.output, "w") as f:
             f.write("# Dead domains found by check-dead-domains.py\n")
             f.write(f"# Checked on: {__import__('datetime').datetime.now().isoformat()}\n")
             f.write(f"# Sample size per list: {args.sample}\n\n")
-            
+
             for list_name, dead in sorted(all_dead_domains.items()):
                 f.write(f"\n# List: {list_name} ({len(dead)} dead)\n")
                 for domain in sorted(dead):
                     f.write(f"{domain}\n")
-        
+
         print(f"\nDead domains written to: {args.output}")
-    
+
     # Exit with error if significant dead domains found
     dead_rate = total_dead / total_checked if total_checked > 0 else 0
     if dead_rate > 0.5:

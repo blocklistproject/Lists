@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
-import os
 import glob
+import os
 import re
+
 
 def load_domains(path):
     domains = set()
@@ -9,11 +10,11 @@ def load_domains(path):
         for line in f:
             # Remove comments
             line = line.split('#',1)[0].strip()
-            
+
             # Skip empty lines or comment lines
-            if not line or line.startswith('!') or line.startswith('['):
+            if not line or line.startswith(('!', '[')):
                 continue
-                
+
             # Extract domain from "0.0.0.0 domain.com" format
             if line.startswith('0.0.0.0 '):
                 domain = line[8:].strip()
@@ -54,7 +55,7 @@ if __name__ == '__main__':
     domains = set()
     for txt in glob.glob(os.path.join(lists_dir, '*.txt')):
         # Skip everything.txt to avoid duplicates
-        if not os.path.basename(txt) == 'everything.txt':
+        if os.path.basename(txt) != 'everything.txt':
             print(f'Processing {os.path.basename(txt)}...')
             file_domains = load_domains(txt)
             domains.update(file_domains)

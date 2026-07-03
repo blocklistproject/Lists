@@ -56,6 +56,8 @@ exclude_lines = [
 [tool.ruff]
 line-length = 100
 target-version = "py310"
+
+[tool.ruff.lint]
 select = [
     "E",   # pycodestyle errors
     "W",   # pycodestyle warnings
@@ -78,12 +80,12 @@ ignore = [
     "E501",    # line too long (handled by formatter)
 ]
 
-[tool.ruff.per-file-ignores]
+[tool.ruff.lint.per-file-ignores]
 "__init__.py" = ["F401", "F403"]
 "tests/**" = ["S101", "PLR2004", "ARG001"]
 "scripts/**" = ["T201"]  # Allow print in scripts
 
-[tool.ruff.isort]
+[tool.ruff.lint.isort]
 known-first-party = ["src"]
 
 [tool.mypy]

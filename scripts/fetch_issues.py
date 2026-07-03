@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
-import os, json, sys, urllib.request, urllib.error
+import json
+import os
+import sys
+import urllib.error
+import urllib.request
 
 # Get GitHub token from environment variable
 GITHUB_TOKEN = os.environ.get('GITHUB_TOKEN')
@@ -18,7 +22,7 @@ while True:
     req = urllib.request.Request(url)
     req.add_header('Authorization', f'token {GITHUB_TOKEN}')
     req.add_header('Accept', 'application/vnd.github.v3+json')
-    
+
     try:
         with urllib.request.urlopen(req) as resp:
             data = json.loads(resp.read().decode())
@@ -40,7 +44,7 @@ with open('/tmp/issues.json', 'w') as f:
     json.dump(all_issues, f, indent=2)
 
 print(f'Found {len(all_issues)} open issues')
-print(f'Saved to /tmp/issues.json')
+print('Saved to /tmp/issues.json')
 
 # Print summary
 add_count = sum(1 for i in all_issues if any('request:add' in l['name'] for l in i.get('labels', [])))
