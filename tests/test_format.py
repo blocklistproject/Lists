@@ -147,11 +147,8 @@ class TestFormatOutput:
 
     def test_invalid_format_raises(self):
         """Should raise ValueError for unknown format."""
-        with pytest.raises(ValueError) as exc:
+        with pytest.raises(ValueError, match=r"Unknown format.*invalid_format"):
             format_output(["example.com"], "invalid_format")
-
-        assert "Unknown format" in str(exc.value)
-        assert "invalid_format" in str(exc.value)
 
     def test_all_formatters_registered(self):
         """All format functions should be in registry."""
