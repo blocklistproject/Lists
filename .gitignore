@@ -1,23 +1,74 @@
-#Mac Files
+# Mac Files
 .DS_Store
 
-#Internal Script
+# Internal Scripts
 /Internal_Scripts
 
-#Contruct Files
+# Construct Files
 CHECKLIST.md
 
 # Python
 __pycache__/
 *.py[cod]
-*.egg-info/
-.venv/
-dist/
+*$py.class
+*.so
+.Python
 build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# Testing
 .pytest_cache/
 .coverage
 htmlcov/
+.tox/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Project specific
+/tmp/
+*.json.bak
+dead-domains.txt
+cron_output.txt
+.hermes/
+
+# Ruff cache
+.ruff_cache/
+
+# MyPy cache
+.mypy_cache/
+.dmypy.json
+dmypy.json
 
 # Docs (archived)
 instruct/
+
+# Keep generated files (they're committed)
+# !adguard/
+# !alt-version/
+# !dnsmasq-version/
 
