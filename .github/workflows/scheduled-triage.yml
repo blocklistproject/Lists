@@ -1,0 +1,76 @@
+name: Scheduled Issue Processing
+
+on:
+  schedule:
+    # Run daily at 9 AM UTC
+    - cron: '0 9 * * *'
+  workflow_dispatch:
+    inputs:
+      batch_size:
+        description: 'Number of issues to process'
+        required: false
+        default: '10'
+
+permissions:
+  issues: write
+  contents: write
+  pull-requests: write
+
+jobs:
+  process-issues:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e ".[dev]"
+
+      - name: Fetch open issues
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "Fetching open issues..."
+          python scripts/fetch_issues.py
+
+      - name: Process issue batch
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PROJECT_ROOT: ${{ github.workspace }}
+          WORKSPACE_DIR: ${{ github.workspace }}
+          TEMP_DIR: /tmp
+        run: |
+          BATCH_SIZE="${{ github.event.inputs.batch_size || '10' }}"
+          echo "Processing batch of $BATCH_SIZE issues..."
+          
+          # Run batch processing script
+          python scripts/review_issues_batch.py --batch-size $BATCH_SIZE
+
+      - name: Create summary
+        run: |
+          if [ -f /tmp/batch_results.json ]; then
+            echo "## 📊 Batch Processing Summary" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            
+            # Extract stats from results
+            PROCESSED=$(jq -r '.processed // 0' /tmp/batch_results.json 2>/dev/null || echo "0")
+            ADDED=$(jq -r '.added // 0' /tmp/batch_results.json 2>/dev/null || echo "0")
+            REMOVED=$(jq -r '.removed // 0' /tmp/batch_results.json 2>/dev/null || echo "0")
+            DUPLICATES=$(jq -r '.duplicates // 0' /tmp/batch_results.json 2>/dev/null || echo "0")
+            
+            echo "- **Processed:** $PROCESSED issues" >> $GITHUB_STEP_SUMMARY
+            echo "- **Added:** $ADDED domains" >> $GITHUB_STEP_SUMMARY
+            echo "- **Removed:** $REMOVED domains" >> $GITHUB_STEP_SUMMARY
+            echo "- **Duplicates:** $DUPLICATES" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "✅ Daily issue processing completed successfully" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "⚠️ No results file found" >> $GITHUB_STEP_SUMMARY
+          fi
