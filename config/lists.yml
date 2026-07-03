@@ -88,6 +88,11 @@ lists:
     description: "Gambling sites"
     category: content
     status: stable
+    upstream_sources:
+      - url: "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/gambling.txt"
+        format: adguard
+        trusted: true
+        update_frequency: weekly
   
   malware:
     description: "Malware distribution domains"
