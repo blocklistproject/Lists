@@ -1,0 +1,306 @@
+name: Upstream Source Monitoring
+
+on:
+  schedule:
+    # Run daily at 2 AM UTC
+    - cron: '0 2 * * *'
+  workflow_dispatch:
+    inputs:
+      list_name:
+        description: 'Specific list to check (empty for all)'
+        required: false
+        default: ''
+      dry_run:
+        description: 'Dry run mode (check only, no PRs)'
+        required: false
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+jobs:
+  monitor-upstream:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Full history for proper branching
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e ".[dev]"
+
+      - name: Configure git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Run upstream monitoring
+        id: monitor
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PROJECT_ROOT: ${{ github.workspace }}
+          WORKSPACE_DIR: ${{ github.workspace }}
+          TEMP_DIR: /tmp
+        run: |
+          echo "Running upstream monitoring..."
+          
+          # Determine arguments
+          ARGS=""
+          if [ -n "${{ github.event.inputs.list_name }}" ]; then
+            ARGS="--list ${{ github.event.inputs.list_name }}"
+          else
+            ARGS="--all"
+          fi
+          
+          if [ "${{ github.event.inputs.dry_run }}" == "true" ]; then
+            ARGS="$ARGS --dry-run"
+          fi
+          
+          # Run monitoring script
+          python scripts/monitor_upstream.py $ARGS | tee /tmp/monitor_output.txt
+          
+          # Check if any PRs were queued
+          PR_COUNT=$(ls /tmp/pr_*.json 2>/dev/null | wc -l)
+          echo "pr_count=$PR_COUNT" >> $GITHUB_OUTPUT
+          
+          # Save output for summary
+          cat /tmp/monitor_output.txt >> $GITHUB_STEP_SUMMARY
+
+      - name: Create Pull Requests
+        if: steps.monitor.outputs.pr_count > 0
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const path = require('path');
+            
+            // Find all PR info files
+            const prFiles = fs.readdirSync('/tmp')
+              .filter(f => f.startsWith('pr_') && f.endsWith('.json'))
+              .map(f => path.join('/tmp', f));
+            
+            console.log(`Found ${prFiles.length} PR(s) to create`);
+            
+            const createdPRs = [];
+            
+            for (const prFile of prFiles) {
+              try {
+                const prInfo = JSON.parse(fs.readFileSync(prFile, 'utf8'));
+                const listName = prInfo.list_name;
+                const newDomains = prInfo.new_domains;
+                const body = prInfo.body;
+                
+                console.log(`\nCreating PR for ${listName} (${newDomains} new domains)...`);
+                
+                // Get the branch name (should be the current branch)
+                const { data: branches } = await github.rest.repos.listBranches({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  per_page: 100
+                });
+                
+                const upstreamBranch = branches.find(b => 
+                  b.name.startsWith(`upstream-update/${listName}/`)
+                );
+                
+                if (!upstreamBranch) {
+                  console.log(`⚠️  No branch found for ${listName}, skipping...`);
+                  continue;
+                }
+                
+                console.log(`Found branch: ${upstreamBranch.name}`);
+                
+                // Determine labels based on size
+                const labels = ['automation', 'upstream-update'];
+                if (newDomains <= 10) {
+                  labels.push('size:small', 'auto-merge-candidate');
+                } else if (newDomains <= 100) {
+                  labels.push('size:medium', 'needs-review');
+                } else {
+                  labels.push('size:large', 'needs-review', 'breaking-change');
+                }
+                
+                // Create the PR
+                const { data: pr } = await github.rest.pulls.create({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  title: `chore: update ${listName} from upstream sources (+${newDomains} domains)`,
+                  head: upstreamBranch.name,
+                  base: 'master',
+                  body: body,
+                  maintainer_can_modify: true
+                });
+                
+                console.log(`✅ Created PR #${pr.number}: ${pr.html_url}`);
+                
+                // Add labels
+                await github.rest.issues.addLabels({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: pr.number,
+                  labels: labels
+                });
+                
+                console.log(`✅ Added labels: ${labels.join(', ')}`);
+                
+                // Auto-merge if eligible (small changes from trusted sources)
+                if (newDomains <= 10) {
+                  console.log('✅ Changes are small (≤10 domains), marking for auto-merge');
+                  
+                  await github.rest.issues.createComment({
+                    owner: context.repo.owner,
+                    repo: context.repo.repo,
+                    issue_number: pr.number,
+                    body: `🤖 **Auto-merge candidate**\n\nThis PR contains only ${newDomains} new domain(s) from trusted upstream sources.\n\nOnce CI passes, this can be automatically merged.`
+                  });
+                }
+                
+                createdPRs.push({
+                  number: pr.number,
+                  url: pr.html_url,
+                  list: listName,
+                  domains: newDomains
+                });
+                
+              } catch (error) {
+                console.error(`❌ Error creating PR from ${prFile}:`, error);
+              }
+            }
+            
+            // Add summary
+            if (createdPRs.length > 0) {
+              core.summary
+                .addHeading('📊 Upstream Monitoring Results')
+                .addTable([
+                  [{data: 'List', header: true}, {data: 'PR #', header: true}, {data: 'New Domains', header: true}],
+                  ...createdPRs.map(pr => [
+                    pr.list,
+                    `[#${pr.number}](${pr.url})`,
+                    `${pr.domains}`
+                  ])
+                ])
+                .write();
+            }
+            
+            return createdPRs;
+
+      - name: Create summary issue
+        if: steps.monitor.outputs.pr_count > 0
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const now = new Date().toISOString().split('T')[0];
+            
+            // Count total updates
+            const prFiles = fs.readdirSync('/tmp')
+              .filter(f => f.startsWith('pr_') && f.endsWith('.json'));
+            
+            let totalNew = 0;
+            const updates = [];
+            
+            for (const prFile of prFiles) {
+              const prInfo = JSON.parse(fs.readFileSync(`/tmp/${prFile}`, 'utf8'));
+              totalNew += prInfo.new_domains;
+              updates.push({
+                list: prInfo.list_name,
+                count: prInfo.new_domains
+              });
+            }
+            
+            const body = `## 📡 Upstream Monitoring Summary (${now})
+            
+            The automated upstream monitoring system has detected updates from blocklist sources.
+            
+            ### 📊 Overview
+            
+            - **Total new domains:** ${totalNew}
+            - **Lists updated:** ${updates.length}
+            - **Pull requests created:** ${prFiles.length}
+            
+            ### 📋 Updated Lists
+            
+            ${updates.map(u => `- **${u.list}:** +${u.count} domains`).join('\n')}
+            
+            ### ✅ Next Steps
+            
+            1. Review the pull requests created by this workflow
+            2. Verify domains are appropriate for their categories
+            3. Check for false positives
+            4. Merge PRs once CI passes
+            
+            ${totalNew <= 10 ? '✅ **Auto-merge eligible** - All changes are below threshold' : ''}
+            ${totalNew > 100 ? '⚠️ **Manual review required** - Large number of changes detected' : ''}
+            
+            ---
+            
+            _This summary was created by the [upstream monitoring workflow](.github/workflows/upstream-monitor.yml)._
+            `;
+            
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `📡 Upstream Monitoring: ${totalNew} new domains (${now})`,
+              body: body,
+              labels: ['automation', 'upstream-update', 'report']
+            });
+
+      - name: Cleanup
+        if: always()
+        run: |
+          # Remove temporary files
+          rm -f /tmp/pr_*.json
+          rm -f /tmp/monitor_output.txt
+          
+          # Return to master branch
+          git checkout master 2>/dev/null || true
+
+      - name: Report errors
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const now = new Date().toISOString().split('T')[0];
+            
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `🚨 Upstream Monitoring Failed (${now})`,
+              body: `## ❌ Upstream Monitoring Failure
+              
+              The automated upstream monitoring workflow has failed.
+              
+              **Date:** ${now}  
+              **Run:** [View logs](${context.payload.repository.html_url}/actions/runs/${context.runId})
+              
+              ### 🔍 Investigation Steps
+              
+              1. Check the [workflow logs](${context.payload.repository.html_url}/actions/runs/${context.runId}) for errors
+              2. Verify upstream sources are accessible
+              3. Check for network or API issues
+              4. Review recent changes to monitoring script
+              
+              ### 🔧 Possible Causes
+              
+              - Upstream source URL changed or unavailable
+              - Network timeout or rate limiting
+              - Script error or configuration issue
+              - Git merge conflict
+              
+              ---
+              
+              _This issue was created automatically. Please investigate and resolve._
+              `,
+              labels: ['bug', 'automation', 'upstream-update', 'high-priority']
+            });
