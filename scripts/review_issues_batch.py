@@ -309,17 +309,16 @@ def parse_issue(issue: dict) -> dict:
                 if alt_match:
                     list_name = alt_match.group(1).strip().lower().replace(".txt", "").strip()
             result["list"] = list_name if list_name in SOURCE_LISTS else None
-            result["list"] = list_name
-    # Extract evidence/reason from body
-    if not result["evidence"]:
-    if not result["evidence"]:
-        evidence_match = re.search(r"Why you believe this should be added[:\s]+(.+?)(?:\n\n|$)", body, re.IGNORECASE | re.DOTALL)
-        if evidence_match:
-            result["evidence"] = evidence_match.group(1).strip()
-        else:
-            evidence_match = re.search(r"Why you believe this to be a false positive[:\s]+(.+?)(?:\n\n|$)", body, re.IGNORECASE | re.DOTALL)
+
+        # Extract evidence/reason from body
+        if not result["evidence"]:
+            evidence_match = re.search(r"Why you believe this should be added[:\s]+(.+?)(?:\n\n|$)", body, re.IGNORECASE | re.DOTALL)
             if evidence_match:
                 result["evidence"] = evidence_match.group(1).strip()
+            else:
+                evidence_match = re.search(r"Why you believe this to be a false positive[:\s]+(.+?)(?:\n\n|$)", body, re.IGNORECASE | re.DOTALL)
+                if evidence_match:
+                    result["evidence"] = evidence_match.group(1).strip()
 
     # Validate extracted domain
     if result["domain"]:
