@@ -34,17 +34,17 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.13'
+          python-version: '3.12'
           cache: 'pip'
 
       - name: Install dependencies
         run: |
-          pip install -r requirements.txt || pip install pyyaml requests PyGithub
+          pip install -r requirements.txt
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '24'
 
       - name: Configure Git
         run: |
