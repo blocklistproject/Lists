@@ -1,149 +1,99 @@
-<img src="https://raw.githubusercontent.com/blocklistproject/Lists/master/img/logo.webp" height="150px"/>  
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/blocklistproject/Lists/master/img/logo.webp" height="150px" alt="Block List Project Logo"/>
 
 # The Block List Project
 
+**Curated, community-maintained domain blocklists for network-level content filtering**
+
 [![Build](https://github.com/blocklistproject/Lists/workflows/Build%20Blocklists/badge.svg)](https://github.com/blocklistproject/Lists/actions)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
-[![Code style: ruff](https://img.shields.io/badge/code%20style-ruff-000000.svg)](https://github.com/astral-sh/ruff)
-[![GitHub issues](https://img.shields.io/github/issues/blocklistproject/lists)](https://github.com/blocklistproject/Lists/issues)
-[![GitHub closed issues](https://badgen.net/github/closed-issues/blocklistproject/Lists?color=green)](https://github.com/blocklistproject/Lists/issues?q=is%3Aissue+is%3Aclosed)
-[![GitHub contributors](https://img.shields.io/github/contributors/blocklistproject/lists)](https://github.com/blocklistproject/Lists/graphs/contributors)
-![GitHub repo size](https://img.shields.io/github/repo-size/blocklistproject/lists)
-![GitHub](https://img.shields.io/github/license/blocklistproject/lists?color=blue)
-![GitHub Maintained](https://img.shields.io/badge/Open%20Source-Yes-green)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/y/blocklistproject/lists)
-![GitHub last commit](https://img.shields.io/github/last-commit/blocklistproject/lists)
-![GitHub Maintained](https://img.shields.io/badge/maintained-yes-green)
-[![ko-fi](https://badgen.net/badge/Support%20Us/Ko-Fi?color=orange)](https://ko-fi.com/P5P521OPP)
-[![patreon](https://badgen.net/badge/Support%20Us/Patreon?color=red)](https://www.patreon.com/bePatron?u=8892646)
+[![License](https://img.shields.io/github/license/blocklistproject/lists?color=blue)](LICENSE)
+[![GitHub Issues](https://img.shields.io/github/issues/blocklistproject/lists)](https://github.com/blocklistproject/Lists/issues)
+[![Contributors](https://img.shields.io/github/contributors/blocklistproject/lists)](https://github.com/blocklistproject/Lists/graphs/contributors)
 
-&nbsp;
+[Discord](https://discord.com/invite/x9KeVQggkc) • [Patreon](https://www.patreon.com/bePatron?u=8892646) • [Ko-fi](https://ko-fi.com/P5P521OPP) • [Documentation](docs/)
 
-<p align="center">
-<a href="https://www.patreon.com/bePatron?u=8892646"><img src="https://i0.wp.com/thelemicunion.com/wp-content/uploads/2018/07/Patreon-Support-Button.png?w=640&ssl=1" width=250></a>
-<a href="https://discord.com/invite/x9KeVQggkc"><img src="https://discord.com/assets/ff41b628a47ef3141164bfedb04fb220.png" width=250 /></a>
-</p>
+</div>
 
-&nbsp;
+---
 
 ## Table of Contents
 
 - [About](#about)
-- [What's New in v2.0](#whats-new-in-v20)
+- [Features](#features)
 - [Quick Start](#quick-start)
 - [Available Lists](#available-lists)
-- [Formats](#formats)
+- [Supported Formats](#supported-formats)
+- [Automation & Updates](#automation--updates)
 - [Contributing](#contributing)
 - [For Developers](#for-developers)
-  - [Quick Setup](#quick-setup)
-  - [Environment Variables](#environment-variables)
-  - [Building Lists](#building-lists)
-  - [Code Quality Tools](#code-quality-tools)
-  - [Project Structure](#project-structure)
 - [License](#license)
 
-&nbsp;
+---
 
 ## About
 
-The Block List Project provides curated domain blocklists for various categories of unwanted content. Our lists are designed to give you control over what gets blocked, rather than an all-or-nothing approach.
+The Block List Project provides **free, open-source domain blocklists** for network-level content filtering. Our curated lists help you control what gets blocked on your network — from ads and trackers to malware and adult content.
 
-All lists are:
-- ✅ **Free and open source** — always will be
-- ✅ **Regularly updated** — automated builds on every change
-- ✅ **Available in multiple formats** — Pi-hole, AdGuard, dnsmasq, and more
-- ✅ **Community maintained** — submit requests via GitHub Issues
+### Why Block List Project?
 
-&nbsp;
+- **🎯 Granular Control** — Choose specific categories instead of all-or-nothing blocking
+- **🔄 Always Updated** — Automated builds, upstream monitoring, and community contributions
+- **🔧 Format Flexibility** — Pi-hole, AdGuard Home, dnsmasq, hosts files, and more
+- **✅ Battle-Tested** — Validated with 151+ automated tests on every change
+- **🤝 Community-Driven** — Submit additions/removals via GitHub Issues
+- **💯 Truly Free** — No premium tiers, no paywalls, no restrictions
 
-## What's New in v2.0
+---
 
-We've completely rebuilt the project infrastructure from the ground up. After 6 months of planning, we're excited to share what's changed.
+## Features
 
-### Why We Rewrote Everything
+### 🤖 Automated Maintenance
+- **Upstream Source Monitoring** — Automatically sync with trusted upstream blocklists
+- **Dead Domain Detection** — Weekly scans remove defunct domains
+- **Issue Triage Bot** — Automatically validates submissions and checks duplicates
+- **DNS/HTTP Validation** — Verifies domains before adding them
 
-The old system worked, but it was held together with duct tape. We had a mix of JavaScript and Python scripts that nobody wanted to touch, inconsistent build processes, and no automated testing. When bugs appeared, fixing one thing broke another.
+### 🛡️ Quality Assurance
+- **TLD Verification** — Ensures valid top-level domains
+- **Duplicate Detection** — Prevents redundant entries across lists
+- **Critical Domain Protection** — Safeguards against blocking essential services
+- **Format Sync** — All formats generated from single source
 
-We needed something maintainable — not just for us, but for anyone who wants to contribute.
-
-### What Changed
-
-**For Users:** Nothing breaks! All your existing URLs continue to work. Same lists, same formats, same locations. We rebuilt the engine without changing the car.
-
-**For Contributors:** 
-- New structured issue templates make it easier to request additions or removals
-- Our triage bot automatically checks if a domain already exists in our lists
-- Pull requests now get validated automatically — no more waiting for a human to catch simple errors
-- Pre-commit hooks ensure code quality before commits
-- Modern Python tooling (Ruff, MyPy) for faster development
-
-**Under the Hood:**
-- Replaced 7 JavaScript scripts with a single Python codebase
-- Added 151 automated tests (yes, really)
-- Config-driven architecture — all list definitions live in `config/lists.yml`
-- Proper domain validation catches invalid entries before they ship
-- TLD verification ensures we don't accidentally block legitimate domains
-- Critical domain protection prevents catastrophic mistakes (no more accidentally blocking google.com)
-- Environment-aware configuration for flexible deployments
-- Structured logging for better debugging
-- Custom exception hierarchy for clear error handling
-- Unified domain lookup utility eliminates code duplication
-
-### The Technical Bits
-
-If you're curious about the architecture:
-
-```
-Old System:              New System:
-─────────────            ─────────────
-7 JS scripts             1 Python package
-0 tests                  151 tests
-Manual validation        Automated validation
-Ad-hoc builds            CI/CD pipeline
-Mixed formats            Config-driven formats
-Hardcoded paths          Environment variables
-No code quality tools    Ruff + MyPy + Pre-commit
-```
-
-The new build system runs `pytest` on every change, validates domain syntax, checks TLDs against the public suffix list, and generates all four output formats automatically. Everything flows through a single `build.py` CLI.
-
-**Latest Improvements (2026-07-03):**
-- ✨ Added structured logging system
-- ✨ Created unified domain lookup utility
-- ✨ Implemented custom exception hierarchy
-- ✨ Environment-aware path configuration
-- ✨ Pre-commit hooks for automated quality checks
-- ✨ Modern linting with Ruff (10x faster than flake8)
-- ✨ Strict type checking with MyPy
-- ✨ Organized project structure (scripts in scripts/ directory)
-
-We wrote about the full rationale in our [archived optimization document](docs/Optimize.md) if you want the deep dive.
-
-&nbsp;
+### 📊 Comprehensive Coverage
+- **18 Main Lists** — Ads, malware, phishing, tracking, gambling, and more
+- **4 Beta Lists** — Basic protection, Smart TV, vaping, WhatsApp
+- **Multiple Formats** — hosts, domain-only, dnsmasq, AdGuard
+- **Regular Updates** — New domains added daily from community and upstream sources
+---
 
 ## Quick Start
 
-### Pi-hole
+### Pi-hole Setup
 
-1. Copy the link for your desired list from the [Available Lists](#available-lists) section
-2. Go to **Group Management** → **Adlists** → Paste URL → **Add**
-3. Go to **Tools** → **Update Gravity**
+1. Navigate to **Group Management** → **Adlists**
+2. Paste a list URL from the [Available Lists](#available-lists) section
+3. Click **Add**, then go to **Tools** → **Update Gravity**
 
-### AdGuard Home
+### AdGuard Home Setup
 
-1. Copy the AdGuard format link for your desired list
-2. Go to **Filters** → **DNS Blocklists** → **Add blocklist** → **Add a custom list**
-3. Paste the URL and click **Save**
+1. Go to **Filters** → **DNS Blocklists** → **Add blocklist**
+2. Select **Add a custom list**
+3. Paste an AdGuard format URL and click **Save**
 
-### Other DNS Blockers
+### Other DNS Solutions
 
-Use the appropriate format for your software:
-- **Hosts file format**: Use the "Original" links
-- **Domain-only format**: Use the "No IP" links  
-- **dnsmasq**: Use the "DNSMASQ" links
-- **AdGuard/AdBlock**: Use the "AdGuard" links
+Choose the appropriate format for your software:
 
-&nbsp;
+| Software | Format to Use | Example |
+|----------|---------------|---------|
+| Hosts file | Original | `0.0.0.0 example.com` |
+| Unbound, pfBlockerNG | No IP (domains) | `example.com` |
+| dnsmasq | DNSMASQ | `server=/example.com/` |
+| AdGuard, uBlock Origin | AdGuard | `||example.com^` |
+
+---
 
 ## Available Lists
 
@@ -178,118 +128,135 @@ Use the appropriate format for your software:
 | Smart TV | [Link](https://blocklistproject.github.io/Lists/smart-tv.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/smart-tv-nl.txt) | [Link](https://blocklistproject.github.io/Lists/dnsmasq-version/smart-tv-dnsmasq.txt) | [Link](https://blocklistproject.github.io/Lists/adguard/smart-tv-ags.txt) | Smart TV telemetry |
 | Vaping | [Link](https://blocklistproject.github.io/Lists/vaping.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/vaping-nl.txt) | [Link](https://blocklistproject.github.io/Lists/dnsmasq-version/vaping-dnsmasq.txt) | [Link](https://blocklistproject.github.io/Lists/adguard/vaping-ags.txt) | Vaping/e-cigarette sites |
 | WhatsApp | [Link](https://blocklistproject.github.io/Lists/whatsapp.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/whatsapp-nl.txt) | [Link](https://blocklistproject.github.io/Lists/dnsmasq-version/whatsapp-dnsmasq.txt) | [Link](https://blocklistproject.github.io/Lists/adguard/whatsapp-ags.txt) | WhatsApp domains |
+---
 
-&nbsp;
+## Supported Formats
 
-## Formats
+All lists are available in four formats, automatically generated from a single source:
 
-| Format | Use Case | Example |
-|--------|----------|---------|
-| **Original (hosts)** | Pi-hole, hosts file | `0.0.0.0 example.com` |
-| **No IP (domains)** | Some routers, simple lists | `example.com` |
-| **DNSMASQ** | dnsmasq DNS server | `server=/example.com/` |
-| **AdGuard** | AdGuard Home, browser extensions | `\|\|example.com^` |
+| Format | Use Case | Syntax | File Extension |
+|--------|----------|--------|----------------|
+| **Original (hosts)** | Pi-hole, hosts file, RPZ | `0.0.0.0 example.com` | `.txt` |
+| **No IP (domains)** | Unbound, routers, simple lists | `example.com` | `-nl.txt` |
+| **DNSMASQ** | dnsmasq DNS server | `server=/example.com/` | `-dnsmasq.txt` |
+| **AdGuard** | AdGuard Home, browser extensions | `||example.com^` | `-ags.txt` |
 
-&nbsp;
+---
+
+## Automation & Updates
+
+### Upstream Source Monitoring
+
+The project automatically syncs with **14 trusted upstream blocklists** across 8 categories:
+
+- **Daily Monitoring** — GitHub Actions checks for updates at 2 AM UTC
+- **Auto-PR Creation** — New domains trigger pull requests with size-based labels
+- **Smart Merging** — Small updates (≤10 domains) are auto-merge candidates
+- **Exclusion Support** — Removed domains stay removed, even if upstream re-adds them
+
+**Current Sources:** ShadowWhisperer, zachlagden, Hagezi, and more.
+
+See [UPSTREAM_MONITORING.md](UPSTREAM_MONITORING.md) for configuration details.
+
+### Automated Maintenance
+
+- **Dead Domain Removal** — Weekly scans identify and remove inactive domains
+- **Issue Triage** — Bot automatically validates submissions, checks for duplicates
+- **Stale Issue Cleanup** — Inactive issues auto-close after 60 days (PRs after 90 days)
+- **Weekly Reports** — Automated statistics and activity summaries
+
+### CI/CD Pipeline
+
+Every change triggers:
+- ✅ 151 automated tests
+- ✅ Domain syntax validation
+- ✅ TLD verification
+- ✅ Duplicate detection
+- ✅ Format regeneration for all outputs
+- ✅ Code quality checks (Ruff, MyPy)
+
+---
 
 ## Contributing
 
-We welcome contributions! Here's how you can help:
+We welcome and encourage community contributions! There are several ways to help:
 
-### Request a Domain Addition
-1. [Open an Add Request](https://github.com/blocklistproject/Lists/issues/new?template=add-request.yml)
-2. Fill out the form with the domain and evidence
-3. Our bot will check if it's already listed
-4. A maintainer will review and add it
+### 🎯 Request Domain Changes
 
-### Report a False Positive
-1. [Open a Remove Request](https://github.com/blocklistproject/Lists/issues/new?template=remove-request.yml)
-2. Explain why the domain should be unblocked
-3. A maintainer will review and remove it
+**Add a malicious domain:**
+- [Open an Add Request](https://github.com/blocklistproject/Lists/issues/new?template=add-request.yml)
+- Provide the domain and evidence (why it should be blocked)
+- Our triage bot will check if it's already listed
 
-### Direct Contributions
+**Remove a false positive:**
+- [Open a Remove Request](https://github.com/blocklistproject/Lists/issues/new?template=remove-request.yml)
+- Explain why the domain is incorrectly blocked
+- Maintainers will review and process the removal
 
-**Important:** Only edit source `.txt` files in the root directory. Never modify files in `adguard/`, `alt-version/`, or `dnsmasq-version/` — these are auto-generated.
+### 💻 Direct Code Contributions
+
+**Important:** Only edit source `.txt` files in the root directory. Files in `adguard/`, `alt-version/`, and `dnsmasq-version/` are auto-generated — never edit these directly.
 
 ```bash
-# 1. Fork and clone the repository
+# 1. Fork and clone
 git clone https://github.com/YOUR_USERNAME/Lists.git
 cd Lists
 
-# 2. Create a feature branch
+# 2. Install dev dependencies
+python -m venv .venv
+source .venv/bin/activate
+pip install -e ".[dev]"
+pre-commit install
+
+# 3. Create feature branch
 git checkout -b add-malicious-domain
 
-# 3. Edit the appropriate source file
-# Example: Add domain to ads.txt
+# 4. Edit the source file
 echo "0.0.0.0 badads.example.com" >> ads.txt
 
-# 4. Install dependencies and run tests
-pip install -e ".[dev]"
+# 5. Test and validate
 pytest
-
-# 5. Build and validate
 python build.py --validate
 
-# 6. Commit your changes (pre-commit hooks will run automatically)
+# 6. Commit and push
 git add ads.txt
 git commit -m "Add badads.example.com to ads list"
-
-# 7. Push and create Pull Request
 git push origin add-malicious-domain
+
+# 7. Open Pull Request on GitHub
 ```
 
-Our CI will automatically:
-- ✅ Run all 151 tests
-- ✅ Validate domain syntax
-- ✅ Check for duplicates
-- ✅ Verify TLDs
-- ✅ Build all output formats
-- ✅ Run code quality checks
+Our CI automatically validates PRs with:
+- ✅ Domain syntax checking
+- ✅ Duplicate detection
+- ✅ TLD verification
+- ✅ All 151 test suite
+- ✅ Code quality checks
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed guidelines.
 
-&nbsp;
+---
 
 ## For Developers
 
 ### Quick Setup
 
 ```bash
-# Clone the repository
+# Clone and setup
 git clone https://github.com/blocklistproject/Lists.git
 cd Lists
-
-# Create virtual environment
 python -m venv .venv
-source .venv/bin/activate  # or .venv\Scripts\activate on Windows
+source .venv/bin/activate  # Windows: .venv\Scripts\activate
 
-# Install dependencies (includes dev tools: pytest, ruff, mypy, pre-commit)
+# Install with dev dependencies
 pip install -e ".[dev]"
 
-# Install pre-commit hooks (recommended)
+# Setup pre-commit hooks
 pre-commit install
 
-# Run tests to verify setup
+# Verify installation
 pytest
 ```
-
-### Environment Variables
-
-The project supports environment-based configuration for different deployment scenarios:
-
-```bash
-# Project paths (optional - defaults to current directory)
-export PROJECT_ROOT=/path/to/Lists
-export WORKSPACE_DIR=/path/to/Lists
-
-# Temporary files location (optional - defaults to /tmp)
-export TEMP_DIR=/custom/tmp
-
-# GitHub token for API access (optional - for scripts that fetch issues)
-export GITHUB_TOKEN=your_github_token_here
-```
-
-All paths default to sensible values, so these are only needed for custom deployments.
 
 ### Building Lists
 
@@ -297,192 +264,217 @@ All paths default to sensible values, so these are only needed for custom deploy
 # Build all lists
 python build.py
 
-# Build specific list
+# Build specific list(s)
 python build.py --list ads
-
-# Build multiple specific lists
 python build.py --list ads --list malware --list phishing
 
-# Dry run (preview without writing)
-python build.py --dry-run --verbose
+# Validate without building
+python build.py --dry-run --validate
 
-# Build with validation
-python build.py --validate --verbose
-
-# Build to custom output directory
-python build.py --output-dir /custom/path
+# Build with verbose output
+python build.py --verbose
 ```
 
-### Code Quality Tools
+### Code Quality
 
-We use modern Python tooling to maintain high code quality:
+We use modern Python tooling for code quality:
 
 ```bash
-# Run all tests with coverage
+# Run tests with coverage
 pytest -v --cov=src --cov-report=html
 
-# Lint and format code with Ruff (10x faster than flake8)
-ruff check .                    # Check for issues
-ruff check . --fix              # Auto-fix issues
-ruff format .                   # Format code
+# Lint and format (Ruff - 10-100x faster than flake8/black)
+ruff check .           # Check for issues
+ruff check . --fix     # Auto-fix issues
+ruff format .          # Format code
 
-# Type checking with MyPy
+# Type checking
 mypy src/
 
-# Run all pre-commit checks manually
+# Run all pre-commit hooks
 pre-commit run --all-files
 ```
 
-**Pre-commit Hooks:** Once installed with `pre-commit install`, these checks run automatically before each commit:
-- ✅ Ruff linting and formatting
-- ✅ YAML, JSON, and TOML validation
-- ✅ Trailing whitespace removal
-- ✅ End-of-file fixer
-- ✅ Private key detection
-- ✅ MyPy type checking
+**Pre-commit hooks** automatically run on every commit:
+- Ruff linting and formatting
+- YAML/JSON/TOML validation
+- Trailing whitespace removal
+- MyPy type checking
+- Private key detection
+
+### Environment Variables
+
+Optional configuration for custom deployments:
+
+```bash
+# Project paths (defaults to current directory)
+export PROJECT_ROOT=/path/to/Lists
+export WORKSPACE_DIR=/path/to/Lists
+
+# Temporary files location (defaults to /tmp)
+export TEMP_DIR=/custom/tmp
+
+# GitHub API access (for scripts that fetch issues)
+export GITHUB_TOKEN=your_github_token_here
+```
 
 ### Project Structure
 
 ```
 Lists/
-├── *.txt                      # Source blocklists (hosts format)
+├── *.txt                      # Source blocklists (hosts format) - EDIT THESE
 ├── *.ip                       # IP-based blocklists
-├── adguard/                   # AdGuard format output (auto-generated)
-├── alt-version/               # Domain-only format output (auto-generated)
-├── dnsmasq-version/           # dnsmasq format output (auto-generated)
+├── adguard/                   # AdGuard format (auto-generated)
+├── alt-version/               # Domain-only format (auto-generated)
+├── dnsmasq-version/           # dnsmasq format (auto-generated)
+├── build.py                   # CLI build tool
+├── pyproject.toml             # Project configuration
+├── requirements.txt           # Python dependencies
+├── .pre-commit-config.yaml    # Pre-commit hooks
+│
 ├── config/
-│   └── lists.yml              # List definitions and settings
-├── src/                       # Python source code
-│   ├── config.py              # Configuration loader + path management
-│   ├── logger.py              # Structured logging system
-│   ├── exceptions.py          # Custom exception hierarchy
-│   ├── domain_lookup.py       # Unified domain search utility
-│   ├── normalize.py           # Format parsing
-│   ├── merge.py               # Deduplication
-│   ├── validate.py            # Domain validation
-│   ├── format.py              # Output formatters
+│   └── lists.yml              # List definitions and upstream sources
+│
+├── src/                       # Python package
+│   ├── config.py              # Configuration and path management
+│   ├── logger.py              # Structured logging
+│   ├── exceptions.py          # Custom exception types
+│   ├── domain_lookup.py       # Unified domain search
+│   ├── normalize.py           # Format parsing and normalization
+│   ├── merge.py               # Deduplication logic
+│   ├── validate.py            # Domain validation and TLD checking
+│   ├── format.py              # Output format generators
 │   └── pipeline.py            # Build orchestration
-├── scripts/                   # Maintenance and utility scripts
+│
+├── scripts/                   # Utility scripts
+│   ├── monitor_upstream.py    # Upstream source monitoring
+│   ├── remove_domain.py       # Domain removal automation
+│   ├── review_issues_batch.py # Issue triage automation
 │   ├── fetch_issues.py        # GitHub issue fetching
 │   ├── process_maintenance.py # Dead domain checking
-│   ├── review_issues_batch.py # Issue triage automation
-│   ├── remove_domain.py       # Domain removal utility
-│   ├── aggregate.py           # Domain aggregation
-│   ├── check-dead-domains.py  # Dead domain scanner
-│   ├── generate-stats.py      # Statistics generation
-│   └── generate-changelog.py  # Changelog generation
-├── tests/                     # Test suite (151 tests)
+│   └── ...                    # Additional utilities
+│
+├── tests/                     # Test suite (151+ tests)
 │   ├── test_config.py
 │   ├── test_normalize.py
 │   ├── test_validate.py
 │   ├── test_merge.py
 │   ├── test_format.py
 │   └── test_pipeline.py
-├── .github/
-│   └── workflows/             # CI/CD automation
-│       ├── build.yml          # Build and test pipeline
-│       ├── triage.yml         # Automatic issue triage
-│       └── dead-domains.yml   # Dead domain detection
-├── build.py                   # CLI entry point
-├── pyproject.toml             # Project configuration
-├── .pre-commit-config.yaml    # Pre-commit hooks configuration
-└── IMPROVEMENT_PLAN.md        # Development roadmap
+│
+└── .github/workflows/         # CI/CD automation
+    ├── build.yml              # Build and test pipeline
+    ├── upstream-monitor.yml   # Upstream source monitoring
+    ├── triage.yml             # Automatic issue triage
+    ├── scheduled-triage.yml   # Daily issue processing
+    ├── stale.yml              # Stale issue cleanup
+    ├── weekly-report.yml      # Weekly statistics
+    └── dead-domains.yml       # Dead domain detection
 ```
 
-**Note:** Only edit source `.txt` and `.ip` files. The `adguard/`, `alt-version/`, and `dnsmasq-version/` directories are auto-generated by `build.py`.
+### Key Modules
 
-&nbsp;
+| Module | Purpose |
+|--------|---------|
+| **`src/config.py`** | Environment-aware configuration, YAML loading, path management |
+| **`src/validate.py`** | Domain syntax validation, TLD verification, critical domain protection |
+| **`src/pipeline.py`** | Build orchestration, coordinates all build steps |
+| **`src/domain_lookup.py`** | Unified domain search across all list formats |
+| **`src/logger.py`** | Structured logging with console and file output |
+| **`src/exceptions.py`** | Custom exception hierarchy (ConfigurationError, ValidationError, etc.) |
 
-## Sponsors
-
-Special thank you to [Cloud 4 SURE](https://www.cloud4sure.net) for their generous donation to help cover infrastructure costs.
-
----
-
-## Development
-
-### Requirements
-- Python 3.10 or higher
-- Git
-- (Optional) Pre-commit for automatic code quality checks
-
-### Module Documentation
-
-**`src/config.py`** - Configuration and path management
-- Environment-aware paths (PROJECT_ROOT, WORKSPACE_DIR, etc.)
-- YAML configuration loader
-- Settings and format configuration
-
-**`src/logger.py`** - Structured logging
-- Console and file logging
-- Configurable log levels
-- Proper formatting with timestamps
-
-**`src/exceptions.py`** - Custom exceptions
-- BlocklistError (base class)
-- ConfigurationError, ValidationError, BuildError
-- DomainNotFoundError, NetworkError, FileFormatError
-
-**`src/domain_lookup.py`** - Unified domain search
-- Search domains across all list formats
-- DomainLocation dataclass for results
-- Consistent domain checking logic
-
-**`src/validate.py`** - Domain validation
-- Syntax validation
-- TLD verification
-- Critical domain protection
-- False positive detection
-
-**`src/pipeline.py`** - Build orchestration
-- Coordinates all build steps
-- Handles multiple output formats
-- Provides build statistics
-
-### Useful Scripts
+### Utility Scripts
 
 Located in `scripts/` directory:
 
-- **`generate-stats.py`** - Generate statistics for all lists
-- **`generate-changelog.py`** - Create changelog from git history
-- **`check-dead-domains.py`** - Scan for inactive domains
-- **`fetch_issues.py`** - Fetch open GitHub issues
-- **`review_issues_batch.py`** - Automated issue triage
+| Script | Description |
+|--------|-------------|
+| **`monitor_upstream.py`** | Monitor upstream sources and create PRs for updates |
+| **`remove_domain.py`** | Automated domain removal with exclusion support |
+| **`review_issues_batch.py`** | Automated issue triage and batch processing |
+| **`fetch_issues.py`** | Fetch and cache GitHub issues |
+| **`process_maintenance.py`** | Scan for and remove dead domains |
 
-Run scripts with: `python scripts/<script-name>.py`
+Run with: `python scripts/<script-name>.py`
 
 ### Troubleshooting
 
-**Import errors after updates:**
+**Import errors:**
 ```bash
 pip install -e ".[dev]" --force-reinstall
 ```
 
-**Pre-commit hooks not running:**
+**Pre-commit hooks not working:**
 ```bash
+pre-commit clean
 pre-commit install
 pre-commit autoupdate
 ```
 
-**Tests failing:**
+**Test failures:**
 ```bash
-# Run specific test
-pytest tests/test_validate.py -v
+pytest tests/test_validate.py -v      # Run specific test
+pytest -vv --tb=long                  # Verbose with full tracebacks
+pytest --lf                           # Re-run last failed tests
+```
 
-# Run with detailed output
-pytest -vv --tb=long
+**Build errors:**
+```bash
+python build.py --validate --verbose  # Validate with detailed output
+python build.py --list <name> --verbose  # Build specific list with logging
 ```
 
 ---
 
-&nbsp;
+## What's New
+
+### v2.0 Complete Rewrite (2026)
+
+We rebuilt the entire project infrastructure from the ground up:
+
+**For Users:**
+- ✅ All existing URLs continue to work
+- ✅ Same lists, formats, and locations
+- ✅ Improved accuracy and quality
+
+**For Contributors:**
+- ✅ Structured issue templates
+- ✅ Automated triage bot
+- ✅ Pre-commit hooks
+- ✅ Modern Python tooling (Ruff, MyPy)
+
+**Technical Improvements:**
+- Replaced 7 JavaScript scripts with unified Python codebase
+- Added 151 automated tests
+- Config-driven architecture
+- Proper domain validation and TLD verification
+- Critical domain protection
+- Upstream source monitoring
+- Dead domain detection
+- Structured logging and error handling
+
+See [docs/Optimize.md](docs/Optimize.md) for the full technical deep dive.
+
+---
+
+## Sponsors & Support
+
+Special thanks to [Cloud 4 SURE](https://www.cloud4sure.net) for helping cover infrastructure costs.
+
+Support the project:
+- ☕ [Ko-fi](https://ko-fi.com/P5P521OPP)
+- 🎨 [Patreon](https://www.patreon.com/bePatron?u=8892646)
+- ⭐ Star this repository
+- 🐛 Report issues and suggest improvements
+- 💬 Join our [Discord community](https://discord.com/invite/x9KeVQggkc)
+
+---
+
 
 ## License
 
-This project is licensed under the [Unlicense](https://github.com/blocklistproject/Lists/blob/master/LICENSE) — free and open source, no restrictions.
+This project is licensed under the [Unlicense](LICENSE) — completely free and open source with no restrictions.
 
-&nbsp;
+<sub>These files are provided "AS IS", without warranty of any kind, express or implied. In no event shall the authors or copyright holders be liable for any claim, damages or other liability arising from the use of these files.</sub>
 
-<sup>These files are provided "AS IS", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement. In no event shall the authors or copyright holders be liable for any claim, damages or other liability, arising from, out of or in connection with the files or the use of the files.</sup>
-
-<sub>Any and all trademarks are the property of their respective owners.</sub>
+<sub>All trademarks are the property of their respective owners.</sub>
