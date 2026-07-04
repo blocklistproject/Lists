@@ -1,0 +1,235 @@
+name: Upstream Source Monitor
+
+on:
+  schedule:
+    # Run daily at 2 AM UTC
+    - cron: '0 2 * * *'
+  
+  workflow_dispatch:
+    inputs:
+      list_name:
+        description: 'Specific list to monitor (leave empty for all)'
+        required: false
+        type: string
+      dry_run:
+        description: 'Dry run mode (no PRs created)'
+        required: false
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+jobs:
+  monitor-upstream:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt || pip install pyyaml requests PyGithub
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Configure Git
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Run upstream monitor
+        id: monitor
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set +e  # Don't exit on error
+          
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+            DRY_RUN="--dry-run"
+          else
+            DRY_RUN=""
+          fi
+          
+          if [ -n "${{ github.event.inputs.list_name }}" ]; then
+            python scripts/monitor_upstream.py --list "${{ github.event.inputs.list_name }}" $DRY_RUN 2>&1 | tee /tmp/monitor_output.log
+          else
+            python scripts/monitor_upstream.py --all $DRY_RUN 2>&1 | tee /tmp/monitor_output.log
+          fi
+          
+          EXIT_CODE=$?
+          echo "exit_code=$EXIT_CODE" >> $GITHUB_OUTPUT
+          
+          if [ $EXIT_CODE -ne 0 ]; then
+            echo "error=true" >> $GITHUB_OUTPUT
+            echo "Monitor script failed with exit code $EXIT_CODE"
+          else
+            echo "error=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Create PRs from branches
+        if: steps.monitor.outputs.error == 'false' && github.event.inputs.dry_run != 'true'
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const fs = require('fs');
+            const path = require('path');
+            
+            // Find all PR metadata files
+            const prFiles = fs.readdirSync('/tmp').filter(f => f.startsWith('pr_') && f.endsWith('.json'));
+            
+            if (prFiles.length === 0) {
+              console.log('No PR files found. Monitor may have run in dry-run mode or found no updates.');
+              return;
+            }
+            
+            const createdPRs = [];
+            
+            for (const prFile of prFiles) {
+              try {
+                const prData = JSON.parse(fs.readFileSync(path.join('/tmp', prFile), 'utf8'));
+                
+                // Determine labels based on domain count
+                const labels = ['automation', 'upstream-update'];
+                const totalDomains = prData.new_domains || 0;
+                
+                if (totalDomains <= 10) {
+                  labels.push('size:small', 'auto-merge-candidate');
+                } else if (totalDomains <= 100) {
+                  labels.push('size:medium');
+                } else {
+                  labels.push('size:large', 'needs-review');
+                }
+                
+                // Create the PR
+                const pr = await github.rest.pulls.create({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  title: prData.title,
+                  body: prData.body,
+                  head: prData.branch,
+                  base: 'main'
+                });
+                
+                // Apply labels
+                await github.rest.issues.addLabels({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: pr.data.number,
+                  labels: labels
+                });
+                
+                createdPRs.push({
+                  number: pr.data.number,
+                  url: pr.data.html_url,
+                  title: prData.title,
+                  domains: totalDomains,
+                  labels: labels
+                });
+                
+                console.log(`Created PR #${pr.data.number}: ${prData.title}`);
+                
+              } catch (error) {
+                console.error(`Failed to create PR from ${prFile}:`, error.message);
+              }
+            }
+            
+            // Create summary issue
+            if (createdPRs.length > 0) {
+              const summaryBody = `## Upstream Source Updates - ${new Date().toISOString().split('T')[0]}
+            
+            Automatically created ${createdPRs.length} pull request(s) from upstream source monitoring:
+            
+            | PR | List | Domains | Labels |
+            |---|---|---|---|
+            ${createdPRs.map(pr => `| #${pr.number} | ${pr.title.split(':')[0]} | ${pr.domains} | ${pr.labels.join(', ')} |`).join('\n')}
+            
+            ### Review Guidelines
+            - ✅ **Auto-merge candidates** (≤10 domains): Safe to merge after CI passes
+            - ⚠️ **Needs review** (>100 domains): Manual review recommended
+            - 📊 **Medium updates** (11-100 domains): Quick review suggested
+            
+            ---
+            *Generated by upstream-monitor workflow*`;
+              
+              await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title: `📊 Upstream Updates Summary - ${new Date().toISOString().split('T')[0]}`,
+                body: summaryBody,
+                labels: ['automation', 'report']
+              });
+            }
+            
+            // Set job summary
+            await core.summary
+              .addHeading('Upstream Monitoring Results')
+              .addTable([
+                [{data: 'PR #', header: true}, {data: 'Title', header: true}, {data: 'Domains', header: true}, {data: 'Status', header: true}],
+                ...createdPRs.map(pr => [
+                  `<a href="${pr.url}">#${pr.number}</a>`,
+                  pr.title,
+                  pr.domains.toString(),
+                  pr.labels.includes('auto-merge-candidate') ? '✅ Auto-merge' : '⚠️ Review'
+                ])
+              ])
+              .write();
+
+      - name: Report errors
+        if: steps.monitor.outputs.error == 'true'
+        uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const fs = require('fs');
+            const logContent = fs.existsSync('/tmp/monitor_output.log') 
+              ? fs.readFileSync('/tmp/monitor_output.log', 'utf8')
+              : 'No log file found';
+            
+            const errorBody = `## ⚠️ Upstream Monitor Failed
+            
+            The upstream monitoring script encountered an error during execution.
+            
+            ### Error Details
+            \`\`\`
+            ${logContent.slice(-2000)}  // Last 2000 chars
+            \`\`\`
+            
+            ### Next Steps
+            1. Check the [workflow run](${context.payload.repository.html_url}/actions/runs/${context.runId}) for details
+            2. Review the monitor script configuration in \`config/lists.yml\`
+            3. Verify upstream source URLs are accessible
+            4. Check for rate limiting or network issues
+            
+            ---
+            *Generated by upstream-monitor workflow*`;
+            
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `🚨 Upstream Monitor Failed - ${new Date().toISOString().split('T')[0]}`,
+              body: errorBody,
+              labels: ['automation', 'error', 'needs-attention']
+            });
+
+      - name: Upload logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: monitor-logs-${{ github.run_id }}
+          path: /tmp/monitor_output.log
+          retention-days: 7
