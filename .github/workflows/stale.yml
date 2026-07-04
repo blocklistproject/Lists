@@ -64,7 +64,7 @@ jobs:
             This PR has been inactive for **90 days** and is now marked as stale.
             
             If this PR is still relevant:
-            - ✅ Rebase on the latest `master` branch
+            - ✅ Rebase on the latest `main` branch
             - ✅ Resolve any merge conflicts
             - ✅ Add a comment with updates
             

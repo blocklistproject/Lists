@@ -106,7 +106,7 @@ def update_lists(domain, lists_to_remove_from, commit_message):
     # Commit changes
     subprocess.run(['git', 'add', '.'], cwd=REPO_DIR, check=True)
     subprocess.run(['git', 'commit', '-m', commit_message], cwd=REPO_DIR, check=True)
-    subprocess.run(['git', 'push', 'origin', 'master'], cwd=REPO_DIR, check=True)
+    subprocess.run(['git', 'push', 'origin', 'main'], cwd=REPO_DIR, check=True)
 
 def extract_domains_from_issue_body(body):
     """Extract domains from the <details> section of the issue body."""
@@ -229,7 +229,7 @@ def process_maintenance_issue(issue):
         # Commit
         subprocess.run(['git', 'add', '.'], cwd=REPO_DIR, check=True)
         subprocess.run(['git', 'commit', '-m', commit_message], cwd=REPO_DIR, check=True)
-        subprocess.run(['git', 'push', 'origin', 'master'], cwd=REPO_DIR, check=True)
+        subprocess.run(['git', 'push', 'origin', 'main'], cwd=REPO_DIR, check=True)
 
         # Get commit SHA
         result = subprocess.run(['git', 'rev-parse', 'HEAD'], cwd=REPO_DIR, capture_output=True, text=True, check=True)
