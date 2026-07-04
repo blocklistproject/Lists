@@ -403,6 +403,38 @@ def create_pr_branch(list_name: str, results: list[UpdateResult]) -> str | None:
     """
     import subprocess
 
+    # Check for existing upstream-update branches for this list
+    try:
+        result = subprocess.run(
+            ["git", "branch", "-r"],
+            cwd=PROJECT_ROOT,
+            check=True,
+            capture_output=True,
+            text=True
+        )
+        existing_branches = [
+            line.strip().replace("origin/", "")
+            for line in result.stdout.splitlines()
+            if f"upstream-update/{list_name}/" in line
+        ]
+        
+        # Delete old upstream-update branches for this list
+        if existing_branches:
+            print(f"  🧹 Cleaning up {len(existing_branches)} old branch(es)...")
+            for branch in existing_branches:
+                try:
+                    subprocess.run(
+                        ["git", "push", "origin", "--delete", branch],
+                        cwd=PROJECT_ROOT,
+                        check=True,
+                        capture_output=True
+                    )
+                    print(f"     Deleted {branch}")
+                except subprocess.CalledProcessError:
+                    print(f"     Warning: Could not delete {branch}")
+    except subprocess.CalledProcessError as e:
+        print(f"  ⚠️  Warning: Could not check for existing branches: {e}")
+
     # Create branch name
     timestamp = datetime.now().strftime("%Y%m%d-%H%M%S")
     branch_name = f"upstream-update/{list_name}/{timestamp}"
