@@ -8,3 +8,18 @@
 scripts/__pycache__/
 scripts/*.pyc
 scripts/.*.swp
+
+# Python build artifacts
+*.egg-info/
+__pycache__/
+*.pyc
+*.pyo
+.coverage
+htmlcov/
+.pytest_cache/
+.ruff_cache/
+
+# Source and tests (if temporary)
+# Uncomment if these are not meant to be tracked:
+# /src/
+# /tests/
