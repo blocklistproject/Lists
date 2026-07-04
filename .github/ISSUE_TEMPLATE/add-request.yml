@@ -15,6 +15,11 @@ body:
         **Before submitting:**
         - Check if the domain is already in the list you're requesting
         - Provide evidence of why this domain should be blocked
+        
+        **Automated validation:**
+        - Our triage bot will automatically check if the domain already exists
+        - DNS and HTTP validation will verify the domain is active
+        - Your submission will be labeled and prioritized automatically
 
   - type: input
     id: domain
@@ -33,9 +38,11 @@ body:
       options:
         - abuse
         - ads
+        - basic
         - crypto
         - drugs
         - facebook
+        - fortnite
         - fraud
         - gambling
         - malware

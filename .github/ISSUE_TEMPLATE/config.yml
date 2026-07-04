@@ -1,11 +1,14 @@
 blank_issues_enabled: false
 contact_links:
+  - name: � Discord Community
+    url: https://discord.com/invite/x9KeVQggkc
+    about: Ask questions, get support, and discuss with the community
   - name: 📖 Documentation
-    url: https://github.com/blocklistproject/Lists/wiki
-    about: Check our wiki for setup guides and FAQ
-  - name: 💬 Discussions
-    url: https://github.com/blocklistproject/Lists/discussions
-    about: Ask questions and discuss with the community
-  - name: ☕ Support the Project
-    url: https://paypal.me/blocklistproject
+    url: https://github.com/blocklistproject/Lists#readme
+    about: Check our README for setup guides, formats, and FAQ
+  - name: ☕ Support on Ko-fi
+    url: https://ko-fi.com/P5P521OPP
     about: Help keep this project running
+  - name: 🎨 Support on Patreon
+    url: https://www.patreon.com/bePatron?u=8892646
+    about: Become a patron and support development
