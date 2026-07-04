@@ -203,9 +203,9 @@ def commit_changes(issue_numbers: list, action: str, domains: list) -> str:
 
 
 def push_changes() -> bool:
-    """Push changes to origin master."""
+    """Push changes to origin main."""
     try:
-        run_git_command(["git", "push", "origin", "master"])
+        run_git_command(["git", "push", "origin", "main"])
         return True
     except subprocess.CalledProcessError as e:
         print(f"Push failed: {e}")
@@ -464,7 +464,7 @@ def main():
             print(f"Committed changes: {sha}")
 
             if push_changes():
-                print("Pushed to origin/master")
+                print("Pushed to origin/main")
 
                 # Comment on issues
                 for result in results:

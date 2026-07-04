@@ -2,7 +2,7 @@ name: Build Blocklists
 
 on:
   push:
-    branches: [master]
+    branches: [main]
     paths:
       - '*.txt'
       - 'config/**'
@@ -10,7 +10,7 @@ on:
       - 'build.py'
       - '.github/workflows/build.yml'
   pull_request:
-    branches: [master]
+    branches: [main]
     paths:
       - '*.txt'
       - 'config/**'
@@ -81,7 +81,7 @@ jobs:
           echo "## Build Preview" >> $GITHUB_STEP_SUMMARY
           echo "Dry run completed successfully. No files were modified." >> $GITHUB_STEP_SUMMARY
 
-      - name: Build lists (push to master)
+      - name: Build lists (push to main)
         if: github.event_name == 'push' || github.event_name == 'workflow_dispatch'
         run: |
           ARGS="--validate --verbose"

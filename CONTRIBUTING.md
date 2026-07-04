@@ -18,7 +18,7 @@ We use github to host the lists, to track false positives and feature requests, 
 
 Issues are the best way to propose changes to the lists (we use Github Flow). We actively welcome your pull requests:
 
-1. Fork the repo and create your branch from master.
+1. Fork the repo and create your branch from main.
 
 2. Ensure that you have not modified any files inside the `alt-version` `adguard` `dnsmasq-version` folders or
 inside `everything.txt`. Automatic scripts will update those files for you.

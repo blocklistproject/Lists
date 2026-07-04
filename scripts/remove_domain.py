@@ -93,7 +93,7 @@ def main():
 
     # Push
     print("\nPushing to origin...")
-    os.system("git push origin master")
+    os.system("git push origin main")
 
     print("\nDone.")
     return 0

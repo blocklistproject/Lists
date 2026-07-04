@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/blocklistproject/Lists/master/img/logo.webp" height="150px" alt="Block List Project Logo"/>
+<img src="https://raw.githubusercontent.com/blocklistproject/Lists/main/img/logo.webp" height="150px" alt="Block List Project Logo"/>
 
 # The Block List Project
 

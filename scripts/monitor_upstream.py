@@ -420,7 +420,7 @@ def create_pr_branch(list_name: str, results: list[UpdateResult]) -> bool:
 
         if not all_new_domains:
             print("  ℹ️  No new domains to add")
-            subprocess.run(["git", "checkout", "master"], cwd=PROJECT_ROOT, check=True)
+            subprocess.run(["git", "checkout", "main"], cwd=PROJECT_ROOT, check=True)
             subprocess.run(
                 ["git", "branch", "-D", branch_name], cwd=PROJECT_ROOT, check=True
             )
