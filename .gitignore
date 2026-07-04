@@ -3,4 +3,8 @@
 
 #Internal Script
 /Internal_Scripts
-/scripts
+
+# Ignore scripts temp/cache files but not the scripts themselves
+scripts/__pycache__/
+scripts/*.pyc
+scripts/.*.swp
