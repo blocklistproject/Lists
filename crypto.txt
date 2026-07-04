@@ -1,6 +1,15 @@
-# Crypto Blocklist
-# Updated by upstream monitoring
-# Date: 2026-07-04T02:26:45.246540
+# Title: Crypto Block List
+# Description: Cryptocurrency mining and scams
+# Homepage: https://github.com/blocklistproject/Lists
+# License: MIT
+# Last modified: 2026-07-04 02:32:52 UTC
+# Format: hosts
+# Entries: 1,272
+# URL: 
+#
+# This list is maintained by The Block List Project
+# https://github.com/blocklistproject/Lists
+#
 
 0.0.0.0 0slot.trade
 0.0.0.0 10102.io
