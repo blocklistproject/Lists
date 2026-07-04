@@ -79,7 +79,7 @@ def normalize_file(file_path: Path) -> Iterator[str]:
     Yields:
         Normalized domains (non-empty, non-comment lines)
     """
-    with open(file_path, encoding='utf-8', errors='ignore') as f:
+    with file_path.open(encoding='utf-8', errors='ignore') as f:
         for line in f:
             domain = normalize_line(line)
             if domain:
@@ -122,7 +122,7 @@ def detect_format(file_path: Path) -> str:
     Returns:
         Format name: 'hosts', 'adguard', 'dnsmasq', 'domains', or 'unknown'
     """
-    with open(file_path, encoding='utf-8', errors='ignore') as f:
+    with file_path.open(encoding='utf-8', errors='ignore') as f:
         for line in f:
             line = line.strip()
 
@@ -160,7 +160,7 @@ def extract_allowlist_from_hosts(file_path: Path) -> set[str]:
     allowlist = set()
     pattern = re.compile(r'^#\s*0\.0\.0\.0\s+(\S+)')
 
-    with open(file_path, encoding='utf-8', errors='ignore') as f:
+    with file_path.open(encoding='utf-8', errors='ignore') as f:
         for line in f:
             match = pattern.match(line.strip())
             if match:
