@@ -13,6 +13,11 @@ body:
         Use this form to report a false positive - a legitimate domain that was incorrectly added to a blocklist.
         
         **Note:** We take false positive reports seriously. Please provide as much evidence as possible.
+        
+        **Automated processing:**
+        - Our triage bot will verify the domain exists in our lists
+        - Approved removals are added to an exclusion list to prevent re-addition from upstream sources
+        - Your submission will be reviewed and prioritized based on impact
 
   - type: input
     id: domain
@@ -31,9 +36,11 @@ body:
       options:
         - abuse
         - ads
+        - basic
         - crypto
         - drugs
         - facebook
+        - fortnite
         - fraud
         - gambling
         - malware
