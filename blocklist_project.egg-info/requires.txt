@@ -1,0 +1,12 @@
+pyyaml>=6.0
+tldextract>=5.0
+click>=8.0
+requests>=2.31.0
+PyGithub>=2.0.0
+
+[dev]
+pytest>=8.0
+pytest-cov>=4.0
+ruff>=0.8.0
+mypy>=1.0
+pre-commit>=3.0
