@@ -1,18 +1,16 @@
-! ------------------------------------[UPDATE]--------------------------------------
-! Title: The Block List Project - Drugs List (adguard)
-! Expires: 1 day
-! Homepage: https://blocklist.site
-! Help: https://github.com/blocklistproject/lists/wiki/
-! License: https://unlicense.org
-! Total number of network filters: 26031
-! ------------------------------------[SUPPORT]-------------------------------------
-! You can support by:
-! - reporting false positives
-! - making a donation: https://paypal.me/blocklistproject
-! -------------------------------------[INFO]---------------------------------------
+! Title: Drugs Block List
+! Description: Drug-related domains
+! Homepage: https://github.com/blocklistproject/Lists
+! License: MIT
+! Last modified: 2026-06-28 17:19:00 UTC
+! Format: AdGuard
+! Entries: 26,029
+! URL: 
 !
-! Drugs list
-! ------------------------------------[FILTERS]-------------------------------------
+! This list is maintained by The Block List Project
+! https://github.com/blocklistproject/Lists
+!
+
 ||000host.totaocimall.com^
 ||001kanpou.com^
 ||028lang.com^
@@ -746,7 +744,6 @@
 ||affordhere.com^
 ||africanfly.com^
 ||afterchance.com^
-||aftership.com^
 ||afterteam.com^
 ||agaest.net^
 ||againon.com^
@@ -3756,7 +3753,6 @@
 ||copye.net^
 ||copyor.com^
 ||coralynmarcia.ru^
-||corbina.ru^
 ||cordero.com^
 ||cordiemignon.su^
 ||core-wax.com^
@@ -5769,6 +5765,7 @@
 ||forsteam.ru^
 ||forthehigh.at^
 ||fortlite.com^
+||forum.grasscity.com^
 ||forum.luckybiologicalsale.be^
 ||forum.magicsafeprogram.su^
 ||forumnews02.kokoom.com^
@@ -19426,7 +19423,6 @@
 ||www.contact-recustomer.com^
 ||www.coolsex.smartherbsdeal.su^
 ||www.coralynmarcia.ru^
-||www.corbina.ru^
 ||www.cordero.com^
 ||www.cordiemignon.su^
 ||www.corenaaurie.ru^
@@ -19696,7 +19692,6 @@
 ||www.drspharm.com^
 ||www.drucillcecilia.ru^
 ||www.drug-24.com^
-||www.drug-infopool.de^
 ||www.drug-rx-pharmacy.org^
 ||www.drug-screen.com^
 ||www.drug-store-24h.com^
@@ -20193,6 +20188,7 @@
 ||www.forepoll.biz^
 ||www.forever-fatlost.net^
 ||www.forgettingthepill.com^
+||www.forum.grasscity.com^
 ||www.forum.luckybiologicalsale.be^
 ||www.forum.magicsafeprogram.su^
 ||www.foryourx.com^

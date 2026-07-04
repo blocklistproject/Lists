@@ -1,0 +1,224 @@
+# Example Upstream Source Configurations
+# 
+# Copy these upstream_sources sections into your config/lists.yml
+# under the appropriate list definitions.
+#
+# IMPORTANT: Add these UNDER the existing list properties (description, category, status)
+
+# Example structure:
+# lists:
+#   your_list:
+#     description: "Description here"
+#     category: security
+#     status: stable
+#     upstream_sources:  # <-- Add this section
+#       - url: "..."
+#         format: hosts
+#         trusted: true
+#         update_frequency: daily
+
+# First, add this to settings section (at the top of lists.yml):
+settings:
+  # ... existing settings ...
+  
+  # Add this upstream monitoring configuration:
+  upstream:
+    enabled: true
+    check_frequency: "daily"
+    auto_merge_threshold: 10
+    require_review_threshold: 100
+    cache_ttl: 86400
+
+# Then add upstream_sources to individual lists:
+
+# =============================================================================
+# SECURITY LISTS
+# =============================================================================
+
+abuse:
+  # Add after status: stable
+  upstream_sources:
+    - url: "https://raw.githubusercontent.com/mitchellkrogza/The-Big-List-of-Hacked-Malware-Web-Sites/master/hacked-domains.list"
+      format: domains
+      trusted: true
+      update_frequency: daily
+    - url: "https://urlhaus.abuse.ch/downloads/hostfile/"
+      format: hosts
+      trusted: true
+      update_frequency: daily
+      filter_comments: true
+
+crypto:
+  upstream_sources:
+    - url: "https://raw.githubusercontent.com/Snefru/CryptoBlockingList/master/list.txt"
+      format: domains
+      trusted: true
+      update_frequency: daily
+    - url: "https://raw.githubusercontent.com/hoshsadiq/adblock-nocoin-list/master/hosts.txt"
+      format: hosts
+      trusted: true
+      update_frequency: weekly
+
+fraud:
+  upstream_sources:
+    - url: "https://raw.githubusercontent.com/mitchellkrogza/Phishing.Database/master/phishing-domains-ACTIVE.txt"
+      format: domains
+      trusted: true
+      update_frequency: daily
+      max_domains: 1000
+
+malware:
+  upstream_sources:
+    - url: "https://urlhaus.abuse.ch/downloads/hostfile/"
+      format: hosts
+      trusted: true
+      update_frequency: daily
+    - url: "https://raw.githubusercontent.com/Spam404/lists/master/main-blacklist.txt"
+      format: domains
+      trusted: true
+      update_frequency: daily
+    - url: "https://malware-filter.gitlab.io/malware-filter/urlhaus-filter-hosts.txt"
+      format: hosts
+      trusted: true
+      update_frequency: daily
+
+phishing:
+  upstream_sources:
+    - url: "https://raw.githubusercontent.com/mitchellkrogza/Phishing.Database/master/phishing-domains-ACTIVE.txt"
+      format: domains
+      trusted: true
+      update_frequency: daily
+      max_domains: 1000
+    - url: "https://phishing.army/download/phishing_army_blocklist.txt"
+      format: domains
+      trusted: true
+      update_frequency: daily
+
+ransomware:
+  upstream_sources:
+    - url: "https://raw.githubusercontent.com/Casualtek/Ransomware-IP-Domain/master/Domain.txt"
+      format: domains
+      trusted: true
+      update_frequency: daily
+    - url: "https://ransomwaretracker.abuse.ch/downloads/RW_DOMBL.txt"
+      format: domains
+      trusted: false  # Requires manual review
+      update_frequency: daily
+
+scam:
+  upstream_sources:
+    - url: "https://raw.githubusercontent.com/mitchellkrogza/The-Big-List-of-Hacked-Malware-Web-Sites/master/hacked-domains.list"
+      format: domains
+      trusted: true
+      update_frequency: daily
+
+# =============================================================================
+# ADVERTISING & CONTENT LISTS
+# =============================================================================
+
+ads:
+  upstream_sources:
+    - url: "https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/fakenews-gambling-porn/hosts"
+      format: hosts
+      trusted: true
+      update_frequency: daily
+      filter_category: ads
+    - url: "https://adaway.org/hosts.txt"
+      format: hosts
+      trusted: true
+      update_frequency: weekly
+    - url: "https://pgl.yoyo.org/adservers/serverlist.php?hostformat=hosts&showintro=0"
+      format: hosts
+      trusted: true
+      update_frequency: weekly
+
+gambling:
+  upstream_sources:
+    - url: "https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/gambling/hosts"
+      format: hosts
+      trusted: true
+      update_frequency: weekly
+
+porn:
+  upstream_sources:
+    - url: "https://raw.githubusercontent.com/StevenBlack/hosts/master/alternates/porn/hosts"
+      format: hosts
+      trusted: true
+      update_frequency: weekly
+
+# =============================================================================
+# TRACKING & PRIVACY LISTS
+# =============================================================================
+
+tracking:
+  upstream_sources:
+    - url: "https://hostfiles.frogeye.fr/firstparty-trackers-hosts.txt"
+      format: hosts
+      trusted: true
+      update_frequency: weekly
+    - url: "https://raw.githubusercontent.com/crazy-max/WindowsSpyBlocker/master/data/hosts/spy.txt"
+      format: hosts
+      trusted: true
+      update_frequency: weekly
+      filter_category: tracking
+
+# =============================================================================
+# CONFIGURATION OPTIONS EXPLAINED
+# =============================================================================
+
+# url: The full URL to the upstream blocklist
+# format: The format of the upstream list
+#   - hosts: 0.0.0.0 domain format
+#   - domains: Plain domain list (one per line)
+#   - adguard: ||domain^ format
+#   - dnsmasq: server=/domain/ format
+# trusted: Whether to allow auto-merge for small changes
+#   - true: Can auto-merge if ≤10 domains
+#   - false: Always requires manual review
+# update_frequency: How often to check
+#   - daily: Check every day
+#   - weekly: Check once per week
+#   - hourly: Check every hour (use sparingly!)
+# filter_comments: (optional) Skip lines starting with #
+#   - true: Remove comment lines
+#   - false: Keep all lines
+# max_domains: (optional) Limit number of domains to prevent huge merges
+#   - Example: 1000 will limit to first 1000 domains
+# filter_category: (optional) Only for lists that contain multiple categories
+#   - Requires custom filtering logic in monitor script
+
+# =============================================================================
+# HOW TO ADD TO YOUR lists.yml
+# =============================================================================
+
+# 1. Open config/lists.yml
+# 2. Find the list you want to add sources to (e.g., "ads:")
+# 3. After the "status: stable" line, add the upstream_sources section
+# 4. Copy the relevant section from this file
+# 5. Ensure proper indentation (2 spaces per level)
+# 6. Test with: python scripts/monitor_upstream.py --list <name> --dry-run
+
+# Example before:
+#
+# ads:
+#   description: "Ad serving domains"
+#   category: advertising
+#   status: stable
+#
+# adobe:
+#   ...
+
+# Example after:
+#
+# ads:
+#   description: "Ad serving domains"
+#   category: advertising
+#   status: stable
+#   upstream_sources:  # <-- Added
+#     - url: "https://..."  # <-- Added
+#       format: hosts  # <-- Added
+#       trusted: true  # <-- Added
+#       update_frequency: daily  # <-- Added
+#
+# adobe:
+#   ...

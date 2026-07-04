@@ -1,18 +1,16 @@
-# ------------------------------------[UPDATE]--------------------------------------
-# Title: The Block List Project - TikTok List
-# Expires: 1 day
-# Homepage: https://blocklist.site
-# Help: https://github.com/blocklistproject/lists/wiki/
-# License: https://unlicense.org
-# Total number of network filters: 3699
-# ------------------------------------[SUPPORT]-------------------------------------
-# You can support by:
-# - reporting false positives
-# - making a donation: https://paypal.me/blocklistproject
-# -------------------------------------[INFO]---------------------------------------
+# Title: Tiktok Block List
+# Description: TikTok domains
+# Homepage: https://github.com/blocklistproject/Lists
+# License: MIT
+# Last modified: 2026-06-28 17:19:02 UTC
+# Format: hosts
+# Entries: 3,725
+# URL: 
 #
-# TikTok list
-# ------------------------------------[FILTERS]-------------------------------------
+# This list is maintained by The Block List Project
+# https://github.com/blocklistproject/Lists
+#
+
 0.0.0.0 0pbxmo-useast2a.xzcs3zlph.com
 0.0.0.0 0pbxmo-useast2a.xzcs3zlph.com.edgesuite.net
 0.0.0.0 0pbxmo.xzcs3zlph.com
@@ -98,6 +96,7 @@
 0.0.0.0 adshare.toutiao.com
 0.0.0.0 adx.toutiao.com
 0.0.0.0 agent.toutiao.com
+0.0.0.0 aggr32-normal.tiktokv.eu
 0.0.0.0 aideas.toutiao.com
 0.0.0.0 akcqacex.qfyf1toi.com
 0.0.0.0 alisg-normal-lb.byteoversea.net
@@ -265,6 +264,9 @@
 0.0.0.0 api16-core-ipv6.sgsnssdk.com
 0.0.0.0 api16-core-n-alisg.tiktokv.com
 0.0.0.0 api16-core-n-alisg.tiktokv.com.edgekey.net
+0.0.0.0 api16-core-no1a.tiktokv.eu
+0.0.0.0 api16-core-useast5.us.tiktokv.com
+0.0.0.0 api16-core-useastred.tiktokv.eu
 0.0.0.0 api16-core-va.tiktokv.com
 0.0.0.0 api16-core-va.tiktokv.com.edgekey.net
 0.0.0.0 api16-normal-c-alisg.tiktokv.com
@@ -282,6 +284,9 @@
 0.0.0.0 api16-normal-i-sg.sgsnssdk.com
 0.0.0.0 api16-normal-ipv4.sgsnssdk.com
 0.0.0.0 api16-normal-ipv6.sgsnssdk.com
+0.0.0.0 api16-normal-no1a.tiktokv.eu
+0.0.0.0 api16-normal-useast5.us.tiktokv.com
+0.0.0.0 api16-normal-useastred.tiktokv.eu
 0.0.0.0 api16-normal-v4.tiktokv.com
 0.0.0.0 api16-normal-v4.tiktokv.com.edgekey.net
 0.0.0.0 api16-normal-v6.tiktokv.com
@@ -295,12 +300,14 @@
 0.0.0.0 api19-core-c-useast2a.musical.ly
 0.0.0.0 api19-core-c-useast2a.tiktokv.com
 0.0.0.0 api19-core-c6-alisg.tiktokv.com
+0.0.0.0 api19-core-useast5.us.tiktokv.com
 0.0.0.0 api19-core-va.tiktokv.com
 0.0.0.0 api19-normal-c-alisg.tiktokv.com
 0.0.0.0 api19-normal-c-useast1a.musical.ly
 0.0.0.0 api19-normal-c-useast1a.tiktokv.com
 0.0.0.0 api19-normal-c-useast2a.musical.ly
 0.0.0.0 api19-normal-c-useast2a.tiktokv.com
+0.0.0.0 api19-normal-useast5.us.tiktokv.com
 0.0.0.0 api19-va.tiktokv.com
 0.0.0.0 api19.tiktokv.com
 0.0.0.0 api19.toutiao50.com
@@ -577,6 +584,7 @@
 0.0.0.0 brn-cgk-v1.l.byteoversea.net
 0.0.0.0 bsdk.sgsnssdk.com
 0.0.0.0 bsdk.snssdk.com
+0.0.0.0 bsync16-normal-no1a.tiktokv.eu
 0.0.0.0 business-sg.topbuzz.com
 0.0.0.0 business.tiktok.com
 0.0.0.0 business.topbuzz.com
@@ -668,6 +676,7 @@
 0.0.0.0 compass-ns.byteoversea.net
 0.0.0.0 coresite-iad-api1.l.byteoversea.net
 0.0.0.0 coresite-iad-v1.l.byteoversea.net
+0.0.0.0 cp-rp16-normal-no1a.tiktokv.eu
 0.0.0.0 crash.snssdk.com
 0.0.0.0 creator.toutiao.com
 0.0.0.0 creatormarketplace.tiktok.com
@@ -721,6 +730,7 @@
 0.0.0.0 dig.bdurl.net
 0.0.0.0 dig.bdurl.net.bytedns.net
 0.0.0.0 dig.byteoversea.com
+0.0.0.0 dig.us.tiktokv.com
 0.0.0.0 direct.musical.ly
 0.0.0.0 dispatch.byteoversea.com
 0.0.0.0 distribution.snssdk.com
@@ -925,6 +935,8 @@
 0.0.0.0 frontier.sgsnssdk.com
 0.0.0.0 frontier.snssdk.com
 0.0.0.0 frontier.tiktokv.com
+0.0.0.0 frontier.us.tiktokv.com
+0.0.0.0 frontier16-normal-no1a.tiktokv.eu
 0.0.0.0 ft.snssdk.com
 0.0.0.0 ft.snssdk.com.w.kunluncan.com
 0.0.0.0 fusioncdn-lf.snssdk.com
@@ -963,6 +975,8 @@
 0.0.0.0 gecko16-normal-c-useast1a.tiktokv.com.edgesuite.net
 0.0.0.0 gecko16-normal-c-useast2a.tiktokv.com
 0.0.0.0 gecko16-normal-c-useast2a.tiktokv.com.edgesuite.net
+0.0.0.0 gecko16-normal-no1a.tiktokv.eu
+0.0.0.0 gecko32-normal-no1a.tiktokv.eu
 0.0.0.0 gedfaccdcf.temp.p23.tc.cdntip.com
 0.0.0.0 getstarted.tiktok.com
 0.0.0.0 getstarted.tiktok.com.edgekey.net
@@ -1013,6 +1027,8 @@
 0.0.0.0 hotapi-va.isnssdk.com
 0.0.0.0 hotapi-va.isnssdk.com.edgekey.net
 0.0.0.0 hotapi.sgsnssdk.com
+0.0.0.0 hotapi16-normal-no1a.tiktokv.eu
+0.0.0.0 hotapi16-platform-useast5.us.tiktokv.com
 0.0.0.0 hotsoon-a-hl.snssdk.com
 0.0.0.0 hotsoon-a-hl.snssdk.com.w.kunluncan.com
 0.0.0.0 hotsoon-a-lq.snssdk.com
@@ -1114,6 +1130,7 @@
 0.0.0.0 im16-normal-c-useast1a.tiktokv.com.edgesuite.net
 0.0.0.0 im16-normal-c-useast2a.tiktokv.com
 0.0.0.0 im16-normal-c-useast2a.tiktokv.com.edgesuite.net
+0.0.0.0 im16-platform-useast5.us.tiktokv.com
 0.0.0.0 im5bswhcgy.mzfvozqybf.com
 0.0.0.0 image-cache-alisg.byteoversea.net
 0.0.0.0 image-cache-maliva.byteoversea.net
@@ -1121,6 +1138,7 @@
 0.0.0.0 image-sg.tiktokv.com
 0.0.0.0 image-va.musical.ly
 0.0.0.0 image-va.tiktokv.com
+0.0.0.0 image.us.tiktokv.com
 0.0.0.0 imagex-settings.bytedanceapi.com
 0.0.0.0 imagex.ap-singapore-1.bytedanceapi.com
 0.0.0.0 imagex.bytedanceapi.com
@@ -1234,6 +1252,8 @@
 0.0.0.0 jsb-va.tiktokv.com
 0.0.0.0 jsb-va.tiktokv.com.edgekey.net
 0.0.0.0 jsb.snssdk.com
+0.0.0.0 jsb16-normal-c-useast1a.tiktokv.com
+0.0.0.0 jsb16-normal-no1a.tiktokv.eu
 0.0.0.0 jtjxpx.qfyf1toi.com
 0.0.0.0 juliangyinqing.com
 0.0.0.0 just-test-1.byteoversea.com
@@ -1310,6 +1330,7 @@
 0.0.0.0 lf1-ttcdn-tos.pstatp.com.wsglb0.com
 0.0.0.0 lf1-xgcdn-tos.pstatp.com
 0.0.0.0 lf1-xgcdn-tos.pstatp.com.wsglb0.com
+0.0.0.0 lf16-effectcdn-va.tiktokcdn.com
 0.0.0.0 lf16-geckocdn-sg.ibytedtos.com
 0.0.0.0 lf16-geckocdn-sg.ibytedtos.com.edgesuite.net
 0.0.0.0 lf16-geckocdn-sg.tiktokcdn.com
@@ -1320,9 +1341,11 @@
 0.0.0.0 lf16-muse-va.ibytedtos.com
 0.0.0.0 lf16-muse-va.ibytedtos.com.edgekey.net
 0.0.0.0 lf16-tcs.tiktokcdn.com
+0.0.0.0 lf19-effectcdn-va.tiktokcdn.com
 0.0.0.0 lf19-geckocdn-sg.ibytedtos.com
 0.0.0.0 lf19-geckocdn-sg.tiktokcdn.com
 0.0.0.0 lf2-hscdn-tos.pstatp.com
+0.0.0.0 lf21-effectcdn-va.tiktokcdn.com
 0.0.0.0 lf3-adcdn-tos.pstatp.com
 0.0.0.0 lf3-adcdn-tos.pstatp.com.w.alikunlun.com
 0.0.0.0 lf3-adcdn-tos.pstatp.com.xi.zwtianshangm.com
@@ -1367,6 +1390,8 @@
 0.0.0.0 lianmengapi-lq.snssdk.com
 0.0.0.0 lianmengapi.snssdk.com
 0.0.0.0 lianmengapi.snssdk.com.w.kunluncan.com
+0.0.0.0 libra16-platform-useast5.us.tiktokv.com
+0.0.0.0 libra32-normal-no1a.tiktokv.eu
 0.0.0.0 library.musical.ly
 0.0.0.0 link-sg.byteoversea.com
 0.0.0.0 link-va.byteoversea.com
@@ -1408,10 +1433,14 @@
 0.0.0.0 log.xzcs3zlph.com
 0.0.0.0 log.xzcs3zlph.com.edgesuite.net
 0.0.0.0 log15.byteoversea.com
+0.0.0.0 log16-applog-useast5.us.tiktokv.com
+0.0.0.0 log16-applog-useast5.us.tiktokv.com.localdomain
 0.0.0.0 log16-normal-c-useast1a.tiktokv.com
 0.0.0.0 log16-normal-c-useast1a.tiktokv.com.edgekey.net
 0.0.0.0 log16-normal-c-useast2a.tiktokv.com
 0.0.0.0 log16-normal-c-useast2a.tiktokv.com.edgekey.net
+0.0.0.0 log16-normal-no1a.tiktokv.eu
+0.0.0.0 log16-normal-useastred.tiktokv.eu
 0.0.0.0 log16.byteoversea.com
 0.0.0.0 log16.byteoversea.com.edgekey.net
 0.0.0.0 log2-useast1a.musical.ly
@@ -1423,6 +1452,7 @@
 0.0.0.0 log3-ipv6.snssdk.com
 0.0.0.0 log3-normal-c-alisg.tiktokv.com
 0.0.0.0 log3-normal-c-useast1a.tiktokv.com
+0.0.0.0 log32-normal-no1a.tiktokv.eu
 0.0.0.0 log53-normal-c-alisg.tiktokv.com
 0.0.0.0 log53-normal-c-useast1a.tiktokv.com
 0.0.0.0 log58-normal-c-alisg.tiktokv.com
@@ -1471,6 +1501,7 @@
 0.0.0.0 market.toutiao.com
 0.0.0.0 mcast1.toutiao50.com
 0.0.0.0 mcs-va-useast2a.tiktokv.com
+0.0.0.0 mcs-va.tiktok.com.edgekey.net
 0.0.0.0 mcs-va.tiktokv.com
 0.0.0.0 mcs.snssdk.com
 0.0.0.0 media.tiktok.com
@@ -1498,6 +1529,7 @@
 0.0.0.0 mon-hl.snssdk.com
 0.0.0.0 mon-hl.snssdk.com.w.kunluncan.com
 0.0.0.0 mon-ipv6.snssdk.com
+0.0.0.0 mon-sg.tiktokv.com
 0.0.0.0 mon-va-useast2a.byteoversea.com
 0.0.0.0 mon-va.byteoversea.com
 0.0.0.0 mon-va.byteoversea.com.edgesuite.net
@@ -1516,6 +1548,8 @@
 0.0.0.0 mon.tiktokv.com
 0.0.0.0 mon.tiktokv.com.edgesuite.net
 0.0.0.0 mon.toutiao.com
+0.0.0.0 mon16-normal-no1a.tiktokv.eu
+0.0.0.0 mon16-platform-useast5.us.tiktokv.com
 0.0.0.0 mongoosev.byted.org
 0.0.0.0 monitor.isnssdk.com
 0.0.0.0 monsetting.toutiao.com
@@ -1551,6 +1585,8 @@
 0.0.0.0 mr.snssdk.com
 0.0.0.0 mssdk-sg.byteoversea.com
 0.0.0.0 mssdk.snssdk.com
+0.0.0.0 mssdk16-normal-no1a.tiktokv.eu
+0.0.0.0 mssdk16-platform-useast5.us.tiktokv.com
 0.0.0.0 mtg-bkk-v1.l.byteoversea.net
 0.0.0.0 mu.isnssdk.com
 0.0.0.0 mue.toutiao.com
@@ -1613,6 +1649,8 @@
 0.0.0.0 ns3.c.bytetcdn.com
 0.0.0.0 o-sg.ibytedtos.com
 0.0.0.0 o-us.ibytedtos.com
+0.0.0.0 oec16-normal-no1a.tiktokv.eu
+0.0.0.0 oec32-normal-no1a.tiktokv.eu
 0.0.0.0 onelink-1664648862.eu-west-1.elb.amazonaws.com
 0.0.0.0 open-api.musical.ly
 0.0.0.0 open-api.tiktok.com
@@ -1740,6 +1778,7 @@
 0.0.0.0 p16-sg.xzcs3zlph.com.edgesuite.net
 0.0.0.0 p16-sign-sg.tiktokcdn.com
 0.0.0.0 p16-sign-va.tiktokcdn.com
+0.0.0.0 p16-sign.tiktokcdn-us.com
 0.0.0.0 p16-tcscdn.byteoversea.com
 0.0.0.0 p16-tcscdn.byteoversea.com.edgekey.net
 0.0.0.0 p16-test.hypstarcdn.com
@@ -1787,6 +1826,7 @@
 0.0.0.0 p16.pstatp.com
 0.0.0.0 p16.pstatp.com.edgekey.net
 0.0.0.0 p16.pstatp.com.w.alikunlun.com
+0.0.0.0 p16.tiktokcdn-us.com
 0.0.0.0 p16.tiktokcdn.com
 0.0.0.0 p16.tiktokcdn.com.edgesuite.net
 0.0.0.0 p16.toutiao50.com
@@ -1801,10 +1841,12 @@
 0.0.0.0 p16b.tiktokcdn.com.edgesuite.net
 0.0.0.0 p16hypstarcdn-a.akamaihd.net
 0.0.0.0 p16hypstarcdn-a.akamaihd.net.edgesuite.net
+0.0.0.0 p19-sign.tiktokcdn-us.com
 0.0.0.0 p19-webcast.hypstarcdn.com
 0.0.0.0 p19-webcast.muscdn.com
 0.0.0.0 p19-webcast.tiktokcdn.com
 0.0.0.0 p19.hypstarcdn.com
+0.0.0.0 p19.tiktokcdn-us.com
 0.0.0.0 p2-dy.bytecdn.cn
 0.0.0.0 p2-ml.gslb.ks-cdn1.com
 0.0.0.0 p2-ml.gslb.ksyuncdn.com
@@ -2055,22 +2097,37 @@
 0.0.0.0 pstatp.com.wscdns.com
 0.0.0.0 pstatp.com.wsglb0.com
 0.0.0.0 pstatp.com.xi.zwtianshangm.com
+0.0.0.0 pull-c5-va01.tiktokcdn.com
 0.0.0.0 pull-cmaf-f16-ab.tiktokcdn.com
+0.0.0.0 pull-cmaf-f16-gcp01.tiktokcdn.com
 0.0.0.0 pull-cmaf-f16-sg01.tiktokcdn.com
+0.0.0.0 pull-cmaf-f16-sg01.ttlivecdn.com
+0.0.0.0 pull-cmaf-f16-tt01.fcdn.us.tiktokv.com
+0.0.0.0 pull-cmaf-f16-tt01.tiktokcdn.com
+0.0.0.0 pull-cmaf-f16-va01.tiktokcdn.com
 0.0.0.0 pull-cmaf-f16.tiktokcdn.com
 0.0.0.0 pull-cmaf-f16.tiktokcdn.com.akamaized.net
+0.0.0.0 pull-cmaf-f16.tiktokcdn.com.localdomain
 0.0.0.0 pull-cmaf-f5-mus.pstatp.com
 0.0.0.0 pull-cmaf-f5.tiktokcdn.com
 0.0.0.0 pull-cmaf-f5.tiktokcdn.com.akamaized.net
 0.0.0.0 pull-cmaf-f5.tiktokcdn.com.c.worldfcdn.com
+0.0.0.0 pull-cmaf-f77-va01.tiktokcdn.com
+0.0.0.0 pull-cmaf-f77-va01.tiktokcdn.com.localdomain
+0.0.0.0 pull-cmaf-l16-va01.tiktokcdn.com
+0.0.0.0 pull-cmaf-l77-va01.tiktokcdn.com
 0.0.0.0 pull-f3-hs.pstatp.com
 0.0.0.0 pull-f3-hs.pstatp.com.w.alikunlun.net
 0.0.0.0 pull-f3-xg.bytecdn.cn
 0.0.0.0 pull-f5-ab.tiktokcdn.com
 0.0.0.0 pull-f5-ab.tiktokcdn.com.c.bytetcdn.com
 0.0.0.0 pull-f5-ab.tiktokcdn.com.c.worldfcdn.com
+0.0.0.0 pull-f5-gcp01.tiktokcdn.com
 0.0.0.0 pull-f5-mus.pstatp.com
 0.0.0.0 pull-f5-sg01.tiktokcdn.com
+0.0.0.0 pull-f5-tt01.fcdn.us.tiktokv.com
+0.0.0.0 pull-f5-tt01.tiktokcdn.com
+0.0.0.0 pull-f5-va01.tiktokcdn.com
 0.0.0.0 pull-f5-xg.bytecdn.cn
 0.0.0.0 pull-f5.hypstarcdn.com
 0.0.0.0 pull-f5.tiktokcdn.com
@@ -2082,10 +2139,13 @@
 0.0.0.0 pull-flv-f1-ab.tiktokcdn.com
 0.0.0.0 pull-flv-f1-ab.tiktokcdn.com.wsdvs.com
 0.0.0.0 pull-flv-f1-sg01.tiktokcdn.com
+0.0.0.0 pull-flv-f1-va01.tiktokcdn.com
+0.0.0.0 pull-flv-f1-va01.tiktokcdn.com.wsdvs.com
 0.0.0.0 pull-flv-f1-xg.bytecdn.cn
 0.0.0.0 pull-flv-f1.tiktokcdn.com
 0.0.0.0 pull-flv-f1.tiktokcdn.com.wsdvs.com
 0.0.0.0 pull-flv-f11-ab.tiktokcdn.com
+0.0.0.0 pull-flv-f11-va01.tiktokcdn.com
 0.0.0.0 pull-flv-f11.tiktokcdn.com
 0.0.0.0 pull-flv-f11.tiktokcdn.liveplay.myqcloud.com
 0.0.0.0 pull-flv-f6-xg.bytecdn.cn
@@ -2094,12 +2154,20 @@
 0.0.0.0 pull-flv-l1-hs.pstatp.com
 0.0.0.0 pull-flv-l1-mus.pstatp.com
 0.0.0.0 pull-flv-l1-sg01.tiktokcdn.com
+0.0.0.0 pull-flv-l1-sg01.ttlivecdn.com
+0.0.0.0 pull-flv-l1-sg01.ttlivecdn.com.wsdvs.com
+0.0.0.0 pull-flv-l1-va01.tiktokcdn.com
+0.0.0.0 pull-flv-l1-va01.tiktokcdn.com.wsdvs.com
+0.0.0.0 pull-flv-l1-va01.ttlivecdn.com
 0.0.0.0 pull-flv-l1-xg.bytecdn.cn
 0.0.0.0 pull-flv-l1.hypstarcdn.com
 0.0.0.0 pull-flv-l1.tiktokcdn.com
 0.0.0.0 pull-flv-l1.tiktokcdn.com.wsdvs.com
+0.0.0.0 pull-flv-l10-sg01.tiktokcdn.com
 0.0.0.0 pull-flv-l11-sg01.tiktokcdn.com
+0.0.0.0 pull-flv-l11-sg01.ttlivecdn.com
 0.0.0.0 pull-flv-l11.tiktokcdn.com
+0.0.0.0 pull-flv-l16-va01.tiktokcdn.com
 0.0.0.0 pull-flv-l6-act.pstatp.com
 0.0.0.0 pull-flv-l6-hs.pstatp.com
 0.0.0.0 pull-flv-l6-xg.bytecdn.cn
@@ -2109,23 +2177,43 @@
 0.0.0.0 pull-hls-f1.tiktokcdn.com
 0.0.0.0 pull-hls-f1.tiktokcdn.com.wsdvs.com
 0.0.0.0 pull-hls-f11-ab.tiktokcdn.com
+0.0.0.0 pull-hls-f11-gcp01.tiktokcdn.com
+0.0.0.0 pull-hls-f11-va01.tiktokcdn.com
 0.0.0.0 pull-hls-f11.tiktokcdn.com
 0.0.0.0 pull-hls-f11.tiktokcdn.liveplay.myqcloud.com
+0.0.0.0 pull-hls-f16-gcp01.tiktokcdn.com
+0.0.0.0 pull-hls-f16-gcp01.ttlivecdn.com
 0.0.0.0 pull-hls-f16-sg01.tiktokcdn.com
+0.0.0.0 pull-hls-f16-tt01.fcdn.us.tiktokv.com
+0.0.0.0 pull-hls-f16-tt01.tiktokcdn.com
+0.0.0.0 pull-hls-f16-va01.tiktokcdn.com
 0.0.0.0 pull-hls-f5-ab.tiktokcdn.com
 0.0.0.0 pull-hls-f5-ab.tiktokcdn.com.akamaized.net
 0.0.0.0 pull-hls-f5.tiktokcdn.com
 0.0.0.0 pull-hls-f5.tiktokcdn.com.akamaized.net
+0.0.0.0 pull-hls-f77-va01.tiktokcdn.com
 0.0.0.0 pull-hls-l1-hs.pstatp.com
 0.0.0.0 pull-hls-l1-sg01.tiktokcdn.com
 0.0.0.0 pull-hls-l1.hypstarcdn.com
 0.0.0.0 pull-hls-l1.tiktokcdn.com
 0.0.0.0 pull-hls-l1.tiktokcdn.com.wsdvs.com
+0.0.0.0 pull-hls-l10-sg01.tiktokcdn.com
+0.0.0.0 pull-hls-l11-gcp01.tiktokcdn.com
 0.0.0.0 pull-hls-l11-sg01.tiktokcdn.com
+0.0.0.0 pull-hls-l11-sg01.ttlivecdn.com
 0.0.0.0 pull-hls-l11.tiktokcdn.com
+0.0.0.0 pull-hls-l16-va01.tiktokcdn.com
 0.0.0.0 pull-hls-l6-hs.pstatp.com
+0.0.0.0 pull-hls-l77-va01.tiktokcdn.com
+0.0.0.0 pull-hls-q16-gcp01.tiktokcdn.com
+0.0.0.0 pull-hls-q16-va01.tiktokcdn.com
+0.0.0.0 pull-hls-q5-va01.tiktokcdn.com
 0.0.0.0 pull-hls-q5.tiktokcdn.com
 0.0.0.0 pull-hls-q5.tiktokcdn.com.akamaized.net
+0.0.0.0 pull-hls-w16-gcp01.tiktokcdn.com
+0.0.0.0 pull-hls-w16-va01.tiktokcdn.com
+0.0.0.0 pull-hls-w16-va01.tiktokcdn.com.localdomain
+0.0.0.0 pull-hls-w5-va01.tiktokcdn.com
 0.0.0.0 pull-hls-w5.tiktokcdn.com
 0.0.0.0 pull-hls-w5.tiktokcdn.com.akamaized.net
 0.0.0.0 pull-i3-hs.pstatp.com
@@ -2133,6 +2221,8 @@
 0.0.0.0 pull-l3-hs.pstatp.com.w.alikunlun.net
 0.0.0.0 pull-l3-xg.ixigua.com.xi.zwtianshangm.com
 0.0.0.0 pull-l3.hypstarcdn.com
+0.0.0.0 pull-lls-l11.tiktokcdn.com
+0.0.0.0 pull-q5-va01.tiktokcdn.com
 0.0.0.0 pull-q5.tiktokcdn.com
 0.0.0.0 pull-q5.tiktokcdn.com.c.worldfcdn.com
 0.0.0.0 pull-rtmp-f1-ab.tiktokcdn.com
@@ -2152,30 +2242,44 @@
 0.0.0.0 pull-rtmp-l1.hypstarcdn.com
 0.0.0.0 pull-rtmp-l1.tiktokcdn.com
 0.0.0.0 pull-rtmp-l1.tiktokcdn.com.wsdvs.com
+0.0.0.0 pull-rtmp-l11-gcp01.ttlivecdn.com
 0.0.0.0 pull-rtmp-l11-sg01.tiktokcdn.com
 0.0.0.0 pull-rtmp-l11.tiktokcdn.com
+0.0.0.0 pull-rtmp-l16-va01.tiktokcdn.com
 0.0.0.0 pull-rtmp-l6-hs.pstatp.com
 0.0.0.0 pull-rtmp-l6-xg.bytecdn.cn
 0.0.0.0 pull-source-cmaf-f5.hypstarcdn.com
+0.0.0.0 pull-w5-va01.tiktokcdn.com
 0.0.0.0 pull-w5.tiktokcdn.com
 0.0.0.0 pull-w5.tiktokcdn.com.c.worldfcdn.com
 0.0.0.0 push-fcdn-base-oversea.s.worldfcdn.com
 0.0.0.0 push-fcdn.bytecdn.cn
 0.0.0.0 push-rtmp-f5-ab.tiktokcdn.com
+0.0.0.0 push-rtmp-f5-gcp01.tiktokcdn.com
+0.0.0.0 push-rtmp-f5-sg01.ttlivecdn.com
+0.0.0.0 push-rtmp-f5-tt01.fcdn.us.tiktokv.com
+0.0.0.0 push-rtmp-f5-va01.tiktokcdn.com
 0.0.0.0 push-rtmp-f5-xg.bytecdn.cn
 0.0.0.0 push-rtmp-f5.hypstarcdn.com
 0.0.0.0 push-rtmp-f5.tiktokcdn.com
 0.0.0.0 push-rtmp-f5.tiktokcdn.com.c.bytetcdn.com
 0.0.0.0 push-rtmp-f5.tiktokcdn.com.c.worldfcdn.com
+0.0.0.0 push-rtmp-l1-gcp01.ttlivecdn.com
+0.0.0.0 push-rtmp-l1-gcp01.ttlivecdn.com.wsdvs.com
 0.0.0.0 push-rtmp-l1-hs.pstatp.com
+0.0.0.0 push-rtmp-l1-va01.tiktokcdn.com
+0.0.0.0 push-rtmp-l1-va01.tiktokcdn.com.wsdvs.com
 0.0.0.0 push-rtmp-l1-xg.bytecdn.cn
 0.0.0.0 push-rtmp-l1.hypstarcdn.com
 0.0.0.0 push-rtmp-l1.tiktokcdn.com
 0.0.0.0 push-rtmp-l1.tiktokcdn.com.wsdvs.com
+0.0.0.0 push-rtmp-l11-gcp01.ttlivecdn.com
 0.0.0.0 push-rtmp-l11.tiktokcdn.com
+0.0.0.0 push-rtmp-l16-va01.tiktokcdn.com
 0.0.0.0 push-rtmp-l6-act.pstatp.com
 0.0.0.0 push-rtmp-l6-hs.pstatp.com
 0.0.0.0 push-rtmp-l6-xg.bytecdn.cn
+0.0.0.0 push-rtmp-l77-va01.tiktokcdn.com
 0.0.0.0 put15-tb.isnssdk.com
 0.0.0.0 pvbmgpkp.xzcs3zlph.com
 0.0.0.0 pxmsag.qfyf1toi.com
@@ -2235,6 +2339,7 @@
 0.0.0.0 rtlog.snssdk.com
 0.0.0.0 rtlog.snssdk.com.w.kunluncan.com
 0.0.0.0 rtlog.tiktokv.com
+0.0.0.0 rtlog16-normal-no1a.tiktokv.eu
 0.0.0.0 rtmp-l11.tiktokcdn.liveplay.myqcloud.com
 0.0.0.0 rtmpup1.pstatp.com
 0.0.0.0 rtmpup4.pstatp.com
@@ -2341,6 +2446,7 @@
 0.0.0.0 search16-normal-c-useast1a.tiktokv.com.edgekey.net
 0.0.0.0 search16-normal-c-useast2a.tiktokv.com
 0.0.0.0 search16-normal-c-useast2a.tiktokv.com.edgekey.net
+0.0.0.0 search16-normal-no1a.tiktokv.eu
 0.0.0.0 search21-normal-c-alisg.tiktokv.com
 0.0.0.0 security-api.snssdk.com
 0.0.0.0 security-hl.snssdk.com
@@ -2386,6 +2492,8 @@
 0.0.0.0 sf16-cgfe-sg.ibytedtos.com
 0.0.0.0 sf16-cgfe-va.ibytedtos.com
 0.0.0.0 sf16-eacdn-tos.pstatp.com
+0.0.0.0 sf16-ies-music-sg.tiktokcdn.com
+0.0.0.0 sf16-ies-music-va.tiktokcdn.com
 0.0.0.0 sf16-lark-va.ibytedtos.com
 0.0.0.0 sf16-lark-va.ibytedtos.com.edgekey.net
 0.0.0.0 sf16-muse-va.ibytedtos.com
@@ -2425,12 +2533,14 @@
 0.0.0.0 sf16-webcast.muscdn.com.edgesuite.net
 0.0.0.0 sf16-webcast.tiktokcdn.com
 0.0.0.0 sf16-webcast.tiktokcdn.com.edgesuite.net
+0.0.0.0 sf16.tiktokcdn-us.com
 0.0.0.0 sf19-scmcdn-sg.ibytedtos.com
 0.0.0.0 sf19-scmcdn-va.ibytedtos.com
 0.0.0.0 sf19-va.tiktokcdn.com
 0.0.0.0 sf19-webcast.hypstarcdn.com
 0.0.0.0 sf19-webcast.muscdn.com
 0.0.0.0 sf19-webcast.tiktokcdn.com
+0.0.0.0 sf19.tiktokcdn-us.com
 0.0.0.0 sf2-dycdn-tos.pstatp.com
 0.0.0.0 sf2-ttcdn-tos.pstatp.com
 0.0.0.0 sf21-tk.tiktokcdn.com
@@ -2639,7 +2749,12 @@
 0.0.0.0 tms3.pstatp.com
 0.0.0.0 tms3.pstatp.com.w.kunlunle.com
 0.0.0.0 tnc16-alisg.tiktokv.com
+0.0.0.0 tnc16-normal-useastred.tiktokv.eu
+0.0.0.0 tnc16-platform-alisg.tiktokv.com
+0.0.0.0 tnc16-platform-useast1a.tiktokv.com
+0.0.0.0 tnc16-platform-useast5.us.tiktokv.com
 0.0.0.0 tnc16-useast1a.tiktokv.com
+0.0.0.0 tnc19-normal-no1a.tiktokv.eu
 0.0.0.0 tnc3-aliec2.snssdk.com
 0.0.0.0 tnc3-alisc1.snssdk.com
 0.0.0.0 tnc3-bjlgy.snssdk.com
@@ -2991,6 +3106,7 @@
 0.0.0.0 v16m.byteicdn.com.akamaized.net
 0.0.0.0 v16m.hypstarcdn.com
 0.0.0.0 v16m.hypstarcdn.com.akamaized.net
+0.0.0.0 v16m.tiktokcdn-us.com
 0.0.0.0 v16m.tiktokcdn.com
 0.0.0.0 v16m.tiktokcdn.com.akamaized.net
 0.0.0.0 v16s.byteicdn.com
@@ -3003,6 +3119,7 @@
 0.0.0.0 v19.byteicdn.com
 0.0.0.0 v19.hypstarcdn.com
 0.0.0.0 v19.muscdn.com
+0.0.0.0 v19.tiktokcdn-us.com
 0.0.0.0 v19.tiktokcdn.com
 0.0.0.0 v2-dy-x.ixigua.com
 0.0.0.0 v2-dy-y.ixigua.com
@@ -3027,6 +3144,7 @@
 0.0.0.0 v24.muscdn.com.cdn.cloudflare.net
 0.0.0.0 v24.tiktokcdn.com
 0.0.0.0 v25.muscdn.com
+0.0.0.0 v25.tiktokcdn-us.com
 0.0.0.0 v25.tiktokcdn.com
 0.0.0.0 v26-dy.bytecdn.cn
 0.0.0.0 v26-dy.ixigua.com
@@ -3114,6 +3232,7 @@
 0.0.0.0 v39-us.gts.byteoversea.net
 0.0.0.0 v39-us.tiktokcdn.com
 0.0.0.0 v39.muscdn.com
+0.0.0.0 v39.tiktokcdn-us.com
 0.0.0.0 v39.tiktokcdn.com
 0.0.0.0 v3a.pstatp.com
 0.0.0.0 v3a.pstatp.com.w.kunlunpi.com
@@ -3272,6 +3391,8 @@
 0.0.0.0 vcs-va.byteoversea.com
 0.0.0.0 vcs-va.tiktokv.com
 0.0.0.0 vcs.snssdk.com
+0.0.0.0 vcs16-normal-no1a.tiktokv.eu
+0.0.0.0 vcs16-platform-useast5.us.tiktokv.com
 0.0.0.0 verification-va-useast1a.musical.ly
 0.0.0.0 verification-va-useast1a.musical.ly.edgesuite.net
 0.0.0.0 verification-va-useast2a.byteoversea.com
@@ -3296,6 +3417,7 @@
 0.0.0.0 vg23wcast.qfyf1toi.com
 0.0.0.0 video-sg.musical.ly
 0.0.0.0 video-sg.tiktokv.com
+0.0.0.0 video-useast5.tiktokv.com
 0.0.0.0 video-va.musical.ly
 0.0.0.0 video-va.tiktokv.com
 0.0.0.0 video.h1.bytedance.map.fastly.net
@@ -3412,6 +3534,8 @@
 0.0.0.0 webcast16-normal-c-useast1a.tiktokv.com.edgekey.net
 0.0.0.0 webcast16-normal-c-useast2a.tiktokv.com
 0.0.0.0 webcast16-normal-c-useast2a.tiktokv.com.edgekey.net
+0.0.0.0 webcast16-normal-no1a.tiktokv.eu
+0.0.0.0 webcast16-normal-useast5.us.tiktokv.com
 0.0.0.0 webcast16-useast1a.musical.ly
 0.0.0.0 webcast16-useast2a.musical.ly
 0.0.0.0 webcast16-useast2a.musical.ly.edgekey.net
@@ -3424,6 +3548,7 @@
 0.0.0.0 webcast19-normal-c-alisg.tiktokv.com
 0.0.0.0 webcast19-normal-c-useast1a.tiktokv.com
 0.0.0.0 webcast19-normal-c-useast2a.tiktokv.com
+0.0.0.0 webcast19-normal-useast5.us.tiktokv.com
 0.0.0.0 webcast19-useast1a.musical.ly
 0.0.0.0 webcast19-useast2a.musical.ly
 0.0.0.0 webcast19-va.tiktokv.com
@@ -3611,104 +3736,3 @@
 0.0.0.0 zttvu.v.bsgslb.com
 0.0.0.0 zttvv.v.bsgslb.com
 0.0.0.0 zttvw.v.bsgslb.com
-0.0.0.0 pull-cmaf-f16-sg01.ttlivecdn.com
-0.0.0.0 pull-f5-tt01.tiktokcdn.com
-0.0.0.0 pull-flv-f1-va01.tiktokcdn.com
-0.0.0.0 pull-flv-f1-va01.tiktokcdn.com.wsdvs.com
-0.0.0.0 pull-flv-f11-va01.tiktokcdn.com
-0.0.0.0 pull-flv-l1-sg01.ttlivecdn.com
-0.0.0.0 pull-flv-l1-sg01.ttlivecdn.com.wsdvs.com
-0.0.0.0 pull-flv-l1-va01.tiktokcdn.com
-0.0.0.0 pull-flv-l1-va01.tiktokcdn.com.wsdvs.com
-0.0.0.0 pull-flv-l1-va01.ttlivecdn.com
-0.0.0.0 pull-flv-l10-sg01.tiktokcdn.com
-0.0.0.0 pull-flv-l11-sg01.ttlivecdn.com
-0.0.0.0 pull-hls-f11-gcp01.tiktokcdn.com
-0.0.0.0 pull-hls-f11-va01.tiktokcdn.com
-0.0.0.0 pull-hls-f16-gcp01.tiktokcdn.com
-0.0.0.0 pull-hls-f16-gcp01.ttlivecdn.com
-0.0.0.0 pull-hls-f16-va01.tiktokcdn.com
-0.0.0.0 pull-hls-l10-sg01.tiktokcdn.com
-0.0.0.0 pull-hls-l11-gcp01.tiktokcdn.com
-0.0.0.0 pull-hls-l11-sg01.ttlivecdn.com
-0.0.0.0 pull-hls-q5-va01.tiktokcdn.com
-0.0.0.0 pull-hls-w16-gcp01.tiktokcdn.com
-0.0.0.0 pull-lls-l11.tiktokcdn.com
-0.0.0.0 pull-rtmp-l11-gcp01.ttlivecdn.com
-0.0.0.0 push-rtmp-f5-sg01.ttlivecdn.com
-0.0.0.0 push-rtmp-f5-tt01.fcdn.us.tiktokv.com
-0.0.0.0 push-rtmp-l1-gcp01.ttlivecdn.com
-0.0.0.0 push-rtmp-l1-gcp01.ttlivecdn.com.wsdvs.com
-0.0.0.0 push-rtmp-l1-va01.tiktokcdn.com
-0.0.0.0 push-rtmp-l1-va01.tiktokcdn.com.wsdvs.com
-0.0.0.0 push-rtmp-l11-gcp01.ttlivecdn.com
-0.0.0.0 api16-core-useast5.us.tiktokv.com
-0.0.0.0 api16-normal-useast5.us.tiktokv.com
-0.0.0.0 api19-core-useast5.us.tiktokv.com
-0.0.0.0 api19-normal-useast5.us.tiktokv.com
-0.0.0.0 dig.us.tiktokv.com
-0.0.0.0 frontier.us.tiktokv.com
-0.0.0.0 hotapi16-platform-useast5.us.tiktokv.com
-0.0.0.0 im16-platform-useast5.us.tiktokv.com
-0.0.0.0 image.us.tiktokv.com
-0.0.0.0 jsb16-normal-c-useast1a.tiktokv.com
-0.0.0.0 lf16-effectcdn-va.tiktokcdn.com
-0.0.0.0 lf19-effectcdn-va.tiktokcdn.com
-0.0.0.0 lf21-effectcdn-va.tiktokcdn.com
-0.0.0.0 libra16-platform-useast5.us.tiktokv.com
-0.0.0.0 log16-applog-useast5.us.tiktokv.com
-0.0.0.0 log16-applog-useast5.us.tiktokv.com.localdomain
-0.0.0.0 mon-sg.tiktokv.com
-0.0.0.0 mon16-platform-useast5.us.tiktokv.com
-0.0.0.0 mssdk16-platform-useast5.us.tiktokv.com
-0.0.0.0 p16-sign.tiktokcdn-us.com
-0.0.0.0 p16.tiktokcdn-us.com
-0.0.0.0 p19-sign.tiktokcdn-us.com
-0.0.0.0 p19.tiktokcdn-us.com
-0.0.0.0 pull-c5-va01.tiktokcdn.com
-0.0.0.0 pull-cmaf-f16-gcp01.tiktokcdn.com
-0.0.0.0 pull-cmaf-f16-tt01.fcdn.us.tiktokv.com
-0.0.0.0 pull-cmaf-f16-tt01.tiktokcdn.com
-0.0.0.0 pull-cmaf-f16-va01.tiktokcdn.com
-0.0.0.0 pull-cmaf-f16.tiktokcdn.com.localdomain
-0.0.0.0 pull-cmaf-f77-va01.tiktokcdn.com
-0.0.0.0 pull-cmaf-f77-va01.tiktokcdn.com.localdomain
-0.0.0.0 pull-cmaf-l16-va01.tiktokcdn.com
-0.0.0.0 pull-cmaf-l77-va01.tiktokcdn.com
-0.0.0.0 pull-f5-gcp01.tiktokcdn.com
-0.0.0.0 pull-f5-tt01.fcdn.us.tiktokv.com
-0.0.0.0 pull-f5-va01.tiktokcdn.com
-0.0.0.0 pull-flv-l16-va01.tiktokcdn.com
-0.0.0.0 pull-hls-f16-tt01.fcdn.us.tiktokv.com
-0.0.0.0 pull-hls-f16-tt01.tiktokcdn.com
-0.0.0.0 pull-hls-f77-va01.tiktokcdn.com
-0.0.0.0 pull-hls-l16-va01.tiktokcdn.com
-0.0.0.0 pull-hls-l77-va01.tiktokcdn.com
-0.0.0.0 pull-hls-q16-gcp01.tiktokcdn.com
-0.0.0.0 pull-hls-q16-va01.tiktokcdn.com
-0.0.0.0 pull-hls-w16-va01.tiktokcdn.com
-0.0.0.0 pull-hls-w16-va01.tiktokcdn.com.localdomain
-0.0.0.0 pull-hls-w5-va01.tiktokcdn.com
-0.0.0.0 pull-q5-va01.tiktokcdn.com
-0.0.0.0 pull-rtmp-l16-va01.tiktokcdn.com
-0.0.0.0 pull-w5-va01.tiktokcdn.com
-0.0.0.0 push-rtmp-f5-gcp01.tiktokcdn.com
-0.0.0.0 push-rtmp-f5-va01.tiktokcdn.com
-0.0.0.0 push-rtmp-l16-va01.tiktokcdn.com
-0.0.0.0 push-rtmp-l77-va01.tiktokcdn.com
-0.0.0.0 sf16-ies-music-sg.tiktokcdn.com
-0.0.0.0 sf16-ies-music-va.tiktokcdn.com
-0.0.0.0 sf16.tiktokcdn-us.com
-0.0.0.0 sf19.tiktokcdn-us.com
-0.0.0.0 tnc16-platform-alisg.tiktokv.com
-0.0.0.0 tnc16-platform-useast1a.tiktokv.com
-0.0.0.0 tnc16-platform-useast5.us.tiktokv.com
-0.0.0.0 v16m.tiktokcdn-us.com
-0.0.0.0 v19.tiktokcdn-us.com
-0.0.0.0 v25.tiktokcdn-us.com
-0.0.0.0 v39.tiktokcdn-us.com
-0.0.0.0 vcs16-platform-useast5.us.tiktokv.com
-0.0.0.0 video-useast5.tiktokv.com
-0.0.0.0 webcast16-normal-useast5.us.tiktokv.com
-0.0.0.0 webcast19-normal-useast5.us.tiktokv.com
-0.0.0.0 mcs-va.tiktok.com.edgekey.net

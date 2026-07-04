@@ -242,7 +242,6 @@
 0.0.0.0 invitations.adobe.io
 0.0.0.0 js-agent.newrelic.com
 0.0.0.0 js.intercomcdn.com
-0.0.0.0 js.stripe.com
 0.0.0.0 k.sni.global.fastly.net
 0.0.0.0 landing.adobe.com
 0.0.0.0 lcs-cops.adobe.io
@@ -280,7 +279,6 @@
 0.0.0.0 odin.adobe.com
 0.0.0.0 okta.com
 0.0.0.0 oktacdn.com
-0.0.0.0 oktapreview.com
 0.0.0.0 omniture.com
 0.0.0.0 omtrdc.net
 0.0.0.0 oobe.adobe.com
