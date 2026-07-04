@@ -207,7 +207,7 @@ class DomainAdder:
         return True
 
     def regenerate_formats(self) -> bool:
-        """Regenerate all output formats using Node.js scripts.
+        """Regenerate all output formats using build.py.
 
         Returns:
             True if successful
@@ -217,35 +217,24 @@ class DomainAdder:
             return True
 
         print("🔄 Regenerating output formats...")
-        scripts_dir = PROJECT_ROOT / "scripts"
 
-        scripts = [
-            ("generate-noip.js", "alt-version"),
-            ("generate-dnsmasq.js", "dnsmasq-version"),
-            ("generate-adguard.js", "adguard"),
-        ]
-
-        success = True
-        for script_name, format_name in scripts:
-            try:
-                result = subprocess.run(
-                    ["node", str(scripts_dir / script_name)],
-                    cwd=PROJECT_ROOT,
-                    check=True,
-                    capture_output=True,
-                    text=True,
-                )
-                print(f"  ✓ Generated {format_name}/")
-            except subprocess.CalledProcessError as e:
-                print(f"  ✗ Failed to generate {format_name}/")
-                print(f"     Error: {e.stderr if e.stderr else 'unknown'}")
-                success = False
-            except FileNotFoundError:
-                print(f"  ✗ Node.js not found. Install Node.js to regenerate formats.")
-                success = False
-                break
-
-        return success
+        try:
+            result = subprocess.run(
+                ["python3", "build.py", "--list", self.list_name],
+                cwd=PROJECT_ROOT,
+                check=True,
+                capture_output=True,
+                text=True,
+            )
+            print(f"  ✓ Generated all output formats (adguard/, dnsmasq-version/, alt-version/)")
+            return True
+        except subprocess.CalledProcessError as e:
+            print(f"  ✗ Failed to generate formats")
+            print(f"     Error: {e.stderr if e.stderr else 'unknown'}")
+            return False
+        except FileNotFoundError:
+            print(f"  ✗ Python not found. Cannot regenerate formats.")
+            return False
 
     def commit_changes(self) -> bool:
         """Commit changes to git.
