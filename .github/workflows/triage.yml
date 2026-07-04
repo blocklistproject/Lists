@@ -1,0 +1,308 @@
+name: Triage Issues
+
+on:
+  issues:
+    types: [opened, edited]
+
+permissions:
+  issues: write
+  contents: read
+
+jobs:
+  triage:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -e .
+
+      - name: Extract domain from issue
+        id: extract
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const body = context.payload.issue.body || '';
+            const title = context.payload.issue.title || '';
+            
+            // Try to extract domain from form field or free text
+            const domainRegex = /(?:Domain to (?:add|remove)|URL)[:\s]*([a-zA-Z0-9][-a-zA-Z0-9]*(?:\.[a-zA-Z0-9][-a-zA-Z0-9]*)+)/i;
+            const match = body.match(domainRegex) || title.match(/\[(?:Add|Remove)\]\s*(.+)/i);
+            
+            if (match) {
+              const domain = match[1].trim().toLowerCase();
+              core.setOutput('domain', domain);
+              core.setOutput('found', 'true');
+            } else {
+              core.setOutput('found', 'false');
+            }
+
+      - name: Validate domain (DNS/HTTP)
+        if: steps.extract.outputs.found == 'true'
+        id: validate
+        run: |
+          DOMAIN="${{ steps.extract.outputs.domain }}"
+          echo "Validating domain: $DOMAIN"
+          
+          # DNS check
+          DNS_STATUS="❌ Not resolving"
+          if timeout 5 nslookup "$DOMAIN" >/dev/null 2>&1 || timeout 5 host "$DOMAIN" >/dev/null 2>&1; then
+            DNS_STATUS="✅ Resolving"
+            echo "dns_resolves=true" >> $GITHUB_OUTPUT
+          else
+            echo "dns_resolves=false" >> $GITHUB_OUTPUT
+          fi
+          echo "dns_status=$DNS_STATUS" >> $GITHUB_OUTPUT
+          
+          # HTTP/HTTPS check
+          HTTP_STATUS="⚠️ No response"
+          HTTP_CODE=""
+          for PROTOCOL in https http; do
+            if timeout 5 curl -s -o /dev/null -w "%{http_code}" -L "$PROTOCOL://$DOMAIN" 2>/dev/null | grep -q "^[0-9]\{3\}$"; then
+              HTTP_CODE=$(timeout 5 curl -s -o /dev/null -w "%{http_code}" -L "$PROTOCOL://$DOMAIN" 2>/dev/null)
+              HTTP_STATUS="✅ HTTP $HTTP_CODE ($PROTOCOL)"
+              echo "http_responds=true" >> $GITHUB_OUTPUT
+              echo "http_code=$HTTP_CODE" >> $GITHUB_OUTPUT
+              echo "http_protocol=$PROTOCOL" >> $GITHUB_OUTPUT
+              break
+            fi
+          done
+          if [ -z "$HTTP_CODE" ]; then
+            echo "http_responds=false" >> $GITHUB_OUTPUT
+          fi
+          echo "http_status=$HTTP_STATUS" >> $GITHUB_OUTPUT
+          
+          # Overall validation
+          if [ "$DNS_STATUS" = "✅ Resolving" ]; then
+            echo "is_valid=true" >> $GITHUB_OUTPUT
+          else
+            echo "is_valid=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Check domain in lists (with duplicate detection)
+        if: steps.extract.outputs.found == 'true'
+        id: check
+        env:
+          PYTHONPATH: ${{ github.workspace }}
+        run: |
+          DOMAIN="${{ steps.extract.outputs.domain }}"
+          echo "Checking for domain: $DOMAIN"
+          
+          # Use Python script for better duplicate detection
+          python3 << 'EOF'
+          import sys
+          import os
+          from pathlib import Path
+          
+          sys.path.insert(0, str(Path.cwd()))
+          
+          try:
+              from src.domain_lookup import find_domain_in_lists
+              
+              domain = "${{ steps.extract.outputs.domain }}"
+              result = find_domain_in_lists(domain, Path.cwd())
+              
+              if result.found:
+                  # Output found lists and formats
+                  lists_str = ", ".join(result.lists)
+                  formats_str = ", ".join(result.formats)
+                  
+                  with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
+                      f.write(f"found_in={lists_str}\n")
+                      f.write(f"found_formats={formats_str}\n")
+                      f.write(f"is_present=true\n")
+                  
+                  print(f"✅ Found in lists: {lists_str}")
+                  print(f"✅ Found in formats: {formats_str}")
+              else:
+                  with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
+                      f.write(f"is_present=false\n")
+                  print(f"❌ Domain not found in any list")
+                  
+          except ImportError:
+              # Fallback to simple grep search
+              print("⚠️ Using fallback search (domain_lookup.py not available)")
+              import subprocess
+              import glob
+              
+              found_lists = []
+              for txt_file in glob.glob("*.txt"):
+                  try:
+                      result = subprocess.run(
+                          ['grep', '-qi', f'^0\\.0\\.0\\.0 {domain}$\\|^{domain}$', txt_file],
+                          capture_output=True
+                      )
+                      if result.returncode == 0:
+                          found_lists.append(Path(txt_file).stem)
+                  except Exception as e:
+                      print(f"Error checking {txt_file}: {e}")
+              
+              with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
+                  if found_lists:
+                      f.write(f"found_in={', '.join(found_lists)}\n")
+                      f.write(f"is_present=true\n")
+                  else:
+                      f.write(f"is_present=false\n")
+          EOF
+
+      - name: Add labels and comment
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const domain = '${{ steps.extract.outputs.domain }}';
+            const isPresent = '${{ steps.check.outputs.is_present }}' === 'true';
+            const foundIn = '${{ steps.check.outputs.found_in }}';
+            const foundFormats = '${{ steps.check.outputs.found_formats }}';
+            const isAddRequest = context.payload.issue.title.toLowerCase().includes('[add]') || 
+                                 context.payload.issue.title.toLowerCase().includes('add request');
+            const isRemoveRequest = context.payload.issue.title.toLowerCase().includes('[remove]') || 
+                                    context.payload.issue.title.toLowerCase().includes('remove request');
+            
+            // Validation results
+            const dnsResolves = '${{ steps.validate.outputs.dns_resolves }}' === 'true';
+            const httpResponds = '${{ steps.validate.outputs.http_responds }}' === 'true';
+            const dnsStatus = '${{ steps.validate.outputs.dns_status }}';
+            const httpStatus = '${{ steps.validate.outputs.http_status }}';
+            const isValid = '${{ steps.validate.outputs.is_valid }}' === 'true';
+            
+            let labels = [];
+            let comment = '';
+            
+            // Build validation section
+            const validationSection = `
+            ### 🔍 Domain Validation
+            
+            - **DNS:** ${dnsStatus}
+            - **HTTP:** ${httpStatus}
+            ${!isValid ? '\n⚠️ **Warning:** Domain does not appear to be active. This may be intentional for blocking purposes.' : ''}
+            `;
+            
+            if (isAddRequest) {
+              if (isPresent) {
+                labels.push('status:duplicate');
+                comment = `## 🔍 Domain Check Result
+            
+            The domain \`${domain}\` is **already present** in the following list(s):
+            - **Lists:** ${foundIn}
+            ${foundFormats ? `- **Formats:** ${foundFormats}` : ''}
+            
+            ${validationSection}
+            
+            ---
+            
+            ❌ **This request appears to be a duplicate.**
+            
+            The domain is already blocked. If you believe this is a different domain or subdomain, please clarify in a comment.`;
+              } else {
+                labels.push('status:verified-new');
+                comment = `## ✅ Domain Check Result
+            
+            The domain \`${domain}\` is **not currently blocked** in any list.
+            
+            ${validationSection}
+            
+            ---
+            
+            ✅ **This domain is eligible to be added.**
+            
+            A maintainer will review this request and determine the appropriate blocklist category.
+            
+            ${!isValid ? '\n⚠️ **Note:** The domain appears inactive. Please provide evidence of malicious activity.' : ''}`;
+              }
+              labels.push('request:add');
+            } else if (isRemoveRequest) {
+              if (isPresent) {
+                labels.push('status:verified-exists');
+                comment = `## 🔍 Domain Check Result
+            
+            The domain \`${domain}\` was found in the following list(s):
+            - **Lists:** ${foundIn}
+            ${foundFormats ? `- **Formats:** ${foundFormats}` : ''}
+            
+            ${validationSection}
+            
+            ---
+            
+            ✅ **Domain confirmed in blocklists.**
+            
+            A maintainer will review your removal request. Please provide justification for why this domain should be unblocked.`;
+              } else {
+                labels.push('status:not-found');
+                comment = `## ❓ Domain Check Result
+            
+            The domain \`${domain}\` was **not found** in any blocklist.
+            
+            ${validationSection}
+            
+            ---
+            
+            ❓ **Domain not currently blocked.**
+            
+            Please verify:
+            - ✅ Domain spelling is correct
+            - ✅ You're checking the right repository
+            - ✅ The domain hasn't already been removed`;
+              }
+              labels.push('request:remove');
+            } else {
+              // General triage for issues without clear add/remove intent
+              labels.push('status:needs-triage');
+              if (domain) {
+                comment = `## 🔍 Domain Check Result
+            
+            Domain: \`${domain}\`
+            ${isPresent ? `\n- **Found in:** ${foundIn}` : '\n- **Status:** Not currently in any list'}
+            
+            ${validationSection}
+            
+            ---
+            
+            ⚠️ **This issue needs maintainer review.**
+            
+            Please clarify if this is an add request or removal request by updating the issue title with \`[Add]\` or \`[Remove]\`.`;
+              }
+            }
+            
+            // Add source label
+            labels.push('source:human');
+            
+            // Add labels
+            if (labels.length > 0) {
+              await github.rest.issues.addLabels({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number,
+                labels: labels
+              });
+            }
+            
+            // Add comment
+            if (comment) {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number,
+                body: comment
+              });
+            }
+            
+            // Add to job summary
+            core.summary
+              .addHeading('🤖 Triage Complete')
+              .addTable([
+                [{data: 'Property', header: true}, {data: 'Value', header: true}],
+                ['Domain', domain || 'Not extracted'],
+                ['Present in Lists', isPresent ? 'Yes' : 'No'],
+                ['DNS Resolves', dnsResolves ? 'Yes' : 'No'],
+                ['HTTP Responds', httpResponds ? 'Yes' : 'No'],
+                ['Labels Added', labels.join(', ')]
+              ])
+              .write();

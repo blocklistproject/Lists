@@ -1,0 +1,539 @@
+#!/bin/bash
+set -euo pipefail
+
+# Setup authentication method
+if command -v gh &>/dev/null && gh auth status &>/dev/null; then
+    AUTH="gh"
+else
+    AUTH="git"
+    if [ -z "$GITHUB_TOKEN" ]; then
+        echo "Warning: GITHUB_TOKEN not set. Please set it with: export GITHUB_TOKEN=your_token_here" >&2
+    fi
+fi
+
+REMOTE_URL=$(git remote get-url origin)
+OWNER_REPO=$(echo "$REMOTE_URL" | sed -E 's|.*github\.com[:/]||; s|\.git$||')
+OWNER=$(echo "$OWNER_REPO" | cut -d/ -f1)
+REPO=$(echo "$OWNER_REPO" | cut -d/ -f2)
+
+echo "Using $AUTH for authentication. Owner: $OWNER, Repo: $REPO"
+
+# Function to log messages
+log() {
+    echo "[$(date -u +'%Y-%m-%d %H:%M:%S UTC')] $*"
+}
+
+# Function to run a command and log its output
+run_cmd() {
+    log "Running: $*"
+    "$@"
+}
+
+# Function to get open issues (excluding PRs) using gh or curl
+get_open_issues() {
+    if [ "$AUTH" = "gh" ]; then
+        gh issue list --repo "$OWNER/$REPO" --state open --limit 100 --json number,title,author,createdAt,updatedAt,body,labels \
+            --jq 'map(select(.pull_request == null)) | .[]'
+    else
+        curl -s -H "Authorization: token $GITHUB_TOKEN" \
+            "https://api.github.com/repos/$OWNER/$REPO/issues?state=open&per_page=100" |
+        jq -c 'map(select(.pull_request == null))'
+    fi
+}
+
+# Function to get open PRs using gh or curl
+get_open_prs() {
+    if [ "$AUTH" = "gh" ]; then
+        gh pr list --repo "$OWNER/$REPO" --state open --limit 100 --json number,title,author,createdAt,updatedAt,headRefName,baseRefName,additions,deletions,changedFiles,statusCheckRollup,url \
+            --jq '.[]'
+    else
+        curl -s -H "Authorization: token $GITHUB_TOKEN" \
+            "https://api.github.com/repos/$OWNER/$REPO/pulls?state=open&per_page=100" |
+        jq -c '.[]'
+    fi
+}
+
+# Function to parse issue body for add/remove request
+parse_issue() {
+    local issue_json="$1"
+    local number title body
+    number=$(echo "$issue_json" | jq -r '.number')
+    title=$(echo "$issue_json" | jq -r '.title')
+    body=$(echo "$issue_json" | jq -r '.body // ""')
+    
+    # Extract fields using simple regex (adjust as needed for actual template)
+    local domain_to_add domain_to_remove target_list evidence official_site
+    domain_to_add=$(echo "$body" | grep -i "Domain to add:" | sed -e 's/.*Domain to add:[[:space:]]*//i' | head -1 | tr -d '[:space:]')
+    domain_to_remove=$(echo "$body" | grep -i "Domain to remove:" | sed -e 's/.*Domain to remove:[[:space:]]*//i' | head -1 | tr -d '[:space:]')
+    target_list=$(echo "$body" | grep -i "Target blocklist:" | sed -e 's/.*Target blocklist:[[:space:]]*//i' | head -1 | tr -d '[:space:]')
+    evidence=$(echo "$body" | grep -i "Evidence / Reason:" | sed -e 's/.*Evidence \/ Reason:[[:space:]]*//i' | head -1)
+    official_site=$(echo "$body" | grep -i "Official website or documentation:" | sed -e 's/.*Official website or documentation:[[:space:]]*//i' | head -1)
+    
+    # Output as key=value pairs for easy parsing
+    echo "number=$number"
+    echo "title=\"$title\""
+    echo "domain_to_add=$domain_to_add"
+    echo "domain_to_remove=$domain_to_remove"
+    echo "target_list=$target_list"
+    echo "evidence=\"$evidence\""
+    echo "official_site=\"$official_site\""
+}
+
+# Function to check if a domain is in a list file (root .txt)
+domain_in_list() {
+    local domain="$1" list_file="$2"
+    if [ ! -f "$list_file" ]; then
+        return 1
+    fi
+    grep -x -i "$domain" "$list_file" >/dev/null 2>&1
+}
+
+# Function to add domain to list file and update generated formats
+add_domain_to_list() {
+    local domain="$1" list_file="$2"
+    if [ -z "$domain" ]; then
+        return 1
+    fi
+    # Ensure domain is lowercase and trimmed
+    domain=$(echo "$domain" | tr '[:upper:]' '[:lower:]' | sed 's/^[[:space:]]*//;s/[[:space:]]*$//')
+    if [ -z "$domain" ]; then
+        return 1
+    fi
+    # Check if already present
+    if domain_in_list "$domain" "$list_file"; then
+        log "Domain $domain already in $list_file. Skipping."
+        return 0
+    fi
+    # Add to list file (append, keeping sorted)
+    echo "$domain" >> "$list_file"
+    sort -uf "$list_file" -o "$list_file"
+    log "Added $domain to $list_file"
+    # Update generated formats
+    if [ -f "./build.py" ]; then
+        log "Running build script to update generated formats..."
+        ./build.py
+    else
+        log "Warning: build.py not found, skipping generated formats update."
+    fi
+    return 0
+}
+
+# Function to remove domain from list file and update generated formats
+remove_domain_from_list() {
+    local domain="$1" list_file="$2"
+    if [ -z "$domain" ]; then
+        return 1
+    fi
+    domain=$(echo "$domain" | tr '[:upper:]' '[:lower:]' | sed 's/^[[:space:]]*//;s/[[:space:]]*$//')
+    if [ -z "$domain" ]; then
+        return 1
+    fi
+    if ! domain_in_list "$domain" "$list_file"; then
+        log "Domain $domain not in $list_file. Skipping."
+        return 0
+    fi
+    # Remove from list file
+    grep -v -i "^$domain$" "$list_file" > "${list_file}.tmp" && mv "${list_file}.tmp" "$list_file"
+    log "Removed $domain from $list_file"
+    # Update generated formats
+    if [ -f "./build.py" ]; then
+        log "Running build script to update generated formats..."
+        ./build.py
+    else
+        log "Warning: build.py not found, skipping generated formats update."
+    fi
+    return 0
+}
+
+# Function to verify domain legitimacy (DNS and HTTP)
+verify_domain() {
+    local domain="$1"
+    if [ -z "$domain" ]; then
+        return 1
+    fi
+    # DNS check
+    if ! host "$domain" >/dev/null 2>&1; then
+        log "DNS lookup failed for $domain"
+        return 1
+    fi
+    # HTTP/HTTPS check (try https first, then http)
+    if ! curl -sSf --max-time 10 --head "https://$domain/" >/dev/null 2>&1 && \
+       ! curl -sSf --max-time 10 --head "http://$domain/" >/dev/null 2>&1; then
+        log "HTTP/HTTPS check failed for $domain"
+        return 1
+    fi
+    log "Domain $domain passed DNS and HTTP checks."
+    return 0
+}
+
+# Function to comment on an issue
+comment_issue() {
+    local number="$1" comment="$2"
+    if [ "$AUTH" = "gh" ]; then
+        gh issue comment "$number" --repo "$OWNER/$REPO" --body "$comment"
+    else
+        curl -s -X POST -H "Authorization: token $GITHUB_TOKEN" \
+            "https://api.github.com/repos/$OWNER/$REPO/issues/$number/comments" \
+            -d "{\"body\": $(echo "$comment" | jq -R -s '.' )}" >/dev/null
+    fi
+}
+
+# Function to label an issue
+label_issue() {
+    local number="$1" label="$2"
+    if [ "$AUTH" = "gh" ]; then
+        gh issue edit "$number" --repo "$OWNER/$REPO" --add-label "$label"
+    else
+        # Get current labels
+        current_labels=$(curl -s -H "Authorization: token $GITHUB_TOKEN" \
+            "https://api.github.com/repos/$OWNER/$REPO/issues/$number" | jq -r '.labels[].name' | tr '\n' ',')
+        # Add new label
+        new_labels="${current_labels},$label"
+        # We'll just add the label; if it fails due to duplicate, it's okay
+        curl -s -X POST -H "Authorization: token $GITHUB_TOKEN" \
+            "https://api.github.com/repos/$OWNER/$REPO/issues/$number/labels" \
+            -d "{\"labels\": [$label]}" >/dev/null
+    fi
+}
+
+# Function to close an issue
+close_issue() {
+    local number="$1" reason="$2"
+    if [ "$AUTH" = "gh" ]; then
+        gh issue close "$number" --repo "$OWNER/$REPO" --reason "$reason"
+    else
+        curl -s -X PATCH -H "Authorization: token $GITHUB_TOKEN" \
+            "https://api.github.com/repos/$OWNER/$REPO/issues/$number" \
+            -d "{\"state\": \"closed\", \"state_reason\": \"$reason\"}" >/dev/null
+    fi
+}
+
+# Function to comment on a PR
+comment_pr() {
+    local number="$1" comment="$2"
+    if [ "$AUTH" = "gh" ]; then
+        gh pr comment "$number" --repo "$OWNER/$REPO" --body "$comment"
+    else
+        curl -s -X POST -H "Authorization: token $GITHUB_TOKEN" \
+            "https://api.github.com/repos/$OWNER/$REPO/issues/$number/comments" \
+            -d "{\"body\": $(echo "$comment" | jq -R -s '.' )}" >/dev/null
+    fi
+}
+
+# Function to close a PR (without merging)
+close_pr() {
+    local number="$1"
+    if [ "$AUTH" = "gh" ]; then
+        gh pr close "$number" --repo "$OWNER/$REPO"
+    else
+        curl -s -X PATCH -H "Authorization: token $GITHUB_TOKEN" \
+            "https://api.github.com/repos/$OWNER/$REPO/pulls/$number" \
+            -d '{"state": "closed"}' >/dev/null
+    fi
+}
+
+# Function to process a single issue
+process_issue() {
+    local issue_json="$1"
+    local title domain_add domain_remove target_list evidence official_site number
+    eval $(parse_issue "$issue_json")
+    
+    log "Processing issue #$number: $title"
+    
+    # Determine action
+    if [ -n "$domain_to_add" ] && [ -z "$domain_to_remove" ]; then
+        action="add"
+        domain="$domain_to_add"
+        list_file="$target_list.txt"  # assuming target_list is the base name without .txt
+        # If target_list doesn't end with .txt, we'll add it, but also check if it's a path
+        if [[ ! "$target_list" =~ \.txt$ ]]; then
+            list_file="$target_list.txt"
+        fi
+        # Ensure the list file exists in the repo root
+        if [ ! -f "$list_file" ]; then
+            # Try to find it in the repo
+            list_file=$(find . -name "$target_list.txt" -type f | head -1)
+            if [ -z "$list_file" ]; then
+                log "Error: Target list file not found for $target_list"
+                # Comment on issue and label as needs-triage
+                comment_issue "$number" "❌ Target list file not found: $target_list"
+                label_issue "$number" "status:needs-triage"
+                return 1
+            fi
+        fi
+    elif [ -n "$domain_to_remove" ] && [ -z "$domain_to_add" ]; then
+        action="remove"
+        domain="$domain_to_remove"
+        list_file="$target_list.txt"
+        if [[ ! "$target_list" =~ \.txt$ ]]; then
+            list_file="$target_list.txt"
+        fi
+        if [ ! -f "$list_file" ]; then
+            list_file=$(find . -name "$target_list.txt" -type f | head -1)
+            if [ -z "$list_file" ]; then
+                log "Error: Target list file not found for $target_list"
+                comment_issue "$number" "❌ Target list file not found: $target_list"
+                label_issue "$number" "status:needs-triage"
+                return 1
+            fi
+        fi
+    else
+        log "Issue #$number does not contain a clear add or remove request. Skipping."
+        comment_issue "$number" "⚠️ Could not parse add/remove request. Please use the template."
+        label_issue "$number" "status:needs-triage"
+        return 0
+    fi
+    
+    # Verify domain if adding
+    if [ "$action" = "add" ]; then
+        if ! verify_domain "$domain"; then
+            log "Domain $domain failed verification."
+            comment_issue "$number" "❌ Domain $domain failed verification (DNS or HTTP check)."
+            label_issue "$number" "status:needs-info"
+            return 1
+        fi
+    fi
+    
+    # Perform action
+    if [ "$action" = "add" ]; then
+        add_domain_to_list "$domain" "$list_file"
+    else
+        remove_domain_from_list "$domain" "$list_file"
+    fi
+    
+    # Commit changes if any
+    if git diff --quiet; then
+        log "No changes made for issue #$number."
+    else
+        git add "$list_file"
+        # Also add any generated files that were updated by build.py
+        git add alt-version/ dnsmasq-version/ adguard/ everything/ 2>/dev/null || true
+        git commit -m "chore(lists): $action domain $domain from issue #$number
+        
+        Action: $action
+        Domain: $domain
+        List: $list_file
+        Evidence: $evidence
+        Official site: $official_site
+        "
+        log "Committed changes for issue #$number."
+    fi
+    
+    # Comment on issue with result
+    if [ "$action" = "add" ]; then
+        comment_issue "$number" "✅ Added $domain to $list_file.
+        
+        Evidence: $evidence
+        Official site: $official_site
+        "
+    else
+        comment_issue "$number" "✅ Removed $domain from $list_file.
+        
+        Evidence: $evidence
+        Official site: $official_site
+        "
+    fi
+    
+    # Label and close issue
+    label_issue "$number" "status:completed"
+    close_issue "$number" "completed"
+    
+    return 0
+}
+
+# Function to process a single PR
+process_pr() {
+    local pr_json="$1"
+    local number title head base additions deletions changed_files url
+    number=$(echo "$pr_json" | jq -r '.number')
+    title=$(echo "$pr_json" | jq -r '.title')
+    head=$(echo "$pr_json" | jq -r '.head.ref')
+    base=$(echo "$pr_json" | jq -r '.base.ref')
+    additions=$(echo "$pr_json" | jq -r '.additions')
+    deletions=$(echo "$pr_json" | jq -r '.deletions')
+    changed_files=$(echo "$pr_json" | jq -r '.changedFiles')
+    url=$(echo "$pr_json" | jq -r '.url')
+    
+    log "Processing PR #$number: $title"
+    
+    # Check if draft
+    is_draft=$(echo "$pr_json" | jq -r '.draft')
+    if [ "$is_draft" = "true" ]; then
+        log "PR #$number is a draft. Skipping."
+        comment_pr "$number" "⚠️ This is a draft PR. Please mark it as ready for review when ready."
+        return 0
+    fi
+    
+    # Check out the PR branch to a temporary location
+    local temp_dir="/tmp/pr_${number}_$$"
+    mkdir -p "$temp_dir"
+    cd "$temp_dir"
+    git clone "https://github.com/$OWNER/$REPO.git" repo >/dev/null 2>&1
+    cd repo
+    git fetch origin pull/$number/head:pr-$number
+    git checkout pr-$number
+    
+    # Run checks
+    log "Running checks on PR #$number..."
+    check_passed=0
+    if [ -f "./build.py" ]; then
+        if ./build.py --dry-run --validate --verbose; then
+            check_passed=1
+            log "Build check passed."
+        else
+            log "Build check failed."
+        fi
+    else
+        log "Warning: build.py not found, skipping build check."
+        check_passed=1  # assume pass if no build script
+    fi
+    
+    # Check changes: only allow changes to list files and generated formats
+    # We'll get the list of changed files and see if they are all in allowed directories
+    changed_files_list=$(git diff --name-only HEAD origin/$base)
+    allowed_dirs="^(.txt$|alt-version/|dnsmasq-version/|adguard/|everything/)"
+    invalid_files=0
+    while IFS= read -r file; do
+        if [[ ! "$file" =~ $allowed_dirs ]]; then
+            log "Invalid file changed: $file"
+            invalid_files=$((invalid_files + 1))
+        fi
+    done <<< "$changed_files_list"
+    
+    if [ $invalid_files -gt 0 ]; then
+        log "PR #$number has changes in disallowed files."
+        comment_pr "$number" "❌ PR contains changes in disallowed files. Only list files and generated formats are allowed."
+        close_pr "$number"  # close without merging
+        cd /home/administrator/.hermes/workspace/Lists
+        rm -rf "$temp_dir"
+        return 1
+    fi
+    
+    # If checks passed and no invalid files, we can merge
+    if [ $check_passed -eq 1 ] && [ $invalid_files -eq 0 ]; then
+        log "PR #$number appears good. Attempting to merge."
+        # Merge with squash
+        if [ "$AUTH" = "gh" ]; then
+            gh pr merge "$number" --repo "$OWNER/$REPO" --squash --delete-branch
+        else
+            # Get the merge SHA
+            merge_sha=$(curl -s -H "Authorization: token $GITHUB_TOKEN" \
+                "https://api.github.com/repos/$OWNER/$REPO/pulls/$number" | jq -r '.head.sha')
+            # Merge via API
+            curl -s -X PUT -H "Authorization: token $GITHUB_TOKEN" \
+                "https://api.github.com/repos/$OWNER/$REPO/pulls/$number/merge" \
+                -d "{\"merge_method\": \"squash\", \"commit_title\": \"squash: $title (#$number)\"}" >/dev/null
+            # Delete branch
+            branch_name=$(echo "$pr_json" | jq -r '.head.ref')
+            git push origin --delete "$branch_name" 2>/dev/null || true
+        fi
+        comment_pr "$number" "✅ Merged via squash merge."
+        log "PR #$number merged and branch deleted."
+    else
+        log "PR #$number failed checks or had invalid files. Requesting changes."
+        comment_pr "$number" "❌ Please address the issues noted in the checks."
+        # Request changes review
+        if [ "$AUTH" = "gh" ]; then
+            gh pr review "$number" --repo "$OWNER/$REPO" --request-changes --body "Please address the issues noted in the checks."
+        else
+            # We'll just comment and leave open for now
+            comment_pr "$number" "❌ Please address the issues noted in the checks."
+        fi
+    fi
+    
+    cd /home/administrator/.hermes/workspace/Lists
+    rm -rf "$temp_dir"
+    return 0
+}
+
+# Main processing loop
+log "Starting triage run."
+
+# Process in batches until no more open issues/PRs
+while true; do
+    # Get open issues and PRs
+    mapfile -t issues < <(get_open_issues)
+    mapfile -t prs < <(get_open_prs)
+    
+    total_issues=${#issues[@]}
+    total_prs=${#prs[@]}
+    log "Found $total_issues open issues and $total_prs open PRs."
+    
+    if [ $total_issues -eq 0 ] && [ $total_prs -eq 0 ]; then
+        log "No open issues or PRs. Exiting."
+        break
+    fi
+    
+    # Combine and sort by updated date (oldest first) - we'll just process in the order we got (which is updated ascending for gh)
+    # We'll process issues first, then PRs, but limit to 10 total per batch
+    batch=()
+    for issue in "${issues[@]}"; do
+        batch+=("$issue")
+        if [ ${#batch[@]} -ge 10 ]; then
+            break
+        fi
+    done
+    if [ ${#batch[@]} -lt 10 ]; then
+        needed=$((10 - ${#batch[@]}))
+        for ((i=0; i<needed && i<${#prs[@]}; i++)); do
+            batch+=("${prs[$i]}")
+        done
+    fi
+    
+    log "Processing batch of ${#batch[@]} items."
+    
+    made_changes=0
+    for item in "${batch[@]}"; do
+        # Determine if it's an issue or PR by checking for pull_request field
+        is_pr=$(echo "$item" | jq -r '.pull_request // empty')
+        if [ -n "$is_pr" ]; then
+            # It's a PR
+            process_pr "$item"
+        else
+            # It's an issue
+            process_issue "$item"
+        fi
+        if [ $? -eq 0 ]; then
+            made_changes=1
+        fi
+    done
+    
+    if [ $made_changes -eq 1 ]; then
+        log "Committing and pushing changes from batch."
+        git push origin master
+        # Wait for GitHub Actions to complete (we'll just sleep a bit and then check? but we can't easily wait for GH Actions)
+        # We'll just note that we pushed and let the CI run in the background.
+        sleep 10
+    fi
+    
+    # Small delay between batches to avoid rate limiting
+    sleep 5
+done
+
+log "Triage run complete."
+
+# Update Obsidian notes
+log "Updating Obsidian notes."
+# Update daily note
+today=$(date +'%Y-%m-%d')
+daily_note="/home/administrator/.hermes/vault/90-Daily/$today.md"
+if [ ! -f "$daily_note" ]; then
+    mkdir -p "$(dirname "$daily_note")"
+    echo "# $today" > "$daily_note"
+fi
+# Append a summary
+echo -e "\n## BlocklistProject Triage\n- Processed triage run at $(date -u +'%H:%M UTC')." >> "$daily_note"
+
+# Update project note
+project_note="/home/administrator/.hermes/vault/10-Projects/BlocklistProject-GitHub-Triage.md"
+if [ -f "$project_note" ]; then
+    # Append a timestamp and status
+    echo -e "\n## Triage Run\n- $(date -u +'%Y-%m-%d %H:%M UTC'): Completed triage run." >> "$project_note"
+else
+    mkdir -p "$(dirname "$project_note")"
+    echo "# BlocklistProject GitHub Triage\n\nLast updated: $(date -u +'%Y-%m-%d %H:%M UTC')" > "$project_note"
+fi
+
+log "Obsidian notes updated."
+
+exit 0

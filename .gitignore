@@ -1,25 +1,73 @@
-#Mac Files
+# Mac Files
 .DS_Store
 
-#Internal Script
+# Internal Scripts
 /Internal_Scripts
 
-# Ignore scripts temp/cache files but not the scripts themselves
-scripts/__pycache__/
-scripts/*.pyc
-scripts/.*.swp
+# Construct Files
+CHECKLIST.md
 
-# Python build artifacts
-*.egg-info/
+# Python
 __pycache__/
-*.pyc
-*.pyo
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv
+
+# Testing
+.pytest_cache/
 .coverage
 htmlcov/
-.pytest_cache/
+.tox/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Project specific
+/tmp/
+*.json.bak
+dead-domains.txt
+cron_output.txt
+
+# Ruff cache
 .ruff_cache/
 
-# Source and tests (if temporary)
-# Uncomment if these are not meant to be tracked:
-# /src/
-# /tests/
+# MyPy cache
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Docs (archived)
+instruct/
+
+# Keep generated files (they're committed)
+# !adguard/
+# !alt-version/
+# !dnsmasq-version/
+

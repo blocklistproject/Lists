@@ -278,8 +278,6 @@ na2m-pr.licenses.adobe.com
 newrelic.com
 notify.adobe.io
 odin.adobe.com
-okta.com
-oktacdn.com
 oktapreview.com
 omniture.com
 omtrdc.net
