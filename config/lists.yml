@@ -1,0 +1,243 @@
+# Block List Project - List Definitions
+# Each list defines: name, category, description, output formats
+
+settings:
+  # Header template for generated files
+  homepage: "https://blocklist.site"
+  help: "https://github.com/blocklistproject/lists/wiki/"
+  license: "https://unlicense.org"
+  support: "https://paypal.me/blocklistproject"
+  expires: "1 day"
+  
+  # Upstream monitoring configuration
+  upstream:
+    enabled: true
+    check_frequency: "daily"
+    auto_merge_threshold: 10
+    require_review_threshold: 100
+    cache_ttl: 86400
+
+# Output format configurations
+formats:
+  hosts:
+    extension: ".txt"
+    output_dir: "."
+    prefix: "0.0.0.0 "
+    comment_char: "#"
+  
+  domains:
+    extension: "-nl.txt"
+    output_dir: "alt-version"
+    prefix: ""
+    comment_char: "#"
+  
+  adguard:
+    extension: "-ags.txt"
+    output_dir: "adguard"
+    prefix: "||"
+    suffix: "^"
+    comment_char: "!"
+  
+  dnsmasq:
+    extension: "-dnsmasq.txt"
+    output_dir: "dnsmasq-version"
+    prefix: "server=/"
+    suffix: "/"
+    comment_char: "#"
+
+# List definitions
+lists:
+  abuse:
+    description: "Domains involved in abuse"
+    category: security
+    status: stable
+  
+  ads:
+    description: "Ad serving domains"
+    category: advertising
+    status: stable
+    upstream_sources:
+      - url: "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/refs/heads/master/Lists/Ads"
+        format: domains
+        trusted: true
+        update_frequency: daily
+      - url: "https://media.githubusercontent.com/media/zachlagden/Pi-hole-Optimized-Blocklists/main/lists/advertising.txt"
+        format: hosts
+        trusted: true
+        update_frequency: daily
+  
+  adobe:
+    description: "Adobe telemetry and activation"
+    category: telemetry
+    status: alpha
+  
+  basic:
+    description: "Basic protection list"
+    category: general
+    status: beta
+  
+  crypto:
+    description: "Cryptocurrency mining and scams"
+    category: security
+    status: stable
+    upstream_sources:
+      - url: "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/refs/heads/master/Lists/Cryptocurrency"
+        format: domains
+        trusted: true
+        update_frequency: daily
+  
+  drugs:
+    description: "Drug-related domains"
+    category: content
+    status: stable
+  
+  facebook:
+    description: "Facebook and Meta domains"
+    category: social
+    status: stable
+  
+  fortnite:
+    description: "Fortnite-related domains"
+    category: gaming
+    status: stable
+  
+  fraud:
+    description: "Fraud and scam domains"
+    category: security
+    status: stable
+    upstream_sources:
+      - url: "https://media.githubusercontent.com/media/zachlagden/Pi-hole-Optimized-Blocklists/main/lists/suspicious.txt"
+        format: hosts
+        trusted: true
+        update_frequency: daily
+  
+  gambling:
+    description: "Gambling sites"
+    category: content
+    status: stable
+    upstream_sources:
+      - url: "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/gambling.txt"
+        format: adguard
+        trusted: true
+        update_frequency: weekly
+      - url: "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/refs/heads/master/Lists/Gambling"
+        format: domains
+        trusted: true
+        update_frequency: daily
+  
+  malware:
+    description: "Malware distribution domains"
+    category: security
+    status: stable
+    upstream_sources:
+      - url: "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/refs/heads/master/Lists/Malware"
+        format: domains
+        trusted: true
+        update_frequency: daily
+      - url: "https://media.githubusercontent.com/media/zachlagden/Pi-hole-Optimized-Blocklists/main/lists/malicious.txt"
+        format: hosts
+        trusted: true
+        update_frequency: daily
+  
+  phishing:
+    description: "Phishing domains"
+    category: security
+    status: stable
+  
+  piracy:
+    description: "Piracy and illegal streaming"
+    category: content
+    status: stable
+  
+  porn:
+    description: "Adult content domains"
+    category: content
+    status: stable
+    upstream_sources:
+      - url: "https://cdn.jsdelivr.net/gh/hagezi/dns-blocklists@latest/adblock/nsfw.txt"
+        format: adguard
+        trusted: true
+        update_frequency: weekly
+      - url: "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/refs/heads/master/Lists/Adult"
+        format: domains
+        trusted: true
+        update_frequency: daily
+      - url: "https://media.githubusercontent.com/media/zachlagden/Pi-hole-Optimized-Blocklists/main/lists/nsfw.txt"
+        format: hosts
+        trusted: true
+        update_frequency: daily
+  
+  ransomware:
+    description: "Ransomware C2 and distribution"
+    category: security
+    status: stable
+  
+  redirect:
+    description: "URL shorteners and redirects"
+    category: tracking
+    status: stable
+  
+  scam:
+    description: "Scam domains"
+    category: security
+    status: stable
+    upstream_sources:
+      - url: "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/refs/heads/master/Lists/Scam"
+        format: domains
+        trusted: true
+        update_frequency: daily
+  
+  smart-tv:
+    description: "Smart TV telemetry"
+    category: telemetry
+    status: beta
+  
+  tiktok:
+    description: "TikTok domains"
+    category: social
+    status: stable
+  
+  torrent:
+    description: "Torrent and P2P sites"
+    category: content
+    status: stable
+  
+  tracking:
+    description: "Tracking and analytics"
+    category: tracking
+    status: stable
+    upstream_sources:
+      - url: "https://raw.githubusercontent.com/ShadowWhisperer/BlockLists/refs/heads/master/Lists/Tracking"
+        format: domains
+        trusted: true
+        update_frequency: daily
+      - url: "https://media.githubusercontent.com/media/zachlagden/Pi-hole-Optimized-Blocklists/main/lists/tracking.txt"
+        format: hosts
+        trusted: true
+        update_frequency: daily
+  
+  twitter:
+    description: "Twitter/X domains"
+    category: social
+    status: stable
+  
+  vaping:
+    description: "Vaping and e-cigarette sites"
+    category: content
+    status: beta
+  
+  whatsapp:
+    description: "WhatsApp domains"
+    category: social
+    status: beta
+  
+  youtube:
+    description: "YouTube domains (deprecated - ads served from same domains)"
+    category: social
+    status: deprecated
+
+# Combined list configuration
+combined:
+  everything:
+    description: "All stable lists combined"
+    include_status: [stable]  # Only include stable lists, not beta/alpha/deprecated
