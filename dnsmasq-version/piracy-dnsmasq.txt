@@ -2,9 +2,9 @@
 # Description: Piracy and illegal streaming
 # Homepage: https://github.com/blocklistproject/Lists
 # License: MIT
-# Last modified: 2026-06-28 17:19:01 UTC
+# Last modified: 2026-07-04 02:32:58 UTC
 # Format: dnsmasq
-# Entries: 2,153
+# Entries: 2,154
 # URL: 
 #
 # This list is maintained by The Block List Project
@@ -700,6 +700,7 @@ server=/ns2.zipcodeshop.com/
 server=/nsanedown.com/
 server=/nsw2u.com/
 server=/nulledhome.com/
+server=/nullforums.net/
 server=/nxbrew.com/
 server=/oakvilleorthotics.com/
 server=/oldgames.zp.ua/

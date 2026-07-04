@@ -2,9 +2,9 @@
 # Description: Piracy and illegal streaming
 # Homepage: https://github.com/blocklistproject/Lists
 # License: MIT
-# Last modified: 2026-06-28 17:19:01 UTC
+# Last modified: 2026-07-04 02:32:58 UTC
 # Format: hosts
-# Entries: 2,153
+# Entries: 2,154
 # URL: 
 #
 # This list is maintained by The Block List Project
@@ -700,6 +700,7 @@
 0.0.0.0 nsanedown.com
 0.0.0.0 nsw2u.com
 0.0.0.0 nulledhome.com
+0.0.0.0 nullforums.net
 0.0.0.0 nxbrew.com
 0.0.0.0 oakvilleorthotics.com
 0.0.0.0 oldgames.zp.ua
@@ -2164,4 +2165,3 @@
 0.0.0.0 zonawarez.net
 0.0.0.0 zoomtorrents.com
 0.0.0.0 zoozle.org
-0.0.0.0 nullforums.net

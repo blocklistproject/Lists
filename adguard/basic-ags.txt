@@ -2,7 +2,7 @@
 ! Description: Basic protection list
 ! Homepage: https://github.com/blocklistproject/Lists
 ! License: MIT
-! Last modified: 2026-06-28 17:18:59 UTC
+! Last modified: 2026-07-04 02:32:51 UTC
 ! Format: AdGuard
 ! Entries: 76,036
 ! URL: 

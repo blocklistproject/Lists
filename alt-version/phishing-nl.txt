@@ -2,7 +2,7 @@
 # Description: Phishing domains
 # Homepage: https://github.com/blocklistproject/Lists
 # License: MIT
-# Last modified: 2026-06-28 17:19:01 UTC
+# Last modified: 2026-07-04 02:32:57 UTC
 # Format: domains
 # Entries: 190,215
 # URL: 
