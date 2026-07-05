@@ -9,6 +9,7 @@ This script:
 5. Adds to exclusion list to prevent re-adding from upstream sources
 6. Regenerates affected output formats
 7. Optionally commits changes with git
+8. Optionally comments on GitHub issue with removal details
 
 Usage:
     # Remove a single domain from a specific list
@@ -20,8 +21,8 @@ Usage:
     # Remove multiple domains from file
     python scripts/remove_domain.py --list malware --file domains.txt
     
-    # Remove and commit changes
-    python scripts/remove_domain.py --list ads --domain example.com --commit --reason "False positive" --issue 123
+    # Remove and commit changes with issue comment
+    python scripts/remove_domain.py --list ads --domain example.com --commit --issue 123 --reason "False positive"
     
     # Remove without regenerating formats (faster, but formats will be out of sync)
     python scripts/remove_domain.py --list ads --domain example.com --no-regenerate
@@ -475,6 +476,79 @@ class DomainRemover:
             print(f"  ✗ Failed to commit: {e}")
             return False
 
+    def comment_on_issue(self) -> bool:
+        """Add a comment to the GitHub issue.
+
+        Returns:
+            True if successful
+        """
+        if not self.issue:
+            return True
+
+        if self.removed_count == 0:
+            return True
+
+        print(f"\n💬 Adding comment to issue #{self.issue}...")
+
+        # Build comment body
+        if self.removed_count == 1:
+            comment_parts = [f"✅ Successfully removed domain `{self.domains_removed[0]}`"]
+        else:
+            comment_parts = [f"✅ Successfully removed {self.removed_count} domain(s)"]
+
+        # Show affected lists
+        if self.affected_lists:
+            lists_str = ", ".join([f"`{lst}`" for lst in sorted(self.affected_lists)])
+            comment_parts.append(f"\n**Affected lists:** {lists_str}")
+
+        # Show domains (limit to 10)
+        if self.domains_removed and self.removed_count > 1:
+            domains_to_show = self.domains_removed[:10]
+            comment_parts.append("\n**Domains removed:**")
+            for d in domains_to_show:
+                comment_parts.append(f"- `{d}`")
+            if len(self.domains_removed) > 10:
+                comment_parts.append(f"- ... and {len(self.domains_removed) - 10} more")
+
+        # Show exclusion info
+        if self.exclusions_updated:
+            comment_parts.append(
+                f"\n**Exclusion lists updated:** {', '.join([f'`{lst}`' for lst in sorted(self.exclusions_updated)])}"
+            )
+            comment_parts.append(
+                "\n_Note: These domains have been added to exclusion lists to prevent automatic re-addition from upstream sources._"
+            )
+
+        # Add reason if provided
+        if self.reason:
+            comment_parts.append(f"\n**Reason:** {self.reason}")
+
+        comment_body = "\n".join(comment_parts)
+
+        try:
+            subprocess.run(
+                ["gh", "issue", "comment", str(self.issue), "--body", comment_body],
+                cwd=PROJECT_ROOT,
+                check=True,
+                capture_output=True,
+                text=True,
+            )
+            print(f"  ✓ Added comment to issue #{self.issue}")
+            return True
+
+        except subprocess.CalledProcessError as e:
+            print(f"  ⚠️  Failed to add comment to issue #{self.issue}")
+            error_msg = e.stderr.strip() if e.stderr else "unknown error"
+            print(f"     Error: {error_msg}")
+            print(f"     (This is non-fatal; the removal was still successful)")
+            return False
+        except FileNotFoundError:
+            print(f"  ⚠️  'gh' CLI not found. Cannot add comment to issue #{self.issue}")
+            print(f"     Install gh CLI: https://cli.github.com/")
+            print(f"     (This is non-fatal; the removal was still successful)")
+            return False
+            return False
+
 
 def main():
     """Main entry point."""
@@ -492,8 +566,8 @@ Examples:
   # Remove from file
   python scripts/remove_domain.py --list malware --file domains.txt
   
-  # Remove and commit
-  python scripts/remove_domain.py --list ads --domain example.com --commit --reason "False positive"
+  # Remove, commit, and comment on GitHub issue
+  python scripts/remove_domain.py --list ads --domain example.com --commit --issue 123 --reason "False positive"
   
   # Remove without regenerating formats (faster)
   python scripts/remove_domain.py --list ads --domain example.com --no-regenerate
@@ -531,7 +605,7 @@ Examples:
         "--issue",
         "-i",
         type=int,
-        help="GitHub issue number (e.g., 123)",
+        help="GitHub issue number (will add comment with removal details and close with commit)",
     )
     parser.add_argument(
         "--commit",
@@ -607,6 +681,9 @@ Examples:
 
     # Commit if requested
     remover.commit_changes()
+
+    # Comment on issue if specified
+    remover.comment_on_issue()
 
     print(f"\n✓ Done! Removed {remover.removed_count} domain(s)")
     if remover.exclusions_updated:
