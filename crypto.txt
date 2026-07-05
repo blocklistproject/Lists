@@ -2,7 +2,7 @@
 # Description: Cryptocurrency mining and scams
 # Homepage: https://github.com/blocklistproject/Lists
 # License: MIT
-# Last modified: 2026-07-04 02:32:52 UTC
+# Last modified: 2026-07-05 00:28:58 UTC
 # Format: hosts
 # Entries: 1,272
 # URL: 

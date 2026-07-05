@@ -2,7 +2,7 @@
 ! Description: Tracking and analytics
 ! Homepage: https://github.com/blocklistproject/Lists
 ! License: MIT
-! Last modified: 2026-07-04 02:32:59 UTC
+! Last modified: 2026-07-05 00:29:11 UTC
 ! Format: AdGuard
 ! Entries: 143,870
 ! URL: 
