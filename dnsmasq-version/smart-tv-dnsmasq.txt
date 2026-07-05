@@ -2,9 +2,9 @@
 # Description: Smart TV telemetry
 # Homepage: https://github.com/blocklistproject/Lists
 # License: MIT
-# Last modified: 2026-07-05 00:29:11 UTC
+# Last modified: 2026-07-05 00:53:58 UTC
 # Format: dnsmasq
-# Entries: 78
+# Entries: 77
 # URL: 
 #
 # This list is maintained by The Block List Project
@@ -30,7 +30,6 @@ server=/d179kwmlpc4o47.cloudfront.net/
 server=/d1oxlq5h9kq8q5.cloudfront.net/
 server=/d2tnx644ijgq6i.cloudfront.net/
 server=/d3mjsomixevyw7.cloudfront.net/
-server=/edgesuite.net/
 server=/errors.hbbtv.smartclip.net/
 server=/eu-auth2.samsungosp.com/
 server=/events.cid.samba.tv/
