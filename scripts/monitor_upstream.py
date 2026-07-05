@@ -165,7 +165,7 @@ def load_exclusions(list_name: str) -> set[str]:
     Returns:
         Set of excluded domain names
     """
-    exclusion_file = CONFIG_DIR / f"{list_name}-exclusions.txt"
+    exclusion_file = CONFIG_DIR / "exclusions" / f"{list_name}.txt"
     
     if not exclusion_file.exists():
         return set()
@@ -179,7 +179,7 @@ def load_exclusions(list_name: str) -> set[str]:
                 exclusions.add(line)
     
     if exclusions:
-        print(f"  ℹ️  Loaded {len(exclusions)} exclusion(s) from {exclusion_file.name}")
+        print(f"  ℹ️  Loaded {len(exclusions)} exclusion(s) from exclusions/{exclusion_file.name}")
     
     return exclusions
 

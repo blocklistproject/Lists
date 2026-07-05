@@ -6,8 +6,9 @@ This script:
 2. Normalizes and validates domains
 3. Searches for domain across specified lists (or all lists)
 4. Removes from all formats (.txt, adguard, dnsmasq, alt-version)
-5. Regenerates affected output formats
-6. Optionally commits changes with git
+5. Adds to exclusion list to prevent re-adding from upstream sources
+6. Regenerates affected output formats
+7. Optionally commits changes with git
 
 Usage:
     # Remove a single domain from a specific list
@@ -24,6 +25,9 @@ Usage:
     
     # Remove without regenerating formats (faster, but formats will be out of sync)
     python scripts/remove_domain.py --list ads --domain example.com --no-regenerate
+    
+    # Remove without adding to exclusion list
+    python scripts/remove_domain.py --list ads --domain example.com --no-exclude
 """
 
 import argparse
@@ -36,7 +40,7 @@ from pathlib import Path
 # Add src to path for imports
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
-from src.config import CONFIG_DIR, PROJECT_ROOT
+from src.config import CONFIG_DIR, PROJECT_ROOT, load_config
 from src.normalize import normalize_line, parse_file_to_set
 
 
@@ -51,6 +55,7 @@ class DomainRemover:
         issue: int | None = None,
         commit: bool = False,
         regenerate: bool = True,
+        add_to_exclusions: bool = True,
     ):
         """Initialize the domain remover.
 
@@ -68,13 +73,17 @@ class DomainRemover:
         self.issue = issue
         self.commit = commit
         self.regenerate = regenerate
+        self.add_to_exclusions = add_to_exclusions
         self.removed_count = 0
         self.not_found_count = 0
         self.domains_removed = []
         self.affected_lists = set()
+        self.exclusions_updated = set()
 
     def normalize_domain(self, domain: str) -> str | None:
         """Normalize a domain to its base form.
+
+        Preserves subdomains (including www.) to allow removing specific subdomain entries.
 
         Args:
             domain: Domain to normalize
@@ -87,9 +96,6 @@ class DomainRemover:
 
         # Remove protocol if present
         domain = re.sub(r"^https?://", "", domain)
-
-        # Remove www. prefix
-        domain = re.sub(r"^www\.", "", domain)
 
         # Remove port if present
         domain = re.sub(r":\d+$", "", domain)
@@ -258,11 +264,61 @@ class DomainRemover:
             print(f"  ✓ Removed: {normalized}")
             self.domains_removed.append(normalized)
             self.removed_count += 1
+            
+            # Add to exclusion lists to prevent re-adding from upstream
+            if self.add_to_exclusions:
+                for list_name in self.get_list_files():
+                    list_name_str = list_name.stem
+                    if list_name_str in self.affected_lists:
+                        self.add_to_exclusion_list(list_name_str, normalized)
         else:
             print(f"  ℹ️  Not found: {normalized}")
             self.not_found_count += 1
 
         return found_in_any
+
+    def add_to_exclusion_list(self, list_name: str, domain: str) -> bool:
+        """Add a domain to the exclusion list for a specific list.
+
+        Args:
+            list_name: Name of the list (e.g., 'ads', 'malware')
+            domain: Domain to add to exclusions
+
+        Returns:
+            True if domain was added to exclusion list
+        """
+        exclusion_dir = CONFIG_DIR / "exclusions"
+        exclusion_dir.mkdir(exist_ok=True)
+        
+        exclusion_file = exclusion_dir / f"{list_name}.txt"
+        
+        # Load existing exclusions
+        existing_exclusions = set()
+        if exclusion_file.exists():
+            with exclusion_file.open('r', encoding='utf-8') as f:
+                for line in f:
+                    line = line.strip().lower()
+                    if line and not line.startswith('#'):
+                        existing_exclusions.add(line)
+        
+        # Check if already in exclusions
+        if domain in existing_exclusions:
+            return False
+        
+        # Add header if file is new
+        if not exclusion_file.exists():
+            with exclusion_file.open('w', encoding='utf-8') as f:
+                f.write(f"# Exclusion list for {list_name}\n")
+                f.write(f"# Domains in this list will not be added from upstream sources\n")
+                f.write(f"# One domain per line, comments start with #\n\n")
+        
+        # Append domain
+        with exclusion_file.open('a', encoding='utf-8') as f:
+            f.write(f"{domain}\n")
+        
+        self.exclusions_updated.add(list_name)
+        print(f"  📝 Added to exclusion list: config/exclusions/{list_name}.txt")
+        return True
 
     def remove_from_file_input(self, filepath: Path) -> int:
         """Remove domains from a file (one per line).
@@ -289,6 +345,12 @@ class DomainRemover:
 
         return self.removed_count
 
+    def get_buildable_lists(self) -> set[str]:
+        """Return only list names that can actually be rebuilt by build.py."""
+        config = load_config(PROJECT_ROOT / "config" / "lists.yml")
+        available_lists = set(config.get("lists", {}).keys())
+        return {name for name in self.affected_lists if name in available_lists}
+
     def regenerate_formats(self) -> bool:
         """Regenerate all output formats using build.py.
 
@@ -302,12 +364,17 @@ class DomainRemover:
         if not self.affected_lists:
             return True
 
+        buildable_lists = self.get_buildable_lists()
+        if not buildable_lists:
+            print("  ℹ️  No buildable lists found to regenerate")
+            return True
+
         print("🔄 Regenerating output formats for affected lists...")
 
         success = True
-        for list_name in sorted(self.affected_lists):
+        for list_name in sorted(buildable_lists):
             try:
-                result = subprocess.run(
+                subprocess.run(
                     ["python3", "build.py", "--list", list_name],
                     cwd=PROJECT_ROOT,
                     check=True,
@@ -317,12 +384,17 @@ class DomainRemover:
                 print(f"  ✓ Regenerated formats for {list_name}")
             except subprocess.CalledProcessError as e:
                 print(f"  ✗ Failed to regenerate {list_name}")
-                print(f"     Error: {e.stderr if e.stderr else 'unknown'}")
+                error_output = (e.stderr or "").strip() or (e.stdout or "").strip() or "unknown"
+                print(f"     Error: {error_output}")
                 success = False
             except FileNotFoundError:
-                print(f"  ✗ Python not found. Cannot regenerate formats.")
+                print("  ✗ Python not found. Cannot regenerate formats.")
                 success = False
                 break
+
+        skipped = sorted(self.affected_lists - buildable_lists)
+        if skipped:
+            print(f"  ℹ️  Skipping non-buildable list(s): {', '.join(skipped)}")
 
         return success
 
@@ -378,6 +450,11 @@ class DomainRemover:
             # Show affected lists
             if self.affected_lists:
                 body_parts.append(f"\nAffected lists: {', '.join(sorted(self.affected_lists))}")
+            
+            # Show exclusion updates
+            if self.exclusions_updated:
+                body_parts.append(f"\nUpdated exclusion lists: {', '.join(sorted(self.exclusions_updated))}")
+                body_parts.append("(Prevents re-adding from upstream sources)")
 
             commit_msg = subject
             if body_parts:
@@ -467,6 +544,11 @@ Examples:
         action="store_true",
         help="Skip regenerating output formats (faster, but formats will be out of sync)",
     )
+    parser.add_argument(
+        "--no-exclude",
+        action="store_true",
+        help="Skip adding to exclusion list (domain may be re-added from upstream)",
+    )
 
     args = parser.parse_args()
 
@@ -491,6 +573,7 @@ Examples:
         issue=args.issue,
         commit=args.commit,
         regenerate=not args.no_regenerate,
+        add_to_exclusions=not args.no_exclude,
     )
 
     if args.all_lists:
@@ -510,6 +593,8 @@ Examples:
     print(f"   Not found: {remover.not_found_count}")
     if remover.affected_lists:
         print(f"   Affected lists: {', '.join(sorted(remover.affected_lists))}")
+    if remover.exclusions_updated:
+        print(f"   Exclusions updated: {', '.join(sorted(remover.exclusions_updated))}")
 
     if remover.removed_count == 0:
         print("\n✓ No changes needed")
@@ -524,6 +609,8 @@ Examples:
     remover.commit_changes()
 
     print(f"\n✓ Done! Removed {remover.removed_count} domain(s)")
+    if remover.exclusions_updated:
+        print(f"   📝 Updated exclusion lists to prevent re-adding from upstream")
     return 0
 
 

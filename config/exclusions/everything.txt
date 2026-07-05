@@ -1,0 +1,11 @@
+# Exclusion list for everything
+# Domains in this list will not be added from upstream sources
+# One domain per line, comments start with #
+
+edubirdie.com
+www.edubirdie.com
+edubirdie.pro
+ar.edubirdie.com
+au.edubirdie.com
+ca.edubirdie.com
+uk.edubirdie.com

@@ -76,14 +76,22 @@ class DomainAdder:
         Returns:
             Normalized domain or None if invalid
         """
+    def normalize_domain(self, domain: str) -> str | None:
+        """Normalize a domain to its base form.
+
+        Preserves subdomains (including www.) to allow adding specific subdomain entries.
+
+        Args:
+            domain: Domain to normalize
+
+        Returns:
+            Normalized domain or None if invalid
+        """
         # Strip whitespace
         domain = domain.strip()
 
         # Remove protocol if present
         domain = re.sub(r"^https?://", "", domain)
-
-        # Remove www. prefix
-        domain = re.sub(r"^www\.", "", domain)
 
         # Remove port if present
         domain = re.sub(r":\d+$", "", domain)
