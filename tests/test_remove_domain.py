@@ -10,7 +10,7 @@ class TestDomainRemover(unittest.TestCase):
         remover.affected_lists = {"abuse", "everything", "malware"}
 
         with patch("scripts.remove_domain.load_config", return_value={"lists": {"abuse": {}, "malware": {}}}):
-            self.assertEqual(remover.get_buildable_lists(), {"abuse", "malware"})
+            assert remover.get_buildable_lists() == {"abuse", "malware"}
 
 
 if __name__ == "__main__":
