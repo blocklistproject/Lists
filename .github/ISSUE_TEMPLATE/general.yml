@@ -1,0 +1,77 @@
+name: 💬 General Issue
+description: Report a general issue, question, suggestion, or other topic
+title: "[General] "
+labels: ["status:needs-triage"]
+assignees:
+  - blocklistproject
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## General Issue
+        Use this form for questions, feedback, or issues that do not fit the add/remove request forms.
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: What kind of issue is this?
+      options:
+        - Question
+        - Bug report
+        - Feature request
+        - Documentation issue
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: summary
+    attributes:
+      label: Summary
+      description: Briefly describe the issue or request.
+      placeholder: e.g. Clarify how these lists are maintained
+    validations:
+      required: true
+
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: Provide as much context as possible.
+      placeholder: Include relevant background, links, examples, or expected behavior.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction or steps
+      description: If applicable, list the steps to reproduce the issue or the context in which it occurs.
+      placeholder: |
+        1. Go to ...
+        2. Click ...
+        3. Observe ...
+    validations:
+      required: false
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected outcome
+      description: What did you expect to happen?
+      placeholder: Optional
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: verification
+    attributes:
+      label: Verification
+      description: Please confirm the following
+      options:
+        - label: I have checked whether this is already covered by an existing issue or discussion
+          required: false
+        - label: I understand this issue may be triaged and labeled by maintainers
+          required: true
