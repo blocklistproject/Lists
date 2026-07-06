@@ -3,3 +3,4 @@
 # One domain per line, comments start with #
 
 indiegala.evyy.net
+compute-1.amazonaws.com
