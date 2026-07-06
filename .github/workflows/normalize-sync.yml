@@ -1,0 +1,132 @@
+name: Normalize and Sync Formats
+
+on:
+  workflow_dispatch:
+    inputs:
+      commit_changes:
+        description: 'Commit and push changes'
+        required: false
+        type: boolean
+        default: true
+      dry_run:
+        description: 'Dry run (show changes without committing)'
+        required: false
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  normalize-and-sync:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+      
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+      
+      - name: Run normalize and sync script
+        id: normalize
+        run: |
+          echo "Starting normalization and sync..."
+          python3 scripts/normalize_and_sync.py 2>&1 | tee normalize_output.txt
+          
+          # Capture exit code
+          EXIT_CODE=${PIPESTATUS[0]}
+          
+          # Check if there are changes
+          if git diff --quiet; then
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+            echo "No changes detected"
+          else
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+            echo "Changes detected"
+          fi
+          
+          exit $EXIT_CODE
+      
+      - name: Show changes
+        if: steps.normalize.outputs.has_changes == 'true'
+        run: |
+          echo "=== Changes Summary ==="
+          git status
+          echo ""
+          echo "=== Modified Files ==="
+          git diff --stat
+      
+      - name: Commit and push changes
+        if: |
+          steps.normalize.outputs.has_changes == 'true' && 
+          inputs.dry_run == false && 
+          inputs.commit_changes == true
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          
+          # Get list of modified files for commit message
+          MODIFIED_LISTS=$(git diff --name-only | grep '\.txt$' | grep -v '/' | sed 's/\.txt$//' | sort | tr '\n' ', ' | sed 's/,$//')
+          
+          if [ -n "$MODIFIED_LISTS" ]; then
+            git commit -m "chore: normalize and sync formats" \
+                       -m "Cleaned invalid entries and regenerated formats for: ${MODIFIED_LISTS}" \
+                       -m "- Removed invalid domain entries (paths, fragments, non-ASCII)" \
+                       -m "- Regenerated all format variations to ensure sync" \
+                       -m "- Automated via normalize-and-sync workflow"
+          else
+            git commit -m "chore: normalize and sync formats" \
+                       -m "Regenerated format files to ensure synchronization." \
+                       -m "- Automated via normalize-and-sync workflow"
+          fi
+          
+          git add -A
+          git push
+      
+      - name: Create summary
+        if: always()
+        run: |
+          echo "## Normalize and Sync Results" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          
+          if [ -f normalize_output.txt ]; then
+            echo "### Script Output" >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
+            cat normalize_output.txt >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+          fi
+          
+          if [ "${{ steps.normalize.outputs.has_changes }}" == "true" ]; then
+            echo "### Changes Detected" >> $GITHUB_STEP_SUMMARY
+            echo "" >> $GITHUB_STEP_SUMMARY
+            echo "**Modified Files:**" >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
+            git diff --stat >> $GITHUB_STEP_SUMMARY
+            echo '```' >> $GITHUB_STEP_SUMMARY
+            
+            if [ "${{ inputs.dry_run }}" == "true" ]; then
+              echo "" >> $GITHUB_STEP_SUMMARY
+              echo "⚠️ **Dry run mode** - Changes were not committed" >> $GITHUB_STEP_SUMMARY
+            elif [ "${{ inputs.commit_changes }}" == "false" ]; then
+              echo "" >> $GITHUB_STEP_SUMMARY
+              echo "ℹ️ Changes were not committed (commit_changes=false)" >> $GITHUB_STEP_SUMMARY
+            else
+              echo "" >> $GITHUB_STEP_SUMMARY
+              echo "✅ Changes were committed and pushed" >> $GITHUB_STEP_SUMMARY
+            fi
+          else
+            echo "✅ No changes needed - all lists are already clean and in sync" >> $GITHUB_STEP_SUMMARY
+          fi

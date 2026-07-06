@@ -1,21 +1,19 @@
-# ------------------------------------[UPDATE]--------------------------------------
-# Title: The Block List Project - Adobe List (dnsmasq)
-# Expires: 1 day
-# Homepage: https://blocklist.site
-# Help: https://github.com/blocklistproject/lists/wiki/
-# License: https://unlicense.org
-# ------------------------------------[SUPPORT]-------------------------------------
-# You can support by:
-# - reporting false positives
-# - making a donation: https://paypal.me/blocklistproject
-# -------------------------------------[INFO]---------------------------------------
+# Title: Adobe Block List
+# Description: Adobe telemetry and activation
+# Homepage: https://github.com/blocklistproject/Lists
+# License: MIT
+# Last modified: 2026-07-06 00:52:50 UTC
+# Format: dnsmasq
+# Entries: 384
+# URL: 
 #
-# Adobe list
-# ------------------------------------[FILTERS]-------------------------------------
-server=/#cdn-ffc.oobesaas.adobe.com/*/
-server=/3dns-3.adobe.com/
-server=/3dns-2.adobe.com/
+# This list is maintained by The Block List Project
+# https://github.com/blocklistproject/Lists
+#
+
 server=/3dns-1.adobe.com/
+server=/3dns-2.adobe.com/
+server=/3dns-3.adobe.com/
 server=/3dns-4.adobe.com/
 server=/3dns.adobe.com/
 server=/9212252.fls.doubleclick.net/
@@ -64,7 +62,6 @@ server=/adobecce.com/
 server=/adobedtm.com/
 server=/adobeereg.com/
 server=/adobeexchange.com/
-server=/adobeexchange.com/api/
 server=/adobeid-na1.services.adobe.com/
 server=/adobeid.services.adobe.com/
 server=/adobejanus.com/
@@ -129,8 +126,6 @@ server=/cc-api-assets.adobe.io/
 server=/cc-api-behance.adobe.io/
 server=/cc-api-cp.adobe.io/
 server=/cc-api-data.adobe.io/
-server=/cc-api-image-x.adobe.io/agctosvg/
-server=/cc-api-image.adobe.io/createagc/
 server=/cc-api-sharedproductions-prerelease.adobe.io/
 server=/cc-api-storage.adobe.io/
 server=/cc-api-teamprojects-an1.adobe.io/
@@ -169,7 +164,6 @@ server=/creative.adobe.com/
 server=/creativecloud.adobe.com/
 server=/creativecloud.com/
 server=/crl.verisign.net/
-server=/crl.verisign.net./
 server=/crs.cr.adobe.com/
 server=/cs.licenses.adobe.com/
 server=/ct.pinterest.com/
@@ -188,7 +182,6 @@ server=/developer.adobe.com/
 server=/digicert.com/
 server=/digitalpublishing.acrobat.com/
 server=/dnzuu5synxxfk.cloudfront.net/
-server=/docs.aws.amazon.com/general/latest/gr//
 server=/dpm.demdex.net/
 server=/drm.frame.io/
 server=/ds-an1.adobe.io/
@@ -230,7 +223,6 @@ server=/hbrt.adobe.com/
 server=/helpx.adobe.com/
 server=/hl2rcv.adobe.com/
 server=/hlrcv.stage.adobe.com/
-server=/http://armdl.adobe.com//
 server=/ic.adobe.io/
 server=/ids-proxy.account.adobe.com/
 server=/illustrator.adobe.com/
@@ -242,14 +234,10 @@ server=/indd.adobe.com/
 server=/invitations.adobe.io/
 server=/js-agent.newrelic.com/
 server=/js.intercomcdn.com/
-server=/js.stripe.com/
 server=/k.sni.global.fastly.net/
 server=/landing.adobe.com/
 server=/lcs-cops.adobe.io/
 server=/lcs-entitlement.adobe.io/
-server=/lcs-entitlement.adobe.io/v1/trial/
-server=/lcs-entitlement.adobe.io/v1/trialadobe.com/
-server=/lcs-entitlement.adobe.io/v1/user/
 server=/lcs-robs.adobe.io/
 server=/lcs-ulecs.adobe.io/
 server=/libraries.adobe.io/
@@ -261,6 +249,7 @@ server=/lightroom.adobe.com/
 server=/links.adobe.io/
 server=/livecreate-an1.adobe.io/
 server=/livecreate-ew1.adobe.io/
+server=/livecreate-ue1.adobe.io/
 server=/lm.licenses.adobe.com/
 server=/lmlicenses.wip4.adobe.com/
 server=/m.stripe.network/
@@ -276,11 +265,12 @@ server=/na1e.services.adobe.com/
 server=/na1r.services.adobe.com/
 server=/na2m-pr.licenses.adobe.com/
 server=/newrelic.com/
+server=/nexus-websocket-a.intercom.io/
+server=/nexus-websocket-b.intercom.io/
 server=/notify.adobe.io/
 server=/odin.adobe.com/
 server=/okta.com/
 server=/oktacdn.com/
-server=/oktapreview.com/
 server=/omniture.com/
 server=/omtrdc.net/
 server=/oobe.adobe.com/
@@ -306,6 +296,7 @@ server=/practivate.adobe.newoa/
 server=/practivate.adobe.ntp/
 server=/presence-an1.adobe.io/
 server=/presence-ew1.adobe.io/
+server=/presence-ue1.adobe.io/
 server=/preview.illustrator.adobe.com/
 server=/prod-rel-ffc-ccm.oobesaas.adobe.com/
 server=/prod.acp.adobeoobe.com/
@@ -316,12 +307,10 @@ server=/prosite.com/
 server=/psweb-cd.adobe.io/
 server=/pubcerts.licenses.adobe.com/
 server=/public.adobecc.com/
-server=/rande.html#s3_region/
 server=/resources.licenses.adobe.com/
 server=/s.ftcdn.net/
 server=/s3-us-west-2.amazonaws.com/
 server=/s3.amazonaws.com/
-server=/s3.amazonaws.com/tron-ffc-icons-prod//
 server=/scripts.demandbase.com/
 server=/scss.adobesc.com/
 server=/sentry.io/
@@ -333,7 +322,9 @@ server=/sharedcloud-production-us-east-1-data-temp.s3.amazonaws.com/
 server=/slp-statics.astockcdn.net/
 server=/snap.licdn.com/
 server=/socket.frame.io/
+server=/sockets.frame.io/
 server=/spark.adobe.com/
+server=/speech.platform.bing.com/
 server=/ss-prod-an1-notif-13-aws.adobess.com/
 server=/ss-prod-an1-notif-16.aws.adobess.com/
 server=/ss-prod-ew1-notif-13-aws.adobess.com/
@@ -385,18 +376,11 @@ server=/wip4.adobe.com/
 server=/workflow-ui-prod.licensingstack.com/
 server=/workflow.licenses.adobe.com/
 server=/worldsecuresystems.com/
-server=/livecreate-ue1.adobe.io/
-server=/nexus-websocket-a.intercom.io/
-server=/nexus-websocket-b.intercom.io/
-server=/presence-ue1.adobe.io/
-server=/sockets.frame.io/
-server=/speech.platform.bing.com/
 server=/wwis-dubc1-vip60.adobe.com/
 server=/www-prod.adobesunbreak.com/
 server=/www.adobe.com/
 server=/www.adobeereg.com/
 server=/www.adobeexchange.com/
-server=/www.adobeexchange.com/api/
 server=/www.adobetag.com/
 server=/www.everestjs.net/
 server=/www.googleadservices.com/

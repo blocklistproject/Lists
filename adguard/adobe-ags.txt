@@ -1,21 +1,19 @@
-! ------------------------------------[UPDATE]--------------------------------------
-! Title: The Block List Project - Adobe List (adguard)
-! Expires: 1 day
-! Homepage: https://blocklist.site
-! Help: https://github.com/blocklistproject/lists/wiki/
-! License: https://unlicense.org
-! ------------------------------------[SUPPORT]-------------------------------------
-! You can support by:
-! - reporting false positives
-! - making a donation: https://paypal.me/blocklistproject
-! -------------------------------------[INFO]---------------------------------------
+! Title: Adobe Block List
+! Description: Adobe telemetry and activation
+! Homepage: https://github.com/blocklistproject/Lists
+! License: MIT
+! Last modified: 2026-07-06 00:52:50 UTC
+! Format: AdGuard
+! Entries: 384
+! URL: 
 !
-! Adobe list
-! ------------------------------------[FILTERS]-------------------------------------
-||#cdn-ffc.oobesaas.adobe.com/*^
-||3dns-3.adobe.com^
-||3dns-2.adobe.com^
+! This list is maintained by The Block List Project
+! https://github.com/blocklistproject/Lists
+!
+
 ||3dns-1.adobe.com^
+||3dns-2.adobe.com^
+||3dns-3.adobe.com^
 ||3dns-4.adobe.com^
 ||3dns.adobe.com^
 ||9212252.fls.doubleclick.net^
@@ -64,7 +62,6 @@
 ||adobedtm.com^
 ||adobeereg.com^
 ||adobeexchange.com^
-||adobeexchange.com/api^
 ||adobeid-na1.services.adobe.com^
 ||adobeid.services.adobe.com^
 ||adobejanus.com^
@@ -129,8 +126,6 @@
 ||cc-api-behance.adobe.io^
 ||cc-api-cp.adobe.io^
 ||cc-api-data.adobe.io^
-||cc-api-image-x.adobe.io/agctosvg^
-||cc-api-image.adobe.io/createagc^
 ||cc-api-sharedproductions-prerelease.adobe.io^
 ||cc-api-storage.adobe.io^
 ||cc-api-teamprojects-an1.adobe.io^
@@ -169,7 +164,6 @@
 ||creativecloud.adobe.com^
 ||creativecloud.com^
 ||crl.verisign.net^
-||crl.verisign.net.^
 ||crs.cr.adobe.com^
 ||cs.licenses.adobe.com^
 ||ct.pinterest.com^
@@ -188,7 +182,6 @@
 ||digicert.com^
 ||digitalpublishing.acrobat.com^
 ||dnzuu5synxxfk.cloudfront.net^
-||docs.aws.amazon.com/general/latest/gr/^
 ||dpm.demdex.net^
 ||drm.frame.io^
 ||ds-an1.adobe.io^
@@ -230,7 +223,6 @@
 ||helpx.adobe.com^
 ||hl2rcv.adobe.com^
 ||hlrcv.stage.adobe.com^
-||http://armdl.adobe.com/^
 ||ic.adobe.io^
 ||ids-proxy.account.adobe.com^
 ||illustrator.adobe.com^
@@ -242,14 +234,10 @@
 ||invitations.adobe.io^
 ||js-agent.newrelic.com^
 ||js.intercomcdn.com^
-||js.stripe.com^
 ||k.sni.global.fastly.net^
 ||landing.adobe.com^
 ||lcs-cops.adobe.io^
 ||lcs-entitlement.adobe.io^
-||lcs-entitlement.adobe.io/v1/trial^
-||lcs-entitlement.adobe.io/v1/trialadobe.com^
-||lcs-entitlement.adobe.io/v1/user^
 ||lcs-robs.adobe.io^
 ||lcs-ulecs.adobe.io^
 ||libraries.adobe.io^
@@ -261,6 +249,7 @@
 ||links.adobe.io^
 ||livecreate-an1.adobe.io^
 ||livecreate-ew1.adobe.io^
+||livecreate-ue1.adobe.io^
 ||lm.licenses.adobe.com^
 ||lmlicenses.wip4.adobe.com^
 ||m.stripe.network^
@@ -276,11 +265,12 @@
 ||na1r.services.adobe.com^
 ||na2m-pr.licenses.adobe.com^
 ||newrelic.com^
+||nexus-websocket-a.intercom.io^
+||nexus-websocket-b.intercom.io^
 ||notify.adobe.io^
 ||odin.adobe.com^
 ||okta.com^
 ||oktacdn.com^
-||oktapreview.com^
 ||omniture.com^
 ||omtrdc.net^
 ||oobe.adobe.com^
@@ -306,6 +296,7 @@
 ||practivate.adobe.ntp^
 ||presence-an1.adobe.io^
 ||presence-ew1.adobe.io^
+||presence-ue1.adobe.io^
 ||preview.illustrator.adobe.com^
 ||prod-rel-ffc-ccm.oobesaas.adobe.com^
 ||prod.acp.adobeoobe.com^
@@ -316,12 +307,10 @@
 ||psweb-cd.adobe.io^
 ||pubcerts.licenses.adobe.com^
 ||public.adobecc.com^
-||rande.html#s3_region^
 ||resources.licenses.adobe.com^
 ||s.ftcdn.net^
 ||s3-us-west-2.amazonaws.com^
 ||s3.amazonaws.com^
-||s3.amazonaws.com/tron-ffc-icons-prod/^
 ||scripts.demandbase.com^
 ||scss.adobesc.com^
 ||sentry.io^
@@ -333,7 +322,9 @@
 ||slp-statics.astockcdn.net^
 ||snap.licdn.com^
 ||socket.frame.io^
+||sockets.frame.io^
 ||spark.adobe.com^
+||speech.platform.bing.com^
 ||ss-prod-an1-notif-13-aws.adobess.com^
 ||ss-prod-an1-notif-16.aws.adobess.com^
 ||ss-prod-ew1-notif-13-aws.adobess.com^
@@ -385,18 +376,11 @@
 ||workflow-ui-prod.licensingstack.com^
 ||workflow.licenses.adobe.com^
 ||worldsecuresystems.com^
-||livecreate-ue1.adobe.io^
-||nexus-websocket-a.intercom.io^
-||nexus-websocket-b.intercom.io^
-||presence-ue1.adobe.io^
-||sockets.frame.io^
-||speech.platform.bing.com^
 ||wwis-dubc1-vip60.adobe.com^
 ||www-prod.adobesunbreak.com^
 ||www.adobe.com^
 ||www.adobeereg.com^
 ||www.adobeexchange.com^
-||www.adobeexchange.com/api^
 ||www.adobetag.com^
 ||www.everestjs.net^
 ||www.googleadservices.com^

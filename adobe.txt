@@ -1,21 +1,19 @@
-# ------------------------------------[UPDATE]--------------------------------------
-# Title: The Block List Project - Adobe List
-# Expires: 1 day
-# Homepage: https://blocklist.site
-# Help: https://github.com/blocklistproject/lists/wiki/
-# License: https://unlicense.org
-# ------------------------------------[SUPPORT]-------------------------------------
-# You can support by:
-# - reporting false positives
-# - making a donation: https://paypal.me/blocklistproject
-# -------------------------------------[INFO]---------------------------------------
+# Title: Adobe Block List
+# Description: Adobe telemetry and activation
+# Homepage: https://github.com/blocklistproject/Lists
+# License: MIT
+# Last modified: 2026-07-06 00:52:50 UTC
+# Format: hosts
+# Entries: 384
+# URL: 
 #
-# Adobe list
-# ------------------------------------[FILTERS]-------------------------------------
-0.0.0.0 #cdn-ffc.oobesaas.adobe.com/*
-0.0.0.0 3dns-3.adobe.com
-0.0.0.0 3dns-2.adobe.com
+# This list is maintained by The Block List Project
+# https://github.com/blocklistproject/Lists
+#
+
 0.0.0.0 3dns-1.adobe.com
+0.0.0.0 3dns-2.adobe.com
+0.0.0.0 3dns-3.adobe.com
 0.0.0.0 3dns-4.adobe.com
 0.0.0.0 3dns.adobe.com
 0.0.0.0 9212252.fls.doubleclick.net
@@ -64,7 +62,6 @@
 0.0.0.0 adobedtm.com
 0.0.0.0 adobeereg.com
 0.0.0.0 adobeexchange.com
-0.0.0.0 adobeexchange.com/api
 0.0.0.0 adobeid-na1.services.adobe.com
 0.0.0.0 adobeid.services.adobe.com
 0.0.0.0 adobejanus.com
@@ -129,8 +126,6 @@
 0.0.0.0 cc-api-behance.adobe.io
 0.0.0.0 cc-api-cp.adobe.io
 0.0.0.0 cc-api-data.adobe.io
-0.0.0.0 cc-api-image-x.adobe.io/agctosvg
-0.0.0.0 cc-api-image.adobe.io/createagc
 0.0.0.0 cc-api-sharedproductions-prerelease.adobe.io
 0.0.0.0 cc-api-storage.adobe.io
 0.0.0.0 cc-api-teamprojects-an1.adobe.io
@@ -169,7 +164,6 @@
 0.0.0.0 creativecloud.adobe.com
 0.0.0.0 creativecloud.com
 0.0.0.0 crl.verisign.net
-0.0.0.0 crl.verisign.net.
 0.0.0.0 crs.cr.adobe.com
 0.0.0.0 cs.licenses.adobe.com
 0.0.0.0 ct.pinterest.com
@@ -188,7 +182,6 @@
 0.0.0.0 digicert.com
 0.0.0.0 digitalpublishing.acrobat.com
 0.0.0.0 dnzuu5synxxfk.cloudfront.net
-0.0.0.0 docs.aws.amazon.com/general/latest/gr/
 0.0.0.0 dpm.demdex.net
 0.0.0.0 drm.frame.io
 0.0.0.0 ds-an1.adobe.io
@@ -230,7 +223,6 @@
 0.0.0.0 helpx.adobe.com
 0.0.0.0 hl2rcv.adobe.com
 0.0.0.0 hlrcv.stage.adobe.com
-0.0.0.0 http://armdl.adobe.com/
 0.0.0.0 ic.adobe.io
 0.0.0.0 ids-proxy.account.adobe.com
 0.0.0.0 illustrator.adobe.com
@@ -246,9 +238,6 @@
 0.0.0.0 landing.adobe.com
 0.0.0.0 lcs-cops.adobe.io
 0.0.0.0 lcs-entitlement.adobe.io
-0.0.0.0 lcs-entitlement.adobe.io/v1/trial
-0.0.0.0 lcs-entitlement.adobe.io/v1/trialadobe.com
-0.0.0.0 lcs-entitlement.adobe.io/v1/user
 0.0.0.0 lcs-robs.adobe.io
 0.0.0.0 lcs-ulecs.adobe.io
 0.0.0.0 libraries.adobe.io
@@ -260,6 +249,7 @@
 0.0.0.0 links.adobe.io
 0.0.0.0 livecreate-an1.adobe.io
 0.0.0.0 livecreate-ew1.adobe.io
+0.0.0.0 livecreate-ue1.adobe.io
 0.0.0.0 lm.licenses.adobe.com
 0.0.0.0 lmlicenses.wip4.adobe.com
 0.0.0.0 m.stripe.network
@@ -275,6 +265,8 @@
 0.0.0.0 na1r.services.adobe.com
 0.0.0.0 na2m-pr.licenses.adobe.com
 0.0.0.0 newrelic.com
+0.0.0.0 nexus-websocket-a.intercom.io
+0.0.0.0 nexus-websocket-b.intercom.io
 0.0.0.0 notify.adobe.io
 0.0.0.0 odin.adobe.com
 0.0.0.0 okta.com
@@ -304,6 +296,7 @@
 0.0.0.0 practivate.adobe.ntp
 0.0.0.0 presence-an1.adobe.io
 0.0.0.0 presence-ew1.adobe.io
+0.0.0.0 presence-ue1.adobe.io
 0.0.0.0 preview.illustrator.adobe.com
 0.0.0.0 prod-rel-ffc-ccm.oobesaas.adobe.com
 0.0.0.0 prod.acp.adobeoobe.com
@@ -314,12 +307,10 @@
 0.0.0.0 psweb-cd.adobe.io
 0.0.0.0 pubcerts.licenses.adobe.com
 0.0.0.0 public.adobecc.com
-0.0.0.0 rande.html#s3_region
 0.0.0.0 resources.licenses.adobe.com
 0.0.0.0 s.ftcdn.net
 0.0.0.0 s3-us-west-2.amazonaws.com
 0.0.0.0 s3.amazonaws.com
-0.0.0.0 s3.amazonaws.com/tron-ffc-icons-prod/
 0.0.0.0 scripts.demandbase.com
 0.0.0.0 scss.adobesc.com
 0.0.0.0 sentry.io
@@ -331,7 +322,9 @@
 0.0.0.0 slp-statics.astockcdn.net
 0.0.0.0 snap.licdn.com
 0.0.0.0 socket.frame.io
+0.0.0.0 sockets.frame.io
 0.0.0.0 spark.adobe.com
+0.0.0.0 speech.platform.bing.com
 0.0.0.0 ss-prod-an1-notif-13-aws.adobess.com
 0.0.0.0 ss-prod-an1-notif-16.aws.adobess.com
 0.0.0.0 ss-prod-ew1-notif-13-aws.adobess.com
@@ -383,18 +376,11 @@
 0.0.0.0 workflow-ui-prod.licensingstack.com
 0.0.0.0 workflow.licenses.adobe.com
 0.0.0.0 worldsecuresystems.com
-0.0.0.0 livecreate-ue1.adobe.io
-0.0.0.0 nexus-websocket-a.intercom.io
-0.0.0.0 nexus-websocket-b.intercom.io
-0.0.0.0 presence-ue1.adobe.io
-0.0.0.0 sockets.frame.io
-0.0.0.0 speech.platform.bing.com
 0.0.0.0 wwis-dubc1-vip60.adobe.com
 0.0.0.0 www-prod.adobesunbreak.com
 0.0.0.0 www.adobe.com
 0.0.0.0 www.adobeereg.com
 0.0.0.0 www.adobeexchange.com
-0.0.0.0 www.adobeexchange.com/api
 0.0.0.0 www.adobetag.com
 0.0.0.0 www.everestjs.net
 0.0.0.0 www.googleadservices.com
