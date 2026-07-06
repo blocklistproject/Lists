@@ -121,7 +121,7 @@ def find_domain_in_lists(domain: str, base_dir: Path) -> DomainLocation:
     # Check hosts format (root directory .txt files)
     for file_path in list_files["hosts"]:
         # Skip special files
-        if file_path.name in ("everything.txt", "dead-domains.txt", "README.txt"):
+        if file_path.name in ("dead-domains.txt", "README.txt"):
             continue
 
         if domain_in_file(domain, file_path, "hosts"):

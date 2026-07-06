@@ -26,12 +26,6 @@ These changes are pending review before committing:
 ### porn.txt
 - Added: `twitch.tv`, `camwhorez.tv`, `indianprn.com`, `rj2jzgv.brave-peter.de`, `thotbay.com`
 
-### everything.txt
-- Removed: 4 duplicate entries matching changes in other files
-
-### alt-version/everything-nl.txt
-- Removed: 1 entry matching changes in other files
-
 ## Analysis
 
 1. **ai.com removal** - This appears to be a false positive. ai.com is a legitimate AI platform (AI.com by OpenAI). Should be removed from blocklists.

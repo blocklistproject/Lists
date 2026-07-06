@@ -54,12 +54,10 @@ if __name__ == '__main__':
 
     domains = set()
     for txt in glob.glob(os.path.join(lists_dir, '*.txt')):
-        # Skip everything.txt to avoid duplicates
-        if os.path.basename(txt) != 'everything.txt':
-            print(f'Processing {os.path.basename(txt)}...')
-            file_domains = load_domains(txt)
-            domains.update(file_domains)
-            print(f'  Added {len(file_domains)} domains')
+        print(f'Processing {os.path.basename(txt)}...')
+        file_domains = load_domains(txt)
+        domains.update(file_domains)
+        print(f'  Added {len(file_domains)} domains')
 
     write_hosts(domains,     os.path.join(out_dir, 'aggregated-hosts.txt'))
     write_dnsmasq(domains,   os.path.join(out_dir, 'aggregated-dnsmasq.conf'))

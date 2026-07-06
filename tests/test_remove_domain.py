@@ -7,7 +7,7 @@ from scripts.remove_domain import DomainRemover
 class TestDomainRemover(unittest.TestCase):
     def test_get_buildable_lists_skips_non_build_targets(self):
         remover = DomainRemover()
-        remover.affected_lists = {"abuse", "everything", "malware"}
+        remover.affected_lists = {"abuse", "malware"}
 
         with patch("scripts.remove_domain.load_config", return_value={"lists": {"abuse": {}, "malware": {}}}):
             assert remover.get_buildable_lists() == {"abuse", "malware"}

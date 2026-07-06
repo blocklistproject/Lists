@@ -235,9 +235,3 @@ lists:
     description: "YouTube domains (deprecated - ads served from same domains)"
     category: social
     status: deprecated
-
-# Combined list configuration
-combined:
-  everything:
-    description: "All stable lists combined"
-    include_status: [stable]  # Only include stable lists, not beta/alpha/deprecated

@@ -8,7 +8,6 @@
       - inside the `adguard` folder
       - inside the `alt-version` folder
       - inside the `dnsmasq-version` folder
-      - everything.txt
 
 Because those files will be automatically updated using GitHub Actions!
 

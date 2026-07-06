@@ -17,8 +17,6 @@ This workflow helps maintain consistency across all blocklist formats by detecti
 
 3. **Regenerates Formats**: Rebuilds all format variations (hosts, adguard, dnsmasq, alt-version) to ensure synchronization
 
-4. **Updates Everything List**: Regenerates the special "everything" combined list
-
 ## How to Run
 
 ### Via GitHub UI (Recommended)

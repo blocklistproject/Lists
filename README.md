@@ -128,6 +128,16 @@ Choose the appropriate format for your software:
 | Smart TV | [Link](https://blocklistproject.github.io/Lists/smart-tv.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/smart-tv-nl.txt) | [Link](https://blocklistproject.github.io/Lists/dnsmasq-version/smart-tv-dnsmasq.txt) | [Link](https://blocklistproject.github.io/Lists/adguard/smart-tv-ags.txt) | Smart TV telemetry |
 | Vaping | [Link](https://blocklistproject.github.io/Lists/vaping.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/vaping-nl.txt) | [Link](https://blocklistproject.github.io/Lists/dnsmasq-version/vaping-dnsmasq.txt) | [Link](https://blocklistproject.github.io/Lists/adguard/vaping-ags.txt) | Vaping/e-cigarette sites |
 | WhatsApp | [Link](https://blocklistproject.github.io/Lists/whatsapp.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/whatsapp-nl.txt) | [Link](https://blocklistproject.github.io/Lists/dnsmasq-version/whatsapp-dnsmasq.txt) | [Link](https://blocklistproject.github.io/Lists/adguard/whatsapp-ags.txt) | WhatsApp domains |
+
+> **📌 Note about the "Everything" List**  
+> The combined "everything" list (which merged all stable lists) has been **removed as of July 2026** due to exceeding GitHub's 100MB file size limit. The files grew too large for the repository:
+> - `everything.txt`: 125 MB
+> - `everything-ags.txt`: 102 MB  
+> - `everything-nl.txt`: 125 MB
+> - `everything-dnsmasq.txt`: 130 MB
+>
+> **Alternative:** To achieve similar coverage, subscribe to multiple individual lists in your DNS solution. Most tools support multiple blocklist subscriptions and will automatically merge them.
+
 ---
 
 ## Supported Formats

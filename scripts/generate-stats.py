@@ -29,7 +29,7 @@ def get_all_domains() -> dict[str, set[str]]:
 
     root = Path()
     for txt_file in sorted(root.glob("*.txt")):
-        if txt_file.name in ["README.md", "LICENSE", "everything.txt"]:
+        if txt_file.name in ["README.md", "LICENSE"]:
             continue
         if txt_file.name.startswith("."):
             continue

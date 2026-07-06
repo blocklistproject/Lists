@@ -27,7 +27,7 @@ Pick a single internal format as the “truth,” e.g.:
 * comments stripped (except metadata header)
 * invalid domains removed
 
-Everything else (hosts / dnsmasq / adguard / etc) becomes **pure output rendering** from that canonical set.
+Output formats (hosts / dnsmasq / adguard / etc) become **pure output rendering** from that canonical set.
 
 **Why this saves time:** format bugs and “why is it different between versions?” disappear because you only curate *one* dataset.
 

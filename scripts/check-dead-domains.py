@@ -113,7 +113,7 @@ def get_all_list_names() -> list[str]:
     names = []
 
     for txt_file in root.glob("*.txt"):
-        if txt_file.name not in ["README.md", "LICENSE", "everything.txt"]:
+        if txt_file.name not in ["README.md", "LICENSE"]:
             if not txt_file.name.startswith("."):
                 names.append(txt_file.stem)
 

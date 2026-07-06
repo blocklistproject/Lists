@@ -908,7 +908,6 @@ The Block List Project v2.0 rewrite represents a significant architectural impro
   - `adguard/*.txt` (auto-generated)
   - `alt-version/*.txt` (auto-generated)
   - `dnsmasq-version/*.txt` (auto-generated)
-  - `everything.txt` (auto-generated)
   ```
 
 - [ ] **Create `ARCHITECTURE.md`**
@@ -1063,7 +1062,7 @@ The Block List Project v2.0 rewrite represents a significant architectural impro
 - [ ] **Optimize domain set operations**
   - Use generators where possible
   - Stream large files instead of loading entirely
-  - Process lists one at a time for `everything.txt`
+  - Process lists efficiently
 
 **Deliverables:**
 - Parallel domain validation
@@ -1517,7 +1516,6 @@ For immediate impact, start with these high-priority items:
 
 ### Technical Debt
 - Legacy `.ip` files format needs review
-- `everything.txt` generation could be more efficient
 - Some duplicate code between scripts
 
 ### Community Concerns

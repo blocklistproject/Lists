@@ -114,9 +114,6 @@ def get_buildable_lists(config: Dict) -> Set[str]:
     """Get list of all buildable list names."""
     lists = set()
     for list_name, list_config in config.get('lists', {}).items():
-        # Skip the special "everything" list (not buildable with build.py)
-        if list_name == 'everything':
-            continue
         lists.add(list_name)
     return lists
 
