@@ -1,0 +1,5 @@
+# Exclusion list for tracking
+# Domains in this list will not be added from upstream sources
+# One domain per line, comments start with #
+
+wego.here.com

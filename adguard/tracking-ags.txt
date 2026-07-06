@@ -2,9 +2,9 @@
 ! Description: Tracking and analytics
 ! Homepage: https://github.com/blocklistproject/Lists
 ! License: MIT
-! Last modified: 2026-07-05 00:29:11 UTC
+! Last modified: 2026-07-06 00:31:35 UTC
 ! Format: AdGuard
-! Entries: 143,870
+! Entries: 143,869
 ! URL: 
 !
 ! This list is maintained by The Block List Project
@@ -141716,7 +141716,6 @@
 ||weekofeternaljoy.com^
 ||wefhitrk.com^
 ||wefi.com^
-||wego.here.com^
 ||wehvtomny.com^
 ||weighted.logs.roku.com^
 ||wekre6r5lsxxzzbnlltsbyfm6i0dcqrs.lambda-url.eu-central-1.on.aws^
