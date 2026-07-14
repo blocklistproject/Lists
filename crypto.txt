@@ -1,15 +1,6 @@
-# Title: Crypto Block List
-# Description: Cryptocurrency mining and scams
-# Homepage: https://github.com/blocklistproject/Lists
-# License: MIT
-# Last modified: 2026-07-06 00:40:19 UTC
-# Format: hosts
-# Entries: 1,272
-# URL: 
-#
-# This list is maintained by The Block List Project
-# https://github.com/blocklistproject/Lists
-#
+# Crypto Blocklist
+# Updated by upstream monitoring
+# Date: 2026-07-14T05:13:44.651930
 
 0.0.0.0 0slot.trade
 0.0.0.0 10102.io
@@ -1127,6 +1118,7 @@
 0.0.0.0 ticketszones.com
 0.0.0.0 titan.io
 0.0.0.0 tmspool.top
+0.0.0.0 tokenist.com
 0.0.0.0 tokenmetrics.com
 0.0.0.0 tokenpocket.pro
 0.0.0.0 tokenview.com
