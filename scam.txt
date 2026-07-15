@@ -1,15 +1,6 @@
-# Title: Scam Block List
-# Description: Scam domains
-# Homepage: https://github.com/blocklistproject/Lists
-# License: MIT
-# Last modified: 2026-07-06 00:40:32 UTC
-# Format: hosts
-# Entries: 8,528
-# URL: 
-#
-# This list is maintained by The Block List Project
-# https://github.com/blocklistproject/Lists
-#
+# Scam Blocklist
+# Updated by upstream monitoring
+# Date: 2026-07-15T05:14:23.106655
 
 0.0.0.0 0-google.com
 0.0.0.0 007-dvd.com
@@ -1058,6 +1049,7 @@
 0.0.0.0 brevardsun.com
 0.0.0.0 brianmillerr.us
 0.0.0.0 brieftyly.com
+0.0.0.0 brightfuturefoundations.com
 0.0.0.0 brighthave.com
 0.0.0.0 brightmeteors.com
 0.0.0.0 briibio.com
