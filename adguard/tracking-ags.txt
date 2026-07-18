@@ -2,9 +2,9 @@
 ! Description: Tracking and analytics
 ! Homepage: https://github.com/blocklistproject/Lists
 ! License: MIT
-! Last modified: 2026-07-18 01:25:59 UTC
+! Last modified: 2026-07-18 01:27:38 UTC
 ! Format: AdGuard
-! Entries: 143,880
+! Entries: 143,879
 ! URL: 
 !
 ! This list is maintained by The Block List Project
@@ -130860,7 +130860,6 @@
 ||structurerod.com^
 ||struq.com^
 ||sts.advertising.microsoft.com^
-||sts.amazonaws.com^
 ||sts.blr.com^
 ||sts.ipsonetwork.net^
 ||sts.livrariadopsicologo.com.br^
