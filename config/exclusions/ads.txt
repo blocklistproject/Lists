@@ -5,3 +5,4 @@
 indiegala.evyy.net
 compute-1.amazonaws.com
 subscribe.washingtonpost.com
+web.global-e.com
