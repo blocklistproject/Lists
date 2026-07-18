@@ -2,9 +2,9 @@
 # Description: Tracking and analytics
 # Homepage: https://github.com/blocklistproject/Lists
 # License: MIT
-# Last modified: 2026-07-18 01:27:38 UTC
+# Last modified: 2026-07-18 01:32:37 UTC
 # Format: domains
-# Entries: 143,879
+# Entries: 143,878
 # URL: 
 #
 # This list is maintained by The Block List Project
@@ -7691,7 +7691,6 @@ analytics.ceridwen.com
 analytics.ceriumsoft.com
 analytics.cert.pl
 analytics.certapet.com
-analytics.certifiedit.net
 analytics.certo-app.de
 analytics.cetteup.com
 analytics.ceu.com
