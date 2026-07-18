@@ -2,9 +2,9 @@
 # Description: Scam domains
 # Homepage: https://github.com/blocklistproject/Lists
 # License: MIT
-# Last modified: 2026-07-06 00:40:32 UTC
+# Last modified: 2026-07-18 01:33:08 UTC
 # Format: dnsmasq
-# Entries: 8,528
+# Entries: 8,527
 # URL: 
 #
 # This list is maintained by The Block List Project
@@ -7374,7 +7374,6 @@ server=/trade2gainfx.com/
 server=/trade2winoptions.com/
 server=/trade360option.com/
 server=/tradefist.com/
-server=/tradeit.gg/
 server=/tradelyn.net/
 server=/trademarkgen.com/
 server=/trademaximum.com/

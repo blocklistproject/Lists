@@ -1,0 +1,5 @@
+# Exclusion list for scam
+# Domains in this list will not be added from upstream sources
+# One domain per line, comments start with #
+
+tradeit.gg
