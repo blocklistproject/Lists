@@ -1,15 +1,6 @@
-# Title: Crypto Block List
-# Description: Cryptocurrency mining and scams
-# Homepage: https://github.com/blocklistproject/Lists
-# License: MIT
-# Last modified: 2026-07-06 00:40:19 UTC
-# Format: hosts
-# Entries: 1,272
-# URL: 
-#
-# This list is maintained by The Block List Project
-# https://github.com/blocklistproject/Lists
-#
+# Crypto Blocklist
+# Updated by upstream monitoring
+# Date: 2026-07-18T05:00:49.705603
 
 0.0.0.0 0slot.trade
 0.0.0.0 10102.io
@@ -43,6 +34,7 @@
 0.0.0.0 ad-miner.com
 0.0.0.0 adapools.org
 0.0.0.0 adbtc.top
+0.0.0.0 adiri.tel
 0.0.0.0 adminer.com
 0.0.0.0 adsbtc.fun
 0.0.0.0 aeon-pool.com
@@ -1127,6 +1119,7 @@
 0.0.0.0 ticketszones.com
 0.0.0.0 titan.io
 0.0.0.0 tmspool.top
+0.0.0.0 tokenist.com
 0.0.0.0 tokenmetrics.com
 0.0.0.0 tokenpocket.pro
 0.0.0.0 tokenview.com
