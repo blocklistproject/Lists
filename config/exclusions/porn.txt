@@ -3,3 +3,4 @@
 # One domain per line, comments start with #
 
 twitch.tv
+dayz.com
