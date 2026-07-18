@@ -99,7 +99,7 @@ Choose the appropriate format for your software:
 
 ### Main Lists
 
-| List | Original | No IP | DNSMASQ | AdGuard | Description |
+| List | Original/Pi-Hole Native | No IP | DNSMASQ | AdGuard | Description |
 |------|----------|-------|---------|---------|-------------|
 | Abuse | [Link](https://blocklistproject.github.io/Lists/abuse.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/abuse-nl.txt) | [Link](https://blocklistproject.github.io/Lists/dnsmasq-version/abuse-dnsmasq.txt) | [Link](https://blocklistproject.github.io/Lists/adguard/abuse-ags.txt) | Deceptive/abusive sites |
 | Ads | [Link](https://blocklistproject.github.io/Lists/ads.txt) | [Link](https://blocklistproject.github.io/Lists/alt-version/ads-nl.txt) | [Link](https://blocklistproject.github.io/Lists/dnsmasq-version/ads-dnsmasq.txt) | [Link](https://blocklistproject.github.io/Lists/adguard/ads-ags.txt) | Ad servers |
