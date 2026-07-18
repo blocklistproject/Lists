@@ -8,3 +8,4 @@ stat.fi
 sts.amazonaws.com
 analytics.certifiedit.net
 wbinsights.com
+ip.me

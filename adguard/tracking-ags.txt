@@ -2,9 +2,9 @@
 ! Description: Tracking and analytics
 ! Homepage: https://github.com/blocklistproject/Lists
 ! License: MIT
-! Last modified: 2026-07-18 01:34:50 UTC
+! Last modified: 2026-07-18 01:35:22 UTC
 ! Format: AdGuard
-! Entries: 143,877
+! Entries: 143,876
 ! URL: 
 !
 ! This list is maintained by The Block List Project
@@ -46920,7 +46920,6 @@
 ||ip.liveryvideo.com^
 ||ip.lovely-app.com^
 ||ip.marquer.io^
-||ip.me^
 ||ip.mktindex.com^
 ||ip.moojing.com^
 ||ip.mrfriday.com^
