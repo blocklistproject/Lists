@@ -2,9 +2,9 @@
 ! Description: Tracking and analytics
 ! Homepage: https://github.com/blocklistproject/Lists
 ! License: MIT
-! Last modified: 2026-07-18 01:17:01 UTC
+! Last modified: 2026-07-18 01:25:59 UTC
 ! Format: AdGuard
-! Entries: 143,881
+! Entries: 143,880
 ! URL: 
 !
 ! This list is maintained by The Block List Project
@@ -121375,7 +121375,6 @@
 ||stat.ferratec.ch^
 ||stat.feustel.eu^
 ||stat.ff.uni-lj.si^
-||stat.fi^
 ||stat.fibi.co.il^
 ||stat.fincabmedia.fi^
 ||stat.finessum.com^

@@ -4,3 +4,4 @@
 
 wego.here.com
 whatismyipaddress.com
+stat.fi
