@@ -2,9 +2,9 @@
 ! Description: Tracking and analytics
 ! Homepage: https://github.com/blocklistproject/Lists
 ! License: MIT
-! Last modified: 2026-07-18 01:32:37 UTC
+! Last modified: 2026-07-18 01:34:50 UTC
 ! Format: AdGuard
-! Entries: 143,878
+! Entries: 143,877
 ! URL: 
 !
 ! This list is maintained by The Block List Project
@@ -140942,7 +140942,6 @@
 ||wb22trk.com^
 ||wbdiul.dywanyluszczow.eu^
 ||wbg.tt.omtrdc.net^
-||wbinsights.com^
 ||wblacknet-224.top^
 ||wbm.wochenblitz.com^
 ||wbte.cimalp.fr^
