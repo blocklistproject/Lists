@@ -2,9 +2,9 @@
 ! Description: Tracking and analytics
 ! Homepage: https://github.com/blocklistproject/Lists
 ! License: MIT
-! Last modified: 2026-07-06 00:40:32 UTC
+! Last modified: 2026-07-18 01:17:01 UTC
 ! Format: AdGuard
-! Entries: 143,869
+! Entries: 143,881
 ! URL: 
 !
 ! This list is maintained by The Block List Project
@@ -3490,6 +3490,7 @@
 ||ad-serverparc.nl^
 ||ad-stir.com^
 ||ad-track.jp^
+||ad-tracker.samsungads.com^
 ||ad-x.co.uk^
 ||ad.12dt.com^
 ||ad.71i.de^
@@ -5861,6 +5862,7 @@
 ||analytics-eu.socialhippo.be^
 ||analytics-eu.socialhippo.nl^
 ||analytics-eu.trustyou.com^
+||analytics-events.apple.com^
 ||analytics-f1-venues.yinzcam.com^
 ||analytics-frame.sendsafely.com^
 ||analytics-gtm.redbubble.com^
@@ -23790,6 +23792,7 @@
 ||click.aaptiv.com^
 ||click.alexabyte.site^
 ||click.amazingfacts.org^
+||click.appwonders.org^
 ||click.avenuehomes.net^
 ||click.beatport-email.com^
 ||click.bible.com^
@@ -47899,6 +47902,7 @@
 ||jzd3dk.com^
 ||jzvln.famousfootwear.com^
 ||jzvsc.thermoworks.com^
+||jzzuvzq98.alphonso.tv^
 ||k-analytix.com^
 ||k-ring-fallback.msedge.net^
 ||k-ring.msedge.net^
@@ -48120,6 +48124,7 @@
 ||kfw03.webtrekk.net^
 ||kfw04.webtrekk.net^
 ||kg-ad-lgsmartad-com.aws-prd.net^
+||kg-legacy-analytics.servicebus.windows.net^
 ||kg-logagent-st.kingsgroupgames.com^
 ||kg.ad.lgsmartad.com^
 ||kg.lgsmartad.com^
@@ -48620,6 +48625,7 @@
 ||krishnaw401.alphonso.tv^
 ||krishnaw404.alphonso.tv^
 ||krishnaw405.alphonso.tv^
+||krishnaw408.alphonso.tv^
 ||krishnaw411.alphonso.tv^
 ||krishnaw412.alphonso.tv^
 ||krishnaw413.alphonso.tv^
@@ -56670,6 +56676,7 @@
 ||marketing.wbm.com^
 ||marketing.wbresearch.com^
 ||marketing.webgruppen.no^
+||marketing.whitewallsolutions.com^
 ||marketing.whysymphony.com^
 ||marketing.willamettewines.com^
 ||marketing.wilmingtonandbeaches.com^
@@ -80313,6 +80320,7 @@
 ||newrelic.ventures^
 ||newrelic.works^
 ||newrelic.wtf^
+||news-analytics-events.apple.com^
 ||news-app-events.apple.com^
 ||news-events.apple.com^
 ||news-lichter.de^
@@ -92802,6 +92810,7 @@
 ||pocitadlo.nejen.cz^
 ||pocitadlolibise.seznam.cz^
 ||pocketfaucet.com^
+||podcasts-analytics-events.apple.com^
 ||podfdch.com^
 ||podiumpresto.com^
 ||podph.mielleorganics.com^
@@ -93178,6 +93187,7 @@
 ||priv.w-vt.de^
 ||privacy-analytics.cc^
 ||privacy-api.9gag.com^
+||privacy-backend.samsungads.com^
 ||privacy-cs.mail.ru^
 ||privacy-digital.diip.co.uk^
 ||privacy-digital.infracapital.co.uk^
@@ -102499,6 +102509,7 @@
 ||serving-sys.com^
 ||servingclks.com^
 ||servmetric.com^
+||servo-report.dvdfab.cn^
 ||servo-report.keepstreams.com^
 ||servo-report.streamfab.com^
 ||servpaulapro.paulacunha.com.br^
@@ -138392,6 +138403,7 @@
 ||tutorthing.com^
 ||tutta.site^
 ||tuutrk.com^
+||tv-analytics-events.apple.com^
 ||tv-api.blivenyc.com^
 ||tv-static.scdn.co^
 ||tv.ads.spotx.tv^
@@ -138575,6 +138587,7 @@
 ||ua2.coveo.com^
 ||uadx.com^
 ||uae.nujum.ae^
+||uaenorth-0.in.applicationinsights.azure.com^
 ||uafkj.wondercide.com^
 ||uafms.ocbc.com^
 ||uagmu.cmkconstructioninc.com^
@@ -141859,7 +141872,6 @@
 ||whatismyip.uno^
 ||whatismyip1.itsupport247.net^
 ||whatismyip4.com^
-||whatismyipaddress.com^
 ||whatismyipaddressnow.co^
 ||whatismyiplookup.com^
 ||whatismyippro.com^
