@@ -7,3 +7,4 @@ compute-1.amazonaws.com
 subscribe.washingtonpost.com
 web.global-e.com
 clientfd.family.microsoft.com
+notification-prod.svc.gearsofwar.net
