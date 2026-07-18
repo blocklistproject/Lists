@@ -47,6 +47,10 @@ The Block List Project provides **free, open-source domain blocklists** for netw
 
 ---
 
+![Alt](https://repobeats.axiom.co/api/embed/89ccaea6c37737f54fc57933bfb05b050316c4e0.svg "Repobeats analytics image")
+
+---
+
 ## Features
 
 ### 🤖 Automated Maintenance
