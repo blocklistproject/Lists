@@ -1,6 +1,6 @@
 # Ads Blocklist
 # Updated by upstream monitoring
-# Date: 2026-07-20T05:54:06.086176
+# Date: 2026-07-25T05:27:09.744234
 
 0.0.0.0 0--0.info
 0.0.0.0 0--4.com
@@ -1429,6 +1429,7 @@
 0.0.0.0 0735tc.cn
 0.0.0.0 073c0cec65916314a.com
 0.0.0.0 073d-ec44-52e9-dab2.reporo.net
+0.0.0.0 073m.com
 0.0.0.0 074-hbw-141.mktoresp.com
 0.0.0.0 074-uqx-410.mktoresp.com
 0.0.0.0 07437.com
@@ -60068,6 +60069,7 @@
 0.0.0.0 bealafulup.com
 0.0.0.0 beam.hlserve.com
 0.0.0.0 beambroth.com
+0.0.0.0 beamed.com
 0.0.0.0 beamednation.com
 0.0.0.0 beamincrease.com
 0.0.0.0 beamkite.com
@@ -61206,6 +61208,7 @@
 0.0.0.0 bfiqlohtombic.review
 0.0.0.0 bfjwdxeakfifak.com
 0.0.0.0 bfkpzjqpawfu.com
+0.0.0.0 bfksfssj.top
 0.0.0.0 bflcuvtyffao.bid
 0.0.0.0 bfligiylbqypjkn.net
 0.0.0.0 bflorence.evergage.com
@@ -61465,6 +61468,7 @@
 0.0.0.0 bicyclelistclimaxdrone.com
 0.0.0.0 bicyclelistworst.com
 0.0.0.0 bicytaxi.com
+0.0.0.0 bid-algorix.com
 0.0.0.0 bid-apac.onetag-sys.com
 0.0.0.0 bid-digital.com
 0.0.0.0 bid-east.intentiq.com
@@ -61530,6 +61534,7 @@
 0.0.0.0 bidclickmedia.com
 0.0.0.0 bidclix.com
 0.0.0.0 bidclix.net
+0.0.0.0 biddager.com
 0.0.0.0 biddata.appia.com
 0.0.0.0 biddeo.me
 0.0.0.0 bidder-0.tinyhoneybee.com
@@ -74982,6 +74987,7 @@
 0.0.0.0 clikad.com
 0.0.0.0 clikdatastats.com
 0.0.0.0 clikerz.net
+0.0.0.0 clikk.cc
 0.0.0.0 cliksolution.com
 0.0.0.0 clikthrough.com
 0.0.0.0 clikz.mytvplayer.hop.clickbank.net
@@ -84150,6 +84156,7 @@
 0.0.0.0 d3pkrll6is44dx.cloudfront.net
 0.0.0.0 d3plfjw9uod7ab.cloudfront.net
 0.0.0.0 d3pqayu4fds1ps.cloudfront.net
+0.0.0.0 d3pstvpvx01zx.cloudfront.net
 0.0.0.0 d3pvcolmug0tz6.cloudfront.net
 0.0.0.0 d3q2dpprdsteo.cloudfront.net
 0.0.0.0 d3q33rbmdkxzj.cloudfront.net
@@ -86305,6 +86312,7 @@
 0.0.0.0 deceptiveamplehowl.com
 0.0.0.0 deceptivegipsyburka.com
 0.0.0.0 decibelinsight.net
+0.0.0.0 decidata.tv
 0.0.0.0 decide.dev
 0.0.0.0 decide.mixpanel.com
 0.0.0.0 decidedrum.com
@@ -86526,6 +86534,7 @@
 0.0.0.0 definedlaunching.com
 0.0.0.0 definemedia.de
 0.0.0.0 definite-bridge.pro
+0.0.0.0 definite-discussion.pro
 0.0.0.0 definiteflop.com
 0.0.0.0 definitelysquirrelstill.com
 0.0.0.0 definitelystick.com
@@ -117723,6 +117732,7 @@
 0.0.0.0 ib.bobafidges.com
 0.0.0.0 ib.bounceads.net
 0.0.0.0 ib.mookie1.com
+0.0.0.0 ib.msn.com
 0.0.0.0 ib.reachjunction.com
 0.0.0.0 ib.sin1.geoadnxs.com
 0.0.0.0 ib.snssdk.com.edgekey.net
@@ -135411,6 +135421,7 @@
 0.0.0.0 lovemoney.vn
 0.0.0.0 lovenyai.xyz
 0.0.0.0 loveonpurpose.com
+0.0.0.0 loveota.com
 0.0.0.0 lovercash.com
 0.0.0.0 loverevenue.com
 0.0.0.0 loveri.net
@@ -140422,6 +140433,7 @@
 0.0.0.0 meituan.net
 0.0.0.0 meitustat.com
 0.0.0.0 meiwa-kumquat.fruithosted.net
+0.0.0.0 meiyajudec.com
 0.0.0.0 meizhaikong.com
 0.0.0.0 mejlwlzjcbkjn.space
 0.0.0.0 mejoratuescuela.org
@@ -151379,6 +151391,7 @@
 0.0.0.0 nym1.b.adnxs.com
 0.0.0.0 nym1.ib.adnxs.com
 0.0.0.0 nym1.mobile.adnxs.com
+0.0.0.0 nym2-ib.msn.com
 0.0.0.0 nym2.ib.adnxs.com
 0.0.0.0 nymcom.112.2o7.net
 0.0.0.0 nymphacebids.com
@@ -174103,6 +174116,7 @@
 0.0.0.0 riwzzbhovpdzt.space
 0.0.0.0 rix1g.voluumtrk.com
 0.0.0.0 rixaka.com
+0.0.0.0 rixengine.com
 0.0.0.0 rixhkb6xw6ssiutu5ll3pwf0eyzbc1510264071.nuid.imrworldwide.com
 0.0.0.0 rixibe.xyz
 0.0.0.0 rixpjpjl.com
@@ -182128,6 +182142,7 @@
 0.0.0.0 sftp.snapads.com
 0.0.0.0 sftrack.searchforce.net
 0.0.0.0 sftwrads.com
+0.0.0.0 sfuati.com
 0.0.0.0 sfuzekmfxn.com
 0.0.0.0 sfw.adsafeprotected.com
 0.0.0.0 sfwop.voluumtrk.com
@@ -184925,6 +184940,7 @@
 0.0.0.0 smartb.tubeadvertising.eu
 0.0.0.0 smartbar.linkury.com
 0.0.0.0 smartbase.cdnservices.com
+0.0.0.0 smartbid.ai
 0.0.0.0 smartblocker.org
 0.0.0.0 smartbn.ru
 0.0.0.0 smartbrowse.netster.com
@@ -205094,6 +205110,7 @@
 0.0.0.0 uingroundhe.com
 0.0.0.0 uinnertablis.com
 0.0.0.0 uinvg.voluumtrk.com
+0.0.0.0 uionmvewqtpalsh.cc
 0.0.0.0 uioopnblobble.ru
 0.0.0.0 uiopkl.com
 0.0.0.0 uiotjaqx.com
@@ -231786,6 +231803,7 @@
 0.0.0.0 ybmhowqhutghd.store
 0.0.0.0 ybnuasihsy.com
 0.0.0.0 ybofeikeckfxh.com
+0.0.0.0 yboja.com
 0.0.0.0 ybotvisit.com
 0.0.0.0 ybowcyskuemsj.store
 0.0.0.0 ybozjqsojrktu.online
