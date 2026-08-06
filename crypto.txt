@@ -1,6 +1,6 @@
 # Crypto Blocklist
 # Updated by upstream monitoring
-# Date: 2026-07-20T05:54:09.443846
+# Date: 2026-08-06T05:29:12.131623
 
 0.0.0.0 0slot.trade
 0.0.0.0 10102.io
@@ -1055,6 +1055,7 @@
 0.0.0.0 simplemining.net
 0.0.0.0 sinovate.io
 0.0.0.0 sispop.site
+0.0.0.0 sky.money
 0.0.0.0 skydogepool.xyz
 0.0.0.0 skypool.org
 0.0.0.0 slushpool.com
