@@ -5946,6 +5946,7 @@
 0.0.0.0 12qzone.com
 0.0.0.0 12rtppodcast88.store
 0.0.0.0 12sheng.com
+0.0.0.0 12shio.net
 0.0.0.0 12skwin.com
 0.0.0.0 12slot78.win
 0.0.0.0 12slottyway.online
@@ -37640,6 +37641,7 @@
 0.0.0.0 288t.288t55.com
 0.0.0.0 288t.com
 0.0.0.0 288tnavi.com
+0.0.0.0 288vip.net
 0.0.0.0 288wonwin.cc
 0.0.0.0 288y.net
 0.0.0.0 288y.vip
@@ -38799,6 +38801,7 @@
 0.0.0.0 3039ky.com
 0.0.0.0 3039ln.com
 0.0.0.0 3039sx.com
+0.0.0.0 303adu.net
 0.0.0.0 303bets.net
 0.0.0.0 303joycasino.ru
 0.0.0.0 303k.net
@@ -43903,6 +43906,7 @@
 0.0.0.0 3di.casino
 0.0.0.0 3dice.com
 0.0.0.0 3dicecasino.top
+0.0.0.0 3dmahjong.net
 0.0.0.0 3dn.casino
 0.0.0.0 3dollarcasino.com
 0.0.0.0 3dprintler.com
@@ -47635,6 +47639,7 @@
 0.0.0.0 4crownscasino.se
 0.0.0.0 4crownscasino1.com
 0.0.0.0 4cus.net
+0.0.0.0 4dbett.net
 0.0.0.0 4dd.casino
 0.0.0.0 4dl.casino
 0.0.0.0 4dlover.pro
@@ -47642,6 +47647,7 @@
 0.0.0.0 4dresult.online
 0.0.0.0 4dresult.site
 0.0.0.0 4dsetan.net
+0.0.0.0 4dsetan.org
 0.0.0.0 4dsitusedctoto.com
 0.0.0.0 4dslot.fun
 0.0.0.0 4dslots.net
@@ -62243,6 +62249,7 @@
 0.0.0.0 777mec.org
 0.0.0.0 777mec.vip
 0.0.0.0 777megaplay.xyz
+0.0.0.0 777menang.net
 0.0.0.0 777milkywins.com
 0.0.0.0 777mmk.club
 0.0.0.0 777myanmar.com
@@ -77078,6 +77085,7 @@
 0.0.0.0 98platinumcasino796.com
 0.0.0.0 98sa88.com
 0.0.0.0 98slottica.com
+0.0.0.0 98togel.net
 0.0.0.0 98vincasino.com
 0.0.0.0 98vipph.net
 0.0.0.0 98viva.net
@@ -77934,6 +77942,7 @@
 0.0.0.0 99qh88.com
 0.0.0.0 99qq940.com
 0.0.0.0 99queridopg.com
+0.0.0.0 99rajawali.net
 0.0.0.0 99rio.com
 0.0.0.0 99rr940.com
 0.0.0.0 99rua.xyz
@@ -79265,6 +79274,7 @@
 0.0.0.0 abg99.pro
 0.0.0.0 abgame.cc
 0.0.0.0 abgbet188.com
+0.0.0.0 abi77.net
 0.0.0.0 abicasino.net
 0.0.0.0 abientot.nl
 0.0.0.0 abigcandy-casino-bet.com
@@ -79482,6 +79492,7 @@
 0.0.0.0 accreditedcasinos.com
 0.0.0.0 accslot888.org
 0.0.0.0 accumulategrownupcasino.com
+0.0.0.0 accutogel4d.net
 0.0.0.0 ace-bet-casino.com
 0.0.0.0 ace-betcasino.com
 0.0.0.0 ace-casino-city.com
@@ -79580,6 +79591,7 @@
 0.0.0.0 acemldp.life
 0.0.0.0 acemsxq.life
 0.0.0.0 acengfs.life
+0.0.0.0 acengtoto.net
 0.0.0.0 acenxry.life
 0.0.0.0 aceocus.com
 0.0.0.0 aceodds.com
@@ -80156,6 +80168,7 @@
 0.0.0.0 aerocasinoonline.nl
 0.0.0.0 aeroporto777.co
 0.0.0.0 aeroporto777.com
+0.0.0.0 aeroxslot.net
 0.0.0.0 aesarcasino.com
 0.0.0.0 aesexyfun.com
 0.0.0.0 aeslots.bet
@@ -80474,6 +80487,7 @@
 0.0.0.0 agen-klik4d.com
 0.0.0.0 agen-mpo100.com
 0.0.0.0 agen-sbobet-terpercaya.com
+0.0.0.0 agen1000.org
 0.0.0.0 agen126.club
 0.0.0.0 agen126.vip
 0.0.0.0 agen168.vip
@@ -80494,6 +80508,7 @@
 0.0.0.0 agen77.asia
 0.0.0.0 agen77.bet
 0.0.0.0 agen777slot.org
+0.0.0.0 agen787.net
 0.0.0.0 agen808.org
 0.0.0.0 agen88.biz
 0.0.0.0 agen88.info
@@ -80570,6 +80585,7 @@
 0.0.0.0 agenslot.sbs
 0.0.0.0 agenslot168.xyz
 0.0.0.0 agenslot388.xyz
+0.0.0.0 agenslot5000.com
 0.0.0.0 agenslot88.me
 0.0.0.0 agenslot88win.blogspot.com
 0.0.0.0 agenslotonline.club
@@ -80583,6 +80599,8 @@
 0.0.0.0 agent1xbet.com
 0.0.0.0 agent1xbet.ru
 0.0.0.0 agent1xbeteg.com
+0.0.0.0 agent55.net
+0.0.0.0 agent777.org
 0.0.0.0 agent855k.com
 0.0.0.0 agentamfamco.com
 0.0.0.0 agentbetting.biz
@@ -80610,6 +80628,7 @@
 0.0.0.0 agentoto.fun
 0.0.0.0 agentoto88.sbs
 0.0.0.0 agentoto888.com
+0.0.0.0 agentoto911.net
 0.0.0.0 agentotoplay.click
 0.0.0.0 agentpokerseries.com
 0.0.0.0 agents-1xbet.com
@@ -80804,6 +80823,8 @@
 0.0.0.0 ahha4dtelkom.com
 0.0.0.0 ahha4dtelkom18.com
 0.0.0.0 ahha4dtelkom20.com
+0.0.0.0 ahhabet88.org
+0.0.0.0 ahhtoto.com
 0.0.0.0 ahkb.casino
 0.0.0.0 ahli-badaiofc.com
 0.0.0.0 ahliacpekanbaru.com
@@ -80933,6 +80954,7 @@
 0.0.0.0 air168room.vip
 0.0.0.0 air168site.pro
 0.0.0.0 air168z.com
+0.0.0.0 air38.net
 0.0.0.0 air88.vip
 0.0.0.0 airac.online
 0.0.0.0 airasiabetslot.com
@@ -80943,6 +80965,7 @@
 0.0.0.0 airbet88.co
 0.0.0.0 airbet888.store
 0.0.0.0 airbets88.xyz
+0.0.0.0 airbetslot88.net
 0.0.0.0 airbetswap.xyz
 0.0.0.0 airbook247.com
 0.0.0.0 airbornebets.xyz
@@ -81040,6 +81063,7 @@
 0.0.0.0 ajo999id.xyz
 0.0.0.0 ajo999play.xyz
 0.0.0.0 ajoqq11.xyz
+0.0.0.0 ajr8.com
 0.0.0.0 ajr88.pro
 0.0.0.0 ajr88mustang.site
 0.0.0.0 ajry.casino
@@ -81087,6 +81111,7 @@
 0.0.0.0 ak8onlinecasino.com
 0.0.0.0 ak9.bet
 0.0.0.0 ak9.casino
+0.0.0.0 aka168.org
 0.0.0.0 aka888.live
 0.0.0.0 akademi188.xyz
 0.0.0.0 akademiaforex.ru
@@ -81113,6 +81138,7 @@
 0.0.0.0 akh.casino
 0.0.0.0 akibawincasinos.com
 0.0.0.0 akiracasino.com
+0.0.0.0 akita4d.net
 0.0.0.0 akiyama888.com
 0.0.0.0 aklasbela.net
 0.0.0.0 akmusicvideo.com
@@ -81148,6 +81174,7 @@
 0.0.0.0 aksessahamtoto.com
 0.0.0.0 aksessaudaratoto.com
 0.0.0.0 aksi118.xyz
+0.0.0.0 aksi77.org
 0.0.0.0 akslima.xyz
 0.0.0.0 akslot.store
 0.0.0.0 akslot88.net
@@ -81172,6 +81199,7 @@
 0.0.0.0 akunbetalterantif.xyz
 0.0.0.0 akunbetamp89.xyz
 0.0.0.0 akunbos88.net
+0.0.0.0 akunboz.com
 0.0.0.0 akundemogratisbos.site
 0.0.0.0 akundemopragmaticx1000.site
 0.0.0.0 akundemoslotterbaru.com
@@ -81246,6 +81274,7 @@
 0.0.0.0 aladinsgold2.com
 0.0.0.0 aladinsgold3.com
 0.0.0.0 alam4dton.com
+0.0.0.0 alam88.info
 0.0.0.0 alamatbeet.xyz
 0.0.0.0 alamatbet.app
 0.0.0.0 alamatbet.one
@@ -81354,6 +81383,7 @@
 0.0.0.0 albatros-film-festival.com
 0.0.0.0 albatrosscasino.com
 0.0.0.0 albert.nkl.de
+0.0.0.0 albert88.net
 0.0.0.0 albertacasino.live
 0.0.0.0 albertacasino.org
 0.0.0.0 albertacasinoclassic.com
@@ -81451,6 +81481,7 @@
 0.0.0.0 alevcasino991.com
 0.0.0.0 alevcasinogiris2026.com
 0.0.0.0 alex-tips.com
+0.0.0.0 alexa88.co
 0.0.0.0 alexabet88e.net
 0.0.0.0 alexabet88k.com
 0.0.0.0 alexander-casino-online.com
@@ -81552,6 +81583,7 @@
 0.0.0.0 alfapg.vip
 0.0.0.0 alfapgslots.com
 0.0.0.0 alfaslot.store
+0.0.0.0 alfaslot138.com
 0.0.0.0 alfasolusi.com
 0.0.0.0 alfatoto.shop
 0.0.0.0 alfcasino-0101.com
@@ -82382,6 +82414,7 @@
 0.0.0.0 aman88.co
 0.0.0.0 amanahtotoid.com
 0.0.0.0 amanatbeton.kz
+0.0.0.0 amanbet777.net
 0.0.0.0 amanbola.vip
 0.0.0.0 amanda777pg.com
 0.0.0.0 amandaocean2.com
@@ -82985,6 +83018,7 @@
 0.0.0.0 anadoluslotsponsor.icu
 0.0.0.0 anadoluslottr.com
 0.0.0.0 anaheimpoliceassociation.org
+0.0.0.0 anak88.org
 0.0.0.0 anakasik.online
 0.0.0.0 anakjawara.com
 0.0.0.0 anakjutawan.com
@@ -83064,6 +83098,7 @@
 0.0.0.0 ang866.com
 0.0.0.0 angel.casino
 0.0.0.0 angel12fun12.com
+0.0.0.0 angel169.org
 0.0.0.0 angel38.com
 0.0.0.0 angel4dslot.xyz
 0.0.0.0 angel77.xyz
@@ -83083,6 +83118,7 @@
 0.0.0.0 angelsplay88.com
 0.0.0.0 angermanagementcasinob.shop
 0.0.0.0 anggotagacor.vip
+0.0.0.0 anggrek77.net
 0.0.0.0 anggrekkuning.xyz
 0.0.0.0 anggur88.pro
 0.0.0.0 anginberkah.xyz
@@ -83091,6 +83127,8 @@
 0.0.0.0 angka-keluarhk.com
 0.0.0.0 angka2.xyz
 0.0.0.0 angka4.xyz
+0.0.0.0 angka805.net
+0.0.0.0 angka805.org
 0.0.0.0 angkabet.mobi
 0.0.0.0 angkabet.site
 0.0.0.0 angkabet001.com
@@ -83167,6 +83205,7 @@
 0.0.0.0 anglo-oriental.com
 0.0.0.0 angolacasinos.com
 0.0.0.0 angolascasino.com
+0.0.0.0 angpau777.org
 0.0.0.0 angrypoker.com
 0.0.0.0 angsaslot.pro
 0.0.0.0 angsaslots.com
@@ -83220,6 +83259,7 @@
 0.0.0.0 anjay88.com
 0.0.0.0 anjayslot.net
 0.0.0.0 anjcasino.com
+0.0.0.0 anjing88.org
 0.0.0.0 anjingkawangua.com
 0.0.0.0 anjo888.com
 0.0.0.0 anjouangaming.com
@@ -83269,6 +83309,7 @@
 0.0.0.0 anoy46444.club
 0.0.0.0 anqjb.com
 0.0.0.0 anru33.vip
+0.0.0.0 anru777.net
 0.0.0.0 anselgurney.com
 0.0.0.0 ansible-grandlisboacasino.com
 0.0.0.0 anspruchslotse.com
@@ -83302,6 +83343,7 @@
 0.0.0.0 antifenerbahce.net
 0.0.0.0 antiguagaming.com
 0.0.0.0 antihijack.app
+0.0.0.0 antimo69.org
 0.0.0.0 antirungkad.click
 0.0.0.0 antirungkat1.xyz
 0.0.0.0 antirungkathokicoy.shop
@@ -83408,6 +83450,7 @@
 0.0.0.0 ap6999.com
 0.0.0.0 ap77ap88.com
 0.0.0.0 ap7bets.com
+0.0.0.0 apace188.org
 0.0.0.0 apachecasinohotel.com
 0.0.0.0 apalah.shop
 0.0.0.0 apaldo.com
@@ -83444,6 +83487,7 @@
 0.0.0.0 apaqvtuilp.top
 0.0.0.0 apartamentoselcasinodellanes.com
 0.0.0.0 apasl2021bangkok.org
+0.0.0.0 apatogel.org
 0.0.0.0 apaycasinoca.xyz
 0.0.0.0 apbets.xyz
 0.0.0.0 apdi-casino.buzz
@@ -83730,6 +83774,7 @@
 0.0.0.0 api77.pro
 0.0.0.0 api88.club
 0.0.0.0 api888.pro
+0.0.0.0 api8888.net
 0.0.0.0 api88888.com
 0.0.0.0 api88f.com
 0.0.0.0 api88i.com
@@ -83757,6 +83802,7 @@
 0.0.0.0 apirvp6.traskiprik.info
 0.0.0.0 apislot.pro
 0.0.0.0 apislots.com
+0.0.0.0 apitoto88.org
 0.0.0.0 apitoto88.store
 0.0.0.0 apitvbetframe1.com
 0.0.0.0 apizeus.xyz
@@ -83778,6 +83824,8 @@
 0.0.0.0 apk-slot.xyz
 0.0.0.0 apk1xbet.bet
 0.0.0.0 apk1xbet.shop
+0.0.0.0 apk88slot.com
+0.0.0.0 apkbola138.com
 0.0.0.0 apkcasino.org
 0.0.0.0 apkcasinoindo.vip
 0.0.0.0 apkdewacasino.com
@@ -84599,6 +84647,7 @@
 0.0.0.0 arena77.club
 0.0.0.0 arena77.xyz
 0.0.0.0 arenabet.com
+0.0.0.0 arenabet4d.net
 0.0.0.0 arenabet77.co
 0.0.0.0 arenabets.fun
 0.0.0.0 arenabets.xyz
@@ -85026,6 +85075,7 @@
 0.0.0.0 armadatoto168.org
 0.0.0.0 armadawin.casino
 0.0.0.0 armanicasino.com
+0.0.0.0 armaniqq.org
 0.0.0.0 armasterbets365.com
 0.0.0.0 armbets.xyz
 0.0.0.0 armedbet.com
@@ -85135,6 +85185,7 @@
 0.0.0.0 artifactbets.xyz
 0.0.0.0 artificerbets.xyz
 0.0.0.0 artificialgrassboca-raton.com
+0.0.0.0 artiqq99.org
 0.0.0.0 artistoto4d.com
 0.0.0.0 artistpoker.xyz
 0.0.0.0 artists-casinos.nz
@@ -85168,6 +85219,7 @@
 0.0.0.0 arunabetpro.com
 0.0.0.0 arushgames.com
 0.0.0.0 aruzucasino.com
+0.0.0.0 arwah123.org
 0.0.0.0 arwahhoki8889.site
 0.0.0.0 arwahtogel888.com
 0.0.0.0 arwahtoto.lol
@@ -85184,6 +85236,7 @@
 0.0.0.0 arwincasino.com
 0.0.0.0 arya88.pro
 0.0.0.0 aryanbet.casino
+0.0.0.0 aryaslot88.org
 0.0.0.0 arzemju-kazino.com
 0.0.0.0 arzemju-kazino.lv
 0.0.0.0 arzemju-kazino.org
@@ -85215,6 +85268,7 @@
 0.0.0.0 asal-takar-casino.com
 0.0.0.0 asalbet88.com
 0.0.0.0 asalbet88.site
+0.0.0.0 asaltogel.org
 0.0.0.0 asand88.com
 0.0.0.0 asapez.com
 0.0.0.0 asasb.org
@@ -85293,6 +85347,7 @@
 0.0.0.0 asia88togel.com
 0.0.0.0 asia88vip.xyz
 0.0.0.0 asia88win.cc
+0.0.0.0 asia898.org
 0.0.0.0 asia8bets.site
 0.0.0.0 asia98.net
 0.0.0.0 asia99.bio
@@ -85373,6 +85428,7 @@
 0.0.0.0 asiangames88.xyz
 0.0.0.0 asiankitchentpa.com
 0.0.0.0 asianpoker888.xyz
+0.0.0.0 asianpoker99.org
 0.0.0.0 asianpokerexchange.com
 0.0.0.0 asianpokertour.com
 0.0.0.0 asiansl0t88.com
@@ -85408,8 +85464,10 @@
 0.0.0.0 asibet.com
 0.0.0.0 asik123.site
 0.0.0.0 asik33.club
+0.0.0.0 asikbandarqq.net
 0.0.0.0 asikbang.xyz
 0.0.0.0 asikdisini.xyz
+0.0.0.0 asikmpo.net
 0.0.0.0 asikpoker.com
 0.0.0.0 asikslot99.site
 0.0.0.0 asiktogelku.bet
@@ -85548,6 +85606,7 @@
 0.0.0.0 astonwin.org
 0.0.0.0 astor33.vip
 0.0.0.0 astra-casino.com
+0.0.0.0 astra138.org
 0.0.0.0 astra77.xyz
 0.0.0.0 astrabetgiris.org
 0.0.0.0 astrajam.com
@@ -85627,6 +85686,7 @@
 0.0.0.0 asty97.net
 0.0.0.0 asty978.com
 0.0.0.0 asuerobhz.com
+0.0.0.0 asuransi69.net
 0.0.0.0 asustogel.pro
 0.0.0.0 asvla.com
 0.0.0.0 asweetdoseofreality.com
@@ -86792,6 +86852,7 @@
 0.0.0.0 avantgardecasinovip.com
 0.0.0.0 avantgardescasino.com
 0.0.0.0 avanzavelozsebangsa.com
+0.0.0.0 avanzawin.net
 0.0.0.0 avariavs.com
 0.0.0.0 avatar-maxbet.com
 0.0.0.0 avatarcasino.com
@@ -86978,6 +87039,7 @@
 0.0.0.0 aw8w.com
 0.0.0.0 aw99.club
 0.0.0.0 aw99.pro
+0.0.0.0 awal4d.net
 0.0.0.0 awalslot.id
 0.0.0.0 awan3.com
 0.0.0.0 awan88.xyz
@@ -87039,6 +87101,7 @@
 0.0.0.0 axe-casino-aud.com
 0.0.0.0 axe-casino.app
 0.0.0.0 axe-casinos.net
+0.0.0.0 axe138.org
 0.0.0.0 axe7casino-au.com
 0.0.0.0 axe7casino-au.net
 0.0.0.0 axe7casino-australia.com
@@ -88887,6 +88950,7 @@
 0.0.0.0 baitpg.com
 0.0.0.0 baixopg.cc
 0.0.0.0 baj.casino
+0.0.0.0 bajai123.net
 0.0.0.0 bajaj123jos.com
 0.0.0.0 bajaj4dapk.com
 0.0.0.0 bajaj4dd.com
@@ -88948,6 +89012,7 @@
 0.0.0.0 bakar77a.com
 0.0.0.0 bakar77a.store
 0.0.0.0 bakar77play.net
+0.0.0.0 bakarat4d.net
 0.0.0.0 bakaslot.net
 0.0.0.0 bakatotoku.com
 0.0.0.0 bakaulogin.com
@@ -88958,13 +89023,16 @@
 0.0.0.0 bakersbetslips.com
 0.0.0.0 bakewithbetsy.com
 0.0.0.0 baksomedan.xyz
+0.0.0.0 baksoslot.net
 0.0.0.0 baksosolosuper.xyz
 0.0.0.0 baksourat.com
 0.0.0.0 baksourat.shop
 0.0.0.0 bakuhantam.online
 0.0.0.0 bakuslots.com
+0.0.0.0 bakwan777.org
 0.0.0.0 bakwanjagung.com
 0.0.0.0 bakwanpulsa.store
+0.0.0.0 baladatoto.org
 0.0.0.0 balaibahasa.org
 0.0.0.0 balaji9exch.com
 0.0.0.0 balak6.online
@@ -88997,12 +89065,14 @@
 0.0.0.0 balipoker333a.xyz
 0.0.0.0 balipoker333f.top
 0.0.0.0 balirenyulecheng.net
+0.0.0.0 baliselot.com
 0.0.0.0 balislot.us
 0.0.0.0 balislot88.casino
 0.0.0.0 balislotmaxwin.com
 0.0.0.0 balislotrtp.net
 0.0.0.0 balismarthome.com
 0.0.0.0 balitoto.online
+0.0.0.0 balitoto88.org
 0.0.0.0 baliunitedfc.com
 0.0.0.0 balivegas303.net
 0.0.0.0 balivegas88.org
@@ -89124,6 +89194,8 @@
 0.0.0.0 bambetcasino.org
 0.0.0.0 bambetcasinoau1.com
 0.0.0.0 bamboocasino.com
+0.0.0.0 bambu128.com
+0.0.0.0 bambu138.net
 0.0.0.0 bambu168.org
 0.0.0.0 bambu4d.bid
 0.0.0.0 bambu4d.pro
@@ -89585,6 +89657,7 @@
 0.0.0.0 bandar999top.com
 0.0.0.0 bandarbola.fun
 0.0.0.0 bandarbola855.wiki
+0.0.0.0 bandarbola88.org
 0.0.0.0 bandarcanis855.com
 0.0.0.0 bandarcasino.cloud
 0.0.0.0 bandarcasino.xyz
@@ -89646,6 +89719,7 @@
 0.0.0.0 bandit4dw.com
 0.0.0.0 bandit77.pro
 0.0.0.0 bandit77.win
+0.0.0.0 bandit8.org
 0.0.0.0 bandit88.biz
 0.0.0.0 banditcasino.com
 0.0.0.0 banditcasino.se
@@ -89995,6 +90069,7 @@
 0.0.0.0 barstoolsportsbook.com
 0.0.0.0 barsucasinoco.pro
 0.0.0.0 baruacu.xyz
+0.0.0.0 barudaktoto.org
 0.0.0.0 barudd.com
 0.0.0.0 barz-casino-role-uk.com
 0.0.0.0 barz-casino-website.com
@@ -90213,7 +90288,9 @@
 0.0.0.0 batikslot.fun
 0.0.0.0 batikslot.win
 0.0.0.0 batikslot138ac.com
+0.0.0.0 batintoto.org
 0.0.0.0 batiya118.top
+0.0.0.0 batman1138.org
 0.0.0.0 batman888.club
 0.0.0.0 batmancasino.de
 0.0.0.0 batmansuper.com
@@ -90235,6 +90312,7 @@
 0.0.0.0 battleofcasinoschampionship.online
 0.0.0.0 battreaffarerdagen.se
 0.0.0.0 batuintan.com
+0.0.0.0 batuk4d.net
 0.0.0.0 batumcasino.net
 0.0.0.0 batumcasino1.com
 0.0.0.0 batumslots.pro
@@ -90324,6 +90402,7 @@
 0.0.0.0 bayubermain.xyz
 0.0.0.0 bayuslot12.xyz
 0.0.0.0 bayuslot15.xyz
+0.0.0.0 bayutoto78.com
 0.0.0.0 baz.casino
 0.0.0.0 bazaarcasino.com
 0.0.0.0 bazarscatter.xyz
@@ -92144,6 +92223,7 @@
 0.0.0.0 belijajan.xyz
 0.0.0.0 beliterus.xyz
 0.0.0.0 belitogel.com
+0.0.0.0 belitogel.org
 0.0.0.0 bella-casino-win-uk.com
 0.0.0.0 bella.casino
 0.0.0.0 bellabingo.com
@@ -92262,6 +92342,7 @@
 0.0.0.0 ben88r.com
 0.0.0.0 ben88u.com
 0.0.0.0 ben88x.com
+0.0.0.0 benang4d.org
 0.0.0.0 benbet.app
 0.0.0.0 benbet.com
 0.0.0.0 benbetson.us
@@ -92319,12 +92400,14 @@
 0.0.0.0 bentara.asia
 0.0.0.0 benteng123.com
 0.0.0.0 benteng123.net
+0.0.0.0 benteng128.net
 0.0.0.0 benteng777.2024.mom
 0.0.0.0 benteng786.vip
 0.0.0.0 benteng786info.com
 0.0.0.0 benteng786seru.com
 0.0.0.0 bentengmerah.com
 0.0.0.0 bentengsurabaya.com
+0.0.0.0 bentengtoto69.com
 0.0.0.0 bentgpd.com
 0.0.0.0 bentleyslot.casino
 0.0.0.0 bento188.club
@@ -93428,6 +93511,7 @@
 0.0.0.0 besti69gacor.com
 0.0.0.0 bestiari.net
 0.0.0.0 bestidebitcasinos.click
+0.0.0.0 bestieslot.org
 0.0.0.0 bestinalabama.casino
 0.0.0.0 bestinarizona.casino
 0.0.0.0 bestinarkansas.casino
@@ -94212,6 +94296,7 @@
 0.0.0.0 bet1111.site
 0.0.0.0 bet112.cc
 0.0.0.0 bet1128.com
+0.0.0.0 bet118.org
 0.0.0.0 bet11888.com
 0.0.0.0 bet12-win.com
 0.0.0.0 bet123.bet
@@ -94626,6 +94711,7 @@
 0.0.0.0 bet367.net
 0.0.0.0 bet3739.com
 0.0.0.0 bet3756.com
+0.0.0.0 bet378.net
 0.0.0.0 bet3825.com
 0.0.0.0 bet388.biz
 0.0.0.0 bet38bets.com
@@ -95135,6 +95221,7 @@
 0.0.0.0 bet9zl.com
 0.0.0.0 bet9zm.com
 0.0.0.0 beta123.info
+0.0.0.0 beta13.net
 0.0.0.0 beta138cherss.xyz
 0.0.0.0 beta138raja.xyz
 0.0.0.0 beta4casino.net
@@ -96757,6 +96844,7 @@
 0.0.0.0 betme88xq.com
 0.0.0.0 betmelody.xyz
 0.0.0.0 betmen.ro
+0.0.0.0 betmen101.net
 0.0.0.0 betmen138.xyz
 0.0.0.0 betmen888.org
 0.0.0.0 betmencasino-ro.online
@@ -101834,6 +101922,7 @@
 0.0.0.0 bigo234.cloud
 0.0.0.0 bigo4d.online
 0.0.0.0 bigo4d.site
+0.0.0.0 bigo555.org
 0.0.0.0 bigo55real.xyz
 0.0.0.0 bigo99.site
 0.0.0.0 bigparicasino.com
@@ -101924,6 +102013,8 @@
 0.0.0.0 bigwinvegas.com
 0.0.0.0 bihtopslots.com
 0.0.0.0 biizzocasino.com
+0.0.0.0 biji4d.org
+0.0.0.0 bijijitu.org
 0.0.0.0 bijlicasino.com
 0.0.0.0 bijlicasino.net
 0.0.0.0 bikcasinogamesonline.com
@@ -102355,6 +102446,7 @@
 0.0.0.0 biotogel.com
 0.0.0.0 biowin.xyz
 0.0.0.0 bir-casino.ink
+0.0.0.0 bir188.org
 0.0.0.0 bircasinogiris.net
 0.0.0.0 bircasinonavigate.xyz
 0.0.0.0 birchplay.casino
@@ -102397,6 +102489,7 @@
 0.0.0.0 bis777.org
 0.0.0.0 bis777.win
 0.0.0.0 bisabet777.com
+0.0.0.0 bisabet88.net
 0.0.0.0 bisabets.com
 0.0.0.0 bisagaruda55.com
 0.0.0.0 bisamenang.shop
@@ -102921,6 +103014,7 @@
 0.0.0.0 bittenvegas.com
 0.0.0.0 bittsarz.com
 0.0.0.0 bitubet.com
+0.0.0.0 bitwin188.net
 0.0.0.0 bitx.bet
 0.0.0.0 bitycasino.ch
 0.0.0.0 bitz-casino.msk.su
@@ -105071,6 +105165,7 @@
 0.0.0.0 bmw850.net
 0.0.0.0 bmw88.blog
 0.0.0.0 bmw88pro.com
+0.0.0.0 bmw89.com
 0.0.0.0 bmw890.net
 0.0.0.0 bmwbet.asia
 0.0.0.0 bmwcasino.app
@@ -105316,6 +105411,7 @@
 0.0.0.0 bocasino.net
 0.0.0.0 bocaslots.id
 0.0.0.0 bocil77slot.site
+0.0.0.0 bocilselot.com
 0.0.0.0 bociltotontap1.website
 0.0.0.0 bociltotontap1.xyz
 0.0.0.0 bociltotontap2.xyz
@@ -105414,6 +105510,7 @@
 0.0.0.0 bogocinedigital.info
 0.0.0.0 bogor4dtoto.xyz
 0.0.0.0 bogotabets.com
+0.0.0.0 bogwin.net
 0.0.0.0 bohemiacasino-cz.com
 0.0.0.0 boho-au-casino.com
 0.0.0.0 boho-casino-au-play.com
@@ -105477,6 +105574,7 @@
 0.0.0.0 bokacasino.com
 0.0.0.0 bokacasino.org
 0.0.0.0 bokaptoto.net
+0.0.0.0 bokep111.net
 0.0.0.0 bokgwon.go.kr
 0.0.0.0 bokhomacasino.com
 0.0.0.0 bokkie.bet
@@ -105488,6 +105586,7 @@
 0.0.0.0 bol-slots.website
 0.0.0.0 bol.bet
 0.0.0.0 bola-casino88.pro
+0.0.0.0 bola0.com
 0.0.0.0 bola009.com
 0.0.0.0 bola10.bet
 0.0.0.0 bola12.top
@@ -105524,6 +105623,7 @@
 0.0.0.0 bola88.shop
 0.0.0.0 bola888.fun
 0.0.0.0 bola888.xyz
+0.0.0.0 bola888x.com
 0.0.0.0 bola88bets.live
 0.0.0.0 bola88fun.us
 0.0.0.0 bola88gg.us
@@ -105531,6 +105631,7 @@
 0.0.0.0 bola909.net
 0.0.0.0 bola90goaloo.com
 0.0.0.0 bolabacan.lol
+0.0.0.0 bolabagus303.org
 0.0.0.0 bolabandar.net
 0.0.0.0 bolabender753.com
 0.0.0.0 bolabet.co.zm
@@ -105552,6 +105653,7 @@
 0.0.0.0 boladafa.com
 0.0.0.0 boladeouro.net
 0.0.0.0 boladeourosports.net
+0.0.0.0 boladunia88.org
 0.0.0.0 bolaemas88.vip
 0.0.0.0 bolaeurobs88.pro
 0.0.0.0 bolagacor.casino
@@ -105563,6 +105665,7 @@
 0.0.0.0 bolago88m.net
 0.0.0.0 bolago88slots.com
 0.0.0.0 bolahitmedan.com
+0.0.0.0 bolahoki168.org
 0.0.0.0 bolahongkongpools.com
 0.0.0.0 bolajalan.xyz
 0.0.0.0 bolajudi-idnpoker.site
@@ -105570,6 +105673,7 @@
 0.0.0.0 bolakawan.net
 0.0.0.0 bolakawan.vip
 0.0.0.0 bolaking.asia
+0.0.0.0 bolaking138.org
 0.0.0.0 bolakita.asia
 0.0.0.0 bolakita.best
 0.0.0.0 bolakita.vip
@@ -105725,6 +105829,7 @@
 0.0.0.0 bonanza4d.top
 0.0.0.0 bonanza777.bet
 0.0.0.0 bonanza777.ink
+0.0.0.0 bonanza8.net
 0.0.0.0 bonanza88.co
 0.0.0.0 bonanza88.love
 0.0.0.0 bonanza88.shop
@@ -106554,6 +106659,7 @@
 0.0.0.0 booming-slots.ch
 0.0.0.0 booming-slots.online
 0.0.0.0 booming-slots.se
+0.0.0.0 booming4d.org
 0.0.0.0 boomingbet.id
 0.0.0.0 boomingbet.pro
 0.0.0.0 boomingslots-casino.net
@@ -106634,6 +106740,7 @@
 0.0.0.0 borgataonlinecasinousa.com
 0.0.0.0 borgatapoker.com
 0.0.0.0 boris-vian.net
+0.0.0.0 borjp.com
 0.0.0.0 borju89.top
 0.0.0.0 borkum-casino.de
 0.0.0.0 borlaslastik.com
@@ -106654,6 +106761,7 @@
 0.0.0.0 bos.ong
 0.0.0.0 bos01.pics
 0.0.0.0 bos01b.com
+0.0.0.0 bos16.org
 0.0.0.0 bos27.id
 0.0.0.0 bos388.live
 0.0.0.0 bos43.com
@@ -106850,6 +106958,7 @@
 0.0.0.0 bostonbetslot.com
 0.0.0.0 bostoncasino.com
 0.0.0.0 bostoncasinoparties.com
+0.0.0.0 bostoto21.net
 0.0.0.0 bostoto66.com
 0.0.0.0 bostoto66666.com
 0.0.0.0 bosvegas.org
@@ -107020,6 +107129,8 @@
 0.0.0.0 boysandgirlsdental.com
 0.0.0.0 boyzbts89.xyz
 0.0.0.0 boz.casino
+0.0.0.0 boz303.com
+0.0.0.0 boz5000.net
 0.0.0.0 bp-poker.com
 0.0.0.0 bp2psulawesi3.com
 0.0.0.0 bp383m.online
@@ -107964,6 +108075,7 @@
 0.0.0.0 bs168888.com
 0.0.0.0 bs168888.vip
 0.0.0.0 bs1688888.com
+0.0.0.0 bs303.org
 0.0.0.0 bs4.casino
 0.0.0.0 bs55661.com
 0.0.0.0 bs6.casino
@@ -108692,6 +108804,7 @@
 0.0.0.0 bucksempirescasino1.com
 0.0.0.0 buckyscasino.com
 0.0.0.0 bud777.com
+0.0.0.0 budak178.com
 0.0.0.0 budapest-casino-center.com
 0.0.0.0 budapestlottery.com
 0.0.0.0 budaya4d.live
@@ -108769,6 +108882,7 @@
 0.0.0.0 buffetatgrandcasino.com
 0.0.0.0 bug.casino
 0.0.0.0 bugatibet.vip
+0.0.0.0 bugiltoto.com
 0.0.0.0 bugistoto.live
 0.0.0.0 bugistoto.us
 0.0.0.0 buguize1.com
@@ -108816,6 +108930,7 @@
 0.0.0.0 buitenlandsonline.casino
 0.0.0.0 bujangjp.vip
 0.0.0.0 buka.pro
+0.0.0.0 buka69.net
 0.0.0.0 bukabet88.com
 0.0.0.0 bukanitu.xyz
 0.0.0.0 bukanlengkaleng.xyz
@@ -108825,6 +108940,8 @@
 0.0.0.0 bukit4d.fun
 0.0.0.0 bukit77.biz
 0.0.0.0 bukit88.biz
+0.0.0.0 bukitjp.net
+0.0.0.0 bukitjp.org
 0.0.0.0 bukitmpo.pro
 0.0.0.0 bukitslots.com
 0.0.0.0 bukmeker-1win.ru
@@ -108834,6 +108951,7 @@
 0.0.0.0 bukmekerz.ru
 0.0.0.0 bukoki.com
 0.0.0.0 bukti4d.vip
+0.0.0.0 buktijp.org
 0.0.0.0 buktijp.site
 0.0.0.0 buktijpbiru.best
 0.0.0.0 buktijpsontogel.online
@@ -109117,6 +109235,7 @@
 0.0.0.0 burungslot.net
 0.0.0.0 burwoodcasino.com
 0.0.0.0 burwoodcasinoau.com
+0.0.0.0 busabet.net
 0.0.0.0 busbetslot.org
 0.0.0.0 busbusy8888.com
 0.0.0.0 buscasinonimos.com
@@ -109136,6 +109255,7 @@
 0.0.0.0 buswinside.com
 0.0.0.0 but-only-love.com
 0.0.0.0 but.casino
+0.0.0.0 buta88.org
 0.0.0.0 butchthegambler.com
 0.0.0.0 butchysbbq.com
 0.0.0.0 butlersbingo.com
@@ -109190,6 +109310,7 @@
 0.0.0.0 buypropecia.life
 0.0.0.0 buyrealpassportonline.net
 0.0.0.0 buysellbets.xyz
+0.0.0.0 buyspinslot.net
 0.0.0.0 buyspinslotslot.com
 0.0.0.0 buysurebet.com
 0.0.0.0 buythesole.com
@@ -111662,6 +111783,7 @@
 0.0.0.0 careolder.com
 0.0.0.0 careprost33.us
 0.0.0.0 caretta-hiwasa.com
+0.0.0.0 cari88.org
 0.0.0.0 caribbeangold.com
 0.0.0.0 caribbeanpokerpro.com
 0.0.0.0 caribbeansunpoker.com
@@ -153162,6 +153284,7 @@
 0.0.0.0 cavip3.com
 0.0.0.0 cavip4.com
 0.0.0.0 cawan4dh.com
+0.0.0.0 cawanslot.com
 0.0.0.0 caxcasino.com
 0.0.0.0 caxeng.bet
 0.0.0.0 caxianlu.com
@@ -153625,6 +153748,7 @@
 0.0.0.0 ceaserspalace2000.net
 0.0.0.0 cebolagame.com
 0.0.0.0 cebolapg.com
+0.0.0.0 cebong88.com
 0.0.0.0 cebuwin.com
 0.0.0.0 cebuwin.net
 0.0.0.0 cec777.com
@@ -153667,6 +153791,7 @@
 0.0.0.0 celinepg.com
 0.0.0.0 celllottery.com
 0.0.0.0 cellspin96casino.top
+0.0.0.0 celo88.net
 0.0.0.0 celoslot.com
 0.0.0.0 celsius-casino-1.com
 0.0.0.0 celsius-casino-fr.app
@@ -153803,6 +153928,7 @@
 0.0.0.0 cerahawan88.xyz
 0.0.0.0 cerberuscasino.com
 0.0.0.0 cercare.biz
+0.0.0.0 cerdas88.net
 0.0.0.0 cerdasbento123.xn--q9jyb4c
 0.0.0.0 cerev.info
 0.0.0.0 ceri123.top
@@ -153821,6 +153947,7 @@
 0.0.0.0 ceri123j.co
 0.0.0.0 ceri138a.com
 0.0.0.0 ceri4d.xyz
+0.0.0.0 ceri777.me
 0.0.0.0 ceri88.asia
 0.0.0.0 ceri88.biz
 0.0.0.0 ceria777.pro
@@ -154830,6 +154957,7 @@
 0.0.0.0 cincinbetskuy.online
 0.0.0.0 cincinnatihardrockcasino.ca
 0.0.0.0 cincom9.com
+0.0.0.0 cindo69.org
 0.0.0.0 cinema777x.biz
 0.0.0.0 cinemabarslots.com
 0.0.0.0 cinemacasino.co.uk
@@ -154839,6 +154967,7 @@
 0.0.0.0 cinoslots.net
 0.0.0.0 cinoslots.org
 0.0.0.0 cinta77.biz
+0.0.0.0 cinta9.net
 0.0.0.0 cintaalto.com
 0.0.0.0 cintairama.com
 0.0.0.0 cintaiususmu.xyz
@@ -154856,6 +154985,7 @@
 0.0.0.0 cintatokekwin.com
 0.0.0.0 cintawaris.store
 0.0.0.0 cintawd.casino
+0.0.0.0 cintoto.org
 0.0.0.0 cinzapg.com
 0.0.0.0 cio777.com
 0.0.0.0 cio777.win
@@ -154909,6 +155039,7 @@
 0.0.0.0 ciputra77.org
 0.0.0.0 ciputra888.net
 0.0.0.0 ciputrabet.org
+0.0.0.0 ciputracuan.org
 0.0.0.0 circbet99.com
 0.0.0.0 circlebet.com
 0.0.0.0 circuitcasino.xyz
@@ -155162,6 +155293,7 @@
 0.0.0.0 clashofslots.co
 0.0.0.0 clashofslots.games
 0.0.0.0 clashpoker.app
+0.0.0.0 clasic303.net
 0.0.0.0 class-777-casino.top
 0.0.0.0 class777-casinos.com
 0.0.0.0 class777casino.net
@@ -155965,6 +156097,7 @@
 0.0.0.0 cobra33get.com
 0.0.0.0 cobra33now.com
 0.0.0.0 cobra33win.com
+0.0.0.0 cobra55.net
 0.0.0.0 cobra77.net
 0.0.0.0 cobra77slot.com
 0.0.0.0 cobra88.org
@@ -156137,6 +156270,7 @@
 0.0.0.0 coffeebet.bet
 0.0.0.0 coffeebingo.com
 0.0.0.0 coffeewithcasino.com
+0.0.0.0 cogil89.org
 0.0.0.0 cohapoker.com
 0.0.0.0 cohapoker.net
 0.0.0.0 coherent.shop
@@ -156178,6 +156312,7 @@
 0.0.0.0 coinbet22.com
 0.0.0.0 coinbet24.com
 0.0.0.0 coinbet303.com
+0.0.0.0 coinbet88.org
 0.0.0.0 coinbets.info
 0.0.0.0 coinbets777-au.com
 0.0.0.0 coinbets777-australia.com
@@ -157007,6 +157142,7 @@
 0.0.0.0 corsaza1.cc
 0.0.0.0 corso-casino.com
 0.0.0.0 cortocabeloepinto.com
+0.0.0.0 cortoto.net
 0.0.0.0 coruja777slots.bet
 0.0.0.0 coruletacasino.co
 0.0.0.0 coruletadecasino.co
@@ -157620,6 +157756,7 @@
 0.0.0.0 crazy-win-casino.com
 0.0.0.0 crazy-winners-casino-win.com
 0.0.0.0 crazy-winners.casino
+0.0.0.0 crazy123.org
 0.0.0.0 crazy67.com
 0.0.0.0 crazybet.com
 0.0.0.0 crazybuzzer.de
@@ -158949,6 +159086,7 @@
 0.0.0.0 cuanterus.xyz
 0.0.0.0 cuantoacuanto.com
 0.0.0.0 cuantoge123.vip
+0.0.0.0 cuantoto777.com
 0.0.0.0 cuanunited.org
 0.0.0.0 cuanwin.lol
 0.0.0.0 cuanwin88.shop
@@ -158967,6 +159105,7 @@
 0.0.0.0 cucasinowin.com
 0.0.0.0 cuchb.com
 0.0.0.0 cuci22.com
+0.0.0.0 cuci22.org
 0.0.0.0 cuci711.com
 0.0.0.0 cuci88.casino
 0.0.0.0 cucigudang.info
@@ -160148,10 +160287,12 @@
 0.0.0.0 dadu178c.xyz
 0.0.0.0 dadu4d-offical.com
 0.0.0.0 dadu4doffical.com
+0.0.0.0 dadu55.org
 0.0.0.0 dadugaming.net
 0.0.0.0 daduidn.biz
 0.0.0.0 dadumaster.vip
 0.0.0.0 dadupoker99.com
+0.0.0.0 daduqq.net
 0.0.0.0 daduslot88asli.com
 0.0.0.0 daduslot88casino.com
 0.0.0.0 daduslot88poker.com
@@ -160368,6 +160509,7 @@
 0.0.0.0 dagatructuyen.com
 0.0.0.0 dagelanmulia.com
 0.0.0.0 daget-4d.com
+0.0.0.0 daget138.net
 0.0.0.0 daget4d.link
 0.0.0.0 daget4d2.com
 0.0.0.0 daget4ddg.com
@@ -160533,7 +160675,9 @@
 0.0.0.0 dana808.net
 0.0.0.0 dana82880.com
 0.0.0.0 dana87963.com
+0.0.0.0 dana88login.net
 0.0.0.0 dana89100.com
+0.0.0.0 dana96.net
 0.0.0.0 dana99-premium.com
 0.0.0.0 dana99slot.site
 0.0.0.0 danabet88.org
@@ -160551,6 +160695,7 @@
 0.0.0.0 danasgp.com
 0.0.0.0 danaslot.biz
 0.0.0.0 danaslot.fun
+0.0.0.0 danaslot138.com
 0.0.0.0 danatogel.id
 0.0.0.0 danatogel.vip
 0.0.0.0 danatotal.cyou
@@ -160633,6 +160778,7 @@
 0.0.0.0 danskecasinotop10.com
 0.0.0.0 danskecommodities.biz
 0.0.0.0 danskespil.dk
+0.0.0.0 dantogel.net
 0.0.0.0 dantoto.dk
 0.0.0.0 danweicanting.com
 0.0.0.0 danybet.com
@@ -160772,6 +160918,7 @@
 0.0.0.0 datasgp.store
 0.0.0.0 datasgp2023.com
 0.0.0.0 datasgplengkap.com
+0.0.0.0 datasinga.org
 0.0.0.0 datasydney.group
 0.0.0.0 datasydney2025.top
 0.0.0.0 datasydney6d.site
@@ -160793,9 +160940,11 @@
 0.0.0.0 datosdeparleygratis.net
 0.0.0.0 datslots.com
 0.0.0.0 dattamedicalcentre.com
+0.0.0.0 datuk69.org
 0.0.0.0 datuklivedrawsdy.xyz
 0.0.0.0 daun4d.site
 0.0.0.0 daun4d.top
+0.0.0.0 daun77.net
 0.0.0.0 daun77a.xyz
 0.0.0.0 daun88slots.com
 0.0.0.0 daunasli.lol
@@ -162026,6 +162175,7 @@
 0.0.0.0 dealdusk.com
 0.0.0.0 dealemupcasino.net
 0.0.0.0 dealer-poker.com
+0.0.0.0 dealer123.org
 0.0.0.0 dealers-choice-poker-edition.com
 0.0.0.0 dealerscasino.com
 0.0.0.0 dealgamble.com
@@ -162551,6 +162701,7 @@
 0.0.0.0 demo-slots.pro
 0.0.0.0 demo-slots.xyz
 0.0.0.0 demo188.xyz
+0.0.0.0 demo444.net
 0.0.0.0 demobi.top
 0.0.0.0 democasino.onl
 0.0.0.0 democasino.pro
@@ -162703,16 +162854,19 @@
 0.0.0.0 deoct7xngj20p.cloudfront.net
 0.0.0.0 deotrotipo.mx
 0.0.0.0 depcasino.co.nl
+0.0.0.0 depe88.net
 0.0.0.0 depecagedion.com
 0.0.0.0 depelicancasino.com
 0.0.0.0 depeslot.net
 0.0.0.0 depfile.us
 0.0.0.0 depinpoker.xyz
 0.0.0.0 deplatincasino.de
+0.0.0.0 depo118.com
 0.0.0.0 depo288.vip
 0.0.0.0 depo50rbgcr.xyz
 0.0.0.0 depo55alt.xyz
 0.0.0.0 depo77.online
+0.0.0.0 depo789.org
 0.0.0.0 depo88.pro
 0.0.0.0 depo88.store
 0.0.0.0 depo88casino.com
@@ -162739,7 +162893,10 @@
 0.0.0.0 depoqq.bet
 0.0.0.0 deportesenlaboulaye.com
 0.0.0.0 deposit-withdraw.com
+0.0.0.0 deposit10.net
+0.0.0.0 deposit100.org
 0.0.0.0 deposit1xbetindia.com
+0.0.0.0 deposit66.org
 0.0.0.0 depositbonuscasino.uk
 0.0.0.0 depositbonusescasino.com
 0.0.0.0 depositonlinecasinos.com
@@ -162864,6 +163021,7 @@
 0.0.0.0 desolcasino.com
 0.0.0.0 desperatehousewivesbingo.com
 0.0.0.0 dessertlady.com
+0.0.0.0 desta888.org
 0.0.0.0 destapolda.xyz
 0.0.0.0 destekbets10bonus.com
 0.0.0.0 destindelafrique.org
@@ -163014,11 +163172,13 @@
 0.0.0.0 dewa1000.info
 0.0.0.0 dewa1000.pro
 0.0.0.0 dewa1000.vip
+0.0.0.0 dewa1111.net
 0.0.0.0 dewa1221.site
 0.0.0.0 dewa123.vip
 0.0.0.0 dewa138.site
 0.0.0.0 dewa138login.com
 0.0.0.0 dewa168.xyz
+0.0.0.0 dewa189.me
 0.0.0.0 dewa19slots.com
 0.0.0.0 dewa212mandiri.xyz
 0.0.0.0 dewa212sakuku.xyz
@@ -163152,7 +163312,10 @@
 0.0.0.0 dewanaga89.pro
 0.0.0.0 dewanaga89ofc.org
 0.0.0.0 dewanaga98.com
+0.0.0.0 dewantogel.org
 0.0.0.0 dewaogel.com
+0.0.0.0 dewapalu.net
+0.0.0.0 dewapegas.net
 0.0.0.0 dewaplay.shop
 0.0.0.0 dewapoker.bio
 0.0.0.0 dewapoker.cloud
@@ -163317,6 +163480,7 @@
 0.0.0.0 dewihoki.site
 0.0.0.0 dewihoki88.online
 0.0.0.0 dewijoker.online
+0.0.0.0 dewijoker88.net
 0.0.0.0 dewijudi.com
 0.0.0.0 dewikayra12.xyz
 0.0.0.0 dewiku88.today
@@ -163326,6 +163490,7 @@
 0.0.0.0 dewipoker.xyz
 0.0.0.0 dewislot.vip
 0.0.0.0 dewislot22.xyz
+0.0.0.0 dewislot23.net
 0.0.0.0 dewislot77hoki.xyz
 0.0.0.0 dewislot99daftar.xyz
 0.0.0.0 dewitogel.com
@@ -163333,6 +163498,7 @@
 0.0.0.0 dewitoto.biz
 0.0.0.0 dewitoto.sbs
 0.0.0.0 dewitoto.store
+0.0.0.0 dewo200.com
 0.0.0.0 dewoocasino.com
 0.0.0.0 dex.poker
 0.0.0.0 dexa88.com
@@ -163616,6 +163782,7 @@
 0.0.0.0 dian4d.asia
 0.0.0.0 dian4d.club
 0.0.0.0 diana4d.pro
+0.0.0.0 diana777.org
 0.0.0.0 dianema-team.ru
 0.0.0.0 dianzi4556.com
 0.0.0.0 diariocallao.com
@@ -165383,6 +165550,7 @@
 0.0.0.0 dolar138terbaik.com
 0.0.0.0 dolar138v.com
 0.0.0.0 dolar138y.com
+0.0.0.0 dolar777play.com
 0.0.0.0 dolar88.shop
 0.0.0.0 dolarpay.com
 0.0.0.0 dolarpg.com
@@ -165562,6 +165730,7 @@
 0.0.0.0 dominos-casino.com
 0.0.0.0 dominoscasino-au.com
 0.0.0.0 dominoscasino-australia.com
+0.0.0.0 dominowin99.net
 0.0.0.0 domjuara.org
 0.0.0.0 domnobet88.net
 0.0.0.0 domnobet88.org
@@ -165699,6 +165868,7 @@
 0.0.0.0 doradobets.lat
 0.0.0.0 dorados-casino.com
 0.0.0.0 dorados.com
+0.0.0.0 doraemon4d.org
 0.0.0.0 doraemonlink.space
 0.0.0.0 dorahoki.link
 0.0.0.0 dorahoki3.com
@@ -165710,6 +165880,7 @@
 0.0.0.0 doremibro.xyz
 0.0.0.0 doremifa.xyz
 0.0.0.0 doremiplay88.org
+0.0.0.0 dori77.org
 0.0.0.0 doribet.com
 0.0.0.0 dormroompoker.org
 0.0.0.0 dorsetcafe.com
@@ -167399,6 +167570,8 @@
 0.0.0.0 duit66makmur.com
 0.0.0.0 duit88.asia
 0.0.0.0 duitcuan.com
+0.0.0.0 duitjp.com
+0.0.0.0 duitjp.net
 0.0.0.0 duitpoker.org
 0.0.0.0 duk7pokerdom.com
 0.0.0.0 dukat.casino
@@ -167725,6 +167898,7 @@
 0.0.0.0 dwhitegroup2.com
 0.0.0.0 dwi.casino
 0.0.0.0 dwi88.net
+0.0.0.0 dwi999.net
 0.0.0.0 dwibsi.com
 0.0.0.0 dwilliamhill.com
 0.0.0.0 dwin222.com
@@ -170058,6 +170232,7 @@
 0.0.0.0 empathicparentingcounseling.com
 0.0.0.0 empatjnt777.site
 0.0.0.0 empatroda.com
+0.0.0.0 empek2.net
 0.0.0.0 emperia-casino1.com
 0.0.0.0 emperiacasino-ca.com
 0.0.0.0 emperiacasino-pt.com
@@ -170133,6 +170308,7 @@
 0.0.0.0 empuantinawala.xyz
 0.0.0.0 empupastikuat.xyz
 0.0.0.0 emputogel.com
+0.0.0.0 emputogel.org
 0.0.0.0 emslot.co
 0.0.0.0 emtacasino.com
 0.0.0.0 emtworldwide.com
@@ -170190,6 +170366,7 @@
 0.0.0.0 en2.casino
 0.0.0.0 en365casino-india.com
 0.0.0.0 en8.casino
+0.0.0.0 ena77.org
 0.0.0.0 enable-boostwincasino.click
 0.0.0.0 enable-boostwincasino.icu
 0.0.0.0 enable-boostwincasino.link
@@ -170361,6 +170538,7 @@
 0.0.0.0 enginebets.xyz
 0.0.0.0 engineerbets.xyz
 0.0.0.0 enginepoker.xyz
+0.0.0.0 engineslot.org
 0.0.0.0 england-bets.vip
 0.0.0.0 england-fixed-matches.com
 0.0.0.0 englishimages.co.uk
@@ -170616,6 +170794,7 @@
 0.0.0.0 era77ca.com
 0.0.0.0 era77rtpresmi.xyz
 0.0.0.0 era88plygame.top
+0.0.0.0 era99.org
 0.0.0.0 erab.org
 0.0.0.0 erabet88.vip
 0.0.0.0 erabetcasino-nz.com
@@ -170659,9 +170838,11 @@
 0.0.0.0 ernbets.org
 0.0.0.0 ernstgin.com
 0.0.0.0 erogrand.com
+0.0.0.0 eropa33.com
 0.0.0.0 eropa777.biz
 0.0.0.0 eropa99nolimit.com
 0.0.0.0 eropa99ny.com
+0.0.0.0 eropabet23.com
 0.0.0.0 eropachoice.com
 0.0.0.0 eropagaul.xyz
 0.0.0.0 eropalotto.info
@@ -171609,6 +171790,7 @@
 0.0.0.0 evo-jili.tw
 0.0.0.0 evo-poker.com
 0.0.0.0 evo.io
+0.0.0.0 evo128.org
 0.0.0.0 evo168.org
 0.0.0.0 evo3.bet
 0.0.0.0 evo77.space
@@ -171635,6 +171817,7 @@
 0.0.0.0 evocasino.app
 0.0.0.0 evocasino.win
 0.0.0.0 evocasinos.com
+0.0.0.0 evodomino99.org
 0.0.0.0 evokecasino.com
 0.0.0.0 evokecasinoworld.com
 0.0.0.0 evokecasinozone.com
@@ -172738,6 +172921,7 @@
 0.0.0.0 facepg.com
 0.0.0.0 facepoker.xyz
 0.0.0.0 facesapparel.com
+0.0.0.0 facetoto.com
 0.0.0.0 fachai.net
 0.0.0.0 fachai68.pro
 0.0.0.0 fachai7.com
@@ -172792,6 +172976,7 @@
 0.0.0.0 fafabetsouthafrica.online
 0.0.0.0 fafafa.me
 0.0.0.0 fafafa3388.com
+0.0.0.0 fafafa777.org
 0.0.0.0 fafafaslots.net
 0.0.0.0 fafafaslots.org
 0.0.0.0 fafaslot.net
@@ -173334,6 +173519,7 @@
 0.0.0.0 fareseattle.org
 0.0.0.0 farfan-slots.online
 0.0.0.0 farfan-slots.website
+0.0.0.0 faris12.com
 0.0.0.0 farmaciacasinos.es
 0.0.0.0 farmaciagobbetti.shop
 0.0.0.0 farmaciaveleroblanco.com
@@ -174918,6 +175104,7 @@
 0.0.0.0 filo-casino.net
 0.0.0.0 filoelomoparley.com
 0.0.0.0 filthyrichslots.com
+0.0.0.0 fin303.net
 0.0.0.0 fin444.live
 0.0.0.0 fin444.pro
 0.0.0.0 fin4d.store
@@ -175104,6 +175291,7 @@
 0.0.0.0 fishwin.win
 0.0.0.0 fishwin.xyz
 0.0.0.0 fishypokerdeluxe.com
+0.0.0.0 fisik89.net
 0.0.0.0 fissionsporting.xyz
 0.0.0.0 fist.homes
 0.0.0.0 fistofdestructioncasino.nl
@@ -175847,6 +176035,7 @@
 0.0.0.0 fontan-casinopl.ink
 0.0.0.0 fontan-casinopl.life
 0.0.0.0 fontan-casinopl.live
+0.0.0.0 fontana138.org
 0.0.0.0 fontancasino-au.com
 0.0.0.0 fontancasino-aud.com
 0.0.0.0 fontancasino-avg.top
@@ -176075,6 +176264,7 @@
 0.0.0.0 fortunazo-casino-online.cl
 0.0.0.0 fortunazocasino.info
 0.0.0.0 fortunazocasinos.cl
+0.0.0.0 fortunbet.net
 0.0.0.0 fortune-bestslots.club
 0.0.0.0 fortune-boostwincasino.click
 0.0.0.0 fortune-boostwincasino.icu
@@ -176453,6 +176643,7 @@
 0.0.0.0 fragabetcasinode.com
 0.0.0.0 fragabets-azerbaycan.net
 0.0.0.0 fragacasino.biz
+0.0.0.0 fragmatic88.com
 0.0.0.0 fraichy.com
 0.0.0.0 frametechnology.xyz
 0.0.0.0 francaisonlinecasinos.net
@@ -177779,6 +177970,7 @@
 0.0.0.0 fs009.com
 0.0.0.0 fs1057.casino
 0.0.0.0 fs106.casino
+0.0.0.0 fs125.com
 0.0.0.0 fs1276.casino
 0.0.0.0 fs1328.casino
 0.0.0.0 fs1469.casino
@@ -178128,6 +178320,7 @@
 0.0.0.0 full-5.com
 0.0.0.0 full-house.nl
 0.0.0.0 full88casino.xyz
+0.0.0.0 fullbet777.org
 0.0.0.0 fullbetter.com
 0.0.0.0 fullbetvn.com
 0.0.0.0 fullcasino.site
@@ -179107,6 +179300,7 @@
 0.0.0.0 funrspor88.com
 0.0.0.0 funs55.com
 0.0.0.0 funs8lot88super.com
+0.0.0.0 funselot.com
 0.0.0.0 funslots-canada.com
 0.0.0.0 funspor88.com
 0.0.0.0 funsport101.com
@@ -179689,6 +179883,7 @@
 0.0.0.0 gaeep.com
 0.0.0.0 gaengsom.com
 0.0.0.0 gag246.com
+0.0.0.0 gaga123.net
 0.0.0.0 gagah4d-a.com
 0.0.0.0 gagah4dhero.com
 0.0.0.0 gagakhitam.xyz
@@ -179706,16 +179901,19 @@
 0.0.0.0 gaita777.win
 0.0.0.0 gaitapg.cc
 0.0.0.0 gaitod.com
+0.0.0.0 gaja88.net
 0.0.0.0 gaja999.com
 0.0.0.0 gajabook.com
 0.0.0.0 gajah138casino.com
 0.0.0.0 gajah303.com
+0.0.0.0 gajah88slots.org
 0.0.0.0 gajahkece.com
 0.0.0.0 gajahku.xyz
 0.0.0.0 gajahmadatoto.xyz
 0.0.0.0 gajahtinggi.com
 0.0.0.0 gajian123.pro
 0.0.0.0 gajian123a.com
+0.0.0.0 gajian99.net
 0.0.0.0 gakabet1077.com
 0.0.0.0 gako-kirov.ru
 0.0.0.0 gal99.com
@@ -179780,6 +179978,7 @@
 0.0.0.0 galaksino.com
 0.0.0.0 galaksipetir.lol
 0.0.0.0 galaspins.com
+0.0.0.0 galaxi777.me
 0.0.0.0 galaxiworld.com
 0.0.0.0 galaxy-casino.com.pl
 0.0.0.0 galaxy.bet
@@ -181123,6 +181322,7 @@
 0.0.0.0 gamingpoker.xyz
 0.0.0.0 gamingproject.xyz
 0.0.0.0 gamingqq.net
+0.0.0.0 gamingqq.org
 0.0.0.0 gamingsafely.com
 0.0.0.0 gamingseru.net
 0.0.0.0 gamingslotgg.vip
@@ -181300,6 +181500,7 @@
 0.0.0.0 garamwin.net
 0.0.0.0 garang4d.club
 0.0.0.0 garansi138.org
+0.0.0.0 garansi4d.org
 0.0.0.0 garansi88win.xyz
 0.0.0.0 garantibetgiris.icu
 0.0.0.0 garasi189.vip
@@ -181421,8 +181622,10 @@
 0.0.0.0 gas88.shop
 0.0.0.0 gas89.store
 0.0.0.0 gasbang.xyz
+0.0.0.0 gasbet4d.org
 0.0.0.0 gasbet88a.xyz
 0.0.0.0 gasboba.com
+0.0.0.0 gasbro.me
 0.0.0.0 gasdubai69.xyz
 0.0.0.0 gashinzo.com
 0.0.0.0 gasing.net
@@ -181432,6 +181635,7 @@
 0.0.0.0 gasing77slot.com
 0.0.0.0 gasingslot.com
 0.0.0.0 gasingslot.net
+0.0.0.0 gasingslot777.net
 0.0.0.0 gasingtoto.shop
 0.0.0.0 gaskenlagi.xyz
 0.0.0.0 gasklikme88.xyz
@@ -181511,6 +181715,7 @@
 0.0.0.0 gauzepg.com
 0.0.0.0 gavip86.vip
 0.0.0.0 gawang69.casino
+0.0.0.0 gawang888.net
 0.0.0.0 gawangvvip.com
 0.0.0.0 gaya4d.biz
 0.0.0.0 gaya4d18.com
@@ -181525,6 +181730,7 @@
 0.0.0.0 gayatotockl.com
 0.0.0.0 gaybidads.org
 0.0.0.0 gayvmr.india12.com
+0.0.0.0 gaza14.org
 0.0.0.0 gazillionbets.com
 0.0.0.0 gazolemahavidyalaya.org
 0.0.0.0 gazzinocasino.com
@@ -181960,6 +182166,7 @@
 0.0.0.0 gemarlapsbo.com
 0.0.0.0 gembala-poker.com
 0.0.0.0 gembala-poker.net
+0.0.0.0 gembala303.org
 0.0.0.0 gembalapoker.bet
 0.0.0.0 gembalapoker.vip
 0.0.0.0 gembet.com
@@ -182108,6 +182315,7 @@
 0.0.0.0 genting-casino.store
 0.0.0.0 genting338.org
 0.0.0.0 genting55.id
+0.0.0.0 gentingbet188.net
 0.0.0.0 gentingblackjack.com
 0.0.0.0 gentingcasino-ie.com
 0.0.0.0 gentingcasino.app
@@ -182156,6 +182364,7 @@
 0.0.0.0 georgiacasinos.net
 0.0.0.0 georgiagamblinghelp.org
 0.0.0.0 georgiasigmas.com
+0.0.0.0 geprek4d.org
 0.0.0.0 geraitogel.vip
 0.0.0.0 gerakan99gg.com
 0.0.0.0 geralbet.com
@@ -182170,6 +182379,7 @@
 0.0.0.0 gercek-jojobetgirisi.icu
 0.0.0.0 gercekgiris-mercurecasino.vip
 0.0.0.0 gercekslotsites.icu
+0.0.0.0 gerhanatoto4d.com
 0.0.0.0 gerhanatotohoki99.com
 0.0.0.0 gerhanatotosiap.com
 0.0.0.0 gerhanatotosuka.com
@@ -184645,6 +184855,7 @@
 0.0.0.0 gila138slot.com
 0.0.0.0 gila138terpercaya.shop
 0.0.0.0 gila138vip.shop
+0.0.0.0 gila18.com
 0.0.0.0 gilabet888.shop
 0.0.0.0 gilablack.com
 0.0.0.0 gilabola777.com
@@ -185059,6 +185270,7 @@
 0.0.0.0 global-jogo.com
 0.0.0.0 global-poker.us
 0.0.0.0 global-websis.api.engagelab.cc
+0.0.0.0 global303.org
 0.0.0.0 globalbahis.com
 0.0.0.0 globalbetcasino.net
 0.0.0.0 globalcasino.fit
@@ -185575,6 +185787,8 @@
 0.0.0.0 goalbet.com
 0.0.0.0 goalbet.gr
 0.0.0.0 goalbet1.com
+0.0.0.0 goalbet88.net
+0.0.0.0 goalbet88.org
 0.0.0.0 goalbetint.com
 0.0.0.0 goalbetsa.com
 0.0.0.0 goalidn.net
@@ -185945,6 +186159,7 @@
 0.0.0.0 gojpslot388.com
 0.0.0.0 gokacasino.com.ng
 0.0.0.0 gokaslots.com
+0.0.0.0 gokilcuan.net
 0.0.0.0 gokjewagen.nl
 0.0.0.0 gokkastenencasino.com
 0.0.0.0 gokkastenslots.nl
@@ -186300,6 +186515,7 @@
 0.0.0.0 golden-tigercasino.com
 0.0.0.0 golden-vegas.casino
 0.0.0.0 golden3.co
+0.0.0.0 golden33.net
 0.0.0.0 golden338.xyz
 0.0.0.0 golden777slots.com
 0.0.0.0 golden777slots.info
@@ -187505,6 +187721,7 @@
 0.0.0.0 governorscasino.com
 0.0.0.0 govip355.com
 0.0.0.0 gow.casino
+0.0.0.0 gowd88.org
 0.0.0.0 gowild-casino.ch
 0.0.0.0 gowildcasino-online.com
 0.0.0.0 gowildcasino.ch
@@ -187665,6 +187882,7 @@
 0.0.0.0 grainful.com
 0.0.0.0 graliaspg.com
 0.0.0.0 gram.poker
+0.0.0.0 grambet.net
 0.0.0.0 gramcasino.net
 0.0.0.0 gramcasino.org
 0.0.0.0 gramfree.world
@@ -189269,6 +189487,7 @@
 0.0.0.0 guj247.com
 0.0.0.0 gujarattour.in.net
 0.0.0.0 guk.casino
+0.0.0.0 gulaitoto.com
 0.0.0.0 gulajawa.site
 0.0.0.0 gulalirtp.xyz
 0.0.0.0 gulalitoto.club
@@ -189365,6 +189584,7 @@
 0.0.0.0 gunsbetplay2.com
 0.0.0.0 gunsslotslot.xyz
 0.0.0.0 gunterselfstorage.net
+0.0.0.0 guntur99.net
 0.0.0.0 gunturkeras.space
 0.0.0.0 gunung123.com
 0.0.0.0 gunungslot88login.xyz
@@ -190245,9 +190465,11 @@
 0.0.0.0 halte4d.vip
 0.0.0.0 halterbaik.xyz
 0.0.0.0 halubet76.info
+0.0.0.0 halus4d.org
 0.0.0.0 haluwow.com
 0.0.0.0 haluz2.net
 0.0.0.0 hamabet.com
+0.0.0.0 hamba777.com
 0.0.0.0 hamcasinos.com
 0.0.0.0 hamedia.website
 0.0.0.0 hammerpages.com
@@ -190400,6 +190622,7 @@
 0.0.0.0 happybet.com
 0.0.0.0 happybet.de
 0.0.0.0 happybet.vip
+0.0.0.0 happybet77.org
 0.0.0.0 happybingo.ph
 0.0.0.0 happybirthdayworld.net
 0.0.0.0 happycasino-suomi.com
@@ -190616,6 +190839,7 @@
 0.0.0.0 harryscasinoukplay.com
 0.0.0.0 harryslobby.com
 0.0.0.0 harshitjain.in
+0.0.0.0 harta13.net
 0.0.0.0 harta138super.xyz
 0.0.0.0 harta365.net
 0.0.0.0 harta4d.top
@@ -190636,6 +190860,7 @@
 0.0.0.0 harum-4d56.site
 0.0.0.0 harum-4d57.site
 0.0.0.0 harum-4d58.site
+0.0.0.0 harum288.org
 0.0.0.0 harum4d20.com
 0.0.0.0 harum4d21.com
 0.0.0.0 harum4dd15.com
@@ -190687,6 +190912,7 @@
 0.0.0.0 hatori888.com
 0.0.0.0 hatyaicasino.com
 0.0.0.0 hauspoker.com
+0.0.0.0 hausslot.net
 0.0.0.0 haut-couserans.com
 0.0.0.0 hauve88.com
 0.0.0.0 havabet.com.au
@@ -191042,6 +191268,7 @@
 0.0.0.0 hd88.shop
 0.0.0.0 hd88.tv
 0.0.0.0 hd959966.com
+0.0.0.0 hd99.org
 0.0.0.0 hdbet.casino
 0.0.0.0 hdbet.com
 0.0.0.0 hdbets.ag
@@ -191623,6 +191850,8 @@
 0.0.0.0 heroesonline.casino
 0.0.0.0 herogacor.net
 0.0.0.0 heroi.bet
+0.0.0.0 heroselot.com
+0.0.0.0 heroslot138.net
 0.0.0.0 heroslot777.shop
 0.0.0.0 heroslot77gacor.xyz
 0.0.0.0 heroslot88.vip
@@ -193397,6 +193626,7 @@
 0.0.0.0 hkb77e.com
 0.0.0.0 hkbpoker.cc
 0.0.0.0 hkbpoker.org
+0.0.0.0 hkbtoto.net
 0.0.0.0 hkcashcasinos.com
 0.0.0.0 hkcasino.vip
 0.0.0.0 hkcasino365.com
@@ -193406,12 +193636,14 @@
 0.0.0.0 hkcqdak.xyz
 0.0.0.0 hkehg.com
 0.0.0.0 hkfhw.com
+0.0.0.0 hkg888.org
 0.0.0.0 hkg99.pro
 0.0.0.0 hkg99f.com
 0.0.0.0 hkgbets.com
 0.0.0.0 hkj.casino
 0.0.0.0 hkj111.com
 0.0.0.0 hkjc.casino
+0.0.0.0 hkjitu.net
 0.0.0.0 hkjitu.online
 0.0.0.0 hkk2h.com
 0.0.0.0 hklivedraw.net
@@ -193496,6 +193728,7 @@
 0.0.0.0 hobbetectoplacenta.beer
 0.0.0.0 hobbetrm.world
 0.0.0.0 hobbitcasino.com
+0.0.0.0 hobby77.net
 0.0.0.0 hobbyalways.com
 0.0.0.0 hobi777.org
 0.0.0.0 hobicasino.xyz
@@ -193536,10 +193769,12 @@
 0.0.0.0 hoki178ts.com
 0.0.0.0 hoki188.games
 0.0.0.0 hoki229bets.shop
+0.0.0.0 hoki278.net
 0.0.0.0 hoki288.org
 0.0.0.0 hoki289.com
 0.0.0.0 hoki3000.com
 0.0.0.0 hoki33login.xyz
+0.0.0.0 hoki400.net
 0.0.0.0 hoki4dwin.net
 0.0.0.0 hoki55agensbo.store
 0.0.0.0 hoki633win.com
@@ -193549,6 +193784,7 @@
 0.0.0.0 hoki77.store
 0.0.0.0 hoki777online.xyz
 0.0.0.0 hoki78.pro
+0.0.0.0 hoki818.net
 0.0.0.0 hoki88.art
 0.0.0.0 hoki88.ink
 0.0.0.0 hoki88.space
@@ -194399,6 +194635,7 @@
 0.0.0.0 hot646.casino
 0.0.0.0 hot77.bet
 0.0.0.0 hot777.com
+0.0.0.0 hot789.org
 0.0.0.0 hot88.asia
 0.0.0.0 hot88.online
 0.0.0.0 hot880casino.com
@@ -194455,6 +194692,7 @@
 0.0.0.0 hotelparmagroup.com
 0.0.0.0 hotelportsitges.com
 0.0.0.0 hotelprincipadosantiago.com
+0.0.0.0 hotelqq.org
 0.0.0.0 hotels-in-macau.com
 0.0.0.0 hotelsalvationthefilm.com
 0.0.0.0 hotelstopcasino.com
@@ -195147,6 +195385,8 @@
 0.0.0.0 huippucasino.net
 0.0.0.0 huippukasino.com
 0.0.0.0 huisvoordeelblackjack.nl
+0.0.0.0 hujan33.org
+0.0.0.0 hujan89.com
 0.0.0.0 hujankoin.vip
 0.0.0.0 hujantogel.org
 0.0.0.0 hujantoto.store
@@ -195164,6 +195404,7 @@
 0.0.0.0 hulaspinscasino-uk.com
 0.0.0.0 hulk123bonanza.xyz
 0.0.0.0 hulk123rtp.com
+0.0.0.0 hulk168.org
 0.0.0.0 hulk55.com
 0.0.0.0 hulu4d.online
 0.0.0.0 hulusportbets.com
@@ -195238,6 +195479,7 @@
 0.0.0.0 huskypoker.com
 0.0.0.0 huskyslotpoker.com
 0.0.0.0 huskyslotspace.com
+0.0.0.0 huskytoto.org
 0.0.0.0 hust-yamato.com
 0.0.0.0 hustlebet.co.uk
 0.0.0.0 hustler-casino.ca
@@ -197205,6 +197447,7 @@
 0.0.0.0 ibet44top.info
 0.0.0.0 ibet567.com
 0.0.0.0 ibet5888.com
+0.0.0.0 ibet68.org
 0.0.0.0 ibet789.com
 0.0.0.0 ibet88.casino
 0.0.0.0 ibet888.bet
@@ -197292,6 +197535,7 @@
 0.0.0.0 ibr-doc-cdn.docbv9a1.com
 0.0.0.0 ibr-padova.it
 0.0.0.0 ibslot88gacor.xyz
+0.0.0.0 ibu138.org
 0.0.0.0 ibu4d-rtp.pages.dev
 0.0.0.0 ibu4d.id
 0.0.0.0 ibuslot88.xyz
@@ -197317,6 +197561,7 @@
 0.0.0.0 ic4d.org
 0.0.0.0 ic7.casino
 0.0.0.0 ic8.casino
+0.0.0.0 ica500.net
 0.0.0.0 icaesar.com
 0.0.0.0 icamtalk.com
 0.0.0.0 icanonlyblamemyshelf.com
@@ -197775,6 +198020,7 @@
 0.0.0.0 idbetscale.xyz
 0.0.0.0 idboba.com
 0.0.0.0 idc138.org
+0.0.0.0 idc8.org
 0.0.0.0 idc88cuan.com
 0.0.0.0 idc88duit.com
 0.0.0.0 idc88emas.com
@@ -198006,6 +198252,7 @@
 0.0.0.0 idntinggi.com
 0.0.0.0 idobet.com
 0.0.0.0 idobetsltbro88.shop
+0.0.0.0 idola123.org
 0.0.0.0 idola188top.xyz
 0.0.0.0 idola69.cloud
 0.0.0.0 idola69.lat
@@ -198019,6 +198266,7 @@
 0.0.0.0 idola69resmi.com
 0.0.0.0 idola76.xyz
 0.0.0.0 idolartp.xyz
+0.0.0.0 idolato123.net
 0.0.0.0 idontlikemondays.us
 0.0.0.0 idoslotgacor.com
 0.0.0.0 idplays188.xyz
@@ -198027,6 +198275,9 @@
 0.0.0.0 idprofilipina77.space
 0.0.0.0 idq.casino
 0.0.0.0 idqqbest.xyz
+0.0.0.0 idr100.net
+0.0.0.0 idr100.org
+0.0.0.0 idr50.net
 0.0.0.0 idr66.com
 0.0.0.0 idr666.com
 0.0.0.0 idr68.com
@@ -198122,6 +198373,7 @@
 0.0.0.0 ig77.club
 0.0.0.0 ig77.me
 0.0.0.0 ig909.com
+0.0.0.0 igambel.net
 0.0.0.0 igamble-247.xyz
 0.0.0.0 igamble247.asia
 0.0.0.0 igamble247.com
@@ -198951,6 +199203,7 @@
 0.0.0.0 imperium9casino.top
 0.0.0.0 imperium9casinoau.com
 0.0.0.0 impexwine.com
+0.0.0.0 impian4d2.org
 0.0.0.0 importbets.xyz
 0.0.0.0 impossiblebets.xyz
 0.0.0.0 impressario-casino-nl.com
@@ -198985,6 +199238,7 @@
 0.0.0.0 ina77.biz
 0.0.0.0 ina777.pro
 0.0.0.0 inak918.asia
+0.0.0.0 inaslot89.net
 0.0.0.0 inatogel.casino
 0.0.0.0 inatogel.com
 0.0.0.0 inatogel88.fun
@@ -199254,6 +199508,7 @@
 0.0.0.0 indobet-77.com
 0.0.0.0 indobet.global
 0.0.0.0 indobet.poker
+0.0.0.0 indobet1.net
 0.0.0.0 indobet123.xyz
 0.0.0.0 indobet188.xyz
 0.0.0.0 indobet365.best
@@ -199319,6 +199574,7 @@
 0.0.0.0 indojoker88g.xyz
 0.0.0.0 indokasinobet.com
 0.0.0.0 indokoin.net
+0.0.0.0 indolapak99.net
 0.0.0.0 indolivecasino.vip
 0.0.0.0 indolottery.vip
 0.0.0.0 indoluckybet.com
@@ -199559,6 +199815,7 @@
 0.0.0.0 inh.gob.ve
 0.0.0.0 inhealthcare.gr
 0.0.0.0 ini77.biz
+0.0.0.0 ini77.co
 0.0.0.0 ini777asli.com
 0.0.0.0 ini88.org
 0.0.0.0 ini88.shop
@@ -199984,6 +200241,7 @@
 0.0.0.0 intan69win.xyz
 0.0.0.0 intan777.top
 0.0.0.0 intan77maxwin.xyz
+0.0.0.0 intantogel.org
 0.0.0.0 intbet.com
 0.0.0.0 integrationplay.com
 0.0.0.0 integratori-per-muscoli.xyz
@@ -200257,6 +200515,7 @@
 0.0.0.0 ipadcasinos.nl
 0.0.0.0 ipadcasinos.org
 0.0.0.0 ipanemajogo.com
+0.0.0.0 ipar888.net
 0.0.0.0 ipay9-casino-au.com
 0.0.0.0 ipay9-casino-official-au.com
 0.0.0.0 ipay9-casino-online-au.com
@@ -200749,6 +201008,8 @@
 0.0.0.0 istana.casino
 0.0.0.0 istana138e.com
 0.0.0.0 istana17.net
+0.0.0.0 istana187.net
+0.0.0.0 istana187.org
 0.0.0.0 istana303.xyz
 0.0.0.0 istana55.vip
 0.0.0.0 istana77.vip
@@ -202388,6 +202649,7 @@
 0.0.0.0 jackpotwheel.com
 0.0.0.0 jackpotwheelcasino.net
 0.0.0.0 jackpotwheelcasino.top
+0.0.0.0 jackpotwin44.org
 0.0.0.0 jackpotwinner.net
 0.0.0.0 jackpotwinnerslots.com
 0.0.0.0 jackpotwinscasino.nl
@@ -202472,6 +202734,7 @@
 0.0.0.0 jago177rich.com
 0.0.0.0 jago33.it.com
 0.0.0.0 jago333.biz
+0.0.0.0 jago363.com
 0.0.0.0 jago388.online
 0.0.0.0 jago7.com
 0.0.0.0 jago77.vip
@@ -202481,6 +202744,7 @@
 0.0.0.0 jago88resmi.com
 0.0.0.0 jago99win.com
 0.0.0.0 jagoan.site
+0.0.0.0 jagoan30.com
 0.0.0.0 jagoan303.live
 0.0.0.0 jagoan4d.store
 0.0.0.0 jagoan77.store
@@ -202523,11 +202787,13 @@
 0.0.0.0 jagounited.vip
 0.0.0.0 jagox1000.vip
 0.0.0.0 jagscasinonews.nl
+0.0.0.0 jaguar30.com
 0.0.0.0 jaguar33top.org
 0.0.0.0 jaguarjitu.vip
 0.0.0.0 jaguarslot.net
 0.0.0.0 jaguartoto.org
 0.0.0.0 jah.casino
+0.0.0.0 jaheharum9.com
 0.0.0.0 jahetoto.rest
 0.0.0.0 jahetoto.skin
 0.0.0.0 jahngalley.org
@@ -202574,6 +202840,7 @@
 0.0.0.0 jakzostacmilionerem.biz
 0.0.0.0 jala77.online
 0.0.0.0 jalak4d.vip
+0.0.0.0 jalakslot.org
 0.0.0.0 jalanindah.xyz
 0.0.0.0 jalankawat.com
 0.0.0.0 jalanmadam.xyz
@@ -202741,6 +203008,7 @@
 0.0.0.0 japrileo.xyz
 0.0.0.0 japwife.com
 0.0.0.0 jar.casino
+0.0.0.0 jaringan188.net
 0.0.0.0 jarirtp.live
 0.0.0.0 jarisakti138.com
 0.0.0.0 jaritogel.org
@@ -202793,6 +203061,8 @@
 0.0.0.0 jatengtotoid.com
 0.0.0.0 jatengtotonesia.com
 0.0.0.0 jatengtotovegas.com
+0.0.0.0 jati77.org
+0.0.0.0 jatimslot.net
 0.0.0.0 jatitoto.net
 0.0.0.0 jatospg.com
 0.0.0.0 jatx9z0gii.top
@@ -202882,6 +203152,7 @@
 0.0.0.0 jayaslot.cfd
 0.0.0.0 jayaslot.quest
 0.0.0.0 jayaslot4dcheker.com
+0.0.0.0 jayaslot77.net
 0.0.0.0 jayaslots.net
 0.0.0.0 jayaslots.xyz
 0.0.0.0 jayaslots1.com
@@ -202896,6 +203167,7 @@
 0.0.0.0 jayatoto88gacor.xyz
 0.0.0.0 jayavegas5400.xyz
 0.0.0.0 jaybellacasino.com
+0.0.0.0 jaye77.com
 0.0.0.0 jaypoker.xyz
 0.0.0.0 jaysbedandbreakfast.com
 0.0.0.0 jaz.casino
@@ -203722,6 +203994,7 @@
 0.0.0.0 jeboltogelbos.com
 0.0.0.0 jeboltoto.info
 0.0.0.0 jeboltoto.vip
+0.0.0.0 jebret69.co
 0.0.0.0 jec.casino
 0.0.0.0 jederwd.vip
 0.0.0.0 jederwdmaxwin.xyz
@@ -203836,6 +204109,7 @@
 0.0.0.0 jejuslots.com
 0.0.0.0 jejuslotshopeepay.com
 0.0.0.0 jejuslotsitusjudi.com
+0.0.0.0 jekpot8.com
 0.0.0.0 jekpot88g.com
 0.0.0.0 jelajahgelora4d.com
 0.0.0.0 jelasjpnya.xyz
@@ -204485,6 +204759,7 @@
 0.0.0.0 jh3.casino
 0.0.0.0 jh7.casino
 0.0.0.0 jha.casino
+0.0.0.0 jhalank99.net
 0.0.0.0 jhbet.com
 0.0.0.0 jhbets.com
 0.0.0.0 jhbetsf.com
@@ -205716,6 +205991,8 @@
 0.0.0.0 jitu69.xyz
 0.0.0.0 jitu777.info
 0.0.0.0 jitu777.site
+0.0.0.0 jitu789.com
+0.0.0.0 jitu88x.org
 0.0.0.0 jitu99.vip
 0.0.0.0 jitu999.xyz
 0.0.0.0 jituhk.com
@@ -205731,6 +206008,7 @@
 0.0.0.0 jitusahabat.net
 0.0.0.0 jitushio.com
 0.0.0.0 jituslot.store
+0.0.0.0 jituslot77.com
 0.0.0.0 jitutoto.fun
 0.0.0.0 jitutoto.lol
 0.0.0.0 jitutoto77.vip
@@ -206794,6 +207072,7 @@
 0.0.0.0 jo681.com
 0.0.0.0 jo686.com
 0.0.0.0 jo6k9.com
+0.0.0.0 jo7777.net
 0.0.0.0 jo777x.xyz
 0.0.0.0 jo886.com
 0.0.0.0 jo89shibo.com
@@ -207030,6 +207309,7 @@
 0.0.0.0 join777casino.com
 0.0.0.0 join88.best
 0.0.0.0 joinbet.eu
+0.0.0.0 joinbet.net
 0.0.0.0 joinbway.com
 0.0.0.0 joincasinobet.com
 0.0.0.0 joincirsaslotsred.com
@@ -211871,6 +212151,7 @@
 0.0.0.0 jojojobetguncel.vip
 0.0.0.0 jojowin.org
 0.0.0.0 jok3r8.com
+0.0.0.0 jok999.net
 0.0.0.0 joka-bet-casino.com
 0.0.0.0 joka-casino-au-go.com
 0.0.0.0 joka-casino-au-play.com
@@ -211984,6 +212265,7 @@
 0.0.0.0 jokaviproom21.com
 0.0.0.0 jokaviproomcasino.org
 0.0.0.0 jokcercasino.com
+0.0.0.0 joke789.net
 0.0.0.0 joker-8casino.com
 0.0.0.0 joker-casino.ch
 0.0.0.0 joker-casino.co.nl
@@ -212009,10 +212291,12 @@
 0.0.0.0 joker123slots.com
 0.0.0.0 joker168.online
 0.0.0.0 joker1xbetjewels.site
+0.0.0.0 joker21.net
 0.0.0.0 joker2929.club
 0.0.0.0 joker299.xyz
 0.0.0.0 joker33casino.top
 0.0.0.0 joker356.casino
+0.0.0.0 joker383.net
 0.0.0.0 joker4d.top
 0.0.0.0 joker555.org
 0.0.0.0 joker555th.com
@@ -212054,6 +212338,7 @@
 0.0.0.0 jokerbet.es
 0.0.0.0 jokerbet303.app
 0.0.0.0 jokerbet777.com
+0.0.0.0 jokerbet888.net
 0.0.0.0 jokerbetcasino-es.click
 0.0.0.0 jokerbetcasino-es.top
 0.0.0.0 jokerbetcasino-es.website
@@ -212231,6 +212516,7 @@
 0.0.0.0 jomwin8.com
 0.0.0.0 jon.bet
 0.0.0.0 jon4d.pro
+0.0.0.0 jon99.org
 0.0.0.0 jonathanhirz.com
 0.0.0.0 jonathanmarmor.com
 0.0.0.0 jonbet.com
@@ -212361,6 +212647,7 @@
 0.0.0.0 joospin-casino.top
 0.0.0.0 joox138.net
 0.0.0.0 joox138.org
+0.0.0.0 joran77.net
 0.0.0.0 jordan-retro6.us
 0.0.0.0 jordan-shoes.us.org
 0.0.0.0 jordan88slot.xyz
@@ -214074,6 +214361,7 @@
 0.0.0.0 jp789.quest
 0.0.0.0 jp789.site
 0.0.0.0 jp789.today
+0.0.0.0 jp808.org
 0.0.0.0 jp88.one
 0.0.0.0 jp888.pro
 0.0.0.0 jp88vn.com
@@ -215216,6 +215504,7 @@
 0.0.0.0 juniortogel.biz
 0.0.0.0 jupe66.com
 0.0.0.0 jupe66.org
+0.0.0.0 jupetoto.com
 0.0.0.0 jupi-casino-website.com
 0.0.0.0 jupi-casino.fi
 0.0.0.0 jupi-casino1.com
@@ -215243,6 +215532,7 @@
 0.0.0.0 juragan-69.com
 0.0.0.0 juragan138slot.com
 0.0.0.0 juragan169.com
+0.0.0.0 juragan18.com
 0.0.0.0 juragan2bos.store
 0.0.0.0 juragan2paten.store
 0.0.0.0 juragan404.pro
@@ -215267,6 +215557,7 @@
 0.0.0.0 juragan777.site
 0.0.0.0 juragan77a.com
 0.0.0.0 juragan77b.com
+0.0.0.0 juragan808.org
 0.0.0.0 juragan88.art
 0.0.0.0 juragan88.click
 0.0.0.0 juragan88.pro
@@ -215417,6 +215708,8 @@
 0.0.0.0 justwincasinos.com
 0.0.0.0 justwowcasino-online.com
 0.0.0.0 jut.casino
+0.0.0.0 juta888.net
+0.0.0.0 juta888.org
 0.0.0.0 jutapkr.xyz
 0.0.0.0 jutawan.bet
 0.0.0.0 jutawan31681.com
@@ -215426,6 +215719,7 @@
 0.0.0.0 jutawanbetshopeepay.com
 0.0.0.0 jutawanbetslot.app
 0.0.0.0 jutawanbetslot.id
+0.0.0.0 jutawanjitu.net
 0.0.0.0 jutawanwin138slot.xyz
 0.0.0.0 jutobuton.com
 0.0.0.0 jutocolombia.com
@@ -217217,6 +217511,7 @@
 0.0.0.0 kakaducasino.top
 0.0.0.0 kakaducasinodeutsch.com
 0.0.0.0 kakaducasinos.com
+0.0.0.0 kakak777.org
 0.0.0.0 kakakjudi-newgame.com
 0.0.0.0 kakakjudi.pro
 0.0.0.0 kakakpoker88.com
@@ -217237,6 +217532,7 @@
 0.0.0.0 kakap69.shop
 0.0.0.0 kakap69.yachts
 0.0.0.0 kakaslot.site
+0.0.0.0 kakek169.org
 0.0.0.0 kakek188.com
 0.0.0.0 kakek303bets.site
 0.0.0.0 kakek77.xyz
@@ -217424,6 +217720,7 @@
 0.0.0.0 kapaltogel.website
 0.0.0.0 kapaltoto.online
 0.0.0.0 kapalwin.club
+0.0.0.0 kapasslot.org
 0.0.0.0 kapital77go.xyz
 0.0.0.0 kapital88.org
 0.0.0.0 kapow-casino-denmark.com
@@ -217432,6 +217729,7 @@
 0.0.0.0 kapowcasino.online
 0.0.0.0 kapowcasino.pro
 0.0.0.0 kapowcasino.top
+0.0.0.0 kapsul69.org
 0.0.0.0 kapsul88play.xyz
 0.0.0.0 kapten33.lol
 0.0.0.0 kapten33.top
@@ -217449,6 +217747,7 @@
 0.0.0.0 kaptenasiatop.click
 0.0.0.0 kaptenasiatop.lol
 0.0.0.0 kaptenasiatop.site
+0.0.0.0 kaptenhoki.net
 0.0.0.0 kaptenhoki.space
 0.0.0.0 kaptenjp.org
 0.0.0.0 kaptenku.com
@@ -217490,6 +217789,7 @@
 0.0.0.0 kare-poker.ru
 0.0.0.0 kareasbetsikayet.cam
 0.0.0.0 kareasbetsikayet.top
+0.0.0.0 karen55.org
 0.0.0.0 karengacor.xyz
 0.0.0.0 karetselalu88.xyz
 0.0.0.0 karetslot1st.xyz
@@ -342625,303 +342925,3 @@
 0.0.0.0 zzzz999.com
 0.0.0.0 zzzzbet.com.br
 0.0.0.0 zzzzgame.com
-0.0.0.0 12shio.net
-0.0.0.0 288vip.net
-0.0.0.0 303adu.net
-0.0.0.0 3dmahjong.net
-0.0.0.0 4dbett.net
-0.0.0.0 4dsetan.org
-0.0.0.0 777menang.net
-0.0.0.0 98togel.net
-0.0.0.0 99rajawali.net
-0.0.0.0 abi77.net
-0.0.0.0 accutogel4d.net
-0.0.0.0 acengtoto.net
-0.0.0.0 aeroxslot.net
-0.0.0.0 agen1000.org
-0.0.0.0 agen787.net
-0.0.0.0 agenslot5000.com
-0.0.0.0 agent55.net
-0.0.0.0 agent777.org
-0.0.0.0 agentoto911.net
-0.0.0.0 ahhabet88.org
-0.0.0.0 ahhtoto.com
-0.0.0.0 air38.net
-0.0.0.0 airbetslot88.net
-0.0.0.0 ajr8.com
-0.0.0.0 aka168.org
-0.0.0.0 akita4d.net
-0.0.0.0 aksi77.org
-0.0.0.0 akunboz.com
-0.0.0.0 alam88.info
-0.0.0.0 albert88.net
-0.0.0.0 alexa88.co
-0.0.0.0 alfaslot138.com
-0.0.0.0 amanbet777.net
-0.0.0.0 anak88.org
-0.0.0.0 angel169.org
-0.0.0.0 anggrek77.net
-0.0.0.0 angka805.net
-0.0.0.0 angka805.org
-0.0.0.0 angpau777.org
-0.0.0.0 anjing88.org
-0.0.0.0 anru777.net
-0.0.0.0 antimo69.org
-0.0.0.0 apace188.org
-0.0.0.0 apatogel.org
-0.0.0.0 api8888.net
-0.0.0.0 apitoto88.org
-0.0.0.0 apk88slot.com
-0.0.0.0 apkbola138.com
-0.0.0.0 arenabet4d.net
-0.0.0.0 armaniqq.org
-0.0.0.0 artiqq99.org
-0.0.0.0 arwah123.org
-0.0.0.0 aryaslot88.org
-0.0.0.0 asaltogel.org
-0.0.0.0 asia898.org
-0.0.0.0 asianpoker99.org
-0.0.0.0 asikbandarqq.net
-0.0.0.0 asikmpo.net
-0.0.0.0 astra138.org
-0.0.0.0 asuransi69.net
-0.0.0.0 avanzawin.net
-0.0.0.0 awal4d.net
-0.0.0.0 axe138.org
-0.0.0.0 bajai123.net
-0.0.0.0 bakarat4d.net
-0.0.0.0 baksoslot.net
-0.0.0.0 bakwan777.org
-0.0.0.0 baladatoto.org
-0.0.0.0 baliselot.com
-0.0.0.0 balitoto88.org
-0.0.0.0 bambu128.com
-0.0.0.0 bambu138.net
-0.0.0.0 bandarbola88.org
-0.0.0.0 bandit8.org
-0.0.0.0 barudaktoto.org
-0.0.0.0 batintoto.org
-0.0.0.0 batman1138.org
-0.0.0.0 batuk4d.net
-0.0.0.0 bayutoto78.com
-0.0.0.0 belitogel.org
-0.0.0.0 benang4d.org
-0.0.0.0 benteng128.net
-0.0.0.0 bentengtoto69.com
-0.0.0.0 bestieslot.org
-0.0.0.0 bet118.org
-0.0.0.0 bet378.net
-0.0.0.0 beta13.net
-0.0.0.0 betmen101.net
-0.0.0.0 bigo555.org
-0.0.0.0 biji4d.org
-0.0.0.0 bijijitu.org
-0.0.0.0 bir188.org
-0.0.0.0 bisabet88.net
-0.0.0.0 bitwin188.net
-0.0.0.0 bmw89.com
-0.0.0.0 bocilselot.com
-0.0.0.0 bogwin.net
-0.0.0.0 bokep111.net
-0.0.0.0 bola0.com
-0.0.0.0 bola888x.com
-0.0.0.0 bolabagus303.org
-0.0.0.0 boladunia88.org
-0.0.0.0 bolahoki168.org
-0.0.0.0 bolaking138.org
-0.0.0.0 bonanza8.net
-0.0.0.0 booming4d.org
-0.0.0.0 borjp.com
-0.0.0.0 bos16.org
-0.0.0.0 bostoto21.net
-0.0.0.0 boz303.com
-0.0.0.0 boz5000.net
-0.0.0.0 bs303.org
-0.0.0.0 budak178.com
-0.0.0.0 bugiltoto.com
-0.0.0.0 buka69.net
-0.0.0.0 bukitjp.net
-0.0.0.0 bukitjp.org
-0.0.0.0 buktijp.org
-0.0.0.0 busabet.net
-0.0.0.0 buta88.org
-0.0.0.0 buyspinslot.net
-0.0.0.0 cari88.org
-0.0.0.0 cawanslot.com
-0.0.0.0 cebong88.com
-0.0.0.0 celo88.net
-0.0.0.0 cerdas88.net
-0.0.0.0 ceri777.me
-0.0.0.0 cindo69.org
-0.0.0.0 cinta9.net
-0.0.0.0 cintoto.org
-0.0.0.0 ciputracuan.org
-0.0.0.0 clasic303.net
-0.0.0.0 cobra55.net
-0.0.0.0 cogil89.org
-0.0.0.0 coinbet88.org
-0.0.0.0 cortoto.net
-0.0.0.0 crazy123.org
-0.0.0.0 cuantoto777.com
-0.0.0.0 cuci22.org
-0.0.0.0 dadu55.org
-0.0.0.0 daduqq.net
-0.0.0.0 daget138.net
-0.0.0.0 dana88login.net
-0.0.0.0 dana96.net
-0.0.0.0 danaslot138.com
-0.0.0.0 dantogel.net
-0.0.0.0 datasinga.org
-0.0.0.0 datuk69.org
-0.0.0.0 daun77.net
-0.0.0.0 dealer123.org
-0.0.0.0 demo444.net
-0.0.0.0 depe88.net
-0.0.0.0 depo118.com
-0.0.0.0 depo789.org
-0.0.0.0 deposit100.org
-0.0.0.0 deposit10.net
-0.0.0.0 deposit66.org
-0.0.0.0 desta888.org
-0.0.0.0 dewa1111.net
-0.0.0.0 dewa189.me
-0.0.0.0 dewantogel.org
-0.0.0.0 dewapalu.net
-0.0.0.0 dewapegas.net
-0.0.0.0 dewijoker88.net
-0.0.0.0 dewislot23.net
-0.0.0.0 dewo200.com
-0.0.0.0 diana777.org
-0.0.0.0 dolar777play.com
-0.0.0.0 dominowin99.net
-0.0.0.0 doraemon4d.org
-0.0.0.0 dori77.org
-0.0.0.0 duitjp.com
-0.0.0.0 duitjp.net
-0.0.0.0 dwi999.net
-0.0.0.0 empek2.net
-0.0.0.0 emputogel.org
-0.0.0.0 ena77.org
-0.0.0.0 engineslot.org
-0.0.0.0 era99.org
-0.0.0.0 eropa33.com
-0.0.0.0 eropabet23.com
-0.0.0.0 evo128.org
-0.0.0.0 evodomino99.org
-0.0.0.0 facetoto.com
-0.0.0.0 fafafa777.org
-0.0.0.0 faris12.com
-0.0.0.0 fin303.net
-0.0.0.0 fisik89.net
-0.0.0.0 fontana138.org
-0.0.0.0 fortunbet.net
-0.0.0.0 fragmatic88.com
-0.0.0.0 fs125.com
-0.0.0.0 fullbet777.org
-0.0.0.0 funselot.com
-0.0.0.0 gaga123.net
-0.0.0.0 gaja88.net
-0.0.0.0 gajah88slots.org
-0.0.0.0 gajian99.net
-0.0.0.0 galaxi777.me
-0.0.0.0 gamingqq.org
-0.0.0.0 garansi4d.org
-0.0.0.0 gasbet4d.org
-0.0.0.0 gasbro.me
-0.0.0.0 gasingslot777.net
-0.0.0.0 gawang888.net
-0.0.0.0 gaza14.org
-0.0.0.0 gembala303.org
-0.0.0.0 gentingbet188.net
-0.0.0.0 geprek4d.org
-0.0.0.0 gerhanatoto4d.com
-0.0.0.0 gila18.com
-0.0.0.0 global303.org
-0.0.0.0 goalbet88.net
-0.0.0.0 goalbet88.org
-0.0.0.0 gokilcuan.net
-0.0.0.0 golden33.net
-0.0.0.0 gowd88.org
-0.0.0.0 grambet.net
-0.0.0.0 gulaitoto.com
-0.0.0.0 guntur99.net
-0.0.0.0 halus4d.org
-0.0.0.0 hamba777.com
-0.0.0.0 happybet77.org
-0.0.0.0 harta13.net
-0.0.0.0 harum288.org
-0.0.0.0 hausslot.net
-0.0.0.0 hd99.org
-0.0.0.0 heroselot.com
-0.0.0.0 heroslot138.net
-0.0.0.0 hkbtoto.net
-0.0.0.0 hkg888.org
-0.0.0.0 hkjitu.net
-0.0.0.0 hobby77.net
-0.0.0.0 hoki278.net
-0.0.0.0 hoki400.net
-0.0.0.0 hoki818.net
-0.0.0.0 hot789.org
-0.0.0.0 hotelqq.org
-0.0.0.0 hujan33.org
-0.0.0.0 hujan89.com
-0.0.0.0 hulk168.org
-0.0.0.0 huskytoto.org
-0.0.0.0 ibet68.org
-0.0.0.0 ibu138.org
-0.0.0.0 ica500.net
-0.0.0.0 idc8.org
-0.0.0.0 idola123.org
-0.0.0.0 idolato123.net
-0.0.0.0 idr100.net
-0.0.0.0 idr100.org
-0.0.0.0 idr50.net
-0.0.0.0 igambel.net
-0.0.0.0 impian4d2.org
-0.0.0.0 inaslot89.net
-0.0.0.0 indobet1.net
-0.0.0.0 indolapak99.net
-0.0.0.0 ini77.co
-0.0.0.0 intantogel.org
-0.0.0.0 ipar888.net
-0.0.0.0 istana187.net
-0.0.0.0 istana187.org
-0.0.0.0 jackpotwin44.org
-0.0.0.0 jago363.com
-0.0.0.0 jagoan30.com
-0.0.0.0 jaguar30.com
-0.0.0.0 jaheharum9.com
-0.0.0.0 jalakslot.org
-0.0.0.0 jaringan188.net
-0.0.0.0 jati77.org
-0.0.0.0 jatimslot.net
-0.0.0.0 jayaslot77.net
-0.0.0.0 jaye77.com
-0.0.0.0 jebret69.co
-0.0.0.0 jekpot8.com
-0.0.0.0 jhalank99.net
-0.0.0.0 jitu789.com
-0.0.0.0 jitu88x.org
-0.0.0.0 jituslot77.com
-0.0.0.0 jo7777.net
-0.0.0.0 joinbet.net
-0.0.0.0 jok999.net
-0.0.0.0 joke789.net
-0.0.0.0 joker21.net
-0.0.0.0 joker383.net
-0.0.0.0 jokerbet888.net
-0.0.0.0 jon99.org
-0.0.0.0 joran77.net
-0.0.0.0 jp808.org
-0.0.0.0 jupetoto.com
-0.0.0.0 juragan18.com
-0.0.0.0 juragan808.org
-0.0.0.0 juta888.net
-0.0.0.0 juta888.org
-0.0.0.0 jutawanjitu.net
-0.0.0.0 kakak777.org
-0.0.0.0 kakek169.org
-0.0.0.0 kapasslot.org
-0.0.0.0 kapsul69.org
-0.0.0.0 kaptenhoki.net
-0.0.0.0 karen55.org
