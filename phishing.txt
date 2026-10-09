@@ -42106,10 +42106,12 @@
 0.0.0.0 git.sharep0int.com
 0.0.0.0 gitamitech.com
 0.0.0.0 gitanose.gq
+0.0.0.0 gitbub.us
 0.0.0.0 gitelocationgroupebailleul.com
 0.0.0.0 gitess.com
 0.0.0.0 githabulrangers.com.au
 0.0.0.0 githaralaw.co.ke
+0.0.0.0 github-warning.com
 0.0.0.0 gitixieb.huv.fastsize.ru
 0.0.0.0 gitlab.do-lang.org
 0.0.0.0 gitlab.whiteops.io
