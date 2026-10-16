@@ -9,3 +9,5 @@ ar.edubirdie.com
 au.edubirdie.com
 ca.edubirdie.com
 uk.edubirdie.com
+solidlabs.com
+www.solidlabs.com
