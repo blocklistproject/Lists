@@ -1,6 +1,6 @@
 # Crypto Blocklist
 # Updated by upstream monitoring
-# Date: 2026-07-20T05:54:09.443846
+# Date: 2026-10-20T07:27:53.373308
 
 0.0.0.0 0slot.trade
 0.0.0.0 10102.io
@@ -103,6 +103,7 @@
 0.0.0.0 b3pool.com
 0.0.0.0 babysswap.com
 0.0.0.0 baikalmine.com
+0.0.0.0 basescan.org
 0.0.0.0 bcex.kr
 0.0.0.0 bchain.info
 0.0.0.0 bchsvexplorer.com
@@ -120,6 +121,7 @@
 0.0.0.0 binance.cloud
 0.0.0.0 binance.com
 0.0.0.0 binance.info
+0.0.0.0 binance.org
 0.0.0.0 binance.us
 0.0.0.0 binancechain.io
 0.0.0.0 binancepad.org
@@ -355,6 +357,7 @@
 0.0.0.0 cosanta.net
 0.0.0.0 cpool.farm
 0.0.0.0 crazypool.org
+0.0.0.0 creditcoin.network
 0.0.0.0 crimson-pool.com
 0.0.0.0 crimsonfusion.org
 0.0.0.0 criptomerkado.com
@@ -425,6 +428,7 @@
 0.0.0.0 currency.com
 0.0.0.0 d00.org
 0.0.0.0 dapool.io
+0.0.0.0 dappradar.com
 0.0.0.0 darkfibermines.com
 0.0.0.0 darkmine.su
 0.0.0.0 darwinia.network
@@ -504,7 +508,9 @@
 0.0.0.0 ethda.io
 0.0.0.0 ether1.org
 0.0.0.0 ethercore.io
+0.0.0.0 ethereum-sepolia-rpc.publicnode.com
 0.0.0.0 ethereum.org
+0.0.0.0 ethereum.publicnode.com
 0.0.0.0 ethermine.org
 0.0.0.0 etherone.one
 0.0.0.0 etherscan.com
@@ -914,6 +920,7 @@
 0.0.0.0 onehash.com
 0.0.0.0 oneworldchain.org
 0.0.0.0 onfascan.com
+0.0.0.0 onfinality.io
 0.0.0.0 openchains.info
 0.0.0.0 optimusz7.com
 0.0.0.0 optopia.ai
@@ -1055,6 +1062,7 @@
 0.0.0.0 simplemining.net
 0.0.0.0 sinovate.io
 0.0.0.0 sispop.site
+0.0.0.0 sky.money
 0.0.0.0 skydogepool.xyz
 0.0.0.0 skypool.org
 0.0.0.0 slushpool.com
